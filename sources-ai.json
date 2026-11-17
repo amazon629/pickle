@@ -1,0 +1,196 @@
+{
+  "settings": {
+    "title": "AI監視ボード",
+    "nav_label": "AI",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "x_ai_300",
+      "type": "x",
+      "name": "鈴木",
+      "handle": "ai_300",
+      "enabled": true
+    },
+    {
+      "id": "x_okapi_fukugyo",
+      "type": "x",
+      "name": "おかぴ🦒⚡️｜AIニュース解説",
+      "handle": "okapi_fukugyo",
+      "enabled": true
+    },
+    {
+      "id": "x_codexneo4",
+      "type": "x",
+      "name": "Codex研究ラボ",
+      "handle": "codexneo4",
+      "enabled": true
+    },
+    {
+      "id": "x_beku_ai",
+      "type": "x",
+      "name": "ベク",
+      "handle": "beku_AI",
+      "enabled": true
+    },
+    {
+      "id": "x_ritsuto_nft_vt",
+      "type": "x",
+      "name": "リツト＠AI活用を教える人",
+      "handle": "ritsuto_NFT_Vt",
+      "enabled": true
+    },
+    {
+      "id": "x_taki_auto",
+      "type": "x",
+      "name": "たき AI",
+      "handle": "taki_auto",
+      "enabled": true
+    },
+    {
+      "id": "x_sora19ai",
+      "type": "x",
+      "name": "そら ☁️ AgentSwarm 自動化オタク📱",
+      "handle": "sora19ai",
+      "enabled": true
+    },
+    {
+      "id": "x_shota7180",
+      "type": "x",
+      "name": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
+      "handle": "shota7180",
+      "enabled": true
+    },
+    {
+      "id": "x_ichiaimarketer",
+      "type": "x",
+      "name": "いち｜AI社員と働く経営者",
+      "handle": "ichiaimarketer",
+      "enabled": true
+    },
+    {
+      "id": "x_aiaircle34052",
+      "type": "x",
+      "name": "Aircle｜AIコミュニティ",
+      "handle": "AiAircle34052",
+      "enabled": true
+    },
+    {
+      "id": "x_ai_masaou",
+      "type": "x",
+      "name": "まさお",
+      "handle": "AI_masaou",
+      "enabled": true
+    },
+    {
+      "id": "x_gosrum",
+      "type": "x",
+      "name": "金のニワトリ",
+      "handle": "gosrum",
+      "enabled": true
+    },
+    {
+      "id": "x_keitowebai",
+      "type": "x",
+      "name": "KEITO💻AIディレクター",
+      "handle": "keitowebai",
+      "enabled": true
+    },
+    {
+      "id": "x_sugurukun_ai",
+      "type": "x",
+      "name": "すぐる | ChatGPTガチ勢 𝕏",
+      "handle": "SuguruKun_ai",
+      "enabled": true
+    },
+    {
+      "id": "x_ctgptlb",
+      "type": "x",
+      "name": "AGIラボ",
+      "handle": "ctgptlb",
+      "enabled": true
+    },
+    {
+      "id": "x_niwakunihiko",
+      "type": "x",
+      "name": "にわさん NI-WORK",
+      "handle": "NiwaKunihiko",
+      "enabled": true
+    },
+    {
+      "id": "x_npaka123",
+      "type": "x",
+      "name": "布留川英一 / Hidekazu Furukawa",
+      "handle": "npaka123",
+      "enabled": true
+    },
+    {
+      "id": "x_itnavi2022",
+      "type": "x",
+      "name": "IT navi",
+      "handle": "itnavi2022",
+      "enabled": true
+    },
+    {
+      "id": "x_panchaaan_2",
+      "type": "x",
+      "name": "ぱんちゃん🍞｜AI×クリエイティブ",
+      "handle": "panchaaan_2",
+      "enabled": true
+    },
+    {
+      "id": "x_haider1",
+      "type": "x",
+      "name": "Haider.",
+      "handle": "haider1",
+      "enabled": true
+    },
+    {
+      "id": "x_lxgtugtlrsh8yxw",
+      "type": "x",
+      "name": "ダイチ｜🚨AIレスキュー隊【AIR】",
+      "handle": "LxGtUGtlRSh8yXW",
+      "enabled": true
+    },
+    {
+      "id": "x_ytiskw",
+      "type": "x",
+      "name": "石川陽太 Yota Ishikawa",
+      "handle": "ytiskw",
+      "enabled": true
+    },
+    {
+      "id": "x_ayami_marketing",
+      "type": "x",
+      "name": "あやみ｜マーケティング",
+      "handle": "ayami_marketing",
+      "enabled": true
+    },
+    {
+      "id": "x_super_bonochin",
+      "type": "x",
+      "name": "炎鎮🔥 - ₿onochin -",
+      "handle": "super_bonochin",
+      "enabled": true
+    },
+    {
+      "id": "x_shodaiiiiii",
+      "type": "x",
+      "name": "Shodai Yanagimoto | 桺本頌大",
+      "handle": "shodaiiiiii",
+      "enabled": true
+    }
+  ]
+}
