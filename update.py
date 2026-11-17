@@ -593,9 +593,7 @@ def render_images(images: list) -> str:
 def render_item(item: dict) -> str:
     badge = esc(item["badge"])
     cls = item["badge_class"]
-    title = esc(item["title"]).replace("\n", "<br>")
-    if not title:
-        title = ''  # 画像だけのポスト
+    title = esc(item["title"]).replace("\n", "<br>")  # 画像だけのポストは空
     pin = '<span class="pin">固定</span>' if item["pinned"] else ""
     new_cls = " is-new" if item.get("is_new") else ""
     when = esc(item["published_label"]) or "—"
