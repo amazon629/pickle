@@ -5,10 +5,18 @@
 まとめて取得し、スマホ向けの1枚ページ (index.html) と data.json を作る。
 
 使い方:
-    python3 update.py                     # 取得 → index.html / data.json を更新
+    python3 update.py                     # 全部のボードを更新（sources.json + sources-*.json）
     python3 update.py --dry-run -v        # 取得だけして結果を表示（ファイルは書かない）
     python3 update.py --only x_tkzwgrs    # 一部のソースだけ更新（カンマ区切り）
     python3 update.py --add x tkzwgrs "滝沢ガレソ"   # add_source.py に委譲
+
+ボードは sources*.json ごとに1枚。出力先は自動で決まる:
+    sources.json      -> index.html / data.json      （メインボード）
+    sources-ipo.json  -> ipo.html   / data-ipo.json  （IPO・スタートアップボード）
+1枚だけ更新したいとき:
+    python3 update.py --board ipo
+    python3 update.py --config sources-ipo.json
+    python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json
 
 外部ライブラリ不要（Python 3.9+ の標準ライブラリだけ）。
 """
@@ -16,6 +24,7 @@
 from __future__ import annotations
 
 import argparse
+import glob
 import html as html_lib
 import json
 import os
@@ -27,6 +36,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
@@ -34,6 +44,46 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SOURCES_PATH = os.path.join(BASE_DIR, "sources.json")
 DATA_PATH = os.path.join(BASE_DIR, "data.json")
 INDEX_PATH = os.path.join(BASE_DIR, "index.html")
+
+
+# ------------------------------------------------------------------- boards
+def board_paths(config_path: str, out: str = "", data: str = "") -> dict:
+    """sources*.json から、そのボードの html / data.json のパスを決める。
+
+    sources.json -> index.html / data.json
+    sources-ipo.json -> ipo.html / data-ipo.json
+    """
+    config_path = os.path.abspath(config_path)
+    folder = os.path.dirname(config_path)
+    base = os.path.basename(config_path)
+    if base == "sources.json":
+        name = "main"
+    elif base.startswith("sources-") and base.endswith(".json"):
+        name = base[len("sources-"):-len(".json")]
+    else:
+        name = os.path.splitext(base)[0]
+    if not name:
+        name = "main"
+    if name == "main":
+        default_index, default_data = "index.html", "data.json"
+    else:
+        default_index, default_data = f"{name}.html", f"data-{name}.json"
+    return {
+        "name": name,
+        "config": config_path,
+        "index": os.path.join(folder, out) if out else os.path.join(folder, default_index),
+        "data": os.path.join(folder, data) if data else os.path.join(folder, default_data),
+    }
+
+
+def discover_boards() -> list:
+    """sources.json（メイン）と sources-*.json（サブボード）を全部返す。"""
+    boards = []
+    if os.path.exists(SOURCES_PATH):
+        boards.append(board_paths(SOURCES_PATH))
+    for path in sorted(glob.glob(os.path.join(BASE_DIR, "sources-*.json"))):
+        boards.append(board_paths(path))
+    return boards
 
 JST = timezone(timedelta(hours=9), "JST")
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
@@ -470,6 +520,199 @@ def build_items(src: dict, entries: list) -> list:
     return items
 
 
+# -------------------------------------------------------------- translation
+KANA_RE = re.compile(r"[\u3040-\u309f\u30a0-\u30ff]")
+LATIN_LETTER_RE = re.compile(r"[A-Za-z]")
+GOOGLE_TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single"
+TRANSLATE_MAX_PER_RUN = 60  # 1回の更新で新たに和訳する上限（実行時間の暴走を防ぐ）
+
+
+def is_foreign_text(text: str) -> bool:
+    """ひらがな・カタカナを含まず、ラテン文字が十分にある（＝外国語の）文章か。"""
+    t = (text or "").strip()
+    if not t:
+        return False
+    if KANA_RE.search(t):
+        return False
+    return len(LATIN_LETTER_RE.findall(t)) >= 10
+
+
+def _http_json(url: str, timeout: int, ua: str, data: bytes = None, extra_headers: dict = None):
+    headers = {"User-Agent": ua or "Mozilla/5.0", "Accept": "application/json"}
+    if extra_headers:
+        headers.update(extra_headers)
+    req = urllib.request.Request(url, data=data, headers=headers)
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return json.loads(resp.read().decode("utf-8", "replace"))
+
+
+def _join_segments(payload) -> str:
+    """Google の訳文（文字列 / [訳, 言語] / その配列）を1本の文字列に。"""
+    if isinstance(payload, str):
+        return payload.strip()
+    if isinstance(payload, list):
+        if payload and isinstance(payload[0], (list, tuple)):
+            return "".join(str(seg[0]) for seg in payload if seg and seg[0]).strip()
+        return "".join(str(seg) for seg in payload if isinstance(seg, str)).strip()
+    return ""
+
+
+def _translate_google_chrome(text: str, timeout: int, ua: str) -> str:
+    """Google 翻訳（chrome 拡張クライアント）。gtx が 429 でも通ることが多い。"""
+    q = urllib.parse.quote(text)
+    last = None
+    for host in ("https://clients5.google.com", "https://translate.googleapis.com"):
+        url = f"{host}/translate_a/t?client=dict-chrome-ex&sl=auto&tl=ja&q={q}"
+        try:
+            return _join_segments(_http_json(url, timeout, ua))
+        except Exception as exc:
+            last = exc
+    if last:
+        raise last
+    return ""
+
+
+def _translate_google(text: str, timeout: int, ua: str) -> str:
+    """Google 翻訳（公開 gtx エンドポイント）。"""
+    url = GOOGLE_TRANSLATE_URL + "?client=gtx&sl=auto&tl=ja&dt=t&q=" + urllib.parse.quote(text)
+    payload = _http_json(url, timeout, ua)
+    out = []
+    for chunk in (payload[0] if payload else []) or []:
+        if chunk and chunk[0]:
+            out.append(chunk[0])
+    return "".join(out).strip()
+
+
+def chunk_text(text: str, size: int = 480) -> list:
+    """長文を size 文字以下の塊に分ける（MyMemory の 500 文字制限のため）。"""
+    pieces, cur = [], ""
+    for word in (text or "").split(" "):
+        if not cur:
+            cur = word
+        elif len(cur) + 1 + len(word) <= size:
+            cur += " " + word
+        else:
+            pieces.append(cur)
+            cur = word
+    if cur:
+        pieces.append(cur)
+    out = []
+    for piece in pieces:  # 1語だけで長すぎる場合の保険
+        while len(piece) > size:
+            out.append(piece[:size])
+            piece = piece[size:]
+        if piece:
+            out.append(piece)
+    return out or [text or ""]
+
+
+def _translate_mymemory(text: str, timeout: int, ua: str) -> str:
+    """MyMemory（無料・APIキー不要）。500 文字ずつに分けて訳す。"""
+    lang = "en"
+    if re.search(r"[\u0400-\u04ff]", text):
+        lang = "ru"
+    elif re.search(r"[\uac00-\ud7af]", text):
+        lang = "ko"
+    out = []
+    for piece in chunk_text(text, 480):
+        url = (
+            "https://api.mymemory.translated.net/get?langpair="
+            + urllib.parse.quote(f"{lang}|ja") + "&q=" + urllib.parse.quote(piece)
+        )
+        payload = _http_json(url, timeout, ua)
+        got = ((payload.get("responseData") or {}).get("translatedText") or "").strip()
+        if "MYMEMORY WARNING" in got.upper() or "QUERY LENGTH LIMIT" in got.upper():
+            return ""
+        if not got:
+            return ""
+        out.append(html_lib.unescape(got).strip())
+        time.sleep(0.15)
+    return "\n".join(p for p in out if p).strip()
+
+
+# 上から順に試し、最初に成功したものを使う
+TRANSLATORS = (_translate_google_chrome, _translate_google, _translate_mymemory)
+
+
+def translate_text(text: str, timeout: int = 10, ua: str = "") -> str:
+    """外国語テキストを日本語に訳す。無料の翻訳サービスを順に試す。"""
+    src = (text or "").strip()
+    if not src:
+        return ""
+    errors = []
+    for fn in TRANSLATORS:
+        try:
+            ja = fn(src[:1500], timeout, ua)
+        except Exception as exc:
+            errors.append(f"{fn.__name__}: {exc}")
+            continue
+        if ja and ja != src:
+            return ja
+    if errors:
+        raise RuntimeError(" / ".join(errors[-2:]))
+    return ""
+
+
+def attach_translations(results: list, previous: dict, settings: dict, verbose: bool = False) -> dict:
+    """外国語の投稿に和訳を付ける（並列）。
+
+    前回の data*.json に和訳があれば通信せずそのまま使うので、
+    時間ごとの更新で訳すのは「新しく増えた投稿」だけ。
+    """
+    stats = {"made": 0, "reused": 0, "failed": 0}
+    if settings.get("translate") is False:
+        return stats
+    ua = settings.get("user_agent") or "Mozilla/5.0"
+    timeout = int(settings.get("timeout_seconds", 20))
+    budget = int(settings.get("translate_max_per_run", TRANSLATE_MAX_PER_RUN))
+
+    pending = []
+    for src in results:
+        for item in src.get("items", []):
+            text = item.get("title") or ""
+            if not is_foreign_text(text):
+                continue
+            cached = ((previous.get(item.get("link")) or {}).get("title_ja") or "").strip()
+            if cached:
+                item["title_ja"] = cached
+                stats["reused"] += 1
+            else:
+                pending.append(item)
+
+    if not pending or budget <= 0:
+        pass
+    else:
+        todo = pending[:budget]
+        stats["failed"] += max(0, len(pending) - len(todo))
+        workers = max(1, int(settings.get("translate_workers", 6)))
+
+        def work(item):
+            try:
+                return item, translate_text(item["title"], timeout=min(timeout, 15), ua=ua)
+            except Exception as exc:
+                return item, exc
+
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for item, out in pool.map(work, todo):
+                if isinstance(out, Exception):
+                    stats["failed"] += 1
+                    if verbose:
+                        print(f"    和訳できませんでした: {item.get('link')} ({out})")
+                    continue
+                if not out or out == item.get("title"):
+                    stats["failed"] += 1
+                    continue
+                item["title_ja"] = out
+                stats["made"] += 1
+
+    if verbose and any(stats.values()):
+        line = f"  和訳: 新規 {stats['made']} 件 / 前回から再利用 {stats['reused']} 件"
+        if stats["failed"]:
+            line += f" / 見送り {stats['failed']} 件"
+        print(line)
+    return stats
+
+
 def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
     started = time.time()
     urls = feed_urls(src, settings)
@@ -558,18 +801,24 @@ def load_sources(path: str = SOURCES_PATH) -> dict:
     return data
 
 
-def previous_links() -> set:
+def previous_links(data_path: str = DATA_PATH) -> set:
+    return set(previous_items_by_link(data_path))
+
+
+def previous_items_by_link(data_path: str = DATA_PATH) -> dict:
+    """前回の data*.json を link -> item の辞書で返す（和訳の再利用などに使う）。"""
     try:
-        with open(DATA_PATH, encoding="utf-8") as fh:
+        with open(data_path, encoding="utf-8") as fh:
             old = json.load(fh)
     except Exception:
-        return set()
-    links = set()
+        return {}
+    items = {}
     for src in old.get("sources", []):
         for item in src.get("items", []):
-            if item.get("link"):
-                links.add(item["link"])
-    return links
+            link = item.get("link")
+            if link:
+                items[link] = item
+    return items
 
 
 def esc(text: str) -> str:
@@ -603,11 +852,18 @@ def render_item(item: dict) -> str:
         desc = f'    <span class="desc">{esc(item["summary"]).replace(chr(10), "<br>")}</span>\n'
     imgs = render_images(item.get("images"))
     imgs_html = f"    {imgs}\n" if imgs else ""
+    trans_html = ""
+    if item.get("title_ja"):
+        trans_html = (
+            f'    <span class="trans"><span class="trans-label">【和訳】</span>'
+            f'{esc(item["title_ja"]).replace(chr(10), "<br>")}</span>\n'
+        )
     return (
         f'<a class="item t-{item["type"]}{new_cls}" href="{esc(item["link"])}" target="_blank" rel="noopener noreferrer">\n'
         f'  <span class="badge {cls}">{badge}</span>\n'
         f'  <span class="body">\n'
         f'    {title_html}'
+        f'{trans_html}'
         f'{desc}'
         f'{imgs_html}'
         f'    <span class="meta"><span class="dom">{esc(item["domain"])}</span>'
@@ -681,6 +937,13 @@ PAGE = """<!DOCTYPE html>
   .topbar .row {{ display: flex; align-items: baseline; gap: 8px; }}
   .topbar h1 {{ font-size: 16px; margin: 0; letter-spacing: .02em; }}
   .topbar .updated {{ font-size: 11px; color: var(--muted); }}
+  .nav {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }}
+  .nav a {{
+    font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;
+    color: var(--text-2); background: #fff; border: 1px solid #e4e6ea;
+    text-decoration: none;
+  }}
+  .nav a.is-active {{ background: var(--text); border-color: var(--text); color: #fff; }}
   .search {{
     margin-top: 8px; position: relative;
   }}
@@ -744,6 +1007,12 @@ PAGE = """<!DOCTYPE html>
     display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.6;
     color: var(--muted); word-break: break-word;
   }}
+  .trans {{
+    display: block; margin-top: 6px; padding: 6px 9px 6px 9px;
+    background: #eefaf3; border-left: 3px solid #16a34a; border-radius: 4px;
+    font-size: 13px; line-height: 1.62; color: #14532d; word-break: break-word;
+  }}
+  .trans-label {{ font-weight: 700; color: #15803d; margin-right: 1px; }}
   .imgs {{ display: grid; gap: 4px; margin-top: 8px; }}
   .imgs.n2, .imgs.n4 {{ grid-template-columns: 1fr 1fr; }}
   .imgs.n3 {{ grid-template-columns: 1fr 1fr 1fr; }}
@@ -782,7 +1051,7 @@ PAGE = """<!DOCTYPE html>
 <div class="wrap">
   <div class="topbar">
     <div class="row"><h1>{title}</h1><span class="updated">{updated}</span></div>
-    <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
+{nav_block}    <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
   </div>
   <main class="cards" id="cards">
 {cards}
@@ -824,7 +1093,20 @@ PAGE = """<!DOCTYPE html>
 PAGE = PAGE.replace("{{", "{").replace("}}", "}")
 
 
-def render_page(data: dict, settings: dict) -> str:
+def render_nav(current: str, boards: list, labels: dict) -> str:
+    """1枚目のボードから他のボードへ飛べる小さなピル。"""
+    if len(boards) < 2:
+        return ""
+    pills = []
+    for b in boards:
+        cls = "is-active" if b["name"] == current else ""
+        href = os.path.basename(b["index"])
+        label = labels.get(b["name"]) or b["name"]
+        pills.append(f'<a class="{cls}" href="{esc(href)}">{esc(label)}</a>')
+    return '    <nav class="nav">' + "".join(pills) + "</nav>\n"
+
+
+def render_page(data: dict, settings: dict, nav_block: str = "") -> str:
     now = datetime.now(JST)
     cards = "\n".join(render_card(s) for s in data["sources"])
     kinds = {}
@@ -832,11 +1114,15 @@ def render_page(data: dict, settings: dict) -> str:
         kinds[s["type"]] = kinds.get(s["type"], 0) + 1
     kind_summary = " / ".join(f"{TYPE_LABEL.get(k, k)} {v}" for k, v in kinds.items())
     summary = f"全{data['total']}件 ・ {kind_summary}"
+    translated = sum(1 for s in data["sources"] for i in s.get("items", []) if i.get("title_ja"))
     footer_right = "1時間ごとに自動更新 (GitHub Actions)"
+    if translated:
+        footer_right += " ・ 外国語の投稿は自動で和訳"
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     return (
         PAGE.replace("{title}", esc(settings.get("title") or "監視ボード"))
         .replace("{updated}", f'最終更新 {now:%Y/%m/%d %H:%M} JST')
+        .replace("{nav_block}", nav_block)
         .replace("{cards}", cards)
         .replace("{summary}", esc(summary))
         .replace("{footer_right}", esc(footer_right))
@@ -845,35 +1131,48 @@ def render_page(data: dict, settings: dict) -> str:
 
 
 # --------------------------------------------------------------------- main
-def run(args) -> int:
-    cfg = load_sources()
+def board_label(board: dict, settings: dict) -> str:
+    """ナビに出す短い名前（settings.nav_label で上書き可）。"""
+    return (
+        settings.get("nav_label")
+        or ("メイン" if board["name"] == "main" else board["name"].upper())
+    )
+
+
+def run_board(board: dict, args, nav_block: str = "") -> dict:
+    """1枚のボードを取得して書き出す。結果のサマリーを返す。"""
+    cfg = load_sources(board["config"])
     settings = cfg["settings"]
     sources = [s for s in cfg["sources"] if s.get("enabled", True)]
+    title = settings.get("title") or "監視ボード"
 
     if args.only:
         wanted = {x.strip() for x in args.only.split(",") if x.strip()}
         sources = [s for s in sources if s.get("id") in wanted or s.get("handle") in wanted]
         if not sources:
-            print(f"該当するソースがありません: {args.only}", file=sys.stderr)
-            return 2
+            return {"title": title, "skipped": True, "errors": 0}
 
-    old_links = previous_links()
+    previous = previous_items_by_link(board["data"])
+    old_links = set(previous)
 
-    print(f"取得開始: {len(sources)} ソース")
-    fetched = []
-    for src in sources:
-        if args.verbose:
+    workers = max(1, int(settings.get("fetch_workers", 8)))
+    print(f"取得開始: {len(sources)} ソース（並列 {min(workers, len(sources))}）  — {title}")
+    if args.verbose:
+        for src in sources:
             print(f"  - {src.get('name')} [{src.get('type')}]")
-        res = fetch_source(src, settings, verbose=args.verbose)
+    with ThreadPoolExecutor(max_workers=min(workers, max(1, len(sources)))) as pool:
+        fetched = list(pool.map(lambda s: fetch_source(s, settings, verbose=False), sources))
+    for res in fetched:
         for item in res["items"]:
             item["is_new"] = bool(old_links) and item["link"] not in old_links
-        fetched.append(res)
-    results = list(fetched)
 
+    attach_translations(fetched, previous, settings, verbose=args.verbose)
+
+    results = list(fetched)
     if args.only:
         # --only のときは、選ばなかったソースの前回結果をそのまま残す
         try:
-            with open(DATA_PATH, encoding="utf-8") as fh:
+            with open(board["data"], encoding="utf-8") as fh:
                 old = json.load(fh)
             old_by_id = {s.get("id"): s for s in old.get("sources", [])}
         except Exception:
@@ -881,8 +1180,7 @@ def run(args) -> int:
         fresh = {r["id"]: r for r in fetched}
         merged = []
         for src in [s for s in cfg["sources"] if s.get("enabled", True)]:
-            sid = src.get("id")
-            kept = fresh.get(sid) or old_by_id.get(sid)
+            kept = fresh.get(src.get("id")) or old_by_id.get(src.get("id"))
             if kept:
                 merged.append(kept)
         results = merged
@@ -910,23 +1208,79 @@ def run(args) -> int:
     data = {
         "generated_at": now.isoformat(timespec="seconds"),
         "generated_at_label": f"{now:%Y/%m/%d %H:%M} JST",
-        "title": settings.get("title") or "監視ボード",
+        "title": title,
         "total": total,
         "sources": results,
     }
 
+    errors = len(failed)
     if args.dry_run:
         print("--dry-run のためファイルは書き換えていません。")
-        return 0 if not any(r["status"] == "error" for r in fetched) else 1
+        return {"title": title, "skipped": False, "errors": errors}
 
-    with open(DATA_PATH, "w", encoding="utf-8") as fh:
+    with open(board["data"], "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
-    with open(INDEX_PATH, "w", encoding="utf-8") as fh:
-        fh.write(render_page(data, settings))
+    with open(board["index"], "w", encoding="utf-8") as fh:
+        fh.write(render_page(data, settings, nav_block=nav_block))
 
-    print(f"書き出し: {os.path.relpath(INDEX_PATH, BASE_DIR)} / {os.path.relpath(DATA_PATH, BASE_DIR)}")
-    return 0 if not any(r["status"] == "error" for r in fetched) else 1
+    print(
+        "書き出し: "
+        f"{os.path.relpath(board['index'], BASE_DIR)} / {os.path.relpath(board['data'], BASE_DIR)}"
+    )
+    return {"title": title, "skipped": False, "errors": errors}
+
+
+def run(args) -> int:
+    """コマンドライン引数から対象ボードを決めて更新する。"""
+    all_boards = discover_boards()
+    boards = list(all_boards)
+
+    if args.config:
+        path = args.config
+        if not os.path.isabs(path):
+            path = os.path.join(BASE_DIR, path)
+        if not os.path.exists(path):
+            print(f"設定ファイルがありません: {args.config}", file=sys.stderr)
+            return 2
+        boards = [board_paths(path, out=args.out or "", data=args.data or "")]
+    elif args.board:
+        wanted = {b.strip() for b in args.board.split(",") if b.strip()}
+        boards = [b for b in all_boards if b["name"] in wanted]
+        if not boards:
+            print(f"該当するボードがありません: {args.board}", file=sys.stderr)
+            return 2
+    elif args.out or args.data:
+        print("--out / --data は --config と一緒に使ってください。", file=sys.stderr)
+        return 2
+
+    if not boards:
+        print("sources*.json が見つかりません。", file=sys.stderr)
+        return 2
+
+    labels = {}
+    for b in all_boards:
+        try:
+            labels[b["name"]] = board_label(b, load_sources(b["config"]).get("settings", {}))
+        except Exception:
+            labels[b["name"]] = b["name"]
+
+    summaries = []
+    for board in boards:
+        nav = render_nav(board["name"], all_boards, labels)
+        summary = run_board(board, args, nav_block=nav)
+        summary["name"] = board["name"]
+        summaries.append(summary)
+        if len(boards) > 1 and not args.dry_run:
+            print("")
+
+    ran = [s for s in summaries if not s["skipped"]]
+    if not ran:
+        print(f"該当するソースがありません: {args.only}", file=sys.stderr)
+        return 2
+    if len(boards) > 1:
+        print("更新したボード: " + " / ".join(f"{s['title']}" for s in ran))
+    return 0 if not any(s["errors"] for s in ran) else 1
 
 
 def main(argv=None) -> int:
@@ -934,6 +1288,10 @@ def main(argv=None) -> int:
     parser.add_argument("--only", help="特定のソースIDだけ更新（カンマ区切り）")
     parser.add_argument("--dry-run", action="store_true", help="取得だけしてファイルを書かない")
     parser.add_argument("-v", "--verbose", action="store_true", help="各フィードの結果を表示")
+    parser.add_argument("--board", help="更新するボード名（例: main, ipo）")
+    parser.add_argument("--config", help="この sources*.json だけ更新（例: sources-ipo.json）")
+    parser.add_argument("--out", help="--config と一緒に使う: 出力するHTML")
+    parser.add_argument("--data", help="--config と一緒に使う: 出力するJSON")
     parser.add_argument("--add", nargs=argparse.REMAINDER, help="add_source.py に委譲してソースを追加")
     args = parser.parse_args(argv)
 

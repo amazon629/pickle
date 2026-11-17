@@ -1,0 +1,147 @@
+{
+  "settings": {
+    "title": "IPO・マーケット監視ボード",
+    "nav_label": "IPO",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "x_iponewsroom",
+      "type": "x",
+      "name": "IPO Newsroom",
+      "handle": "IPONewsroom_",
+      "enabled": true
+    },
+    {
+      "id": "x_ipo_navigator",
+      "type": "x",
+      "name": "IPOナビ",
+      "handle": "IPO_Navigator",
+      "enabled": true
+    },
+    {
+      "id": "x_ipo_majime",
+      "type": "x",
+      "name": "まじめにIPO",
+      "handle": "ipo_majime",
+      "enabled": true
+    },
+    {
+      "id": "x_suan_news",
+      "type": "x",
+      "name": "SUAN / スタートアップメディア🎈",
+      "handle": "suan_news",
+      "enabled": true
+    },
+    {
+      "id": "x_nomurasyo",
+      "type": "x",
+      "name": "証券マン",
+      "handle": "nomurasyo",
+      "enabled": true
+    },
+    {
+      "id": "x_kanpo_blog",
+      "type": "x",
+      "name": "官報ブログ",
+      "handle": "kanpo_blog",
+      "enabled": true
+    },
+    {
+      "id": "x_tokyoipo_sns",
+      "type": "x",
+      "name": "東京IPO",
+      "handle": "tokyoipo_sns",
+      "enabled": true
+    },
+    {
+      "id": "x_melvinvests",
+      "type": "x",
+      "name": "Melvin",
+      "handle": "MelvinInvests",
+      "enabled": true
+    },
+    {
+      "id": "x_paradislabs",
+      "type": "x",
+      "name": "Paradis",
+      "handle": "ParadisLabs",
+      "enabled": true
+    },
+    {
+      "id": "x_aleabitoreddit",
+      "type": "x",
+      "name": "Serenity",
+      "handle": "aleabitoreddit",
+      "enabled": true
+    },
+    {
+      "id": "x_stockmktnewz",
+      "type": "x",
+      "name": "Evan",
+      "handle": "StockMKTNewz",
+      "enabled": true
+    },
+    {
+      "id": "x_stocksavvyshay",
+      "type": "x",
+      "name": "Shay Boloor",
+      "handle": "StockSavvyShay",
+      "enabled": true
+    },
+    {
+      "id": "x_wallstengine",
+      "type": "x",
+      "name": "Wall St Engine",
+      "handle": "wallstengine",
+      "enabled": true
+    },
+    {
+      "id": "x_polymarketjapan",
+      "type": "x",
+      "name": "Polymarket Japan",
+      "handle": "polymarketjapan",
+      "enabled": true
+    },
+    {
+      "id": "x_watcherguru",
+      "type": "x",
+      "name": "Watcher Guru",
+      "handle": "WatcherGuru",
+      "enabled": true
+    },
+    {
+      "id": "x_wolf_financial",
+      "type": "x",
+      "name": "WOLF",
+      "handle": "WOLF_Financial",
+      "enabled": true
+    },
+    {
+      "id": "x_polymarket",
+      "type": "x",
+      "name": "Polymarket",
+      "handle": "Polymarket",
+      "enabled": true
+    },
+    {
+      "id": "x_unusual_whales",
+      "type": "x",
+      "name": "unusual_whales",
+      "handle": "unusual_whales",
+      "enabled": true
+    }
+  ]
+}

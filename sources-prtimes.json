@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "title": "PR TIMES監視ボード",
+    "nav_label": "PR TIMES",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "x_prtimes_stup",
+      "type": "x",
+      "name": "PR TIMESスタートアップ",
+      "handle": "PRTIMES_STUP",
+      "enabled": true
+    },
+    {
+      "id": "x_prtimes_mktg",
+      "type": "x",
+      "name": "PR TIMES広告・マーケティング",
+      "handle": "PRTIMES_MKTG",
+      "enabled": true
+    },
+    {
+      "id": "x_prtimes_biz",
+      "type": "x",
+      "name": "PR TIMESビジネス",
+      "handle": "PRTIMES_BIZ",
+      "enabled": true
+    },
+    {
+      "id": "x_prtimes_beauty",
+      "type": "x",
+      "name": "PR TIMESビューティー",
+      "handle": "PRTIMES_BEAUTY",
+      "enabled": true
+    }
+  ]
+}

@@ -28,8 +28,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SOURCES_PATH = os.path.join(BASE_DIR, "sources.json")
 
 
-def load() -> dict:
-    with open(SOURCES_PATH, encoding="utf-8") as fh:
+def load(path: str = SOURCES_PATH) -> dict:
+    with open(path, encoding="utf-8") as fh:
         cfg = json.load(fh)
     if isinstance(cfg, list):
         cfg = {"settings": {}, "sources": cfg}
@@ -38,8 +38,8 @@ def load() -> dict:
     return cfg
 
 
-def save(cfg: dict) -> None:
-    with open(SOURCES_PATH, "w", encoding="utf-8") as fh:
+def save(cfg: dict, path: str = SOURCES_PATH) -> None:
+    with open(path, "w", encoding="utf-8") as fh:
         json.dump(cfg, fh, ensure_ascii=False, indent=2)
         fh.write("\n")
 
@@ -127,17 +127,23 @@ def main(argv=None) -> int:
     parser.add_argument("--id", dest="id_opt", help="ソースIDを明示する")
     parser.add_argument("--disabled", action="store_true", help="追加するが enabled=false にする")
     parser.add_argument("--list", action="store_true", help="現在のソース一覧")
+    parser.add_argument("--config", help="編集する設定ファイル（既定: sources.json / 例: sources-ipo.json）")
     parser.add_argument("--remove", metavar="ID", help="ソースを削除")
     args = parser.parse_args(argv)
 
-    cfg = load()
+    config_path = args.config or SOURCES_PATH
+    if not os.path.isabs(config_path):
+        config_path = os.path.join(BASE_DIR, config_path)
+    if not os.path.exists(config_path):
+        raise SystemExit(f"設定ファイルがありません: {config_path}")
+    cfg = load(config_path)
 
     if args.list:
         print(f"{'ID':<24}{'種別':<13}{'状態':<6}名前")
         for src in cfg["sources"]:
             state = "有効" if src.get("enabled", True) else "停止"
             print(f"{src.get('id',''):<24}{src.get('type',''):<13}{state:<6}{src.get('name','')}")
-        print(f"\n計 {len(cfg['sources'])} ソース / {SOURCES_PATH}")
+        print(f"\n計 {len(cfg['sources'])} ソース / {config_path}")
         return 0
 
     if args.remove:
@@ -146,7 +152,7 @@ def main(argv=None) -> int:
             print(f"見つかりません: {args.remove}", file=sys.stderr)
             return 2
         cfg["sources"] = [s for s in cfg["sources"] if s is not src]
-        save(cfg)
+        save(cfg, config_path)
         print(f"削除しました: {src.get('id')} ({src.get('name')})")
         return 0
 
@@ -174,7 +180,7 @@ def main(argv=None) -> int:
             return 1
 
     cfg["sources"].append(src)
-    save(cfg)
+    save(cfg, config_path)
     print(f"追加しました: {src['id']} [{src['type']}] {src['name']}")
     print("ボードに反映するには: python3 update.py")
     return 0

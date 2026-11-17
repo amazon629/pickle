@@ -4,30 +4,66 @@ X・YouTube・note・ニュースを1枚にまとめる、スマホ向けの監�
 `update.py` が各フィードを取得して `index.html`（＋`data.json`）を作り直します。
 GitHub Actions が1時間ごとに自動で更新するので、一度置けば放っておけます。
 
+ボードは `sources*.json` ごとに1枚。1回の実行で全部まとめて更新されます。
+
+| ボード | 設定 | ページ | データ |
+| --- | --- | --- | --- |
+| 監視ボード（メイン） | `sources.json` | `index.html` | `data.json` |
+| IPO・マーケット監視ボード | `sources-ipo.json` | `ipo.html` | `data-ipo.json` |
+| PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
+
+公開URL: `https://amazon629.github.io/pickle/` / `/ipo.html` / `/prtimes.html`
+（各ページ上部のピルから互に行き来できます）
+
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
 - 新着（前回取得時になかった記事）は薄い緑の行と赤い点で表示
 - 上部の検索欄で、表示中の全ソースを横断して絞り込み
-- 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／`index.html` はデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
+- 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
+  訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
+- 取得は並列（既定8並行）、和訳も並列なので、2回目以降の更新は数秒で終わります
+- 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
 
 | ファイル | 役割 |
 | --- | --- |
-| `sources.json` | 監視対象の設定（ここだけ触れば増減できる） |
-| `update.py` | 取得 → `index.html` / `data.json` を生成 |
-| `add_source.py` | 監視対象を1行で追加／削除 |
-| `index.html` | 生成物（GitHub Pages が公開するページ） |
-| `data.json` | 生成物（アプリや他ツールから読む用） |
+| `sources.json` | メインボードの監視対象（ここだけ触れば増減できる） |
+| `sources-ipo.json` | IPO・マーケットボードの監視対象 |
+| `sources-prtimes.json` | PR TIMESボードの監視対象 |
+| `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
+| `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定） |
+| `index.html` / `data.json` | メインボードの生成物 |
+| `ipo.html` / `data-ipo.json` | IPO・マーケットボードの生成物 |
+| `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
 ## すぐ使う
 
 ```bash
 cd monitor-board
-python3 update.py          # 取得して index.html / data.json を更新
+python3 update.py          # 全ボードを取得して HTML / data.json を更新
 python3 update.py -v       # どのフィードが何件取れたかを表示
 python3 update.py --dry-run -v   # 取得だけしてファイルは書かない
+
+python3 update.py --board ipo            # IPO ボードだけ
+python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json  # 出力先も指定
 ```
+
+### ボードを増やす
+
+`sources-<名前>.json` を作るだけで、`<名前>.html` と `data-<名前>.json` が生成されます。
+（例: `sources-crypto.json` → `crypto.html` / `data-crypto.json`）
+ページ上部のボード切り替えピルは `settings.nav_label` で短い名前を指定できます。
+
+## 和訳
+
+本文にひらがな・カタカナがなく、ラテン文字が10字以上ある投稿は外国語とみなし、
+Google 翻訳（公開エンドポイント）→ MyMemory の順で日本語に訳して `title_ja` に持ちます。
+失敗してもボードは普通に作られます（その投稿は和訳なし）。設定は `sources*.json` の `settings`:
+
+- `"translate": false` … 和訳しない
+- `"translate_max_per_run": 120` … 1回の実行で新規に訳す上限
+- `"translate_workers": 6` / `"fetch_workers": 8` … 並列数
 
 ## 監視対象の増減
 
@@ -41,6 +77,7 @@ python3 add_source.py google_news "site:news.example.com" "exampleニュース"
 python3 add_source.py --list             # 一覧
 python3 add_source.py --remove x_tkzwgrs # 削除
 python3 add_source.py ... --disabled     # 追加するが取得はしない
+python3 add_source.py --config sources-ipo.json x MelvinInvests "Melvin"   # ボードを指定して追加
 ```
 
 `update.py --add ...` でも同じことができます（例: `python3 update.py --add x tkzwgrs "滝沢ガレソ"`）。
