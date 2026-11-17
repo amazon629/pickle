@@ -12,8 +12,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI監視ボード | `sources-ai.json` | `ai.html` | `data-ai.json` |
 | IPO・マーケット監視ボード | `sources-ipo.json` | `ipo.html` | `data-ipo.json` |
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
+| スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -32,12 +33,14 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ai.json` | AIボードの監視対象 |
 | `sources-ipo.json` | IPO・マーケットボードの監視対象 |
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
+| `sources-startup.json` | スタートアップボードの監視対象 |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
 | `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定／`--bulk` でまとめて追加） |
 | `index.html` / `data.json` | メインボードの生成物 |
 | `ai.html` / `data-ai.json` | AIボードの生成物 |
 | `ipo.html` / `data-ipo.json` | IPO・マーケットボードの生成物 |
 | `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
+| `startup.html` / `data-startup.json` | スタートアップボードの生成物 |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
 ## すぐ使う

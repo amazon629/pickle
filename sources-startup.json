@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "title": "スタートアップ監視ボード",
+    "nav_label": "スタートアップ",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ]
+  },
+  "sources": [
+    {
+      "id": "x_tanany_vc",
+      "type": "x",
+      "name": "TANANY_VC",
+      "handle": "TANANY_VC",
+      "enabled": true
+    },
+    {
+      "id": "x_tomotake94",
+      "type": "x",
+      "name": "片山幹健（Tomotake Katayama)",
+      "handle": "tomotake94",
+      "enabled": true
+    },
+    {
+      "id": "x_kosuke_uchida",
+      "type": "x",
+      "name": "内田 康介 | Z Venture Capital",
+      "handle": "kosuke_uchida",
+      "enabled": true
+    },
+    {
+      "id": "x_tmiyatake1",
+      "type": "x",
+      "name": "@tmiyatake1",
+      "handle": "tmiyatake1",
+      "enabled": true
+    },
+    {
+      "id": "x_nomurasyo",
+      "type": "x",
+      "name": "証券マン",
+      "handle": "nomurasyo",
+      "enabled": true
+    }
+  ]
+}
