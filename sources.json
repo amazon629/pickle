@@ -1,0 +1,114 @@
+{
+  "settings": {
+    "title": "監視ボード",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "x_ichika",
+      "type": "x",
+      "name": "いちか | Ichika",
+      "handle": "nBwQSzmg3qU2ysd",
+      "enabled": true
+    },
+    {
+      "id": "x_sorapiyo",
+      "type": "x",
+      "name": "そらぴよ",
+      "handle": "sorapiyo1111111",
+      "enabled": true
+    },
+    {
+      "id": "x_mattariver2",
+      "type": "x",
+      "name": "まったりver2",
+      "handle": "mattariver2",
+      "enabled": true
+    },
+    {
+      "id": "x_aoi_miyu",
+      "type": "x",
+      "name": "あおい みゆ",
+      "handle": "japan_miyu_",
+      "enabled": true
+    },
+    {
+      "id": "x_tsuisoku",
+      "type": "x",
+      "name": "エックス速報",
+      "handle": "tsuisoku777",
+      "enabled": true
+    },
+    {
+      "id": "x_mattariver3",
+      "type": "x",
+      "name": "まったりくんver3",
+      "handle": "mattariver3",
+      "enabled": true
+    },
+    {
+      "id": "x_totalnewsworld",
+      "type": "x",
+      "name": "TotalNewsWorld",
+      "handle": "turningpointjpn",
+      "enabled": true
+    },
+    {
+      "id": "x_sanae",
+      "type": "x",
+      "name": "サナエトしんじろう",
+      "handle": "24chokemaru",
+      "enabled": true
+    },
+    {
+      "id": "x_tkzwgrs",
+      "type": "x",
+      "name": "滝沢ガレソ",
+      "handle": "tkzwgrs",
+      "enabled": true
+    },
+    {
+      "id": "yahoo_domestic_business",
+      "type": "news",
+      "name": "Yahoo!ニュース 国内・経済",
+      "feeds": [
+        "https://news.yahoo.co.jp/rss/topics/domestic.xml",
+        "https://news.yahoo.co.jp/rss/topics/business.xml",
+        "https://news.yahoo.co.jp/rss/topics/top-picks.xml"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "livedoor_news",
+      "type": "google_news",
+      "name": "ライブドアニュース",
+      "query": "site:news.livedoor.com",
+      "note": "livedoor の公式RSS (news.livedoor.com/topics/rss/top.xml) は2026年に配信終了(404)。Googleニュースの site: 検索で代替。",
+      "enabled": true
+    },
+    {
+      "id": "yt_example",
+      "type": "youtube",
+      "name": "YouTube 例（チャンネルIDを入れて enabled を true に）",
+      "channel_id": "UCZf__ehlCEBPop-_sldpBUQ",
+      "enabled": false
+    },
+    {
+      "id": "note_example",
+      "type": "note",
+      "name": "note 例（ユーザー名を入れて enabled を true に）",
+      "username": "example",
+      "enabled": false
+    }
+  ]
+}
