@@ -82,6 +82,66 @@ def strip_html(value: str) -> str:
     return "\n".join(ln for ln in lines if ln).strip()
 
 
+# ---------------------------------------------------------------- images
+IMG_TAG_RE = re.compile(r"<\s*img\b[^>]*?\bsrc\s*=\s*(['\"])(.*?)\1", re.I | re.S)
+IMG_LAZY_RE = re.compile(r"<\s*img\b[^>]*?\bdata-src\s*=\s*(['\"])(.*?)\1", re.I | re.S)
+NITTER_PIC_RE = re.compile(r"^https?://[^/]+/pic/(?:media|amplify_video_thumb|card_img|profile_images|ext_tw_video_thumb)/(.+)$", re.I)
+TWIMG_MEDIA_RE = re.compile(r"^https?://pbs\.twimg\.com/(?:media|amplify_video_thumb|ext_tw_video_thumb|tweet_video_thumb)/[^?]+$", re.I)
+IMG_EXT_RE = re.compile(r"\.(?:jpe?g|png|gif|webp|avif)(?:$|[?#])", re.I)
+IMAGE_HOSTS = ("pbs.twimg.com", "i.ytimg.com", "yt3.ggpht.com", "assets.st-note.com", "d2l930y2yx77uc.cloudfront.net")
+
+
+def normalize_img_url(url: str) -> str:
+    """画像URLを整える（nitter の /pic/ を pbs.twimg.com に、http→https、サイズ軽量化）。"""
+    u = html_lib.unescape((url or "").strip())
+    if not u:
+        return ""
+    if u.startswith("//"):
+        u = "https:" + u
+    if u.startswith("http://"):
+        u = "https://" + u[len("http://"):]
+    if not u.startswith("https://"):
+        return ""
+    m = NITTER_PIC_RE.match(u)
+    if m:
+        rest = urllib.parse.unquote(m.group(1))
+        u = "https://pbs.twimg.com/" + rest.lstrip("/")
+    u = u.replace("&amp;", "&")
+    # サムネイル用途なので、元画像がそのまま返る pbs.twimg.com/media は小さめを要求
+    if TWIMG_MEDIA_RE.match(u):
+        u += "?name=small"
+    return u
+
+
+def extract_images(fragment: str) -> list:
+    """HTML 断片の <img src> を順番どおりに集める。"""
+    if not fragment:
+        return []
+    found = []
+    for m in IMG_TAG_RE.finditer(fragment):
+        found.append(m.group(2))
+    for m in IMG_LAZY_RE.finditer(fragment):
+        found.append(m.group(2))
+    out = []
+    for raw in found:
+        u = normalize_img_url(raw)
+        if u and u not in out:
+            out.append(u)
+    return out
+
+
+def looks_like_image(url: str, mime: str = "") -> bool:
+    mime = (mime or "").lower()
+    if mime and not mime.startswith("image"):
+        return False
+    host = domain_of(url)
+    if host in IMAGE_HOSTS:
+        return True
+    if mime.startswith("image"):
+        return True
+    return bool(IMG_EXT_RE.search(url or ""))
+
+
 def parse_date(value):
     """RFC822 / ISO8601 のどちらでも datetime(aware) にする。"""
     if not value:
@@ -193,6 +253,26 @@ def parse_feed(raw: bytes):
                 if summary:
                     break
 
+        # 画像: 本文HTMLの <img> と media:content / media:thumbnail / enclosure
+        images = extract_images(summary)
+        for el in node.iter():
+            ln = local(el.tag)
+            if ln not in ("content", "thumbnail", "enclosure"):
+                continue
+            url = el.get("url") or el.get("href") or ""
+            mime = el.get("type") or ""
+            if not url or not looks_like_image(url, mime):
+                continue
+            u = normalize_img_url(url)
+            if u and u not in images:
+                images.append(u)
+        for el in links:
+            if (el.get("rel") or "").lower() == "enclosure" and el.get("href"):
+                if looks_like_image(el.get("href", ""), el.get("type") or ""):
+                    u = normalize_img_url(el.get("href"))
+                    if u and u not in images:
+                        images.append(u)
+
         guid = text_of(m.get("guid")) or text_of(m.get("id")) or link
         published = parse_date(
             text_of(m.get("pubDate"))
@@ -215,6 +295,7 @@ def parse_feed(raw: bytes):
                 "source_url": src_url or "",
                 "source_name": src_name or "",
                 "author": text_of(m.get("creator")) or text_of(m.get("author")),
+                "images": images,
             }
         )
     return entries
@@ -309,6 +390,8 @@ def build_items(src: dict, entries: list) -> list:
         body = ""
         pinned = False
 
+        images = list(e.get("images") or [])
+
         if kind == "x":
             link = rewrite_x_link(link)
             body = strip_html(e.get("summary", "")) or title
@@ -318,21 +401,29 @@ def build_items(src: dict, entries: list) -> list:
             elif title.startswith("Pinned:"):
                 pinned = True
             body = clean_x_text(body)
-            if not body:
+            # 本文が空でも画像だけのポストは載せる
+            if not body and not images:
                 continue
             text = body
         elif kind == "youtube":
             text = title
             body = strip_html(e.get("summary", ""))
+            images = images[:1]
+            body = ""
         elif kind == "note":
             text = title
             body = strip_html(e.get("summary", ""))
+            if body == text:
+                body = ""
+            images = images[:4]
         elif kind == "google_news":
             text = clean_news_title(title, e.get("source_name", ""))
+            images = []
         else:  # news
             text = title
+            images = images[:1]
 
-        if not text or not link:
+        if (not text and not images) or not link:
             continue
 
         key = link or e.get("guid")
@@ -364,6 +455,7 @@ def build_items(src: dict, entries: list) -> list:
             {
                 "title": text,
                 "summary": body if body and body != text else "",
+                "images": images[:4],
                 "link": link,
                 "domain": domain,
                 "published": published.isoformat() if published else None,
@@ -484,20 +576,42 @@ def esc(text: str) -> str:
     return html_lib.escape(text or "", quote=True)
 
 
+def render_images(images: list) -> str:
+    """カード内のサムネイル（最大4枚・遅延読み込み・読み込み失敗は非表示）。"""
+    images = [u for u in (images or []) if u][:4]
+    if not images:
+        return ""
+    n = len(images)
+    imgs = "".join(
+        f'<img src="{esc(u)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"'
+        f' onerror="this.style.display=&#39;none&#39;">'
+        for u in images
+    )
+    return f'<span class="imgs n{n}">{imgs}</span>'
+
+
 def render_item(item: dict) -> str:
     badge = esc(item["badge"])
     cls = item["badge_class"]
-    title = esc(item["title"])
-    if item["type"] == "x":
-        title = title.replace("\n", "<br>")
+    title = esc(item["title"]).replace("\n", "<br>")
+    if not title:
+        title = ''  # 画像だけのポスト
     pin = '<span class="pin">固定</span>' if item["pinned"] else ""
     new_cls = " is-new" if item.get("is_new") else ""
     when = esc(item["published_label"]) or "—"
+    title_html = f'<span class="title">{pin}{title}</span>\n' if (title or pin) else ""
+    desc = ""
+    if item.get("type") == "note" and item.get("summary"):
+        desc = f'    <span class="desc">{esc(item["summary"]).replace(chr(10), "<br>")}</span>\n'
+    imgs = render_images(item.get("images"))
+    imgs_html = f"    {imgs}\n" if imgs else ""
     return (
         f'<a class="item t-{item["type"]}{new_cls}" href="{esc(item["link"])}" target="_blank" rel="noopener noreferrer">\n'
         f'  <span class="badge {cls}">{badge}</span>\n'
         f'  <span class="body">\n'
-        f'    <span class="title">{pin}{title}</span>\n'
+        f'    {title_html}'
+        f'{desc}'
+        f'{imgs_html}'
         f'    <span class="meta"><span class="dom">{esc(item["domain"])}</span>'
         f'<span class="time">{when}</span></span>\n'
         f'  </span>\n'
@@ -628,9 +742,18 @@ PAGE = """<!DOCTYPE html>
     content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
     background: var(--dot); margin-right: 6px; vertical-align: 1px;
   }}
-  .item.t-x .title {{
-    display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical; overflow: hidden;
+  .desc {{
+    display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.6;
+    color: var(--muted); word-break: break-word;
   }}
+  .imgs {{ display: grid; gap: 4px; margin-top: 8px; }}
+  .imgs.n2, .imgs.n4 {{ grid-template-columns: 1fr 1fr; }}
+  .imgs.n3 {{ grid-template-columns: 1fr 1fr 1fr; }}
+  .imgs img {{
+    display: block; width: 100%; border-radius: 9px; background: var(--bg);
+    object-fit: cover; aspect-ratio: 16 / 10; max-height: 220px;
+  }}
+  .imgs.n1 img {{ aspect-ratio: auto; max-height: 320px; object-fit: contain; border-radius: 10px; }}
   .pin {{
     display: inline-block; font-size: 9.5px; font-weight: 700; color: #9a6700;
     background: #fdf3d7; border-radius: 4px; padding: 1px 5px; margin-right: 6px;
