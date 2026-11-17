@@ -33,7 +33,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ipo.json` | IPO・マーケットボードの監視対象 |
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
-| `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定） |
+| `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定／`--bulk` でまとめて追加） |
 | `index.html` / `data.json` | メインボードの生成物 |
 | `ai.html` / `data-ai.json` | AIボードの生成物 |
 | `ipo.html` / `data-ipo.json` | IPO・マーケットボードの生成物 |
@@ -84,6 +84,32 @@ python3 add_source.py --config sources-ipo.json x MelvinInvests "Melvin"   # ボ
 ```
 
 `update.py --add ...` でも同じことができます（例: `python3 update.py --add x tkzwgrs "滝沢ガレソ"`）。
+
+### まとめて追加（貼り付けから / `--bulk`）
+
+Xのアカウント一覧（`表示名 @handle` をスペース・タブ・改行で並べたもの）を貼り付けるだけで、
+まとめて登録できます。JSONを手で書く必要はありません。
+
+```bash
+# 追加される内容だけ確認（ファイルは書き換えない）
+python3 add_source.py --bulk --config sources-ai.json --dry-run \
+  --text "鈴木 @ai_300 おかぴ🦒⚡️｜AIニュース解説 @okapi_fukugyo Codex研究ラボ @codexneo4"
+
+# 貼り付けた内容で追加（登録済みのハンドルは自動でスキップ）
+pbpaste | python3 add_source.py --bulk --config sources-ai.json
+
+# 追加して、そのボードをすぐ更新
+python3 add_source.py --bulk --config sources-ai.json --update < accounts.txt
+
+# 新しいボードをこの1行から作る（sources-<名前>.json が無ければ settings も自動で作る）
+python3 add_source.py --bulk --config sources-crypto.json \
+  --title "仮想通貨監視ボード" --nav-label "暗号資産" --text "名前 @handle ..."
+```
+
+- 読み取れる形: `表示名 @handle` / `@handle` だけ / `https://x.com/handle`。区切りはスペース・タブ・改行のどれでもOK（`名前（@handle）` も可）。
+- 登録済みのハンドルはスキップし、`追加 N / 登録済み M` を表示します（何度流しても増えません）。
+- `--config` のファイルが無いときは `settings`（`title` / `nav_label` / `items_per_source: 15` / `translate: true` / `translate_max_per_run: 120` / nitter のミラー）と空の `sources` を作ります。
+- `--dry-run` は書き込まずに予定だけ表示、`--update` は追加後に `update.py --config <そのボード>` を実行します。
 
 ### sources.json の書き方
 
