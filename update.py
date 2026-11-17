@@ -753,7 +753,11 @@ PAGE = """<!DOCTYPE html>
     display: block; width: 100%; border-radius: 9px; background: var(--bg);
     object-fit: cover; aspect-ratio: 16 / 10; max-height: 220px;
   }}
-  .imgs.n1 img {{ aspect-ratio: auto; max-height: 320px; object-fit: contain; border-radius: 10px; }}
+  .imgs.n1 {{ justify-items: start; }}
+  .imgs.n1 img {{
+    width: auto; height: auto; max-width: 100%; max-height: 340px;
+    aspect-ratio: auto; object-fit: contain; border-radius: 10px;
+  }}
   .pin {{
     display: inline-block; font-size: 9.5px; font-weight: 700; color: #9a6700;
     background: #fdf3d7; border-radius: 4px; padding: 1px 5px; margin-right: 6px;
