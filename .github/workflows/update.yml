@@ -1,0 +1,41 @@
+name: Update monitor board
+
+on:
+  schedule:
+    - cron: "7 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-monitor-board
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds and rebuild board
+        run: python3 update.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "monitor-board-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if [ -n "$(git status --porcelain -- index.html data.json)" ]; then
+            git add index.html data.json
+            git commit -m "chore: update board ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "変更なし。コミットしません。"
+          fi
