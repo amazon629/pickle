@@ -751,8 +751,9 @@ PAGE = """<!DOCTYPE html>
   .imgs.n3 {{ grid-template-columns: 1fr 1fr 1fr; }}
   .imgs img {{
     display: block; width: 100%; border-radius: 9px; background: var(--bg);
-    object-fit: cover; aspect-ratio: 16 / 10; max-height: 220px;
+    object-fit: cover; object-position: top; aspect-ratio: 4 / 3;
   }}
+  .imgs.n3 img {{ aspect-ratio: 1 / 1; }}
   .imgs.n1 {{ justify-items: start; }}
   .imgs.n1 img {{
     width: auto; height: auto; max-width: 100%; max-height: 340px;
