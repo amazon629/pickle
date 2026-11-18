@@ -186,11 +186,11 @@ OVERRIDES = {
     },
     "Cathedral": {
         "query": '"Cathedral" (startup OR funding OR valuation OR cybersecurity OR military OR raises)',
-        "context": ["startup", "valuation", "raises", "raised", "cyber", "military",
-                    "defense", "stealth", "Series", "資金調達", "評価額"],
+        "context": ["startup", "valuation", "cyber", "military", "defense",
+                    "stealth", "Series", "資金調達", "評価額"],
         "exclude": ["diocese", "church", "archbishop", "cathedral city", "worship",
                     "Cathedral Arts", "St Paul", "St. Paul", "Big Sleep",
-                    "Saint Sophia", "Unesco", "UNESCO"],
+                    "Saint Sophia", "Unesco", "UNESCO", "Wells Cathedral", "organ"],
     },
     "Hadrian": {
         "query": '"Hadrian" (startup OR funding OR valuation OR factory OR defense OR raises)',

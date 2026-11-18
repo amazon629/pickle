@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T21:06:16+09:00",
-  "generated_at_label": "2026/11/18 21:06 JST",
+  "generated_at": "2026-11-18T21:08:06+09:00",
+  "generated_at_label": "2026/11/18 21:08 JST",
   "title": "10億ドル以上ユニコーン ニュース監視",
-  "total": 234,
+  "total": 239,
   "sources": [
     {
       "id": "uc_01",
@@ -89,7 +89,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_02",
@@ -176,7 +176,7 @@
           "title_ja": "インフラストラクチャーのスタートアップ Fireworks AI は、300 億ドルから 400 億ドルの評価額で新たな資金調達に向けて初期交渉を行っている"
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 0.2
     },
     {
       "id": "uc_03",
@@ -202,36 +202,6 @@
           "type": "google_news",
           "is_new": false,
           "title_ja": "カルシは新たなラウンドで650億米ドルの評価額を求める"
-        },
-        {
-          "title": "Kalshi Axes Trump Mention Markets After CFTC Raises Concerns: CNBC",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWpuVEZ4WnVyRFJuYzE1WTBlaFh2SGo2OTJSUDYwMGxhMnJYY1UtakxqOHU5cThMQUtUbWpTbXIwZFRjb2FyM0daZ2NvbnRhUms1QUJ0T09QQVJNVDNfUmlZTXkyTk56Z3hUMFI2NkxoajBEUEhCTUl1UHRveXRLaFRqbThNZTByNlR1Rm1TTVZiczEwMll2VEYtTUhzVEo0VlVN?oc=5",
-          "domain": "news.bitcoin.com",
-          "published": "2026-11-18T10:01:06+09:00",
-          "published_label": "11/18(水) 10:01",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false,
-          "title_ja": "カルシ氏、CFTCが懸念を表明後、トランプ大統領が市場に言及するとの見方を表明：CNBC"
-        },
-        {
-          "title": "Kalshi Reportedly Acquires FB Securities to Launch Stock and ETF Trading",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPS1Rwb1ZwNXdkbXQ3UG1QRmdJdnFTbjhva0U3dndCbXZUdVdSdm5JTTNwVmEyTG41SnFkOC16bVNTLXhtNm1qVEI3LVJtMl9YUHl0QjJfdWlvSmhKVnRyWVktYjU4TDMyNzFUVFR4WE0xZmc3N05jSnJmYXdmUW5UMFNfUzY4NDRSb0pTRXFyVlUyLXVlVkw1d0lzSUgtSHc?oc=5",
-          "domain": "financefeeds.com",
-          "published": "2026-11-18T09:06:55+09:00",
-          "published_label": "11/18(水) 09:06",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false,
-          "title_ja": "カルシがFB Securitiesを買収して株式とETF取引を開始すると報じられている"
         },
         {
           "title": "Kalshiの株式無期限先物に資金殺到…Nvidiaの1日取引高が1億ドル突破",
@@ -260,9 +230,37 @@
           "pinned": false,
           "type": "google_news",
           "is_new": false
+        },
+        {
+          "title": "Kalshi、50億ドル規模の不審なイーサ取引で注目集まるも「米CFTCからの接触なし」と主張",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9EeFAxRm1NYkVQWVhoNHpxVTVrNEZnZG5zOHVEZlQ5RGMtdnMtV2JxYnlWaDdaeTNITkllZS02bElSQ0hVemxET3M3WllnZ1dvTUVQLXpSV1NIOEZLbV91LXFiaDVqQ3ZVYVRub2tQX2pIeVVV?oc=5",
+          "domain": "finance.biggo.jp",
+          "published": "2026-09-24T16:00:00+09:00",
+          "published_label": "9/24(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true
+        },
+        {
+          "title": "Kalshi、IPOに向け投資銀行と初期協議か＝The Information(NADA NEWS)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSXdldmZrczNkckdDZVNFUjRYUkRxSXdLMmFVdkhZUlJxcmgwYzBlbTRmUkRoMFVvcFV2cVVQNUhLanJ0T0xjaDNNUDV4X1BTd0d0cmIyOE5RT3JsTjJXMTB3ODYtcmlXTFRXTlNOaE5uX2hDOGlvN2g4N0ZsTGVCOXBwbF91MkE?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-06-21T16:00:00+09:00",
+          "published_label": "6/21(日) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_04",
@@ -346,7 +344,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 0.5
     },
     {
       "id": "uc_05",
@@ -433,7 +431,7 @@
           "title_ja": "香港デビューで株価がつまずく中、シェインのIPOは評価額を260億米ドルに引き下げる"
         }
       ],
-      "elapsed": 3.9
+      "elapsed": 0.2
     },
     {
       "id": "uc_06",
@@ -519,7 +517,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.6
     },
     {
       "id": "uc_07",
@@ -607,7 +605,7 @@
           "title_ja": "ウォルマートがドローン配送への賭けを拡大し、ジップラインの評価額は215億ドルに達する"
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 0.4
     },
     {
       "id": "uc_08",
@@ -695,7 +693,7 @@
           "title_ja": "ドイツの防衛スタートアップ、ヘルシングがパランティアに対抗するAI軍事ソフトウェアを発表"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "uc_09",
@@ -782,7 +780,7 @@
           "title_ja": "AI クラウド Modal、シリーズ D 資金調達ラウンドで 7 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "uc_10",
@@ -870,7 +868,7 @@
           "title_ja": "McGuireWoods の Greg Hawver 氏が Harvey FORUM Chicago で法律 AI について講演"
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 0.4
     },
     {
       "id": "uc_11",
@@ -957,7 +955,7 @@
           "title_ja": "カステリオンがシリーズCで10億ドルを調達"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "uc_12",
@@ -1044,7 +1042,7 @@
           "title_ja": "Temporalの評価額は5億5,000万ドルのシリーズEで125億ドルに到達"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "uc_13",
@@ -1131,7 +1129,7 @@
           "title_ja": "ユーザーの 40% が 3 週間以内に AI アシスタントの Instinct にクレジット カードを渡します – 専門家はそれが危険であると述べています"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_14",
@@ -1140,10 +1138,86 @@
       "handle": "",
       "status": "ok",
       "error": null,
-      "via": "https://news.google.com/rss/search?q=%22Quince%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20apparel%20OR%20retailer%20OR%20raises%29&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 0,
-      "items": [],
-      "elapsed": 4.5
+      "via": "https://news.google.com/rss/search?q=%22Quince%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20apparel%20OR%20retailer%20OR%20raises%29&hl=en-US&gl=US&ceid=US:en",
+      "count": 5,
+      "items": [
+        {
+          "title": "Quince Just Restocked Some of the Best Values in Golf Apparel",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTEdueU5OMkdFTG5wRGZGcjI1cHQ4WDFiV0I1UHRqVWpvQkFvc1hhMlVWY2E4S0I3T3ZPLVVfRHJCVVhvNXdack9kVU9vWGsxTVJrem9yVnZVVVczcFNPc0VqM0FNSGFLYlZ6VlFkQlMycTRhNUJIS3J3THpHSFZOUGhsRjdUSEg2RmVWeWIyUC1OcllLc05uSGU3dllXUQ?oc=5",
+          "domain": "mygolfspy.com",
+          "published": "2026-07-21T16:00:00+09:00",
+          "published_label": "7/21(火) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true,
+          "title_ja": "Quince がゴルフアパレルのお買い得商品を再入荷しました"
+        },
+        {
+          "title": "Quince's business model could be the new retail standard",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3Nfdi10c0dZZGd5WmVIbWdqT2hCTHoyUm10N3JtS21BMHgzb3pxaVpqVXRadzE3NXFYTHV5Y1lSOW5raDBlR25oRGxMbnVYVUlkdkVhUE15bUNhUEFpUnV4S2lpejdBRzBBcjI1OE5MWF8xQk5HX3ROUks0T0Y1VFd1TFlFM0xKUEM4Q2lhQWRWeWZ0OGxOVzBaWXNkUEk?oc=5",
+          "domain": "marketplace.org",
+          "published": "2026-05-25T16:00:00+09:00",
+          "published_label": "5/25(月) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true,
+          "title_ja": "Quince のビジネス モデルは新しい小売標準になる可能性がある"
+        },
+        {
+          "title": "Fashion Retailer Quince Sued Over Unauthorized Music Use In TikTok Influencer Posts",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1pqdm5YNUc4MzlJMHJFc0R3aHJYOFpQdzZQTHRGbWkzYXBiT05ZX0ltbldHMXhFVlloVk0wNTdwVHVmZUpsTUdvRlBpcWc2b0k2MzYxeTM4SWpnWkFaVWpXYi1IcEp4eW9CWVp5bUQ0c3N1UXBqaW1aTWdrNHN2X0lXTlBYS0VsSXlaTkc1OGZod3EtVklIM1AyRVcyMEFvSGtTc1l6Uk5IWHA0eG9hTFVfZlE?oc=5",
+          "domain": "netinfluencer.com",
+          "published": "2026-04-22T16:00:00+09:00",
+          "published_label": "4/22(水) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true,
+          "title_ja": "ファッション小売業者Quince、TikTokインフルエンサー投稿での音楽無断使用で訴えられる"
+        },
+        {
+          "title": "Why Quince’s Luxury-For-Less Model Has Earned A $10.1 Billion Valuation",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZGh4ZjNudmlDMHVZSHhZazZnNS13OWVLVDNVWFg3anRiS3ZnaVI2cm5RUHJJVlJ2WkduNzEyQS1pbHFLd2VJQVVZVXk4a3ozeHk3SkFKaVR4enQ1TWloUE16VVc1dG9OZXgzUGpvbi1XejFPNjJZcHRoRno5NjkwV1VXOTVpY1V5bkdLYmtsaFRwUEVmLWVHUDc3UTQtcmNLZWx4OHA2WTNjdnB4Ym9Cal8xbjhEdWQ5d2RudU9R?oc=5",
+          "domain": "forbes.com",
+          "published": "2026-03-24T16:00:00+09:00",
+          "published_label": "3/24(火) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true,
+          "title_ja": "Quince の高級モデルが 101 億ドルの評価を得た理由"
+        },
+        {
+          "title": "Quince raises $500 million, stone manufacturers seek federal protection, and more",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWpzNGpOMnV1YWQ5VVNHTTJ4eDAteV9XSTVlNUgyNERSWjYyMDQ5SFA0R2dJYk5CU1FoWUxxVVdLRktZeFdUUmN0Yng0N3cyMXZGWkRJS1pWVVdwR2VSd25nTzJZNnhtWGJZWHl3TW1LaUkxZXlGQU4tdEJ0eHE5Zzduc1ZPZmNsVmhVUV9iRXA5R1BRT0lWdHVULWxYdUppdko1UDFqcUQtQkNzUWt3bHBnZmE?oc=5",
+          "domain": "businessofhome.com",
+          "published": "2026-03-17T16:00:00+09:00",
+          "published_label": "3/17(火) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true,
+          "title_ja": "Quince が 5 億ドルを調達、石材製造業者が連邦政府の保護を求めるなど"
+        }
+      ],
+      "elapsed": 1.9
     },
     {
       "id": "uc_15",
@@ -1229,7 +1303,7 @@
           "title_ja": "法律 AI スタートアップ Legora が評価額 88 億ドルのシリーズ E で 5 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 0.6
     },
     {
       "id": "uc_16",
@@ -1401,7 +1475,7 @@
           "title_ja": "UAVメーカーQuantum Systemsが12億ドルの資金調達"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "uc_18",
@@ -1440,7 +1514,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "先端製造会社ハドリアン社、軍用金属生産支援のためカッツタウン鋳造所に3億ドル投資へ"
         },
         {
           "title": "Hadrian Acquires Kutztown Foundry & Machine, Plans $300M Pennsylvania Expansion for Submarine Production",
@@ -1454,7 +1529,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ハドリアヌス帝、カッツタウン鋳造機械を買収、潜水艦生産のためにペンシルベニア州に3億ドルの拡張を計画"
         },
         {
           "title": "Hadrian announces $300 million investment to expand Kutztown foundry, create hundreds of jobs",
@@ -1468,7 +1544,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ハドリアヌス帝、カッツタウンの鋳造工場を拡大し、数百人の雇用を創出するために3億ドルの投資を発表"
         },
         {
           "title": "Hadrian buys Kutztown foundry, plans $300 million expansion to supply castings for Columbia- and Virginia-class submarines",
@@ -1482,10 +1559,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ハドリアヌス帝、カッツタウン鋳造工場を買収、コロンビア級潜水艦とバージニア級潜水艦に鋳物を供給するために3億ドルの拡張を計画"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "uc_19",
@@ -1509,7 +1587,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Spotify創設者のヘルススキャンスタートアップNeko Health、ニューヨークの待機リストを2週間で2倍に、バッテリーパークの立地に注目"
         },
         {
           "title": "Is Neko Health’s body scan worth it? Spotify billionaire’s startup has come to America",
@@ -1523,7 +1602,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ネコヘルスのボディスキャンは価値がありますか? Spotify 億万長者のスタートアップがアメリカに上陸"
         },
         {
           "title": "Daniel Ek’s body-scanning startup Neko Health opens first US office, in New York",
@@ -1537,7 +1617,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ダニエル・エク氏のボディスキャンスタートアップ、Neko Health が米国初のオフィスをニューヨークに開設"
         },
         {
           "title": "体スキャンスタートアップNeko Health、シリーズCで7億ドルを調達",
@@ -1565,7 +1646,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "全身画像診断会社Neko Healthが7億ドルを調達"
         }
       ],
       "elapsed": 0.3
@@ -1592,7 +1674,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Zip、分割払いローンの 2 番目の米国銀行パートナーとして Column N.A. を追加"
         },
         {
           "title": "Column bank integrates USDC and USDT stablecoins into core banking for fintechs via single API.",
@@ -1606,7 +1689,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "コラム バンクは、単一の API を介して USDC および USDT ステーブルコインをフィンテック向けのコア バンキングに統合します。"
         },
         {
           "title": "Oportun and Column Announce New Lending Partnership to Expand Access to Responsible Credit",
@@ -1620,7 +1704,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "オポルトゥンとコラム、責任ある信用へのアクセスを拡大するための新たな融資提携を発表"
         },
         {
           "title": "Oportun Launches Four-Year Bank-Lending Program With Column, Gaining Option to Buy Originated Loans",
@@ -1634,7 +1719,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "オポルトゥン、コラム付きの4年間の銀行融資プログラムを開始、組成されたローンを購入するオプションを獲得"
         },
         {
           "title": "Best Egg and Column Announce New Lending Partnership to Support Personal Loan Growth",
@@ -1648,10 +1734,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Best Egg と Column が個人ローンの成長をサポートする新たな融資提携を発表"
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 0.3
     },
     {
       "id": "uc_21",
@@ -1689,7 +1776,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "General Intuition が物理 AI の世界モデルを拡張するために 2 億 2,000 万ドルを調達"
         },
         {
           "title": "General Intuition Raises USD220M in Funding at USD 6.2 Billion Valuation",
@@ -1703,7 +1791,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "General Intuition が 62 億米ドルの評価額で 2 億 2,000 万米ドルの資金を調達"
         },
         {
           "title": "General Intuition Raises $220 Million At $6.2 Billion Valuation",
@@ -1734,7 +1823,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 0.3
     },
     {
       "id": "uc_22",
@@ -1817,7 +1906,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_23",
@@ -1900,7 +1989,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "uc_24",
@@ -1983,7 +2072,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "uc_25",
@@ -2066,7 +2155,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.4
     },
     {
       "id": "uc_26",
@@ -2149,7 +2238,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "uc_27",
@@ -2232,7 +2321,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "uc_28",
@@ -2315,7 +2404,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 0.4
     },
     {
       "id": "uc_29",
@@ -2398,7 +2487,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.1
     },
     {
       "id": "uc_30",
@@ -2481,7 +2570,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "uc_31",
@@ -2561,7 +2650,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -2647,7 +2736,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "uc_33",
@@ -2730,7 +2819,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.1
     },
     {
       "id": "uc_34",
@@ -2813,7 +2902,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_35",
@@ -2896,7 +2985,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "uc_36",
@@ -2965,13 +3054,13 @@
           "is_new": false
         },
         {
-          "title": "Wells Cathedral raises £1m to fix deteriorating organ",
+          "title": "What a cathedral and a massive military parade show about Putin’s Russia",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IaFhPY0dkS3NHeml5TTBZVnlkVm1DakFwYndSNzViUjVzTksyejVkYTlrd3VfeUhhaDJpYXVqUTc1UHQ2VHlqRXdWVFBaalViUFBFZkRDRFJLSnhl?oc=5",
-          "domain": "bbc.co.uk",
-          "published": "2025-01-26T17:00:00+09:00",
-          "published_label": "2025/1/26(日) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNjZrLTdIeHNYcW9GV1M1TUxwaVFWRlp6OHhiTzQ0dUQzbnhIS1dCZnJ4eTU4c2hHOGNnY1JFNjFYSEEyQnBIb1ZZeFc1U1IxWjNYTllEd1lzSDRld0RHWDZqV214WjJWRGlsQ0RKZjF3UGhNaExZUTI0NXMtdjNUUElEQkdaeGtBdkpNY2tMOVpnN3J6TVM0SG83ZnA5SnNHSkhUUG92NnZCZw?oc=5",
+          "domain": "theconversation.com",
+          "published": "2022-05-06T16:00:00+09:00",
+          "published_label": "2022/5/6(金) 16:00",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3145,7 +3234,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.2
+      "elapsed": 0.3
     },
     {
       "id": "uc_39",
@@ -3311,7 +3400,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 1.8
     },
     {
       "id": "uc_41",
@@ -3394,7 +3483,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "uc_42",
@@ -3477,7 +3566,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.5
     },
     {
       "id": "uc_43",
@@ -3560,7 +3649,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.3
     },
     {
       "id": "uc_44",
@@ -3726,7 +3815,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_46",
@@ -3795,7 +3884,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.3
     },
     {
       "id": "uc_47",
@@ -3961,7 +4050,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     }
   ]
 }
