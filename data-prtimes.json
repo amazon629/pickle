@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T05:27:15+09:00",
-  "generated_at_label": "2026/11/19 05:27 JST",
+  "generated_at": "2026-11-19T06:27:15+09:00",
+  "generated_at_label": "2026/11/19 06:27 JST",
   "title": "PR TIMES監視ボード",
   "total": 60,
   "sources": [
@@ -255,7 +255,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_prtimes_mktg",
@@ -508,7 +508,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 1.8
     },
     {
       "id": "x_prtimes_biz",
@@ -520,6 +520,22 @@
       "via": "https://nitter.cf/PRTIMES_BIZ/rss",
       "count": 15,
       "items": [
+        {
+          "title": "選挙ドットコム公式YouTubeチャンネル「選挙ドットコムちゃんねる」初のLINEスタンプが11月19日（木）より販売開始！",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123161083691343873/11VUMLwc?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/PRTIMES_BIZ/status/2123161083284447378",
+          "domain": "x.com",
+          "published": "2026-11-19T06:07:03+09:00",
+          "published_label": "11/19(木) 06:07",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "年末年始の大掃除・断捨離を買取マクサス市川本八幡店が応援！市川市・船橋市・千葉市で「3ジャンル買取成立で3,00...",
           "summary": "",
@@ -534,7 +550,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "千葉県で「鑑別書なし・古い真珠」の無料査定キャンペーンを開始｜真珠買取本舗 千葉市川店が長期保管品の売却相談...",
@@ -743,25 +759,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123017639975108608/0VRVRkY4?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/PRTIMES_BIZ/status/2123025444442436029",
-          "domain": "x.com",
-          "published": "2026-11-18T21:08:04+09:00",
-          "published_label": "11/18(水) 21:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 2.0
     },
     {
       "id": "x_prtimes_beauty",
@@ -1014,7 +1014,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.4
+      "elapsed": 0.7
     }
   ]
 }
