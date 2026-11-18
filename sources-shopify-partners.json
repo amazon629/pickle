@@ -1,0 +1,559 @@
+{
+  "settings": {
+    "title": "Shopify 受賞パートナー ニュース監視",
+    "nav_label": "Shopify代理店",
+    "items_per_source": 5,
+    "timeout_seconds": 15,
+    "retries": 2,
+    "fetch_workers": 4,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "shp_01",
+      "type": "google_news",
+      "name": "株式会社R6B",
+      "query": "\"R6B\"",
+      "must_match": [
+        "R6B",
+        "アールロクビー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_02",
+      "type": "google_news",
+      "name": "フィードフォースグループ株式会社",
+      "query": "\"フィードフォースグループ\"",
+      "must_match": [
+        "フィードフォースグループ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_03",
+      "type": "google_news",
+      "name": "株式会社アパレルウェブ",
+      "query": "\"アパレルウェブ\"",
+      "must_match": [
+        "アパレルウェブ",
+        "APPAREL WEB"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_04",
+      "type": "google_news",
+      "name": "株式会社ウェブライフ",
+      "query": "\"ウェブライフ\"",
+      "must_match": [
+        "ウェブライフ",
+        "Web Life",
+        "weblife"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_05",
+      "type": "google_news",
+      "name": "株式会社TwoGate",
+      "query": "\"TwoGate\"",
+      "must_match": [
+        "TwoGate",
+        "ツーゲート"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_06",
+      "type": "google_news",
+      "name": "合同会社デロイト トーマツ",
+      "query": "\"デロイト トーマツ\"",
+      "must_match": [
+        "デロイト トーマツ",
+        "デロイトトーマツ",
+        "Deloitte"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_07",
+      "type": "google_news",
+      "name": "株式会社Stack",
+      "query": "\"株式会社Stack\"",
+      "must_match": [
+        "株式会社Stack"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_08",
+      "type": "google_news",
+      "name": "株式会社Tsun",
+      "query": "\"株式会社Tsun\"",
+      "must_match": [
+        "株式会社Tsun",
+        "Tsun"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_09",
+      "type": "google_news",
+      "name": "株式会社アイティフォー",
+      "query": "\"アイティフォー\"",
+      "must_match": [
+        "アイティフォー",
+        "ITFOR"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_10",
+      "type": "google_news",
+      "name": "株式会社ファイブビット",
+      "query": "\"ファイブビット\"",
+      "must_match": [
+        "ファイブビット",
+        "Fivebit",
+        "FIVEBIT"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_11",
+      "type": "google_news",
+      "name": "株式会社電通デジタル",
+      "query": "\"電通デジタル\"",
+      "must_match": [
+        "電通デジタル"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_12",
+      "type": "google_news",
+      "name": "株式会社ＡＭＳ",
+      "query": "\"株式会社AMS\"",
+      "must_match": [
+        "株式会社AMS",
+        "株式会社ＡＭＳ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_13",
+      "type": "google_news",
+      "name": "AnyMind Group株式会社",
+      "query": "\"AnyMind Group\"",
+      "must_match": [
+        "AnyMind"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_14",
+      "type": "google_news",
+      "name": "Recustomer 株式会社",
+      "query": "\"Recustomer\"",
+      "must_match": [
+        "Recustomer"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_15",
+      "type": "google_news",
+      "name": "フラッグシップ株式会社",
+      "query": "\"フラッグシップ株式会社\"",
+      "must_match": [
+        "フラッグシップ株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_16",
+      "type": "google_news",
+      "name": "株式会社ハックルベリー",
+      "query": "\"株式会社ハックルベリー\"",
+      "must_match": [
+        "ハックルベリー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_17",
+      "type": "google_news",
+      "name": "株式会社フルバランス",
+      "query": "\"株式会社フルバランス\"",
+      "must_match": [
+        "フルバランス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_18",
+      "type": "google_news",
+      "name": "三井物産株式会社",
+      "query": "\"三井物産\" Shopify OR EC",
+      "must_match": [
+        "三井物産"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "Shopify",
+        "ショッピファイ",
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ストア",
+        "出店",
+        "越境",
+        "D2C",
+        "アプリ",
+        "決済",
+        "物流",
+        "在庫",
+        "受注",
+        "カート",
+        "CRM",
+        "小売",
+        "マーケティング",
+        "広告",
+        "代理店",
+        "ソリューション",
+        "サービス",
+        "事業",
+        "株式会社",
+        "社長",
+        "代表",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "セミナー",
+        "調査",
+        "レポート",
+        "インタビュー"
+      ]
+    },
+    {
+      "id": "shp_19",
+      "type": "google_news",
+      "name": "株式会社StoreHero",
+      "query": "\"StoreHero\"",
+      "must_match": [
+        "StoreHero",
+        "ストアヒーロー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_20",
+      "type": "google_news",
+      "name": "株式会社and.d",
+      "query": "\"株式会社and.d\"",
+      "must_match": [
+        "and.d",
+        "and．d"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_21",
+      "type": "google_news",
+      "name": "株式会社ロジレス",
+      "query": "\"ロジレス\"",
+      "must_match": [
+        "ロジレス",
+        "LOGILESS"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_22",
+      "type": "google_news",
+      "name": "AnyReach株式会社",
+      "query": "\"AnyReach\"",
+      "must_match": [
+        "AnyReach",
+        "エニーリーチ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_23",
+      "type": "google_news",
+      "name": "トランスコスモス株式会社",
+      "query": "\"トランスコスモス\"",
+      "must_match": [
+        "トランスコスモス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_24",
+      "type": "google_news",
+      "name": "株式会社Appify Technologies",
+      "query": "\"Appify Technologies\"",
+      "must_match": [
+        "Appify Technologies"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "shp_25",
+      "type": "google_news",
+      "name": "株式会社リワイア",
+      "query": "\"リワイア\"",
+      "must_match": [
+        "リワイア"
+      ],
+      "limit": 5,
+      "enabled": true
+    }
+  ]
+}

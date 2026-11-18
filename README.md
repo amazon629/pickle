@@ -14,8 +14,10 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
 | スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
+| SmartNews 認定代理店 ニュース監視 | `sources-smartnews-partners.json` | `smartnews-partners.html` | `data-smartnews-partners.json` |
+| Shopify 受賞パートナー ニュース監視 | `sources-shopify-partners.json` | `shopify-partners.html` | `data-shopify-partners.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -36,6 +38,8 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
 | `sources-startup.json` | スタートアップボードの監視対象 |
 | `sources-ec-companies.json` | ピュアフラット登壇企業ボードの監視対象（70社。`sync_pureflat_companies.py` で生成） |
+| `sources-smartnews-partners.json` | SmartNews 認定代理店ボードの監視対象（90社。`sync_smartnews_partners.py` で生成） |
+| `sources-shopify-partners.json` | Shopify 受賞パートナーボードの監視対象（25社。`sync_shopify_partners.py` で生成） |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
 | `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定／`--bulk` でまとめて追加） |
 | `index.html` / `data.json` | メインボードの生成物 |
@@ -44,7 +48,11 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
 | `startup.html` / `data-startup.json` | スタートアップボードの生成物 |
 | `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
+| `smartnews-partners.html` / `data-smartnews-partners.json` | SmartNews 認定代理店ボードの生成物 |
+| `shopify-partners.html` / `data-shopify-partners.json` | Shopify 受賞パートナーボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
+| `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
+| `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
 ## すぐ使う
@@ -81,6 +89,25 @@ python3 update.py --board ec-companies       # このボードだけ更新
 - 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
 - 一時的に取れない社があっても他のボードの更新を止めないよう、このボードは `settings.tolerate_errors: true` です
   （取得できなかった社はカードに「取得エラー」と出ます）。
+
+### SmartNews 認定代理店ボード / Shopify 受賞パートナーボード
+
+Excel から起こした「1社＝1ソース」のボードです。元データを直したら同期スクリプトを流し直すだけで、
+監視対象が追随します（スクリプトは標準ライブラリだけで Excel を読みます）。
+
+```bash
+python3 sync_smartnews_partners.py --check   # 2026年＋2025年の認定企業90社 → sources-smartnews-partners.json
+python3 sync_shopify_partners.py --check     # 2022〜2025年の受賞パートナー25社 → sources-shopify-partners.json
+python3 update.py --board smartnews-partners,shopify-partners   # この2枚だけ更新
+```
+
+- SmartNews 側は 2026年の認定企業62社と、2026年はランク外になった2025年認定企業28社の計90社。
+  社名非公表の行は除外し、`株式会社WEB GRAM`→`WEBGRAM` などの表記ゆれは `ALIASES` で統合しています。
+- Shopify 側は受賞回数の多い順（R6B が3年連続、ほか4社が2回）に並べた25社。
+- 「無限」「ブリーチ」「ヴァンクリーフ」「タイズ」「バローズ」のような一般語・同名他社と衝突する社名は、
+  `OVERRIDES` でクエリを「株式会社〈社名〉」に絞り、`context_match`（広告／EC 業界の語）で別物を落としています。
+  Shopify 側は「Stack」「Tsun」「AMS」のような短い英字名が対象です。
+- 記事0件の社はエラーにせず「新しい記事はありません」と表示し、`tolerate_errors: true` で他ボードの更新を止めません。
 
 ```jsonc
 // sources-ec-companies.json の1社ぶん
