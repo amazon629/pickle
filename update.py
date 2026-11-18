@@ -31,6 +31,7 @@ import os
 import re
 import subprocess
 import sys
+import threading
 import time
 import unicodedata
 import urllib.error
@@ -87,6 +88,11 @@ def discover_boards() -> list:
     return boards
 
 JST = timezone(timedelta(hours=9), "JST")
+# 全ボードをまとめて取得するときの同時接続数。大きくしすぎると Google ニュース /
+# nitter に 429 を返されるので、この程度で止める（--workers で上書き可）。
+GLOBAL_FETCH_WORKERS = 24
+# nitter へ同時に投げる本数の上限（レート制限で空フィードが返るのを避ける）
+X_FETCH_GATE = threading.Semaphore(6)
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
 CJK_RE = re.compile(r"[ぁ-んァ-ヶー一-龥々〆ヵヶ]")
 ILLEGAL_XML_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
@@ -765,31 +771,50 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
         result.update(status="error", error="フィードURLを決められません（設定を確認）", elapsed=round(time.time() - started, 1))
         return result
 
-    entries, errors, used = [], [], []
-
     if src.get("type") == "x":
         # X はミラーを順に試し、最初に成功したものだけを使う
         candidates = urls
     else:
         candidates = urls  # ニュース等は複数フィードを合成する
 
-    for url in candidates:
-        try:
-            raw, status, final = http_get(url, timeout, ua, retries)
-            got = parse_feed(raw)
-            if not got and src.get("type") != "google_news":
-                # 社名検索（google_news）は該当記事0件が普通なのでエラーにしない
-                raise ValueError("記事が0件（フィードが空か形式が違います）")
-            entries.extend(got)
-            used.append(url)
-            if verbose:
-                print(f"    ok   {url}  ({len(got)} items)")
-            if src.get("type") == "x":
-                break
-        except Exception as exc:  # noqa: BLE001
-            errors.append(f"{url} -> {exc}")
-            if verbose:
-                print(f"    fail {url}  ({exc})")
+    def try_urls(urls_to_try):
+        got_entries, got_errors, got_used = [], [], []
+        for url in urls_to_try:
+            try:
+                raw, status, final = http_get(url, timeout, ua, retries)
+                got = parse_feed(raw)
+                if not got and src.get("type") != "google_news":
+                    # 社名検索（google_news）は該当記事0件が普通なのでエラーにしない
+                    raise ValueError("記事が0件（フィードが空か形式が違います）")
+                got_entries.extend(got)
+                got_used.append(url)
+                if verbose:
+                    print(f"    ok   {url}  ({len(got)} items)")
+                if src.get("type") == "x":
+                    break
+            except Exception as exc:  # noqa: BLE001
+                got_errors.append(f"{url} -> {exc}")
+                if verbose:
+                    print(f"    fail {url}  ({exc})")
+        return got_entries, got_errors, got_used
+
+    # nitter は同時に投げすぎるとレート制限で空のフィードを返すので、
+    # X の取得は別枠のセマフォで絞る（全体は 24 並列でも、nitter へは 6 まで）。
+    gate = X_FETCH_GATE if src.get("type") == "x" else None
+    if gate is not None:
+        gate.acquire()
+    try:
+        entries, errors, used = try_urls(candidates)
+        if src.get("type") == "x" and not entries:
+            # 一時的なレート制限は少し待つと戻ることが多いので、一度だけやり直す
+            time.sleep(2.0)
+            more, more_errors, more_used = try_urls(candidates)
+            entries += more
+            errors += more_errors
+            used += more_used
+    finally:
+        if gate is not None:
+            gate.release()
 
     if not entries:
         if used:
@@ -1178,7 +1203,7 @@ def board_label(board: dict, settings: dict) -> str:
     )
 
 
-def run_board(board: dict, args, nav_block: str = "") -> dict:
+def run_board(board: dict, args, nav_block: str = "", prefetched: list = None) -> dict:
     """1枚のボードを取得して書き出す。結果のサマリーを返す。"""
     cfg = load_sources(board["config"])
     settings = cfg["settings"]
@@ -1194,13 +1219,18 @@ def run_board(board: dict, args, nav_block: str = "") -> dict:
     previous = previous_items_by_link(board["data"])
     old_links = set(previous)
 
-    workers = max(1, int(settings.get("fetch_workers", 8)))
-    print(f"取得開始: {len(sources)} ソース（並列 {min(workers, len(sources))}）  — {title}")
-    if args.verbose:
-        for src in sources:
-            print(f"  - {src.get('name')} [{src.get('type')}]")
-    with ThreadPoolExecutor(max_workers=min(workers, max(1, len(sources)))) as pool:
-        fetched = list(pool.map(lambda s: fetch_source(s, settings, verbose=False), sources))
+    if prefetched is not None:
+        # run() が全ボードぶんまとめて取得済み（ボードをまたいで並列化）
+        fetched = list(prefetched)
+        print(f"取得済み: {len(fetched)} ソース  — {title}")
+    else:
+        workers = max(1, int(settings.get("fetch_workers", 8)))
+        print(f"取得開始: {len(sources)} ソース（並列 {min(workers, len(sources))}）  — {title}")
+        if args.verbose:
+            for src in sources:
+                print(f"  - {src.get('name')} [{src.get('type')}]")
+        with ThreadPoolExecutor(max_workers=min(workers, max(1, len(sources)))) as pool:
+            fetched = list(pool.map(lambda s: fetch_source(s, settings, verbose=False), sources))
     for res in fetched:
         for item in res["items"]:
             item["is_new"] = bool(old_links) and item["link"] not in old_links
@@ -1275,6 +1305,54 @@ def run_board(board: dict, args, nav_block: str = "") -> dict:
     }
 
 
+def prefetch_all(boards: list, workers: int = None) -> dict:
+    """全ボードのソースを1つのプールでまとめて取得する（ボードをまたいで並列化）。
+
+    これまではボードごとに順番に取りに行っていたので、ソースの少ないボードが
+    続くと待ち時間が積み上がった。ここでは全ボードぶんの取得を先に一括で流し、
+    同時接続数を workers で抑えることで、Google ニュース / nitter への
+    過剰なバーストを避けつつ全体の時間を短くする。
+
+    戻り値: {ボードのindex: [fetch_source の結果, ...]}（ソースの並び順）
+    """
+    workers = max(1, int(workers or GLOBAL_FETCH_WORKERS))
+    plans = []
+    for board in boards:
+        cfg = load_sources(board["config"])
+        settings = cfg["settings"]
+        srcs = [s for s in cfg["sources"] if s.get("enabled", True)]
+        plans.append((settings, srcs))
+
+    results = {bi: [None] * len(srcs) for bi, (_, srcs) in enumerate(plans)}
+    total = sum(len(srcs) for _, srcs in plans)
+    started = time.time()
+    print(f"一括取得: {total} ソース / {len(plans)} ボード（並列 {workers}）")
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = []
+        for bi, (settings, srcs) in enumerate(plans):
+            for si, src in enumerate(srcs):
+                futures.append((bi, si, pool.submit(fetch_source, src, settings, False)))
+        for bi, si, fut in futures:
+            try:
+                results[bi][si] = fut.result()
+            except Exception as exc:  # noqa: BLE001
+                src = plans[bi][1][si]
+                results[bi][si] = {
+                    "id": src.get("id") or src.get("name") or "source",
+                    "type": src.get("type", "news"),
+                    "name": src.get("name") or src.get("id") or "source",
+                    "handle": src.get("handle", ""),
+                    "status": "error",
+                    "error": f"{type(exc).__name__}: {exc}",
+                    "via": "",
+                    "count": 0,
+                    "items": [],
+                    "elapsed": 0.0,
+                }
+    print(f"一括取得 完了: {time.time() - started:.1f}秒")
+    return results
+
+
 def run(args) -> int:
     """コマンドライン引数から対象ボードを決めて更新する。"""
     all_boards = discover_boards()
@@ -1310,9 +1388,15 @@ def run(args) -> int:
             labels[b["name"]] = b["name"]
 
     summaries = []
-    for board in boards:
+    prefetched_all = None
+    if len(boards) > 1 and not args.only:
+        prefetched_all = prefetch_all(boards, getattr(args, "workers", None))
+    for bi, board in enumerate(boards):
         nav = render_nav(board["name"], all_boards, labels)
-        summary = run_board(board, args, nav_block=nav)
+        summary = run_board(
+            board, args, nav_block=nav,
+            prefetched=(prefetched_all.get(bi) if prefetched_all is not None else None),
+        )
         summary["name"] = board["name"]
         summaries.append(summary)
         if len(boards) > 1 and not args.dry_run:
@@ -1339,6 +1423,11 @@ def main(argv=None) -> int:
     parser.add_argument("--config", help="この sources*.json だけ更新（例: sources-ipo.json）")
     parser.add_argument("--out", help="--config と一緒に使う: 出力するHTML")
     parser.add_argument("--data", help="--config と一緒に使う: 出力するJSON")
+    parser.add_argument(
+        "--workers",
+        type=int,
+        help=f"全ボードまとめて取得するときの並列数（既定 {GLOBAL_FETCH_WORKERS}）",
+    )
     parser.add_argument("--add", nargs=argparse.REMAINDER, help="add_source.py に委譲してソースを追加")
     args = parser.parse_args(argv)
 

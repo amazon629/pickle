@@ -16,8 +16,10 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
 | SmartNews 認定代理店 ニュース監視 | `sources-smartnews-partners.json` | `smartnews-partners.html` | `data-smartnews-partners.json` |
 | Shopify 受賞パートナー ニュース監視 | `sources-shopify-partners.json` | `shopify-partners.html` | `data-shopify-partners.json` |
+| SNS・広告代理店 ニュース監視 | `sources-sns-agencies.json` | `sns-agencies.html` | `data-sns-agencies.json` |
+| 広告・マーケ X監視ボード | `sources-ad-marketing.json` | `ad-marketing.html` | `data-ad-marketing.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -25,7 +27,8 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 - 上部の検索欄で、表示中の全ソースを横断して絞り込み
 - 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
   訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
-- 取得は並列（既定8並行）、和訳も並列なので、2回目以降の更新は数秒で終わります
+- 取得は全ボードまとめて並列（既定24並行・`--workers` で変更可）。X（nitter）だけは6並行に絞って
+  レート制限を避けるので、10ページ・296ソースでも1回の更新は10秒前後で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
@@ -50,9 +53,13 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
 | `smartnews-partners.html` / `data-smartnews-partners.json` | SmartNews 認定代理店ボードの生成物 |
 | `shopify-partners.html` / `data-shopify-partners.json` | Shopify 受賞パートナーボードの生成物 |
+| `sns-agencies.html` / `data-sns-agencies.json` | SNS・広告代理店ボードの生成物 |
+| `ad-marketing.html` / `data-ad-marketing.json` | 広告・マーケ X監視ボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
 | `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
+| `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
+| `sources-ad-marketing.json` | 広告・マーケ X監視ボードの監視対象（X 10アカウント。`add_source.py --bulk` で作成） |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
 ## すぐ使う
@@ -121,6 +128,22 @@ python3 update.py --board smartnews-partners,shopify-partners   # この2枚だ�
   "limit": 5
 }
 ```
+
+### SNS・広告代理店ボード / 広告・マーケ Xボード
+
+```bash
+python3 sync_sns_agencies.py --check      # 38社ぶんの設定を作り直し、各社のヒット件数も表示
+python3 sync_sns_agencies.py --list       # 登録社名の一覧
+python3 add_source.py --bulk --config sources-ad-marketing.json --title "広告・マーケ X監視ボード" \
+  --nav-label "広告・マーケ" --text "名前 @handle ..."   # X アカウントのボードを作る／足す
+```
+
+- 監視する企業は `sync_sns_agencies.py` の `COMPANIES` に並べるだけ。`--check` で
+  「どの社が何件ヒットしているか」を確認でき、ノイズが多い社は `OVERRIDES` に1行足して
+  `query` を「株式会社〈社名〉」に絞る／`context_match`（広告・マーケの語）を付ける。
+- 「ブリーチ」「ベクトル」「オプト」「ナハト」のような一般語や、「UUUM」「DYM」「CATS」
+  「studio15」のような短い英字名は、同名他社（美容のブリーチ、猫の CATS など）が混ざるので
+  必ず `must_match` / `context_match` で絞る。
 
 ## 和訳
 

@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "title": "広告・マーケ X監視ボード",
+    "nav_label": "広告・マーケ",
+    "items_per_source": 12,
+    "translate": true,
+    "translate_max_per_run": 40,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "timeout_seconds": 15,
+    "retries": 1,
+    "fetch_workers": 4,
+    "translate_workers": 8,
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_shev_webmarke",
+      "type": "x",
+      "name": "シェバ(伊藤)｜Strato Rise 代表",
+      "handle": "shev_webmarke",
+      "enabled": true
+    },
+    {
+      "id": "x_kwm_co_jp",
+      "type": "x",
+      "name": "株式会社キーワードマーケティング",
+      "handle": "kwm_co_jp",
+      "enabled": true
+    },
+    {
+      "id": "x_rkawtr",
+      "type": "x",
+      "name": "川手 遼一",
+      "handle": "RKawtr",
+      "enabled": true
+    },
+    {
+      "id": "x_unyoojp",
+      "type": "x",
+      "name": "Unyoo｜インハウス化と広告運用の専門メディア",
+      "handle": "unyoojp",
+      "enabled": true
+    },
+    {
+      "id": "x_anagrams_inc",
+      "type": "x",
+      "name": "アナグラム株式会社",
+      "handle": "Anagrams_inc",
+      "enabled": true
+    },
+    {
+      "id": "x_kloutter",
+      "type": "x",
+      "name": "jigen_1",
+      "handle": "Kloutter",
+      "enabled": true
+    },
+    {
+      "id": "x_atarajp",
+      "type": "x",
+      "name": "アタラ株式会社（ATARA）",
+      "handle": "atarajp",
+      "enabled": true
+    },
+    {
+      "id": "x_ytakara",
+      "type": "x",
+      "name": "寳洋平@アユダンテ",
+      "handle": "ytakara",
+      "enabled": true
+    },
+    {
+      "id": "x_hidenoritakii",
+      "type": "x",
+      "name": "滝井秀典",
+      "handle": "hidenoritakii",
+      "enabled": true
+    },
+    {
+      "id": "x_sugiharg",
+      "type": "x",
+      "name": "杉原剛@デジタル広告最新ニュース",
+      "handle": "sugiharg",
+      "enabled": true
+    }
+  ]
+}

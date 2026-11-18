@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T11:07:56+09:00",
-  "generated_at_label": "2026/11/18 11:07 JST",
+  "generated_at": "2026-11-18T11:13:07+09:00",
+  "generated_at_label": "2026/11/18 11:13 JST",
   "title": "AI監視ボード",
   "total": 372,
   "sources": [
@@ -259,7 +259,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 5.4
     },
     {
       "id": "x_okapi_fukugyo",
@@ -315,7 +315,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "【中国系モデル】\n■（中）Alibaba Qwen 4\n11/16にフラッグシップのQwen4-Maxが公開されました（詳細は5ポスト目）。Alibabaは、より小型のQwen4モデルをオープンウェイトで提供する方針と報じられています。時期は未発表で、ローカルで動かせるQwen 4への期待が高まっています。\n■（中）DeepSeek V4.1 Pro【テスト・有力観測】\nV4.1 Flashはすでに提供されています。公式ニュースではV4.1-Proの登場が前提として触れられています。11月上旬から一部ユーザーで試験的に振り分けが始まったとの観測もあります。\n■（中）MiniMax M3.1 Pro\n11/6〜7にYan Junjie CEOがポッドキャストで、次期フラッグシップのM3.1 Proが最終の学習段階にあり、コードとエージェント能力に注力していると語りました。",
@@ -329,7 +329,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "正式発表前の「次世代AIモデル」を整理しました。\n※日本時間2026年11月18日時点\n【開発・報道の裏付けあり】\n（米）OpenAI次世代フロンティアモデル\n（米）xAI Grok 4.8\n（中）Qwen 4 小型オープンウェイト\n（中）MiniMax M3.1 Pro\n【テスト・有力観測】\n（中）DeepSeek V4.1 Pro\n【噂・初期観測】\n（米）Claude Mythos 5.5\n（米）Gemini 4 Oxygen\n（米）Cursor Composer 3\n【11/12〜11/18に正式公開】\n（米）GPT-6.2 Astra／Sol（11/18）\n（米）Gemini 4 Hydrogen（11/13）\n（中）Qwen4-Max（11/16）\n詳細はスレッドへ👇",
@@ -424,7 +424,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "📝Museで動画制作するなら、この18個のまとめ、かなり使える\nもちろんClaude Code、Codex等でも有効活用できる\nMuseでアニメーション動画を作るための、無料スキル18個\nおかぴさんが、GitHubで公開されているものをまとめている\n役割で分けると、こうなる\n1. 動画を作らせる：Remotion Skills\n2. 図解と画面の動き：Motion Canvas、Motion、Anime.js、Ola\n3. 数式と2D：Manim、Two.js、Konva\n4. 3Dとゲーム：Three.js、Blender、Godot、Babylon.js、LUME\n5. 再生と書き出し：Lottie Web、TweenJS、Shifty、gifenc、Proton\n作る、動かす、直す、書き出すまで、18個で一通りそろう\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せる\n使う場面が見えるまとめは、こうして手元に残る\nVideo\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nMuseでアニメーション動画を作るなら、この18個を入れておけばだいたい作れる。\n全部GitHubで無料公開。\n01 Remotion Skills → AIに動画を作らせる公式スキル\n02 Motion Canvas → 図解アニメ\n03 Motion → 画面切り替えの動き\n04 Ola → 数値をなめらかに動かす\n05 Anime.js → タイムライン・時間差の動き\n06 Manim → 数式・図形のアニメ\n07 Shifty → イージングとトゥイーン\n08 Two.js → 2Dベクターのアニメ\n09 Lottie Web → 軽いベクターアニメの再生\n10 TweenJS → 順番に動かすアニメ\n11 LUME → HTMLで3Dシーン\n12 gifenc → GIF書き出し\n13 Konva → 触って動くキャンバス\n14 Blender → リグ・キャラクターアニメ\n15 Three.js → 3Dシーン\n16 Godot → ゲームのアニメーション\n17 Babylon.js → 3Dの描画とアニメ\n18 Proton → パーティクル\n指示 → 作る → 動かす → 直す → 書き出す、まで全部そろう。\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せます。\nあとで絶対使うので保存推奨。\nVideo\n— https://x.com/okapi_fukugyo/status/2121725407867351215",
@@ -440,7 +440,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "🚨ネットで拾った画像、そのままAIに投げるのは危ない！\n画像には、人には見えないが「AIには読める指示文」を埋め込める。\nAIはそれをユーザーの指示として扱い、意図しない動作をする。\n道に落ちているQRコードを読むのと同じ仕組み。\nスクショすれば安全、ではない！\n隠し方は2つ。\n1. 絵の中に直接書く\n白背景にほぼ白の文字、隅の極小文字\nスクショしても絵はそのまま写る。消えない。\n引用元の警告はこれ\n2. ファイルの見えない部分に付ける\nメタデータや、ファイルの余分な部分に入れた文字。\nスクショや再保存で新しいファイルにすると、残らない。\nスクショが効くのは2だけ。\n渡す前の確認\n・拡大と、明るさ・コントラストの調整で隅と背景を確認\n・元ファイルではなく、スクショや再保存したものを使う\nそれでも安全の保証にはならない。\nAIが読み込むときに縮小されて初めて見える仕掛けは、人の確認では見つからない。\n確実なのは、出所不明の画像はAIに投げないこと。\nメール送信やサイト操作ができるAIエージェントには、直接読ませない。\nC-A-G (@C_A_G0101)\nPar souci de sécurité, on ne dépose jamais une image récupérée ainsi sur un chat LLM.\nL'image peut contenir des instructions invisibles pour un oeil humain, mais parfaitement lisibles pour le LLM.\nC'est du même genre que scanner un QR Code trouvé dans la rue.\n— https://x.com/C_A_G0101/status/2120493659770556518",
@@ -470,7 +470,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "明日のお仕事これで遊ぶ\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2121777911409877374",
@@ -486,7 +486,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "■ 1. Anthropic公式「pptx」スキルでAI資料の脱ダサ\n作る前に「誰に見せる資料か」を考えさせて配色や構成を決め、最後はAIが全ページを見直してはみ出しやズレを直す公式スキル。グラフや表もPowerPointの部品のまま出てくるので、数字を差し替えてそのまま使える。\n🐥スキル自体は以前からあるけど、11/14にも更新が入ってて、今月はOffice系スキルがApache 2.0ライセンスになった。中身を読むと、スライドを画像にして全ページ目視チェックするのが必須工程になってて、ここがAIスライドのダサさを減らす肝。ただ、チェック時の文字幅は手元のPowerPointとズレることがあるから、日本語資料は最後に自分のPowerPointで開いて確認しておくと安心。\n1/5\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2121777911409877374",
@@ -502,10 +502,10 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 5.4
     },
     {
       "id": "x_codexneo4",
@@ -748,7 +748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 5.3
     },
     {
       "id": "x_beku_ai",
@@ -979,7 +979,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 5.9
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1234,7 +1234,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_taki_auto",
@@ -1490,7 +1490,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_sora19ai",
@@ -1732,7 +1732,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.5
     },
     {
       "id": "x_shota7180",
@@ -1991,7 +1991,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.7
     },
     {
       "id": "x_ichiaimarketer",
@@ -2081,7 +2081,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "話題の Grok Bot、自作の操作アプリ「Nox」に繋げてます。\nただ正直な話、Grok Bot は必須じゃないと思ってる。\n自分の使い方はこう👇\n・動画編集やSEOの記事づくりみたいな重い仕事 → Mac Studio で動かしている Claude Code と Codex\n・Grok Bot → Nox に溜まった「自分が決める事」（どの案で進めるか、みたいな事）を知らせる通知役だけ\n理由はシンプルで\n裏で何をやっているかが見えないと、重い仕事は任せられないから。\nなので\n・Mac mini や Mac Studio を持っている人 → 無くても回る\n・これからAIに仕事を任せてみたい人 → 入り口としては最高（メールの作成や予約は任せられる）\nスマホから頼める事は限られます。\nMacを持っているなら、まず Claude Code か Codex を入れて、つけっぱなしにしておく方が先です。",
@@ -2129,7 +2129,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "【告知】\n11月23日（月・祝）19時から、\nオンラインイベント『THE AI SUMMIT』に講師として登壇します😳\n野田さん（@ai_shunoda）にご紹介いただいて、太陽さん主催のこのイベントに出られることになりました。本当にありがとうございます🙇\n僕のパートでは👇\n・AIを「ツール」として使うのではなく、「社員」として雇う考え方\n・社員1人の会社を回す、AI社員70名の組織図と仕事の任せ方\n・Xアカウント8つをAIが完全自律で運用する仕組み\n・明日からできる、1人目のAI社員を雇うための最初の一歩\nここを、かなり分かりやすく全部話します！\nしかも講師は6人。\n井口 晃さん（@akiraiguchi1）、蝶乃 舞さん（@maitan18）、野田 修一さん（@ai_shunoda）、戸野塚 蓮さん（@ren_aivest）、主催の太陽さん、そして僕。\nこの6人が一夜限りで集まります🔥\nオンライン・参加無料です。\n参加してくれた方には、Claude Code AI社員構築テンプレなど、僕からの特典も3つ用意しています🎁\n祝日の夜なので、ぜひ予定を空けて、こちらから申し込んでおいてください👇",
@@ -2242,7 +2242,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_aiaircle34052",
@@ -2495,7 +2495,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "x_ai_masaou",
@@ -2520,6 +2520,22 @@
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "めちゃくちゃわかりやすい\nそして今週末楽しみ\nまさお@AI駆動開発 (@AI_masaou)\n— https://x.com/AI_masaou/status/2122843536731345342",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXXSWCKaAAAv_4P.jpg?name=small"
+          ],
+          "link": "https://x.com/tkwfunkypop/status/2122860489382519270",
+          "domain": "x.com",
+          "published": "2026-11-18T10:12:36+09:00",
+          "published_label": "11/18(水) 10:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
           "type": "x",
           "is_new": false
         },
@@ -2723,25 +2739,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXEzcEdbsAAVdVq.png?name=small"
-          ],
-          "link": "https://x.com/AI_masaou/status/2121541169905832138",
-          "domain": "x.com",
-          "published": "2026-11-14T18:50:05+09:00",
-          "published_label": "11/14(土) 18:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 3.2
     },
     {
       "id": "x_gosrum",
@@ -2986,7 +2986,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 3.1
     },
     {
       "id": "x_keitowebai",
@@ -3239,7 +3239,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_sugurukun_ai",
@@ -3478,7 +3478,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.6
     },
     {
       "id": "x_ctgptlb",
@@ -3732,7 +3732,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.6
     },
     {
       "id": "x_niwakunihiko",
@@ -3969,7 +3969,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_npaka123",
@@ -4231,7 +4231,7 @@
           "title_ja": "近い。それらの。取引…販売向けの新しい ChatGPT エクスペリエンスを使用します。\n新しい Sales プラグインと 30 以上の新しく強化されたパートナー プラグインを統合して、営業ツールと顧客コンテキストを機能させます。そのため、チームは多忙な作業に費やす時間を短縮し、取引を継続的に進めることができます。"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_itnavi2022",
@@ -4257,7 +4257,7 @@
           "badge_class": "badge-x",
           "pinned": true,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "「GPT-6.2 Astraはクソ！」「ChatGPTはもうダメだ」などの過激な意見を鵜呑みにしないでください。\nXで話題の酷評は、主に負荷の高いコーディングでの評価です。Astraは、Computer useが強いなどの長所もあり、ビジネスの実務や日本語文章執筆でどこまで役立つかは、それぞれの用途でテストが必要です。\n期待しているのは、Web検索を使った調査・分析です。複数の情報源を調べて要点を整理するような使い方は、これまでもGPTシリーズが得意としてきたので、Astraでも、その実力に注目しています。",
@@ -4271,7 +4271,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "GPT-6.2 AstraがARC-AGI-3を完全制覇(100.0%)❗️\nComputer useでは圧倒的ということか\nARC Prize (@arcprize)\nGPT-6.2 Astra from @OpenAI on ARC-AGI (Verified):\n- ARC-AGI-3: 100.0% (SOTA), $4.1K (provider adapter), 70.3%, $24.2K (standard)\n- ARC-AGI-2: 95.8% (SOTA), $0.50/task\n- ARC-AGI-1: 98.5%, $0.17/task\nGPT-6.2 Astra is the first model to achieve a 100% score on ARC-AGI-3.\n— https://x.com/arcprize/status/2122751233442156678",
@@ -4287,7 +4287,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "リサです！GPT-6.2 AstraとSolは、発表直後のXで評価が大きく割れました。\nベンチマークではFable 5.2に迫るコスパが目立つ一方、使い勝手を「期待外れ」とする声も少なくありません。\n3Dやブラウザ操作の強さや、途中で止まる・文章が短すぎるという指摘をnoteで整理しました。",
@@ -4303,7 +4303,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "やっとうちにもGPT-6.2 AstraとSolが来た❗️\nこれから試せる",
@@ -4319,7 +4319,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "リサです！今朝はOpenAIのGPT-6.2 AstraとSolが登場し、性能と同じくらい「1つの仕事をいくらで終えるか」を前面に出しました。\n同じ夜にはGeminiのタスクが日本でも無料になり、AIは答える道具から仕事を片づける相棒へ。\nAnthropicのエージェント設計、AIの自己改善の議論、上場の最新情報とあわせて、noteで解説しています。",
@@ -4335,7 +4335,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "🚨 Astra 6.2 Beats On Browser Use But Disappoints on Agentic Tasks\nOpenAI appears to be sacrificing performance for cost, and it doesn't quite work.\n- nerfed on agentic tasks\n- excels at browser use\n- extremely efficient on token usage\nSol is even more disappointing and comes behind Sol 6.1.",
@@ -4351,7 +4351,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false,
+          "is_new": true,
           "title_ja": "🚨 Astra 6.2 はブラウザの使用では優れているが、エージェント タスクでは期待外れ\nOpenAI はコストのためにパフォーマンスを犠牲にしているようで、完全に機能していません。\n- エージェントタスクが弱体化されました\n- ブラウザの使用に優れています\n- トークンの使用が非常に効率的\nSol はさらに残念で、Sol 6.1 に後れを取っています。"
         },
         {
@@ -4366,7 +4366,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "GPT-6.2 Astraの先行テストを行っていた開発者のTheo氏は、GPT-6.2 Astraを「開発には使いづらい」と酷評。\n🔹ユーザーに分からない内部仕様を質問し、作業を停止する。\n🔹説明が難解で、結論や要点が伝わらない。\n🔹長時間の作業で堂々巡りし、成果が出ない。\n🔹異なる依頼にも似た発想を繰り返す。\nコードレビューなどは優秀だが、実際の開発ではOpus 5.5を選ぶという。\nTheo - t3.gg (@theo)\n— https://x.com/theo/status/2122760447103484410",
@@ -4380,7 +4380,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "リサです！OpenAIがGPT-6.2 AstraとSolを公開しました。\n最大の見どころはコストで、AstraはClaude Fable 5.2に迫る総合力を1タスクあたり数分の1の費用で出しています。\n2つのモデルの使い分けやライバルとの比較、Xでの評価、ハルシネーション等の注意点まで解説しました。",
@@ -4396,7 +4396,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "MAI-Image-2.7 from @MicrosoftAI is out of preview, making Microsoft AI the #2 lab across all 3 Image Arenas. It’s also on the Pareto frontier across all at $0.035 per image, providing a strong cost-effective option.\nThe latest model lands #3 on Multi-Image Edit, #4 on Single Image Edit, and #4 on Text-to-Image. That’s roughly ~+50 pts over MAI-Image-2.6 across Image Arenas.\nIts largest gains vs 2.6 are in Single Image Edit performance:\n- #3 Photorealistic & Cinematic Imagery (from #8)\n- #4 Text Rendering (from #13)\n- #4 Product, Branding & Commercial Design (from #10)\n- #4 3D Imaging & Modeling (from #9)\n- #4 Portraits (from #9)\n- #5 Cartoon, Anime & Fantasy (from #11)",
@@ -4412,7 +4412,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false,
+          "is_new": true,
           "title_ja": "@MicrosoftAI の MAI-Image-2.7 はプレビューを終了しており、Microsoft AI は 3 つのイメージ アリーナすべてで第 2 位のラボとなっています。また、画像あたり $0.035 というパレートの最前線にあり、強力な費用対効果の高いオプションを提供します。\n最新モデルは、複数画像編集で第 3 位、単一画像編集で第 4 位、テキストから画像への変換で第 4 位を獲得しました。これは、Image Arena 全体で MAI-Image-2.6 よりもおよそ +50 ポイントです。\n2.6 と比較して最大の利点は、単一画像編集のパフォーマンスです。\n- #3 フォトリアリスティック & 映画のような画像 (#8 以降)\n- #4 テキストのレンダリング (#13 から)\n- #4 製品、ブランディング、商業デザイン (#10 から)\n- #4 3D イメージングとモデリング (#9 から)\n- #4 ポートレート (#9 から)\n- #5 漫画、アニメ、ファンタジー (#11 から)"
         },
         {
@@ -4429,7 +4429,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "📌Artificial Analysisの評価によると、GPT-6.2 AstraはClaude Fable 5.2に、GPT-6.2 SolはClaude Opus 5.5に、それぞれ性能面では及ばないものの、コストパフォーマンスでは大きく上回っているようだ。",
@@ -4446,7 +4446,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "BREAKING:\nOpenAI just launched Astra 6.2 and Sol 6.2!!\nWe've been testing them for the last few weeks @every and, unfortunately, these models aren't great. Overall a disappointing release compared to Fable 5.2.\n- Writing. We found Astra 6.2 to be a step back from Astra 6 on writing. 6.2 appears to have been trained to very extremely concise and actionable—so much so that its writing is hard to understand, and it gives short answers when long answers would be appropriate.\n- Coding. We found performance to be similar to Astra 6 on most of our benchmarks. However, in real coding tasks Astra 6.2 seemed to stop too early frequently, which made it quite frustating to use on end-to-end builds.\n- Design. Astra 6.2 has good default design instincts. But it struggles to vary its designs, resulting in output that has a noticeable \"house style\".\nFull vibe check coming soon on @every!\nOpenAI (@OpenAI)\nSome of you have been asking very politely. Some of you have just been asking.\nGPT-6.2 Astra and Sol are now available.\nSuper efficient and built to perform where it counts—the real world.\nVideo\n— https://x.com/OpenAI/status/2122750124543926515",
@@ -4462,7 +4462,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false,
+          "is_new": true,
           "title_ja": "速報:\nOpenAI は Astra 6.2 と Sol 6.2 をリリースしました!!\n私たちはここ数週間 @every でテストしてきましたが、残念ながら、これらのモデルは素晴らしいものではありませんでした。 Fable 5.2 と比較すると、全体的に残念なリリースでした。\n- 書くこと。 Astra 6.2 は、執筆に関して Astra 6 から一歩後退していることがわかりました。 6.2 は非常に簡潔で実用的なものになるよう訓練されているようで、非常に文章が理解しにくく、長い答えが適切な場合でも短い答えを返します。\n- コーディング。ほとんどのベンチマークでパフォーマンスが Astra 6 と同様であることがわかりました。ただし、実際のコーディング タスクでは、Astra 6.2 は頻繁に早期に停止するようで、エンドツーエンド ビルドで使用するのは非常にイライラさせられました。\n- デザイン。 Astra 6.2 には優れたデフォルト設計の直感があります。しかし、デザインを変えるのに苦労しており、その結果、顕著な「自社スタイル」を持つ出力が得られます。\n完全な雰囲気チェックは近々 @every で公開予定です!\nオープンAI (@OpenAI)\nとても丁寧に質問してくださった方もいらっしゃいました。ちょうど質問された方もいらっしゃいます。\nGPT-6.2 アストラとソルが利用可能になりました。\n非常に効率的で、重要な場所、つまり現実世界で実行できるように構築されています。\nビデオ\n— https://x.com/OpenAI/status/2122750124543926515"
         },
         {
@@ -4479,10 +4479,10 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.7
     },
     {
       "id": "x_panchaaan_2",
@@ -4738,7 +4738,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.8
     },
     {
       "id": "x_haider1",
@@ -5000,7 +5000,7 @@
           "title_ja": "戦略的にオープンアイは、アストラの能力を超えたレベルで数学を実行できるモデルなど、非常に大きなものに座っています。\nしかし彼らは、opus 5.5 が現在のバージョンの astra よりもどれほど優れているかについてはまだあまり気にしていないようです。\nおそらく次のモデルは非常に不整合である可能性があります"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5249,7 +5249,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_ytiskw",
@@ -5504,7 +5504,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.7
     },
     {
       "id": "x_ayami_marketing",
@@ -5756,7 +5756,7 @@
           "title_ja": "なぜすべての AI はテキスト メッセージ アプリなのでしょうか?\n私たちは AI と対話するまったく新しい方法を考案しました。アプリを切り替えたり、テキストメッセージを送信したりする必要はありません。画面上にある小さなフジツボがあなたを助けてくれるだけです。\nウェイティングリストは本日から開始されます"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.9
     },
     {
       "id": "x_super_bonochin",
@@ -5994,7 +5994,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.8
     },
     {
       "id": "x_shodaiiiiii",
@@ -6237,7 +6237,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     }
   ]
 }

@@ -1,0 +1,773 @@
+{
+  "settings": {
+    "title": "SNS・広告代理店 ニュース監視",
+    "nav_label": "SNS・広告代理店",
+    "items_per_source": 5,
+    "timeout_seconds": 15,
+    "retries": 2,
+    "fetch_workers": 4,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "sns_01",
+      "type": "google_news",
+      "name": "株式会社Yaaha",
+      "query": "\"Yaaha\"",
+      "must_match": [
+        "Yaaha"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_02",
+      "type": "google_news",
+      "name": "株式会社電通デジタル",
+      "query": "\"電通デジタル\"",
+      "must_match": [
+        "電通デジタル"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_03",
+      "type": "google_news",
+      "name": "株式会社セプテーニ",
+      "query": "\"セプテーニ\"",
+      "must_match": [
+        "セプテーニ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_04",
+      "type": "google_news",
+      "name": "株式会社ナハト",
+      "query": "\"株式会社ナハト\"",
+      "must_match": [
+        "ナハト"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_05",
+      "type": "google_news",
+      "name": "株式会社ブリーチ",
+      "query": "\"株式会社ブリーチ\"",
+      "must_match": [
+        "株式会社ブリーチ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_06",
+      "type": "google_news",
+      "name": "株式会社Hakuhodo DY ONE",
+      "query": "\"Hakuhodo DY ONE\"",
+      "must_match": [
+        "Hakuhodo DY ONE",
+        "博報堂DYワン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_07",
+      "type": "google_news",
+      "name": "博報堂",
+      "query": "\"博報堂\"",
+      "must_match": [
+        "博報堂"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_08",
+      "type": "google_news",
+      "name": "株式会社デジタルホールディングス",
+      "query": "\"デジタルホールディングス\"",
+      "must_match": [
+        "デジタルホールディングス",
+        "デジタルHD"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_09",
+      "type": "google_news",
+      "name": "株式会社CyberZ",
+      "query": "\"CyberZ\"",
+      "must_match": [
+        "CyberZ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_10",
+      "type": "google_news",
+      "name": "AnyMind Group株式会社",
+      "query": "\"AnyMind Group\"",
+      "must_match": [
+        "AnyMind"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_11",
+      "type": "google_news",
+      "name": "株式会社CARTA ZERO",
+      "query": "\"CARTA ZERO\"",
+      "must_match": [
+        "CARTA ZERO"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_12",
+      "type": "google_news",
+      "name": "UUUM",
+      "query": "\"UUUM\"",
+      "must_match": [
+        "UUUM",
+        "ウーム"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_13",
+      "type": "google_news",
+      "name": "toridori",
+      "query": "\"toridori\"",
+      "must_match": [
+        "toridori",
+        "トリドリ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_14",
+      "type": "google_news",
+      "name": "株式会社サイバー・バズ",
+      "query": "\"サイバー・バズ\"",
+      "must_match": [
+        "サイバー・バズ",
+        "サイバーバズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_15",
+      "type": "google_news",
+      "name": "バレットグループ株式会社",
+      "query": "\"バレットグループ\"",
+      "must_match": [
+        "バレットグループ",
+        "バレット"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_16",
+      "type": "google_news",
+      "name": "ワンメディア株式会社",
+      "query": "\"ワンメディア\"",
+      "must_match": [
+        "ワンメディア"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_17",
+      "type": "google_news",
+      "name": "株式会社CyberACE",
+      "query": "\"CyberACE\"",
+      "must_match": [
+        "CyberACE",
+        "サイバーエース"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_18",
+      "type": "google_news",
+      "name": "株式会社TORIHADA",
+      "query": "\"TORIHADA\"",
+      "must_match": [
+        "TORIHADA",
+        "トリハダ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_19",
+      "type": "google_news",
+      "name": "株式会社Natee",
+      "query": "\"株式会社Natee\"",
+      "must_match": [
+        "Natee"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_20",
+      "type": "google_news",
+      "name": "株式会社ベクトル",
+      "query": "\"株式会社ベクトル\"",
+      "must_match": [
+        "ベクトル"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_21",
+      "type": "google_news",
+      "name": "TikTok for Business",
+      "query": "\"TikTok for Business\"",
+      "must_match": [
+        "TikTok for Business"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_22",
+      "type": "google_news",
+      "name": "株式会社BitStar",
+      "query": "\"BitStar\"",
+      "must_match": [
+        "BitStar",
+        "ビットスター"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_23",
+      "type": "google_news",
+      "name": "X Mile株式会社",
+      "query": "\"X Mile\"",
+      "must_match": [
+        "X Mile",
+        "XMILE",
+        "クロスミル"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_24",
+      "type": "google_news",
+      "name": "ソウルドアウト株式会社",
+      "query": "\"ソウルドアウト\"",
+      "must_match": [
+        "ソウルドアウト",
+        "Sold Out"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_25",
+      "type": "google_news",
+      "name": "株式会社アドウェイズ",
+      "query": "\"アドウェイズ\"",
+      "must_match": [
+        "アドウェイズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_26",
+      "type": "google_news",
+      "name": "株式会社DYM",
+      "query": "\"株式会社DYM\"",
+      "must_match": [
+        "株式会社DYM",
+        "DYM"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_27",
+      "type": "google_news",
+      "name": "株式会社メディアハウスホールディングス",
+      "query": "\"メディアハウスホールディングス\"",
+      "must_match": [
+        "メディアハウスホールディングス",
+        "メディアハウスHD"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_28",
+      "type": "google_news",
+      "name": "株式会社インフィニティエージェント",
+      "query": "\"インフィニティエージェント\"",
+      "must_match": [
+        "インフィニティエージェント",
+        "Infinity Agent"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_29",
+      "type": "google_news",
+      "name": "トランスコスモス株式会社",
+      "query": "\"トランスコスモス\"",
+      "must_match": [
+        "トランスコスモス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_30",
+      "type": "google_news",
+      "name": "studio15株式会社",
+      "query": "\"studio15\"",
+      "must_match": [
+        "studio15",
+        "スタジオ15"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_31",
+      "type": "google_news",
+      "name": "株式会社ピアラ",
+      "query": "\"ピアラ\"",
+      "must_match": [
+        "ピアラ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_32",
+      "type": "google_news",
+      "name": "株式会社オプト",
+      "query": "\"株式会社オプト\"",
+      "must_match": [
+        "オプト"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_33",
+      "type": "google_news",
+      "name": "株式会社ワンスター",
+      "query": "\"株式会社ワンスター\"",
+      "must_match": [
+        "ワンスター"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_34",
+      "type": "google_news",
+      "name": "株式会社Orchestra Holdings",
+      "query": "\"Orchestra Holdings\" OR \"オーケストラ・ホールディングス\"",
+      "must_match": [
+        "Orchestra Holdings",
+        "オーケストラ・ホールディングス",
+        "オーケストラホールディングス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_35",
+      "type": "google_news",
+      "name": "株式会社KASHIKA",
+      "query": "\"株式会社KASHIKA\"",
+      "must_match": [
+        "KASHIKA"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_36",
+      "type": "google_news",
+      "name": "CATS株式会社",
+      "query": "\"CATS株式会社\"",
+      "must_match": [
+        "CATS株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "広告",
+        "マーケティング",
+        "代理店",
+        "デジタル",
+        "メディア",
+        "配信",
+        "ソリューション",
+        "プロモーション",
+        "ブランド",
+        "キャンペーン",
+        "クリエイティブ",
+        "販促",
+        "インフルエンサー",
+        "SNS",
+        "動画",
+        "PR",
+        "プレスリリース",
+        "株式会社",
+        "社長",
+        "代表",
+        "事業",
+        "サービス",
+        "導入",
+        "支援",
+        "提携",
+        "買収",
+        "子会社",
+        "決算",
+        "上場",
+        "資金調達",
+        "調査",
+        "セミナー",
+        "レポート",
+        "インタビュー",
+        "EC",
+        "アプリ",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+    {
+      "id": "sns_37",
+      "type": "google_news",
+      "name": "株式会社電通ジャパン・インターナショナルブランズ",
+      "query": "\"電通ジャパン・インターナショナルブランズ\"",
+      "must_match": [
+        "電通ジャパン・インターナショナルブランズ",
+        "電通JIB"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "sns_38",
+      "type": "google_news",
+      "name": "株式会社デジタリフト",
+      "query": "\"デジタリフト\"",
+      "must_match": [
+        "デジタリフト"
+      ],
+      "limit": 5,
+      "enabled": true
+    }
+  ]
+}
