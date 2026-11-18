@@ -140,7 +140,12 @@ OVERRIDES = {
     # --- 短い英字・一般語と衝突する名前
     "Stack": {"query": '"株式会社Stack"', "match": ["株式会社Stack"], "context": True},
     "Tsun": {"query": '"株式会社Tsun"', "match": ["株式会社Tsun", "Tsun"]},
-    "AMS": {"query": '"株式会社AMS"', "match": ["株式会社AMS", "株式会社ＡＭＳ"], "context": True},
+    # 同名の「株式会社ams」（HRテック）と区別するため、Shopify 文脈の記事に絞る
+    "AMS": {
+        "query": '"株式会社AMS" Shopify',
+        "match": ["株式会社AMS", "株式会社ＡＭＳ"],
+        "context": True,
+    },
     "and.d": {"query": '"株式会社and.d"', "match": ["and.d", "and．d"]},
     "フラッグシップ": {
         "query": '"フラッグシップ株式会社"',

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T11:03:47+09:00",
-  "generated_at_label": "2026/11/18 11:03 JST",
+  "generated_at": "2026-11-18T11:07:56+09:00",
+  "generated_at_label": "2026/11/18 11:07 JST",
   "title": "AI監視ボード",
   "total": 372,
   "sources": [
@@ -46,7 +46,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これはヤバい\nAIの情報収集が完全に別物になった\n元Twitter CEOが手がける「Parallel」\n無料で検索・情報取得・真偽判定まで対応\nしかも1回で最大20URLの内容を取得\nこれをAIに追加すると調べ物が激変する\n導入方法と詳しい使い方は👇\n今回紹介するのは「Parallel MCP」\n元Twitter CEOのParag Agrawalが創業した\nParallelが提供するAI向けWeb調査ツール\nこれをAIに接続すると\n最新のWeb情報を直接調べられるようになる\nしかも最新版のParallel MCP 2.0では\n4つの強力な機能が用意されている\n① Web検索「web_search」\n最新ニュースや製品情報を検索\n公式サイトや技術文書から\n質問に関連する情報を抽出できる\n② Web取得「web_fetch」\n指定したURLの内容を自動取得\n1回で最大20URLを読み取れる\nPDFやJavaScriptを使うページにも対応\n複数サイトの情報収集や比較が一気に進む\n③ 情報判定「web_decisions」\n集めた情報をもとに選択肢を評価\n条件に合うかをスコアや確率で判定\n判断の根拠となる出典も提示できる\n④ 詳細調査「web_research」\n複数段階のWeb調査を実行\n調査結果を出典付きのレポートに整理\nこちらはログインかAPIキーが必要\n特にヤバいのは\n最初の3機能が無料で使えること\nアカウント登録もAPIキーも不要\n※無料利用には回数制限あり\n導入方法もシンプル\nまずParallelの公式ページを開く\nClaude・ChatGPT・Codex・Cursorなど\n利用するAIツールを選択\n対応環境なら直接追加できる\nそれ以外もMCP接続設定から導入可能\n接続後はAIに普通の言葉で指示するだけ\n例えば\n「競合3社の料金を公式サイトで比較して」\nAIが関連情報を検索\n必要なページを取得\n料金や機能を表に整理する流れを作れる\nほかにも最新API仕様の確認\n企業リサーチや新サービスの調査\nX投稿前のファクトチェックにも使える\n以前は人間が複数のタブを開いて\n情報を集めて比較していた\nこれからは検索と情報取得をAIに任せ\n人間は出典確認と最終判断に集中できる\nAIを使うだけの人と\nAIに情報収集まで任せる人\nこの差は今後さらに大きくなる",
@@ -259,7 +259,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.1
     },
     {
       "id": "x_okapi_fukugyo",
@@ -505,7 +505,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.1
     },
     {
       "id": "x_codexneo4",
@@ -748,7 +748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_beku_ai",
@@ -979,7 +979,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1234,7 +1234,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.1
     },
     {
       "id": "x_taki_auto",
@@ -1490,7 +1490,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.1
     },
     {
       "id": "x_sora19ai",
@@ -1732,7 +1732,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.1
     },
     {
       "id": "x_shota7180",
@@ -1991,7 +1991,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_ichiaimarketer",
@@ -2242,7 +2242,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_aiaircle34052",
@@ -2495,7 +2495,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.2
     },
     {
       "id": "x_ai_masaou",
@@ -2741,7 +2741,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.0
     },
     {
       "id": "x_gosrum",
@@ -2986,7 +2986,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.0
     },
     {
       "id": "x_keitowebai",
@@ -3082,7 +3082,9 @@
         {
           "title": "AI時代、ホームページのセキュリティはどう考える？予防・早期発見・事後対応の3段階で備える",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2122513347816161280/fy5oEm7d?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/keitowebai/status/2122513338240532728",
           "domain": "x.com",
           "published": "2026-11-17T11:13:08+09:00",
@@ -3237,7 +3239,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.0
     },
     {
       "id": "x_sugurukun_ai",
@@ -3476,7 +3478,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.0
     },
     {
       "id": "x_ctgptlb",
@@ -3604,7 +3606,7 @@
           "title": "出典：",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122133890391486464/fI64EKum?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2122176405848879104/GUI8iibG?format=jpg&name=800x419"
           ],
           "link": "https://x.com/ctgptlb/status/2122226215285371164",
           "domain": "x.com",
@@ -3730,7 +3732,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_niwakunihiko",
@@ -3967,7 +3969,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.1
     },
     {
       "id": "x_npaka123",
@@ -4012,7 +4014,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AI x RoboticsがLLMに呑み込まれたことで、それに順応したハードウェア、センサー、カメラ、そして何より新しい秩序でのシミュレーター環境、さらに学習やデータセットの定義までも全てが再定義されて大きく変わりそうな感じがしますね",
@@ -4044,7 +4046,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GPT6.2SOLのお城ベンチ！\nなんでgptのお城っていつも崖から四つ角はみ出してしまうなんだろー！\n全体的にクオリティはあがってるなん！！\nVideo\nしとちゃ！🦊🍮 (@nemumusitocha)\nGemini 4 Hydrogenでお城ベンチ試してみたのだ！\n普通に悪くない気がするなん～\nGoogle AI Proプランで週間制限３％しか使ってないなんだし、相当コスパ良いと思うなん！！\n引用→引用→引用みたいに過去モデルも観ていけるなんだから、よかったら見比べてみてなん～\nVideo\n— https://x.com/nemumusitocha/status/2121848375998063012",
@@ -4225,11 +4227,11 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "近い。それらの。取引…販売向けの新しい ChatGPT エクスペリエンスを使用します。\n新しい Sales プラグインと 30 以上の新しく強化されたパートナー プラグインを統合して、営業ツールと顧客コンテキストを機能させます。そのため、チームは多忙な作業に費やす時間を短縮し、取引を継続的に進めることができます。"
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.1
     },
     {
       "id": "x_itnavi2022",
@@ -4269,7 +4271,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GPT-6.2 AstraがARC-AGI-3を完全制覇(100.0%)❗️\nComputer useでは圧倒的ということか\nARC Prize (@arcprize)\nGPT-6.2 Astra from @OpenAI on ARC-AGI (Verified):\n- ARC-AGI-3: 100.0% (SOTA), $4.1K (provider adapter), 70.3%, $24.2K (standard)\n- ARC-AGI-2: 95.8% (SOTA), $0.50/task\n- ARC-AGI-1: 98.5%, $0.17/task\nGPT-6.2 Astra is the first model to achieve a 100% score on ARC-AGI-3.\n— https://x.com/arcprize/status/2122751233442156678",
@@ -4417,7 +4419,7 @@
           "title": "MSめっちゃモデル出ている。\nMAI Code 2：6.1 Solの98%の品質を約40%の価格で、Opus 5.5の96%の性能をわずか5%の価格で実現。\nMAI Code 2 Flash：Lunaと同性能を65%の価格、Haikuを20%の価格で。\nMAI Image 2.7：画像編集で世界1位。GPT Image 2.6 を1/5の価格で上回る。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122757273072111616/2hWRYZwm?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2122873954553700352/zpTYwj-k?format=jpg&name=800x419"
           ],
           "link": "https://x.com/yugen_matuni/status/2122762430631862674",
           "domain": "x.com",
@@ -4480,7 +4482,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_panchaaan_2",
@@ -4736,7 +4738,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.0
     },
     {
       "id": "x_haider1",
@@ -4998,7 +5000,7 @@
           "title_ja": "戦略的にオープンアイは、アストラの能力を超えたレベルで数学を実行できるモデルなど、非常に大きなものに座っています。\nしかし彼らは、opus 5.5 が現在のバージョンの astra よりもどれほど優れているかについてはまだあまり気にしていないようです。\nおそらく次のモデルは非常に不整合である可能性があります"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5247,7 +5249,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.0
     },
     {
       "id": "x_ytiskw",
@@ -5502,7 +5504,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.1
     },
     {
       "id": "x_ayami_marketing",
@@ -5754,7 +5756,7 @@
           "title_ja": "なぜすべての AI はテキスト メッセージ アプリなのでしょうか?\n私たちは AI と対話するまったく新しい方法を考案しました。アプリを切り替えたり、テキストメッセージを送信したりする必要はありません。画面上にある小さなフジツボがあなたを助けてくれるだけです。\nウェイティングリストは本日から開始されます"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.1
     },
     {
       "id": "x_super_bonochin",
@@ -5992,7 +5994,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_shodaiiiiii",
@@ -6235,7 +6237,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.0
     }
   ]
 }

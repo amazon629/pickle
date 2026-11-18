@@ -162,10 +162,20 @@ OVERRIDES = {
     # --- 一般語・有名な別物と衝突する名前：法人格つきで検索して業界語で絞る
     "オプト": {"query": '"株式会社オプト"', "context": True},
     "ブリーチ": {"query": '"株式会社ブリーチ"', "context": True},
-    "無限": {"query": '"株式会社無限"', "context": True},
+    "無限": {"query": '"株式会社無限"', "match": ["株式会社無限", "株式会社 無限"], "context": True},
     "NAKAI": {"query": '"株式会社NAKAI"', "context": True},
-    "Full.": {"query": '"株式会社Full"', "match": ["株式会社Full", "フルドット"], "context": True},
-    "ディスカバリー": {"query": '"株式会社ディスカバリー"', "context": True},
+    "Full.": {"query": '"株式会社Full."', "match": ["株式会社Full.", "フルドット"], "context": True},
+    "ディスカバリー": {
+        "query": '"株式会社ディスカバリー"',
+        # 株式会社ディスカバリー・ホームズ / ディスカバリー・ネクスト など別会社を落とす
+        "match": [
+            "株式会社ディスカバリーの",
+            "株式会社ディスカバリー、",
+            "ディスカバリーが",
+            "ディスカバリーは",
+        ],
+        "context": True,
+    },
     "エレガント": {"query": '"有限会社エレガント"', "context": True},
     "未踏": {"query": '"合同会社未踏"', "context": True},
     "はこ": {"query": '"株式会社はこ"', "context": True},
@@ -180,7 +190,11 @@ OVERRIDES = {
     "LIBER": {"query": '"株式会社LIBER"', "context": True},
     "prisma": {"query": '"株式会社prisma"', "context": True},
     "milkyway": {"query": '"株式会社milkyway"', "context": True},
-    "メディックス": {"context": True},
+    "メディックス": {
+        # バレーボールの「埼玉上尾メディックス」を落とす
+        "match": ["株式会社メディックス", "メディックスが", "メディックスは"],
+        "context": True,
+    },
     "shiroiro": {"query": '"株式会社shiroiro"', "context": True},
     "フォースリー": {"query": '"株式会社フォースリー"', "context": True},
     "マーケティングワン": {
@@ -203,7 +217,10 @@ OVERRIDES = {
     },
     "Kento": {"query": '"株式会社Kento"', "context": True},
     "カカクコム": {"match": ["カカクコム"]},
-    "保険市場": {"query": '"保険市場"', "match": ["保険市場"]},
+    "保険市場": {
+        "query": '"株式会社保険市場"',
+        "match": ["株式会社保険市場", "株式会社 保険市場", "保険市場ドットコム"],
+    },
     "ヘリオス": {"context": True},
     "HELIOS": {"query": '"株式会社HELIOS"', "context": True},
     "Hide&Seek": {
@@ -211,7 +228,8 @@ OVERRIDES = {
         "match": ["株式会社Hide&Seek"],
         "context": True,
     },
-    "タイズ": {"query": '"タイズ株式会社"', "match": ["タイズ株式会社"], "context": True},
+    # Forbes JAPAN の「リンクタイズ株式会社」と人材系の同名社を落とす
+    "タイズ": {"query": '"タイズ株式会社" -リンク -転職', "match": ["タイズ株式会社"], "context": True},
     "バローズ": {"query": '"株式会社バローズ"', "match": ["株式会社バローズ"], "context": True},
     "アドスタイル": {
         "query": '"株式会社アドスタイル"',
@@ -220,8 +238,12 @@ OVERRIDES = {
     },
     "BHK": {"query": '"株式会社BHK"', "context": True},
     "N8": {"query": '"株式会社N8"', "match": ["株式会社N8", "N8"]},
+    # ポケモンの「メタモン」、ゲームの「Slayers」、音楽の「SWEEET」等を落とす
+    "Metamon": {"match": ["株式会社Metamon"]},
+    "Slayers": {"match": ["株式会社Slayers"]},
+    "Sweeet": {"match": ["株式会社Sweeet", "株式会社SWEEET"]},
     "SMD": {"query": '"株式会社SMD"', "match": ["株式会社SMD", "SMD"]},
-    "GivingBack": {"match": ["GivingBack", "ギビングバック"]},
+    "GivingBack": {"query": '"株式会社GivingBack"', "match": ["株式会社GivingBack"]},
     "Best Relation": {"query": '"株式会社Best Relation"', "context": True},
     # --- 表記ゆれ（英字表記・略称）を別名として足す
     "サイバーエージェント": {"match": ["サイバーエージェント", "CyberAgent"]},
@@ -231,7 +253,10 @@ OVERRIDES = {
         "query": '"DIGITAL HEARTS"',
         "match": ["DIGITAL HEARTS"],
     },
-    "LIT’S": {"match": ["LIT’S", "LIT'S", "Lits", "リッツ"]},
+    "LIT’S": {
+        "query": '"株式会社LIT’S"',
+        "match": ["株式会社LIT’S", "株式会社LIT'S", "LIT’S株式会社"],
+    },
     "WEBGRAM": {"match": ["WEBGRAM", "WEB GRAM"]},
     "boxXXX": {"match": ["boxXXX", "box-x"]},
     "ADKデジタル・コミュニケーションズ": {
