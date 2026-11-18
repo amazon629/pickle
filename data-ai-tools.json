@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T23:27:23+09:00",
-  "generated_at_label": "2026/11/18 23:27 JST",
+  "generated_at": "2026-11-19T00:26:58+09:00",
+  "generated_at_label": "2026/11/19 00:26 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -264,7 +264,7 @@
           "title_ja": "AI をゼロサム競争として扱う人が多すぎます。オープンソースはその逆、つまり競争よりも協力することで勝利を収めています。\nこれが、オープン モデルをすべての人にとって使いやすくするための @OpenRouter とのパートナーシップの最初の部分を本日リリースできることに興奮している理由です。顔を抱き締めて保管したりコラボレーションしたりできます。推論用の OpenRouter。接続すると次のことが可能になります。\n🤗 Hugging Face で OpenRouter 推論を直接実行します\n🔓 OpenRouter からオープンモデルの重みに直接アクセス\n🤖 OpenRouter エージェント トレースを HF に保存して、検査したり、より良いモデルをトレーニングしたり、世界と共有したりできます!\nさらなるコラボレーション。ゼロサム ゲームが少なくなります。 AI ビルダーのさらなるパワーアップ。建ててみましょう！ 💛💛💛"
         }
       ],
-      "elapsed": 5.3
+      "elapsed": 8.1
     },
     {
       "id": "x_opencode",
@@ -510,7 +510,7 @@
           "title_ja": "Gemini 4 Carbon と Claude Fable 5.2 が OpenCode で利用可能になりました"
         }
       ],
-      "elapsed": 5.2
+      "elapsed": 8.4
     },
     {
       "id": "x_aimirai46487",
@@ -536,7 +536,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\n認知 (@cognition)\nDevin ボットをご紹介します。\nファームウェアの作成から週に何千もの PR のマージまで、Devin ボットはエージェントのチームを率いて仕事を遂行します。\nビデオ\n— https://x.com/cognition/status/2122737511684587551"
         },
         {
@@ -553,7 +553,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ACE Musicは、公式のMCPを公開しました。Codex、Claude Claude、CursorなどのAIエージェントと連携して、音楽を制作できるようになります。\nACE Musicにログイン後の画面の左サイドバーにあるMCPを押した先で設定方法を確認可能です。\nACE Music (@acemusicAI)\nMCP is now available at\nLet's make music with your ChatGPT, Claude, Cursor or any other AI agents.\nFYI: You can even ask Astra, Fable, or Opus to compose MIDI/scores before generating the music.\n— https://x.com/acemusicAI/status/2122786623515750792",
@@ -569,7 +569,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Claude Codeに、新しい実験的な機能「Code Mode」が実装されました(現時点では手動設定が必要)。\nClaudeがスクリプト(作業指令書)を自動作成し、複数のツールを組み合わせて、複雑な作業を効率よく実行できるようになります。\nClaudeDevs (@ClaudeDevs)\nCheck out Code Mode, a new, experimental way for Claude Code to work with tools. Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running.\nOpt in with CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1\n— https://x.com/ClaudeDevs/status/2122801681939234950",
@@ -585,7 +585,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Anthropicの開発者向けプラットフォーム「Claude Platform」で「Linked Billing」のベータ版が実装されました。\nAPIキーを共有せずに、FactoryやLinearなどの外部ツールで発生したClaude APIの利用料金を、Claude Platformの組織アカウントから支払えるようになります。\nClaudeDevs (@ClaudeDevs)\nLinked billing is now in beta on the Claude Platform.\nNow users of tools like Factory, Linear, and Ramp can pay for Claude API usage through their Claude Platform organization, without sharing an API key.\n— https://x.com/ClaudeDevs/status/2122751844455956760",
@@ -601,7 +601,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nIdeogram (@ideogram_ai)\nMany of our users love Ideogram for print: the unique typography, hand-crafted designs, and our new Vector model. So we built a dedicated studio.\nIntroducing Ideogram Print on Demand Studio: research, design, print prep, and mockups.\nLive now:\nVideo\n— https://x.com/ideogram_ai/status/2122743043635941502",
@@ -617,7 +617,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nイデオグラム (@ideogram_ai)\n多くのユーザーは、ユニークなタイポグラフィー、手作りのデザイン、新しい Vector モデルなど、印刷用の Ideogram を気に入っています。そこで専用のスタジオを作りました。\nIdeogram Print on Demand Studio の紹介: リサーチ、デザイン、印刷準備、モックアップ。\n今すぐ生きる:\nビデオ\n— https://x.com/ideogram_ai/status/2122743043635941502"
         },
         {
@@ -634,7 +634,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アクセス解析プラットフォームのSimilarwebによると、MetaのAIエージェント「Muse」の1日あたりのアクティブユーザー数が、2026年11月13日に1000万人を突破したということです。\nSimilarweb (@Similarweb)\nMeta’s Muse surpassed 10M daily active users on November 13, reaching 10.24M.\n— https://x.com/Similarweb/status/2122625289880805823",
@@ -650,7 +650,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "MetaのAIエージェント「Muse」が、デザインツールの「Canva」と接続できるようになりました(設定のコネクターから)。\nCanva (@canva)\nSmall, fluffy, marsupial-adjacent?\nHey Australia! 👋 You too can use Canva right inside @Muse, starting today.\nEvery design, template, and tool you love, on call.\n— https://x.com/canva/status/2122878614328983577",
@@ -666,7 +666,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "テンセントの2026年第3四半期決算は、売上高が前年同期比8％増となったものの、ゲーム事業の成長鈍化で市場予想を下回りました。\n一方、AI需要の拡大がクラウド事業を押し上げ、AI投資の収益性に注目が集まっています。",
@@ -682,7 +682,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "NVIDIAは、米政府による輸出許可の先行きが不透明になっていることを受けて、中国向けの高性能AI半導体の出荷を停止したと発表しました。",
@@ -698,7 +698,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nOpenAI Developers (@OpenAIDevs)\nWe updated the API usage dashboard to make it easier to monitor your usage and investigate issues.\nIn Analytics, you can now:\n• Better track usage and spend\n• Check rate limits and rate-limited requests\n• Explore errors by model, project, or API key\nVideo\n— https://x.com/OpenAIDevs/status/2122824859491205152",
@@ -767,7 +767,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.5
+      "elapsed": 8.6
     },
     {
       "id": "x_kimmonismus",
@@ -811,7 +811,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェンスン・ファン氏抜きの初めての決算発表で、NVIDIA は米国で承認された H200 チップの中国への出荷を停止した。\n暫定最高経営責任者（CEO）のコレット・クレス氏は、「当社はライセンスを取得したHopperデータセンター製品を今後中国に出荷しない」と述べた。 Nvidia は前四半期、そこで 24 億ドルを販売しました。ロイター通信によると、その指針には現在何も含まれていない。\nロイター (@Reuters)\nNvidia、米国承認のAIチップの中国への出荷を停止\n— https://x.com/Reuters/status/2123047355112903099"
         },
         {
@@ -867,7 +867,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "それほど優れているわけではありません。私が個人的に話している OAI の従業員も、アストラは最悪だということに同意しています\nテオ - t3.gg (@theo)\n私はこれを心に留め、最後の数時間を GPT-6.2 Astra の詳細な調査に費やしました。\ntl;dr - 状況は私がテストしたときよりも良くなっているが、IMO は依然として「方向性的には非常に悪い」\n私が最初から注目してきたのと同じ例、「ワークツリーの作成がなぜこんなに遅いのか?」を使い続けるつもりです。\n特定の VPS で t3 コードを使用しているときにパフォーマンスの問題を診断しようとすると、長いスレッドが発生しました。 3 つのうち 2 つは高速で、1 つは非常に遅かったです。\n私はアストラに「なぜこんなに遅いのですか?」と率直に尋ねましたが、意味不明のことを言いました。私は「気が狂いそうです。遅さの原因を教えていただけますか?」とフォローしました。\n前もって答えておきます。この VPS はクソ遅い仮想ディスクを使用していますが、他の VPS はそれよりも速い物理 NVME ドライブを備えています。\n画像 1 は Tibo が言及した修正の前のものです。不必要なグラフを表示し、pnpm とファイル システムに重点を置きすぎ、無関係なテキストを太字にし、ドライブ速度について (微妙に) 言及しているのと同じくらい RAM を持ち出します。\n画像 2 は同じことを尋ねた Opus のものです。このページは、「ディスクが遅く、VDO によってさらに悪化しました」という重要な部分が太字で始まります。理想的！\n画像 3 は Tibo が言及した 6.2 Astra のポストフィックスです。より良い？絶対に。はるかに簡潔です。悲しいことに、原因のほんの一部である二次的な問題に焦点を当てすぎています。 「仮想ディスク上の圧縮層と重複排除層上の XFS。」 - とても近いですが、まだ見逃しています。\n私はそう思います"
         },
         {
@@ -1037,7 +1037,7 @@
           "title_ja": "テオ - t3.gg (@theo)\n— https://x.com/theo/status/2122760447103484410"
         }
       ],
-      "elapsed": 5.3
+      "elapsed": 8.6
     },
     {
       "id": "x_haider1",
@@ -1065,6 +1065,23 @@
           "type": "x",
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "it's amazing how openai keeps improving model intelligence while reducing both token consumption and cost with each new release\ni think they're more focused on becoming the cost-effective workhorse for enterprise workflows while anthropic is pushing the frontier in areas like coding",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXahyQya4AAmnXP.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123063678400655676",
+          "domain": "x.com",
+          "published": "2026-11-18T23:40:00+09:00",
+          "published_label": "11/18(水) 23:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "openai が新しいリリースのたびにトークン消費量とコストの両方を削減しながらモデル インテリジェンスを向上させ続けているのは驚くべきことです\nanthropic がコーディングなどの分野で最前線を開拓している一方で、彼らはエンタープライズ ワークフローのコスト効率の高い主力となることに重点を置いていると思います。"
         },
         {
           "title": "astra 6.2 is basically a supercharged version of 6\ni was working on a software application with astra 6 when 6.2 dropped last night so i had it make some changes. i ignored its warning, copied the files over directly like i always did with 6 and ended up breaking the project\nbut 6.2 fixed everything much faster than 6 would have",
@@ -1281,25 +1298,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "AIエージェントが実際に支払いを実行できる\n@VersineApp による非常に簡単なアプローチで、MCP を通じてエージェントに接続し、アカウントに資金を提供し、支払いを直接送信またはリクエストできます。\n興味深いことに、信頼できる連絡先への支払いは繰り返しの承認なしで行うことができますが、他の人への支払いには依然として確認が必要です。\nパラム (@xparamt)\n私たちはヴェンモを殺すつもりです。まずは、AI を使って友達に送金できる 100 ドルをプレゼントします。\nVersine では、AI があなたの代わりにお金を送受信できるようにします。\nChatGPT、Claude、Muse、Instinct、または使用する任意の AI で動作します。\n受取人は Versine アカウントを必要とせず、銀行に直接現金を出金できます。\nコメントしてあなたの番号をDMしてください。Versineで10ドル送ります:\nビデオ\n— https://x.com/xparamt/status/2122713860973150622"
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122417748349493249/a9SjbJfz?format=jpg&name=800x320_1"
-          ],
-          "link": "https://x.com/haider1/status/2122683363828068692",
-          "domain": "x.com",
-          "published": "2026-11-17T22:28:46+09:00",
-          "published_label": "11/17(火) 22:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.3
     },
     {
       "id": "x_testingcatalog",
@@ -1340,7 +1341,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞️"
         },
         {
@@ -1359,7 +1360,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "速報🔥: Telegram は、「Dictator」と呼ばれる独自の AI エージェントを立ち上げる準備をしています!\n内部的にはHermes上で動作するようで、さまざまなモデルとプラグインをサポートし、独自の専用VMを持つ予定です。\n浮遊するウティアが登場🐣\nビデオ\n送信してください (@SenditHighor)\nTelegram の組み込み AI エージェント ハーネス「Dictator」は、@NousResearch による Hermes Agent 上で実行されます 🤯\nエージェント ハーネスは、Telegram macOS ベータ版で数週間にわたって開発されており、Utya AI エージェントが最新のベータ版に登場しています。\n10 億人以上のユーザーがチャット内にオープンソース エージェントを導入しようとしています。\n— https://x.com/SenditHighor/status/2122767739903230318"
         },
         {
@@ -1570,7 +1571,7 @@
           "title_ja": "文書化されました 🗞️"
         }
       ],
-      "elapsed": 1.3
+      "elapsed": 1.5
     }
   ]
 }

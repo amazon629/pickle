@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T23:27:26+09:00",
-  "generated_at_label": "2026/11/18 23:27 JST",
+  "generated_at": "2026-11-19T00:27:01+09:00",
+  "generated_at_label": "2026/11/19 00:27 JST",
   "title": "PR TIMES監視ボード",
   "total": 60,
   "sources": [
@@ -15,6 +15,22 @@
       "count": 15,
       "items": [
         {
+          "title": "ビジネスイベント特化のプラットフォーム「Meety」を正式リリース 探す・申し込む・チームでの運営をひとつに",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123064190017699840/qdMm5XyV?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/PRTIMES_STUP/status/2123064189279453630",
+          "domain": "x.com",
+          "published": "2026-11-18T23:42:02+09:00",
+          "published_label": "11/18(水) 23:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
           "title": "陶磁器のかけらを作品に。石川・能美のCACLが書籍『かけらを集める』を刊行",
           "summary": "",
           "images": [
@@ -28,7 +44,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "女性専用カッピングエステ「痩身革命 池袋店」が11月11日オープン 池袋駅東口（北）から徒歩3分",
@@ -237,25 +253,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122995052213596160/blKzgtfe?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/PRTIMES_STUP/status/2122995051764797814",
-          "domain": "x.com",
-          "published": "2026-11-18T19:07:18+09:00",
-          "published_label": "11/18(水) 19:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 3.2
     },
     {
       "id": "x_prtimes_mktg",
@@ -508,7 +508,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 3.3
     },
     {
       "id": "x_prtimes_biz",
@@ -520,6 +520,22 @@
       "via": "https://nitter.cf/PRTIMES_BIZ/rss",
       "count": 15,
       "items": [
+        {
+          "title": "4割超が生成AIで企業と出会う時代の新卒採用ブランディング",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123070490269175808/e0VHMVm_?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/PRTIMES_BIZ/status/2123070488348176796",
+          "domain": "x.com",
+          "published": "2026-11-19T00:07:03+09:00",
+          "published_label": "11/19(木) 00:07",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "ReBear合同会社、「営業・マーケDXPO東京'26【秋】」に出展",
           "summary": "",
@@ -603,7 +619,9 @@
         {
           "title": "オルタナティブ投資プラットフォーム「オルタナバンク」、『【毎月分配】年末大感謝ファンドpart4 ID1207』を公開",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2123027704467660800/vX6Zpy44?format=jpg&name=600x314"
+          ],
           "link": "https://x.com/PRTIMES_BIZ/status/2123035509547302950",
           "domain": "x.com",
           "published": "2026-11-18T21:48:04+09:00",
@@ -741,25 +759,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122989954863357952/up8DlAmq?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/PRTIMES_BIZ/status/2123005303516266926",
-          "domain": "x.com",
-          "published": "2026-11-18T19:48:02+09:00",
-          "published_label": "11/18(水) 19:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 3.3
     },
     {
       "id": "x_prtimes_beauty",
@@ -1012,7 +1014,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 3.3
     }
   ]
 }
