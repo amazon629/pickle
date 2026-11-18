@@ -598,6 +598,12 @@
         "Series",
         "資金調達",
         "評価額"
+      ],
+      "exclude_match": [
+        "Quince Street",
+        "Quinceanera",
+        "pulmonary",
+        "drug endpoints"
       ]
     },
     {
@@ -883,7 +889,10 @@
         "this column",
         "superintendent",
         "education funding",
-        "op-ed"
+        "op-ed",
+        "launches column",
+        "column by",
+        "in his column"
       ]
     },
     {
@@ -1572,13 +1581,13 @@
         "https://news.google.com/rss/search?q=%22Vibe%22%20%28Walmart%20OR%20advertising%20OR%20%22ad%20tech%22%20OR%20adtech%20OR%20%22connected%20TV%22%20OR%20adtech%29&hl=ja&gl=JP&ceid=JP:ja"
       ],
       "context_match": [
-        "Walmart",
         "advertis",
         "ad tech",
         "adtech",
         "CTV",
         "connected TV",
         "retail media",
+        "streaming",
         "acquisition",
         "acquires",
         "買収"
@@ -1588,7 +1597,10 @@
         "vibe-coding",
         "vibe coder",
         "good vibes",
-        "summer vibe"
+        "summer vibe",
+        "winter vibe",
+        "cozy vibe",
+        "minimalist"
       ]
     },
     {
@@ -1625,7 +1637,10 @@
         "archbishop",
         "cathedral city",
         "worship",
-        "Cathedral Arts"
+        "Cathedral Arts",
+        "St Paul",
+        "St. Paul",
+        "Big Sleep"
       ]
     },
     {
@@ -1654,6 +1669,10 @@
         "Series",
         "資金調達",
         "評価額"
+      ],
+      "exclude_match": [
+        "Emergent Films",
+        "video production"
       ]
     },
     {
@@ -1731,9 +1750,17 @@
         "raised",
         "cybersecurity",
         "security",
+        "endpoint",
         "Series",
         "資金調達",
         "評価額"
+      ],
+      "exclude_match": [
+        "Dolce Glow",
+        "glow up",
+        "makeup",
+        "skincare",
+        "cosmetic"
       ]
     },
     {
@@ -1793,7 +1820,12 @@
         "enter now",
         "enter to win",
         "click to enter",
-        "entering"
+        "entering",
+        "to enter",
+        "and enter",
+        "enter talks",
+        "enter settlement",
+        "enter a new"
       ]
     },
     {
@@ -1970,7 +2002,11 @@
         "small-town",
         "small town",
         "town centre",
-        "town center"
+        "town center",
+        "cape town",
+        "town's",
+        "ghost town",
+        "boom town"
       ]
     },
     {
@@ -2049,9 +2085,20 @@
         "manufacturing",
         "aerospace",
         "space",
+        "hardware",
+        "engineering",
         "Series",
         "資金調達",
         "評価額"
+      ],
+      "exclude_match": [
+        "nominal rate",
+        "nominal GDP",
+        "nominal wage",
+        "nominal yield",
+        "nominal value",
+        "nominal growth",
+        "Fed raises"
       ]
     },
     {
