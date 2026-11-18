@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:23:11+09:00",
-  "generated_at_label": "2026/11/18 21:23 JST",
+  "generated_at": "2026-11-18T22:27:18+09:00",
+  "generated_at_label": "2026/11/18 22:27 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -264,7 +264,7 @@
           "title_ja": "AI をゼロサム競争として扱う人が多すぎます。オープンソースはその逆、つまり競争よりも協力することで勝利を収めています。\nこれが、オープン モデルをすべての人にとって使いやすくするための @OpenRouter とのパートナーシップの最初の部分を本日リリースできることに興奮している理由です。顔を抱き締めて保管したりコラボレーションしたりできます。推論用の OpenRouter。接続すると次のことが可能になります。\n🤗 Hugging Face で OpenRouter 推論を直接実行します\n🔓 OpenRouter からオープンモデルの重みに直接アクセス\n🤖 OpenRouter エージェント トレースを HF に保存して、検査したり、より良いモデルをトレーニングしたり、世界と共有したりできます!\nさらなるコラボレーション。ゼロサム ゲームが少なくなります。 AI ビルダーのさらなるパワーアップ。建ててみましょう！ 💛💛💛"
         }
       ],
-      "elapsed": 5.4
+      "elapsed": 6.3
     },
     {
       "id": "x_opencode",
@@ -510,7 +510,7 @@
           "title_ja": "Gemini 4 Carbon と Claude Fable 5.2 が OpenCode で利用可能になりました"
         }
       ],
-      "elapsed": 5.2
+      "elapsed": 6.1
     },
     {
       "id": "x_aimirai46487",
@@ -762,7 +762,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.7
+      "elapsed": 6.6
     },
     {
       "id": "x_kimmonismus",
@@ -792,21 +792,41 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
-          "title": "Benchmarks are circulating for today’s Gemini 4 Neon.\nIt outperforms Fable 5.2 on Artificial Intelligence Index and seems to be the very best Modell overall.\nThis release is going to be interesting!",
+          "title": "We are witnessing history being written right now.",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXZdg3tXcAAN4tz.png?name=small"
+            "https://pbs.twimg.com/media/HXaMaqYagAAUxbO.jpg?name=small"
           ],
-          "link": "https://x.com/kimmonismus/status/2123026110426632632",
+          "link": "https://x.com/kimmonismus/status/2123038859475001602",
           "domain": "x.com",
-          "published": "2026-11-18T21:10:43+09:00",
-          "published_label": "11/18(水) 21:10",
+          "published": "2026-11-18T22:01:22+09:00",
+          "published_label": "11/18(水) 22:01",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false,
-          "title_ja": "今日の Gemini 4 Neon のベンチマークが出回っています。\n人工知能指数では Fable 5.2 を上回り、全体的に最高のモデルであると思われます。\n今回のリリースも面白くなりそうですね！"
+          "is_new": true,
+          "title_ja": "私たちは今、歴史が刻まれていくのを目の当たりにしています。"
+        },
+        {
+          "title": "This is a super interesting paper and Recursive self-improvement keeps coming closer. New Google preprint:\nGoogle had AI rewrite an agents harness and keep a log of every change, why it made it and whether it worked. Then they swapped Opus 5.5 for Gemini 3.8 Flash and let it keep going.\nWith the log: 84.75 on workplace tasks, without: 73.42. In coding it came out ahead in 9 of 10 runs.\ntl;dr a new model no longer means starting from scratch. That's where it compounds.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXaJGS4bkAAw58s.jpg?name=small",
+            "https://pbs.twimg.com/media/HXaJI1waUAAMXhk.jpg?name=small",
+            "https://pbs.twimg.com/media/HXaJKGNaIAA3vPv.jpg?name=small",
+            "https://pbs.twimg.com/media/HXaJK8WaYAAv42Z.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123035118474609101",
+          "domain": "x.com",
+          "published": "2026-11-18T21:46:30+09:00",
+          "published_label": "11/18(水) 21:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "これは非常に興味深い論文であり、再帰的自己改善がどんどん近づいています。新しい Google プレプリント:\nGoogle は AI にエージェントのハーネスを書き換えさせ、すべての変更、変更の理由、それが機能したかどうかのログを記録させました。その後、Opus 5.5 を Gemini 3.8 Flash に交換し、そのまま使い続けました。\n職場のタスクで記録あり: 84.75、記録なし: 73.42。コーディングでは、10 回中 9 回の実行で優位に立つことができました。\n新しいモデルは、もはやゼロから始めることを意味しません。それが複雑なところです。"
         },
         {
           "title": "I talked to one of the nicest and smartest people ive ever met, @kdaigle .\nInterview in the making. We talked about model routing, GitHub fusion, and what it’s like to be both COO and CMO at the same time.\nReally excited for this one!",
@@ -839,6 +859,23 @@
           "type": "x",
           "is_new": false,
           "title_ja": "Google は別の Gemini モデルをリリースしようとしています。\nOpenAI ではなく Anthropic と競合する Google は、2026 年の私のビンゴカードには載っていませんでした。\nローガン・キルパトリック (@OfficialLoganK)\nジェミニ\n— https://x.com/OfficialLoganK/status/2122876403091959982"
+        },
+        {
+          "title": "Highlights from my opening of the Ignite keynote this morning on how we’re building a frontier ecosystem to turn advances in AI into real-world impact.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122873218650550272/img/EdDSRmgPVeZegVZm.jpg?name=small"
+          ],
+          "link": "https://x.com/satyanadella/status/2122874904903397495",
+          "domain": "x.com",
+          "published": "2026-11-18T11:09:53+09:00",
+          "published_label": "11/18(水) 11:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "今朝の Ignite 基調講演の冒頭で強調したのは、AI の進歩を現実世界に影響を与えるためのフロンティア エコシステムを構築する方法についてです。"
         },
         {
           "title": "UPDATE: NVIDIA interim CEO Colette Kress says the board will not reinstate Jensen Huang.\n\"Jensen resigned from his position with NVIDIA (...)\n\"The board has determined that they will not reinstate Jensen.\"\nI really dislike that.",
@@ -975,57 +1012,22 @@
           "title_ja": "おお。私の。神。これは本当に壊滅的なリリースです。\nGGアントロピック。\nぽっちゃり♨️ (@kimmonismus)\nなんてことだ。 GPT-6.2は大惨事のようです。\nOpenAI は、Anthropic の IPO に向けて可能な限り最高のプロモーションを提供したところです。ショックです。\n— https://x.com/kimmonismus/status/2122760517530137043"
         },
         {
-          "title": "Holy sh*t. GPT-6.2 looks like a catastrophe.\nOpenAI has just provided Anthropic with the best possible promotion for its IPO. I’m shocked.\nMatt Shumer (@mattshumer_)\nI will not be writing a full review of GPT-6.2 Astra / Sol.\nI had a terrible experience testing them. They were essentially unusable.\nI do not recommend these models.\n— https://x.com/mattshumer_/status/2122752192226406421",
+          "title": "It gets worse. It looks like a catastrophe\nChubby♨️ (@kimmonismus)\nHoly sh*t. GPT-6.2 looks like a catastrophe.\nOpenAI has just provided Anthropic with the best possible promotion for its IPO. I’m shocked.\n— https://x.com/kimmonismus/status/2122760517530137043",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2122760517530137043",
+          "link": "https://x.com/kimmonismus/status/2122760821155794947",
           "domain": "x.com",
-          "published": "2026-11-18T03:35:21+09:00",
-          "published_label": "11/18(水) 03:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "なんてことだ。 GPT-6.2は大惨事のようです。\nOpenAI は、Anthropic の IPO に向けて可能な限り最高のプロモーションを提供したところです。ショックです。\nマット・シューマー (@mattshumer_)\nGPT-6.2 Astra / Sol の完全なレビューは書きません。\n私はそれらをテストしてひどい経験をしました。それらは基本的には使用不可能でした。\nこれらのモデルはお勧めしません。\n— https://x.com/mattshumer_/status/2122752192226406421"
-        },
-        {
-          "title": "GPT-6.2 Astra Max falls short 3 point behind Fable 5.2 in @ArtificialAnlys Intelligence Benchmark.\nYes, Sol and Astra are *much* cheaper, but it looks like they did not succeed to outperform Anthropics best model just a few days before Anthropics IPO.\nI call it a win for Anthropic.\nDon’t get me won’t, GPT-6.2 is a very good and interesting release, and price-performance wise unbeaten in that intelligence domain. But looking at raw power, Claude is probably better.\nChubby♨️ (@kimmonismus)\nHERE IT IS: GPT-6.2 ASTRA AND SOL\nIts 20% cheaper than GPT-6.1 Astra!\nOpenAI says GPT-6.2 Astra scores 5.5 points higher than Claude Fable 5.2 on Agents’ Last Exam at 5% of the cost per task.\nBUT it falls short for example in Frontier Code 2.0 to Fable 5.2!\nSo far: Very efficient model, comparable to Fable 5.2 but looks like they are more on par than GPT-6.2 outperforming Fable!\n— https://x.com/kimmonismus/status/2122751943286362239",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWNsYTbMAAIGQp.jpg?name=small",
-            "https://pbs.twimg.com/media/HXWHGXvbYAAxgV9.jpg?name=small",
-            "https://pbs.twimg.com/media/HXWHNDVbIAATg9b.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2122758597172248842",
-          "domain": "x.com",
-          "published": "2026-11-18T03:27:43+09:00",
-          "published_label": "11/18(水) 03:27",
+          "published": "2026-11-18T03:36:33+09:00",
+          "published_label": "11/18(水) 03:36",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "is_new": true,
-          "title_ja": "@ArtificialAnlys インテリジェンス ベンチマークでは、GPT-6.2 Astra Max は Fable 5.2 に 3 ポイント及ばません。\n確かに、Sol と Astra は「はるかに」安価ですが、Anthropics の IPO の数日前には Anthropics の最高モデルを上回るパフォーマンスを発揮できなかったようです。\n私はこれを Anthropic の勝利と呼びます。\n理解できないでください。GPT-6.2 は非常に優れた興味深いリリースであり、そのインテリジェンス領域では価格パフォーマンスの点で無敵です。しかし、素の力で言えばクロードの方が上だろう。\nぽっちゃり♨️ (@kimmonismus)\nこちらです: GPT-6.2 アストラとソル\nGPT-6.1 Astra よりも 20% 安いです。\nOpenAI によると、エージェントの最終試験では、タスクあたり 5% のコストで GPT-6.2 Astra が Claude Fable 5.2 よりも 5.5 ポイント高いスコアを獲得しました。\nしかし、たとえばフロンティアコード 2.0 からフェイブル 5.2 までは不十分です。\nこれまでのところ: 非常に効率的なモデルで、Fable 5.2 に匹敵しますが、GPT-6.2 よりも同等以上のパフォーマンスで Fable を上回っているようです。\n— https://x.com/kimmonismus/status/2122751943286362239"
-        },
-        {
-          "title": "Workspace",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122756420622073856/img/x9JBeYAJOz8wBTvI.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2122756727141777432",
-          "domain": "x.com",
-          "published": "2026-11-18T03:20:17+09:00",
-          "published_label": "11/18(水) 03:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
+          "title_ja": "状況はさらに悪化します。大惨事のようだ\nぽっちゃり♨️ (@kimmonismus)\nなんてことだ。 GPT-6.2は大惨事のようです。\nOpenAI は、Anthropic の IPO に向けて可能な限り最高のプロモーションを提供したところです。ショックです。\n— https://x.com/kimmonismus/status/2122760517530137043"
         }
       ],
-      "elapsed": 4.9
+      "elapsed": 6.0
     },
     {
       "id": "x_haider1",
@@ -1287,7 +1289,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     },
     {
       "id": "x_testingcatalog",
@@ -1313,6 +1315,24 @@
           "type": "x",
           "is_new": false,
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 18 日\nモデル予測 👀:\n- 双子座4度ネオン、今日は!?\n- ジェミニ・ヘリックス、もうすぐ？\n- Nano Banana 3 Pro、近日発売\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Grok 4.8、まだ\n- Qwen4 Flash/Plus/27B、間もなく?\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\nオープンナイ🔥:\n- GPT-6.2 Astra および GPT-6.2 Sol は、Pro ユーザー向けの Sol Ultrafast を備えた ChatGPT Work、Codex、および API で展開されています。\n- ChatGPT for Sales は、新しい Sales プラグインと 30 以上の新規または改良されたパートナー プラグインとともにリリースされました。\n- API 使用状況ダッシュボードは、モデル、プロジェクト、または API キーごとに支出、レート制限、エラーを追跡するようになりました。\n- OpenAI は、Anthropic での Claude Code デスクトップ エクスペリエンスの構築を支援した Anthony Morris を雇用しました (alexmichael 経由)。\nマイクロソフト $506.24 (−2.27%) 🔥:\n- Microsoft は Ignite で、MAI Code 2、Code 2 Flash、Cyber 2 Flash、Realtime 1 を含む 7 つの新しい MAI モデルを発表しました。\n- Copilot Workspaces を使用すると、ユーザーとエージェントが共有コンテキストを使用して共有プロジェクトで共同作業できます。\n- Autopilot は、Microsoft 365 ユーザー向けに Copilot、Teams、Outlook に拡張されています。\n- GitHub Copilot は、Copilot アプリに Chrome 拡張機能と Azure DevOps を統合しました。\n- The Information によると、Microsoft は Copilot の Anthropic モデルをより安価な OpenAI モデルに置き換えることに取り組んでいます。\nGoogle $280.20 (−1.24%) 🔥:\n- Gemini 4 Hydrogen を利用した Gemini のタスクは、米国、日本、韓国、カナダ、オーストラリア、インドで無料になりました。\n- Gemini 4 Hydrogen は現在、世界中の Google 検索で公開されています。\n- AI Studio Build でカスタム ドメインと米国ユーザーを購入できるようになりました"
+        },
+        {
+          "title": "Claude app for iOS is getting a document scan option, allowing users to quickly upload scanned documents right to the chat.\nIt appears to be powered by a better OCR and works really fast.\nAnthropic is coming after bureaucracy 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXaPhtkXYAAAitR.jpg?name=small",
+            "https://pbs.twimg.com/media/HXaPht0XwAAjDl3.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123042089072279825",
+          "domain": "x.com",
+          "published": "2026-11-18T22:14:12+09:00",
+          "published_label": "11/18(水) 22:14",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "iOS 用 Claude アプリにドキュメント スキャン オプションが追加され、ユーザーはスキャンしたドキュメントをチャットに直接アップロードできるようになります。\nより優れた OCR を搭載しているようで、非常に高速に動作します。\n官僚制の後には人類がやってくる 👀"
         },
         {
           "title": "Documented 🗞️",
@@ -1534,28 +1554,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "ジェネシスは、人間に見えることなく、人間が行うことができるあらゆる肉体的作業を学習できるロボット、イーノを設計しました。\nジェネシスは、2026 年末までに工場や倉庫に最初の顧客導入を計画しています。\n見てください👀"
-        },
-        {
-          "title": "Genesis AI has raised a $500M Series A at a $3.5B valuation to build robots specialized in careful hand work.\nThe company built its robot starting with the hand to closely match a human hand, allowing it to learn and mimic how people work.\nPeople teach it new skills by wearing a sensor glove while doing the task, which records how their hand moves and how hard it presses.\nZhou Xian (@zhou_xian_)\nGenesis is entering its next phase.\nToday we've raised a $500M Series A at $3.5B.\nWe can imagine far more than we can build physically today. Almost everything we are creating is still paid for in human time, by human hands. We want to remove the physical limits on human ambition.\nWe are building general-purpose robots with human level intelligence and capability. Ones that work reliably across entire workflows for years.\nThere are countless versions of possible futures where billions of robots are deployed everywhere, and we aspire to bring the brightest one that carries our hopes into reality.\nVideo\n— https://x.com/zhou_xian_/status/2122752003197833357",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWzYzUWEAA7X8m.jpg?name=small",
-            "https://pbs.twimg.com/media/HXWzYzcWsAAwxaL.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2122744764089200642/img/Fm9m_puvz9iQqMto.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2122800044394815948",
-          "domain": "x.com",
-          "published": "2026-11-18T06:12:24+09:00",
-          "published_label": "11/18(水) 06:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "Genesis AI は、慎重な手作業に特化したロボットを構築するために、35 億ドルの評価額で 5 億ドルのシリーズ A を調達しました。\n同社は、人間の手にぴったり合うように手からロボットを構築し、人間の仕事の仕方を学習して模倣できるようにしました。\n人々は作業中にセンサーグローブを着用することで新しいスキルを教え、手の動きや押す強さを記録します。\n周賢 (@zhou_xian_)\nジェネシスは次の段階に入っています。\n本日、シリーズ A で 5 億ドルを 35 億ドルで調達しました。\n私たちは今日物理的に構築できる以上のものを想像することができます。私たちが創造しているほとんどすべてのものは、依然として人間の時間、人間の手によって支払われています。私たちは人間の野心に対する物理的な制限を取り除きたいと考えています。\n私たちは人間レベルの知能と能力を備えた汎用ロボットを開発しています。ワークフロー全体で何年にもわたって確実に動作するもの。\n何十億ものロボットがあらゆる場所に配備される未来の可能性には無数のバージョンがあり、私たちは希望を伝える最も明るい未来を現実にしたいと考えています。\nビデオ\n— https://x.com/zhou_xian_/status/2122752003197833357"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     }
   ]
 }
