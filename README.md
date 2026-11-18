@@ -79,6 +79,8 @@ python3 update.py --board ec-companies       # このボードだけ更新
   含む見出しに絞り、同名の別物（グリニッジ天文台、フュージョンエネルギー等）を落としています。
   調整は `sync_pureflat_companies.py` の `OVERRIDES` に1行足すだけです。
 - 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
+- 一時的に取れない社があっても他のボードの更新を止めないよう、このボードは `settings.tolerate_errors: true` です
+  （取得できなかった社はカードに「取得エラー」と出ます）。
 
 ```jsonc
 // sources-ec-companies.json の1社ぶん

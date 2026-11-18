@@ -1255,7 +1255,7 @@ def run_board(board: dict, args, nav_block: str = "") -> dict:
     errors = len(failed)
     if args.dry_run:
         print("--dry-run のためファイルは書き換えていません。")
-        return {"title": title, "skipped": False, "errors": errors}
+        return {"title": title, "skipped": False, "errors": errors, "tolerate": bool(settings.get("tolerate_errors"))}
 
     with open(board["data"], "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=2)
@@ -1267,7 +1267,12 @@ def run_board(board: dict, args, nav_block: str = "") -> dict:
         "書き出し: "
         f"{os.path.relpath(board['index'], BASE_DIR)} / {os.path.relpath(board['data'], BASE_DIR)}"
     )
-    return {"title": title, "skipped": False, "errors": errors}
+    return {
+        "title": title,
+        "skipped": False,
+        "errors": errors,
+        "tolerate": bool(settings.get("tolerate_errors")),
+    }
 
 
 def run(args) -> int:
@@ -1319,7 +1324,10 @@ def run(args) -> int:
         return 2
     if len(boards) > 1:
         print("更新したボード: " + " / ".join(f"{s['title']}" for s in ran))
-    return 0 if not any(s["errors"] for s in ran) else 1
+    # settings.tolerate_errors のボードは、一部ソースの失敗で終了コードを落とさない
+    # （社名検索のように一時的に取れないことがあるボードで、他のボードの更新を止めないため）
+    fatal = [s for s in ran if s["errors"] and not s.get("tolerate")]
+    return 0 if not fatal else 1
 
 
 def main(argv=None) -> int:

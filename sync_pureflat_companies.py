@@ -280,6 +280,7 @@ def make_document(sources: list) -> dict:
             "timeout_seconds": 15,
             "retries": 2,
             "fetch_workers": 5,
+            "tolerate_errors": True,
             "translate": True,
             "translate_max_per_run": 20,
             "user_agent": (
