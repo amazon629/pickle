@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T06:27:09+09:00",
-  "generated_at_label": "2026/11/19 06:27 JST",
+  "generated_at": "2026-11-19T07:26:49+09:00",
+  "generated_at_label": "2026/11/19 07:26 JST",
   "title": "AI新着 監視ボード",
-  "total": 90,
+  "total": 89,
   "sources": [
     {
       "id": "x_openrouter",
@@ -30,6 +30,21 @@
           "type": "x",
           "is_new": false,
           "title_ja": "OpenRouter は本日正式に @ Stripe の一部となりました。\n1,000 万を超える開発者や企業が OpenRouter を使用しており、より多くのワークロードにわたってより多くのモデルを使用して構築するため、コストとデータの送信先を制御する必要があります。\nOpenRouter は、新しいモデルへのアクセス、停止時の稼働時間、各チームの強制的な支出とデータ ポリシーを備え、あらゆるモデルとプロバイダーにわたって AI を実行できるように、オペレーティング インフラストラクチャを構築しました。\n世界中の企業の重要なインフラストラクチャを何年にもわたって運営してきた Stripe に参加することで、より迅速にインフラストラクチャを構築し、あらゆる規模の企業をサポートできるようになります。\n中立性に対する当社の取り組みは変わりません。モデルとプロバイダーは、品質、信頼性、価格で競争します。自分のビジネスに何が役立つかを決めるのはあなたです。\nストライプ (@ストライプ)\nOpenRouter は Stripe の一部になりました。\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage.\n— https://x.com/ストライプ/status/2120240651778355306"
+        },
+        {
+          "title": "Gemini 4 Neon from @GoogleDeepMind is live on OpenRouter!\nBuilt for complex software engineering, knowledge work, and science, sitting between Carbon and Hydrogen.\nFollow @ModelsOnOR for every model launch.\nModels on OpenRouter (@ModelsOnOR)\nGemini 4 Neon from @GoogleDeepMind is now live on OpenRouter, via @googlecloud.\nBuilt for complex software engineering, knowledge work, and science. It sits between Carbon and Hydrogen.\nGoogle reports #1 on the Artificial Analysis Coding Agent Index and a 32% lower cost per task than Carbon.\n— https://x.com/ModelsOnOR/status/2123169016076460334",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/OpenRouter/status/2123170058574905675",
+          "domain": "x.com",
+          "published": "2026-11-19T06:42:43+09:00",
+          "published_label": "11/19(木) 06:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "@GoogleDeepMind の Gemini 4 Neon が OpenRouter で公開されています。\n炭素と水素の間に位置する、複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。\nモデルが発売されるたびに @ModelsOnOR をフォローしてください。\nOpenRouter のモデル (@ModelsOnOR)\n@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されています。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\n— https://x.com/ModelsOnOR/status/2123169016076460334"
         },
         {
           "title": "HeyGen Avatar 6 from @HeyGen is live on OpenRouter.\nOne photo and a speech track in, a lip-synced talking video out, with gestures and expression that follow the audio.\nAvatar 6 Turbo is half the price at $0.05 per second at 1080p.\nModels on OpenRouter (@ModelsOnOR)\n1/ HeyGen Avatar 6 from @HeyGen is live on OpenRouter.\nSend one photo or a short reference video plus a speech track. Avatar 6 returns a talking video with lip sync, gestures and expression that follow the audio. 1080p or 2K.\nVideo\n— https://x.com/ModelsOnOR/status/2122842386200195245",
@@ -243,26 +258,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "本日より、Hugging Face のチャット モデルが OpenRouter を介して実行されます。\nオープンウェイト モデルは、1 年以内に OpenRouter 上のトークンの 27% から 72% に増加しました。その多くは 2 つのことから来ています。1 つは Hugging Face 🤗 で重みを公開しているラボ、もう 1 つはさまざまな側面で重みを提供しようと数十のプロバイダーが競争していることです。\n今日はその2つを結びます。ハブ上のチャット モデルは、OpenRouter のルーティングを通じて実行されるようになりました。38 のラボからの 160 のモデル、リクエストごとに選択される最適なプロバイダー、自動フェイルオーバー、同じ HF トークン。\nまた、OpenRouter トレースは、所有する Hugging Face バケットに到達し、微調整の準備が整います。\n@ClementDelangue、@julien_c、@huggingface チームと一緒にこれを構築できることに興奮しています。さらに登場!\nオープンルーター (@OpenRouter)\n@huggingface のオープン モデルが OpenRouter 経由で実行されるようになりました。\n各リクエストは、自動フェイルオーバーを備え、そのモデルに最適な価格、速度、稼働時間を提供するプロバイダーに送られます。すべてが同じ Hugging Face トークンと API で実行されます。\nブロードキャストを使用してトレースを Hugging Face Storage に送信することもできるため、リクエストはモデルの隣のハブに保存され、評価や微調整などの準備が整います。\n— https://x.com/OpenRouter/status/2122392434198131005"
-        },
-        {
-          "title": "We're teaming up to accelerate open-source Al.\nOpenRouter is now integrated into Hugging Face directly. Same token, same endpoint, plus live model stats on the Hub and an inference widget we redesigned together.\nThe best of open, in one place.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122378674435731456/rlID0yJl?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/huggingface/status/2122393775314264519",
-          "domain": "x.com",
-          "published": "2026-11-17T03:18:02+09:00",
-          "published_label": "11/17(火) 03:18",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "私たちはオープンソース Al を加速するために協力しています。\nOpenRouter が Hugging Face に直接統合されるようになりました。同じトークン、同じエンドポイント、さらにハブ上のライブ モデル統計と、一緒に再設計した推論ウィジェット。\nオープンのベストを 1 か所で。"
         }
       ],
-      "elapsed": 5.6
+      "elapsed": 5.7
     },
     {
       "id": "x_opencode",
@@ -511,7 +509,7 @@
           "title_ja": "Rune 上に構築されたネイティブ オープンコード デスクトップの初期デモ"
         }
       ],
-      "elapsed": 5.8
+      "elapsed": 5.6
     },
     {
       "id": "x_aimirai46487",
@@ -768,7 +766,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.8
+      "elapsed": 5.7
     },
     {
       "id": "x_kimmonismus",
@@ -778,7 +776,7 @@
       "status": "ok",
       "error": null,
       "via": "https://nitter.cf/kimmonismus/rss",
-      "count": 15,
+      "count": 14,
       "items": [
         {
           "title": "It’s always such a big pleasure to meet @satyanadella in person.\nOne of the most significant people of our time, driving the AI ​​era forward.",
@@ -796,6 +794,71 @@
           "type": "x",
           "is_new": false,
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
+        },
+        {
+          "title": "The benchmarks for Gemini 4 Neon are quite impressive. I wasn’t aware of these benchmarks beforehand, either.\nIn just a few months, Google has managed to turn things around and is back in the game. I think it’s safe to say that.\nChubby♨️ (@kimmonismus)\n1/ I got early access to Gemini 4 Neon and spent the day testing it in Antigravity. It built 17 interactive demos for me, from shooters to 3D worlds. Here are 8 of them, plus coding and tool use tests. I'm also sharing what went right and what went wrong.\nA thread:\nVideo\n— https://x.com/kimmonismus/status/2123168299890704735",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXcC9eUa0AALBHy.png?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123168275190439936/img/s6ySTfFYUhckQEE8.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123169294112698774",
+          "domain": "x.com",
+          "published": "2026-11-19T06:39:40+09:00",
+          "published_label": "11/19(木) 06:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "Gemini 4 Neon のベンチマークは非常に印象的です。私もこれらのベンチマークについては事前には知りませんでした。\nわずか数か月のうちに、Google は状況を好転させることに成功し、再びゲームに戻ってきました。そう言っても間違いないと思います。\nぽっちゃり♨️ (@kimmonismus)\n1/ 私は Gemini 4 Neon に早期アクセスし、Antigravity で 1 日かけてテストしました。シューティングゲームから 3D ワールドまで、17 のインタラクティブなデモを構築してくれました。ここではそのうちの 8 つと、コーディングとツールの使用テストを紹介します。何がうまくいったのか、何がうまくいかなかったのかも共有しています。\nスレッド:\nビデオ\n— https://x.com/kimmonismus/status/2123168299890704735"
+        },
+        {
+          "title": "10/ I also went through the Antigravity logs to see how Neon actually works. 13 sessions on the XHigh setting, 762 tool calls in total:\n- 313 file reads\n- 266 edits\n- 104 new files\n- 43 shell commands\n- 13 sub-agents\n- 2 web searches\n- 21 other calls, like task updates and questions to me\nHow it codes: every fix followed the same pattern. First it read all the files it needed at once (up to 16 in one go). Then it wrote the fix in one edit. Then it read the file again to check it. Each fix took roughly two to three minutes.\nHow it follows instructions: I told it 14 times to stay out of the terminal, and it ran zero shell commands in those runs. When I allowed it, it mostly started local web servers and ran its own checks.\nHow it delegates: for browser testing it sent out smaller Flash sub-agents to click through the demos. When those hit capacity errors, Neon asked me which model to try next. For the planet data it searched NASA and JPL directly.\nTokens: around 71M input over the day, 93% of it from cache, plus 1.8M output. There's no public pricing yet, so I can't tell you what all this costs.\nThe weak spot was capacity. The logs show 57 \"no capacity\" errors, and 4 runs just stopped and I had to restart them. Could be pre-launch load, but it cost me time.\nMy take: great for prototypes and solid code fixes. Expect some follow-ups.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123168557228011759",
+          "domain": "x.com",
+          "published": "2026-11-19T06:36:45+09:00",
+          "published_label": "11/19(木) 06:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "10/ また、Neon が実際にどのように機能するかを確認するために反重力ログも調べました。 XHigh 設定で 13 セッション、合計 762 回のツール呼び出し:\n- 313 ファイル読み取り\n- 266 件の編集\n- 104 個の新しいファイル\n- 43 のシェルコマンド\n- 13 人のサブエージェント\n- ウェブ検索 2 回\n- 他に 21 件の電話（タスクの更新や私への質問など）\nコードの作成方法: すべての修正は同じパターンに従いました。まず、必要なすべてのファイルを一度に読み取ります (一度に最大 16 個)。その後、1 回の編集で修正が書き込まれました。次に、ファイルを再度読み取って確認します。各修正にはおよそ 2 ～ 3 分かかりました。\n指示にどのように従うか: 端末にアクセスしないように 14 回指示しましたが、その実行ではシェル コマンドはまったく実行されませんでした。これを許可すると、主にローカル Web サーバーが起動され、独自のチェックが実行されました。\n委任方法: ブラウザーのテストでは、デモをクリックするために小規模な Flash サブエージェントを送信しました。これらが容量エラーに遭遇すると、Neon は次にどのモデルを試すべきかを私に尋ねました。惑星データについては、NASA と JPL を直接検索しました。\nトークン: 1 日で約 7,100 万の入力、その 93% がキャッシュから、さらに 180 万の出力。まだ公開価格が設定されていないため、これにかかる費用がいくらになるかはわかりません。\n弱点は容量でした。ログには 57 件の「容量なし」エラーが表示され、4 件の実行が停止したため再起動する必要がありました。起動前のロードかもしれませんが、時間がかかりました。\n私の意見: プロトタイプと確実なコード修正に最適です。続報を期待してください。"
+        },
+        {
+          "title": "9/ Then coding. I gave Neon three broken programs and checked its fixes myself afterwards:\n- a booking checker: 1 of 5 tests passed before, 5 of 5 after\n- a task scheduler: 8 of 14 checks before, 14 of 14 after\n- an async loader: 10 of 16 checks before, 16 of 16 after\nIn a code review it found all four bugs I had planted.\nTwo gaps remained, and Neon pointed out both itself. The booking checker rejects a valid leap second (23:59:60). And in the code review fix, someone could still trick the file check by swapping a folder at exactly the right moment.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123168545303609385",
+          "domain": "x.com",
+          "published": "2026-11-19T06:36:42+09:00",
+          "published_label": "11/19(木) 06:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "9/ 次にコーディングします。私は Neon に 3 つの壊れたプログラムを与え、その後自分で修正をチェックしました。\n- 予約チェッカー: 以前は 5 つのテストのうち 1 つが合格、その後は 5 つのうち 5 つが合格\n- タスク スケジューラ: 前に 14 件中 8 件のチェック、後に 14 件中 14 件をチェック\n- 非同期ローダー: 前は 16 件中 10 件のチェック、後は 16 件中 16 件のチェック\nコードレビューでは、私が仕込んだ 4 つのバグがすべて見つかりました。\nギャップが 2 つ残っており、ネオンはその両方を自分自身で指摘しました。予約チェッカーは有効なうるう秒 (23:59:60) を拒否します。コード レビューの修正では、誰かが適切なタイミングでフォルダーを交換することでファイル チェックをだますことができます。"
+        },
+        {
+          "title": "1/ I got early access to Gemini 4 Neon and spent the day testing it in Antigravity. It built 17 interactive demos for me, from shooters to 3D worlds. Here are 8 of them, plus coding and tool use tests. I'm also sharing what went right and what went wrong.\nA thread:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123168275190439936/img/s6ySTfFYUhckQEE8.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123168299890704735",
+          "domain": "x.com",
+          "published": "2026-11-19T06:35:43+09:00",
+          "published_label": "11/19(木) 06:35",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "1/ 私は Gemini 4 Neon に早期アクセスし、Antigravity で 1 日かけてテストしました。シューティングゲームから 3D ワールドまで、17 のインタラクティブなデモを構築してくれました。ここではそのうちの 8 つと、コーディングとツールの使用テストを紹介します。何がうまくいったのか、何がうまくいかなかったのかも共有しています。\nスレッド:"
         },
         {
           "title": "they do everything but bringing Jensen back",
@@ -858,7 +921,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私たちの取締役会には非常に失望しています\nビル・アックマン (@BillAckman)\n私は、@nvidia 取締役会が株主の利益を最優先に行動していないか、受託者責任に沿った行動をしていないと考えています。\n私たちが知っていることは、取締役会が会社の方針に違反したため、および/またはスパイとの不倫の告発を受けてジェンセンを解雇するか辞任を強要したということです。\n彼らは、会社、顧客、株主、その他の利害関係者への影響を慎重に考慮せずにそうしたことを行いました。\n彼らは慎重なデューデリジェンスの恩恵を受けることなく、あるいは事実の基本的な理解さえなしに、判決を急ぎました。\nこれをどうやって知ることができるのでしょうか?\nこれは、ジェンセンがどれほど早く解雇されたか、そして解雇当時はほとんど知られていなかったことからわかります。\n取締役会の招集には時間がかかる。おそらく 1 回の Zoom の時間はあったでしょう。\nそしてこれは、事実が判明した時点で理事会が直接出席し、慎重に審議して下されるべき決定である。\nそして、彼らはその決定について寝て、翌日再び会って、事実、リスク、および決定のその他の影響について話し合うべきでした。\nタイミングと情報不足により、取締役会での慎重な審議ができませんでした。\n取締役会は部下との不適切な関係を理由にCEOを解任することはできるが、それが自動的に決定されるべきではない。そのため、当社ではエージェントではなく人間で構成された取締役会を設けています。\n取締役会は、そのような関係が合意に基づくものかどうか、あるいは権力力学の乱用であったかどうかを検討する必要がある。そして取締役会は考慮する必要があります"
         },
         {
@@ -933,23 +996,6 @@
           "title_ja": "今年は AI ビデオが非常に良くなりました。さて、難しいのは、あなたの会社のように見えるようにすることです。\n@madewitharcade による調査では、すでに AI 動画を使用しているマーケターの 60% が、最大の問題は明らかに AI で作られたように見えることであると述べています。同じグラデーション、同じナレーション、同じ「未来の紹介」。\n代わりに、アーケードはあなたのブランドから始まります。サインアップ時に Web サイトを読み取り、そこからブランド キットを構築するため、何かを入力する前にフォント、色、トーンが設定されます。次に、任意の要素をクリックして、必要なことを言うと、その部分だけが変更されます。\n動画の作成にほとんど費用がかからなければ、あとはそれが自分に似ているかどうかで勝負することになります。 AIビデオのお金が行き着くところはそこだと思います。\n次の 48 時間以内に @carolinedclark のローンチ投稿に ARCADE にコメントすると、Arcade Pro の最初の 2 か月間が 50% オフになります。\nキャロライン・クラーク (@carolinedclark)\nフロンティア AI は数学を解決しました。科学。コーディング。しかし、まだ味は解決していません。今まで。\nArcade 3.0 の紹介: マーケティング チーム向けの AI ビデオ プレイグラウンド。\n1 行入力し、2 つの質問に答えるだけで、残りは Arcade が処理します。\n音声、字幕、音楽付き。\nArcade は、最高のモデルの上に独自のハーネスを実行します。\n実際の製品を見て、ブランドを把握しています。\n数字がそれを示しています。ブラインド テストでは、B2B マーケティング担当者は、Claude Opus 5.5 や Gemini Argon のビデオの 2 倍の頻度で Arcade のビデオを選択しました。\nまた、ビデオ全体をやり直すことなく、1 つを変更することもできます。\nああ、そしてこのビデオですか？アーケードで作られています。\n今後 48 時間以内に「ARCADE」とコメントすると、FI が 50% オフになります"
         },
         {
-          "title": "OpenAIs Mark Chen: we’re ~80% of the way to AGI, but only 25-50% toward RSI. Early signs already visible.\nI really appreciate that he makes a very specific statement regarding this.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122781888649773056/img/Um-yLywoSBaSdOAs.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123085852419244530",
-          "domain": "x.com",
-          "published": "2026-11-19T01:08:06+09:00",
-          "published_label": "11/19(木) 01:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "OpenAI の Mark Chen 氏: AGI までの道のりは約 80% ですが、RSI まではまだ 25 ～ 50% です。初期の兆候はすでに見えています。\nこの点に関して非常に具体的な発言をしていただいて大変感謝しております。"
-        },
-        {
           "title": "Granola, Otter and Fireflies have been fighting over the meeting on your laptop for a while now.\n@WisprFlow just brought its Notetaker to the iPhone.\nWhat Wispr has going for it is everything Flow already knows about you. The names, the acronyms, the way your company spells its products. Notetaker uses that dictionary, so the transcript gets the details right and every line has the right speaker.\nI use Wispr Flow every day, and the phone is where this makes the most sense to me. Half the conversations worth writing down happen away from the desk.\nWispr Flow (@WisprFlow)\nNotetaker is live today on iPhone. Now, your meeting notes can go wherever work takes you, for free.\nUse Notetaker on desktop for virtual meetings and on iPhone when you’re meeting in person.\nYour notes stay together across devices, so you can pick up right where you left off.\nVideo\n— https://x.com/WisprFlow/status/2123068879044046956",
           "summary": "",
           "images": [
@@ -965,83 +1011,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "グラノーラ、カワウソ、ホタルは、しばらくの間、あなたのラップトップ上の会議をめぐって争っています。\n@WisprFlow がその Notetaker を iPhone に導入しました。\nWispr が目指しているのは、Flow があなたについてすでに知っているすべてです。名前、頭字語、会社の製品の綴り方。 Notetaker はその辞書を使用するため、トランスクリプトでは詳細が正確に把握され、各行に適切な話者が含まれます。\n私は毎日 Wispr Flow を使用していますが、これが私にとって最も意味のあるのは電話です。書き留める価値のある会話の半分は、デスクから離れた場所で行われます。\nWispr フロー (@WisprFlow)\nNotetaker は今日 iPhone でライブ配信されています。会議メモをどこにでも無料で持ち運べるようになりました。\n仮想会議の場合はデスクトップで Notetaker を使用し、直接会議する場合は iPhone で Notetaker を使用します。\nメモはデバイス間で一緒に保存されるため、中断したところからすぐに再開できます。\nビデオ\n— https://x.com/WisprFlow/status/2123068879044046956"
-        },
-        {
-          "title": "First earnings call without Jensen Huang and now NVIDIA has stopped shipping its US approved H200 chips to China.\n\"We are no longer shipping licenced Hopper data centre products to China,\" interim CEO Colette Kress said. Nvidia sold $2.4B of them there last quarter. Its guidance now includes none, Reuters reports.\nReuters (@Reuters)\nNvidia stops shipping US-approved AI chips to China\n— https://x.com/Reuters/status/2123047355112903099",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXafLNDbUAAs6vm.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2122985742183944192/RtIco9j7?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123059489536647338",
-          "domain": "x.com",
-          "published": "2026-11-18T23:23:21+09:00",
-          "published_label": "11/18(水) 23:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "ジェンスン・ファン氏抜きの初めての決算発表で、NVIDIA は米国で承認された H200 チップの中国への出荷を停止した。\n暫定最高経営責任者（CEO）のコレット・クレス氏は、「当社はライセンスを取得したHopperデータセンター製品を今後中国に出荷しない」と述べた。 Nvidia は前四半期、そこで 24 億ドルを販売しました。ロイター通信によると、その指針には現在何も含まれていない。\nロイター (@Reuters)\nNvidia、米国承認のAIチップの中国への出荷を停止\n— https://x.com/Reuters/status/2123047355112903099"
-        },
-        {
-          "title": "We are witnessing history being written right now.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXaMaqYagAAUxbO.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123038859475001602",
-          "domain": "x.com",
-          "published": "2026-11-18T22:01:22+09:00",
-          "published_label": "11/18(水) 22:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "私たちは今、歴史が刻まれていくのを目の当たりにしています。"
-        },
-        {
-          "title": "This is a super interesting paper and Recursive self-improvement keeps coming closer. New Google preprint:\nGoogle had AI rewrite an agents harness and keep a log of every change, why it made it and whether it worked. Then they swapped Opus 5.5 for Gemini 3.8 Flash and let it keep going.\nWith the log: 84.75 on workplace tasks, without: 73.42. In coding it came out ahead in 9 of 10 runs.\ntl;dr a new model no longer means starting from scratch. That's where it compounds.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXaJGS4bkAAw58s.jpg?name=small",
-            "https://pbs.twimg.com/media/HXaJI1waUAAMXhk.jpg?name=small",
-            "https://pbs.twimg.com/media/HXaJKGNaIAA3vPv.jpg?name=small",
-            "https://pbs.twimg.com/media/HXaJK8WaYAAv42Z.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123035118474609101",
-          "domain": "x.com",
-          "published": "2026-11-18T21:46:30+09:00",
-          "published_label": "11/18(水) 21:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "これは非常に興味深い論文であり、再帰的自己改善がどんどん近づいています。新しい Google プレプリント:\nGoogle は AI にエージェントのハーネスを書き換えさせ、すべての変更、変更の理由、それが機能したかどうかのログを記録させました。その後、Opus 5.5 を Gemini 3.8 Flash に交換し、そのまま使い続けました。\n職場のタスクで記録あり: 84.75、記録なし: 73.42。コーディングでは、10 回中 9 回の実行で優位に立つことができました。\n新しいモデルは、もはやゼロから始めることを意味しません。それが複雑なところです。"
-        },
-        {
-          "title": "They’re not that much better. Even the OAI employees I’m talking to privately agree that Astra kinda sucks\nTheo - t3.gg (@theo)\nI took this to heart and spent the last few hours doing another deep dive on GPT-6.2 Astra\ntl;dr - things are better than when I tested, but IMO still \"directionally, very bad\"\nI'm going to keep using the same example I've hyperfixated on since the start: \"why is creating a worktree so slow?\"\nI had a long thread trying to diagnose perf issues while using t3 code on a particular VPS. 2 of the 3 were fast, 1 was really slow.\nI asked astra outright \"why is this so slow?\", and it said a bunch of gibberish. I followed up with \"I feel like I'm going insane, can you just tell me the cause of the slowness?\"\nI'll give you the answer upfront: this VPS uses a virtual disk that is slow as shit, my other VPSs have physical NVME drives that are faster.\nImage 1 is from before the fixes Tibo mentioned. It shows an unnecessary graph, focuses too much on pnpm and file systems, bolds irrelevant text, and brings up ram just as much as it (subtly) mentions drive speed.\nImage 2 is of Opus asked same thing. It opened with the important part in bold: \"Slow disk, made worse by VDO\". Ideal!\nImage 3 is 6.2 Astra post-fixes Tibo mentioned. Better? Absolutely. Much more concise. Sadly, it still focuses way too much on second-order problems that are a small % of the cause. \"XFS over a compression and deduplication layer on a virtual disk.\" - so close, but still a miss.\nI think this perfectly encapsulates the problem I have with 6.2 Astra. It doesn't miss anything. It's SO thorough. But in it's thoroughness, I find it misses the most important thing: the actual point.\nIt wants to know everything, and then it wants to share everything. It doesn't understand what is and isn't important.\nDid it say anything wrong in my screenshots? Not really. But IMO, it still entirely failed to miss the point of my question, and gave an answer that was too focused on accuracy and not enough on clarity.\nIn the wise words of Michael Seibel: \"Most aim for 100% accuracy, and they end up with 50% clarity. Aim for 100% clarity, 80% accuracy\".\nSilly way of putting it, but I genuinely wish OpenAI models would lie to me a LITTLE more so I could better understand the vibe, instead of having my time wasted by all these useless details.\n— https://x.com/theo/status/2122991778622263514",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXZgQPraQAApUAm.jpg?name=small",
-            "https://pbs.twimg.com/media/HXZg0F1aIAEcRvX.jpg?name=small",
-            "https://pbs.twimg.com/media/HXZg9WYaYAAomuP.png?name=small"
-          ],
-          "link": "https://x.com/theo/status/2123034015381033144",
-          "domain": "x.com",
-          "published": "2026-11-18T21:42:07+09:00",
-          "published_label": "11/18(水) 21:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "それほど優れているわけではありません。私が個人的に話している OAI の従業員も、アストラは最悪だということに同意しています\nテオ - t3.gg (@theo)\n私はこれを心に留め、最後の数時間を GPT-6.2 Astra の詳細な調査に費やしました。\ntl;dr - 状況は私がテストしたときよりも良くなっているが、IMO は依然として「方向性的には非常に悪い」\n私が最初から注目してきたのと同じ例、「ワークツリーの作成がなぜこんなに遅いのか?」を使い続けるつもりです。\n特定の VPS で t3 コードを使用しているときにパフォーマンスの問題を診断しようとすると、長いスレッドが発生しました。 3 つのうち 2 つは高速で、1 つは非常に遅かったです。\n私はアストラに「なぜこんなに遅いのですか?」と率直に尋ねましたが、意味不明のことを言いました。私は「気が狂いそうです。遅さの原因を教えていただけますか?」とフォローしました。\n前もって答えておきます。この VPS はクソ遅い仮想ディスクを使用していますが、他の VPS はそれよりも速い物理 NVME ドライブを備えています。\n画像 1 は Tibo が言及した修正の前のものです。不必要なグラフを表示し、pnpm とファイル システムに重点を置きすぎ、無関係なテキストを太字にし、ドライブ速度について (微妙に) 言及しているのと同じくらい RAM を持ち出します。\n画像 2 は同じことを尋ねた Opus のものです。このページは、「ディスクが遅く、VDO によってさらに悪化しました」という重要な部分が太字で始まります。理想的！\n画像 3 は Tibo が言及した 6.2 Astra のポストフィックスです。より良い？絶対に。はるかに簡潔です。悲しいことに、原因のほんの一部である二次的な問題に焦点を当てすぎています。 「仮想ディスク上の圧縮層と重複排除層上の XFS。」 - とても近いですが、まだ見逃しています。\n私はそう思います"
         }
       ],
-      "elapsed": 5.3
+      "elapsed": 5.6
     },
     {
       "id": "x_haider1",
@@ -1082,7 +1054,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google が RSI に関して落としていた漠然としたヒントをすべて覚えていますか?\n彼らは舞台裏で何か絶対に狂気の沙汰を作っているのではないかと思い始めており、わずか8日間で3つの新しいフラッグシップモデルをリリースするのは異常だ\nカーボン\n水素\nネオン"
         },
         {
@@ -1302,7 +1274,7 @@
           "title_ja": "API 価格 (100 万トークンあたり):\ngpt-6.2 アストラ: 入力 $8 / 出力 $40\ngpt-6.2 sol: 入力 $2 / 出力 $10\ngpt-6 アストラ: 入力 $10 / 出力 $50\nハイダー。 (@haider1)\nGPT-6.2 Astra と Sol が公開されました。\n— https://x.com/haider1/status/2122749687572967556"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_testingcatalog",
@@ -1330,6 +1302,25 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 18 日\nモデル予測 👀:\n- 双子座4度ネオン、今日は!?\n- ジェミニ・ヘリックス、もうすぐ？\n- Nano Banana 3 Pro、近日発売\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Grok 4.8、まだ\n- Qwen4 Flash/Plus/27B、間もなく?\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\nオープンナイ🔥:\n- GPT-6.2 Astra および GPT-6.2 Sol は、Pro ユーザー向けの Sol Ultrafast を備えた ChatGPT Work、Codex、および API で展開されています。\n- ChatGPT for Sales は、新しい Sales プラグインと 30 以上の新規または改良されたパートナー プラグインとともにリリースされました。\n- API 使用状況ダッシュボードは、モデル、プロジェクト、または API キーごとに支出、レート制限、エラーを追跡するようになりました。\n- OpenAI は、Anthropic での Claude Code デスクトップ エクスペリエンスの構築を支援した Anthony Morris を雇用しました (alexmichael 経由)。\nマイクロソフト $506.24 (−2.27%) 🔥:\n- Microsoft は Ignite で、MAI Code 2、Code 2 Flash、Cyber 2 Flash、Realtime 1 を含む 7 つの新しい MAI モデルを発表しました。\n- Copilot Workspaces を使用すると、ユーザーとエージェントが共有コンテキストを使用して共有プロジェクトで共同作業できます。\n- Autopilot は、Microsoft 365 ユーザー向けに Copilot、Teams、Outlook に拡張されています。\n- GitHub Copilot は、Copilot アプリに Chrome 拡張機能と Azure DevOps を統合しました。\n- The Information によると、Microsoft は Copilot の Anthropic モデルをより安価な OpenAI モデルに置き換えることに取り組んでいます。\nGoogle $280.20 (−1.24%) 🔥:\n- Gemini 4 Hydrogen を利用した Gemini のタスクは、米国、日本、韓国、カナダ、オーストラリア、インドで無料になりました。\n- Gemini 4 Hydrogen は現在、世界中の Google 検索で公開されています。\n- AI Studio Build でカスタム ドメインと米国ユーザーを購入できるようになりました"
         },
         {
+          "title": "BREAKING 🔥: Google officially announced Gemini 4 Neon, its new frontier-level model!\nGemini 4 Neon outperforms Opus 5.5 and GPT-6.2 Sol on many benchmarks.\nIt is now available to Google AI Pro and Ultra subscribers across Gemini, Antigravity, and APIs.\nNeonsday 👀\nLogan Kilpatrick (@OfficialLoganK)\nIntroducing Gemini 4 Neon! Pushing the frontier across domains and punching above its model class in a meaningful way. To me, Neon feels like the right balance of intelligence, speed, and usability. Available now across @GoogleAIStudio, the API, and more!\n— https://x.com/OfficialLoganK/status/2123167791922741362",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXcC3uRXUAENhAf.png?name=small",
+            "https://pbs.twimg.com/media/HXcC4pLWwAAvv2l.jpg?name=small",
+            "https://pbs.twimg.com/media/HXb9c3sbEAA9-y7.png?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123168936363741689",
+          "domain": "x.com",
+          "published": "2026-11-19T06:38:15+09:00",
+          "published_label": "11/19(木) 06:38",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "速報 🔥: Google は、新しいフロンティアレベルのモデルである Gemini 4 Neon を正式に発表しました。\nGemini 4 Neon は、多くのベンチマークで Opus 5.5 および GPT-6.2 Sol を上回ります。\n現在、Gemini、Antigravity、API の Google AI Pro および Ultra サブスクライバーが利用できるようになりました。\nネオンデー👀\nローガン・キルパトリック (@OfficialLoganK)\nGemini 4 ネオンのご紹介です!ドメイン全体のフロンティアを押し広げ、有意義な方法でそのモデルクラスを超えます。私にとって、Neon はインテリジェンス、スピード、使いやすさの適切なバランスのように感じられます。 @GoogleAIStudio、API などで利用できるようになりました。\n— https://x.com/OfficialLoganK/status/2123167791922741362"
+        },
+        {
           "title": "GOOGLE 🔥: It’s happening! Gemini 4 Neon started gradually rolling out on Gemini and Antigravity. Deeper Analysis!\nDid you get it already! 👀\nOG Gabi Bartok (@BartokGabi17)\n@testingcatalog neon is now available\nOmg\n— https://x.com/BartokGabi17/status/2123154293301674144",
           "summary": "",
           "images": [
@@ -1345,7 +1336,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google 🔥: それは起こっています! Gemini 4 Neon は、Gemini と Antigravity で徐々に展開され始めました。より深い分析！\nもう手に入れましたか！ 👀\nOG ガビ・バルトーク (@BartokGabi17)\n@testingcatalog ネオンが利用可能になりました\nああ、ああ\n— https://x.com/BartokGabi17/status/2123154293301674144"
         },
         {
@@ -1554,25 +1545,6 @@
           "type": "x",
           "is_new": false,
           "title_ja": "文書化されました 🗞️"
-        },
-        {
-          "title": "GOOGLE 🔥: Gemini 4 Neon has been spotted on the GCP Quotas page.\nToday's Release probability is up 👀\nGiven that we recently got the Argon and Carbon models, it is hard to predict what exactly it will be capable of.\nAiBattle (@AiBattle_)\nGemini 4 Neon now also appears on the Quotas page in Google Cloud. Official announcement should be soon\n— https://x.com/AiBattle_/status/2123080875537510772",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXa8pV2WkAA5ZUp.png?name=small",
-            "https://pbs.twimg.com/media/HXa8qYnWkAABDoB.jpg?name=small",
-            "https://pbs.twimg.com/media/HXaybrFWAAAgqMh.png?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123091787304907042",
-          "domain": "x.com",
-          "published": "2026-11-19T01:31:41+09:00",
-          "published_label": "11/19(木) 01:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "GOOGLE 🔥: Gemini 4 Neon が GCP Quotas ページで発見されました。\n本日のリリース確率がアップ👀\n最近アルゴン モデルとカーボン モデルを入手したことを考えると、正確に何ができるかを予測するのは困難です。\nアイバトル (@AiBattle_)\nGemini 4 Neon は、Google Cloud の [割り当て] ページにも表示されるようになりました。公式発表は近いうちにあるはず\n— https://x.com/AiBattle_/status/2123080875537510772"
         }
       ],
       "elapsed": 0.8
