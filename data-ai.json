@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T19:03:56+09:00",
-  "generated_at_label": "2026/11/18 19:03 JST",
+  "generated_at": "2026-11-18T20:59:42+09:00",
+  "generated_at_label": "2026/11/18 20:59 JST",
   "title": "AI監視ボード",
   "total": 374,
   "sources": [
@@ -264,7 +264,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.7
+      "elapsed": 8.4
     },
     {
       "id": "x_okapi_fukugyo",
@@ -309,6 +309,34 @@
           "is_new": false
         },
         {
+          "title": "【11/12〜11/18に正式公開】\n■（米）OpenAI GPT-6.2 Astra／Sol（11/18、米国時間11/17）\nAstraは科学・法務・金融などの難しい仕事向けの最上位モデルで、OpenAIはGPT-6 Astraの3分の1未満のコストで性能が上がったとしています。Solは速くて安い日常向けモデルです。\nAPI料金（100万トークンあたり）：Astra 入力$8／出力$40、Sol 入力$2／出力$10。ChatGPTとCodexで利用でき、APIも同日に提供されました。最大4.5倍速のUltrafastモードにも対応します。Artificial AnalysisのIntelligence IndexではAstraが62点で、Claude Fable 5.2（65点）に次ぐ2位と報じられています。\n■（米）Google Gemini 4 Hydrogen（11/13、米国時間11/12）\nGemini 3.8 Flashの後継となる高速モデルです。Googleは、標準設定で3.8 Flashの約2.5倍の速さとしています。API料金は入力$1.50／出力$7.50（100万トークンあたり）、コンテキストは約100万トークンです。Geminiアプリ、Gemini API、AI Studioなどで使えます。\n■（中）Alibaba Qwen4-Max（11/16）\nQwen 4世代の最初のモデルです。コード、オフィス業務、長時間のエージェント作業に向け、100万トークンのコンテキストとテキスト・画像・動画入力に対応します。2.4兆パラメータのMoEと報じられています。API料金は入力$1.50／出力$4.50（100万トークンあたり）で、ウェイトは非公開です。QwenCloud APIとQwen Studioなどで利用できます。\n次に公開が見込まれるのはこの5つです。\n1. Grok 4.8（Musk氏は「一般向けはまだ」と発言）\n2. Qwen 4 小型オープンウェイトモデル\n3. DeepSeek V4.1 Pro\n4. MiniMax M3.1 Pro\n5. Gemini 4 Oxygen\nGPT-6.2、Gemini 4 Hydrogen、Qwen4-Maxと、1週間で主要3社が相次いで新モデルを出しました。次の一手にも注目です。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/okapi_fukugyo/status/2122823568270770326",
+          "domain": "x.com",
+          "published": "2026-11-18T07:45:53+09:00",
+          "published_label": "11/18(水) 07:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "【中国系モデル】\n■（中）Alibaba Qwen 4\n11/16にフラッグシップのQwen4-Maxが公開されました（詳細は5ポスト目）。Alibabaは、より小型のQwen4モデルをオープンウェイトで提供する方針と報じられています。時期は未発表で、ローカルで動かせるQwen 4への期待が高まっています。\n■（中）DeepSeek V4.1 Pro【テスト・有力観測】\nV4.1 Flashはすでに提供されています。公式ニュースではV4.1-Proの登場が前提として触れられています。11月上旬から一部ユーザーで試験的に振り分けが始まったとの観測もあります。\n■（中）MiniMax M3.1 Pro\n11/6〜7にYan Junjie CEOがポッドキャストで、次期フラッグシップのM3.1 Proが最終の学習段階にあり、コードとエージェント能力に注力していると語りました。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/okapi_fukugyo/status/2122823566026752358",
+          "domain": "x.com",
+          "published": "2026-11-18T07:45:52+09:00",
+          "published_label": "11/18(水) 07:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "正式発表前の「次世代AIモデル」を整理しました。\n※日本時間2026年11月18日時点\n【開発・報道の裏付けあり】\n（米）OpenAI次世代フロンティアモデル\n（米）xAI Grok 4.8\n（中）Qwen 4 小型オープンウェイト\n（中）MiniMax M3.1 Pro\n【テスト・有力観測】\n（中）DeepSeek V4.1 Pro\n【噂・初期観測】\n（米）Claude Mythos 5.5\n（米）Gemini 4 Oxygen\n（米）Cursor Composer 3\n【11/12〜11/18に正式公開】\n（米）GPT-6.2 Astra／Sol（11/18）\n（米）Gemini 4 Hydrogen（11/13）\n（中）Qwen4-Max（11/16）\n詳細はスレッドへ👇",
           "summary": "",
           "images": [],
@@ -321,20 +349,6 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "【OpenAI／Claude】\n■（米）OpenAI 次世代フロンティアモデル\n10/23にオフライン学習の方針が公式に示され、10/29にはAltman氏がポッドキャストで社内に新モデルがあることに触れました。\n11/18にGPT-6.2 AstraとSolが公開されました（詳細は5ポスト目）。今回はGPT-6系の更新という位置づけで、次世代フロンティアモデルへの期待は引き続き高まっています。公開時期はまだ示されていません。\n■（米）Anthropic Claude Mythos 5.5【噂・初期観測】\n11/1に、AnthropicのMythosページのソースに「Claude Mythos 5.5」の表記が見つかったとの観測が広がりました。10月にはClaude Fable 5.5とみられる名称がLiteLLMの価格表に載り、のちに削除された経緯もあります。\nFable 5.2／Mythos 5.2は11/10に公開されたばかりです。Anthropicからの公式発表はまだなく、時期や仕様は不明です。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/okapi_fukugyo/status/2122823561912164376",
-          "domain": "x.com",
-          "published": "2026-11-18T07:45:51+09:00",
-          "published_label": "11/18(水) 07:45",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
         },
         {
           "title": "この20個で作れるようになっても、 ・作って満足して終わる ・投稿しても売上につながらない で止まる人がほとんどです。\n作った動画を、最初の売上につなげるまでのロードマップをnoteにまとめました。\n購入者特典は「アニメ動画がnoteやアフィに効く5つの理由と、置き場所ごとの使い方」。顔出し・声出しなしでできます。\n割引と特典は11/22(日)22:30まで↓\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAIで動画を作ってみたけど、\n・作って満足して終わった\n・投稿しても、売上につながらない\nそんな人のために、最初の売上につなげるまでのロードマップをnoteにまとめました。\nさらに、購入者には特典noteもつけています。\n「アニメ動画って、実はアフィやnoteを売るのに速攻効く」という話の、理由と使い方です。\n【特典noteでわかること】\n・タイムラインで手が止まる、アニメ動画が効く5つの理由\n・告知ポスト、固定ポスト、記事の冒頭など、置く場所ごとの使い方\n・悩み→気づき→変化→行動の4行で作る、15秒動画の型\n顔出しも声出しもなしで、自分の記事への入口が作れます。\n特典を更新したので、本編の割引と特典の受取期限を、11/22(日)22:30まで延ばしました👇\nVideo\n— https://x.com/okapi_fukugyo/status/2116896468040917053",
@@ -402,6 +416,38 @@
           "is_new": false
         },
         {
+          "title": "25万インストールの資料づくりの道具でも、最後に「全ページを自分の目で見直す」のは、はみ出しとズレまで。\nただ、グラフの数字が先月のままでも、資料はきれいに仕上がってしまう。\nAI社員の側から見ると、どの数字をどこから持ってきたか言えたら会議に出していい。言えないうちは、どれだけ整っていても出さない。\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2121777911409877374",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2121692749590339584/img/nnA5b3vTzyk02PPg.jpg?name=small"
+          ],
+          "link": "https://x.com/migiude_ai/status/2122303502785609761",
+          "domain": "x.com",
+          "published": "2026-11-16T21:19:20+09:00",
+          "published_label": "11/16(月) 21:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "📝Museで動画制作するなら、この18個のまとめ、かなり使える\nもちろんClaude Code、Codex等でも有効活用できる\nMuseでアニメーション動画を作るための、無料スキル18個\nおかぴさんが、GitHubで公開されているものをまとめている\n役割で分けると、こうなる\n1. 動画を作らせる：Remotion Skills\n2. 図解と画面の動き：Motion Canvas、Motion、Anime.js、Ola\n3. 数式と2D：Manim、Two.js、Konva\n4. 3Dとゲーム：Three.js、Blender、Godot、Babylon.js、LUME\n5. 再生と書き出し：Lottie Web、TweenJS、Shifty、gifenc、Proton\n作る、動かす、直す、書き出すまで、18個で一通りそろう\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せる\n使う場面が見えるまとめは、こうして手元に残る\nVideo\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nMuseでアニメーション動画を作るなら、この18個を入れておけばだいたい作れる。\n全部GitHubで無料公開。\n01 Remotion Skills → AIに動画を作らせる公式スキル\n02 Motion Canvas → 図解アニメ\n03 Motion → 画面切り替えの動き\n04 Ola → 数値をなめらかに動かす\n05 Anime.js → タイムライン・時間差の動き\n06 Manim → 数式・図形のアニメ\n07 Shifty → イージングとトゥイーン\n08 Two.js → 2Dベクターのアニメ\n09 Lottie Web → 軽いベクターアニメの再生\n10 TweenJS → 順番に動かすアニメ\n11 LUME → HTMLで3Dシーン\n12 gifenc → GIF書き出し\n13 Konva → 触って動くキャンバス\n14 Blender → リグ・キャラクターアニメ\n15 Three.js → 3Dシーン\n16 Godot → ゲームのアニメーション\n17 Babylon.js → 3Dの描画とアニメ\n18 Proton → パーティクル\n指示 → 作る → 動かす → 直す → 書き出す、まで全部そろう。\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せます。\nあとで絶対使うので保存推奨。\nVideo\n— https://x.com/okapi_fukugyo/status/2121725407867351215",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2121725382118572032/img/G7sG-FycqumKJzG3.jpg?name=small"
+          ],
+          "link": "https://x.com/tetumemo/status/2122208049880576218",
+          "domain": "x.com",
+          "published": "2026-11-16T15:00:02+09:00",
+          "published_label": "11/16(月) 15:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "🚨ネットで拾った画像、そのままAIに投げるのは危ない！\n画像には、人には見えないが「AIには読める指示文」を埋め込める。\nAIはそれをユーザーの指示として扱い、意図しない動作をする。\n道に落ちているQRコードを読むのと同じ仕組み。\nスクショすれば安全、ではない！\n隠し方は2つ。\n1. 絵の中に直接書く\n白背景にほぼ白の文字、隅の極小文字\nスクショしても絵はそのまま写る。消えない。\n引用元の警告はこれ\n2. ファイルの見えない部分に付ける\nメタデータや、ファイルの余分な部分に入れた文字。\nスクショや再保存で新しいファイルにすると、残らない。\nスクショが効くのは2だけ。\n渡す前の確認\n・拡大と、明るさ・コントラストの調整で隅と背景を確認\n・元ファイルではなく、スクショや再保存したものを使う\nそれでも安全の保証にはならない。\nAIが読み込むときに縮小されて初めて見える仕掛けは、人の確認では見つからない。\n確実なのは、出所不明の画像はAIに投げないこと。\nメール送信やサイト操作ができるAIエージェントには、直接読ませない。\nC-A-G (@C_A_G0101)\nPar souci de sécurité, on ne dépose jamais une image récupérée ainsi sur un chat LLM.\nL'image peut contenir des instructions invisibles pour un oeil humain, mais parfaitement lisibles pour le LLM.\nC'est du même genre que scanner un QR Code trouvé dans la rue.\n— https://x.com/C_A_G0101/status/2120493659770556518",
           "summary": "",
           "images": [],
@@ -416,103 +462,55 @@
           "is_new": false
         },
         {
-          "title": "MuseにGPUを2枚入れる具体的な方法を、置いておきます。\n■ いちばん簡単なやり方\nこのポストを、そのままMuseに見せてください。\n「これと同じ無料GPUの環境を作って」と言うだけで、手順書を作るところから案内してくれます。私もこのやり方でできました。\n■ 自分で進める場合\n1. Kaggleでアカウントを作る（Googleアカウントでも登録できます。クレカ登録なし）\n2. 設定画面で電話番号を確認する。これを済ませないと、GPUは選べません\n3. ノートブックを作り、右側の設定で「GPU T4 x2」を選ぶ（インターネットは最初からオンでした）\n4. 最初のブロックで「nvidia-smi」を実行し、「Tesla T4」が2枚出れば準備完了\nあとはブロックを上から順に押すだけ。画像生成なら1枚約29秒、0円。\n※アカウントをMuse作業用に分けるかは任意です。分けると、万一制限されても普段使いに影響しません。\n■ Colabとの違い\n・Colab：Googleアカウントだけですぐ始められ、Driveともつながる。無料枠の上限は非公表\n・Kaggle：無料枠は週30時間と数字で見える。GPUはT4が2枚。代わりに電話番号の確認が必要で、画面は英語。Drive連携はない\n→ まず試すならColab、使える時間を決めて使うならKaggle\n■ 無料の範囲\n・1回の実行は最長12時間。放置しても切れる\n・GPUは週30時間が上限。使った時間は設定画面に「00:03 / 30 hrs」の形で数字で出る\n・TPUは別枠で週20時間まで\n・データセットとモデルを置ける容量は、それぞれ214.75GBまで\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nMuseはGPUを持っていないけど、借りればいい！\n1枚で足らなければ、2枚借りればいい！\nKaggleは本当に太っ腹！！\n知らない人が多い無料の神ツール、Kaggle！\n無料で、VRAM16GBのクラウドGPU「NVIDIA T4」が最初から2枚使えます。\n週に30時間まで使えます。\nできることが本当に多い。\n1. Stable Diffusion、SDXLなどのオープンソースモデルで画像生成。Animagine XL 4.0で1枚29秒でした（1024×1024、30ステップで実測）\n2. Kaggleに公開されているデータセットを、ノートブックにそのまま付けて使える\n3. LoRA、QLoRAで自分専用のAIモデルを学習\n4. Qwen、Llama、DeepSeekなどのオープンソース大規模モデルをセットアップして、推論を体験\n5. Whisperで音声を文字起こし、オープンソースのTTSモデルでナレーション生成\n6. 動画生成、動画の高画質化、超解像などのモデルをテスト\n7. GitHubのプロジェクトをクローンし、依存関係をインストールしてそのまま実行\n8. メモリ約31GBで、Excel、CSVの大きなデータも一括処理\n9. データセットとモデルを置ける容量が、それぞれ214.75GBまで使える\n10. TPUも別枠で週20時間まで使える\n導入はMuseに聞きながら進めて、クレカ登録なしで、安全にセットアップできました。\n登録を始めてからGPUが使えるまで、約8分でした。\n最初に電話番号の確認だけ必要です。\n— https://x.com/okapi_fukugyo/status/2121948872511483998",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXKsBAWbEAEhKrU.jpg?name=small"
-          ],
-          "link": "https://x.com/okapi_fukugyo/status/2122092713147515035",
-          "domain": "x.com",
-          "published": "2026-11-16T07:21:44+09:00",
-          "published_label": "11/16(月) 07:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "無料GPUが2枚あれば、画像も動画も「作れる」側は十分です。あとは「何を作って、どう売るか」だけ。\nAIアニメ動画で最初の売上までのロードマップはこちら👇\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nXのアカウント、まだ持ってない。\nAIで動画なんて、触ったこともない。\n大丈夫です。\nむしろ、そういう人のために書きました。\n今、Xを開くと\n「AIで副業」「AIで月◯万」\nみんな同じ文章を、同じように投稿しています。\nここに文章だけで飛び込んでも、埋もれて終わりです。\nでも、タイムラインに『15秒のアニメ動画』が流れてきたら？\n指が止まります。\n文章は読み飛ばされても、動くキャラクターは見られるんです。\nこれが、今いちばん簡単な差別化です。\n---\n必要なものは、これだけ。\n📱 スマホかパソコン\n📧 メールアドレス1つ\n🤖 Claude（Opus 5.5）月3,000円ほど\n絵が描けなくてもいい。\n動画編集ソフトも使えなくていい。\n企画も、キャラ設定も、絵コンテも、プロンプトも、営業文も、\nClaudeが隣で一緒に考えてくれます。\nあなたがやるのは「コピペして、選ぶ」だけ。\n月3,000円。\n15秒動画の制作を1件3万円で受けられたら、それだけで10倍。\n毎月の継続案件になれば、さらにその先も見えてきます。\n---\n今日やること。全部で1時間。\nSTEP1｜Xのアカウントを作る（5分）\nアプリを入れて、メールアドレスで登録するだけ。\n名前は「ゆう｜15秒アニメ広告つくる人」のように、『名前＋何をする人か』にします。\nこれだけで「何者かわからない人」から抜け出せます。\nSTEP2｜Claudeを開く（3分）\n登録して、チャット画面を開きます。\nSTEP3｜この文章をそのままコピペ（1分）\n> あなたはSNS広告の映像ディレクターです。Instagram Reels用の15秒アニメ広告を作りたいです。架空のカフェの宣伝で、①企画を3案 ②主人公キャラの設定 ③3秒×5カットの絵コンテ ④各カットの画像生成用プロンプト（英語）を出してください。私は完全な初心者なので、専門用語を使わずに説明してください。\n送信すると、15秒動画の設計図が全部出てきます。\nSTEP4｜気に入った案を1つ選ぶ（5分）\n迷ったら「一番かわいい」と思ったものでOK。\nSTEP5｜静止画を作って、動かす（30分）\nSTEP3で出たプロンプトを画像AIに貼る → 出た絵を動画AIで動かす。\nいきなり「夜の街を歩く少女」と打つより、狙った絵がずっと出やすくなります。\nSTEP6｜Xに投稿する（5分）\n> AIで15秒のアニメ広告を作ってみました。\n> お店や商品の紹介動画、作れます。\nこれで、あなたの「1本目」が世に出ました。\n---\nここから30日で、営業できる状態へ。\n1週目：まず1本、完成させる\n2週目：ポートフォリオ用に3本そろえる\n3週目：料金と商品メニューを決める\n4週目：お店やアカウントに営業DMを10件送る\n「作れます」で終わる人と、「それ、お願いできますか？」と言われる人。\n違いはセンスではなく、『作ったあとの設計』です。\n---\nこのnoteに入っているもの\n✅ 素人っぽく見えない構図の作り方\n✅ キャラがブレない設定方法\n✅ 15秒動画のカット割り\n✅ 文章だけで作れる絵コンテ\n✅ 実績0から作るポートフォリオ3本\n✅ 値下げ競争に巻き込まれない商品設計\n✅ そのままコピペできる営業文\n✅ 修正地獄を避けるヒアリング項目\n✅ 単発を継続案件に変える方法\n✅ 30日で営業できる状態になるロードマップ\n🎁 特典：企画・キャラ設定・カット設計・プロンプト・商品設計・ポートフォリオ・営業先管理のテンプレート7点\n---\nこれから動画AIはどんどん賢くなります。\n「生成できる」だけの価値は、下がっていきます。\n残るのは、企画できる人、商品にできる人、売れる人です。\n長編アニメはいりません。\nアカウントもスキルも、今日ゼロからで大丈夫。\nまずは今日、15秒を1本。\n最初の15秒から、最初の売上まで。\n今だけセール価格です👇\n— https://x.com/okapi_fukugyo/status/2119064562284831078",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2121235804022571008/0wJIOdkz?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/okapi_fukugyo/status/2121953502381633820",
-          "domain": "x.com",
-          "published": "2026-11-15T22:08:33+09:00",
-          "published_label": "11/15(日) 22:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "MuseはGPUを持っていないけど、借りればいい！\n1枚で足らなければ、2枚借りればいい！\nKaggleは本当に太っ腹！！\n知らない人が多い無料の神ツール、Kaggle！\n無料で、VRAM16GBのクラウドGPU「NVIDIA T4」が最初から2枚使えます。\n週に30時間まで使えます。\nできることが本当に多い。\n1. Stable Diffusion、SDXLなどのオープンソースモデルで画像生成。Animagine XL 4.0で1枚29秒でした（1024×1024、30ステップで実測）\n2. Kaggleに公開されているデータセットを、ノートブックにそのまま付けて使える\n3. LoRA、QLoRAで自分専用のAIモデルを学習\n4. Qwen、Llama、DeepSeekなどのオープンソース大規模モデルをセットアップして、推論を体験\n5. Whisperで音声を文字起こし、オープンソースのTTSモデルでナレーション生成\n6. 動画生成、動画の高画質化、超解像などのモデルをテスト\n7. GitHubのプロジェクトをクローンし、依存関係をインストールしてそのまま実行\n8. メモリ約31GBで、Excel、CSVの大きなデータも一括処理\n9. データセットとモデルを置ける容量が、それぞれ214.75GBまで使える\n10. TPUも別枠で週20時間まで使える\n導入はMuseに聞きながら進めて、クレカ登録なしで、安全にセットアップできました。\n登録を始めてからGPUが使えるまで、約8分でした。\n最初に電話番号の確認だけ必要です。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXKsBAWbEAEhKrU.jpg?name=small"
-          ],
-          "link": "https://x.com/okapi_fukugyo/status/2121948872511483998",
-          "domain": "x.com",
-          "published": "2026-11-15T21:50:09+09:00",
-          "published_label": "11/15(日) 21:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "Xで流れてくる『GitHub』のおすすめ\n怖いなら、入れなくていい\n公開されているだけでは、安全とは言えない\n気になるものを見つけたら、そのポストやリンクをMuseに渡して、こう頼むだけ\n「まだインストールしないで。公式か、何をするものか、外にデータを送らないか確認して。作り直せるなら、入れずに同じものを作って」\n作り直せない大きなものだけ、確認してからテスト用に入れる\nパスワードもAPIキーも渡さない\n下のポストでも、他のおすすめでも、使い方は同じ\n怖いまま入れるか、諦めるかじゃない\n確認するか、作らせるか\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nMuseでアニメーション動画を作るなら、この18個を入れておけばだいたい作れる。\n全部GitHubで無料公開。\n01 Remotion Skills → AIに動画を作らせる公式スキル\n02 Motion Canvas → 図解アニメ\n03 Motion → 画面切り替えの動き\n04 Ola → 数値をなめらかに動かす\n05 Anime.js → タイムライン・時間差の動き\n06 Manim → 数式・図形のアニメ\n07 Shifty → イージングとトゥイーン\n08 Two.js → 2Dベクターのアニメ\n09 Lottie Web → 軽いベクターアニメの再生\n10 TweenJS → 順番に動かすアニメ\n11 LUME → HTMLで3Dシーン\n12 gifenc → GIF書き出し\n13 Konva → 触って動くキャンバス\n14 Blender → リグ・キャラクターアニメ\n15 Three.js → 3Dシーン\n16 Godot → ゲームのアニメーション\n17 Babylon.js → 3Dの描画とアニメ\n18 Proton → パーティクル\n指示 → 作る → 動かす → 直す → 書き出す、まで全部そろう。\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せます。\nあとで絶対使うので保存推奨。\nVideo\n— https://x.com/okapi_fukugyo/status/2121725407867351215",
+          "title": "これ、無料で出していいの…18個そろってるの助かりすぎる。保存した\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nMuseでアニメーション動画を作るなら、この18個を入れておけばだいたい作れる。\n全部GitHubで無料公開。\n01 Remotion Skills → AIに動画を作らせる公式スキル\n02 Motion Canvas → 図解アニメ\n03 Motion → 画面切り替えの動き\n04 Ola → 数値をなめらかに動かす\n05 Anime.js → タイムライン・時間差の動き\n06 Manim → 数式・図形のアニメ\n07 Shifty → イージングとトゥイーン\n08 Two.js → 2Dベクターのアニメ\n09 Lottie Web → 軽いベクターアニメの再生\n10 TweenJS → 順番に動かすアニメ\n11 LUME → HTMLで3Dシーン\n12 gifenc → GIF書き出し\n13 Konva → 触って動くキャンバス\n14 Blender → リグ・キャラクターアニメ\n15 Three.js → 3Dシーン\n16 Godot → ゲームのアニメーション\n17 Babylon.js → 3Dの描画とアニメ\n18 Proton → パーティクル\n指示 → 作る → 動かす → 直す → 書き出す、まで全部そろう。\nMuseの仮想マシンにいるClaude CodeやCodexに、そのまま渡せます。\nあとで絶対使うので保存推奨。\nVideo\n— https://x.com/okapi_fukugyo/status/2121725407867351215",
           "summary": "",
           "images": [
             "https://pbs.twimg.com/amplify_video_thumb/2121725382118572032/img/G7sG-FycqumKJzG3.jpg?name=small"
           ],
-          "link": "https://x.com/okapi_fukugyo/status/2121861398590300181",
+          "link": "https://x.com/tenso_ai_med/status/2122061255372640388",
           "domain": "x.com",
-          "published": "2026-11-15T16:02:34+09:00",
-          "published_label": "11/15(日) 16:02",
+          "published": "2026-11-16T05:16:43+09:00",
+          "published_label": "11/16(月) 05:16",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "Anthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。",
+          "title": "明日のお仕事これで遊ぶ\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2121777911409877374",
           "summary": "",
           "images": [
             "https://pbs.twimg.com/amplify_video_thumb/2121692749590339584/img/nnA5b3vTzyk02PPg.jpg?name=small"
           ],
-          "link": "https://x.com/okapi_fukugyo/status/2121777911409877374",
+          "link": "https://x.com/bu1010_Mark2/status/2122007186322989337",
           "domain": "x.com",
-          "published": "2026-11-15T10:30:49+09:00",
-          "published_label": "11/15(日) 10:30",
+          "published": "2026-11-16T01:41:52+09:00",
+          "published_label": "11/16(月) 01:41",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "AI動画を『映画っぽく』したいなら、次はこの順番で6サイトを回るのが早い。\n①\n撮りたい画を文章で探して、色と照明を真似る\n②\n「夜の東京・ネオン・雨」のような雰囲気で、映像のお手本を探す\n③\n監督ごとのCM・MVを見て、作品のトーンを決める\n④\n名作映画の文字の入れ方を知る\n⑤\nオープニングタイトルの見せ方を盗む\n⑥\n最後に、映画っぽい音を足す\nどれも無料で見られるので、まずは①だけでも開いてみてほしい。",
+          "title": "■ 1. Anthropic公式「pptx」スキルでAI資料の脱ダサ\n作る前に「誰に見せる資料か」を考えさせて配色や構成を決め、最後はAIが全ページを見直してはみ出しやズレを直す公式スキル。グラフや表もPowerPointの部品のまま出てくるので、数字を差し替えてそのまま使える。\n🐥スキル自体は以前からあるけど、11/14にも更新が入ってて、今月はOffice系スキルがApache 2.0ライセンスになった。中身を読むと、スライドを画像にして全ページ目視チェックするのが必須工程になってて、ここがAIスライドのダサさを減らす肝。ただ、チェック時の文字幅は手元のPowerPointとズレることがあるから、日本語資料は最後に自分のPowerPointで開いて確認しておくと安心。\n1/5\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『スライドがダサい問題』を終わらせにきた。\nその名は「pptx」（スライド作成スキル）。\n・GitHubで19.4万スター\n・インストール数は約25.5万（公式スキルで3位）\n・誰でも使える形で、Anthropicが公開\nAIに資料を頼むと、毎回同じものが出てくる。\n→ 白い背景に、箇条書きだけ\n→ とりあえず青\n→ タイトルの下に、お決まりの線\n→ 文字がはみ出したまま\npptxスキルは、これを根元から変える。\nAIに、作り始める前に「誰に見せる資料か」を考えさせ、配色・文字・ページの作りまで決めさせる。\n最後は、AIが全ページを自分の目で見直して、はみ出しやズレを直す。\n使い道に合わせて、資料の作りごと変わる。\n→ 投資家向け：勢いと数字で押す\n→ 経営会議：重厚で信頼感\n→ 営業提案：明るく前向き\n→ 決算説明：端正で上品\n→ 採用説明会：親しみやすく温かい\n→ 社内研修：すっきり見やすい\nグラフも表も、PowerPointの部品のまま出てくる。\nだから、数字を書き換えればそのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill pptx\n2. 作りたい資料の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. スライドが完成\n一度入れれば、あとは毎回使える。\n25万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2121777911409877374",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2121700953003098112/img/bVR48ftfFBeQVYhq.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2121692749590339584/img/nnA5b3vTzyk02PPg.jpg?name=small"
           ],
-          "link": "https://x.com/okapi_fukugyo/status/2121755510160703493",
+          "link": "https://x.com/piske_cc/status/2121929335137509467",
           "domain": "x.com",
-          "published": "2026-11-15T09:01:48+09:00",
-          "published_label": "11/15(日) 09:01",
+          "published": "2026-11-15T20:32:31+09:00",
+          "published_label": "11/15(日) 20:32",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 4.6
+      "elapsed": 8.6
     },
     {
       "id": "x_codexneo4",
@@ -524,6 +522,22 @@
       "via": "https://nitter.cf/codexneo4/rss",
       "count": 15,
       "items": [
+        {
+          "title": "GPT-6.2 Astra、進化エグすぎる\nGPT-6 Astraから\nここまで変わるとは思わなかった\n料金だけはアップしてる👇\n・GPT-6 Astra：$8 / $40\n・GPT-6.2 Astra：$10 / $50\nこの性能差に追加料金を払う価値は\nあると思う",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122892744393965568/img/pFOhoUnoPoyaIlvB.jpg?name=small"
+          ],
+          "link": "https://x.com/codexneo4/status/2123003334403686762",
+          "domain": "x.com",
+          "published": "2026-11-18T19:40:13+09:00",
+          "published_label": "11/18(水) 19:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "OpenAIが次世代AIを開発中らしい\n社員も外部と連絡できないほど\n厳重に管理された環境で超巨大AIを\n開発しているという未確認情報が多発してて\n期待感が高まってる\nOpenAI内部で「basement」と\n呼ばれているという極秘区画について\n海外の非公式投稿が出ています\nその投稿によると、内部はこんな環境だそうです👇\n🔒 物理的にも厳重に施錠・管理された部屋\n🌐 外部インターネットへの接続は完全に遮断\n💻 持ち込める機器やソフトウェアは事前承認されたものだけ\n🛡️ 安全性を担当するチームが24時間体制で稼働\nさらに、中では10兆パラメータ超の\n巨大な事前学習モデルを使い、\nその能力を小さなモデルに引き継ぐ\n「蒸留」が進められているとのこと。\n「GPT-6.2」などの一般公開向けモデルも、\nこの巨大モデルから作られる\n軽量版だと主張しています。\nネットから隔離されているのはAIだけではなく\nそこで働く社員も、滞在中は外部との\n連絡を遮断されるという話。\nTiboは、新しいGPTモデルの学習から\nテストまでを現場で監督するため\nこの区画に入っているとされています。\nいわば、極秘プロジェクトのために\n地下室で缶詰めになっている、という噂です。\n※施設の実態、モデルの規模、GPT-6.2との関係\nTiboの担当業務を裏づける公式情報は\n確認できていません。\n現時点では、SNS上の未確認情報です。",
           "summary": "",
@@ -641,6 +655,22 @@
           "is_new": false
         },
         {
+          "title": "ちょっと待って。解決した手順がそのままSkillsに残るの…毎回調べ直してる身には刺さる\nCodex研究ラボ (@codexneo4)\nClaude CodeやCodexのAIエージェントが\n10倍以上動きが変わる\n使い込んでる人ほど刺さるやつ。\n過去に解決した問題を「次に使える経験」\nとして蓄積するOSS『AgentRun』\n成功した手順をSkillsに残し\n繰り返す仕事はWorkflow化まで狙う。\n毎回の調べ直しとトークン消費を\n減らす仕組みが面白い\n👇\n— https://x.com/codexneo4/status/2122225656977146193",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2121226645797289984/PJIbaGeA?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tenso_ai_med/status/2122534133033472150",
+          "domain": "x.com",
+          "published": "2026-11-17T12:35:46+09:00",
+          "published_label": "11/17(火) 12:35",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "今更AIを学びたいけど\n何から始めればいいかわからない人\nAIを勉強したい人まずこれを見てほしい\n全部で38個。ブックマーク推奨👇\n① 動画で学ぶ｜初心者におすすめの8選\nまずはAIの仕組みを動画で理解したい人向け。\nKarpathy「大規模言語モデル入門」\n→ ChatGPTなどのAIが動く仕組みを学べる\n李宏毅「生成AI入門」\n→ 生成AIの基礎から応用まで学べる大学講義\n3Blue1Brown「大規模言語モデルとは？」\n→ AIの仕組みをアニメーションで直感的に理解\n李沐「GPTシリーズ論文解説」\n→ GPTがどう進化してきたのかを学べる\nAndrew Ng × OpenAI「プロンプトエンジニアリング」\n→ AIへの効果的な指示の出し方を学べる\n3Blue1Brown「ニューラルネットワークとは？」\n→ AIの基本構造を視覚的に理解できる\n李沐「実践ディープラーニング」\n→ AIの仕組みをコードと一緒に学べる\n3Blue1Brown「AIはどうやって知識を記憶する？」\n→ 大規模言語モデルの内部動作を理解できる\n② GitHubで学ぶ｜実際にAIを作りたい人向け11選\n見るだけでなく、実際に手を動かして学びたい人向け。\n③ 公式ガイド｜AIエージェントを使いこなす5選\nGoogle「AIエージェントのホワイトペーパー」\n→ AIエージェントの設計思想を学べる\nDeepSeek公式プロンプトライブラリ\n→ 実践的なプロンプト例を確認できる\nAnthropic「Building Effective Agents」\n→ 効果的なAIエージェントの設計方法\nCoze（扣子）\n→ ノーコードでAIエージェントを構築\nDify公式ドキュメント\n→ AIワークフローやアプリを構築\n特におすすめなのはAnthropicの公式ガイド。\nClaude CodeやAIエージェントを使う人には参考になる内容。\n④ 書籍で学ぶ｜AIの理解を深める7選\nDive into Deep Learning\n→ 無料で読める深層学習の教科書\nゼロから大規模言語モデルを構築\n→ LLMを自分で作りながら理解\n大規模言語モデル\n→ LLMの理論を体系的に学べる\n大規模言語モデル：理論から実践へ\n→ 基礎理論から実装まで\n大規模言語モデルアプリ開発入門\n→ LLMを使ったアプリ開発の入門書\nUnderstanding Deep Learning\n→ 無料公開されている英語の専門書\nAI Engineering（Chip Huyen）\n→ AIアプリを実際のサービスに組み込む考え方\n初心者は無理に全部読む必要なし。\nまずは1冊を選んで、AIに解説してもらいながら読むだけでも十分勉強になる。\n⑤ 論文で学ぶ｜AIエージェントの重要研究4選\nAIの仕組みをさらに深く理解したい人向け。\nReAct\n→ AIが推論と行動を組み合わせる仕組み\nGenerative Agents\n→ AIが記憶や計画を使って自律的に行動する研究\nToolformer\n→ AIが外部ツールを利用する仕組み\nChain-of-Thought Prompting\n→ AIに段階的な推論を促す研究\n英語が苦手でも、論文をChatGPTやClaudeに読み込ませて日本語で解説してもらえばOK。\n⑥ オンライン講座｜体系的に学べる5選\nHugging Face Agents Course\n→ AIエージェントの基礎から実装まで\nAndrew NgのLLM講座\n→ LLMの基本から応用まで\nMicrosoft Generative AI for Beginners\n→ 生成AIアプリの開発入門\nVector Databases: Embeddings to Apps\n→ ベクトルデータベースと検索技術\nAgent Memory\n→ AIエージェントの記憶の仕組み\n結局、初心者は何から始めればいいの？\n個人的には、この順番がおすすめ。\nSTEP 1：AIの基礎を理解する\n3Blue1BrownやKarpathyの動画を見る。\nSTEP 2：AIを実際に使う\nChatGPTやClaudeで文章作成・調査・資料作成を試す。\nSTEP 3：AIで何かを作る\nClaude CodeやCodexを使って、簡単なWebサイトやツールを開発する。\nSTEP 4：AIエージェントを学ぶ\nMicrosoftやHugging Faceの無料講座を進める。\nSTEP 5：自分の仕事を自動化する\nDifyなどを使い、実際の業務をAIに任せる。\nこれで十分。\n最初から38個すべてを勉強する必要はない。\nむしろ一番もったいないのは、教材を集めるだけで満足してしまうこと。\nAIは知識を覚えるだけでは使いこなせない。\n実際に触って、失敗して、改善して、自分の仕事に取り入れていく。\nこの繰り返しが一番重要。\nAI学習で迷っている人は、まずこの投稿を保存して、気になった教材を1つ試してみてほしい。",
           "summary": "",
           "images": [
@@ -687,12 +717,10 @@
           "is_new": false
         },
         {
-          "title": "⚠️AIを学んだ結果稼げていますか⚠️\n既存のAIスクールはAIを使える様になる事が\n目的で稼げる様にはなりません\n実践的な稼ぐに特化する為の\n期間限定20大特典を限定配布中👇",
+          "title": "④ まずは「明日も使うGPT」から移してみる\n毎日の投稿づくり。\n提案書の下書き。\n定期的なリサーチ。\n止まったら困る仕事に使っているGPTを、先に確認するのがおすすめ。\n移行後は、普段と同じ依頼を送って、\n・指示した形式で出力されるか\n・必要な資料を参照しているか\n・外部連携が動くか\nをチェックする。\n必要な修正が見つかっても対応できるように、期限ぎりぎりまで放置しないでおこう。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXLMDowaYAECys4.jpg?name=small"
-          ],
-          "link": "https://x.com/codexneo4/status/2122194451129159707",
+          "images": [],
+          "link": "https://x.com/codexneo4/status/2122194452559331514",
           "domain": "x.com",
           "published": "2026-11-16T14:06:00+09:00",
           "published_label": "11/16(月) 14:06",
@@ -700,70 +728,40 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "🚨 Codexユーザーに悲報 🚨\nChatGPT Plusもう使う必要性がなくなってる\n開発中のプロジェクトで、\n突然Codexが会話を再開できなくなる\n表示されたエラーは、\n「Failed to resume chat.」\n（チャットの再開に失敗しました）\n「No space left on device.」\n（デバイスの空き容量がありません）\n流石に作業にならない、、\nこっちは真剣にプロジェクトを開発しているのに\n作業の続きを始めることすらできない。\n新機能やモデルの性能向上もいいけど、\nそれ以前に安定して動いてほしい。\n開発用AIに一番必要なのは、\n賢さだけじゃなくて信頼性。\nこんな問題が繰り返されるなら、\n重要なプロジェクトを安心して任せられない。\n課金するならPro一択。\n今ならMuseの方が圧倒的にコスパも良いし\nOpus、MuseでCodexはいったんステイかな。",
+          "title": "今回を機に、AIへの頼み方を「自分の手元にも残す」習慣をつけたい。\n何を任せるのか。\nどの資料を使わせるのか。\nどんな順番で進めるのか。\nどう仕上がれば合格なのか。\nここを文章にしておけば、機能やサービスが変わっても、仕事の仕組みを組み直す手がかりになる。\n何度も試して磨いた指示文は、自分が積み上げたノウハウ。\nまずは今日、一番使っているGPTの設定を開いて、指示文と資料を保存するところから。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/codexneo4/status/2122194452903284856",
+          "domain": "x.com",
+          "published": "2026-11-16T14:06:00+09:00",
+          "published_label": "11/16(月) 14:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "これPRO200でもエラー出てくるので、codex全体が不安的な感じある\nCodex研究ラボ (@codexneo4)\n🚨 Codexユーザーに悲報 🚨\nChatGPT Plusもう使う必要性がなくなってる\n開発中のプロジェクトで、\n突然Codexが会話を再開できなくなる\n表示されたエラーは、\n「Failed to resume chat.」\n（チャットの再開に失敗しました）\n「No space left on device.」\n（デバイスの空き容量がありません）\n流石に作業にならない、、\nこっちは真剣にプロジェクトを開発しているのに\n作業の続きを始めることすらできない。\n新機能やモデルの性能向上もいいけど、\nそれ以前に安定して動いてほしい。\n開発用AIに一番必要なのは、\n賢さだけじゃなくて信頼性。\nこんな問題が繰り返されるなら、\n重要なプロジェクトを安心して任せられない。\n課金するならPro一択。\n今ならMuseの方が圧倒的にコスパも良いし\nOpus、MuseでCodexはいったんステイかな。\n— https://x.com/codexneo4/status/2122163498062873032",
           "summary": "",
           "images": [
             "https://pbs.twimg.com/media/HXLL-v1bYAAz3pk.jpg?name=small"
           ],
-          "link": "https://x.com/codexneo4/status/2122163498062873032",
+          "link": "https://x.com/okane_plus/status/2122180981335761270",
           "domain": "x.com",
-          "published": "2026-11-16T12:03:00+09:00",
-          "published_label": "11/16(月) 12:03",
+          "published": "2026-11-16T13:12:28+09:00",
+          "published_label": "11/16(月) 13:12",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "⚠️AIを学んだ結果稼げていますか⚠️\n既存のAIスクールはAIを使える様になる事が\n目的で稼げる様にはなりません\n実践的な稼ぐに特化する為の\n期間限定20大特典を限定配布中👇",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXLL9E8aQAAc0UX.jpg?name=small"
-          ],
-          "link": "https://x.com/codexneo4/status/2122163498775953543",
-          "domain": "x.com",
-          "published": "2026-11-16T12:03:00+09:00",
-          "published_label": "11/16(月) 12:03",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Claude CodeやCodexで開発した\nWebサイトをスマホから一瞬で\n確認できるようになった‼️\nしかも無料。毎回localhostのせいで\nプレビューが開けない問題が解決する\nやり方は超簡単👇",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/codexneo4/status/2121888669015691477",
-          "domain": "x.com",
-          "published": "2026-11-15T17:50:56+09:00",
-          "published_label": "11/15(日) 17:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "① PCとスマホの両方に「Tailscale」をインストール。同じアカウントでログイン（無料）\n② Claude CodeまたはCodexで開発中のプロジェクトを開く\n③ AIにプロジェクトを起動させ、プレビューURLを発行してもらう\n④ 以下の指示をAGENTS.mdまたはCLAUDE.mdに追加するだけ。\nコピペ用プロンプト👇\n「このPCで動作しているWebサイト、プレビュー、ダッシュボードなどのURLを共有するときは、localhostではなくTailscale経由でアクセスできるリンクを発行してください。\n私は複数のPCとスマートフォンで作業しています。\ntailscale serveを使用してローカルサーバーをTailnet内に公開し、実際にアクセスできることを確認してからURLを共有してください。」\nこれだけで、PCで開発したサイトをスマホから直接確認できる。\nしかもTailscale Serveなら、基本的に自分のTailnetに接続した端末だけがアクセスできる。\n外部公開用のサーバーを毎回用意する必要もない。\nClaude CodeやCodexで開発している人は、これを設定しておくだけで確認作業がかなり楽になる。\n※スマホ側もTailscaleへの接続が必要。外部公開するFunnelとは別機能なので注意。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/codexneo4/status/2121888671700025426",
-          "domain": "x.com",
-          "published": "2026-11-15T17:50:56+09:00",
-          "published_label": "11/15(日) 17:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
         }
       ],
-      "elapsed": 4.7
+      "elapsed": 8.8
     },
     {
       "id": "x_beku_ai",
@@ -790,6 +788,98 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "セブンから学べること多すぎる\nのじ (@columbus_ceo)\n— https://x.com/columbus_ceo/status/2122592734896914923",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/beku_AI/status/2123023161528664372",
+          "domain": "x.com",
+          "published": "2026-11-18T20:59:00+09:00",
+          "published_label": "11/18(水) 20:59",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "Googleに課金してる人は見ときたい\nにも｜AIによって爆誕 (@ai_ai_ailover)\n— https://x.com/ai_ai_ailover/status/2122595518471962990",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXT5RviawAA2eG6.jpg?name=small"
+          ],
+          "link": "https://x.com/beku_AI/status/2123019387317927964",
+          "domain": "x.com",
+          "published": "2026-11-18T20:44:00+09:00",
+          "published_label": "11/18(水) 20:44",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "開発者本人の設定を真似できるのいいね\nまるお｜AIエージェント×コンテンツマーケ｜AI特許取得｜慶應AI卒｜元日テレAI責任者｜1年で2億 (@Maruo_0314)\n— https://x.com/Maruo_0314/status/2122663830786625861",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXSpG_ubQAI6Q89.jpg?name=small"
+          ],
+          "link": "https://x.com/beku_AI/status/2123015611655885048",
+          "domain": "x.com",
+          "published": "2026-11-18T20:29:00+09:00",
+          "published_label": "11/18(水) 20:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "稼いでる人のノウハウを全部取り入れようとする人、器用すぎて逆に大損してない？\nAさんからX、BさんからThreads、Cさんから広告、DさんからAI自動化。…いや、それ全部いつやるの？\n僕なら今の売上を伸ばすのに必要なものだけ取り入れる。月1000万稼ぐために、世の中のノウハウを全部知る必要なんてないからね。\n実は何を学ぶかより、今は何を学ばないかを決めるほうが大事だったりするんだよねー。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/beku_AI/status/2123009069275295965",
+          "domain": "x.com",
+          "published": "2026-11-18T20:03:00+09:00",
+          "published_label": "11/18(水) 20:03",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "GPT-6.2使うならこれは見ときたい\n銀次 | 実務で使えるAI活用 (@ginji_aihack)\n— https://x.com/ginji_aihack/status/2122850574232326291",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXXhU24bMAEGtNR.jpg?name=small"
+          ],
+          "link": "https://x.com/beku_AI/status/2122999757249409346",
+          "domain": "x.com",
+          "published": "2026-11-18T19:26:00+09:00",
+          "published_label": "11/18(水) 19:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "これは実際に比較してみたい\nこま｜AI活用 (@ai_yorozuya)\n— https://x.com/ai_yorozuya/status/2122883054226047228",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXX-t5EX0AA9O_O.png?name=small"
+          ],
+          "link": "https://x.com/beku_AI/status/2122996737422029145",
+          "domain": "x.com",
+          "published": "2026-11-18T19:14:00+09:00",
+          "published_label": "11/18(水) 19:14",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "年齢だけで転職を諦めるのは早いね\n呂不韋 (@RyohuAI1017)\n— https://x.com/RyohuAI1017/status/2122912278068818130",
@@ -902,95 +992,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "そのジャンルで読者が何に困っているかを調べる。特に「自分で解決しようとしてもできなかったこと」は商品テーマのヒントになる。例えば「AI活用術」より「AIで投稿を作っても集客できない原因と改善方法」の方が解決する悩みが具体的。書きたいことより、買う理由があることを優先してみようよ。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2122859080590999944",
-          "domain": "x.com",
-          "published": "2026-11-18T10:07:00+09:00",
-          "published_label": "11/18(水) 10:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Claude CodeやCodexを覚えるなら、まず毎日30分かかってる作業を1個減らしてみて。投稿ネタ探し、リサーチ、過去ポストの整理。僕なら繰り返してる作業からAIに任せる。新しい機能を次々試すより、毎日30分浮かせる方が先。平日だけでも月10時間になるからね。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2122827875208646713",
-          "domain": "x.com",
-          "published": "2026-11-18T08:03:00+09:00",
-          "published_label": "11/18(水) 08:03",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "毎月100万売って翌月またゼロから100万売る。これをずっと繰り返すって途中で嫌にならん？せっかく売れたのに翌月にはまた同じ集客をして、同じ説明をして、同じ商品を売るんでしょ？\n僕なら一度反応が取れた投稿も、売れた商品も、次に使える形で残す。月100万売ったことより、翌月の100万をどれだけラクに作れるようになったか。僕はそっちのほうが気になるんだよね。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2122677634786263357",
-          "domain": "x.com",
-          "published": "2026-11-17T22:06:00+09:00",
-          "published_label": "11/17(火) 22:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "こういう現実があるから副業マジで大事だわ\nゆかりん (@yukarin_spi)\n— https://x.com/yukarin_spi/status/2122180445043638306",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2122658760338375052",
-          "domain": "x.com",
-          "published": "2026-11-17T20:51:00+09:00",
-          "published_label": "11/17(火) 20:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "スモビジ17種類の比較めちゃいい\nクガ (@kuga_ceo)\n— https://x.com/kuga_ceo/status/2121476713557434470",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2122655740490084820",
-          "domain": "x.com",
-          "published": "2026-11-17T20:39:00+09:00",
-          "published_label": "11/17(火) 20:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Gemini 4の使い分けめっちゃ参考になるな\nmana｜株式会社MakeAI CEO (@MakeAI_CEO)\n— https://x.com/MakeAI_CEO/status/2122157812130435374",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXNq3rYbsAAVt1F.jpg?name=small"
-          ],
-          "link": "https://x.com/beku_AI/status/2122650707312664919",
-          "domain": "x.com",
-          "published": "2026-11-17T20:19:00+09:00",
-          "published_label": "11/17(火) 20:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 4.4
+      "elapsed": 9.0
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1245,7 +1249,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_taki_auto",
@@ -1338,13 +1342,29 @@
           "is_new": true
         },
         {
-          "title": "チャッピー×AI画像の販売\n①在庫なし・仕入れなし\n②売るのはFANZAとDLsite。集客はプラットフォームの検索がやってくれる\n③1回出したCG集が、ずっと売れ続ける\n④チャッピーは月3,000円ほどの課金でOK\n2冊目を作っている間も、1冊目が売れていく。\nこれが、ほぼ自動の正体です。\n実は僕、物販の自動化でも月200万まで行きました。\nでも今の本命は、AI画像です。\n在庫も仕入れも、もう抱えなくていいので。",
+          "title": "【🎁12大特典を無料配布中🎁】\n顔出しなし・在庫なし・毎日投稿なし。\nAI画像×CG集販売の『カラクリ』を\n12大特典にまとめて無料配布しています。\n何から手をつけてどの順で進めるかが1枚で分かる「AI画像生成はじめ方マップ」も入ってます。\n忘れないうちにどうぞ↓\nたき AI (@taki_auto)\n【🎁AI画像販売2.0 開幕🎁】\n11月20日〜24日の5日間\n期間限定で特別大型企画を開始\n▼参加はこちらのオプチャから\n◤￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣◥\n＼ AI画像販売2.0 ／\nAIエージェント × 画像生成AI\n5日間限定 特別大型企画\n◣＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿◢\nMuse\nGrok Bot\nClaude Code\nChat GPT\n何を使えばいいの？に終止符。\n革命の実践型AIエージェント活用。\n中身は、まだ言えません。\nただ……これ言うか迷ったんですが\n少しだけ。\nAIにおまかせするだけで\n企画も画像生成も、選別も作品化も終わって\nあとは出品ボタンを押すだけ。\n僕がいま実際に使っているこのやり方を\n今回はじめて、すべて公開します。\n僕自身、AI画像の作品販売を始めて\n1年たたずに累計1,800万円。\n受講生も\n・シロさん：2か月続けて月100万円超え、累計656万円\n・ツナさん：7か月続けて月50万円以上、累計537万円\n・なかさん：受講3か月目で、10月の売上43万円\nと、10月は一部の受講生の報告だけで\n合計778万円になりました。\n━━━━\n開催日程\n━━━━\n✅️ 11/20(金) 21:00 スタート\n✅️ 11/21(土)〜23(月・祝) 3連休\n✅️ 11/24(火) まで\nオプチャの参加者全員に、企画の前から\n画像生成に関するツールやマネタイズ方法を伝授。\n企画の受付は\n11月20日から始まりますが\n5日間だけの限定なのですが...\n企画開始前に最新AIエージェント\n活用方法なども無料でお伝えします\n見逃さないように、今のうちに下記の\n「たき AI研究所」のオプチャにご登録ください↓\nVideo\n— https://x.com/taki_auto/status/2119383966696567124",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2119379982275559424/img/ZW7LENdmPZFd4pn3.jpg?name=small"
+          ],
+          "link": "https://x.com/taki_auto/status/2122933191854146011",
+          "domain": "x.com",
+          "published": "2026-11-18T15:01:29+09:00",
+          "published_label": "11/18(水) 15:01",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "月200万までの流れは…\n①チャッピーで、今売れているジャンルを調べる\n②主人公の子を1人決める\n③AIで画像を作って、CG集にまとめる\n④FANZAとDLsiteに出す\n⑤出したら、すぐ次の1冊へ\nこんな感じ。\nただ、よく聞くのが\n「何から手をつければいいか分からない」\nという声です。\nこの悩みの正体は\n順番を知らないまま、ツールから触っていること。\nこれを放置すると\nAIの課金だけが続いて、1冊も出ないまま半年が過ぎます。\nだから今回、\n最初の1冊までの順番を1枚にまとめた\n「AI画像生成はじめ方マップ」を用意しました。\nこれがあれば\n今日やることが、迷わず1つに決まります。\nツール選びで止まらずに、1冊目に手をつけられる。\nこれを含む12大特典、全部無料です。\nリプ欄に置いておきました。\n保存して。あなたも\n今日、①だけやってみてください。",
           "summary": "",
           "images": [],
-          "link": "https://x.com/taki_auto/status/2122933061528777027",
+          "link": "https://x.com/taki_auto/status/2122933126758563858",
           "domain": "x.com",
-          "published": "2026-11-18T15:00:58+09:00",
-          "published_label": "11/18(水) 15:00",
+          "published": "2026-11-18T15:01:14+09:00",
+          "published_label": "11/18(水) 15:01",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1473,23 +1493,6 @@
           "link": "https://x.com/taki_auto/status/2122691392795451893",
           "domain": "x.com",
           "published": "2026-11-17T23:00:40+09:00",
-          "published_label": "11/17(火) 23:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "AMDが、AIのAPIを無料で開けています。\nMuseに頼めば、そのままつなげられます。\nAMDの公式の「Token Lab」です。\n・料金は0円、クレジットカードはいらない\n・DeepSeek V4.1 FlashやQwen3.8など、10モデル\n・APIキーを発行して、外のツールから呼べる\n・ChatGPTと同じ形のAPIなので、つなぎ替えが楽\n使い方は4つだけ。\n① AMDの開発者プログラム(無料)にメールで登録\n② Token LabでAPIキーを発行\n③ MuseにAPIキーを渡して「これでつないで」\n④ 使いたいモデルを呼び出す\nただし、ずっと無料ではありません。\n今は30日間(1回だけ15日延長できる)、\n1つのキーで1分に20回まで、という条件つきです。\n(11/17時点)\nそれと、画像を作るモデルは入っていません。\nAMDのAIの利用方針では、性的な内容を作るのも禁止です。\n画像は、Museに調べさせた結果です。\n僕も毎日、AIエージェントに作業を回させていて\n中身はDeepSeekで動いています。\nなので、API代がどれだけかかるかは、身にしみています。\n僕はAI画像でCG集を売っていますが\nここで1つだけ言わせてください。\nツール代を0円にしても、\n作品が売れなければ、1円も増えません。\n実際、無料のツールを探す人ほど\nツールを乗り換えるたびに設定からやり直して、作品が1本もできていません。\nよく聞くのが\n「ツール代を払うのが怖くて、始められない」\nという声です。\nこの悩みの正体は\n何本売ればツール代のもとが取れるかを、計算していないこと。\nこれを放置すると\n1か月目、無料のツールを探して、登録だけ増える。\n2か月目、無料期間が切れて、また乗り換える。\n3か月目、「お金をかけないと無理」と言ってやめています。\nだから今回、\n何冊出すと月いくらになるかが先に分かる\n「収入シミュレーター」を用意しました。\nこれがあれば\nツール代がいくらまでなら払っていいか、数字で決められます。\n「怖い」が「あと何本」に変わる。\nムダな乗り換えを、しなくて済みます。\nこれを含む12大特典、全部無料です。\nリプ欄に置いておきました。\nあとで使うので、保存して。\nあなたも今日、Museに「AMDのToken Labを調べて」と送ってみてください。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXVQfJFaIAAGfpT.jpg?name=small",
-            "https://pbs.twimg.com/media/HXVQf_ua8AAopr5.jpg?name=small"
-          ],
-          "link": "https://x.com/taki_auto/status/2122691326718411002",
-          "domain": "x.com",
-          "published": "2026-11-17T23:00:24+09:00",
           "published_label": "11/17(火) 23:00",
           "badge": "X",
           "badge_class": "badge-x",
@@ -1736,7 +1739,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_shota7180",
@@ -1763,6 +1766,23 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "本日、GPT-6.2 SolとAstraが登場。同じ仕事でも、どこまで任せたいかで選ぶモデルは変わります。\n身近な5つの業務を例に、2つのモデルがどう使えるかを図解にしました。\n「とりあえず上位モデル」から「業務に合わせて使える人」に↓\n木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏 (@shota7180)\n— https://x.com/shota7180/status/2122849464612241905",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXZMYzwaAAAoXQe.jpg?name=small",
+            "https://pbs.twimg.com/media/HXXgVJhWwAAaNoO.jpg?name=small"
+          ],
+          "link": "https://x.com/shota7180/status/2123008327424659530",
+          "domain": "x.com",
+          "published": "2026-11-18T20:00:03+09:00",
+          "published_label": "11/18(水) 20:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "スライド作成はGPT-6.2 Astra、会議後のタスク整理はGPT-6.2 Sol。\n2モデルを組み合わせるなら、この使い方がおすすめ。\n・Astra：Excelや議事録を分析、経営会議用のスライドを作成\n・Sol：スライドと会議メモ、スケジュール表から実行計画を作成\nさらにSolは、資料間で食い違う日付や方針も発見し、確認事項として整理してくれました↓\nVideo\n木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏 (@shota7180)\nスライドのデザイン品質や、複数の資料を分析・整理する力も向上した「GPT-6.2 Astra」。\nデザイン見本の画像とバラバラの資料から、会議用のスライドを作成しました。\nコツは、それぞれの資料を何のために使うかまで伝えること。\n・スクショは「デザインの見本」にする\n・Excelは「数値の根拠」として使う\n・PDFは「経営方針や目標」の確認に使う\n・議事録の意見は「事実と仮説」を分ける\n完成したスライドと作成の流れはこちら↓\nVideo\n— https://x.com/shota7180/status/2122880199113216224",
@@ -1978,25 +1998,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "Claude Codeの「Projects」が大型アプデ！\n主な新機能は以下の5つ。\n1. 複数スレッドの進捗管理が積極的に\n2. /btwで別タスクを新規スレッドに分離\n3. /forkで既存スレッドから分岐\n4. スレッド毎のリマインダー設定に対応\n5. Artifactsのサムネイル表示で管理が便利に",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2121373287884419073/img/17Pt_3XFrYwjPgDH.jpg?name=small"
-          ],
-          "link": "https://x.com/shota7180/status/2122112677451370877",
-          "domain": "x.com",
-          "published": "2026-11-16T08:41:03+09:00",
-          "published_label": "11/16(月) 08:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.9
     },
     {
       "id": "x_ichiaimarketer",
@@ -2021,6 +2025,54 @@
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "本当にこれなんよ！！\nAI社員を作る時に\nAI社長やCMOから社員にスキルつくらせても\n品質が悪いのしか出来上がらない\nなので末端から！！ボトムから！！\nスキルから！！やれよってはなしだね！！\nいち｜AI社員と働く経営者 (@ichiaimarketer)\n【保存版】\nAIに仕事を丸ごと任せる「ワークフロー」の作り方、\n聞かれることが一番多いので書いておく👇\n結論、最初から設計しない。\n何をやるかというと、\n一度自分で全部やってから、その流れをAIに写し取らせる。\nやり方はこの3手。\n・まず自分の手で1回、最後までやる\n（LPが要る、会員サイトが要る、と必要な物が見えてくる）\n・やった順番を、そのまま箇条書きでAIに貼って「この順番を工程にして。各工程で何を受け取って何を出すかも書いて」と頼む\n・出てきた工程表はAIがいつでも読める作業フォルダに保存し、2回目は「この工程で回して」の一言で動かしながら順番だけ直す\nつまり、工程表は書くものじゃなく、1回やった後に写すもの。\n普通は\n工程を先に考えて、動かないまま終わる。\n自分の教材を出す工程も、こうして写した「ヒアリング→壁打ち→ナレッジ探し→タイトル→表紙→本文」の流れで、今はAIが一つずつ進めている。\n正直これ、AI社員に任せる仕事を増やしたい人は全員やった方がいい。\nVideo\n— https://x.com/ichiaimarketer/status/2123007074447810628",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123007057544859648/img/EVOT4B-W3v8jWkKp.jpg?name=small"
+          ],
+          "link": "https://x.com/rute1203d/status/2123011207791784011",
+          "domain": "x.com",
+          "published": "2026-11-18T20:11:30+09:00",
+          "published_label": "11/18(水) 20:11",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "【保存版】\nAIに仕事を丸ごと任せる「ワークフロー」の作り方、\n聞かれることが一番多いので書いておく👇\n結論、最初から設計しない。\n何をやるかというと、\n一度自分で全部やってから、その流れをAIに写し取らせる。\nやり方はこの3手。\n・まず自分の手で1回、最後までやる\n（LPが要る、会員サイトが要る、と必要な物が見えてくる）\n・やった順番を、そのまま箇条書きでAIに貼って「この順番を工程にして。各工程で何を受け取って何を出すかも書いて」と頼む\n・出てきた工程表はAIがいつでも読める作業フォルダに保存し、2回目は「この工程で回して」の一言で動かしながら順番だけ直す\nつまり、工程表は書くものじゃなく、1回やった後に写すもの。\n普通は\n工程を先に考えて、動かないまま終わる。\n自分の教材を出す工程も、こうして写した「ヒアリング→壁打ち→ナレッジ探し→タイトル→表紙→本文」の流れで、今はAIが一つずつ進めている。\n正直これ、AI社員に任せる仕事を増やしたい人は全員やった方がいい。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123007057544859648/img/EVOT4B-W3v8jWkKp.jpg?name=small"
+          ],
+          "link": "https://x.com/ichiaimarketer/status/2123007074447810628",
+          "domain": "x.com",
+          "published": "2026-11-18T19:55:04+09:00",
+          "published_label": "11/18(水) 19:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "ロックさん（@rock_creator_）と、自分を含めたPLaiチームで5ヶ月間、本気で開発し続けてきた動画編集のAI社員。。。。\nついにお披露目する時が来ました、、、、😏🔥\n正直、これはマジでやばいです。\n年商5~10億のプロの動画編集現場でガチで使える、とんでもない「動画編集AI社員」が誕生しました。\n5ヶ月間、試行錯誤を重ねてきた集大成です。\nそして、なんと3日後に無料で初公開します！！\n動画編集に関わっている人はもちろん、AI×動画編集の可能性に興味がある人も絶対に見てほしい。\n3日後、全員参加しないと後悔します👇🔥\nいち｜AI社員と働く経営者 (@ichiaimarketer)\n【動画編集者・経営者の方、全員見てください】\nAI×動画編集の「最先端」を、全部お見せします🎬\n年商5〜10億円の企業で、動画編集の責任者をしている、ろっくさん。\nそのろっくさんとコラボして、この5か月間、動画編集のAI社員を開発してきました。\nカット・フィラー（「えー」「あの」）・テロップ・演出・図解。\n素材を渡して、直してほしいところを伝えるだけで、ここまで仕上がります。\n言い直したところはAIが自分で切って、\n前後の話がちゃんとつながるように整える。\nろっくさんの現場では、編集の手間が約20分の1になりました。\nその仕組みを、AI社員SUMMIT DAY2で詳しくお話しします🔥\n📅 11/21（土）20:00〜\n🎥 Zoom（参加無料）\nまずは添付の動画（1分半）を見てみてください。\n詳細と参加はこちら👇\nVideo\n— https://x.com/ichiaimarketer/status/2122980922555601084",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122980892746604544/img/QugUmd885VMBCjzC.jpg?name=small"
+          ],
+          "link": "https://x.com/ichiaimarketer/status/2123001770838257731",
+          "domain": "x.com",
+          "published": "2026-11-18T19:34:00+09:00",
+          "published_label": "11/18(水) 19:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
           "type": "x",
           "is_new": true
         },
@@ -2199,57 +2251,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "これ、おさるさんの周りとか、自分みたいに最先端でAIを使い倒してる人間の周りが今この状況なんだから、1〜2年後マジでやばいよなあ。\n自分もずっと1人でAIを使って、今まで何人も必要だった仕事を1人で回してきて2億ぐらい売上いって上場企業にも半年でビジネスM&Aできたけど、いよいよこれが当たり前になる時代が来てる。\nAIを本質的に使いこなせる人と、そうじゃない人の差はこれから恐ろしいほど開く。\nマジでこの1〜2年が分岐点だと思う。\nフリーランスの方はAI使い散らかしましょうね👇\nマーケターおさる┃グループ総年商30億┃YouTube登録者50万人┃Brainオーナー (@osaruproducer)\nAI導入で、10名以上いた業務委託チームをほぼ全員外しました。\nVideo\n— https://x.com/osaruproducer/status/2121589968191758645",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2121378912492261376/img/O3FCQK2fV2HLfKLl.jpg?name=small"
-          ],
-          "link": "https://x.com/ichiaimarketer/status/2121795237529952705",
-          "domain": "x.com",
-          "published": "2026-11-15T11:39:40+09:00",
-          "published_label": "11/15(日) 11:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "あんまりこういう話はしないのですが、\n自分はこの引用のカロリーメイトのCMを毎回手掛けてる博報堂という会社が大好きです🫶\nいや、広告代理店という仕事そのものが大好きです。\n今、自分がここまでビジネスをおっきくできてるのは、間違いなく広告代理店のインターンがあったからだと思っています。\n1〜2年前、電通や博報堂のインターンに参加して、「人の心を動かすこと」の面白さを知りました。\n「人はなぜ動くのか？」\n「どうすれば人の心を動かせるのか？」\n「これじゃダメだ。もっと面白くできるはず。」\nそんなことをなんかクリエイティブ課題ってのを出すときにもインターン中も何度も何度も考えていました。\n普通のことをやっていても、人の心は動かない。\nあのとき徹底的に考え抜いた経験が、今の自分のビジネスにめちゃくちゃ生きています。\nそして、何より感慨深かったのが、\nテレビCMを「作る側」に憧れていた自分が、テレビCMを「出す側」になった瞬間。\nあの瞬間は、本当にビジネスをやってきてよかったと思いました。\nもちろん、お金を稼ぐことも大事です。\nでも、自分が本当に好きなのは、自分のアイデアや仕掛けで人の心が動いて、世の中に新しい価値が生まれること。\n結局、自分はビジネスそのものが大好きなんだと思います。\n広告代理店で学んだ「人の心を動かす」という考え方は、これからもずっと大切にしたい。\nそして、いつか自分も、誰かの人生を変えるような仕事を生み出していきたい。\nやっぱり、ビジネスってめちゃくちゃ面白いし心の底から今の仕事も今までやってきた仕事もこれからやる仕事も大好きです！\nカロリーメイト (@CalorieMate_jp)\n「世界から受験が消えたなら」篇\n今回このCMを制作するにあたり、\n数十人の受験生にインタビューをしました。\n彼らの本音の声は、AIが急速に発達し、\n努力の意味や正解が変わる時代のなかで\nどこか勇気づけられるメッセージでした。\nそれはきっと\n受験だけの話ではなく、人生の話だったからです。\nVideo\n— https://x.com/CalorieMate_jp/status/2120713209334177958",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HWcgJXtWMAAIRZS.jpg?name=small"
-          ],
-          "link": "https://x.com/ichiaimarketer/status/2121253023272026359",
-          "domain": "x.com",
-          "published": "2026-11-13T23:45:06+09:00",
-          "published_label": "11/13(金) 23:45",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "楽しかった☺️\nお呼びありがとうございました！！！\nきく｜AI時代のブランド戦略 (@kiku_comm)\nデジタルデトックス🌿森のアクティビティも挟みつつの、フルAI漬け2泊3日！\n今日のてるさんといちさんのセミナーもすごかった…いまMacStudioで自分が構築しようとしていたAIエージェント環境がもはや「古い」と明確に理解。このタイミングで知れてよかった！\n惜しみなく最新＆最適な情報をギブしてくださった講師のみなさんに本当に感謝🥹一緒に参加していたみなさんからの質問や事例からも多くの学びがありました✨\n最先端を走る講師の方々こそ口を揃えておっしゃる「AIはあくまでツール」には頭では納得しつつも、…とはいえ、今まで自力のスコップでは到底生きてるうちには届けなかった山の向こう側の景色が、AIドリルを使えば覗けるんだ！という可能性を身近に感じてわくわくが止まらない素晴らしい合宿でした。\n次回あったらまた絶対参加したい！！！\n@starriver0513\n@ishida_chatgpt\n@rute1203d\n@ichiaimarketer\n深夜までありがとうございました！！\n— https://x.com/kiku_comm/status/2120581941389099482",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HW3SCVTboAA2-Sl.jpg?name=small"
-          ],
-          "link": "https://x.com/ichiaimarketer/status/2120666521227936241",
-          "domain": "x.com",
-          "published": "2026-11-12T08:54:33+09:00",
-          "published_label": "11/12(木) 08:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.0
     },
     {
       "id": "x_aiaircle34052",
@@ -2502,7 +2506,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_ai_masaou",
@@ -2561,6 +2565,22 @@
           "is_new": true
         },
         {
+          "title": "この記事ようやく読めた！\n語彙力ないけどこれはあまりにも良い記事すぎる…\nとはいえ自分は頭悪いから何回も読まないといけないなと感じつつ、設計思想みたいな所は一旦吸収できた！\nこれをどう自分の環境に落とし込んでいくのか考えていこうって考えていかないとなぁ\n加速度的に早い業界だけど、これが3ヶ月前の記事って凄えなw",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2121700147138883584/JVzwJtyV?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/K1sqttPHfC41982/status/2122914323517612479",
+          "domain": "x.com",
+          "published": "2026-11-18T13:46:31+09:00",
+          "published_label": "11/18(水) 13:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "Opusめっちゃいいモデルで覇権なのは思うけども、個人的にOpusの背景コンテキストとか抜かしまくったメチャメチャな対話や成果物はバイブならともかく 人間注意が長時間向き合うと頭がおかしくなると思ってて少し苦手\nFableは実家のような安心感で長時間大量に向き合いまくっててもどうにかなる",
           "summary": "",
           "images": [],
@@ -2582,6 +2602,38 @@
           "domain": "x.com",
           "published": "2026-11-18T13:04:51+09:00",
           "published_label": "11/18(水) 13:04",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "まさおさんベンチ開始早々のゴブスレやばすぎて興奮してしまったので一時停止してポストするw\n音声つけてなかったから出てきたやつastraだとおもって結構性能上がったなーって思ってたけどsolで、その後出てきたastraがバケモンすぎて食べてた刺身吹き出しそうになったww",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXYLI0laYAAqlcE.jpg?name=small"
+          ],
+          "link": "https://x.com/solopreneur_dog/status/2122896524975931828",
+          "domain": "x.com",
+          "published": "2026-11-18T12:35:47+09:00",
+          "published_label": "11/18(水) 12:35",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "めちゃくちゃわかりやすい\nそして今週末楽しみ\nまさお@AI駆動開発 (@AI_masaou)\n— https://x.com/AI_masaou/status/2122843536731345342",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXXSWCKaAAAv_4P.jpg?name=small"
+          ],
+          "link": "https://x.com/tkwfunkypop/status/2122860489382519270",
+          "domain": "x.com",
+          "published": "2026-11-18T10:12:36+09:00",
+          "published_label": "11/18(水) 10:12",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -2617,6 +2669,23 @@
           "domain": "x.com",
           "published": "2026-11-18T09:05:14+09:00",
           "published_label": "11/18(水) 09:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "Google ColabがRemote MCPに対応した！！\nこれは神アプデで、Cloud AgentからもColabのGPUを使える！自分のPC閉じたまま、モデルの学習や推論を任せられるの嬉しい！\nGoogle AI ProやUltra入ってる人は無料でColabの計算枠もついてくるしかなり相性が良いのでは！\nColaboratory (@GoogleColab)\nConnect your AI agents directly to Google Colab runtimes! ⚡️\nWith the new Colab API and MCP endpoint, provisioning runtimes and executing Python headlessly is just a config away.\nLearn more:\n#GoogleColab #MCP #Python #AI\n— https://x.com/GoogleColab/status/2122676129009975544",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXW6w6Ba0AApitl.png?name=small",
+            "https://pbs.twimg.com/card_img/2122487399049752576/fz8IdDCz?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/gota_bara/status/2122810402652500311",
+          "domain": "x.com",
+          "published": "2026-11-18T06:53:34+09:00",
+          "published_label": "11/18(水) 06:53",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -2686,67 +2755,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "オフ会が楽しみすぎる😋\nラバナウト (@Lovanaut)\n画面UXを捨てたら楽に見えるが真逆です。画面で体験作る方がどんだけ楽か。\n相手の環境や予想だにしない依頼文に対しての振る舞いを考慮しないていけない。\nユーザー体験の解像度を限界に高めないとUXは良くならいどころか事故にも繋がる。\nそんな苦悩や軌跡をまさおメンシプオフ会のLTで発表しようと思います🫡\nオフレコやで。\n— https://x.com/Lovanaut/status/2122495434400895415",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AI_masaou/status/2122502925754995075",
-          "domain": "x.com",
-          "published": "2026-11-17T10:31:46+09:00",
-          "published_label": "11/17(火) 10:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Claude Codeチームが、AIの書いたコードを検証する仕組みを紹介してくれてる\nコードの約9割をClaudeが書くことのも、エージェントが証拠をもって自己検証できる仕組みがあってこそ\n重視するテストは、E2E、プロパティ、差分の3種類\n実践例には、実機やブラウザでの動作確認、verifyスキル、差分で発火するチェックリスト、3回失敗したら人間に引き継ぐ運用などがあるとのこと\n見逃したミスはルールにし、定期的に整理。\nエンジニアの役割は、全差分を読むことから「完了」の定義を決めて証拠を確認することへ移る",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122436121120350208/nh_XQGbf?format=png&name=800x419"
-          ],
-          "link": "https://x.com/AI_masaou/status/2122477820517781633",
-          "domain": "x.com",
-          "published": "2026-11-17T08:52:00+09:00",
-          "published_label": "11/17(火) 08:52",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "やっぱ外ループは真の意味でのデザインセンスバトルやなぁ アプリ層に寄ってるからそうなんだけど\n未知概念をどう整理して強い物を作るかがベースではあるからハーネスとソフトウェア知見がかなりあるのは前提なんだけどね\n今後のOpenAI路線とか次の覇権ハーネスあたりでまた話題になると予想",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AI_masaou/status/2122173741203697882",
-          "domain": "x.com",
-          "published": "2026-11-16T12:43:42+09:00",
-          "published_label": "11/16(月) 12:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "こういうのが起きるのが本当に嬉しいんよね\nゲーム制作の知見が、別の領域のプロダクトやデザインに繋がっていく\n僕のコミュニティも参加の敷居もあるけど、その分 目先の損得以上に、同じ目指したい未来とか本質とかを共有できる人が集まるのをやっぱ感じています\n僕自身、何よりも最上を目指していきたくて メンバーシップや研究開発に覚悟を持ってオールインしているのだけど、そこに違う領域で本気でものを作っている人が集まると、僕が想像していなかった視点や問いが返ってくる\n最上を目指すこと自体が一つの美として共通言語になっていて、でも見てきた世界も作っているものも違うから お互いの当たり前が誰かの突破口になるんよね\nその会話の中で僕自身の基準も解像度も上がり続けるし、一人では辿り着けない未来を直観できる瞬間がある\n自分の手で01したい人にとって、こういう相互作用が起きる場はめちゃくちゃ価値があると思っていて\n僕が全力で育てたいのはまさにこういう場なんだよね\nラバナウト (@Lovanaut)\nまさおメンシプの大体毎週ある勉強会で、ゲーム制作者の猛者の方のLTを聞いた。\n全く知らない領域だったからこそ新鮮味がヤバくいのはもちろん、デザインやテイストの「再現性」についてめちゃくちゃヒントをもらいました。 すぐ自分のプロダクトやデザインハーネスに落とし込みます😆\nゲームは作らないけど、他ドメインで優位性のあるやり方を自分の領域に翻訳するセンスって本当に大事だなと☝️\nこんな猛者がうようよいるまさおメンシプ、改めて最高だと思った話。\n— https://x.com/Lovanaut/status/2122155192762388948",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AI_masaou/status/2122168678892630486",
-          "domain": "x.com",
-          "published": "2026-11-16T12:23:35+09:00",
-          "published_label": "11/16(月) 12:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_gosrum",
@@ -2778,6 +2789,20 @@
           "is_new": false
         },
         {
+          "title": "流石に50倍は草\nちなみに GLM-5.3、めちゃくちゃいいモデルです\nOpenCode (@opencode)\nF*CK IT\n$10 for $500 GLM 5.3 till end of the week\n— https://x.com/opencode/status/2122969474571583885",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/gosrum/status/2123002950301974640",
+          "domain": "x.com",
+          "published": "2026-11-18T19:38:41+09:00",
+          "published_label": "11/18(水) 19:38",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
           "title": "Ubuntu 対応版 fork\n※ついでに描画処理はGPU使うことで最適化",
           "summary": "",
           "images": [
@@ -2804,6 +2829,22 @@
           "domain": "x.com",
           "published": "2026-11-18T19:03:31+09:00",
           "published_label": "11/18(水) 19:03",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "GLM-5.3-FlashとDeepSeek-V4.1-Flash-1017で月3000リクエスト無償、とてもいい\nさくらのAI @さくらインターネット公式 (@sakura_AI_pr)\n【🌸お知らせ🌸】\n#さくらのAIEngine で\n「GLM-5.3-Flash」\n「DeepSeek-V4.1-Flash-1017」\nのパブリックプレビューを開始しました❗️\n🔹画像も扱えるマルチモーダルモデル\n🔹Chat Completions APIに対応\n🔹月3,000リクエストまで無償\n▽詳細\n— https://x.com/sakura_AI_pr/status/2122917556550070510",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2120415036321722368/xOrHy40n?format=jpg&name=420x420_2"
+          ],
+          "link": "https://x.com/kis/status/2122981694781399536",
+          "domain": "x.com",
+          "published": "2026-11-18T18:14:13+09:00",
+          "published_label": "11/18(水) 18:14",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -2889,7 +2930,9 @@
         {
           "title": "お漏らし情報管理サイトを作った",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2122942615184359425/YZ49y3Ng?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/GOROman/status/2122846554008740184",
           "domain": "x.com",
           "published": "2026-11-18T09:17:13+09:00",
@@ -2962,40 +3005,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\nオープンコード (@opencode)\nGLM作戦フェーズ1\n100 ドル分の GLM 5.3 使用量を 10 ドルで\nすべての OpenCode Go サブスクライバーが利用可能\n— https://x.com/opencode/status/2122600875562537329"
-        },
-        {
-          "title": "Hy4 Flash の Terminal-Bench 4.0 の評価結果を共有する\n●メモ\n・GPT-6 Luna よりも性能が高く、かつコストが低いためコスパ最強モデルの一角に\n・一方で（リストにないが）、性能的にはより軽量でみんな大好き「Qwen 3.8-Flash-Next」 と大差ないという噂もあり、オープンウェイトモデルとして見ると微妙な立ち位置か？\n→まあまだオープンウェイトにはなってないわけだが\n金のニワトリ (@gosrum)\nHy4 flash が opencode で2週間無料とのこと！\n早速ベンチマーク評価を開始する\n— https://x.com/gosrum/status/2122238097283031476",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXU_Ko9asAA7ons.jpg?name=small",
-            "https://pbs.twimg.com/media/HXU_KotbwAAA3q2.jpg?name=small"
-          ],
-          "link": "https://x.com/gosrum/status/2122672255885041664",
-          "domain": "x.com",
-          "published": "2026-11-17T21:44:37+09:00",
-          "published_label": "11/17(火) 21:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "詫び Anthropic 株1000株を要求する\n金のニワトリ (@gosrum)\n楽天証券の個人情報漏洩、漏れた情報見たけど過去最大級にやばくないか？\n— https://x.com/gosrum/status/2122625504918540443",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/gosrum/status/2122626478479462496",
-          "domain": "x.com",
-          "published": "2026-11-17T18:42:43+09:00",
-          "published_label": "11/17(火) 18:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.9
     },
     {
       "id": "x_keitowebai",
@@ -3246,7 +3258,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 4.5
     },
     {
       "id": "x_sugurukun_ai",
@@ -3485,7 +3497,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "x_ctgptlb",
@@ -3695,8 +3707,7 @@
           "title": "Anthropicが上場に向けて、ロードショー動画を公開しました。\nOpus 5.5は、これまでで最も成功したモデルの1つだと思います。\n性能とコストのバランスがよく、Fable 5.2が登場した今もなお世界中で愛用されているモデルの1つです。\nそのAnthropicを率いるダリオ・アモデイCEOは、2024年のエッセイで1つの見通しを示していました。強力なAIができれば、人類の生物学者が50〜100年かける進歩を、5〜10年に縮められるというものです。\n彼はこれを「圧縮された21世紀」と呼んでいます。\n2年たった今、その見通しが少しずつ現実味を帯びてきたように感じます。\n今週出たFable 5.2は、コードを書くだけでなく、ロボットを動かし、絵を描き、理論物理の未解決問題を2つ解いています。\n上場を前に、彼らは何を考えているのか。\n公式の日本語字幕つきのまま、約3分にまとめました。\n動画の最後でアモデイCEOは、がんやアルツハイマー病などが「10年も経たないうちに」過去のものになるとの考えを語っています。\n※動画の紹介であり、投資の勧誘ではありません（届出は効力発生前で、会社の見通しを含みます）\nVideo\nAnthropic (@AnthropicAI)\nOur initial public offering:\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration statement (available at:  and other documents Anthropic has filed with the SEC for more complete information about Anthropic and this offering. You may get these documents for free by visiting EDGAR on the SEC Web site at  Alternatively, copies of the preliminary prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.\nThe securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post is not an offer to sell, or a solicitation of an offer to buy, the securities in any jurisdiction where the offer or sale is not permitted.\n— https://x.com/AnthropicAI/status/2120841731302154708",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/ext_tw_video_thumb/2120888884083167232/pu/img/U7jPWiUy935akhW_.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2121284933083963392/n6Z78gX1?format=jpg&name=800x419"
+            "https://pbs.twimg.com/ext_tw_video_thumb/2120888884083167232/pu/img/U7jPWiUy935akhW_.jpg?name=small"
           ],
           "link": "https://x.com/ctgptlb/status/2120889032708358286",
           "domain": "x.com",
@@ -3739,7 +3750,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 0.9
     },
     {
       "id": "x_niwakunihiko",
@@ -3766,6 +3777,68 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "Gemini4 Hydrogenは、少なくとも企業の一般業務レベルでは、もうモデルのさらなる地頭の伸びを期待する必要はないレベルの安定感とコスト、なによりスピードになり、むしろ品質は作業場の方が成果を左右する」フェーズに入ったことを象徴するモデルだと見ている。\n誤解のないように書いておくと、Hydrogenがフロンティアモデルより賢いとは決して思っていない。\nOpus 5.5やFable 5.2は私も日常的に使っていて、難しい設計や深い思考の相棒としては別格だ。\nただ、これまでも「一般業務ならOpus 4.6くらいの地頭になれば十分」だとずっと思ってきた。\n全部の移動にプライベートジェットはいらない。\n企業の全社展開で見落とされがちなのは、AIのコストが「1回の賢さ」ではなく「人数×回数×毎日」で効いてくることだ。\n1回あたりのわずかな待ち時間や単価の差も、2万人が1日何十回と使えば、生産性と予算の両方で無視できない差になる。速くて軽いことは、それだけで定着率に効く。\nそして2万人にとっての作業場は、Claude Codeではなく、毎日開いているGmail、ドキュメント、ドライブ、カレンダーだ。社内の文脈と権限は、すでにそこにある。\nだから全社展開で見るべきは「最高峰のモデルはどれか」ではない。\n・作業場（社内データと業務アプリ）にどれだけ深く入っているか\n・全員が毎日使っても回るスピードと単価か\nこの2つだ。\nHydrogenは、新幹線のぞみのようなモデルだと思っている。速くて、本数が多くて、誰でも乗れる。\nプライベートジェットではないが、2万人を毎日運ぶならこちらだ。\nそして線路（作業場）がGWSやAntigravity上で育つほど、こういうモデルの真価はもっと見えてくるはずだ。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/NiwaKunihiko/status/2123008320852099424",
+          "domain": "x.com",
+          "published": "2026-11-18T20:00:01+09:00",
+          "published_label": "11/18(水) 20:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "第1回（12/3）のお申し込みはこちらから👇\n豪華登壇者の皆様の情報も確認できます！",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122663416636825601/KqP8UQ3J?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/NiwaKunihiko/status/2123007956698685524",
+          "domain": "x.com",
+          "published": "2026-11-18T19:58:35+09:00",
+          "published_label": "11/18(水) 19:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "NI-WORKの山口さん(@gussan_ai_lab)とGラボさん（@glabo24）「Google AI フェス」を開催します！\n参加無料のオンラインセミナーです🎉\n第1回 12/3（木）20:00〜\n第2回 12/15（火）20:00〜\nGoogleのツールを仕事で使いこなす10名がすぐ試せるアイデアを紹介します。\nお申し込みはリプ欄のリンクから👇",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123007457622679552/img/acSxvpOFMnatIXIQ.jpg?name=small"
+          ],
+          "link": "https://x.com/NiwaKunihiko/status/2123007530729406718",
+          "domain": "x.com",
+          "published": "2026-11-18T19:56:53+09:00",
+          "published_label": "11/18(水) 19:56",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "【12/3 12/15開催】\nNI-WORKとGラボさん（@glabo24）で「オンラインGoogle AIフェス」を開催します！\n詳細は山口さんのポストからどうぞ！\n山口彰宏（ぐっさん） (@gussan_ai_lab)\nNI-WORK（@NiwaKunihiko）とGラボさん（@glabo24）で「オンラインGoogle AIフェス」を開催します！🎉\nオンラインセミナーは無料で参加できます！\nGoogle Workspace、Gemini Notebook、GAS、Antigravityなど、Googleのツールを仕事で使いこなしている豪華ゲスト10名が、すぐ試せるアイデアを紹介してくれます✨\nそれぞれの発表だけでなく、登壇者同士の意見交換からも色々な話が聞けます！\n【第1回】12/3（木）20:00〜22:00\n・清水勇人さん @HAYXtqsWTN58832\n・ninさん @nin222\n・なのさん @nano_pc_tips_ai\n・えーたんさん @ai_jitan\n・けいたろうさん @keitaro_aigc\n【第2回】12/15（火）20:00〜22:00\n・kimuraさん @kimura_0314\n・たか田さん @daifukujinji\n・RICOさん @RicoProject\n・まるさん @malcchi\n・まじんさん @Majin_AppSheet\n※参加者が多くなった場合は、お申し込みを締め切る可能性があります🙇\n第1回（12/3）のお申し込みはコメント欄のリンクからどうぞ👇\n— https://x.com/gussan_ai_lab/status/2122663368146526252",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXU2q-jaMAAPWpi.jpg?name=small"
+          ],
+          "link": "https://x.com/NiwaKunihiko/status/2122997370585862482",
+          "domain": "x.com",
+          "published": "2026-11-18T19:16:31+09:00",
+          "published_label": "11/18(水) 19:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "よろしくお願いします！楽しみにしています😊\nnin@教育×ICT (@nin222)\nなんとNI-WORKさんのオンラインセミナーに登壇させていただくことになりました‼️\nこのGoogleガチ勢なメンツに自分がいていいのかなという感じで、依頼があった時は信じられませんでしたが、楽しみたいと思いまーす✨\n普段発信しない、Geminiアプリで作る管理者用ツール(GAS)の活用なんかをお話ししようかと思っています💻\n— https://x.com/nin222/status/2122676287785636122",
@@ -3923,65 +3996,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "合う合わないは、その人の環境とか求めているものがあるので、「いけてないじゃん」も正解だし、全然問題なく、その通りだとと思いますよ。\nClaudeとかCodex使っている人に、もっといいです、とかそういうことじゃないので。私は個人の使用感で見てなくて企業導入側での評価なので、あくまで個人で全部の中から選べるならもちろんClaude Opus 5.6かfable がいいと思いますし。\n廣澤知也 (@hirosawatomoya)\ngeminiを酷評したのに、gemini推しなTLになって、鬱陶しい（＾＾；\n— https://x.com/hirosawatomoya/status/2121896408404078970",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/NiwaKunihiko/status/2121959567966040495",
-          "domain": "x.com",
-          "published": "2026-11-15T22:32:39+09:00",
-          "published_label": "11/15(日) 22:32",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "是非。Geminiの失われた10ヶ月をちょっと埋めてくれそうです。桁違いによい、ではなく、普通に対話でClaude の数ヶ月前くらいに問題ない使用感になったという。でもほとんどの人には大きいいことです。\nとくに企業人にはね。\n☮️平和的なJ (@peaceful_j_)\nにわさんまてそう言うならそうなんだろうな…使ってみよ\n— https://x.com/peaceful_j_/status/2121906973377757602",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/NiwaKunihiko/status/2121957335954522311",
-          "domain": "x.com",
-          "published": "2026-11-15T22:23:47+09:00",
-          "published_label": "11/15(日) 22:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "個人的にはナチュラルにめちゃくちゃ良くなりましたね。3.6のころのイメージ持っている人がいたら是非触ってもらいたいです。\nClaude以上とは言わないですが、対話であれば遜色ないですね。あとは、エージェント的な作業のタスクがGWSではまだら未搭載なのが惜しい。\nteam二号 (@team2gou)\n3.8Flashあたりから、Geminiに日本語書かせたら優秀だぞ？との評価が出始めたのですが、今回のアップデートでさらに進化しましたか？\n— https://x.com/team2gou/status/2121938154538365126",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/NiwaKunihiko/status/2121956655047057476",
-          "domain": "x.com",
-          "published": "2026-11-15T22:21:05+09:00",
-          "published_label": "11/15(日) 22:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "そうですね、複数年契約で5年をお勧めすることがほとんどですが、複数年契約では、その間金額が変わらないので間違いなくした方がいいですね。安くなることはもうないので。\nレン｜Google Workspace・AI活用支援 (@len_ai_channel)\n特にEnterpriseプランは2年に1回ペースで値上げが来るので、\n代理店経由での3年契約をお勧めします🙋‍♂️\n「3年契約+ プランのアップグレード」で、\n代理店次第ではかなりの割引期待できます🙋‍♂️\n現行プランよりも安くなるなんてこともありますが、\nここは代理店とGoogleの頑張り次第笑\n— https://x.com/len_ai_channel/status/2121942310254702932",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/NiwaKunihiko/status/2121955781285495040",
-          "domain": "x.com",
-          "published": "2026-11-15T22:17:36+09:00",
-          "published_label": "11/15(日) 22:17",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.0
     },
     {
       "id": "x_npaka123",
@@ -4239,7 +4256,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.2
     },
     {
       "id": "x_itnavi2022",
@@ -4266,6 +4283,40 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "GPT-6.2 AstraとGemini 4 Hydrogenで生成した動画の比較\n（思考量はどちらもxhigh）\nプロンプト「最高レベルのモーショングラフィックデザイナーとして、人間の体の仕組みを軽快な音楽に合わせて紹介する20秒間の動画を全力で作って」\n👈GPT-6.2 Astra Gemini 4 Hydrogen👉",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123003735286964224/img/JT7EKPa0JAZMgdjH.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123003823136604160/img/AA7TCNIfpLKcA-aY.jpg?name=small"
+          ],
+          "link": "https://x.com/itnavi2022/status/2123004022147973189",
+          "domain": "x.com",
+          "published": "2026-11-18T19:42:57+09:00",
+          "published_label": "11/18(水) 19:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "Geminiの新しいモデルのリリースが近いという噂だけど、アルゴン、ネオン、クリプトンとか希ガスから名前を取っているのか。\nあとは、ヘリウム、キセノン、ラドンとか。。\n🚨 AI News | TestingCatalog (@testingcatalog)\nGOOGLE 🔥: Another week, another Gemini model is about to get released!\nSo far we have rumoured Gemini Neon, Helix and Krypton as options as well as a potential Nano Banana upgrade.\nThe next Nano Banana, based on Gemini 4 is the one that was in a preparation for the release for quite some time. Yet, Google folks refer to the upcoming model as a real “Daily driver”, which is possibly neither NB nor Helix.\nSoon 👀\n— https://x.com/testingcatalog/status/2122944509847736452",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXY2x5oWsAAAYQ2.jpg?name=small",
+            "https://pbs.twimg.com/media/HXY2x5cWUAAq-31.jpg?name=small"
+          ],
+          "link": "https://x.com/itnavi2022/status/2123000896649138605",
+          "domain": "x.com",
+          "published": "2026-11-18T19:30:31+09:00",
+          "published_label": "11/18(水) 19:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "One of the funny reasons for the difference in vibes between the influencers and the crowd today on 6.2 Sol/Astra is that we gave a few folks access a while ago and then made a lot of changes in the last 3-4 days and I'm pretty sure no re-testing was done within those days and the videos were produced last week.\nDon't get me wrong, while the models are a hefty jump compared to their GPT predecessors, they are by no means perfect and there are a few things the teams are excited for the models to get better at in future iterations in terms of taste and niceness of use. Love all the feedback and we hear you!",
@@ -4451,37 +4502,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "私は数週間前から GPT 6.2 Astra に早期アクセスできましたが、これは奇妙ですが非常に高性能なモデルです。確かに、生の知能という点では私がこれまでに扱った中で最も賢いモデルですが、多くの非常に賢い人間と同様に、効果的にコミュニケーションするのが難しいのです。最も注目すべきは、それを使っていくつかの新しくてエキサイティングな歴史的発見をしたことです (LLM については私にとって初めての発見でした…詳細は後ほど) が、ここでは大まかな第一印象をいくつか紹介します。\n6.2 Astra は、数千ページの文書のインデックス作成、目立たない場所での情報源の検索、実際の調査を行う他のエージェントの管理など、長期にわたるほぼ自律的なナレッジワーク タスクに優れています。 Fable と Opus はどちらもこの点で優れています。しかし、6.2 Astra は、私が達成する必要があるタスクの全範囲を把握し、横方向に作業し、私の分野で人間の最高の研究作業をエミュレートする方法で仕事を実行できることがわかりました。初めての作業ですが、作業自体の正確さや遅さに関して目立った問題は発生しませんでした。\n同時に、6.2 Astra には、自分自身の結論を後から推測したり、誤解を招くような逆向きの速記でその行動を要約したりする奇妙な傾向もあり、実際にはそうではないのに問題があると *思われる*ことがよくありました。それに慣れるのは大変でした。\n@mattshumer_ と @emollick の両方が示唆していると思いますが、実際の研究プロセスではなく、文章で明らかなように、これはおそらくトレーニング後の問題です。たとえば、6.2 Astra はタスクが完了したことを通知し、完了したブレークダウンに進みます。"
-        },
-        {
-          "title": "GPT-6.2 Astra：\n🔹Fable 5.2には適わないが、コスパは良さそう。\n🔹先行テストでの利用者が、けっこう酷評していたので要注意。得意なことと不得意なことに差がありそう。\n🔹説明が分かりにくいという指摘もあったので、文章が下手になっていないか心配。\nGPT-6.2 Sol：\n🔹Opus 5.5には適わないが、コスパは良さそう。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/itnavi2022/status/2122780045223834026",
-          "domain": "x.com",
-          "published": "2026-11-18T04:52:56+09:00",
-          "published_label": "11/18(水) 04:52",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "GPT-6.2 Astraの先行テストを行っていた開発者のTheo氏は、GPT-6.2 Astraを「開発には使いづらい」と酷評。\n🔹ユーザーに分からない内部仕様を質問し、作業を停止する。\n🔹説明が難解で、結論や要点が伝わらない。\n🔹長時間の作業で堂々巡りし、成果が出ない。\n🔹異なる依頼にも似た発想を繰り返す。\nコードレビューなどは優秀だが、実際の開発ではOpus 5.5を選ぶという。\nTheo - t3.gg (@theo)\n— https://x.com/theo/status/2122760447103484410",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/itnavi2022/status/2122769764879933818",
-          "domain": "x.com",
-          "published": "2026-11-18T04:12:05+09:00",
-          "published_label": "11/18(水) 04:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 2.0
     },
     {
       "id": "x_panchaaan_2",
@@ -4737,7 +4760,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.1
     },
     {
       "id": "x_haider1",
@@ -4765,6 +4788,21 @@
           "type": "x",
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "astra 6.2 is basically a supercharged version of 6\ni was working on a software application with astra 6 when 6.2 dropped last night so i had it make some changes. i ignored its warning, copied the files over directly like i always did with 6 and ended up breaking the project\nbut 6.2 fixed everything much faster than 6 would have",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2123022226480050363",
+          "domain": "x.com",
+          "published": "2026-11-18T20:55:17+09:00",
+          "published_label": "11/18(水) 20:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "astra 6.2 は基本的に 6 のスーパーチャージャー版です\n昨夜6.2がドロップされたとき、私はastra 6を使用したソフトウェアアプリケーションに取り組んでいたので、それにいくつかの変更を加えました。私はその警告を無視して、いつも6でやったようにファイルを直接コピーして、結局プロジェクトを壊してしまいました。\nしかし、6.2 では 6 よりもはるかに速くすべてが修正されました。"
         },
         {
           "title": "well well well...\ndeepmind scientist has been vagueposting about google achieving RSI soon and google is expected to drop another model today\ngoogle in the last 7 days:\ngemini 4 carbon and hydrogen and likely to drop neon today which might sit somewhere between hydrogen and carbon\nLogan Kilpatrick (@OfficialLoganK)\nGemini\n— https://x.com/OfficialLoganK/status/2122876403091959982",
@@ -4971,7 +5009,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122417748349493249/a9SjbJfz?format=jpg&name=800x320_1"
+            "https://pbs.twimg.com/cards/player-placeholder.png"
           ],
           "link": "https://x.com/haider1/status/2122683363828068692",
           "domain": "x.com",
@@ -4982,26 +5020,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "Sam Altman says,\nIf the sales pitch is: we'll offer you a cure for cancer and cheap stuff, and the price is that you lose all agency and control over the future, you'll live like a Labrador... It's a terrible sales pitch\nI don't want that world. AI should be a tool that people get to use",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122676533777362944/img/firCgIqCmaA4aj1q.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122681158374916581",
-          "domain": "x.com",
-          "published": "2026-11-17T22:20:00+09:00",
-          "published_label": "11/17(火) 22:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "サム・アルトマンはこう言います。\nもしセールストークが「ガンの治療法と安価なものを提供します。その代償として、あなたはすべての主体性と将来に対するコントロールを失い、ラブラドールのように生きることになります...」というものであれば、それはひどいセールストークです。\nそんな世界は望まない。 AIは人々が使えるツールであるべきだ"
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 0.8
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5188,6 +5209,22 @@
           "is_new": false
         },
         {
+          "title": "ついに今夜20:00からClaude Whiteboards無料実演セミナー！Zoomでお待ちしてます📢\nあきらパパ【生成AI活用エンジニア&３児のパパ】 (@akira_papa_IT)\n【11/17（火）20:00–22:00｜Claude Whiteboards無料実演セミナー開催！｜Claude Whiteboardsすばらしいので、散らかった段取りを動ける計画にするまでを、複数人で動かすとこも実演しながら一緒に見ていくセミナーやります！📢🔥🔥☺️】\nAIであれこれやることを書き出したはいいけど、誰がやるのか、どの順番で進めるのか、抜けはないのかが見えなくて、そこで手が止まる、、ってことありますよね。\n今回のClaude WhiteboardsはマジでAI壁打ちとか会議の質が上がります！🔥\n✅「AIとビジュアルで双方向通信できると何が変わる？」\n✅「複数人でAI会議はどう整理する？」\n✅「ホワイトボードには何が置ける？」\nこれら全部画面共有しながら実演解説します！\nほんとに会議の概念変わるのでぜひ見に来てほしいです。自信あります。\n基本参加者さんはカメラ・マイクオフなので家でも電車でもラジオ感覚の参加でOKです。\nZoomでライブ参加無料です〜ぜひご参加下さい☺️！👇\n【11/17（火）20:00–22:00】【無料】Claude Whiteboards実演セミナー｜散らかった段取りを、動ける計画に | Peatix\nURL:\n— https://x.com/akira_papa_IT/status/2121366449352782254",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXCbg9EbQAARbS0.jpg?name=small"
+          ],
+          "link": "https://x.com/akira_papa_IT/status/2122434541830967488",
+          "domain": "x.com",
+          "published": "2026-11-17T06:00:02+09:00",
+          "published_label": "11/17(火) 06:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "今日も、スクワット100回！\n連続は、４０回以上いけたらいいな。\n目指せ！丸太🪵\nダイチ｜🚨AIレスキュー隊【AIR】 (@LxGtUGtlRSh8yXW)\nAIより太もも！\n歳を取ると脚は細くなる。\n歩けなくなる。\n今しかデカくできない部位がある。\nそれが太ももだ！\nだから毎日スクワット100回。\nこれだけは、誰にも奪われない。\n丸太🪵って言われるくらい\n頑張る！\n— https://x.com/LxGtUGtlRSh8yXW/status/2121164904619196745",
           "summary": "",
           "images": [
@@ -5234,25 +5271,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "こういう「現場でAIを入れるときのあるある」を、12/3(木)19時〜 渋沢MIXで話します。\n国内スタートアップコンテストで勝ったピッチの裏側も、本人が話します。\nものづくり×エンジニア×AI活用の交流会つき。\n参加無料・手ぶらOK・現地のみ。\n開催まであと17日👇",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2121517973101752320/XXxev90E?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/LxGtUGtlRSh8yXW/status/2122238691309748353",
-          "domain": "x.com",
-          "published": "2026-11-16T17:01:47+09:00",
-          "published_label": "11/16(月) 17:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     },
     {
       "id": "x_ytiskw",
@@ -5507,7 +5528,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.9
     },
     {
       "id": "x_ayami_marketing",
@@ -5534,6 +5555,21 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "I hosted a dinner last night for Heads of Marketing at some of the fastest growing startups in the US.\nThought I'd share some takeaways 👇",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/lizwessel/status/2122766418093732175",
+          "domain": "x.com",
+          "published": "2026-11-18T03:58:47+09:00",
+          "published_label": "11/18(水) 03:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "昨夜、私は米国で急成長を遂げているスタートアップ企業のマーケティング責任者を集めてディナーを主催しました。\nいくつかのポイントを共有したいと思いました👇"
         },
         {
           "title": "Gemini 4 Hydrogenの評判がけっこういい",
@@ -5740,26 +5776,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "Why is every AI a texting app?\nWe came up with an entirely new way to interact with AI. No switching apps, no texting, just a little barnacle that sits on your screen ready to help you out.\nWaitlist opens today at",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2120560001546698752/img/TwbrAi06K_2cZV3F.jpg?name=small"
-          ],
-          "link": "https://x.com/barnacleapp/status/2120560094945443926",
-          "domain": "x.com",
-          "published": "2026-11-12T01:51:39+09:00",
-          "published_label": "11/12(木) 01:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "なぜすべての AI はテキスト メッセージ アプリなのでしょうか?\n私たちは AI と対話するまったく新しい方法を考案しました。アプリを切り替えたり、テキストメッセージを送信したりする必要はありません。画面上にある小さなフジツボがあなたを助けてくれるだけです。\nウェイティングリストは本日から開始されます"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.1
     },
     {
       "id": "x_super_bonochin",
@@ -5786,6 +5805,36 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "相変わらず凄いことやっているなぁ。\nFable 5.2使って、どんな風に作っているのか想像が付かない。ワクワクする！\n炎鎮🔥 - ₿onochin - (@super_bonochin)\nFable 5.2 でクールなPVを作るべく頑張ってます！観てね！＞＜\nVideo\n— https://x.com/super_bonochin/status/2122577225249853532",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXTnN8KacAAidN6.jpg?name=small"
+          ],
+          "link": "https://x.com/moon_0914/status/2123009792851734731",
+          "domain": "x.com",
+          "published": "2026-11-18T20:05:52+09:00",
+          "published_label": "11/18(水) 20:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "これはワイの特殊な癖なのかもしれないけど、推しのアーティストがライブで音外してたりオリジナルの音源と比べて声量が足りてなかったりするとめちゃくちゃ興奮する。\nというかそのためにライブ行ったりライブ音源を聴くまである。むしろそれを好んで聴く。\n厚めのサビでボーカルがバックコーラスに負けたりしてると最高。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/super_bonochin/status/2122999509710164002",
+          "domain": "x.com",
+          "published": "2026-11-18T19:25:01+09:00",
+          "published_label": "11/18(水) 19:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "何をどんな感じで使って作っているかを解説してます",
@@ -5967,42 +6016,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "マジでこういう企業まだある。\n資料なんて当日の1時間前、なんなら普段は15分前にFixや。\nリハとかで早めの場合でも前日。\n一か月前の情報になんの価値があんねん。\nDaiyu Hatakeyama@Microsoft, Hacking Generative AI (@dahatake)\nまた、1か月前にPPTくれ、が来た😊\n驚かないけど、驚くように努めることにする。慣れてはいけない。「xxxを製作できる時間が劇的に短縮されている事を仕事でやっていない」コトが明らかになるだけだから。\n— https://x.com/dahatake/status/2122834513885814794",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/super_bonochin/status/2122864626929193157",
-          "domain": "x.com",
-          "published": "2026-11-18T10:29:02+09:00",
-          "published_label": "11/18(水) 10:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Book of News 読むより @super_bonochin さんのまとめをまず見たほうが分かりやすいです😊\n炎鎮🔥 - ₿onochin - (@super_bonochin)\nMicrosoft Ignite で発表された内容まとめ（スライド全28 枚）。\nサブスクでは、順次この内容にエンタープライズAI目線で触れていきます。\n— https://x.com/super_bonochin/status/2122836234200588424",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXXT3A2bYAA_-0p.jpg?name=small",
-            "https://pbs.twimg.com/media/HXXT3hybcAAsbVx.jpg?name=small",
-            "https://pbs.twimg.com/media/HXXT4EQbIAAD-ld.jpg?name=small",
-            "https://pbs.twimg.com/media/HXXT4pqacAAASV5.jpg?name=small"
-          ],
-          "link": "https://x.com/yanashin18618/status/2122849832335524304",
-          "domain": "x.com",
-          "published": "2026-11-18T09:30:15+09:00",
-          "published_label": "11/18(水) 09:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.2
     },
     {
       "id": "x_shodaiiiiii",
@@ -6247,7 +6263,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.2
     }
   ]
 }

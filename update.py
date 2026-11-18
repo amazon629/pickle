@@ -506,6 +506,9 @@ def build_items(src: dict, entries: list) -> list:
         # 一般語の社名では、さらに業界語（EC・通販・楽天…）のどれかを含む見出しに絞る
         if src.get("context_match") and not match_any_term(text, src.get("context_match")):
             continue
+        # 地名・別の意味の語（Town Hall / Old Town など）を含む見出しは落とす
+        if src.get("exclude_match") and match_any_term(text, src.get("exclude_match")):
+            continue
 
         if (not text and not images) or not link:
             continue

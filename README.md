@@ -21,8 +21,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | nrtv登壇企業 ニュース監視 | `sources-nrtv-companies.json` | `nrtv-companies.html` | `data-nrtv-companies.json` |
 | 広告・マーケ X監視ボード | `sources-ad-marketing.json` | `ad-marketing.html` | `data-ad-marketing.json` |
 | ポケカ・買取 X監視ボード | `sources-pokeca.json` | `pokeca.html` | `data-pokeca.json` |
+| 10億ドル以上ユニコーン ニュース監視 | `sources-unicorns.json` | `unicorns.html` | `data-unicorns.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -31,7 +32,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 - 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
   訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
 - 取得は全ボードまとめて並列（既定24並行・`--workers` で変更可）。X（nitter）だけは6並行に絞って
-  レート制限を避けるので、13ページ・504ソースでも1回の更新は10〜15秒で終わります
+  レート制限を避けるので、14ページ・552ソースでも1回の更新は10〜15秒で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
@@ -43,6 +44,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ipo.json` | IPO・マーケットボードの監視対象 |
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
 | `sources-startup.json` | スタートアップボードの監視対象 |
+| `sources-unicorns.json` | 10億ドル以上ユニコーンボードの監視対象（48社。`sync_unicorn_startups.py` で生成） |
 | `sources-ec-companies.json` | ピュアフラット登壇企業ボードの監視対象（70社。`sync_pureflat_companies.py` で生成） |
 | `sources-smartnews-partners.json` | SmartNews 認定代理店ボードの監視対象（90社。`sync_smartnews_partners.py` で生成） |
 | `sources-shopify-partners.json` | Shopify 受賞パートナーボードの監視対象（25社。`sync_shopify_partners.py` で生成） |
@@ -61,12 +63,14 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `nrtv-companies.html` / `data-nrtv-companies.json` | nrtv登壇企業ボードの生成物 |
 | `ad-marketing.html` / `data-ad-marketing.json` | 広告・マーケ X監視ボードの生成物 |
 | `pokeca.html` / `data-pokeca.json` | ポケカ・買取 X監視ボードの生成物 |
+| `unicorns.html` / `data-unicorns.json` | 10億ドル以上ユニコーンボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
 | `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
 | `sync_caster_companies.py` | Excel「登壇企業一覧」（キャスター）→ `sources-caster-companies.json` を生成（120社） |
 | `sync_nrtv_companies.py` | Excel「登壇企業一覧」（nrtv）→ `sources-nrtv-companies.json` を生成（81社） |
+| `sync_unicorn_startups.py` | Excel「評価額あり案件」→ `sources-unicorns.json` を生成（円換算1,500億円以上＝10億ドル以上・重複統合・ノイズ除去`--check` 付き） |
 | `speaker_boards.py` | 上記2本の共通部品（Excel 読み取り・社名の名寄せ・クエリ組み立て・`--check`） |
 | `sources-ad-marketing.json` | 広告・マーケ X監視ボードの監視対象（X 10アカウント。`add_source.py --bulk` で作成） |
 | `sources-pokeca.json` | ポケカ・買取 X監視ボードの監視対象（X 7アカウント。`add_source.py --bulk` で作成） |
