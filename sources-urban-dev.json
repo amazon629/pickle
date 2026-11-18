@@ -2,7 +2,7 @@
   "settings": {
     "title": "都市開発 監視ボード",
     "nav_label": "🏙️ 都市開発",
-    "items_per_source": 15,
+    "items_per_source": 20,
     "timeout_seconds": 20,
     "retries": 1,
     "pinned_first": true,
@@ -17,11 +17,38 @@
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
     "tolerate_errors": true,
     "keyword_chips": [
-      "再開発",
-      "新築",
-      "供給",
-      "跡地",
-      "新駅"
+      {
+        "label": "再開発",
+        "terms": [
+          "再開発"
+        ]
+      },
+      {
+        "label": "新築・供給",
+        "terms": [
+          "新築",
+          "供給",
+          "分譲",
+          "戸数"
+        ]
+      },
+      {
+        "label": "跡地",
+        "terms": [
+          "跡地",
+          "跡"
+        ]
+      },
+      {
+        "label": "新駅",
+        "terms": [
+          "新駅",
+          "延伸",
+          "新線",
+          "駅前",
+          "開業"
+        ]
+      }
     ]
   },
   "sources": [

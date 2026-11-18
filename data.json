@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:15:44+09:00",
-  "generated_at_label": "2026/11/18 21:15 JST",
+  "generated_at": "2026-11-18T21:20:25+09:00",
+  "generated_at_label": "2026/11/18 21:20 JST",
   "title": "監視ボード",
   "total": 164,
   "sources": [
@@ -248,7 +248,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_sorapiyo",
@@ -503,7 +503,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 0.1
     },
     {
       "id": "x_mattariver2",
@@ -756,7 +756,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.1
     },
     {
       "id": "x_aoi_miyu",
@@ -1002,7 +1002,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 0.1
     },
     {
       "id": "x_tsuisoku",
@@ -1026,7 +1026,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ヒートショックで交通事故の死亡者数の３倍の人が毎年死亡してる マジで気を付けて",
@@ -1254,7 +1254,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.1
     },
     {
       "id": "x_mattariver3",
@@ -1507,7 +1507,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.0
     },
     {
       "id": "x_totalnewsworld",
@@ -1552,7 +1552,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "中国、高市総理へ「上を向いて歩こう」の曲を流す\n気を使ってるな、良い傾向\nVideo\nTotalNewsWorld (@turningpointjpn)\n高市総理、習近平主席と接触 軽く笑みを浮かべ言葉を交わす\n中国がホスト国であるため、習近平も笑みを返すだろうと踏んでの最低限の礼儀で対応\nさすがや\nVideo\n— https://x.com/turningpointjpn/status/2123018707509334082",
@@ -1569,7 +1569,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "習近平、器、ちいさっ！\n習近平政権、到着した高市総理にだけ、空港の歓迎行事を縮小。\n中国側が各国の首脳に実施してきた歓迎行事は縮小。\nプーチン大統領や李在明大統領には、機体の横で若者たちが飾りを持って出迎えたが、高市総理のときは実施されなかった。",
@@ -1772,7 +1772,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.4
+      "elapsed": 0.3
     },
     {
       "id": "x_sanae",
@@ -2023,7 +2023,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.5
+      "elapsed": 0.3
     },
     {
       "id": "x_tkzwgrs",
@@ -2283,7 +2283,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.1
+      "elapsed": 0.3
     },
     {
       "id": "yahoo_domestic_business",
@@ -2296,6 +2296,20 @@
       "count": 15,
       "items": [
         {
+          "title": "SA・PAのゴミ箱 280カ所で廃止へ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.yahoo.co.jp/pickup/6603078?source=rss",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-18T21:17:04+09:00",
+          "published_label": "11/18(水) 21:17",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "news",
+          "is_new": false
+        },
+        {
           "title": "支援金 対象年収下限「56万円」案",
           "summary": "",
           "images": [],
@@ -2303,20 +2317,6 @@
           "domain": "news.yahoo.co.jp",
           "published": "2026-11-18T21:11:23+09:00",
           "published_label": "11/18(水) 21:11",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "news",
-          "is_new": true
-        },
-        {
-          "title": "SA・PAのゴミ箱 280カ所で撤去へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.yahoo.co.jp/pickup/6603075?source=rss",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-18T20:52:31+09:00",
-          "published_label": "11/18(水) 20:52",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2349,7 +2349,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ボイジャー1号「1光日」に到達",
@@ -2391,7 +2391,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "EVなどに新税 28年5月導入で調整",
@@ -2506,7 +2506,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 1.8
     },
     {
       "id": "livedoor_news",
@@ -2530,13 +2530,41 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "不要な免許画像消去徹底を 政府、レンタカー業界に",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FdklHdVAzRjI1ajdyQ0hESzdMZmttZWdaSjZhQTZwa1hHbmxZSG5WS01UdmNPN3RGUEstRnVHcHg4RWplYThjcGZXS25UMGpLakdwa3VhZ1dBYU44THc?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-18T21:10:10+09:00",
+          "published_label": "11/18(水) 21:10",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": false
         },
         {
           "title": "スタバの価格設定に潜む脳のバグの正体",
           "summary": "",
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4wdkx4YXBfTkdzVkQzSVZVR0NwbURuTHNRUDFEYUtjakpfenBaaWdnRWpsQmJCTWxWUE93UXlWVGZCX3FuV2tURTZUMFZoNlRLSTRoakNUMW51a2x4N2c?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-18T20:51:38+09:00",
+          "published_label": "11/18(水) 20:51",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": false
+        },
+        {
+          "title": "石丸伸二氏 選挙出馬の可能性に言及",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01SzhUMTZHdDN2QVdsRUxmWnFFZGswZ0wxaVNxbW53RlJlckd2MkpvSUFMRXk0WHczVkNLb3BEc3NLd0RrT3l3NklnTktVUUxEbGxPNktYbWhuemFMRVE?oc=5",
           "domain": "news.livedoor.com",
           "published": "2026-11-18T20:51:38+09:00",
           "published_label": "11/18(水) 20:51",
@@ -2558,7 +2586,21 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "森保監督、最後の指揮終え帰国 「8年間、あっという間」",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTSWFHYzJtRkh3R3lTQnRZa19yX0lEaUpGdnk5YU1EcDlGeHVncVVnTmMtbkNjUU1yN3hVd3lwWDNvRE92UGt2N1djYnpEczFFTTY0QjNNT2JsUjNid0E?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-18T20:41:12+09:00",
+          "published_label": "11/18(水) 20:41",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": false
         },
         {
           "title": "【大井・ハイセイコー記念結果】ケテンパッションが逃げ切って重賞初制覇を飾る",
@@ -2572,7 +2614,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【小倉競輪 G1競輪祭】真杉匠 頭脳プレーでまずは白星 「今までよりも手応えがある」",
@@ -2586,7 +2628,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「伝説の大道芸人」死去 ギリヤーク尼ヶ崎さん96歳 60年近く路上で踊り続け…先月も車いすでパフォーマンス",
@@ -2601,20 +2643,6 @@
           "pinned": false,
           "type": "google_news",
           "is_new": false
-        },
-        {
-          "title": "森保一監督 代表8年を終え「国内外問わず」監督続行の意向",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5QaFFWTDVhZDRoQ1U0RHRSMTBFWE5IbW80YzAzeVFxNHhfZ192UmRPZFk2RU1Da3p6MjhKVGR0WG1aYVFkUkxZT1BsUzh6aW5iUTI2MDRrOEMxYU0xT1E?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-18T20:38:01+09:00",
-          "published_label": "11/18(水) 20:38",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": true
         },
         {
           "title": "元NHKフリー女性アナ「似ているところが」仲良し元五輪代表と食事 「これからも良い関係を」「可愛い〜」の声",
@@ -2642,7 +2670,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "華MEN組、初の両A面シングル「マダマダ／キミ尊！」詳細解禁 「僕たちは、マダマダ、ここからさ！」",
@@ -2656,7 +2684,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【福岡ボート ルーキーシリーズ第23戦】山下大輝 エース機を背にV回数加算だ",
@@ -2670,7 +2698,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ファーム・リーグ参入のハヤテ 元DeNAの倉本寿彦内野手が来季から兼任監督に就任",
@@ -2684,7 +2712,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "《3連覇へ弾み》阪神安芸キャンプ打ち上げ【高知】",
@@ -2694,34 +2722,6 @@
           "domain": "news.livedoor.com",
           "published": "2026-11-18T20:11:36+09:00",
           "published_label": "11/18(水) 20:11",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false
-        },
-        {
-          "title": "【小倉競輪 G1競輪祭女子王座戦】佐藤水菜 サッと前に出て寄せつけず27連勝 さすがの一言",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA5c0JNRENqbjllQjdrMFRSMVBocF9Rc2xraU4yb1NkUEROUGoxYTdtTm9hNzB1OE5fdURCY0FUeVFoYi11SmQ0c2dMN2Fsc21kamF5SU53WDREUExvdWc?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-18T20:00:35+09:00",
-          "published_label": "11/18(水) 20:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": true
-        },
-        {
-          "title": "sumika、本日発売の12thシングルより「はじまりのさよなら」MV公開",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9aa3ZmRjg1UjJLSnFwZklzaWhISnAwVTJHazlEWFVXckc1TnU2cWZTcjBDWTQwb3REVnZsNlZCZldBZnlkRHZheFVGckdWUmgxRm5UMVRpWGpDMmFkTlE?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-18T20:00:00+09:00",
-          "published_label": "11/18(水) 20:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,

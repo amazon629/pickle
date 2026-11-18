@@ -1037,6 +1037,10 @@ PAGE = """<!DOCTYPE html>
   .chip .n {{ font-size: 10px; color: var(--muted); margin-left: 4px; }}
   .chip.is-on {{ background: #1a56c4; border-color: #1a56c4; color: #fff; }}
   .chip.is-on .n {{ color: rgba(255,255,255,.85); }}
+  .chip.is-zero {{ color: #b0b5bd; }}
+  .noresult {{
+    margin: 18px 4px; font-size: 12.5px; color: var(--muted); text-align: center;
+  }}
   mark.kw {{ background: #fff08a; color: inherit; border-radius: 2px; padding: 0 1px; }}
   .cards {{ margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }}
   .card {{
@@ -1133,6 +1137,7 @@ PAGE = """<!DOCTYPE html>
   <main class="cards" id="cards">
 {cards}
   </main>
+  <p class="noresult hidden" id="noresult"></p>
   <footer><span>{summary}</span><span>{footer_right}</span></footer>
 </div>
 <script id="board-data" type="application/json">{data_json}</script>
@@ -1152,7 +1157,7 @@ BOARD_JS = """<script>
   var q = document.getElementById('q');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
   var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
-  var active = [];
+  var active = [];              // 選ばれているチップ [{terms: [...], label: '...'}]
   var allItems = [];
   cards.forEach(function (c) {
     var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
@@ -1162,21 +1167,27 @@ BOARD_JS = """<script>
       allItems.push(it);
     });
   });
-  function hitChip(it) {
-    if (!active.length) return true;
-    var t = it.dataset.text;
-    for (var i = 0; i < active.length; i++) {
-      if (t.indexOf(active[i]) !== -1) return true;
+  function activeTerms() {
+    var out = [];
+    active.forEach(function (a) { out = out.concat(a.terms); });
+    return out;
+  }
+  function hasTerm(text, terms) {
+    for (var i = 0; i < terms.length; i++) {
+      if (text.indexOf(terms[i]) !== -1) return true;
     }
     return false;
   }
   function apply() {
     var v = q.value.trim().toLowerCase();
-    var filtering = !!v || active.length > 0;
+    var terms = activeTerms();
+    var filtering = !!v || terms.length > 0;
+    var shownTotal = 0;
     cards.forEach(function (c) {
       var shown = 0;
       Array.prototype.slice.call(c.querySelectorAll('.item')).forEach(function (it) {
-        var hit = (!v || it.dataset.text.indexOf(v) !== -1) && hitChip(it);
+        var hit = (!v || it.dataset.text.indexOf(v) !== -1)
+               && (!terms.length || hasTerm(it.dataset.text, terms));
         it.classList.toggle('hidden', !hit);
         if (hit) shown++;
       });
@@ -1187,7 +1198,19 @@ BOARD_JS = """<script>
         else { count.textContent = shown + '/' + c.dataset.total + '件'; }
       }
       c.classList.toggle('hidden', filtering && shown === 0);
+      shownTotal += shown;
     });
+    var nr = document.getElementById('noresult');
+    if (nr) {
+      if (filtering && shownTotal === 0) {
+        var names = active.map(function (a) { return a.label; });
+        if (v) names.push(q.value.trim());
+        nr.textContent = '「' + names.join('・') + '」に該当する投稿はありません';
+        nr.classList.remove('hidden');
+      } else {
+        nr.classList.add('hidden');
+      }
+    }
   }
   function clearMarks(root) {
     Array.prototype.slice.call(root.querySelectorAll('mark.kw')).forEach(function (m) {
@@ -1234,24 +1257,29 @@ BOARD_JS = """<script>
     });
   }
   function marks() {
+    var terms = activeTerms();
     allItems.forEach(function (it) {
       Array.prototype.slice.call(it.querySelectorAll('.title, .trans, .desc')).forEach(function (el) {
-        markText(el, active);
+        markText(el, terms);
       });
     });
   }
   chips.forEach(function (ch) {
-    var kw = ch.dataset.kw || '';
-    var lower = kw.toLowerCase();
-    var n = allItems.filter(function (it) { return it.dataset.text.indexOf(lower) !== -1; }).length;
+    var label = ch.dataset.label || ch.dataset.kw || '';
+    var terms = (ch.dataset.kw || '').split('|').map(function (s) {
+      return s.trim().toLowerCase();
+    }).filter(Boolean);
+    var n = allItems.filter(function (it) { return hasTerm(it.dataset.text, terms); }).length;
     var num = document.createElement('span');
     num.className = 'n';
     num.textContent = n;
     ch.appendChild(num);
+    if (!n) ch.classList.add('is-zero');
     ch.addEventListener('click', function () {
-      var i = active.indexOf(lower);
-      if (i === -1) active.push(lower); else active.splice(i, 1);
-      ch.classList.toggle('is-on', i === -1);
+      var idx = -1;
+      active.forEach(function (a, i) { if (a.label === label) idx = i; });
+      if (idx === -1) active.push({terms: terms, label: label}); else active.splice(idx, 1);
+      ch.classList.toggle('is-on', idx === -1);
       apply();
       marks();
     });
@@ -1262,15 +1290,29 @@ BOARD_JS = """<script>
 
 
 def render_chips(settings: dict) -> str:
-    """settings.keyword_chips から絞り込みチップを作る（無ければ何も出さない）。"""
-    words = [w for w in (settings.get("keyword_chips") or []) if str(w).strip()]
-    if not words:
+    """settings.keyword_chips から絞り込みチップを作る（無ければ何も出さない）。
+
+    書き方は2とおり:
+      "再開発"                                          → その語だけで絞り込むチップ
+      {"label": "新築・供給", "terms": ["新築", "供給"]} → 複数の語をまとめた1つのチップ
+    """
+    buttons = []
+    for entry in settings.get("keyword_chips") or []:
+        if isinstance(entry, dict):
+            terms = [str(t).strip() for t in (entry.get("terms") or []) if str(t).strip()]
+            label = str(entry.get("label") or "・".join(terms)).strip()
+        else:
+            label = str(entry).strip()
+            terms = [label] if label else []
+        if not label or not terms:
+            continue
+        buttons.append(
+            f'<button type="button" class="chip" data-kw="{esc("|".join(terms))}"'
+            f' data-label="{esc(label)}">{esc(label)}</button>'
+        )
+    if not buttons:
         return ""
-    buttons = "".join(
-        f'<button type="button" class="chip" data-kw="{esc(str(w))}">{esc(str(w))}</button>'
-        for w in words
-    )
-    return f'    <div class="chips" id="chips">{buttons}</div>\n'
+    return f'    <div class="chips" id="chips">{"".join(buttons)}</div>\n'
 
 
 def render_nav(current: str, boards: list, labels: dict) -> str:
