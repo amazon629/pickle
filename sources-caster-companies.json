@@ -1,0 +1,2486 @@
+{
+  "settings": {
+    "title": "キャスター登壇企業 ニュース監視",
+    "nav_label": "キャスター企業",
+    "items_per_source": 5,
+    "timeout_seconds": 15,
+    "retries": 2,
+    "fetch_workers": 5,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "cc_01",
+      "type": "google_news",
+      "name": "株式会社キャスター",
+      "query": "\"キャスター\" EC",
+      "must_match": [
+        "キャスター"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_02",
+      "type": "google_news",
+      "name": "株式会社WUUZY（ECのプロ）",
+      "query": "\"WUUZY\"",
+      "must_match": [
+        "WUUZY"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_03",
+      "type": "google_news",
+      "name": "株式会社これから",
+      "query": "\"株式会社これから\"",
+      "must_match": [
+        "株式会社これから",
+        "これから、"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_04",
+      "type": "google_news",
+      "name": "株式会社マクロジ",
+      "query": "\"マクロジ\"",
+      "must_match": [
+        "マクロジ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_05",
+      "type": "google_news",
+      "name": "株式会社E-Grant",
+      "query": "\"E-Grant\"",
+      "must_match": [
+        "E-Grant"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_06",
+      "type": "google_news",
+      "name": "EC-Consulting Japan株式会社",
+      "query": "\"EC-Consulting Japan\"",
+      "must_match": [
+        "EC-Consulting Japan"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_07",
+      "type": "google_news",
+      "name": "株式会社GROOVE",
+      "query": "\"GROOVE\" Amazon",
+      "must_match": [
+        "GROOVE"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_08",
+      "type": "google_news",
+      "name": "株式会社ネイビーグループ",
+      "query": "\"ネイビーグループ\"",
+      "must_match": [
+        "ネイビーグループ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_09",
+      "type": "google_news",
+      "name": "株式会社ピュアフラット",
+      "query": "\"ピュアフラット\"",
+      "must_match": [
+        "ピュアフラット"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_10",
+      "type": "google_news",
+      "name": "Sansan株式会社",
+      "query": "\"Sansan\"",
+      "must_match": [
+        "Sansan"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_100",
+      "type": "google_news",
+      "name": "株式会社グランネット",
+      "query": "\"グランネット\"",
+      "must_match": [
+        "グランネット"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_101",
+      "type": "google_news",
+      "name": "株式会社コマースファクトリー",
+      "query": "\"コマースファクトリー\"",
+      "must_match": [
+        "コマースファクトリー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_102",
+      "type": "google_news",
+      "name": "株式会社コムニコ",
+      "query": "\"コムニコ\"",
+      "must_match": [
+        "コムニコ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_103",
+      "type": "google_news",
+      "name": "株式会社サブスパイア（U-KOMI）",
+      "query": "\"サブスパイア\"",
+      "must_match": [
+        "サブスパイア",
+        "U-KOMI"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_104",
+      "type": "google_news",
+      "name": "株式会社サポーターズ",
+      "query": "\"株式会社サポーターズ\"",
+      "must_match": [
+        "株式会社サポーターズ",
+        "サポーターズ（"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_105",
+      "type": "google_news",
+      "name": "株式会社ジェイック",
+      "query": "\"ジェイック\"",
+      "must_match": [
+        "ジェイック"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_106",
+      "type": "google_news",
+      "name": "株式会社スタークス",
+      "query": "\"スタークス\" EC",
+      "must_match": [
+        "スタークス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_107",
+      "type": "google_news",
+      "name": "株式会社トドケール",
+      "query": "\"トドケール\"",
+      "must_match": [
+        "トドケール"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_108",
+      "type": "google_news",
+      "name": "株式会社ナビタイムジャパン",
+      "query": "\"ナビタイムジャパン\"",
+      "must_match": [
+        "ナビタイムジャパン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_109",
+      "type": "google_news",
+      "name": "株式会社ハックルベリー",
+      "query": "\"ハックルベリー\"",
+      "must_match": [
+        "ハックルベリー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_11",
+      "type": "google_news",
+      "name": "オールイン株式会社",
+      "query": "\"オールイン株式会社\"",
+      "must_match": [
+        "オールイン株式会社"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_110",
+      "type": "google_news",
+      "name": "株式会社ビットエー ourlyカンパニー",
+      "query": "\"ビットエー\"",
+      "must_match": [
+        "ビットエー",
+        "ourly"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_111",
+      "type": "google_news",
+      "name": "株式会社ファブリカコミュニケーションズ",
+      "query": "\"ファブリカコミュニケーションズ\"",
+      "must_match": [
+        "ファブリカコミュニケーションズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_112",
+      "type": "google_news",
+      "name": "株式会社ファンコミュニケーションズ（A8.net）",
+      "query": "\"ファンコミュニケーションズ\"",
+      "must_match": [
+        "ファンコミュニケーションズ",
+        "A8.net"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_113",
+      "type": "google_news",
+      "name": "株式会社ミギナナメウエ",
+      "query": "\"ミギナナメウエ\"",
+      "must_match": [
+        "ミギナナメウエ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_114",
+      "type": "google_news",
+      "name": "株式会社ヤプリ",
+      "query": "\"ヤプリ\"",
+      "must_match": [
+        "ヤプリ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_115",
+      "type": "google_news",
+      "name": "株式会社ライスカレープラス",
+      "query": "\"ライスカレープラス\"",
+      "must_match": [
+        "ライスカレープラス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_116",
+      "type": "google_news",
+      "name": "株式会社リーディングマーク",
+      "query": "\"リーディングマーク\"",
+      "must_match": [
+        "リーディングマーク"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_117",
+      "type": "google_news",
+      "name": "株式会社採用モンスター",
+      "query": "\"採用モンスター\"",
+      "must_match": [
+        "採用モンスター"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_118",
+      "type": "google_news",
+      "name": "株式会社識学",
+      "query": "\"識学\"",
+      "must_match": [
+        "識学"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_119",
+      "type": "google_news",
+      "name": "楽天トータルソリューションズ株式会社",
+      "query": "\"楽天トータルソリューションズ\"",
+      "must_match": [
+        "楽天トータルソリューションズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_12",
+      "type": "google_news",
+      "name": "株式会社Picaro（Picaro.AI）",
+      "query": "\"Picaro\"",
+      "must_match": [
+        "Picaro",
+        "Picaro.AI"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_120",
+      "type": "google_news",
+      "name": "芙蓉アウトソーシング＆コンサルティング株式会社",
+      "query": "\"芙蓉アウトソーシング＆コンサルティング\"",
+      "must_match": [
+        "芙蓉アウトソーシング＆コンサルティング"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_13",
+      "type": "google_news",
+      "name": "NE株式会社",
+      "query": "\"NE株式会社\"",
+      "must_match": [
+        "NE株式会社",
+        "NE Korea",
+        "441A"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_14",
+      "type": "google_news",
+      "name": "しるし株式会社",
+      "query": "\"しるし株式会社\"",
+      "must_match": [
+        "しるし株式会社"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_15",
+      "type": "google_news",
+      "name": "トゥルーコンサルティング株式会社",
+      "query": "\"トゥルーコンサルティング\"",
+      "must_match": [
+        "トゥルーコンサルティング"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_16",
+      "type": "google_news",
+      "name": "株式会社LeaguE",
+      "query": "\"株式会社LeaguE\"",
+      "must_match": [
+        "LeaguE"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_17",
+      "type": "google_news",
+      "name": "株式会社Proteinum",
+      "query": "\"Proteinum\"",
+      "must_match": [
+        "Proteinum"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_18",
+      "type": "google_news",
+      "name": "株式会社mtc.",
+      "query": "\"mtc\" EC",
+      "must_match": [
+        "mtc"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_19",
+      "type": "google_news",
+      "name": "株式会社アルド",
+      "query": "\"アルド\" EC",
+      "must_match": [
+        "アルド"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_20",
+      "type": "google_news",
+      "name": "株式会社インターファクトリー",
+      "query": "\"インターファクトリー\"",
+      "must_match": [
+        "インターファクトリー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_21",
+      "type": "google_news",
+      "name": "株式会社ジグザグ",
+      "query": "\"ジグザグ\" EC",
+      "must_match": [
+        "ジグザグ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_22",
+      "type": "google_news",
+      "name": "株式会社メディアエイド",
+      "query": "\"メディアエイド\"",
+      "must_match": [
+        "メディアエイド"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_23",
+      "type": "google_news",
+      "name": "株式会社ALL WEB CONSULTING",
+      "query": "\"ALL WEB CONSULTING\"",
+      "must_match": [
+        "ALL WEB CONSULTING"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_24",
+      "type": "google_news",
+      "name": "株式会社Bloomstrategia",
+      "query": "\"Bloomstrategia\"",
+      "must_match": [
+        "Bloomstrategia"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_25",
+      "type": "google_news",
+      "name": "株式会社CINC",
+      "query": "\"CINC\"",
+      "must_match": [
+        "CINC"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_26",
+      "type": "google_news",
+      "name": "株式会社Eストアー",
+      "query": "\"Eストアー\"",
+      "must_match": [
+        "Eストアー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_27",
+      "type": "google_news",
+      "name": "株式会社LTV-X",
+      "query": "\"LTV-X\"",
+      "must_match": [
+        "LTV-X"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_28",
+      "type": "google_news",
+      "name": "株式会社Nint",
+      "query": "\"Nint\"",
+      "must_match": [
+        "Nint"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_29",
+      "type": "google_news",
+      "name": "株式会社PLAN-B",
+      "query": "\"PLAN-B\"",
+      "must_match": [
+        "PLAN-B"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_30",
+      "type": "google_news",
+      "name": "株式会社REECH",
+      "query": "\"REECH\"",
+      "must_match": [
+        "REECH"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_31",
+      "type": "google_news",
+      "name": "株式会社TalentX",
+      "query": "\"TalentX\"",
+      "must_match": [
+        "TalentX"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_32",
+      "type": "google_news",
+      "name": "株式会社visumo",
+      "query": "\"visumo\"",
+      "must_match": [
+        "visumo"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_33",
+      "type": "google_news",
+      "name": "株式会社そばに",
+      "query": "\"株式会社そばに\"",
+      "must_match": [
+        "株式会社そばに",
+        "そばにの",
+        "そばにが"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_34",
+      "type": "google_news",
+      "name": "株式会社スクロール360",
+      "query": "\"スクロール360\"",
+      "must_match": [
+        "スクロール360"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_35",
+      "type": "google_news",
+      "name": "株式会社ダイレクトソーシング",
+      "query": "\"株式会社ダイレクトソーシング\"",
+      "must_match": [
+        "株式会社ダイレクトソーシング"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_36",
+      "type": "google_news",
+      "name": "株式会社ポテンシャライト",
+      "query": "\"ポテンシャライト\"",
+      "must_match": [
+        "ポテンシャライト"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_37",
+      "type": "google_news",
+      "name": "株式会社メルカート",
+      "query": "\"メルカート\"",
+      "must_match": [
+        "メルカート"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_38",
+      "type": "google_news",
+      "name": "株式会社ロックウェーブ",
+      "query": "\"ロックウェーブ\"",
+      "must_match": [
+        "ロックウェーブ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_39",
+      "type": "google_news",
+      "name": "武内製薬株式会社",
+      "query": "\"武内製薬\"",
+      "must_match": [
+        "武内製薬"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_40",
+      "type": "google_news",
+      "name": "AnyMind Japan株式会社",
+      "query": "\"AnyMind Japan\"",
+      "must_match": [
+        "AnyMind Japan"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_41",
+      "type": "google_news",
+      "name": "Cast a spell合同会社",
+      "query": "\"Cast a spell\" 株式会社",
+      "must_match": [
+        "Cast a spell合同会社",
+        "Cast a spell、"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_42",
+      "type": "google_news",
+      "name": "Crevo株式会社",
+      "query": "\"Crevo\"",
+      "must_match": [
+        "Crevo"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_43",
+      "type": "google_news",
+      "name": "GIVE&GIVE株式会社",
+      "query": "\"GIVE&GIVE\" EC",
+      "must_match": [
+        "GIVE&GIVE"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_44",
+      "type": "google_news",
+      "name": "Gastroduce Japan株式会社",
+      "query": "\"Gastroduce Japan\"",
+      "must_match": [
+        "Gastroduce Japan"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_45",
+      "type": "google_news",
+      "name": "LAPRAS株式会社",
+      "query": "\"LAPRAS\"",
+      "must_match": [
+        "LAPRAS"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_46",
+      "type": "google_news",
+      "name": "Qoo10（eBay Japan合同会社）",
+      "query": "\"Qoo10\"",
+      "must_match": [
+        "Qoo10"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_47",
+      "type": "google_news",
+      "name": "SIKI株式会社",
+      "query": "\"SIKI株式会社\"",
+      "must_match": [
+        "SIKI株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_48",
+      "type": "google_news",
+      "name": "YKK AP株式会社",
+      "query": "\"YKK AP\"",
+      "must_match": [
+        "YKK AP"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_49",
+      "type": "google_news",
+      "name": "jinjer株式会社",
+      "query": "\"jinjer\"",
+      "must_match": [
+        "jinjer"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_50",
+      "type": "google_news",
+      "name": "narrative株式会社",
+      "query": "\"narrative\"",
+      "must_match": [
+        "narrative株式会社",
+        "narrativeが",
+        "narrativeの",
+        "narrativeと",
+        "narrative、",
+        "narrative「",
+        "narrative×",
+        "narrative x",
+        "narrativeを"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_51",
+      "type": "google_news",
+      "name": "アクタス税理士法人",
+      "query": "\"アクタス税理士法人\"",
+      "must_match": [
+        "アクタス税理士法人"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_52",
+      "type": "google_news",
+      "name": "オンサイト株式会社",
+      "query": "\"オンサイト株式会社\"",
+      "must_match": [
+        "オンサイト株式会社"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_53",
+      "type": "google_news",
+      "name": "オープンワーク株式会社",
+      "query": "\"オープンワーク\"",
+      "must_match": [
+        "オープンワーク"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_54",
+      "type": "google_news",
+      "name": "コニカミノルタジャパン株式会社",
+      "query": "\"コニカミノルタジャパン\"",
+      "must_match": [
+        "コニカミノルタジャパン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_55",
+      "type": "google_news",
+      "name": "コミューン株式会社",
+      "query": "\"コミューン\"",
+      "must_match": [
+        "コミューン株式会社",
+        "コミューン「",
+        "コミューンが",
+        "コミューンは",
+        "コミューンを",
+        "コミューンに",
+        "コミューンと",
+        "コミューン、",
+        "コミューンの",
+        "コミューン運営"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_56",
+      "type": "google_news",
+      "name": "サヴァリ株式会社",
+      "query": "\"サヴァリ\"",
+      "must_match": [
+        "サヴァリ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_57",
+      "type": "google_news",
+      "name": "ジャグー株式会社",
+      "query": "\"ジャグー\"",
+      "must_match": [
+        "ジャグー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_58",
+      "type": "google_news",
+      "name": "マネーツリー株式会社",
+      "query": "\"マネーツリー\"",
+      "must_match": [
+        "マネーツリー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_59",
+      "type": "google_news",
+      "name": "マルゴト株式会社",
+      "query": "\"マルゴト\"",
+      "must_match": [
+        "マルゴト"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_60",
+      "type": "google_news",
+      "name": "レバレジーズ株式会社",
+      "query": "\"レバレジーズ\"",
+      "must_match": [
+        "レバレジーズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_61",
+      "type": "google_news",
+      "name": "丸紅情報システムズ株式会社",
+      "query": "\"丸紅情報システムズ\"",
+      "must_match": [
+        "丸紅情報システムズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_62",
+      "type": "google_news",
+      "name": "卒塔婆通販「卒塔婆屋さん」",
+      "query": "\"卒塔婆屋さん\"",
+      "must_match": [
+        "卒塔婆屋さん",
+        "卒塔婆通販"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_63",
+      "type": "google_news",
+      "name": "弥生株式会社",
+      "query": "\"弥生\" EC",
+      "must_match": [
+        "弥生"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_64",
+      "type": "google_news",
+      "name": "扶桑電通株式会社",
+      "query": "\"扶桑電通\"",
+      "must_match": [
+        "扶桑電通"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_65",
+      "type": "google_news",
+      "name": "株式会社ACROVE",
+      "query": "\"ACROVE\"",
+      "must_match": [
+        "ACROVE"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_66",
+      "type": "google_news",
+      "name": "株式会社Another works",
+      "query": "\"Another works\"",
+      "must_match": [
+        "Another works"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_67",
+      "type": "google_news",
+      "name": "株式会社COIM",
+      "query": "\"COIM\"",
+      "must_match": [
+        "COIM"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_68",
+      "type": "google_news",
+      "name": "株式会社CREAVE（ガイアックス）",
+      "query": "\"CREAVE\"",
+      "must_match": [
+        "CREAVE"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_69",
+      "type": "google_news",
+      "name": "株式会社Digital Arrow Partners（TWOSTONE&Sonsグループ）",
+      "query": "\"Digital Arrow Partners\"",
+      "must_match": [
+        "Digital Arrow Partners"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_70",
+      "type": "google_news",
+      "name": "株式会社GoQSystem",
+      "query": "\"GoQSystem\"",
+      "must_match": [
+        "GoQSystem"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_71",
+      "type": "google_news",
+      "name": "株式会社HERP",
+      "query": "\"HERP\"",
+      "must_match": [
+        "HERP"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_72",
+      "type": "google_news",
+      "name": "株式会社HMit",
+      "query": "\"HMit\"",
+      "must_match": [
+        "HMit"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_73",
+      "type": "google_news",
+      "name": "株式会社HRbase",
+      "query": "\"HRbase\"",
+      "must_match": [
+        "HRbase"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_74",
+      "type": "google_news",
+      "name": "株式会社Mico",
+      "query": "\"Mico\" EC",
+      "must_match": [
+        "Mico"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ]
+    },
+    {
+      "id": "cc_75",
+      "type": "google_news",
+      "name": "株式会社OTOGI",
+      "query": "\"OTOGI\" 株式会社",
+      "must_match": [
+        "OTOGI"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_76",
+      "type": "google_news",
+      "name": "株式会社Paidy",
+      "query": "\"Paidy\"",
+      "must_match": [
+        "Paidy"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_77",
+      "type": "google_news",
+      "name": "株式会社Piece to Peace",
+      "query": "\"Piece to Peace\"",
+      "must_match": [
+        "Piece to Peace"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_78",
+      "type": "google_news",
+      "name": "株式会社RECORE",
+      "query": "\"RECORE\"",
+      "must_match": [
+        "RECORE"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_79",
+      "type": "google_news",
+      "name": "株式会社ReviCo",
+      "query": "\"ReviCo\"",
+      "must_match": [
+        "ReviCo"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_80",
+      "type": "google_news",
+      "name": "株式会社Rodina",
+      "query": "\"Rodina\"",
+      "must_match": [
+        "株式会社Rodina",
+        "Rodinaが",
+        "Rodina、",
+        "Rodinaと",
+        "Rodinaを",
+        "Rodina（"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_81",
+      "type": "google_news",
+      "name": "株式会社SAKIYOMI",
+      "query": "\"SAKIYOMI\"",
+      "must_match": [
+        "SAKIYOMI"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_82",
+      "type": "google_news",
+      "name": "株式会社Speee",
+      "query": "\"Speee\"",
+      "must_match": [
+        "Speee"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_83",
+      "type": "google_news",
+      "name": "株式会社TOKIUM",
+      "query": "\"TOKIUM\"",
+      "must_match": [
+        "TOKIUM"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_84",
+      "type": "google_news",
+      "name": "株式会社UNIVERSE PULSE（マイクロアドグループ）",
+      "query": "\"UNIVERSE PULSE\"",
+      "must_match": [
+        "UNIVERSE PULSE"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_85",
+      "type": "google_news",
+      "name": "株式会社VOLLECT",
+      "query": "\"VOLLECT\"",
+      "must_match": [
+        "VOLLECT"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_86",
+      "type": "google_news",
+      "name": "株式会社YOUTRUST",
+      "query": "\"YOUTRUST\"",
+      "must_match": [
+        "YOUTRUST"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_87",
+      "type": "google_news",
+      "name": "株式会社Yagish",
+      "query": "\"Yagish\"",
+      "must_match": [
+        "Yagish"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_88",
+      "type": "google_news",
+      "name": "株式会社on the bakery",
+      "query": "\"on the bakery\"",
+      "must_match": [
+        "on the bakery"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_89",
+      "type": "google_news",
+      "name": "株式会社あしたのチーム",
+      "query": "\"あしたのチーム\"",
+      "must_match": [
+        "あしたのチーム"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_90",
+      "type": "google_news",
+      "name": "株式会社うるる",
+      "query": "\"うるる\"",
+      "must_match": [
+        "うるる"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_91",
+      "type": "google_news",
+      "name": "株式会社アイエンター",
+      "query": "\"アイエンター\"",
+      "must_match": [
+        "アイエンター"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_92",
+      "type": "google_news",
+      "name": "株式会社アスマーク",
+      "query": "\"アスマーク\"",
+      "must_match": [
+        "アスマーク"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_93",
+      "type": "google_news",
+      "name": "株式会社インボイス",
+      "query": "\"インボイス株式会社\"",
+      "must_match": [
+        "インボイス株式会社"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_94",
+      "type": "google_news",
+      "name": "株式会社ウォーターアップ",
+      "query": "\"ウォーターアップ\"",
+      "must_match": [
+        "ウォーターアップ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_95",
+      "type": "google_news",
+      "name": "株式会社ウブン",
+      "query": "\"ウブン\"",
+      "must_match": [
+        "ウブン"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業",
+        "SNS",
+        "ブランド",
+        "メーカー",
+        "メディア",
+        "統合",
+        "ツール",
+        "システム",
+        "業務",
+        "顧客",
+        "売上",
+        "販促",
+        "プロモーション"
+      ]
+    },
+    {
+      "id": "cc_96",
+      "type": "google_news",
+      "name": "株式会社エフカフェ",
+      "query": "\"エフカフェ\"",
+      "must_match": [
+        "エフカフェ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_97",
+      "type": "google_news",
+      "name": "株式会社カオナビ",
+      "query": "\"カオナビ\"",
+      "must_match": [
+        "カオナビ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_98",
+      "type": "google_news",
+      "name": "株式会社ガイアックス",
+      "query": "\"ガイアックス\"",
+      "must_match": [
+        "ガイアックス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "cc_99",
+      "type": "google_news",
+      "name": "株式会社ギャプライズ",
+      "query": "\"ギャプライズ\"",
+      "must_match": [
+        "ギャプライズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    }
+  ]
+}

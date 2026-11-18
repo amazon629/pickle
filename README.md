@@ -17,9 +17,11 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | SmartNews 認定代理店 ニュース監視 | `sources-smartnews-partners.json` | `smartnews-partners.html` | `data-smartnews-partners.json` |
 | Shopify 受賞パートナー ニュース監視 | `sources-shopify-partners.json` | `shopify-partners.html` | `data-shopify-partners.json` |
 | SNS・広告代理店 ニュース監視 | `sources-sns-agencies.json` | `sns-agencies.html` | `data-sns-agencies.json` |
+| キャスター登壇企業 ニュース監視 | `sources-caster-companies.json` | `caster-companies.html` | `data-caster-companies.json` |
+| nrtv登壇企業 ニュース監視 | `sources-nrtv-companies.json` | `nrtv-companies.html` | `data-nrtv-companies.json` |
 | 広告・マーケ X監視ボード | `sources-ad-marketing.json` | `ad-marketing.html` | `data-ad-marketing.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -28,7 +30,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 - 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
   訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
 - 取得は全ボードまとめて並列（既定24並行・`--workers` で変更可）。X（nitter）だけは6並行に絞って
-  レート制限を避けるので、10ページ・296ソースでも1回の更新は10秒前後で終わります
+  レート制限を避けるので、12ページ・497ソースでも1回の更新は10〜15秒で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
@@ -54,11 +56,16 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `smartnews-partners.html` / `data-smartnews-partners.json` | SmartNews 認定代理店ボードの生成物 |
 | `shopify-partners.html` / `data-shopify-partners.json` | Shopify 受賞パートナーボードの生成物 |
 | `sns-agencies.html` / `data-sns-agencies.json` | SNS・広告代理店ボードの生成物 |
+| `caster-companies.html` / `data-caster-companies.json` | キャスター登壇企業ボードの生成物 |
+| `nrtv-companies.html` / `data-nrtv-companies.json` | nrtv登壇企業ボードの生成物 |
 | `ad-marketing.html` / `data-ad-marketing.json` | 広告・マーケ X監視ボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
 | `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
+| `sync_caster_companies.py` | Excel「登壇企業一覧」（キャスター）→ `sources-caster-companies.json` を生成（120社） |
+| `sync_nrtv_companies.py` | Excel「登壇企業一覧」（nrtv）→ `sources-nrtv-companies.json` を生成（81社） |
+| `speaker_boards.py` | 上記2本の共通部品（Excel 読み取り・社名の名寄せ・クエリ組み立て・`--check`） |
 | `sources-ad-marketing.json` | 広告・マーケ X監視ボードの監視対象（X 10アカウント。`add_source.py --bulk` で作成） |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
@@ -82,17 +89,24 @@ python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json 
 
 ### 社名ごとにニュースを追う（登壇企業ボード）
 
-`sources-ec-companies.json` は、Excel の「登壇企業一覧」から起こした「1社＝1ソース（Google ニュース検索）」のボードです。
+`sources-ec-companies.json` / `sources-caster-companies.json` / `sources-nrtv-companies.json` は、
+Excel の「登壇企業一覧」から起こした「1社＝1ソース（Google ニュース検索）」のボードです。
+（ピュアフラットは `sync_pureflat_companies.py`、キャスターと nrtv は共通部品 `speaker_boards.py` を使います）
 
 ```bash
 python3 sync_pureflat_companies.py --check   # Excel を読み直して設定を作り、各社のヒット件数も表示
-python3 update.py --board ec-companies       # このボードだけ更新
+python3 sync_caster_companies.py --check     # キャスター登壇企業120社
+python3 sync_nrtv_companies.py --check       # nrtv登壇企業81社
+python3 update.py --board ec-companies,caster-companies,nrtv-companies   # この3枚だけ更新
 ```
 
 - 社名は法人格を外して検索し（`"ピュアフラット"`）、`must_match` でその社名を含む見出しだけを残します。
 - 「これから」「そばに」「グリニッジ」のように一般語でも使われる社名は、`context_match`（EC・通販・楽天…などの語）も
   含む見出しに絞り、同名の別物（グリニッジ天文台、フュージョンエネルギー等）を落としています。
-  調整は `sync_pureflat_companies.py` の `OVERRIDES` に1行足すだけです。
+  「オンサイト」「ジグザグ」「サポーターズ」のような語は、より狭い `context_match`（`EC_STRICT`）で絞ります。
+  調整は各スクリプトの `overrides` に1行足すだけです。
+- 同じ主催の中で「株式会社Picaro」と「株式会社Picaro.AI」のような表記ゆれは、`aliases` で1社にまとめます
+  （キャスター側は 121行 → 120社）。
 - 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
 - 一時的に取れない社があっても他のボードの更新を止めないよう、このボードは `settings.tolerate_errors: true` です
   （取得できなかった社はカードに「取得エラー」と出ます）。
