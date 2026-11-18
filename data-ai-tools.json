@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T22:27:18+09:00",
-  "generated_at_label": "2026/11/18 22:27 JST",
+  "generated_at": "2026-11-18T23:27:23+09:00",
+  "generated_at_label": "2026/11/18 23:27 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -264,7 +264,7 @@
           "title_ja": "AI をゼロサム競争として扱う人が多すぎます。オープンソースはその逆、つまり競争よりも協力することで勝利を収めています。\nこれが、オープン モデルをすべての人にとって使いやすくするための @OpenRouter とのパートナーシップの最初の部分を本日リリースできることに興奮している理由です。顔を抱き締めて保管したりコラボレーションしたりできます。推論用の OpenRouter。接続すると次のことが可能になります。\n🤗 Hugging Face で OpenRouter 推論を直接実行します\n🔓 OpenRouter からオープンモデルの重みに直接アクセス\n🤖 OpenRouter エージェント トレースを HF に保存して、検査したり、より良いモデルをトレーニングしたり、世界と共有したりできます!\nさらなるコラボレーション。ゼロサム ゲームが少なくなります。 AI ビルダーのさらなるパワーアップ。建ててみましょう！ 💛💛💛"
         }
       ],
-      "elapsed": 6.3
+      "elapsed": 5.3
     },
     {
       "id": "x_opencode",
@@ -510,7 +510,7 @@
           "title_ja": "Gemini 4 Carbon と Claude Fable 5.2 が OpenCode で利用可能になりました"
         }
       ],
-      "elapsed": 6.1
+      "elapsed": 5.2
     },
     {
       "id": "x_aimirai46487",
@@ -522,6 +522,184 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■引用元\nCognition (@cognition)\nMeet Devin Bots.\nFrom writing firmware to merging thousands of PRs a week, a Devin Bot leads a team of agents to get the job done.\nVideo\n— https://x.com/cognition/status/2122737511684587551",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122736117183344641/img/603VwLm95_w6iiBa.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058906541047979",
+          "domain": "x.com",
+          "published": "2026-11-18T23:21:02+09:00",
+          "published_label": "11/18(水) 23:21",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "■引用元\n認知 (@cognition)\nDevin ボットをご紹介します。\nファームウェアの作成から週に何千もの PR のマージまで、Devin ボットはエージェントのチームを率いて仕事を遂行します。\nビデオ\n— https://x.com/cognition/status/2122737511684587551"
+        },
+        {
+          "title": "Cognitionは、複数のAIエージェントをチームとして指揮し、さまざまな開発作業を自動で進めることのできるAIエージェント「Devin Bots」を発表しました(DevinのMaxプランのユーザーが利用可)。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122736117183344641/img/603VwLm95_w6iiBa.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058880834109532",
+          "domain": "x.com",
+          "published": "2026-11-18T23:20:56+09:00",
+          "published_label": "11/18(水) 23:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "ACE Musicは、公式のMCPを公開しました。Codex、Claude Claude、CursorなどのAIエージェントと連携して、音楽を制作できるようになります。\nACE Musicにログイン後の画面の左サイドバーにあるMCPを押した先で設定方法を確認可能です。\nACE Music (@acemusicAI)\nMCP is now available at\nLet's make music with your ChatGPT, Claude, Cursor or any other AI agents.\nFYI: You can even ask Astra, Fable, or Opus to compose MIDI/scores before generating the music.\n— https://x.com/acemusicAI/status/2122786623515750792",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXWmgPMbUAAOvPA.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058797870723502",
+          "domain": "x.com",
+          "published": "2026-11-18T23:20:36+09:00",
+          "published_label": "11/18(水) 23:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "Claude Codeに、新しい実験的な機能「Code Mode」が実装されました(現時点では手動設定が必要)。\nClaudeがスクリプト(作業指令書)を自動作成し、複数のツールを組み合わせて、複雑な作業を効率よく実行できるようになります。\nClaudeDevs (@ClaudeDevs)\nCheck out Code Mode, a new, experimental way for Claude Code to work with tools. Claude writes scripts that chain your tools together in sophisticated ways, and it can answer you while long commands are still running.\nOpt in with CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1\n— https://x.com/ClaudeDevs/status/2122801681939234950",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2121305958425190400/VZnBCwYl?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058708070748390",
+          "domain": "x.com",
+          "published": "2026-11-18T23:20:15+09:00",
+          "published_label": "11/18(水) 23:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "Anthropicの開発者向けプラットフォーム「Claude Platform」で「Linked Billing」のベータ版が実装されました。\nAPIキーを共有せずに、FactoryやLinearなどの外部ツールで発生したClaude APIの利用料金を、Claude Platformの組織アカウントから支払えるようになります。\nClaudeDevs (@ClaudeDevs)\nLinked billing is now in beta on the Claude Platform.\nNow users of tools like Factory, Linear, and Ramp can pay for Claude API usage through their Claude Platform organization, without sharing an API key.\n— https://x.com/ClaudeDevs/status/2122751844455956760",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXWHBOPbAAAvRLj.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058631646355889",
+          "domain": "x.com",
+          "published": "2026-11-18T23:19:56+09:00",
+          "published_label": "11/18(水) 23:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nIdeogram (@ideogram_ai)\nMany of our users love Ideogram for print: the unique typography, hand-crafted designs, and our new Vector model. So we built a dedicated studio.\nIntroducing Ideogram Print on Demand Studio: research, design, print prep, and mockups.\nLive now:\nVideo\n— https://x.com/ideogram_ai/status/2122743043635941502",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122742962287456256/img/yOM1Aw3i5Hric0xM.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058561626628120",
+          "domain": "x.com",
+          "published": "2026-11-18T23:19:40+09:00",
+          "published_label": "11/18(水) 23:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "■引用元\nイデオグラム (@ideogram_ai)\n多くのユーザーは、ユニークなタイポグラフィー、手作りのデザイン、新しい Vector モデルなど、印刷用の Ideogram を気に入っています。そこで専用のスタジオを作りました。\nIdeogram Print on Demand Studio の紹介: リサーチ、デザイン、印刷準備、モックアップ。\n今すぐ生きる:\nビデオ\n— https://x.com/ideogram_ai/status/2122743043635941502"
+        },
+        {
+          "title": "AIデザインプラットフォームの「Ideogram」は、商品アイデアの発見からデザイン制作、販売準備までを1つのツールで進めることのできる機能「Print on Demand Studio」を実装しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122742962287456256/img/yOM1Aw3i5Hric0xM.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058521088634963",
+          "domain": "x.com",
+          "published": "2026-11-18T23:19:30+09:00",
+          "published_label": "11/18(水) 23:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "アクセス解析プラットフォームのSimilarwebによると、MetaのAIエージェント「Muse」の1日あたりのアクティブユーザー数が、2026年11月13日に1000万人を突破したということです。\nSimilarweb (@Similarweb)\nMeta’s Muse surpassed 10M daily active users on November 13, reaching 10.24M.\n— https://x.com/Similarweb/status/2122625289880805823",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXT40bAWUAAEo-7.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058431888327127",
+          "domain": "x.com",
+          "published": "2026-11-18T23:19:09+09:00",
+          "published_label": "11/18(水) 23:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "MetaのAIエージェント「Muse」が、デザインツールの「Canva」と接続できるようになりました(設定のコネクターから)。\nCanva (@canva)\nSmall, fluffy, marsupial-adjacent?\nHey Australia! 👋 You too can use Canva right inside @Muse, starting today.\nEvery design, template, and tool you love, on call.\n— https://x.com/canva/status/2122878614328983577",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXX6CN0aEAAUBTD.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058333196427460",
+          "domain": "x.com",
+          "published": "2026-11-18T23:18:45+09:00",
+          "published_label": "11/18(水) 23:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "テンセントの2026年第3四半期決算は、売上高が前年同期比8％増となったものの、ゲーム事業の成長鈍化で市場予想を下回りました。\n一方、AI需要の拡大がクラウド事業を押し上げ、AI投資の収益性に注目が集まっています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123058291379187712/TrFkGe62?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058291093946603",
+          "domain": "x.com",
+          "published": "2026-11-18T23:18:35+09:00",
+          "published_label": "11/18(水) 23:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "NVIDIAは、米政府による輸出許可の先行きが不透明になっていることを受けて、中国向けの高性能AI半導体の出荷を停止したと発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123006494505627648/NsKdRfmv?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123058240745537807",
+          "domain": "x.com",
+          "published": "2026-11-18T23:18:23+09:00",
+          "published_label": "11/18(水) 23:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "■引用元\nOpenAI Developers (@OpenAIDevs)\nWe updated the API usage dashboard to make it easier to monitor your usage and investigate issues.\nIn Analytics, you can now:\n• Better track usage and spend\n• Check rate limits and rate-limited requests\n• Explore errors by model, project, or API key\nVideo\n— https://x.com/OpenAIDevs/status/2122824859491205152",
           "summary": "",
@@ -587,182 +765,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "Claudeのデスクトップアプリ「Claude Desktop(WindowsとMac版)」で、最新のアップデートをより早く受け取れるようになるようです(展開中)。\n※設定の「Desktop app」から、更新チャンネルを「Latest」に切り替え(日本語版での表示名は未確認)。\nClaudeDevs (@ClaudeDevs)\nYou can now opt into more frequent builds of Claude Desktop on Windows and Mac.\nSwitch to the Latest release channel in Settings > Desktop app. You'll get fixes and improvements faster, but these builds can be less reliable than Stable, which stays the default.\n— https://x.com/ClaudeDevs/status/2122821051910684824",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXXCUGTbUAAqYNC.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122988483367346629",
-          "domain": "x.com",
-          "published": "2026-11-18T18:41:12+09:00",
-          "published_label": "11/18(水) 18:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nChatGPT (@ChatGPT)\nClose. Those. Deals…with the new ChatGPT for Sales experience.\nIt brings together our new Sales plugin and 30+ new and enhanced partner plugins to put your sales tools and customer context to work—so your team can spend less time on busywork and keep deals moving.\nVideo\n— https://x.com/ChatGPT/status/2122818162995634504",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122816025611886593/img/ry23AurkhG3qS8gg.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122988236457050306",
-          "domain": "x.com",
-          "published": "2026-11-18T18:40:13+09:00",
-          "published_label": "11/18(水) 18:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "■引用元\nチャットGPT (@ChatGPT)\n閉じます。それらの。取引…販売向けの新しい ChatGPT エクスペリエンスを使用します。\n新しい Sales プラグインと 30 以上の新しく強化されたパートナー プラグインを統合して、営業ツールと顧客コンテキストを機能させます。そのため、チームは多忙な作業に費やす時間を短縮し、取引を継続的に進めることができます。\nビデオ\n— https://x.com/ChatGPT/status/2122818162995634504"
-        },
-        {
-          "title": "OpenAIは、ChatGPTの営業向け新機能「ChatGPT for Sales」を発表しました。\n30種類以上の機能(プラグイン)を活用し、顧客情報の管理や事務作業を効率化して、商談の成約を支援します(開始するにはSalesプラグインをインストール)。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122816025611886593/img/ry23AurkhG3qS8gg.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122988140373893400",
-          "domain": "x.com",
-          "published": "2026-11-18T18:39:50+09:00",
-          "published_label": "11/18(水) 18:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "【噂】Googleが、新しいAIモデル「Gemini 4 Neon」のリリースを準備中だという噂です。\n🚨 AI News | TestingCatalog (@testingcatalog)\nGOOGLE 🔥: Gemini 4 Neon is being prepared for release on Google Cloud.\nIt now appears in the SKU catalog, following similar preparations for earlier releases.\nEarlier, a reference to Gemini 4 Neon appeared on the Gemini website in the upsell section, suggesting it will require a paid subscription.\nGemini 👀\n— https://x.com/testingcatalog/status/2122969602145538319",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXZNmZTX0AADCtw.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122987162115482110",
-          "domain": "x.com",
-          "published": "2026-11-18T18:35:57+09:00",
-          "published_label": "11/18(水) 18:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Tencent Hy(テンセント)は、先日公開したAIモデル「Hy4 flash」のオープンウェイトモデルを公開しました。\nTencent Hy (@TencentHunyuan)\nHy4 flash is now open-weight, including Hy4 flash-FP8 and Hy4 flash-Base.\n224B (12B active), 1M context, natively multimodal.\nFast, efficient and built for everyday productivity.\nIt's yours now. And stay tuned for Hy4 coming up next!\n🤗:\n🐙:\n📄:\nReleased under the Tencent Hy License.\nSee full terms here:\n— https://x.com/TencentHunyuan/status/2122912575302119554",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXYXE8aa8AEqG9G.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122987115093033013",
-          "domain": "x.com",
-          "published": "2026-11-18T18:35:46+09:00",
-          "published_label": "11/18(水) 18:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Googleは「Google Play ベスト オブ 2026」を発表し、ベストアプリに「あすけんダイエットアプリ」、ベストゲームに「ホロライブドリームス」を選出しました。\nまた、既存アプリへのAI機能の導入が進み、ユーザー体験の向上が加速しています。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122964322779619328/MBLjFvXO?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122987069580730558",
-          "domain": "x.com",
-          "published": "2026-11-18T18:35:35+09:00",
-          "published_label": "11/18(水) 18:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Microsoftは開発者イベント「Ignite 2026」で、Copilotの機能拡充やWindowsのセキュリティ強化、AIエージェント向けの新機能を発表しました。\nまた、Copilotを「仕事の新しいOS」と位置付け、対話からアプリ開発、業務の自動実行までをCopilotに統合する方針を示しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122932859791175680/QZJCSFsP?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122987022965154026",
-          "domain": "x.com",
-          "published": "2026-11-18T18:35:24+09:00",
-          "published_label": "11/18(水) 18:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "呟くと高確率で新しいAIモデルやツールがリリースされる、Google DeepMindのLogan Kilpatrick氏が「Gemini」と投稿しているので、まもなくGemini関連の新しいモデルかなにかが登場しそうです。\nLogan Kilpatrick (@OfficialLoganK)\nGemini\n— https://x.com/OfficialLoganK/status/2122876403091959982",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2122905173819621548",
-          "domain": "x.com",
-          "published": "2026-11-18T13:10:09+09:00",
-          "published_label": "11/18(水) 13:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "NVIDIAのハーベイ・ジ​ョーンズ​会長は、企業文化に反する私的行動を理由にCEOを辞任したジェンスン・フアン氏について、CEOに復帰させる意向はないと表明しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122818674612744193/WQtT00a4?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122844766304092201",
-          "domain": "x.com",
-          "published": "2026-11-18T09:10:07+09:00",
-          "published_label": "11/18(水) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "NVIDIAのCEOを辞任したジェンスン・ファン氏は、社内外からの復帰要請を受け、取締役から求められればCEOに復帰する意向を表明しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122741098162647040/8riUbhTB?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2122842944772378851",
-          "domain": "x.com",
-          "published": "2026-11-18T09:02:53+09:00",
-          "published_label": "11/18(水) 09:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」の誕生1周年記念で、すべてのユーザーを対象に、全AIモデルの利用制限がリセットされます。\nVarun Mohan (@_mohansolo)\nOne more thing…\nIn honor of Antigravity turning 1, we’re resetting quota for everyone across all models!\n— https://x.com/_mohansolo/status/2122836883877347836",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2122842243812004018",
-          "domain": "x.com",
-          "published": "2026-11-18T09:00:06+09:00",
-          "published_label": "11/18(水) 09:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 6.6
+      "elapsed": 5.5
     },
     {
       "id": "x_kimmonismus",
@@ -792,6 +797,24 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "First earnings call without Jensen Huang and now NVIDIA has stopped shipping its US approved H200 chips to China.\n\"We are no longer shipping licenced Hopper data centre products to China,\" interim CEO Colette Kress said. Nvidia sold $2.4B of them there last quarter. Its guidance now includes none, Reuters reports.\nReuters (@Reuters)\nNvidia stops shipping US-approved AI chips to China\n— https://x.com/Reuters/status/2123047355112903099",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXafLNDbUAAs6vm.jpg?name=small",
+            "https://pbs.twimg.com/card_img/2122985742183944192/RtIco9j7?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123059489536647338",
+          "domain": "x.com",
+          "published": "2026-11-18T23:23:21+09:00",
+          "published_label": "11/18(水) 23:23",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "ジェンスン・ファン氏抜きの初めての決算発表で、NVIDIA は米国で承認された H200 チップの中国への出荷を停止した。\n暫定最高経営責任者（CEO）のコレット・クレス氏は、「当社はライセンスを取得したHopperデータセンター製品を今後中国に出荷しない」と述べた。 Nvidia は前四半期、そこで 24 億ドルを販売しました。ロイター通信によると、その指針には現在何も含まれていない。\nロイター (@Reuters)\nNvidia、米国承認のAIチップの中国への出荷を停止\n— https://x.com/Reuters/status/2123047355112903099"
+        },
+        {
           "title": "We are witnessing history being written right now.",
           "summary": "",
           "images": [
@@ -805,7 +828,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私たちは今、歴史が刻まれていくのを目の当たりにしています。"
         },
         {
@@ -825,8 +848,27 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "これは非常に興味深い論文であり、再帰的自己改善がどんどん近づいています。新しい Google プレプリント:\nGoogle は AI にエージェントのハーネスを書き換えさせ、すべての変更、変更の理由、それが機能したかどうかのログを記録させました。その後、Opus 5.5 を Gemini 3.8 Flash に交換し、そのまま使い続けました。\n職場のタスクで記録あり: 84.75、記録なし: 73.42。コーディングでは、10 回中 9 回の実行で優位に立つことができました。\n新しいモデルは、もはやゼロから始めることを意味しません。それが複雑なところです。"
+        },
+        {
+          "title": "They’re not that much better. Even the OAI employees I’m talking to privately agree that Astra kinda sucks\nTheo - t3.gg (@theo)\nI took this to heart and spent the last few hours doing another deep dive on GPT-6.2 Astra\ntl;dr - things are better than when I tested, but IMO still \"directionally, very bad\"\nI'm going to keep using the same example I've hyperfixated on since the start: \"why is creating a worktree so slow?\"\nI had a long thread trying to diagnose perf issues while using t3 code on a particular VPS. 2 of the 3 were fast, 1 was really slow.\nI asked astra outright \"why is this so slow?\", and it said a bunch of gibberish. I followed up with \"I feel like I'm going insane, can you just tell me the cause of the slowness?\"\nI'll give you the answer upfront: this VPS uses a virtual disk that is slow as shit, my other VPSs have physical NVME drives that are faster.\nImage 1 is from before the fixes Tibo mentioned. It shows an unnecessary graph, focuses too much on pnpm and file systems, bolds irrelevant text, and brings up ram just as much as it (subtly) mentions drive speed.\nImage 2 is of Opus asked same thing. It opened with the important part in bold: \"Slow disk, made worse by VDO\". Ideal!\nImage 3 is 6.2 Astra post-fixes Tibo mentioned. Better? Absolutely. Much more concise. Sadly, it still focuses way too much on second-order problems that are a small % of the cause. \"XFS over a compression and deduplication layer on a virtual disk.\" - so close, but still a miss.\nI think this perfectly encapsulates the problem I have with 6.2 Astra. It doesn't miss anything. It's SO thorough. But in it's thoroughness, I find it misses the most important thing: the actual point.\nIt wants to know everything, and then it wants to share everything. It doesn't understand what is and isn't important.\nDid it say anything wrong in my screenshots? Not really. But IMO, it still entirely failed to miss the point of my question, and gave an answer that was too focused on accuracy and not enough on clarity.\nIn the wise words of Michael Seibel: \"Most aim for 100% accuracy, and they end up with 50% clarity. Aim for 100% clarity, 80% accuracy\".\nSilly way of putting it, but I genuinely wish OpenAI models would lie to me a LITTLE more so I could better understand the vibe, instead of having my time wasted by all these useless details.\n— https://x.com/theo/status/2122991778622263514",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXZgQPraQAApUAm.jpg?name=small",
+            "https://pbs.twimg.com/media/HXZg0F1aIAEcRvX.jpg?name=small",
+            "https://pbs.twimg.com/media/HXZg9WYaYAAomuP.png?name=small"
+          ],
+          "link": "https://x.com/theo/status/2123034015381033144",
+          "domain": "x.com",
+          "published": "2026-11-18T21:42:07+09:00",
+          "published_label": "11/18(水) 21:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "それほど優れているわけではありません。私が個人的に話している OAI の従業員も、アストラは最悪だということに同意しています\nテオ - t3.gg (@theo)\n私はこれを心に留め、最後の数時間を GPT-6.2 Astra の詳細な調査に費やしました。\ntl;dr - 状況は私がテストしたときよりも良くなっているが、IMO は依然として「方向性的には非常に悪い」\n私が最初から注目してきたのと同じ例、「ワークツリーの作成がなぜこんなに遅いのか?」を使い続けるつもりです。\n特定の VPS で t3 コードを使用しているときにパフォーマンスの問題を診断しようとすると、長いスレッドが発生しました。 3 つのうち 2 つは高速で、1 つは非常に遅かったです。\n私はアストラに「なぜこんなに遅いのですか?」と率直に尋ねましたが、意味不明のことを言いました。私は「気が狂いそうです。遅さの原因を教えていただけますか?」とフォローしました。\n前もって答えておきます。この VPS はクソ遅い仮想ディスクを使用していますが、他の VPS はそれよりも速い物理 NVME ドライブを備えています。\n画像 1 は Tibo が言及した修正の前のものです。不必要なグラフを表示し、pnpm とファイル システムに重点を置きすぎ、無関係なテキストを太字にし、ドライブ速度について (微妙に) 言及しているのと同じくらい RAM を持ち出します。\n画像 2 は同じことを尋ねた Opus のものです。このページは、「ディスクが遅く、VDO によってさらに悪化しました」という重要な部分が太字で始まります。理想的！\n画像 3 は Tibo が言及した 6.2 Astra のポストフィックスです。より良い？絶対に。はるかに簡潔です。悲しいことに、原因のほんの一部である二次的な問題に焦点を当てすぎています。 「仮想ディスク上の圧縮層と重複排除層上の XFS。」 - とても近いですが、まだ見逃しています。\n私はそう思います"
         },
         {
           "title": "I talked to one of the nicest and smartest people ive ever met, @kdaigle .\nInterview in the making. We talked about model routing, GitHub fusion, and what it’s like to be both COO and CMO at the same time.\nReally excited for this one!",
@@ -874,7 +916,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "今朝の Ignite 基調講演の冒頭で強調したのは、AI の進歩を現実世界に影響を与えるためのフロンティア エコシステムを構築する方法についてです。"
         },
         {
@@ -993,41 +1035,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "テオ - t3.gg (@theo)\n— https://x.com/theo/status/2122760447103484410"
-        },
-        {
-          "title": "Oh. My. God. This really is a catastrophic release.\nGG Anthropic.\nChubby♨️ (@kimmonismus)\nHoly sh*t. GPT-6.2 looks like a catastrophe.\nOpenAI has just provided Anthropic with the best possible promotion for its IPO. I’m shocked.\n— https://x.com/kimmonismus/status/2122760517530137043",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWRAzFbwAEbUCB.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2122762245281292474",
-          "domain": "x.com",
-          "published": "2026-11-18T03:42:12+09:00",
-          "published_label": "11/18(水) 03:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "おお。私の。神。これは本当に壊滅的なリリースです。\nGGアントロピック。\nぽっちゃり♨️ (@kimmonismus)\nなんてことだ。 GPT-6.2は大惨事のようです。\nOpenAI は、Anthropic の IPO に向けて可能な限り最高のプロモーションを提供したところです。ショックです。\n— https://x.com/kimmonismus/status/2122760517530137043"
-        },
-        {
-          "title": "It gets worse. It looks like a catastrophe\nChubby♨️ (@kimmonismus)\nHoly sh*t. GPT-6.2 looks like a catastrophe.\nOpenAI has just provided Anthropic with the best possible promotion for its IPO. I’m shocked.\n— https://x.com/kimmonismus/status/2122760517530137043",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2122760821155794947",
-          "domain": "x.com",
-          "published": "2026-11-18T03:36:33+09:00",
-          "published_label": "11/18(水) 03:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true,
-          "title_ja": "状況はさらに悪化します。大惨事のようだ\nぽっちゃり♨️ (@kimmonismus)\nなんてことだ。 GPT-6.2は大惨事のようです。\nOpenAI は、Anthropic の IPO に向けて可能な限り最高のプロモーションを提供したところです。ショックです。\n— https://x.com/kimmonismus/status/2122760517530137043"
         }
       ],
-      "elapsed": 6.0
+      "elapsed": 5.3
     },
     {
       "id": "x_haider1",
@@ -1317,6 +1327,42 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 18 日\nモデル予測 👀:\n- 双子座4度ネオン、今日は!?\n- ジェミニ・ヘリックス、もうすぐ？\n- Nano Banana 3 Pro、近日発売\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Grok 4.8、まだ\n- Qwen4 Flash/Plus/27B、間もなく?\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\nオープンナイ🔥:\n- GPT-6.2 Astra および GPT-6.2 Sol は、Pro ユーザー向けの Sol Ultrafast を備えた ChatGPT Work、Codex、および API で展開されています。\n- ChatGPT for Sales は、新しい Sales プラグインと 30 以上の新規または改良されたパートナー プラグインとともにリリースされました。\n- API 使用状況ダッシュボードは、モデル、プロジェクト、または API キーごとに支出、レート制限、エラーを追跡するようになりました。\n- OpenAI は、Anthropic での Claude Code デスクトップ エクスペリエンスの構築を支援した Anthony Morris を雇用しました (alexmichael 経由)。\nマイクロソフト $506.24 (−2.27%) 🔥:\n- Microsoft は Ignite で、MAI Code 2、Code 2 Flash、Cyber 2 Flash、Realtime 1 を含む 7 つの新しい MAI モデルを発表しました。\n- Copilot Workspaces を使用すると、ユーザーとエージェントが共有コンテキストを使用して共有プロジェクトで共同作業できます。\n- Autopilot は、Microsoft 365 ユーザー向けに Copilot、Teams、Outlook に拡張されています。\n- GitHub Copilot は、Copilot アプリに Chrome 拡張機能と Azure DevOps を統合しました。\n- The Information によると、Microsoft は Copilot の Anthropic モデルをより安価な OpenAI モデルに置き換えることに取り組んでいます。\nGoogle $280.20 (−1.24%) 🔥:\n- Gemini 4 Hydrogen を利用した Gemini のタスクは、米国、日本、韓国、カナダ、オーストラリア、インドで無料になりました。\n- Gemini 4 Hydrogen は現在、世界中の Google 検索で公開されています。\n- AI Studio Build でカスタム ドメインと米国ユーザーを購入できるようになりました"
         },
         {
+          "title": "Documented 🗞️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123055357685542912/D08Lrdm4?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123055370079969441",
+          "domain": "x.com",
+          "published": "2026-11-18T23:06:59+09:00",
+          "published_label": "11/18(水) 23:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "文書化されました 🗞️"
+        },
+        {
+          "title": "BREAKING 🔥: Telegram is preparing to launch its own AI agent called \"Dictator\"!\nIt seems to run on Hermes internally, will support different models and plugins, and will have its own dedicated VM.\nA floating Utya appears 🐣\nVideo\nSend it Highor (@SenditHighor)\nTelegram's built-in AI agent harness \"Dictator\" runs on Hermes Agent by @NousResearch 🤯\nThe agent harness has been in development in the Telegram macOS betas for weeks, and the Utya AI agent is now showing up in the latest beta\n1B+ users about to get an open-source agent inside their chats.\n— https://x.com/SenditHighor/status/2122767739903230318",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123046964895895552/img/Wy9nySV4eCaoyBGs.jpg?name=small",
+            "https://pbs.twimg.com/media/HXWV7UcWcAAds9V.png?name=small",
+            "https://pbs.twimg.com/media/HXWV-hSWYAADfP8.png?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123047003231858966",
+          "domain": "x.com",
+          "published": "2026-11-18T22:33:44+09:00",
+          "published_label": "11/18(水) 22:33",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "速報🔥: Telegram は、「Dictator」と呼ばれる独自の AI エージェントを立ち上げる準備をしています!\n内部的にはHermes上で動作するようで、さまざまなモデルとプラグインをサポートし、独自の専用VMを持つ予定です。\n浮遊するウティアが登場🐣\nビデオ\n送信してください (@SenditHighor)\nTelegram の組み込み AI エージェント ハーネス「Dictator」は、@NousResearch による Hermes Agent 上で実行されます 🤯\nエージェント ハーネスは、Telegram macOS ベータ版で数週間にわたって開発されており、Utya AI エージェントが最新のベータ版に登場しています。\n10 億人以上のユーザーがチャット内にオープンソース エージェントを導入しようとしています。\n— https://x.com/SenditHighor/status/2122767739903230318"
+        },
+        {
           "title": "Claude app for iOS is getting a document scan option, allowing users to quickly upload scanned documents right to the chat.\nIt appears to be powered by a better OCR and works really fast.\nAnthropic is coming after bureaucracy 👀",
           "summary": "",
           "images": [
@@ -1331,7 +1377,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "iOS 用 Claude アプリにドキュメント スキャン オプションが追加され、ユーザーはスキャンしたドキュメントをチャットに直接アップロードできるようになります。\nより優れた OCR を搭載しているようで、非常に高速に動作します。\n官僚制の後には人類がやってくる 👀"
         },
         {
@@ -1522,41 +1568,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "文書化されました 🗞️"
-        },
-        {
-          "title": "MICROSOFT 🔥: Autopilot is now expanding to work across Copilot, Teams, and Outlook for Microsoft 365 users.\nMicrosoft is now entering an area of proactive AI agents that can draft replies, schedule meetings, and run routine tasks.\nScoping this to Windows users - that's a big upgrade for the ecosystem and a push for further AI adoption in general. I think Microsoft is outrunning Google on this front, too.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXW85KhWgAAkOJY.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2122811499718594987",
-          "domain": "x.com",
-          "published": "2026-11-18T06:57:56+09:00",
-          "published_label": "11/18(水) 06:57",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "MICROSOFT 🔥: Autopilot は現在、Microsoft 365 ユーザー向けに Copilot、Teams、Outlook で機能するように拡張されています。\nMicrosoft は現在、返信の草稿を作成し、会議をスケジュールし、日常的なタスクを実行できるプロアクティブな AI エージェントの分野に参入しています。\nこれを Windows ユーザーに適用することは、エコシステムにとって大きなアップグレードであり、一般的に AI の導入をさらに推進することになります。この点でも Microsoft は Google を上回っていると思います。"
-        },
-        {
-          "title": "Genesis designed its robot, Eno, to learn any physical work a person can do, without making it look human.\nGenesis plans its first customer deployments in factories and warehouses by the end of 2026.\nTake a look 👀",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2122800050669773193",
-          "domain": "x.com",
-          "published": "2026-11-18T06:12:26+09:00",
-          "published_label": "11/18(水) 06:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "ジェネシスは、人間に見えることなく、人間が行うことができるあらゆる肉体的作業を学習できるロボット、イーノを設計しました。\nジェネシスは、2026 年末までに工場や倉庫に最初の顧客導入を計画しています。\n見てください👀"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.3
     }
   ]
 }
