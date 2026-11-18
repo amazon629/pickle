@@ -1,0 +1,92 @@
+{
+  "settings": {
+    "title": "都市開発 監視ボード",
+    "nav_label": "🏙️ 都市開発",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "tolerate_errors": true,
+    "keyword_chips": [
+      "再開発",
+      "新築",
+      "供給",
+      "跡地",
+      "新駅"
+    ]
+  },
+  "sources": [
+    {
+      "id": "x_skyscrapercity",
+      "type": "x",
+      "name": "超高層ビルまにあ skyscraper city",
+      "handle": "skyscrapercity_",
+      "enabled": true
+    },
+    {
+      "id": "x_osakanearfuture",
+      "type": "x",
+      "name": "大阪の近未来",
+      "handle": "osakanearfuture",
+      "enabled": true
+    },
+    {
+      "id": "x_futurewestjapan",
+      "type": "x",
+      "name": "西日本未来地図",
+      "handle": "FutureWestJapan",
+      "enabled": true
+    },
+    {
+      "id": "x_osaka_nakagawa",
+      "type": "x",
+      "name": "まさし",
+      "handle": "osaka_nakagawa",
+      "enabled": true
+    },
+    {
+      "id": "x_osapco1",
+      "type": "x",
+      "name": "「都市計画のお知らせ」",
+      "handle": "OSAPCO1",
+      "enabled": true
+    },
+    {
+      "id": "x_shibasan_towerz",
+      "type": "x",
+      "name": "芝崎健一@TOWERZ",
+      "handle": "shibasan_towerz",
+      "enabled": true
+    },
+    {
+      "id": "x_osaka_deve",
+      "type": "x",
+      "name": "デベロップ",
+      "handle": "osaka_deve",
+      "enabled": true
+    },
+    {
+      "id": "x_one_ten_fre",
+      "type": "x",
+      "name": "趣味の部屋",
+      "handle": "one_ten_fre",
+      "enabled": true
+    },
+    {
+      "id": "x_kiribou06341",
+      "type": "x",
+      "name": "超高層ビル・都市開発研究所の中の人 (きりぼうくん)",
+      "handle": "kiribou06341",
+      "enabled": true
+    }
+  ]
+}

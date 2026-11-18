@@ -1,0 +1,64 @@
+{
+  "settings": {
+    "title": "AI新着 監視ボード",
+    "nav_label": "✨ AI新着",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_openrouter",
+      "type": "x",
+      "name": "OpenRouter",
+      "handle": "OpenRouter",
+      "enabled": true
+    },
+    {
+      "id": "x_opencode",
+      "type": "x",
+      "name": "OpenCode",
+      "handle": "opencode",
+      "enabled": true
+    },
+    {
+      "id": "x_aimirai46487",
+      "type": "x",
+      "name": "AI速報【AI&ChatGPT最新情報】",
+      "handle": "AIMIRAI46487",
+      "enabled": true
+    },
+    {
+      "id": "x_kimmonismus",
+      "type": "x",
+      "name": "Chubby♨️",
+      "handle": "kimmonismus",
+      "enabled": true
+    },
+    {
+      "id": "x_haider1",
+      "type": "x",
+      "name": "Haider.",
+      "handle": "haider1",
+      "enabled": true
+    },
+    {
+      "id": "x_testingcatalog",
+      "type": "x",
+      "name": "🚨 AI News | TestingCatalog",
+      "handle": "testingcatalog",
+      "enabled": true
+    }
+  ]
+}

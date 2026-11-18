@@ -40,6 +40,9 @@ SOURCES_PATH = os.path.join(BASE_DIR, "sources.json")
 # --bulk で設定ファイルを作るときの初期 settings
 BULK_DEFAULT_SETTINGS = {
     "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": True,
     "translate": True,
     "translate_max_per_run": 120,
     "nitter_base": "https://nitter.cf",
@@ -48,6 +51,11 @@ BULK_DEFAULT_SETTINGS = {
         "https://nitter.privacyredirect.com",
         "https://xcancel.com",
     ],
+    "user_agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+    ),
+    "tolerate_errors": True,
 }
 
 # x.com の URL のうちアカウント名でないパス

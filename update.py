@@ -1028,6 +1028,16 @@ PAGE = """<!DOCTYPE html>
     content: ""; position: absolute; left: 23px; top: 23px; width: 6px; height: 2px;
     background: #b6bbc4; transform: rotate(45deg); border-radius: 1px;
   }}
+  .chips {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }}
+  .chip {{
+    font: inherit; font-size: 11.5px; line-height: 1.5; padding: 3px 10px;
+    border-radius: 999px; border: 1px solid #e4e6ea; background: #fff;
+    color: var(--text-2); cursor: pointer; -webkit-appearance: none; appearance: none;
+  }}
+  .chip .n {{ font-size: 10px; color: var(--muted); margin-left: 4px; }}
+  .chip.is-on {{ background: #1a56c4; border-color: #1a56c4; color: #fff; }}
+  .chip.is-on .n {{ color: rgba(255,255,255,.85); }}
+  mark.kw {{ background: #fff08a; color: inherit; border-radius: 2px; padding: 0 1px; }}
   .cards {{ margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }}
   .card {{
     background: var(--card);
@@ -1119,45 +1129,148 @@ PAGE = """<!DOCTYPE html>
   <div class="topbar">
     <div class="row"><h1>{title}</h1><span class="updated">{updated}</span></div>
 {nav_block}    <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
-  </div>
+{chips_block}  </div>
   <main class="cards" id="cards">
 {cards}
   </main>
   <footer><span>{summary}</span><span>{footer_right}</span></footer>
 </div>
 <script id="board-data" type="application/json">{data_json}</script>
-<script>
-(function () {{
-  var q = document.getElementById('q');
-  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  cards.forEach(function (c) {{ c.dataset.total = c.querySelectorAll('.item').length; }});
-  function apply() {{
-    var v = q.value.trim().toLowerCase();
-    cards.forEach(function (c) {{
-      var shown = 0;
-      c.querySelectorAll('.item').forEach(function (it) {{
-        var hit = !v || it.textContent.toLowerCase().indexOf(v) !== -1;
-        it.classList.toggle('hidden', !hit);
-        if (hit) shown++;
-      }});
-      var count = c.querySelector('.count');
-      if (count) {{
-        if (c.dataset.error === '1') {{ /* エラー表示はそのまま */ }}
-        else if (!v) {{ count.textContent = c.dataset.total + '件'; }}
-        else {{ count.textContent = shown + '/' + c.dataset.total + '件'; }}
-      }}
-      c.classList.toggle('hidden', shown === 0);
-    }});
-  }}
-  q.addEventListener('input', apply);
-}})();
-</script>
+{board_js}
 </body>
 </html>
 """
 
 
 PAGE = PAGE.replace("{{", "{").replace("}}", "}")
+
+# ページ内の絞り込みUI。settings.keyword_chips があるボードだけ、キーワードのチップが
+# 出る（押すとその語を含む投稿だけを残し、語を黄色でハイライト）。無いボードは
+# これまでどおり検索欄だけが効く。
+BOARD_JS = """<script>
+(function () {
+  var q = document.getElementById('q');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var active = [];
+  var allItems = [];
+  cards.forEach(function (c) {
+    var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
+    c.dataset.total = its.length;
+    its.forEach(function (it) {
+      it.dataset.text = it.textContent.toLowerCase();
+      allItems.push(it);
+    });
+  });
+  function hitChip(it) {
+    if (!active.length) return true;
+    var t = it.dataset.text;
+    for (var i = 0; i < active.length; i++) {
+      if (t.indexOf(active[i]) !== -1) return true;
+    }
+    return false;
+  }
+  function apply() {
+    var v = q.value.trim().toLowerCase();
+    var filtering = !!v || active.length > 0;
+    cards.forEach(function (c) {
+      var shown = 0;
+      Array.prototype.slice.call(c.querySelectorAll('.item')).forEach(function (it) {
+        var hit = (!v || it.dataset.text.indexOf(v) !== -1) && hitChip(it);
+        it.classList.toggle('hidden', !hit);
+        if (hit) shown++;
+      });
+      var count = c.querySelector('.count');
+      if (count) {
+        if (c.dataset.error === '1') { /* エラー表示はそのまま */ }
+        else if (!filtering) { count.textContent = c.dataset.total + '件'; }
+        else { count.textContent = shown + '/' + c.dataset.total + '件'; }
+      }
+      c.classList.toggle('hidden', filtering && shown === 0);
+    });
+  }
+  function clearMarks(root) {
+    Array.prototype.slice.call(root.querySelectorAll('mark.kw')).forEach(function (m) {
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    });
+    root.normalize();
+  }
+  function markText(root, terms) {
+    clearMarks(root);
+    if (!terms.length) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      if (!text) return;
+      var lower = text.toLowerCase(), hits = [];
+      terms.forEach(function (t) {
+        var idx = 0;
+        while ((idx = lower.indexOf(t, idx)) !== -1) {
+          hits.push([idx, idx + t.length]);
+          idx += t.length;
+        }
+      });
+      if (!hits.length) return;
+      hits.sort(function (a, b) { return a[0] - b[0]; });
+      var merged = [];
+      hits.forEach(function (h) {
+        var last = merged[merged.length - 1];
+        if (last && h[0] <= last[1]) last[1] = Math.max(last[1], h[1]);
+        else merged.push(h.slice());
+      });
+      var frag = document.createDocumentFragment(), pos = 0;
+      merged.forEach(function (h) {
+        if (h[0] > pos) frag.appendChild(document.createTextNode(text.slice(pos, h[0])));
+        var m = document.createElement('mark');
+        m.className = 'kw';
+        m.textContent = text.slice(h[0], h[1]);
+        frag.appendChild(m);
+        pos = h[1];
+      });
+      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  function marks() {
+    allItems.forEach(function (it) {
+      Array.prototype.slice.call(it.querySelectorAll('.title, .trans, .desc')).forEach(function (el) {
+        markText(el, active);
+      });
+    });
+  }
+  chips.forEach(function (ch) {
+    var kw = ch.dataset.kw || '';
+    var lower = kw.toLowerCase();
+    var n = allItems.filter(function (it) { return it.dataset.text.indexOf(lower) !== -1; }).length;
+    var num = document.createElement('span');
+    num.className = 'n';
+    num.textContent = n;
+    ch.appendChild(num);
+    ch.addEventListener('click', function () {
+      var i = active.indexOf(lower);
+      if (i === -1) active.push(lower); else active.splice(i, 1);
+      ch.classList.toggle('is-on', i === -1);
+      apply();
+      marks();
+    });
+  });
+  q.addEventListener('input', apply);
+})();
+</script>"""
+
+
+def render_chips(settings: dict) -> str:
+    """settings.keyword_chips から絞り込みチップを作る（無ければ何も出さない）。"""
+    words = [w for w in (settings.get("keyword_chips") or []) if str(w).strip()]
+    if not words:
+        return ""
+    buttons = "".join(
+        f'<button type="button" class="chip" data-kw="{esc(str(w))}">{esc(str(w))}</button>'
+        for w in words
+    )
+    return f'    <div class="chips" id="chips">{buttons}</div>\n'
 
 
 def render_nav(current: str, boards: list, labels: dict) -> str:
@@ -1191,9 +1304,11 @@ def render_page(data: dict, settings: dict, nav_block: str = "") -> str:
         .replace("{updated}", f'最終更新 {now:%Y/%m/%d %H:%M} JST')
         .replace("{nav_block}", nav_block)
         .replace("{cards}", cards)
+        .replace("{chips_block}", render_chips(settings))
         .replace("{summary}", esc(summary))
         .replace("{footer_right}", esc(footer_right))
         .replace("{data_json}", payload)
+        .replace("{board_js}", BOARD_JS)
     )
 
 

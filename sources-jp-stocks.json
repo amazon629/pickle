@@ -1,0 +1,50 @@
+{
+  "settings": {
+    "title": "日本株・投資 監視ボード",
+    "nav_label": "📊 日本株・投資",
+    "items_per_source": 15,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_assetalive",
+      "type": "x",
+      "name": "アセットアライブ",
+      "handle": "assetalive",
+      "enabled": true
+    },
+    {
+      "id": "x_ai78140021",
+      "type": "x",
+      "name": "AI群戦略",
+      "handle": "AI78140021",
+      "enabled": true
+    },
+    {
+      "id": "x_shikiho_10",
+      "type": "x",
+      "name": "四季報分析@テンバガー研究所",
+      "handle": "shikiho_10",
+      "enabled": true
+    },
+    {
+      "id": "x_softbank90",
+      "type": "x",
+      "name": "〓ソフバン",
+      "handle": "SoftBank90",
+      "enabled": true
+    }
+  ]
+}

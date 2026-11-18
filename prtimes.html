@@ -65,6 +65,16 @@
     content: ""; position: absolute; left: 23px; top: 23px; width: 6px; height: 2px;
     background: #b6bbc4; transform: rotate(45deg); border-radius: 1px;
   }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip {
+    font: inherit; font-size: 11.5px; line-height: 1.5; padding: 3px 10px;
+    border-radius: 999px; border: 1px solid #e4e6ea; background: #fff;
+    color: var(--text-2); cursor: pointer; -webkit-appearance: none; appearance: none;
+  }
+  .chip .n { font-size: 10px; color: var(--muted); margin-left: 4px; }
+  .chip.is-on { background: #1a56c4; border-color: #1a56c4; color: #fff; }
+  .chip.is-on .n { color: rgba(255,255,255,.85); }
+  mark.kw { background: #fff08a; color: inherit; border-radius: 2px; padding: 0 1px; }
   .cards { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
   .card {
     background: var(--card);
@@ -154,15 +164,39 @@
 <body>
 <div class="wrap">
   <div class="topbar">
-    <div class="row"><h1>PR TIMES監視ボード</h1><span class="updated">最終更新 2026/11/18 20:59 JST</span></div>
-    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="ec-companies.html">EC企業70社</a><a class="" href="ipo.html">IPO</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="pokeca.html">ポケカ</a><a class="is-active" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="" href="unicorns.html">🦄 10億ドル以上</a></nav>
+    <div class="row"><h1>PR TIMES監視ボード</h1><span class="updated">最終更新 2026/11/18 21:15 JST</span></div>
+    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="ai-tools.html">✨ AI新着</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="ec-companies.html">EC企業70社</a><a class="" href="ipo.html">IPO</a><a class="" href="jp-stocks.html">📊 日本株・投資</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="pokeca.html">ポケカ</a><a class="is-active" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="" href="unicorns.html">🦄 10億ドル以上</a><a class="" href="urban-dev.html">🏙️ 都市開発</a></nav>
     <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
   </div>
   <main class="cards" id="cards">
 <section class="card" data-source="x_prtimes_stup">
   <header><h2>PR TIMESスタートアップ</h2><span class="count">15件</span></header>
   <div class="items">
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123022666982633890" target="_blank" rel="noopener noreferrer">
+<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123025195959214304" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">新VTuber事務所「Starlian Production」より、新たに2名がデビュー！本日より活動開始＆11月23日（月）21時より初...</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123025196336697345/39v2j5nw?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 21:07</span></span>
+  </span>
+</a>
+<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123025184647156195" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ReBear合同会社、「営業・マーケDXPO東京&#x27;26【秋】」に出展</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123025185058258944/YdQaZQVe?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 21:07</span></span>
+  </span>
+</a>
+<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123023937227628845" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">相続業務×生成AI 活用事例セミナーを12月1〜3日に無料開催｜相続・生前対策に取り組む士業事務所向け</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123023937659670528/MCiJpt3x?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 21:02</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123022666982633890" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【熊本県初出店】入手困難のクリスマススイーツ“あなたの常識を覆す究極のガトーショコラ”「THE chocola」が熊本・...</span>
@@ -170,7 +204,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:57</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123020150266069341" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123020150266069341" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">ここでしか買えない「究極のガトーショコラ」THE chocolaが群馬・高崎髙島屋に期間限定出店！11月18日（水）より7...</span>
@@ -178,7 +212,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:47</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123017637039108598" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123017637039108598" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">「全件トスアップ」から脱却し、営業工数を商談へ。TorchUp、顧客適合×検討度のリード判定と引き渡しルールを解説...</span>
@@ -186,14 +220,15 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123017634098934231" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123017634098934231" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【異例の反響】名古屋人気カフェ THE LAB NAGOYA の年内イートイン予約が全枠満席に！テレビ放送後、わずか1日で12...</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123017634488918016/mpTZ7xIl?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123013863335669767" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123013863335669767" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【新発売】髪の&quot;ハリコシサプリ&quot;。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...</span>
@@ -201,7 +236,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:22</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123010105218314390" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123010105218314390" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの&quot;育成の壁&quot;を越える定額...</span>
@@ -209,7 +244,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123010102705983904" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123010102705983904" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">シンガーソングライター茉ひる、シンガポールの人気俳優・歌手 Glenn Yong とのコラボ曲「My Home」を11月25日(水)...</span>
@@ -217,7 +252,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2123005053095362828" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2123005053095362828" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">もうすぐ、保育の要領・指針が変わる。その前に、現場の10年を振り返る。オンラインイベント「園長たちが『3要領・...</span>
@@ -225,7 +260,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:47</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122998757126189283" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2122998757126189283" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【ドバイ不動産】全40ページの無料資料『ドバイの全て2026』を公開｜税制・通貨・市場データから日本の投資との比...</span>
@@ -233,7 +268,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:22</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122995051764797814" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2122995051764797814" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始</span>
@@ -241,7 +276,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122995047599915366" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2122995047599915366" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！</span>
@@ -249,7 +284,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122995039857176654" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_STUP/status/2122995039857176654" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">tsumiki「pavilion」Music Video公開。2027年2月18日(木) tsumiki 1st LIVE「DEMPA BOY」開催決定！</span>
@@ -258,36 +293,20 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122995015387652264" target="_blank" rel="noopener noreferrer">
-  <span class="badge badge-x">X</span>
-  <span class="body">
-    <span class="title">Brighton &amp; Hove Albion FC 所属選手として初のプレミアリーグ月間最優秀選手、パスカル・グロス選手の今季を称え...</span>
-    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122995015823884288/T2QUa012?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
-    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
-  </span>
-</a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122994994256715851" target="_blank" rel="noopener noreferrer">
-  <span class="badge badge-x">X</span>
-  <span class="body">
-    <span class="title">REAL AKIBA BOYZ、LAST LIVE “ROOTS”「さよなら、またね。」開催記念スペシャルラジオCMの放送が決定！</span>
-    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122993268124520448/7TLQ7KLn?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
-    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
-  </span>
-</a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_STUP/status/2122994988783194595" target="_blank" rel="noopener noreferrer">
-  <span class="badge badge-x">X</span>
-  <span class="body">
-    <span class="title">月額5,980円で通い放題！女性専用・24時間営業のセルフマシンピラティス「Pilactice」第１号店が、11月25日(水)、...</span>
-    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122994989190012928/ZDPyB9lo?format=jpg&amp;name=600x314" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
-    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
-  </span>
-</a>
   </div>
 </section>
 <section class="card" data-source="x_prtimes_mktg">
   <header><h2>PR TIMES広告・マーケティング</h2><span class="count">15件</span></header>
   <div class="items">
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2123020153126568284" target="_blank" rel="noopener noreferrer">
+<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2123025440768213327" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">「全件トスアップ」から脱却し、営業工数を商談へ。TorchUp、顧客適合×検討度のリード判定と引き渡しルールを解説...</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123017637403983872/4Dz3DPvS?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 21:08</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2123020153126568284" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">オルタナティブ投資プラットフォーム「オルタナバンク」、『【3ヶ月毎分配】秋の陣ファンド 秋終わりの章ID1203』...</span>
@@ -295,7 +314,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:47</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2123017639517893065" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2123017639517893065" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...</span>
@@ -303,7 +322,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2123012606030196779" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2123012606030196779" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...</span>
@@ -311,7 +330,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:17</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122997753617986026" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122997753617986026" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！</span>
@@ -319,7 +338,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:18</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122988694139519390" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122988694139519390" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！</span>
@@ -327,7 +346,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:42</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122987445155418187" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122987445155418187" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答</span>
@@ -335,7 +354,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122984931634868389" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122984931634868389" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が</span>
@@ -343,7 +362,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:27</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122971581291094488" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122971581291094488" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">ネット広告費が初の過半 — インフルエンサー市場は860億円規模に</span>
@@ -351,7 +370,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:34</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122966049691947211" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122966049691947211" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【JR東海×名鉄】クリスマスの夜を彩る共同企画“ MEIEKI CHRISTMAS RELAXIN’ NIGHT &amp; LIGHT ”を開催します！</span>
@@ -359,7 +378,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:12</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122957279662346527" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122957279662346527" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【ウェビナーご案内】商品開発に役立つ！AIペルソナ×生活者データでニーズの仮説構築～商品コンセプト創出・評価ま...</span>
@@ -367,7 +386,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 16:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122949775784022385" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122949775784022385" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">ショート動画の視聴は68％、そのうち「ほぼ毎日見る」人は35％ やめようと思っても「つい見続けてしまう」は52％</span>
@@ -375,7 +394,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 16:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122947175198142757" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122947175198142757" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">大広とBOXIV、未来のモビリティコミュニティ「アスモビ」と連携開始 〜大広若者研究所「D’Zlab.」の知見とコミュニ...</span>
@@ -383,7 +402,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:57</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122942170701451526" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122942170701451526" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">地域新聞社、「ちばめぐりサミット2026」にプラチナスポンサーとして参画</span>
@@ -391,7 +410,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122942144700916025" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_MKTG/status/2122942144700916025" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">アイズ、Microsoft広告の「Partner（パートナー）」に認定</span>
@@ -399,20 +418,20 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_MKTG/status/2122934866203566265" target="_blank" rel="noopener noreferrer">
-  <span class="badge badge-x">X</span>
-  <span class="body">
-    <span class="title">【11/24（火）開催】製造業の新規リード獲得を加速させるには？PRIZMAは「成果につながるホワイトペーパーの作り方...</span>
-    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122927064840122368/Q62k7K5b?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
-    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:08</span></span>
-  </span>
-</a>
   </div>
 </section>
 <section class="card" data-source="x_prtimes_biz">
   <header><h2>PR TIMESビジネス</h2><span class="count">15件</span></header>
   <div class="items">
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123020403648156001" target="_blank" rel="noopener noreferrer">
+<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123025444442436029" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123017639975108608/0VRVRkY4?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 21:08</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2123020403648156001" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...</span>
@@ -420,7 +439,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:48</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123010091373019625" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2123010091373019625" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">「美しくなった先に、叶えたい夢はありますか？」聖心美容クリニック「Cheer for Beauty Dreams PROJECT」始動夢へ...</span>
@@ -428,7 +447,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123005303516266926" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2123005303516266926" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！</span>
@@ -436,7 +455,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:48</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123002810111562230" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2123002810111562230" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始</span>
@@ -444,7 +463,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:38</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2123002807343354228" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2123002807343354228" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！</span>
@@ -452,7 +471,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:38</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122996745663869358" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122996745663869358" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！</span>
@@ -460,7 +479,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:14</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122995249543106908" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122995249543106908" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">AKEY会、サンマルクカフェ・小山典孝社長を迎えた勉強会を盛況のうちに開催。名刺交換を通じた直接交流の機会も提供</span>
@@ -468,7 +487,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:08</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122995247018107282" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122995247018107282" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">『部下のやる気は仕組み化できる』著者・渡邉貴志が、出版区「宇垣・片桐の踊る！ミリしら会議」に出演</span>
@@ -476,7 +495,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:08</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122995242140123274" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122995242140123274" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答</span>
@@ -484,7 +503,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:08</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122994996290965950" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122994996290965950" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【マネジメント】コミュニケーションでチームの力を引き出し「学習する組織」に！ 12/11（金）セミナー「対話で育...</span>
@@ -492,7 +511,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122992722265231764" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122992722265231764" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が</span>
@@ -500,7 +519,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:58</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122992473622663570" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122992473622663570" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">BtoB分野に特化したグローバルアクセラレーター “Alchemist Japan”</span>
@@ -508,7 +527,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:57</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122992471118610854" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122992471118610854" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">ディープテック・イノベーション拠点推進事業</span>
@@ -516,7 +535,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:57</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122989961729409450" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BIZ/status/2122989961729409450" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">東京・新橋に“蟹取県”のカニ料理が大集合！とっとり・おかやま新橋館で「蟹取県ウェルカニグルメフェア」開催</span>
@@ -524,20 +543,12 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:47</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BIZ/status/2122987451925078041" target="_blank" rel="noopener noreferrer">
-  <span class="badge badge-x">X</span>
-  <span class="body">
-    <span class="title">【山梨県】富士トラム（仮称）に代わる新名称を募集します！</span>
-    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122987452306751488/8KGJngw7?format=jpg&amp;name=386x202" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
-    <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:37</span></span>
-  </span>
-</a>
   </div>
 </section>
 <section class="card" data-source="x_prtimes_beauty">
   <header><h2>PR TIMESビューティー</h2><span class="count">15件</span></header>
   <div class="items">
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2123021909600473289" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2123021909600473289" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【新発売】髪の&quot;ハリコシサプリ&quot;。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...</span>
@@ -545,7 +556,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:54</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2123017887610962417" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2123017887610962417" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの&quot;育成の壁&quot;を越える定額...</span>
@@ -553,7 +564,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 20:38</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2123002784945713599" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2123002784945713599" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">月額5,980円で通い放題！女性専用・24時間営業のセルフマシンピラティス「Pilactice」第１号店が、11月25日(水)、...</span>
@@ -561,7 +572,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 19:38</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122992478769021199" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122992478769021199" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">NARS 2026年下期ベストコスメ受賞情報「ライトリフレクティング セラムクッションファンデーション」「ライトリフ...</span>
@@ -569,7 +580,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:57</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122985170185990551" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122985170185990551" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">株式会社ボルドバイオテクノロジー、国際フォーラム「PEOF+ Asia Pacific 2026」に参加</span>
@@ -577,7 +588,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 18:28</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122976615986811335" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122976615986811335" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">〈milktouch〉たった3分で内側から潤い補給、肌に合わせて選べるスキンパックが登場！アーティスト シークレット ...</span>
@@ -585,7 +596,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:54</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122972363436527880" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122972363436527880" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">韓国発の美容クリニック「ベンスクリニック」、PCL注入製剤「GOURI（ゴウリ）」を韓国国内9店舗に導入</span>
@@ -593,7 +604,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122964957348372646" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122964957348372646" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【楽天市場限定】現場のプロが愛用する「デンキバリブラシ®」や豪華コスメが詰まった特別な福袋『HOLIDAY HAPPYBAG...</span>
@@ -601,7 +612,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122964869985300770" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122964869985300770" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">【イベントレポート】HARIAS製品とIMP.の魅力に触れる特別な4日間が開幕！「ファンデ選びにピリオドを. HARIAS×IMP...</span>
@@ -609,7 +620,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 17:07</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122957301598609410" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122957301598609410" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">「ファースト・ストレスチェック」リリース2ヶ月で利用者8万人突破</span>
@@ -617,7 +628,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 16:37</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122953468059193354" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122953468059193354" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">国際スパアワード10 年連続受賞・ 2026 年世界第 1 位のSPA DAMAI が 「DAMAI NEW BEAUTY PROJECT」を始動</span>
@@ -625,7 +636,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 16:22</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122942930222821505" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122942930222821505" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">メビウス製薬がSIMIUS公式通販でBLACK FRIDAYを11月20日（金）から開催</span>
@@ -633,7 +644,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:40</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122942901634412827" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122942901634412827" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">「睡眠障害」標榜実現から半年、睡眠ビジネスは本格拡大期へ日本睡眠学会・内村理事長が基調講演、「睡眠カンファ...</span>
@@ -641,7 +652,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:40</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122942434024042510" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122942434024042510" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">ツバメの巣の実物展示で天然素材と科学技術の魅力を紹介。インナーケアブランド「BANSHO」、ビューティーワールド ...</span>
@@ -649,7 +660,7 @@
     <span class="meta"><span class="dom">x.com</span><span class="time">11/18(水) 15:38</span></span>
   </span>
 </a>
-<a class="item t-x is-new" href="https://x.com/PRTIMES_BEAUTY/status/2122942421332042072" target="_blank" rel="noopener noreferrer">
+<a class="item t-x" href="https://x.com/PRTIMES_BEAUTY/status/2122942421332042072" target="_blank" rel="noopener noreferrer">
   <span class="badge badge-x">X</span>
   <span class="body">
     <span class="title">MIYABI、Wellness Tokyo 2026に出展！新型「DREAM2 Reformer」をはじめ、進化したピラティスマシン4機種を展示</span>
@@ -662,30 +673,116 @@
   </main>
   <footer><span>全60件 ・ X 4</span><span>1時間ごとに自動更新 (GitHub Actions) ・ 外国語の投稿は自動で和訳</span></footer>
 </div>
-<script id="board-data" type="application/json">{"generated_at": "2026-11-18T20:59:53+09:00", "generated_at_label": "2026/11/18 20:59 JST", "title": "PR TIMES監視ボード", "total": 60, "sources": [{"id": "x_prtimes_stup", "type": "x", "name": "PR TIMESスタートアップ", "handle": "PRTIMES_STUP", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_STUP/rss", "count": 15, "items": [{"title": "【熊本県初出店】入手困難のクリスマススイーツ“あなたの常識を覆す究極のガトーショコラ”「THE chocola」が熊本・...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123022667389571072/a8KI_utw?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123022666982633890", "domain": "x.com", "published": "2026-11-18T20:57:02+09:00", "published_label": "11/18(水) 20:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ここでしか買えない「究極のガトーショコラ」THE chocolaが群馬・高崎髙島屋に期間限定出店！11月18日（水）より7...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123020150647693312/zWZ7kt6s?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123020150266069341", "domain": "x.com", "published": "2026-11-18T20:47:02+09:00", "published_label": "11/18(水) 20:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "「全件トスアップ」から脱却し、営業工数を商談へ。TorchUp、顧客適合×検討度のリード判定と引き渡しルールを解説...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017637403983872/4Dz3DPvS?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123017637039108598", "domain": "x.com", "published": "2026-11-18T20:37:03+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【異例の反響】名古屋人気カフェ THE LAB NAGOYA の年内イートイン予約が全枠満席に！テレビ放送後、わずか1日で12...", "summary": "", "images": [], "link": "https://x.com/PRTIMES_STUP/status/2123017634098934231", "domain": "x.com", "published": "2026-11-18T20:37:02+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【新発売】髪の\"ハリコシサプリ\"。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123013864786935808/eiNgzT61?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123013863335669767", "domain": "x.com", "published": "2026-11-18T20:22:03+09:00", "published_label": "11/18(水) 20:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの\"育成の壁\"を越える定額...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010105616879616/HttPiReK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123010105218314390", "domain": "x.com", "published": "2026-11-18T20:07:07+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "シンガーソングライター茉ひる、シンガポールの人気俳優・歌手 Glenn Yong とのコラボ曲「My Home」を11月25日(水)...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010103108575232/11nqNbGe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123010102705983904", "domain": "x.com", "published": "2026-11-18T20:07:06+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "もうすぐ、保育の要領・指針が変わる。その前に、現場の10年を振り返る。オンラインイベント「園長たちが『3要領・...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123005055045672960/--riQBdc?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123005053095362828", "domain": "x.com", "published": "2026-11-18T19:47:02+09:00", "published_label": "11/18(水) 19:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【ドバイ不動産】全40ページの無料資料『ドバイの全て2026』を公開｜税制・通貨・市場データから日本の投資との比...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122998757524733952/fhVgjFNS?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122998757126189283", "domain": "x.com", "published": "2026-11-18T19:22:01+09:00", "published_label": "11/18(水) 19:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995052213596160/blKzgtfe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995051764797814", "domain": "x.com", "published": "2026-11-18T19:07:18+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995047989911552/LORsdvhT?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995047599915366", "domain": "x.com", "published": "2026-11-18T19:07:17+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "tsumiki「pavilion」Music Video公開。2027年2月18日(木) tsumiki 1st LIVE「DEMPA BOY」開催決定！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995040259919872/N6ZR6tje?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995039857176654", "domain": "x.com", "published": "2026-11-18T19:07:15+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true, "title_ja": "tsumiki「pavilion」Music Video公開。 2027年2月18日(木)tumiki 1st LIVE「DEMPA BOY」開催決定！"}, {"title": "Brighton & Hove Albion FC 所属選手として初のプレミアリーグ月間最優秀選手、パスカル・グロス選手の今季を称え...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995015823884288/T2QUa012?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995015387652264", "domain": "x.com", "published": "2026-11-18T19:07:09+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "REAL AKIBA BOYZ、LAST LIVE “ROOTS”「さよなら、またね。」開催記念スペシャルラジオCMの放送が決定！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122993268124520448/7TLQ7KLn?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122994994256715851", "domain": "x.com", "published": "2026-11-18T19:07:04+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "月額5,980円で通い放題！女性専用・24時間営業のセルフマシンピラティス「Pilactice」第１号店が、11月25日(水)、...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122994989190012928/ZDPyB9lo?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_STUP/status/2122994988783194595", "domain": "x.com", "published": "2026-11-18T19:07:03+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}], "elapsed": 5.8}, {"id": "x_prtimes_mktg", "type": "x", "name": "PR TIMES広告・マーケティング", "handle": "PRTIMES_MKTG", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_MKTG/rss", "count": 15, "items": [{"title": "オルタナティブ投資プラットフォーム「オルタナバンク」、『【3ヶ月毎分配】秋の陣ファンド 秋終わりの章ID1203』...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123020153562730496/07WXxM5i?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_MKTG/status/2123020153126568284", "domain": "x.com", "published": "2026-11-18T20:47:02+09:00", "published_label": "11/18(水) 20:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017639975108608/0VRVRkY4?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2123017639517893065", "domain": "x.com", "published": "2026-11-18T20:37:03+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123012606432772096/NJ2Vbz-u?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2123012606030196779", "domain": "x.com", "published": "2026-11-18T20:17:03+09:00", "published_label": "11/18(水) 20:17", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989954863357952/up8DlAmq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122997753617986026", "domain": "x.com", "published": "2026-11-18T19:18:02+09:00", "published_label": "11/18(水) 19:18", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122988694537981952/NW-AwkvC?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122988694139519390", "domain": "x.com", "published": "2026-11-18T18:42:02+09:00", "published_label": "11/18(水) 18:42", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987445553889280/4-3hursY?format=jpg&name=386x202"], "link": "https://x.com/PRTIMES_MKTG/status/2122987445155418187", "domain": "x.com", "published": "2026-11-18T18:37:04+09:00", "published_label": "11/18(水) 18:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122984932037525505/onRpPM-W?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122984931634868389", "domain": "x.com", "published": "2026-11-18T18:27:05+09:00", "published_label": "11/18(水) 18:27", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ネット広告費が初の過半 — インフルエンサー市場は860億円規模に", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122963535160610817/AJ8GP7u_?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122971581291094488", "domain": "x.com", "published": "2026-11-18T17:34:02+09:00", "published_label": "11/18(水) 17:34", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【JR東海×名鉄】クリスマスの夜を彩る共同企画“ MEIEKI CHRISTMAS RELAXIN’ NIGHT & LIGHT ”を開催します！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122966050166001664/K2SnaJMQ?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122966049691947211", "domain": "x.com", "published": "2026-11-18T17:12:03+09:00", "published_label": "11/18(水) 17:12", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【ウェビナーご案内】商品開発に役立つ！AIペルソナ×生活者データでニーズの仮説構築～商品コンセプト創出・評価ま...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122957280069189632/AM-pXYDF?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122957279662346527", "domain": "x.com", "published": "2026-11-18T16:37:12+09:00", "published_label": "11/18(水) 16:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ショート動画の視聴は68％、そのうち「ほぼ毎日見る」人は35％ やめようと思っても「つい見続けてしまう」は52％", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122949776157315072/ISPTAycA?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122949775784022385", "domain": "x.com", "published": "2026-11-18T16:07:23+09:00", "published_label": "11/18(水) 16:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "大広とBOXIV、未来のモビリティコミュニティ「アスモビ」と連携開始 〜大広若者研究所「D’Zlab.」の知見とコミュニ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122947175651094528/dEbDnkGP?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122947175198142757", "domain": "x.com", "published": "2026-11-18T15:57:03+09:00", "published_label": "11/18(水) 15:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "地域新聞社、「ちばめぐりサミット2026」にプラチナスポンサーとして参画", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122942172165226496/tVWXj6Vd?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122942170701451526", "domain": "x.com", "published": "2026-11-18T15:37:10+09:00", "published_label": "11/18(水) 15:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "アイズ、Microsoft広告の「Partner（パートナー）」に認定", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122942145242042368/PmS_oALU?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122942144700916025", "domain": "x.com", "published": "2026-11-18T15:37:04+09:00", "published_label": "11/18(水) 15:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【11/24（火）開催】製造業の新規リード獲得を加速させるには？PRIZMAは「成果につながるホワイトペーパーの作り方...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122927064840122368/Q62k7K5b?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122934866203566265", "domain": "x.com", "published": "2026-11-18T15:08:08+09:00", "published_label": "11/18(水) 15:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}], "elapsed": 5.9}, {"id": "x_prtimes_biz", "type": "x", "name": "PR TIMESビジネス", "handle": "PRTIMES_BIZ", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_BIZ/rss", "count": 15, "items": [{"title": "通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123012606432772096/NJ2Vbz-u?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123020403648156001", "domain": "x.com", "published": "2026-11-18T20:48:02+09:00", "published_label": "11/18(水) 20:48", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "「美しくなった先に、叶えたい夢はありますか？」聖心美容クリニック「Cheer for Beauty Dreams PROJECT」始動夢へ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010091851063296/ikZ8AT_s?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123010091373019625", "domain": "x.com", "published": "2026-11-18T20:07:04+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989954863357952/up8DlAmq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123005303516266926", "domain": "x.com", "published": "2026-11-18T19:48:02+09:00", "published_label": "11/18(水) 19:48", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995052213596160/blKzgtfe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123002810111562230", "domain": "x.com", "published": "2026-11-18T19:38:08+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995047989911552/LORsdvhT?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123002807343354228", "domain": "x.com", "published": "2026-11-18T19:38:07+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122988694537981952/NW-AwkvC?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122996745663869358", "domain": "x.com", "published": "2026-11-18T19:14:02+09:00", "published_label": "11/18(水) 19:14", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "AKEY会、サンマルクカフェ・小山典孝社長を迎えた勉強会を盛況のうちに開催。名刺交換を通じた直接交流の機会も提供", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987450188587008/TsaxIzQD?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122995249543106908", "domain": "x.com", "published": "2026-11-18T19:08:05+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "『部下のやる気は仕組み化できる』著者・渡邉貴志が、出版区「宇垣・片桐の踊る！ミリしら会議」に出演", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987448137654272/z9KKwCHH?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122995247018107282", "domain": "x.com", "published": "2026-11-18T19:08:04+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987445553889280/4-3hursY?format=jpg&name=386x202"], "link": "https://x.com/PRTIMES_BIZ/status/2122995242140123274", "domain": "x.com", "published": "2026-11-18T19:08:03+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【マネジメント】コミュニケーションでチームの力を引き出し「学習する組織」に！ 12/11（金）セミナー「対話で育...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122994996693684224/0lbAzWdh?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_BIZ/status/2122994996290965950", "domain": "x.com", "published": "2026-11-18T19:07:05+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122984932037525505/onRpPM-W?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992722265231764", "domain": "x.com", "published": "2026-11-18T18:58:02+09:00", "published_label": "11/18(水) 18:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "BtoB分野に特化したグローバルアクセラレーター “Alchemist Japan”", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992474042126336/tu65aURv?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992473622663570", "domain": "x.com", "published": "2026-11-18T18:57:03+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ディープテック・イノベーション拠点推進事業", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992471508733952/VoHOcjrK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992471118610854", "domain": "x.com", "published": "2026-11-18T18:57:03+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "東京・新橋に“蟹取県”のカニ料理が大集合！とっとり・おかやま新橋館で「蟹取県ウェルカニグルメフェア」開催", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989962169819137/80OcdyUp?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122989961729409450", "domain": "x.com", "published": "2026-11-18T18:47:04+09:00", "published_label": "11/18(水) 18:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【山梨県】富士トラム（仮称）に代わる新名称を募集します！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987452306751488/8KGJngw7?format=jpg&name=386x202"], "link": "https://x.com/PRTIMES_BIZ/status/2122987451925078041", "domain": "x.com", "published": "2026-11-18T18:37:06+09:00", "published_label": "11/18(水) 18:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}], "elapsed": 6.0}, {"id": "x_prtimes_beauty", "type": "x", "name": "PR TIMESビューティー", "handle": "PRTIMES_BEAUTY", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_BEAUTY/rss", "count": 15, "items": [{"title": "【新発売】髪の\"ハリコシサプリ\"。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123013864786935808/eiNgzT61?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123021909600473289", "domain": "x.com", "published": "2026-11-18T20:54:01+09:00", "published_label": "11/18(水) 20:54", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの\"育成の壁\"を越える定額...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010105616879616/HttPiReK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123017887610962417", "domain": "x.com", "published": "2026-11-18T20:38:02+09:00", "published_label": "11/18(水) 20:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "月額5,980円で通い放題！女性専用・24時間営業のセルフマシンピラティス「Pilactice」第１号店が、11月25日(水)、...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122994989190012928/ZDPyB9lo?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123002784945713599", "domain": "x.com", "published": "2026-11-18T19:38:02+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "NARS 2026年下期ベストコスメ受賞情報「ライトリフレクティング セラムクッションファンデーション」「ライトリフ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992479192670208/8ya5poGM?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122992478769021199", "domain": "x.com", "published": "2026-11-18T18:57:04+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "株式会社ボルドバイオテクノロジー、国際フォーラム「PEOF+ Asia Pacific 2026」に参加", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122786416363196416/Z_5UGiWu?format=png&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122985170185990551", "domain": "x.com", "published": "2026-11-18T18:28:02+09:00", "published_label": "11/18(水) 18:28", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "〈milktouch〉たった3分で内側から潤い補給、肌に合わせて選べるスキンパックが登場！アーティスト シークレット ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122968561664864256/9hYeQyTq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122976615986811335", "domain": "x.com", "published": "2026-11-18T17:54:02+09:00", "published_label": "11/18(水) 17:54", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "韓国発の美容クリニック「ベンスクリニック」、PCL注入製剤「GOURI（ゴウリ）」を韓国国内9店舗に導入", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122972363835035648/_ET4qi27?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122972363436527880", "domain": "x.com", "published": "2026-11-18T17:37:09+09:00", "published_label": "11/18(水) 17:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【楽天市場限定】現場のプロが愛用する「デンキバリブラシ®」や豪華コスメが詰まった特別な福袋『HOLIDAY HAPPYBAG...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122964957751058432/EZTth4H3?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122964957348372646", "domain": "x.com", "published": "2026-11-18T17:07:43+09:00", "published_label": "11/18(水) 17:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【イベントレポート】HARIAS製品とIMP.の魅力に触れる特別な4日間が開幕！「ファンデ選びにピリオドを. HARIAS×IMP...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122964870639566848/2UrJI87f?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122964869985300770", "domain": "x.com", "published": "2026-11-18T17:07:22+09:00", "published_label": "11/18(水) 17:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "「ファースト・ストレスチェック」リリース2ヶ月で利用者8万人突破", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122956256038285312/XO75141T?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122957301598609410", "domain": "x.com", "published": "2026-11-18T16:37:17+09:00", "published_label": "11/18(水) 16:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "国際スパアワード10 年連続受賞・ 2026 年世界第 1 位のSPA DAMAI が 「DAMAI NEW BEAUTY PROJECT」を始動", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122953469489459200/ID93kcG9?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122953468059193354", "domain": "x.com", "published": "2026-11-18T16:22:04+09:00", "published_label": "11/18(水) 16:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "メビウス製薬がSIMIUS公式通販でBLACK FRIDAYを11月20日（金）から開催", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934882209001472/g-F9rFAB?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942930222821505", "domain": "x.com", "published": "2026-11-18T15:40:11+09:00", "published_label": "11/18(水) 15:40", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "「睡眠障害」標榜実現から半年、睡眠ビジネスは本格拡大期へ日本睡眠学会・内村理事長が基調講演、「睡眠カンファ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934847866077185/qYbP2dqX?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942901634412827", "domain": "x.com", "published": "2026-11-18T15:40:04+09:00", "published_label": "11/18(水) 15:40", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ツバメの巣の実物展示で天然素材と科学技術の魅力を紹介。インナーケアブランド「BANSHO」、ビューティーワールド ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934755465588736/rQo1P7js?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942434024042510", "domain": "x.com", "published": "2026-11-18T15:38:13+09:00", "published_label": "11/18(水) 15:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "MIYABI、Wellness Tokyo 2026に出展！新型「DREAM2 Reformer」をはじめ、進化したピラティスマシン4機種を展示", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934692337139712/hW9PooDa?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942421332042072", "domain": "x.com", "published": "2026-11-18T15:38:10+09:00", "published_label": "11/18(水) 15:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}], "elapsed": 1.8}]}</script>
+<script id="board-data" type="application/json">{"generated_at": "2026-11-18T21:15:58+09:00", "generated_at_label": "2026/11/18 21:15 JST", "title": "PR TIMES監視ボード", "total": 60, "sources": [{"id": "x_prtimes_stup", "type": "x", "name": "PR TIMESスタートアップ", "handle": "PRTIMES_STUP", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_STUP/rss", "count": 15, "items": [{"title": "新VTuber事務所「Starlian Production」より、新たに2名がデビュー！本日より活動開始＆11月23日（月）21時より初...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123025196336697345/39v2j5nw?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123025195959214304", "domain": "x.com", "published": "2026-11-18T21:07:05+09:00", "published_label": "11/18(水) 21:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "ReBear合同会社、「営業・マーケDXPO東京'26【秋】」に出展", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123025185058258944/YdQaZQVe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123025184647156195", "domain": "x.com", "published": "2026-11-18T21:07:02+09:00", "published_label": "11/18(水) 21:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "相続業務×生成AI 活用事例セミナーを12月1〜3日に無料開催｜相続・生前対策に取り組む士業事務所向け", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123023937659670528/MCiJpt3x?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123023937227628845", "domain": "x.com", "published": "2026-11-18T21:02:05+09:00", "published_label": "11/18(水) 21:02", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "【熊本県初出店】入手困難のクリスマススイーツ“あなたの常識を覆す究極のガトーショコラ”「THE chocola」が熊本・...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123022667389571072/a8KI_utw?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123022666982633890", "domain": "x.com", "published": "2026-11-18T20:57:02+09:00", "published_label": "11/18(水) 20:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "ここでしか買えない「究極のガトーショコラ」THE chocolaが群馬・高崎髙島屋に期間限定出店！11月18日（水）より7...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123020150647693312/zWZ7kt6s?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123020150266069341", "domain": "x.com", "published": "2026-11-18T20:47:02+09:00", "published_label": "11/18(水) 20:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "「全件トスアップ」から脱却し、営業工数を商談へ。TorchUp、顧客適合×検討度のリード判定と引き渡しルールを解説...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017637403983872/4Dz3DPvS?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123017637039108598", "domain": "x.com", "published": "2026-11-18T20:37:03+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【異例の反響】名古屋人気カフェ THE LAB NAGOYA の年内イートイン予約が全枠満席に！テレビ放送後、わずか1日で12...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017634488918016/mpTZ7xIl?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123017634098934231", "domain": "x.com", "published": "2026-11-18T20:37:02+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【新発売】髪の\"ハリコシサプリ\"。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123013864786935808/eiNgzT61?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123013863335669767", "domain": "x.com", "published": "2026-11-18T20:22:03+09:00", "published_label": "11/18(水) 20:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの\"育成の壁\"を越える定額...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010105616879616/HttPiReK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123010105218314390", "domain": "x.com", "published": "2026-11-18T20:07:07+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "シンガーソングライター茉ひる、シンガポールの人気俳優・歌手 Glenn Yong とのコラボ曲「My Home」を11月25日(水)...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010103108575232/11nqNbGe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123010102705983904", "domain": "x.com", "published": "2026-11-18T20:07:06+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "もうすぐ、保育の要領・指針が変わる。その前に、現場の10年を振り返る。オンラインイベント「園長たちが『3要領・...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123005055045672960/--riQBdc?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2123005053095362828", "domain": "x.com", "published": "2026-11-18T19:47:02+09:00", "published_label": "11/18(水) 19:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【ドバイ不動産】全40ページの無料資料『ドバイの全て2026』を公開｜税制・通貨・市場データから日本の投資との比...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122998757524733952/fhVgjFNS?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122998757126189283", "domain": "x.com", "published": "2026-11-18T19:22:01+09:00", "published_label": "11/18(水) 19:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995052213596160/blKzgtfe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995051764797814", "domain": "x.com", "published": "2026-11-18T19:07:18+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995047989911552/LORsdvhT?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995047599915366", "domain": "x.com", "published": "2026-11-18T19:07:17+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "tsumiki「pavilion」Music Video公開。2027年2月18日(木) tsumiki 1st LIVE「DEMPA BOY」開催決定！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995040259919872/N6ZR6tje?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_STUP/status/2122995039857176654", "domain": "x.com", "published": "2026-11-18T19:07:15+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false, "title_ja": "tsumiki「pavilion」Music Video公開。 2027年2月18日(木)tumiki 1st LIVE「DEMPA BOY」開催決定！"}], "elapsed": 1.4}, {"id": "x_prtimes_mktg", "type": "x", "name": "PR TIMES広告・マーケティング", "handle": "PRTIMES_MKTG", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_MKTG/rss", "count": 15, "items": [{"title": "「全件トスアップ」から脱却し、営業工数を商談へ。TorchUp、顧客適合×検討度のリード判定と引き渡しルールを解説...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017637403983872/4Dz3DPvS?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2123025440768213327", "domain": "x.com", "published": "2026-11-18T21:08:03+09:00", "published_label": "11/18(水) 21:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "オルタナティブ投資プラットフォーム「オルタナバンク」、『【3ヶ月毎分配】秋の陣ファンド 秋終わりの章ID1203』...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123020153562730496/07WXxM5i?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_MKTG/status/2123020153126568284", "domain": "x.com", "published": "2026-11-18T20:47:02+09:00", "published_label": "11/18(水) 20:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017639975108608/0VRVRkY4?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2123017639517893065", "domain": "x.com", "published": "2026-11-18T20:37:03+09:00", "published_label": "11/18(水) 20:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123012606432772096/NJ2Vbz-u?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2123012606030196779", "domain": "x.com", "published": "2026-11-18T20:17:03+09:00", "published_label": "11/18(水) 20:17", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989954863357952/up8DlAmq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122997753617986026", "domain": "x.com", "published": "2026-11-18T19:18:02+09:00", "published_label": "11/18(水) 19:18", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122988694537981952/NW-AwkvC?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122988694139519390", "domain": "x.com", "published": "2026-11-18T18:42:02+09:00", "published_label": "11/18(水) 18:42", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987445553889280/4-3hursY?format=jpg&name=386x202"], "link": "https://x.com/PRTIMES_MKTG/status/2122987445155418187", "domain": "x.com", "published": "2026-11-18T18:37:04+09:00", "published_label": "11/18(水) 18:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122984932037525505/onRpPM-W?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122984931634868389", "domain": "x.com", "published": "2026-11-18T18:27:05+09:00", "published_label": "11/18(水) 18:27", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "ネット広告費が初の過半 — インフルエンサー市場は860億円規模に", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122963535160610817/AJ8GP7u_?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122971581291094488", "domain": "x.com", "published": "2026-11-18T17:34:02+09:00", "published_label": "11/18(水) 17:34", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【JR東海×名鉄】クリスマスの夜を彩る共同企画“ MEIEKI CHRISTMAS RELAXIN’ NIGHT & LIGHT ”を開催します！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122966050166001664/K2SnaJMQ?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122966049691947211", "domain": "x.com", "published": "2026-11-18T17:12:03+09:00", "published_label": "11/18(水) 17:12", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【ウェビナーご案内】商品開発に役立つ！AIペルソナ×生活者データでニーズの仮説構築～商品コンセプト創出・評価ま...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122957280069189632/AM-pXYDF?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122957279662346527", "domain": "x.com", "published": "2026-11-18T16:37:12+09:00", "published_label": "11/18(水) 16:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "ショート動画の視聴は68％、そのうち「ほぼ毎日見る」人は35％ やめようと思っても「つい見続けてしまう」は52％", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122949776157315072/ISPTAycA?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122949775784022385", "domain": "x.com", "published": "2026-11-18T16:07:23+09:00", "published_label": "11/18(水) 16:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "大広とBOXIV、未来のモビリティコミュニティ「アスモビ」と連携開始 〜大広若者研究所「D’Zlab.」の知見とコミュニ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122947175651094528/dEbDnkGP?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122947175198142757", "domain": "x.com", "published": "2026-11-18T15:57:03+09:00", "published_label": "11/18(水) 15:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "地域新聞社、「ちばめぐりサミット2026」にプラチナスポンサーとして参画", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122942172165226496/tVWXj6Vd?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122942170701451526", "domain": "x.com", "published": "2026-11-18T15:37:10+09:00", "published_label": "11/18(水) 15:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "アイズ、Microsoft広告の「Partner（パートナー）」に認定", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122942145242042368/PmS_oALU?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_MKTG/status/2122942144700916025", "domain": "x.com", "published": "2026-11-18T15:37:04+09:00", "published_label": "11/18(水) 15:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}], "elapsed": 0.6}, {"id": "x_prtimes_biz", "type": "x", "name": "PR TIMESビジネス", "handle": "PRTIMES_BIZ", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_BIZ/rss", "count": 15, "items": [{"title": "広告やSNSなど、ネットマーケティングを基礎から体系的に学びたい方におすすめ！eラーニング「ネットマーケティン...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123017639975108608/0VRVRkY4?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123025444442436029", "domain": "x.com", "published": "2026-11-18T21:08:04+09:00", "published_label": "11/18(水) 21:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": true}, {"title": "通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123012606432772096/NJ2Vbz-u?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123020403648156001", "domain": "x.com", "published": "2026-11-18T20:48:02+09:00", "published_label": "11/18(水) 20:48", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "「美しくなった先に、叶えたい夢はありますか？」聖心美容クリニック「Cheer for Beauty Dreams PROJECT」始動夢へ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010091851063296/ikZ8AT_s?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123010091373019625", "domain": "x.com", "published": "2026-11-18T20:07:04+09:00", "published_label": "11/18(水) 20:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "揺るぎない土台が、毎日の眠りを支える。Novilla「礎」シリーズのマットレスが期間限定20％OFF！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989954863357952/up8DlAmq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123005303516266926", "domain": "x.com", "published": "2026-11-18T19:48:02+09:00", "published_label": "11/18(水) 19:48", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【RENON×REVIX JAPAN】年内開発完了予定の133kWh需給調整専用モデル、事前相談・予約受付開始", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995052213596160/blKzgtfe?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123002810111562230", "domain": "x.com", "published": "2026-11-18T19:38:08+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "蓄電池の運用なら任せてください！WATT-TUNEとRENON POWERが業務提携へ！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122995047989911552/LORsdvhT?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2123002807343354228", "domain": "x.com", "published": "2026-11-18T19:38:07+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【奈良市役所前が2日間限定の遊園地に！】「市役所広場キッズ遊園地2026」11月21日・22日開催！", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122988694537981952/NW-AwkvC?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122996745663869358", "domain": "x.com", "published": "2026-11-18T19:14:02+09:00", "published_label": "11/18(水) 19:14", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "AKEY会、サンマルクカフェ・小山典孝社長を迎えた勉強会を盛況のうちに開催。名刺交換を通じた直接交流の機会も提供", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987450188587008/TsaxIzQD?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122995249543106908", "domain": "x.com", "published": "2026-11-18T19:08:05+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "『部下のやる気は仕組み化できる』著者・渡邉貴志が、出版区「宇垣・片桐の踊る！ミリしら会議」に出演", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987448137654272/z9KKwCHH?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122995247018107282", "domain": "x.com", "published": "2026-11-18T19:08:04+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【調査レポート】既存クライアントの60％が「AI活用で顧客対応のクレームが解消・改善された」と回答", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122987445553889280/4-3hursY?format=jpg&name=386x202"], "link": "https://x.com/PRTIMES_BIZ/status/2122995242140123274", "domain": "x.com", "published": "2026-11-18T19:08:03+09:00", "published_label": "11/18(水) 19:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【マネジメント】コミュニケーションでチームの力を引き出し「学習する組織」に！ 12/11（金）セミナー「対話で育...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122994996693684224/0lbAzWdh?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_BIZ/status/2122994996290965950", "domain": "x.com", "published": "2026-11-18T19:07:05+09:00", "published_label": "11/18(水) 19:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "一杯の上質なお茶で、台湾を味わう！台湾区製茶工業同業公会が", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122984932037525505/onRpPM-W?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992722265231764", "domain": "x.com", "published": "2026-11-18T18:58:02+09:00", "published_label": "11/18(水) 18:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "BtoB分野に特化したグローバルアクセラレーター “Alchemist Japan”", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992474042126336/tu65aURv?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992473622663570", "domain": "x.com", "published": "2026-11-18T18:57:03+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "ディープテック・イノベーション拠点推進事業", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992471508733952/VoHOcjrK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122992471118610854", "domain": "x.com", "published": "2026-11-18T18:57:03+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "東京・新橋に“蟹取県”のカニ料理が大集合！とっとり・おかやま新橋館で「蟹取県ウェルカニグルメフェア」開催", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122989962169819137/80OcdyUp?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BIZ/status/2122989961729409450", "domain": "x.com", "published": "2026-11-18T18:47:04+09:00", "published_label": "11/18(水) 18:47", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}], "elapsed": 1.6}, {"id": "x_prtimes_beauty", "type": "x", "name": "PR TIMESビューティー", "handle": "PRTIMES_BEAUTY", "status": "ok", "error": null, "via": "https://nitter.cf/PRTIMES_BEAUTY/rss", "count": 15, "items": [{"title": "【新発売】髪の\"ハリコシサプリ\"。年齢とともに変わる髪に、いつものトリートメントにプラスワン。GENiSの髪の導入...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123013864786935808/eiNgzT61?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123021909600473289", "domain": "x.com", "published": "2026-11-18T20:54:01+09:00", "published_label": "11/18(水) 20:54", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【リラクの登竜門へ】リラクゼーションサロン「つぼみや」が、セラピストと小規模サロンの\"育成の壁\"を越える定額...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123010105616879616/HttPiReK?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123017887610962417", "domain": "x.com", "published": "2026-11-18T20:38:02+09:00", "published_label": "11/18(水) 20:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "月額5,980円で通い放題！女性専用・24時間営業のセルフマシンピラティス「Pilactice」第１号店が、11月25日(水)、...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122994989190012928/ZDPyB9lo?format=jpg&name=600x314"], "link": "https://x.com/PRTIMES_BEAUTY/status/2123002784945713599", "domain": "x.com", "published": "2026-11-18T19:38:02+09:00", "published_label": "11/18(水) 19:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "NARS 2026年下期ベストコスメ受賞情報「ライトリフレクティング セラムクッションファンデーション」「ライトリフ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122992479192670208/8ya5poGM?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122992478769021199", "domain": "x.com", "published": "2026-11-18T18:57:04+09:00", "published_label": "11/18(水) 18:57", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "株式会社ボルドバイオテクノロジー、国際フォーラム「PEOF+ Asia Pacific 2026」に参加", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122786416363196416/Z_5UGiWu?format=png&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122985170185990551", "domain": "x.com", "published": "2026-11-18T18:28:02+09:00", "published_label": "11/18(水) 18:28", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "〈milktouch〉たった3分で内側から潤い補給、肌に合わせて選べるスキンパックが登場！アーティスト シークレット ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122968561664864256/9hYeQyTq?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122976615986811335", "domain": "x.com", "published": "2026-11-18T17:54:02+09:00", "published_label": "11/18(水) 17:54", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "韓国発の美容クリニック「ベンスクリニック」、PCL注入製剤「GOURI（ゴウリ）」を韓国国内9店舗に導入", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122972363835035648/_ET4qi27?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122972363436527880", "domain": "x.com", "published": "2026-11-18T17:37:09+09:00", "published_label": "11/18(水) 17:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【楽天市場限定】現場のプロが愛用する「デンキバリブラシ®」や豪華コスメが詰まった特別な福袋『HOLIDAY HAPPYBAG...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122964957751058432/EZTth4H3?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122964957348372646", "domain": "x.com", "published": "2026-11-18T17:07:43+09:00", "published_label": "11/18(水) 17:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "【イベントレポート】HARIAS製品とIMP.の魅力に触れる特別な4日間が開幕！「ファンデ選びにピリオドを. HARIAS×IMP...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122964870639566848/2UrJI87f?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122964869985300770", "domain": "x.com", "published": "2026-11-18T17:07:22+09:00", "published_label": "11/18(水) 17:07", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "「ファースト・ストレスチェック」リリース2ヶ月で利用者8万人突破", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122956256038285312/XO75141T?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122957301598609410", "domain": "x.com", "published": "2026-11-18T16:37:17+09:00", "published_label": "11/18(水) 16:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "国際スパアワード10 年連続受賞・ 2026 年世界第 1 位のSPA DAMAI が 「DAMAI NEW BEAUTY PROJECT」を始動", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122953469489459200/ID93kcG9?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122953468059193354", "domain": "x.com", "published": "2026-11-18T16:22:04+09:00", "published_label": "11/18(水) 16:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "メビウス製薬がSIMIUS公式通販でBLACK FRIDAYを11月20日（金）から開催", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934882209001472/g-F9rFAB?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942930222821505", "domain": "x.com", "published": "2026-11-18T15:40:11+09:00", "published_label": "11/18(水) 15:40", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "「睡眠障害」標榜実現から半年、睡眠ビジネスは本格拡大期へ日本睡眠学会・内村理事長が基調講演、「睡眠カンファ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934847866077185/qYbP2dqX?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942901634412827", "domain": "x.com", "published": "2026-11-18T15:40:04+09:00", "published_label": "11/18(水) 15:40", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "ツバメの巣の実物展示で天然素材と科学技術の魅力を紹介。インナーケアブランド「BANSHO」、ビューティーワールド ...", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934755465588736/rQo1P7js?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942434024042510", "domain": "x.com", "published": "2026-11-18T15:38:13+09:00", "published_label": "11/18(水) 15:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}, {"title": "MIYABI、Wellness Tokyo 2026に出展！新型「DREAM2 Reformer」をはじめ、進化したピラティスマシン4機種を展示", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122934692337139712/hW9PooDa?format=jpg&name=800x419"], "link": "https://x.com/PRTIMES_BEAUTY/status/2122942421332042072", "domain": "x.com", "published": "2026-11-18T15:38:10+09:00", "published_label": "11/18(水) 15:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "is_new": false}], "elapsed": 1.7}]}</script>
 <script>
 (function () {
   var q = document.getElementById('q');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  cards.forEach(function (c) { c.dataset.total = c.querySelectorAll('.item').length; });
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var active = [];
+  var allItems = [];
+  cards.forEach(function (c) {
+    var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
+    c.dataset.total = its.length;
+    its.forEach(function (it) {
+      it.dataset.text = it.textContent.toLowerCase();
+      allItems.push(it);
+    });
+  });
+  function hitChip(it) {
+    if (!active.length) return true;
+    var t = it.dataset.text;
+    for (var i = 0; i < active.length; i++) {
+      if (t.indexOf(active[i]) !== -1) return true;
+    }
+    return false;
+  }
   function apply() {
     var v = q.value.trim().toLowerCase();
+    var filtering = !!v || active.length > 0;
     cards.forEach(function (c) {
       var shown = 0;
-      c.querySelectorAll('.item').forEach(function (it) {
-        var hit = !v || it.textContent.toLowerCase().indexOf(v) !== -1;
+      Array.prototype.slice.call(c.querySelectorAll('.item')).forEach(function (it) {
+        var hit = (!v || it.dataset.text.indexOf(v) !== -1) && hitChip(it);
         it.classList.toggle('hidden', !hit);
         if (hit) shown++;
       });
       var count = c.querySelector('.count');
       if (count) {
         if (c.dataset.error === '1') { /* エラー表示はそのまま */ }
-        else if (!v) { count.textContent = c.dataset.total + '件'; }
+        else if (!filtering) { count.textContent = c.dataset.total + '件'; }
         else { count.textContent = shown + '/' + c.dataset.total + '件'; }
       }
-      c.classList.toggle('hidden', shown === 0);
+      c.classList.toggle('hidden', filtering && shown === 0);
     });
   }
+  function clearMarks(root) {
+    Array.prototype.slice.call(root.querySelectorAll('mark.kw')).forEach(function (m) {
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    });
+    root.normalize();
+  }
+  function markText(root, terms) {
+    clearMarks(root);
+    if (!terms.length) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      if (!text) return;
+      var lower = text.toLowerCase(), hits = [];
+      terms.forEach(function (t) {
+        var idx = 0;
+        while ((idx = lower.indexOf(t, idx)) !== -1) {
+          hits.push([idx, idx + t.length]);
+          idx += t.length;
+        }
+      });
+      if (!hits.length) return;
+      hits.sort(function (a, b) { return a[0] - b[0]; });
+      var merged = [];
+      hits.forEach(function (h) {
+        var last = merged[merged.length - 1];
+        if (last && h[0] <= last[1]) last[1] = Math.max(last[1], h[1]);
+        else merged.push(h.slice());
+      });
+      var frag = document.createDocumentFragment(), pos = 0;
+      merged.forEach(function (h) {
+        if (h[0] > pos) frag.appendChild(document.createTextNode(text.slice(pos, h[0])));
+        var m = document.createElement('mark');
+        m.className = 'kw';
+        m.textContent = text.slice(h[0], h[1]);
+        frag.appendChild(m);
+        pos = h[1];
+      });
+      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  function marks() {
+    allItems.forEach(function (it) {
+      Array.prototype.slice.call(it.querySelectorAll('.title, .trans, .desc')).forEach(function (el) {
+        markText(el, active);
+      });
+    });
+  }
+  chips.forEach(function (ch) {
+    var kw = ch.dataset.kw || '';
+    var lower = kw.toLowerCase();
+    var n = allItems.filter(function (it) { return it.dataset.text.indexOf(lower) !== -1; }).length;
+    var num = document.createElement('span');
+    num.className = 'n';
+    num.textContent = n;
+    ch.appendChild(num);
+    ch.addEventListener('click', function () {
+      var i = active.indexOf(lower);
+      if (i === -1) active.push(lower); else active.splice(i, 1);
+      ch.classList.toggle('is-on', i === -1);
+      apply();
+      marks();
+    });
+  });
   q.addEventListener('input', apply);
 })();
 </script>
