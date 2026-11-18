@@ -190,7 +190,8 @@ OVERRIDES = {
                     "stealth", "Series", "資金調達", "評価額"],
         "exclude": ["diocese", "church", "archbishop", "cathedral city", "worship",
                     "Cathedral Arts", "St Paul", "St. Paul", "Big Sleep",
-                    "Saint Sophia", "Unesco", "UNESCO", "Wells Cathedral", "organ"],
+                    "Saint Sophia", "Unesco", "UNESCO", "Wells Cathedral", "organ",
+                    "Putin", "parade", "Ukraine"],
     },
     "Hadrian": {
         "query": '"Hadrian" (startup OR funding OR valuation OR factory OR defense OR raises)',
