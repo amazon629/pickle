@@ -39,7 +39,10 @@ BOARD = {
     #   context  … True なら EC・マーケティング業界の語を含む見出しだけに絞る
     "overrides": {
         # 一般語・短い名前。業界語を足して同名の別物を落とす
-        "キャスター": {"query": '"キャスター" EC', "context": True},
+        "キャスター": {
+            "query": '"キャスター" EC',
+            "match": ["株式会社キャスター", "キャスター、", "キャスターが", "キャスターの", "キャスター[", "キャスター（"],
+        },
         "これから": {"query": '"株式会社これから"', "match": ["株式会社これから", "これから、"]},
         "そばに": {"query": '"株式会社そばに"', "match": ["株式会社そばに", "そばにの", "そばにが"]},
         "NE": {"query": '"NE株式会社"', "match": ["NE株式会社", "NE Korea", "441A"]},
@@ -57,6 +60,7 @@ BOARD = {
         "LeaguE": {"query": '"株式会社LeaguE"', "match": ["LeaguE"], "context": "strict"},
         "MADS": {"query": '"MADS" 広告', "match": ["MADS"], "context": "strict"},
         "LANY": {"query": '"LANY" 株式会社', "match": ["LANY"], "context": "strict"},
+        "メルカート": {"query": '"メルカート" EC', "context": True},
         "mtc": {"query": '"mtc" EC', "context": "strict"},
         "GIVE&GIVE": {"query": '"GIVE&GIVE" EC', "context": "strict"},
         "Minto": {"query": '"Minto" 株式会社', "match": ["Minto"], "context": "strict"},
@@ -77,12 +81,7 @@ BOARD = {
                 "narrative、", "narrative「", "narrative×", "narrative x", "narrativeを",
             ]
         },
-        "コミューン": {
-            "match": [
-                "コミューン株式会社", "コミューン「", "コミューンが", "コミューンは", "コミューンを",
-                "コミューンに", "コミューンと", "コミューン、", "コミューンの", "コミューン運営",
-            ]
-        },
+        "コミューン": {"query": '"コミューン" 株式会社', "match": ["コミューン"]},
         # 表記ゆれ（スペースなし表記）を拾う
         "Gastroducejapan": {"query": '"Gastroduce"', "match": ["Gastroduce"]},
         # かっこ書きの別名を検索語に足す
