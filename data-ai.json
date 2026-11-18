@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:20:26+09:00",
-  "generated_at_label": "2026/11/18 21:20 JST",
+  "generated_at": "2026-11-18T21:23:11+09:00",
+  "generated_at_label": "2026/11/18 21:23 JST",
   "title": "AI監視ボード",
   "total": 374,
   "sources": [
@@ -264,7 +264,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.9
     },
     {
       "id": "x_okapi_fukugyo",
@@ -510,7 +510,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_codexneo4",
@@ -761,7 +761,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.6
     },
     {
       "id": "x_beku_ai",
@@ -998,7 +998,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1253,7 +1253,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_taki_auto",
@@ -1505,7 +1505,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.2
     },
     {
       "id": "x_sora19ai",
@@ -1743,7 +1743,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.8
     },
     {
       "id": "x_shota7180",
@@ -2004,7 +2004,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "x_ichiaimarketer",
@@ -2257,7 +2257,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_aiaircle34052",
@@ -2510,7 +2510,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 2.5
     },
     {
       "id": "x_ai_masaou",
@@ -2761,7 +2761,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.8
     },
     {
       "id": "x_gosrum",
@@ -2791,6 +2791,37 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "ちなみに今回の評価にかかったコストはAPI換算で $35.5\nChatGPT Plus の週次制限の70%ぐらいを使用したから、\n・週次レート：$50ぐらい？\nそう考えると、ChatGPTのサブスクは Google AI Pro やClaude Pro と比べると渋いかも\n金のニワトリ (@gosrum)\nGPT-6.2 Sol の Terminal-Bench 4.0 の評価が終わったので結果を共有する\n●結論\nGPT-6.2 Sol はコスパ最強。\n●メモ\n・reasoning effort medium としては Claude Opus 5.5 や Gemini 4 Hydrogen を抜いてトップの性能に（Fable, Astra は除く）\n・GPT-6.1 からも大幅に性能アップ\n・しかもコストがめちゃくちゃ安いまま\nいやー、Google AI Pro が3ヶ月無料だから ChatGPT サブスク解約しようとしてたけど、この性能なら継続もありかも\n— https://x.com/gosrum/status/2123027842485391829",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXaBaoRbcAAKmW5.jpg?name=small",
+            "https://pbs.twimg.com/media/HXaBaoSawAA0djg.jpg?name=small"
+          ],
+          "link": "https://x.com/gosrum/status/2123029142895820846",
+          "domain": "x.com",
+          "published": "2026-11-18T21:22:46+09:00",
+          "published_label": "11/18(水) 21:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "参考：Google AI Pro\n金のニワトリ (@gosrum)\nGoogle AI Pro のサブスクでどれだけのAPIを使えるかもざっくり計算してみたけど\n・$100/週\n・$30/5h\nぐらいかな？\nClaude や ChatGPT のサブスクと比較するとどうなんだろうか\n— https://x.com/gosrum/status/2121880557215003075",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/gosrum/status/2123029145244561561",
+          "domain": "x.com",
+          "published": "2026-11-18T21:22:46+09:00",
+          "published_label": "11/18(水) 21:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "GPT-6.2 Sol の Terminal-Bench 4.0 の評価が終わったので結果を共有する\n●結論\nGPT-6.2 Sol はコスパ最強。\n●メモ\n・reasoning effort medium としては Claude Opus 5.5 や Gemini 4 Hydrogen を抜いてトップの性能に（Fable, Astra は除く）\n・GPT-6.1 からも大幅に性能アップ\n・しかもコストがめちゃくちゃ安いまま\nいやー、Google AI Pro が3ヶ月無料だから ChatGPT サブスク解約しようとしてたけど、この性能なら継続もありかも\n金のニワトリ (@gosrum)\nGPT-6.2 Sol で Terminal-Bench 4.0 回してるけど、タスク完遂までが速いな\n— https://x.com/gosrum/status/2122927412132667478",
@@ -2979,41 +3010,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "楽天証券、無事当選してた！\nログイン後にお知らせから見れる\n金のニワトリ (@gosrum)\n詫び Anthropic 株1000株を要求する\n— https://x.com/gosrum/status/2122626478479462496",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXXILITbEAAzXw-.jpg?name=small"
-          ],
-          "link": "https://x.com/gosrum/status/2122823274124267523",
-          "domain": "x.com",
-          "published": "2026-11-18T07:44:43+09:00",
-          "published_label": "11/18(水) 07:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "今日明日は NVIDIA 決算、Anthropic 上場と続いて忙しくなりそうだな\nと思っていたら、 GPT-6.2 Astra、Sol が来てた！\nOpenAI (@OpenAI)\nSome of you have been asking very politely. Some of you have just been asking.\nGPT-6.2 Astra and Sol are now available.\nSuper efficient and built to perform where it counts—the real world.\nVideo\n— https://x.com/OpenAI/status/2122750124543926515",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122746240823943168/img/osC4AgQC_BfZl2EH.jpg?name=small"
-          ],
-          "link": "https://x.com/gosrum/status/2122820813984612816",
-          "domain": "x.com",
-          "published": "2026-11-18T07:34:56+09:00",
-          "published_label": "11/18(水) 07:34",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.8
     },
     {
       "id": "x_keitowebai",
@@ -3264,7 +3263,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.6
     },
     {
       "id": "x_sugurukun_ai",
@@ -3503,7 +3502,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.6
     },
     {
       "id": "x_ctgptlb",
@@ -3757,7 +3756,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_niwakunihiko",
@@ -4005,7 +4004,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_npaka123",
@@ -4263,7 +4262,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.9
     },
     {
       "id": "x_itnavi2022",
@@ -4513,7 +4512,7 @@
           "title_ja": "🚨 Astra 6.2 はブラウザの使用では優れているが、エージェント タスクでは期待外れ\nOpenAI はコストのためにパフォーマンスを犠牲にしているようで、完全に機能していません。\n- エージェントタスクが弱体化されました\n- ブラウザの使用に優れています\n- トークンの使用が非常に効率的\nSol はさらに残念で、Sol 6.1 に後れを取っています。"
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.7
     },
     {
       "id": "x_panchaaan_2",
@@ -4769,7 +4768,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.2
     },
     {
       "id": "x_haider1",
@@ -5031,7 +5030,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5282,7 +5281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.6
     },
     {
       "id": "x_ytiskw",
@@ -5537,7 +5536,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.6
     },
     {
       "id": "x_ayami_marketing",
@@ -5787,7 +5786,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.5
     },
     {
       "id": "x_super_bonochin",
@@ -6027,7 +6026,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.1
     },
     {
       "id": "x_shodaiiiiii",
@@ -6272,7 +6271,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.6
     }
   ]
 }

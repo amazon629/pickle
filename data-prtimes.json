@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:20:26+09:00",
-  "generated_at_label": "2026/11/18 21:20 JST",
+  "generated_at": "2026-11-18T21:23:11+09:00",
+  "generated_at_label": "2026/11/18 21:23 JST",
   "title": "PR TIMES監視ボード",
   "total": 60,
   "sources": [
@@ -14,6 +14,22 @@
       "via": "https://nitter.cf/PRTIMES_STUP/rss",
       "count": 15,
       "items": [
+        {
+          "title": "女性専用カッピングエステ「痩身革命 池袋店」が11月11日オープン 池袋駅東口（北）から徒歩3分",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123028960032468992/ffbe12w3?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/PRTIMES_STUP/status/2123028959608832074",
+          "domain": "x.com",
+          "published": "2026-11-18T21:22:02+09:00",
+          "published_label": "11/18(水) 21:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "新VTuber事務所「Starlian Production」より、新たに2名がデビュー！本日より活動開始＆11月23日（月）21時より初...",
           "summary": "",
@@ -237,26 +253,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "tsumiki「pavilion」Music Video公開。2027年2月18日(木) tsumiki 1st LIVE「DEMPA BOY」開催決定！",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122995040259919872/N6ZR6tje?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/PRTIMES_STUP/status/2122995039857176654",
-          "domain": "x.com",
-          "published": "2026-11-18T19:07:15+09:00",
-          "published_label": "11/18(水) 19:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "tsumiki「pavilion」Music Video公開。 2027年2月18日(木)tumiki 1st LIVE「DEMPA BOY」開催決定！"
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.3
     },
     {
       "id": "x_prtimes_mktg",
@@ -509,7 +508,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.3
     },
     {
       "id": "x_prtimes_biz",
@@ -762,7 +761,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.7
     },
     {
       "id": "x_prtimes_beauty",
@@ -1015,7 +1014,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.5
     }
   ]
 }
