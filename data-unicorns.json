@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18T21:04:22+09:00",
-  "generated_at_label": "2026/11/18 21:04 JST",
+  "generated_at": "2026-11-18T21:06:16+09:00",
+  "generated_at_label": "2026/11/18 21:06 JST",
   "title": "10億ドル以上ユニコーン ニュース監視",
-  "total": 239,
+  "total": 234,
   "sources": [
     {
       "id": "uc_01",
@@ -89,7 +89,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.5
     },
     {
       "id": "uc_02",
@@ -176,7 +176,7 @@
           "title_ja": "インフラストラクチャーのスタートアップ Fireworks AI は、300 億ドルから 400 億ドルの評価額で新たな資金調達に向けて初期交渉を行っている"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 2.0
     },
     {
       "id": "uc_03",
@@ -215,7 +215,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "カルシ氏、CFTCが懸念を表明後、トランプ大統領が市場に言及するとの見方を表明：CNBC"
         },
         {
@@ -230,7 +230,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true,
+          "is_new": false,
           "title_ja": "カルシがFB Securitiesを買収して株式とETF取引を開始すると報じられている"
         },
         {
@@ -262,7 +262,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.5
     },
     {
       "id": "uc_04",
@@ -346,7 +346,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.5
     },
     {
       "id": "uc_05",
@@ -433,7 +433,7 @@
           "title_ja": "香港デビューで株価がつまずく中、シェインのIPOは評価額を260億米ドルに引き下げる"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 3.9
     },
     {
       "id": "uc_06",
@@ -519,7 +519,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.8
     },
     {
       "id": "uc_07",
@@ -607,7 +607,7 @@
           "title_ja": "ウォルマートがドローン配送への賭けを拡大し、ジップラインの評価額は215億ドルに達する"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.7
     },
     {
       "id": "uc_08",
@@ -782,7 +782,7 @@
           "title_ja": "AI クラウド Modal、シリーズ D 資金調達ラウンドで 7 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_10",
@@ -870,7 +870,7 @@
           "title_ja": "McGuireWoods の Greg Hawver 氏が Harvey FORUM Chicago で法律 AI について講演"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.9
     },
     {
       "id": "uc_11",
@@ -924,7 +924,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "カステリオン、低コストの極超音速兵器の生産規模を拡大するためにシリーズCで10億ドルを調達"
         },
         {
           "title": "極超音速ミサイルを開発するCastelionがシリーズCラウンドで10億ドルの資金調達を実施",
@@ -952,10 +953,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "カステリオンがシリーズCで10億ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_12",
@@ -979,7 +981,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "TemporalがシリーズEで5億5,000万ドルを調達。企業価値は125億5000万ドル |ニュース"
         },
         {
           "title": "Inside Temporal's journey to a $12.55B valuation, and its bet on building a backbone for AI agents",
@@ -993,7 +996,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Temporal の評価額 125 億 5,000 万ドルへの道のりと、AI エージェントのバックボーン構築への賭けの内部"
         },
         {
           "title": "【評価額125.5億ドル】Temporal調達から解き明かすAI時代の必須インフラ",
@@ -1021,7 +1025,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Temporal が Lightspeed 主導で 5 億 5,000 万ドルを調達、評価額は 125 億 5,000 万ドル: AI エージェントには障害に耐えられるインフラストラクチャが必要な理由"
         },
         {
           "title": "Temporal reaches $12.5bn valuation with $550m Series E",
@@ -1035,10 +1040,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Temporalの評価額は5億5,000万ドルのシリーズEで125億ドルに到達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_13",
@@ -1062,7 +1068,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Instinct は最も活発な AI エージェントでした。Instinct は Muse に生き残ることができるでしょうか?"
         },
         {
           "title": "Instinct、非会員を含むグループチャットでAIエージェント利用可能に",
@@ -1090,7 +1097,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Instinct は、アカウントを持たない友人に対しても AI エージェントをグループ チャットに導入します"
         },
         {
           "title": "As Muse Tops the App Store and Instinct Raises $1 Billion, Snaplii Offers a Separate Wallet for AI Agent Spending, With Cashback",
@@ -1104,7 +1112,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Muse が App Store でトップとなり、Instinct が 10 億ドルを調達する中、Snaplii は AI エージェントの支出用にキャッシュバック付きの別のウォレットを提供"
         },
         {
           "title": "40% of users hand their credit card to AI assistant Instinct within 3 weeks — and experts say that's risky",
@@ -1118,10 +1127,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ユーザーの 40% が 3 週間以内に AI アシスタントの Instinct にクレジット カードを渡します – 専門家はそれが危険であると述べています"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_14",
@@ -1130,81 +1140,10 @@
       "handle": "",
       "status": "ok",
       "error": null,
-      "via": "https://news.google.com/rss/search?q=%22Quince%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20apparel%20OR%20retailer%20OR%20raises%29&hl=en-US&gl=US&ceid=US:en",
-      "count": 5,
-      "items": [
-        {
-          "title": "Quince Just Restocked Some of the Best Values in Golf Apparel",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTEdueU5OMkdFTG5wRGZGcjI1cHQ4WDFiV0I1UHRqVWpvQkFvc1hhMlVWY2E4S0I3T3ZPLVVfRHJCVVhvNXdack9kVU9vWGsxTVJrem9yVnZVVVczcFNPc0VqM0FNSGFLYlZ6VlFkQlMycTRhNUJIS3J3THpHSFZOUGhsRjdUSEg2RmVWeWIyUC1OcllLc05uSGU3dllXUQ?oc=5",
-          "domain": "mygolfspy.com",
-          "published": "2026-07-21T16:00:00+09:00",
-          "published_label": "7/21(火) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false
-        },
-        {
-          "title": "Quince's business model could be the new retail standard",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3Nfdi10c0dZZGd5WmVIbWdqT2hCTHoyUm10N3JtS21BMHgzb3pxaVpqVXRadzE3NXFYTHV5Y1lSOW5raDBlR25oRGxMbnVYVUlkdkVhUE15bUNhUEFpUnV4S2lpejdBRzBBcjI1OE5MWF8xQk5HX3ROUks0T0Y1VFd1TFlFM0xKUEM4Q2lhQWRWeWZ0OGxOVzBaWXNkUEk?oc=5",
-          "domain": "marketplace.org",
-          "published": "2026-05-25T16:00:00+09:00",
-          "published_label": "5/25(月) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false
-        },
-        {
-          "title": "Fashion Retailer Quince Sued Over Unauthorized Music Use In TikTok Influencer Posts",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1pqdm5YNUc4MzlJMHJFc0R3aHJYOFpQdzZQTHRGbWkzYXBiT05ZX0ltbldHMXhFVlloVk0wNTdwVHVmZUpsTUdvRlBpcWc2b0k2MzYxeTM4SWpnWkFaVWpXYi1IcEp4eW9CWVp5bUQ0c3N1UXBqaW1aTWdrNHN2X0lXTlBYS0VsSXlaTkc1OGZod3EtVklIM1AyRVcyMEFvSGtTc1l6Uk5IWHA0eG9hTFVfZlE?oc=5",
-          "domain": "netinfluencer.com",
-          "published": "2026-04-22T16:00:00+09:00",
-          "published_label": "4/22(水) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false
-        },
-        {
-          "title": "Why Quince’s Luxury-For-Less Model Has Earned A $10.1 Billion Valuation",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZGh4ZjNudmlDMHVZSHhZazZnNS13OWVLVDNVWFg3anRiS3ZnaVI2cm5RUHJJVlJ2WkduNzEyQS1pbHFLd2VJQVVZVXk4a3ozeHk3SkFKaVR4enQ1TWloUE16VVc1dG9OZXgzUGpvbi1XejFPNjJZcHRoRno5NjkwV1VXOTVpY1V5bkdLYmtsaFRwUEVmLWVHUDc3UTQtcmNLZWx4OHA2WTNjdnB4Ym9Cal8xbjhEdWQ5d2RudU9R?oc=5",
-          "domain": "forbes.com",
-          "published": "2026-03-24T16:00:00+09:00",
-          "published_label": "3/24(火) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": true
-        },
-        {
-          "title": "Quince raises $500 million, stone manufacturers seek federal protection, and more",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWpzNGpOMnV1YWQ5VVNHTTJ4eDAteV9XSTVlNUgyNERSWjYyMDQ5SFA0R2dJYk5CU1FoWUxxVVdLRktZeFdUUmN0Yng0N3cyMXZGWkRJS1pWVVdwR2VSd25nTzJZNnhtWGJZWHl3TW1LaUkxZXlGQU4tdEJ0eHE5Zzduc1ZPZmNsVmhVUV9iRXA5R1BRT0lWdHVULWxYdUppdko1UDFqcUQtQkNzUWt3bHBnZmE?oc=5",
-          "domain": "businessofhome.com",
-          "published": "2026-03-17T16:00:00+09:00",
-          "published_label": "3/17(火) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": true
-        }
-      ],
-      "elapsed": 0.5
+      "via": "https://news.google.com/rss/search?q=%22Quince%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20apparel%20OR%20retailer%20OR%20raises%29&hl=ja&gl=JP&ceid=JP:ja",
+      "count": 0,
+      "items": [],
+      "elapsed": 4.5
     },
     {
       "id": "uc_15",
@@ -1256,7 +1195,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Legora、成長を加速するために評価額 88 億ドルでシリーズ E で 5 億 5,000 万ドルを調達"
         },
         {
           "title": "Legal AI startup Legora valued at $8.8 billion in new $550 million funding round",
@@ -1270,7 +1210,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "法律 AI スタートアップ Legora、新たな 5 億 5,000 万ドルの資金調達ラウンドで評価額は 88 億ドル"
         },
         {
           "title": "Legal AI startup Legora raises $550M Series E at $8.8B valuation",
@@ -1284,10 +1225,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "法律 AI スタートアップ Legora が評価額 88 億ドルのシリーズ E で 5 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.9
     },
     {
       "id": "uc_16",
@@ -1353,7 +1295,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "フィジカル AI のリーダーである Agile Robots が世界的な成長を加速するために、評価額 85 億ドルでシリーズ F で 5 億ドルを調達"
         },
         {
           "title": "ソフトバンク主導で約800億円調達、独「Agile Robots」が評価額1.4兆円に、ヒューマノイド年産1万台へ",
@@ -1370,7 +1313,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.3
     },
     {
       "id": "uc_17",
@@ -1394,7 +1337,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Ground A がレーザードローン防御を拡大するために Vsquared と Quantum Systems から 910 万ユーロのプレシードを調達"
         },
         {
           "title": "Quantum Systems: Europe's $8B Defence-Drone Unicorn | Unicorn Atlas",
@@ -1408,7 +1352,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Quantum Systems: 欧州の 80 億ドルの防衛ドローン ユニコーン |ユニコーン アトラス"
         },
         {
           "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
@@ -1422,7 +1367,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Quantum Systems がドローンの生産と配備を拡大するために 12 億ドルを調達"
         },
         {
           "title": "Quantum Systems raises $1.2 billion, more than doubling valuation",
@@ -1436,7 +1382,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "Quantum Systems が 12 億ドルを調達、評価額が 2 倍以上に"
         },
         {
           "title": "UAV Manufacturer Quantum Systems Raises $1.2 Billion in Funding",
@@ -1450,10 +1397,11 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "UAVメーカーQuantum Systemsが12億ドルの資金調達"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.1
     },
     {
       "id": "uc_18",
@@ -1477,7 +1425,8 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": false
+          "is_new": false,
+          "title_ja": "ハドリアヌス帝、クッツタウン鋳造機械を買収、3億ドルの潜水艦鋳造拡張を計画"
         },
         {
           "title": "Hadrian, advanced manufacturing company, to invest $300 million in Kutztown Foundry to support military metal production",
@@ -1536,7 +1485,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_19",
@@ -1619,7 +1568,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_20",
@@ -1699,10 +1648,10 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 1.9
     },
     {
       "id": "uc_21",
@@ -1785,7 +1734,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.7
     },
     {
       "id": "uc_22",
@@ -1951,7 +1900,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "uc_24",
@@ -2034,7 +1983,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_25",
@@ -2117,7 +2066,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.8
     },
     {
       "id": "uc_26",
@@ -2366,7 +2315,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.5
     },
     {
       "id": "uc_29",
@@ -2449,7 +2398,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "uc_30",
@@ -2532,7 +2481,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "uc_31",
@@ -2544,20 +2493,6 @@
       "via": "https://news.google.com/rss/search?q=%22Emergent%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20AI%20OR%20raises%29&hl=en-US&gl=US&ceid=US:en",
       "count": 5,
       "items": [
-        {
-          "title": "Emergent Films Launches Integrated AI and Hybrid Video Production Services Across Singapore and Thailand",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZGw3Z2FtcjhPMFFZQkRTSjRTVlF0V2d6alZpZmRpX3BlSXJvZFlKcWtCbVdCd2pzcS04b3Nyekwzck05b2xJYUlsazZIVGdZZkhCYmcxWDVKcHJXNjZib2RfZVpYOVZCcm5XZ1Z1SzA4MW5zQmZoRTljdTQtRzBBTXRKWHJneXhrMzVBczFvbndQNnRU?oc=5",
-          "domain": "openpr.com",
-          "published": "2026-11-17T20:43:17+09:00",
-          "published_label": "11/17(火) 20:43",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "is_new": false
-        },
         {
           "title": "Emergent AI Review 2026: Can it Build an MVP from a Prompt?",
           "summary": "",
@@ -2613,9 +2548,23 @@
           "pinned": false,
           "type": "google_news",
           "is_new": false
+        },
+        {
+          "title": "AI Unicorn Emergent Raises $130 Million for GCC Expansion",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQUl5b3JINVNReVZmaTlQeTBXaWh4NVp6ODhHUFBOeDRpVnhMZ3lXU2NVTGZ2bnZRNko0U285YnVwLTVRM0FzQWpNTzFDcEQ4cmhRenE1a3pHWlBueU9Wb2tTdjkySlNxTEZNNlBCQktyMmh4NWZhVGFuZGVndG5GWDZhMExLVGtUNmJrZWZRYXFOZw?oc=5",
+          "domain": "cairoscene.com",
+          "published": "2026-07-16T20:17:14+09:00",
+          "published_label": "7/16(木) 20:17",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "uc_32",
@@ -2698,7 +2647,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_33",
@@ -2864,7 +2813,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "uc_35",
@@ -2916,7 +2865,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Walmart completes its acquisition of TV advertising company Vibe.co",
@@ -2930,7 +2879,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Walmart Closes Vibe.co Acquisition, Signaling a Big Push Into Ad-Supported Streaming to Compete With Amazon",
@@ -2944,10 +2893,10 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_36",
@@ -3016,13 +2965,13 @@
           "is_new": false
         },
         {
-          "title": "Unesco raises ‘grave concerns’ for Kyiv's Saint Sophia Cathedral after Russian drone strike",
+          "title": "Wells Cathedral raises £1m to fix deteriorating organ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc3JBbDRYVGh0blUteElBa3RsNjBjbHhwQ2NiQVdCWmZPZkgxWEhudkt3eG5lXzJOVmNEZ2lyX0RvSXVUa0pPQ1FiNHd3aHR1Xzg4OUh4c3R4enJHZzJReGpBWmUtV21TbGFJWFcyTXpBLXJyQzR4aklSNFpJSFNLaGlIeElqelQ2ZFN5TDFvcno3bUYyUGRaay1DejJzRTQ0ZnZ2c1o4NnZveWctOXRxeUtXcXFsdllTdlRsUzgzQmI2bWNCbUlNbG1SVktMcGJvNXI5SUZHQ20?oc=5",
-          "domain": "theartnewspaper.com",
-          "published": "2025-06-12T16:00:00+09:00",
-          "published_label": "2025/6/12(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5IaFhPY0dkS3NHeml5TTBZVnlkVm1DakFwYndSNzViUjVzTksyejVkYTlrd3VfeUhhaDJpYXVqUTc1UHQ2VHlqRXdWVFBaalViUFBFZkRDRFJLSnhl?oc=5",
+          "domain": "bbc.co.uk",
+          "published": "2025-01-26T17:00:00+09:00",
+          "published_label": "2025/1/26(日) 17:00",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3030,7 +2979,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.1
     },
     {
       "id": "uc_37",
@@ -3113,7 +3062,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.3
     },
     {
       "id": "uc_38",
@@ -3196,7 +3145,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 4.2
     },
     {
       "id": "uc_39",
@@ -3262,7 +3211,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Israeli startup Glow raises $180m for AI endpoint security platform",
@@ -3276,10 +3225,10 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "uc_40",
@@ -3362,7 +3311,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.9
     },
     {
       "id": "uc_41",
@@ -3442,10 +3391,10 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "uc_42",
@@ -3528,7 +3477,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 1.8
     },
     {
       "id": "uc_43",
@@ -3611,7 +3560,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.8
     },
     {
       "id": "uc_44",
@@ -3774,7 +3723,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -3846,7 +3795,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.8
     },
     {
       "id": "uc_47",
@@ -3926,7 +3875,7 @@
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -4012,7 +3961,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     }
   ]
 }

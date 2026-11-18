@@ -140,7 +140,6 @@ OVERRIDES = {
         "query": '"Wabi" (startup OR funding OR valuation OR AI OR raises)',
         "context": ["startup", "funding", "valuation", "raises", "raised", "AI",
                     "app", "Series", "資金調達", "評価額"],
-        "exclude": ["Emergent Films", "video production"],
     },
     "Vibe": {
         "query": '"Vibe" (Walmart OR advertising OR "ad tech" OR adtech OR "connected TV" OR adtech)',
@@ -175,6 +174,7 @@ OVERRIDES = {
         "query": '"Emergent" (startup OR funding OR valuation OR AI OR raises)',
         "context": ["startup", "funding", "valuation", "raises", "raised", "AI",
                     "app", "Series", "資金調達", "評価額"],
+        "exclude": ["Emergent Films", "video production", "film production"],
     },
     "Arda": {
         "query": '"Arda" (manufacturing OR "Arda Industries" OR robotics OR automation OR startup)',
@@ -189,7 +189,8 @@ OVERRIDES = {
         "context": ["startup", "valuation", "raises", "raised", "cyber", "military",
                     "defense", "stealth", "Series", "資金調達", "評価額"],
         "exclude": ["diocese", "church", "archbishop", "cathedral city", "worship",
-                    "Cathedral Arts", "St Paul", "St. Paul", "Big Sleep"],
+                    "Cathedral Arts", "St Paul", "St. Paul", "Big Sleep",
+                    "Saint Sophia", "Unesco", "UNESCO"],
     },
     "Hadrian": {
         "query": '"Hadrian" (startup OR funding OR valuation OR factory OR defense OR raises)',
