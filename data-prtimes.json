@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T03:50:37+09:00",
-  "generated_at_label": "2026/11/19 03:50 JST",
+  "generated_at": "2026-11-19T05:27:15+09:00",
+  "generated_at_label": "2026/11/19 05:27 JST",
   "title": "PR TIMES監視ボード",
   "total": 60,
   "sources": [
@@ -28,7 +28,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "千葉県で「鑑別書なし・古い真珠」の無料査定キャンペーンを開始｜真珠買取本舗 千葉市川店が長期保管品の売却相談...",
@@ -44,7 +44,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "WellSkate AI、エンタープライズ向け「AIエージェント・マーケットプレイス」を公開 — 高度な可視性とセキュリティ...",
@@ -60,7 +60,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ビジネスイベント特化のプラットフォーム「Meety」を正式リリース 探す・申し込む・チームでの運営をひとつに",
@@ -255,7 +255,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 0.5
     },
     {
       "id": "x_prtimes_mktg",
@@ -508,7 +508,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 1.1
     },
     {
       "id": "x_prtimes_biz",
@@ -520,6 +520,22 @@
       "via": "https://nitter.cf/PRTIMES_BIZ/rss",
       "count": 15,
       "items": [
+        {
+          "title": "年末年始の大掃除・断捨離を買取マクサス市川本八幡店が応援！市川市・船橋市・千葉市で「3ジャンル買取成立で3,00...",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123120818318397440/EUvgg5ny?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/PRTIMES_BIZ/status/2123128616997577100",
+          "domain": "x.com",
+          "published": "2026-11-19T03:58:02+09:00",
+          "published_label": "11/19(木) 03:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "千葉県で「鑑別書なし・古い真珠」の無料査定キャンペーンを開始｜真珠買取本舗 千葉市川店が長期保管品の売却相談...",
           "summary": "",
@@ -534,7 +550,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "4割超が生成AIで企業と出会う時代の新卒採用ブランディング",
@@ -743,25 +759,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "通販生活が初の日本一周クルーズ！2027年の夏休みシーズンに航海、「復興」と「平和」をテーマに復興地域を巡り広...",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123012606432772096/NJ2Vbz-u?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/PRTIMES_BIZ/status/2123020403648156001",
-          "domain": "x.com",
-          "published": "2026-11-18T20:48:02+09:00",
-          "published_label": "11/18(水) 20:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 1.6
     },
     {
       "id": "x_prtimes_beauty",
@@ -1014,7 +1014,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 1.4
     }
   ]
 }
