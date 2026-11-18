@@ -13,8 +13,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | IPO・マーケット監視ボード | `sources-ipo.json` | `ipo.html` | `data-ipo.json` |
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
 | スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
+| ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -34,6 +35,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ipo.json` | IPO・マーケットボードの監視対象 |
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
 | `sources-startup.json` | スタートアップボードの監視対象 |
+| `sources-ec-companies.json` | ピュアフラット登壇企業ボードの監視対象（70社。`sync_pureflat_companies.py` で生成） |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
 | `add_source.py` | 監視対象を1行で追加／削除（`--config` でボード指定／`--bulk` でまとめて追加） |
 | `index.html` / `data.json` | メインボードの生成物 |
@@ -41,6 +43,8 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `ipo.html` / `data-ipo.json` | IPO・マーケットボードの生成物 |
 | `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
 | `startup.html` / `data-startup.json` | スタートアップボードの生成物 |
+| `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
+| `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |
 
 ## すぐ使う
@@ -60,6 +64,34 @@ python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json 
 `sources-<名前>.json` を作るだけで、`<名前>.html` と `data-<名前>.json` が生成されます。
 （例: `sources-crypto.json` → `crypto.html` / `data-crypto.json`）
 ページ上部のボード切り替えピルは `settings.nav_label` で短い名前を指定できます。
+
+### 社名ごとにニュースを追う（登壇企業ボード）
+
+`sources-ec-companies.json` は、Excel の「登壇企業一覧」から起こした「1社＝1ソース（Google ニュース検索）」のボードです。
+
+```bash
+python3 sync_pureflat_companies.py --check   # Excel を読み直して設定を作り、各社のヒット件数も表示
+python3 update.py --board ec-companies       # このボードだけ更新
+```
+
+- 社名は法人格を外して検索し（`"ピュアフラット"`）、`must_match` でその社名を含む見出しだけを残します。
+- 「これから」「そばに」「グリニッジ」のように一般語でも使われる社名は、`context_match`（EC・通販・楽天…などの語）も
+  含む見出しに絞り、同名の別物（グリニッジ天文台、フュージョンエネルギー等）を落としています。
+  調整は `sync_pureflat_companies.py` の `OVERRIDES` に1行足すだけです。
+- 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
+
+```jsonc
+// sources-ec-companies.json の1社ぶん
+{
+  "id": "gn_02",
+  "type": "google_news",
+  "name": "株式会社そばに",
+  "query": "\"株式会社そばに\"",
+  "must_match": ["株式会社そばに", "そばにの", "そばにが"],
+  "context_match": ["EC", "通販", "楽天", "…"],
+  "limit": 5
+}
+```
 
 ## 和訳
 

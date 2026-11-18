@@ -32,6 +32,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -419,6 +420,26 @@ def clean_x_text(value: str) -> str:
     return "\n".join(lines).strip()
 
 
+def match_any_term(text: str, terms: list) -> bool:
+    """タイトルが must_match のどれかを含むか。
+
+    全角/半角・大文字小文字の揺れは NFKC + 小文字化で吸収する。
+    ラテン文字だけの語は単語境界で判定するので、"NE" が "ZO-NE" の
+    ように別の語の一部に紛れている場合は一致にしない。
+    """
+    t = unicodedata.normalize("NFKC", text or "").lower()
+    for term in terms or []:
+        n = unicodedata.normalize("NFKC", term or "").lower().strip()
+        if not n:
+            continue
+        if re.fullmatch(r"[\x00-\x7f]+", n):
+            if re.search(r"(?<![a-z0-9])" + re.escape(n) + r"(?![a-z0-9])", t):
+                return True
+        elif n in t:
+            return True
+    return False
+
+
 def clean_news_title(value: str, source_name: str = "") -> str:
     """Googleニュース由来の「 - サイト名」「(2026年11月17日掲載)」を落とす。"""
     s = (value or "").strip()
@@ -472,6 +493,13 @@ def build_items(src: dict, entries: list) -> list:
         else:  # news
             text = title
             images = images[:1]
+
+        # 社名ごとの監視では「その社名を含む見出し」だけを残す（同名他社・一般語のノイズ対策）
+        if src.get("must_match") and not match_any_term(text, src.get("must_match")):
+            continue
+        # 一般語の社名では、さらに業界語（EC・通販・楽天…）のどれかを含む見出しに絞る
+        if src.get("context_match") and not match_any_term(text, src.get("context_match")):
+            continue
 
         if (not text and not images) or not link:
             continue
@@ -749,7 +777,8 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
         try:
             raw, status, final = http_get(url, timeout, ua, retries)
             got = parse_feed(raw)
-            if not got:
+            if not got and src.get("type") != "google_news":
+                # 社名検索（google_news）は該当記事0件が普通なのでエラーにしない
                 raise ValueError("記事が0件（フィードが空か形式が違います）")
             entries.extend(got)
             used.append(url)
@@ -763,6 +792,16 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
                 print(f"    fail {url}  ({exc})")
 
     if not entries:
+        if used:
+            # フィードは取れたが記事が無い（社名検索でヒット0件など）
+            result.update(
+                status="ok",
+                via=used[0],
+                count=0,
+                items=[],
+                elapsed=round(time.time() - started, 1),
+            )
+            return result
         result.update(
             status="error",
             error=errors[0] if errors else "取得できませんでした",
