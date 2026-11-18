@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T03:30:18+09:00",
-  "generated_at_label": "2026/11/18 03:30 JST",
+  "generated_at": "2026-11-18T10:35:57+09:00",
+  "generated_at_label": "2026/11/18 10:35 JST",
   "title": "スタートアップ監視ボード",
   "total": 75,
   "sources": [
@@ -260,7 +260,7 @@
           "title_ja": "。日本を代表する音声 AI ラボである @kotoba_tech が イレブンラボに参加します。\n私たちは力を合わせて、kotoba の日本語音声リサーチを イレブンエージェントに提供し、より多くの企業が自然に日本語で顧客にサービスを提供できるようにしていきます。\nイレブンラボ、@noriyuki_kojima、@jungokasai、チームへようこそ。"
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.8
     },
     {
       "id": "x_tomotake94",
@@ -272,6 +272,68 @@
       "via": "https://nitter.cf/tomotake94/rss",
       "count": 15,
       "items": [
+        {
+          "title": "独ロボット企業のAgile Robots、5億ドル（約800億円）を調達、企業価値85億ドル（約1.4兆円）に。\nリードはソフトバンクグループで、NVIDIA、日立グループなども参加しています。\n2018年に、ドイツ航空宇宙センター（DLR）のロボット研究所の研究者たちが創業しました。CEOの陳兆芃氏は中国出身で、本社はミュンヘンと北京の2つです。初期には中国の大手VCであるHillhouseやHongShan（旧セコイア・チャイナ）が出資し、2021年にはソフトバンク・ビジョン・ファンド主導のシリーズCで、シャオミやフォックスコンも加わってユニコーンになりました。\n社員は3,500人を超え、これまでに産業用ロボットを2万台以上導入してきました。\nもともとは、力を感じながら精密に動くロボットアームと、それを使った工場の自動化を手がけていましたが、\n2025年11月には、産業用の人型ロボット「Agile ONE」を発表しました。2026年初めにはミュンヘン近郊で量産工場も稼働しています。\n売上は2024年に約2億ユーロ（約340億円）で、人型ロボットの会社としては珍しく、すでに大きな売上があります。\nAgile Robotsの魅力は、中国流の量産のノウハウを持ちながら、ドイツの工場で生産し、欧州の自動車メーカーを顧客にしていることです。\nつまり、欧米の製造業にとって「安心して入れられる人型ロボット」になれる、珍しい立ち位置です。\nとはいえ、中国にルーツを持つことは、量産の強みであると同時に、米国進出の際にはリスクにもなり得ます。\n「欧州の会社」として受け入れられるかが問われそうです。\n競合のドイツNeura Roboticsも、2026年6月に最大14億ドルを調達し、企業価値は約70億ドルと報じられています。欧州のロボット・スタートアップに、巨額の資金が集まり始めています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122488200761671680/xWel80Ny?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2122846191742534025",
+          "domain": "x.com",
+          "published": "2026-11-18T09:15:47+09:00",
+          "published_label": "11/18(水) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "血管の中の治療を遠隔で行うロボットを開発する米Remedy Robotics（レメディ・ロボティクス）が、シリーズBで6,200万ドル（約99億円）を調達しました。リードは米ディープテックVCのDCVC。\n開発しているのは、カテーテル治療を行うロボット「N1」です。カテーテル治療は、胸や頭を開かずに、足の付け根などの血管から細い管を入れて体内の血管を治療する方法です。\nN1は次の3つを組み合わせています。\n・治療の前に、AIが患者の画像を解析して手技を予行演習する\n・治療中は、事前の3D画像とリアルタイムのX線画像を重ねて、器具の位置を示す\n・操作は治療室からでも、別の建物からでもでき、自動で動かすこともできます\n2025年10月には、カナダで、医師が別の病院からロボットを操作して脳血管の治療を行い、「世界初の完全遠隔での脳血管内治療」を成功させました。\n脳の血管が詰まる脳梗塞では、カテーテルで血の塊を取り除く「血栓回収療法」がとても効果的ですが、治療は時間との勝負で、できる専門医がいる病院は限られています。\n専門医の「技術」を物理的な距離から切り離す同社には注目が集まっています。\n一方で、ハードルも高いです。\n1つ目は、規制と臨床試験です。N1はまだ治験中の機器で、承認までには時間と資金がかかります。\n2つ目は、通信の安全性です。遠隔操作では、通信の遅延や途切れが命に直結します。\n3つ目は、病院側の体制です。ロボットがあっても、現場でカテーテルの準備や患者の管理をするスタッフは必要です。\n過去には、独シーメンス・ヘルシニアーズが血管内治療ロボットの米Corindusを買収しながら、のちに撤退した例もあります。医療ロボットは技術だけでなく、普及のさせ方が勝負になります。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/tomotake94/status/2122842957338558816",
+          "domain": "x.com",
+          "published": "2026-11-18T09:02:56+09:00",
+          "published_label": "11/18(水) 09:02",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "特化型ファンドは珍しいです。\nただPEが成熟期ステージのベンチャーに投資することはKKRやEQTでも実績があります。\n片山幹健（Tomotake Katayama) (@tomotake94)\n日系PEのポラリス・キャピタルが、レイター期スタートアップ向けに500億円規模のグロースファンドを始動へ。最終的には1,000億円への規模拡大も視野。\nポラリスは、2004年にみずほ証券と現アセットマネジメントOneの出資で設立された独立系のPEファンドです。\nオーナー企業の事業承継、大企業の子会社の切り出し、上場企業の非公開化などを手がけ、買収した企業の価値を高めて再上場や売却で回収する「バイアウト」が本業です。洋菓子のBAKEや結婚式場のノバレーゼなどに投資してきました。\n2026年4月には、旗艦の6号ファンドを国内外合計で2,000億円超で組成してます。\nPEがなぜスタートアップに？\n背景にあるのは、日本のスタートアップ投資の「レイターの谷」です。\n2025年の国内スタートアップの資金調達額は約7,600億円で、ほぼ横ばい。2026年上半期は前年同期比で12%増えたものの、伸びの大半は一部の超大型案件によるもので、シリーズC以降、とくに創業から年数のたった企業への資金はむしろ細っています。\n上場ルールの厳格化（グロース市場で上場から5年たっても時価総額が100億円に届かない企業を上場廃止にする方針）によって小型IPOが事実上難しくなり、上場前に大きく育つ必要が出てきました。\n今後上場が難しくなるほど、M&Aやレイター期の資本政策が重要になります。\nポラリスは5号ファンドから、ヘルスケアやテクノロジーで「グロースバイアウト」（成長企業の買収）も手がけてきましたので、その上で今回グロースファンドに広げてきました。\n500億円のファンドなら、1社あたり数十億円規模の投資が想定され、スタートアップの新規の資金調達だけでなくVCの「出口」の受け皿としても機能しそうです。\n創業期から投資してきたVCの株を、グロースファンドが買い取るセカンダリー取引の担い手になる可能性もあるでしょう。\nVCの「次」の資金がPEから来る。日本のスタートアップ投資が、「シードからIPOまでVCで回す」から、ステージごとに担い手が分かれる時代に入りつつあることを示す動きですね。\n— https://x.com/tomotake94/status/2122448528064803286",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122240164827185152/TYkvxElm?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/INOUEd7c/status/2122836634798542958",
+          "domain": "x.com",
+          "published": "2026-11-18T08:37:48+09:00",
+          "published_label": "11/18(水) 08:37",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "ヒューリックが、航空機リース事業に参入。今後3年で1,000億円規模を投資し、機体の取得から管理、航空会社へのリース、売却までを手がけます。\n3年後には、この事業で営業利益100億円を目指します。\n12月1日付で、航空機への投資を担う完全子会社「Hulic Aviation Capital合同会社」を設立します。\n対象は、短・中距離路線向けで航空会社の需要が多い「単通路機」（通路が1本の小型ジェット機）で、新造機か、製造から年数の浅い中古機を、1機約100億円で10機ほど取得します。\n国内外の航空会社にリースし、3〜5年で外部に売却する想定です。\nあわせて、フィンテック グローバル傘下で航空機の管理を手がけるaviner（アビネール）の第三者割当増資を引き受け、33.4%を出資して持分法適用会社にします。\n機体の管理を任せ、案件の情報収集や航空会社との交渉でも連携します。aviner側は、住友商事や三菱商事系の航空機リース会社で経験を積んだ人材を抱えており、ヒューリックに足りない専門性を「出資して借りる」形です。\nなぜヒューリックが航空機リースなのか？\n1つ目は資金調達力の活用です。ヒューリックは格付けAA格で、低い金利で資金を集められます。\n航空機リースは、調達コストの差がそのまま利回りの差になる事業ですので、資金調達力が活かせます。\n2つ目は、航空機のリース料は主にドル建てで、借り手も世界中にいますので、金利の上昇、建築費の高騰、人口減少で、利幅が確保しにくくなる国内の不動産への依存を減らす事業として相性がよいです。\n加えて、中長期経営計画で2036年までにM&Aや企業投資に7,500億円を投じ、経常利益の3〜4割を新規事業で稼ぐ計画を掲げています。\nすでに教育（リソー教育、鉄緑会）、高齢者向けの配食（クックデリ）、データセンターなどへ広げており、航空機もこの「不動産の外へ」という流れの1つです。\nヒューリックの航空機参入の今後に注目ですね。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122595743374741504/Swb7x7fV?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2122825848726360517",
+          "domain": "x.com",
+          "published": "2026-11-18T07:54:57+09:00",
+          "published_label": "11/18(水) 07:54",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
         {
           "title": "累計調達 約37億円に対して、売却額は約160億円超。調達額の約4.3倍でのExit。\nAIの買収は売上より「人材＋データ＋特化モデル」を買う構図。\n日本語という参入障壁そのものが、バリュエーションの源泉になった好例ですね。\n片山幹健（Tomotake Katayama) (@tomotake94)\n音声AIの米ElevenLabsが、日本語を中心とした東アジア言語の音声AIを開発するKotoba Technologiesを1億ドル（約160億円）超で買収。\nKotobaは、これまでにSalesforce VenturesやSony Innovation Fundなどから、累計約2,300万ドル（約37億円）を調達していました。\n音声AIの多くは英語を中心で、日本語にはAIにとっての難所がいくつもあります。\n・同音異義語が多く、漢字の読みも文脈で変わる\n・敬語など、相手との関係で言い回しが大きく変わる\n・動詞が文の最後に来るため、同時通訳では「最後まで聞かないと訳せない」場面が多い\nとくに3つ目は、リアルタイムで話すAIエージェントや同時通訳にとって致命的な壁です。Kotobaは、この壁に真正面から取り組んできた数少ないチームでした。\nElevenLabsは2022年創業で、2026年2月に5億ドルを調達し、企業価値は110億ドル（約1.8兆円）、年間の売上規模は5億ドル（約800億円）を超えたとみられています。既に日本にも拠点を開設していて、昨年の11月には日本語の音声AIの開発に投資することも発表していました。\n今回の買収には狙いが2つあるとみられます。\n1つ目は、日本市場の攻略です。日本はコールセンターや受付などの人手不足が深刻で、自然な日本語で応対できる音声AIエージェントの需要は大きいはずです。\n今回Kotobaの社員15人はElevenLabsに加わります。自前で日本語の研究チームを一から育てるより、トップ研究者のチームごと買う方が速いという判断でしょう。\n2つ目は、コンテンツの吹き替えです。アニメなど日本発のコンテンツを多言語に吹き替える需要は世界で大きく、日本語の音声を高い品質で扱えることは、その入り口になります。\n今回は、いわゆるアクハイヤー（人材獲得目的の買収）に近い案件と言えそうですが、\n創業3年で日本のディープテックが世界のトップ企業に評価され、1億ドル超でのイグジットを実現した意味は大きいと思います。日本の研究者が起業して世界で評価される新しいモデルケースになりそうです。\n— https://x.com/tomotake94/status/2122452314116223169",
           "summary": "",
@@ -286,7 +348,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "片山幹健（Tomotake Katayama) (@tomotake94)\nハウス食品グループ本社が、ココイチを運営する壱番屋の売却を検討している。\n報道を受けて壱番屋の株価はストップ高買い気配。\nすでに複数の投資ファンドが名乗りを上げています。\nハウス食品は2015年に壱番屋をTOBで子会社化し、原材料調達などで連携してきました。\n今回は事業ポートフォリオの見直しと、親子上場の解消による資本効率の向上が理由。\n壱番屋の業績は好調で、\n2026年2月期の売上高は約655億円、EBITDAは70億円でマージン10.7%。\nフランチャイズ中心で、しかも社員がのれん分けで独立するブルームシステムという独自の制度を持つため、本部が資本を大きく使わずに店舗を増やせる。アセットライトで資本効率の高いモデルです。\n一方で、EV/EBITDAは外食チェーンとしては高めな水準ですので、海外展開の加速などで大きく伸ばしていけるファンドが有力にはなりそうですね。\nまた、ハウス食品との原材料調達の連携は子会社化よりも前の創業期から続いていましたので、独立後も継続して供給契約を続けられるのかもポイントに思います。\n— https://x.com/tomotake94/status/2094351013801275549",
@@ -302,7 +364,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "電池スタートアップ、Our Next Energy（ONE）が、SPAC（特別買収目的会社）のWen Acquisition Corpとの合併で米ナスダックに上場します。\n上場前の評価額は6億ドル（約960億円）で、償還（SPAC株主の払い戻し）がなければ4億ドル（約640億円）を調達でき、上場後の株式価値は約10億ドル（約1,600億円）になる見込みです。\nONEの電池は「Gemini（ジェミニ）」と呼ばれる、以下の2種類の電池を1つのパックに組み合わせたEV向けの「デュアルケミストリー電池」です。\n・日常使いの電池：安全で長持ちするLFP（リン酸鉄リチウム）電池。毎日の通勤など短い距離はこちらで走る\n・長距離用の電池：負極材（アノード）を省いた「アノードフリー」電池。容積あたりのエネルギー密度は1,007Wh/Lと極めて高く、長距離を走るときだけ使う\n普段は丈夫なLFP電池で走り、高密度のアノードフリー電池は「たまに使う予備タンク」に限定し、自社開発の電力変換装置で制御することでEVの走行を最適化するものです。\nところが、EVの需要が想定より伸びず、自動車メーカーは安い中国製の電池を選びました。2023年末のシリーズCの資金調達は失敗し、大規模な人員削減とEVからの撤退で倒産寸前になりました。イジャーズCEOも一度は解任されました。\nその後、2025年3月に、イジャーズ氏の兄弟が率いる投資会社が共同で主導した資金調達でCEOに復帰し、事業を大胆に組み替えました。\n今の事業は、鉄道と防衛に集中しています。\n・鉄道：2.8MWhの電池を積むハイブリッド機関車や、小型の電池でディーゼルエンジンの始動を早める仕組みで、ディーゼル燃料の消費を50%改善できるとしています\n・防衛：ドローン、潜水艦、防衛用データセンター向けの電池\nミシガン州ノバイに年3GWhの電池パック組立工場を持ち、中国製と非中国製の両方のセルを使っています。今年の売上は約3,000万ドル（約48億円）で、来年はその約2倍を見込み、拘束力のある複数年契約は計2億ドル（約320億円）に上るといいます。\n「どこに売るか」の転換によって一気に風が吹きました。\n自動車も電力網向けの蓄電池も、結局は価格勝負で中国勢に勝てませんでした。\n一方で、防衛や鉄道では「米国で作っていること」自体が価値になります。\n画期的な技術を持っていても、売り先と価格で勝てなければ生き残れない。そこから「勝てる市場」を選び直して上場にたどり着いた事例として日本のDeepTechでも参考になりそうですね。",
@@ -318,7 +380,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIで地中熱用の掘削を最大80%速くするBedrock Energy（ベッドロック・エナジー）が、2,400万ドル（約38億円）を調達。\nリード投資家はClean Energy VenturesとClearvision Venturesです。\nビル向けの「地中熱ヒートポンプ」の導入を手がけています。\n地下の温度は年間を通じてほぼ一定です。その性質を利用し、冬は地中から熱を取り出して暖房に、夏は地中へ熱を逃がして冷房に使う仕組みです。\nちなみに、地下深くの高温を使って発電する「地熱発電」とは全く別物です。\nBedrockが掘るのは深さ約300メートル程度の浅い井戸で、目的は建物の冷暖房です。\n地中熱ヒートポンプは省エネ効果が高いにもかかわらず、井戸を掘るコストがネックで米国のビルではごく一部にしか普及していません。\nBedrockは、石油・ガス業界の「方向制御掘削（ドリルの向きを操りながら掘る技術）」をビル向けに持ち込み、AIで掘削機を制御することで、掘削時間を最大80%短縮できる、つまり低コストで掘削できるようにしています。\nなぜ地中熱ヒートポンプが注目されているのか？\n1つ目は、電力網の逼迫です。地中熱ヒートポンプは、エアコンのように猛暑や厳寒の日に電力消費が跳ね上がることが少なく、電力の使い方が平準化します。\n周辺の建物にまとめて導入すれば、電力網にかなりの余力を生み出せます。\nAIデータセンターの増設で電力網の容量が奪い合いになるなか、「需要側で電力を減らす」技術の価値が高まっています。\n2つ目は、データセンターそのものの需要です。同社はデータセンターの開発事業者とも協議しており、サーバーの冷却に使う構想です。\n「掘る」という地味な工程のコストをテクノロジーで下げることで、地中熱ヒートポンプの市場そのものを広げ、電力網の逼迫というメガトレンドに乗る面白い企業ですね。",
@@ -334,7 +396,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ブラックストーン傘下の上場不動産投資信託（REIT）「ブラックストーン・デジタル・インフラストラクチャー・トラスト（BXDC）」が、アマゾン・ウェブ・サービス（AWS）とのデータセンター共同事業2つについて、持ち分75%を取得すると発表しました。取引規模は約50億ドル（約8,000億円）です。\nBXDCは2026年5月にニューヨーク証券取引所に上場しており、これが上場後初めての投資になります。\n対象は、米インディアナ州北部（シカゴ圏）とミシシッピ州にあるAWSの2つのキャンパスで、新築のデータセンター13棟です。IT電力の容量は合計647メガワットあります。\n建物は「パワードシェル」と呼ばれる形態です。建物と電力の引き込みまでを備えた「外箱」で、サーバーなど中の設備はアマゾンが自分で入れます。\nアマゾンが全棟を借り戻す（セール・アンド・リースバック）形式で、当初の賃貸期間は12年で、延長すれば最長32年。\n賃料は毎年2.75%ずつ上がる契約で、取得時の利回り（キャップレート）は7.0%です。\nアマゾンにとって、データセンターは、持っているだけで巨額の資金が眠ってしまうため、売って借り戻すことで建物に縛られていた資金を回収でき、それをAI向けの半導体や新しいデータセンターに回せます。7%という利回りは、アマゾンにとって「年率約7%のコストで資金を調達した」ということになりますが、\n持ち分25%を残すのは、運営への関与と将来の値上がり益を手放さないためでしょう。生成AI向けの設備投資が膨らむなかで、大手IT企業が資産を外部の資金に置き換えていく流れが本格化してきています。\nちなみに、BXDCは上場時の資金調達分＋不動産担保のノンリコースローンで今回の取得金額を賄い、上場資金をこの一案件で使い切る形です。\nBXDCは、上場時点で物件を1つも持たない「ブラインドプール」型のREITでしたが、格付けの高いアマゾンを借りてに当初想定よりも高い利回りを実現しました。\n今回の取得の借入比率が約49%とやや高いのと、借り手が1社に集中している（12年後に契約を更新するかはそのときのAI需要や技術の変化次第）というのは気になるポイントですが、\nIT大手がデータセンターをつくり、投資会社が保有して貸す。AIの設備投資を支える資金の流れとして、この役割分担は今後さらに広がりそうですね。",
@@ -371,9 +433,7 @@
         {
           "title": "ハウス食品G、ココイチの壱番屋の売却で米KKRに優先交渉権。\nハウス食品は親子上場を解消し、主力のスパイス事業に経営資源を集中させます。\nハウス食品と壱番屋の関係は1974年にさかのぼります。ココイチのカレールウは、もともと全量がハウス製でした。\nハウスは2015年に1株6,000円でTOBを行い、出資比率を19.55%から51%に引き上げて子会社にしました。創業者の宗次徳二氏夫妻も株式をすべて売却しています。このときハウスは上場を維持する設計を選び、「ルウはハウス、店の運営は壱番屋」という役割分担が続いてきました。\n壱番屋の2026年2月期の業績は、\n・売上高：655億円（前期比7.4%増）\n・営業利益：47億円（同4.3%減）\n・純利益：25億円（同19.2%減）\n増収は続いているものの、利益は伸び悩んでいます。値上げが続いたことで、国内では客数が減っているとも報じられています。2027年2月期の会社予想は、売上高726億円、営業利益50億円です。\nハウス食品にとって壱番屋は含み益の塊です。ハウスの持ち分51%は、時価で約970億円の価値がありますが、2015年のTOBに投じたのは約300億円でした。\nPBRが1倍台前半のハウス食品にとっては、成長性の高いスパイス事業に資金を回し、資本効率を高めたいという狙いもあり、100%子会社にするのではなく今回手放すことにしました。\n気になるのは価格です。壱番屋の株式時価総額は約1,900億円で、予想PER（株価収益率）は約70倍、PBRは5倍を超えます。\n売却の思惑で、株価はかなり高い水準です。ここにTOBのプレミアムを加えるとかなり割高な買い物になりそうです。\nそれでもKKRが手を挙げたのは、\n・海外：インド、米国、英国などへの出店を、本格的に加速できる余地\n・M&Aの受け皿：ココイチを核に、他の外食ブランドを買い足していく「プラットフォーム型」の成長\nなどに伸びしろを感じているからかもしれません。\n食品メーカーが外食を手放し、ファンドが外食チェーンを成長させる。KKRが壱番屋をどう伸ばしていくのか、まだ優先交渉権の段階ではありますが、今後に注目ですね。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122579889798963200/S4gsR2QS?format=jpg&name=800x419"
-          ],
+          "images": [],
           "link": "https://x.com/tomotake94/status/2122617103320842724",
           "domain": "x.com",
           "published": "2026-11-17T18:05:28+09:00",
@@ -445,73 +505,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "積水化学工業（住宅カンパニー、セキスイハイムを手掛ける）と、マンション分譲のフージャースホールディングスが資本業務提携。\n積水化学がフージャースの子会社で不動産運用会社のフージャースキャピタルマネジメント（HCM）に出資し、HCMが運用する私募リート「フージャースプライベートリート投資法人」（HPR）に対し、積水化学がスポンサーとして物件の供給などを支える契約も締結しました。\n両グループの土地・物件情報を持ち寄り、地方の主要都市や郊外を含めて賃貸住宅を開拓し、HPRへ安定的に物件を供給していきます。\n同業の積水ハウスや大和ハウスがグループ内に上場リートを持つのに対して、積水化学は自前のリートを持っていません。\n私は「建てた後の出口」を手に入れることが最大の狙いだとみています。\n今回のHCMへの出資で、自社が開発した賃貸住宅を継続的に買ってくれる「器」を手に入れることが積水化学の狙いと考えられます。\n新築の戸建て市場が人口減少と建築費の高騰で縮小傾向の中で、投資家が長く持つ賃貸住宅へ領域を広げでいきます。\nフージャースにとっても、私募リートの成長に欠かせない物件の供給源の確保につながります。\n積水化学がスポンサーに加われば、物件の供給源が太くなるだけでなく、投資家からの信用力も高まります。\nフージャースはもともと、地方都市でのマンション分譲（「デュオヒルズ」など）を得意としています。リートの物件が大都市に偏るなか、地方・郊外の住宅は利回りが取りやすい「空白地帯」です。地方に強い両社が組むことで差別化しています。\n住宅メーカーは「建てて売る」から「建てて、持ってもらい、管理し続ける」へ転換していますね。\n地方・郊外の賃貸住宅は、利回りが高い一方で、人口減少による空室リスクも大きいですが、今後に注目です。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122149996770508801/163QixcR?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122477936175665612",
-          "domain": "x.com",
-          "published": "2026-11-17T08:52:28+09:00",
-          "published_label": "11/17(火) 08:52",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "豊田通商が、車載ソフトウエア事業を担う新会社「豊通デフィネックス」を設立。2027年1月に事業を始め、その後デンソーが第三者割当増資を引き受けて20%を出資します。\n新会社の母体は、豊通の100%子会社で電子部品・半導体商社のネクスティ エレクトロニクスです。\n同社は20年以上にわたり、車載ソフトの受託開発、ソフト流通プラットフォームの運営、業界標準化団体の運営を手がけており、そのソフト開発機能を切り出したのが今回の新会社です。国内外で約500人の技術者が所属します。\nデンソーは、今回の出資を通して、高度なソフトを開発できる新会社の「人の厚み」を必要なときに使いたい。\n新会社はデンソー以外の受託案件もありますので、中立性は保ちつつ、デンソーとの関係性・取引は強化したいというところから20%の出資になったのではないかと思われます。\n豊田通商にとっても、電子部品・半導体の商社では薄利なため、SDV（ソフトウエアで車の機能を高める次世代車）の時代に、半導体とそれを動かすソフトを一体で提供することで付加価値を出す戦略です。\nソフトの受託開発と流通の基盤を持つことは、「モノを売る商社」から「技術とソフトを売る商社」を見据えた一手です。\nとはいえ、競争は厳しい分野です。インドや中国など車載ソフトを専門に1万人規模の技術者を抱える企業もいますしトヨタ自身もウーブン・バイ・トヨタのSDV基盤「Arene」の展開を急いでいます。\n500人規模の新会社が埋没せずに存在感を示せるか今後に注目です。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122217981392629760/YRQPm21W?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122471999654224147",
-          "domain": "x.com",
-          "published": "2026-11-17T08:28:52+09:00",
-          "published_label": "11/17(火) 08:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "米国テック企業の幹部層に日本人がほとんどいない、という課題がよく聞かれますが、生え抜きではなかなか厳しいキャリアトラックも、こうしたAcqui-hiringによって参画すると登用される可能性が高まると思うので、そうした意味でもとても意義深い買収だと思います。おめでとうございます！\n片山幹健（Tomotake Katayama) (@tomotake94)\n音声AIの米ElevenLabsが、日本語を中心とした東アジア言語の音声AIを開発するKotoba Technologiesを1億ドル（約160億円）超で買収。\nKotobaは、これまでにSalesforce VenturesやSony Innovation Fundなどから、累計約2,300万ドル（約37億円）を調達していました。\n音声AIの多くは英語を中心で、日本語にはAIにとっての難所がいくつもあります。\n・同音異義語が多く、漢字の読みも文脈で変わる\n・敬語など、相手との関係で言い回しが大きく変わる\n・動詞が文の最後に来るため、同時通訳では「最後まで聞かないと訳せない」場面が多い\nとくに3つ目は、リアルタイムで話すAIエージェントや同時通訳にとって致命的な壁です。Kotobaは、この壁に真正面から取り組んできた数少ないチームでした。\nElevenLabsは2022年創業で、2026年2月に5億ドルを調達し、企業価値は110億ドル（約1.8兆円）、年間の売上規模は5億ドル（約800億円）を超えたとみられています。既に日本にも拠点を開設していて、昨年の11月には日本語の音声AIの開発に投資することも発表していました。\n今回の買収には狙いが2つあるとみられます。\n1つ目は、日本市場の攻略です。日本はコールセンターや受付などの人手不足が深刻で、自然な日本語で応対できる音声AIエージェントの需要は大きいはずです。\n今回Kotobaの社員15人はElevenLabsに加わります。自前で日本語の研究チームを一から育てるより、トップ研究者のチームごと買う方が速いという判断でしょう。\n2つ目は、コンテンツの吹き替えです。アニメなど日本発のコンテンツを多言語に吹き替える需要は世界で大きく、日本語の音声を高い品質で扱えることは、その入り口になります。\n今回は、いわゆるアクハイヤー（人材獲得目的の買収）に近い案件と言えそうですが、\n創業3年で日本のディープテックが世界のトップ企業に評価され、1億ドル超でのイグジットを実現した意味は大きいと思います。日本の研究者が起業して世界で評価される新しいモデルケースになりそうです。\n— https://x.com/tomotake94/status/2122452314116223169",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122385927456882688/QKsYVt0G?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/ito_monta/status/2122464174957908127",
-          "domain": "x.com",
-          "published": "2026-11-17T07:57:47+09:00",
-          "published_label": "11/17(火) 07:57",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "音声AIの米ElevenLabsが、日本語を中心とした東アジア言語の音声AIを開発するKotoba Technologiesを1億ドル（約160億円）超で買収。\nKotobaは、これまでにSalesforce VenturesやSony Innovation Fundなどから、累計約2,300万ドル（約37億円）を調達していました。\n音声AIの多くは英語を中心で、日本語にはAIにとっての難所がいくつもあります。\n・同音異義語が多く、漢字の読みも文脈で変わる\n・敬語など、相手との関係で言い回しが大きく変わる\n・動詞が文の最後に来るため、同時通訳では「最後まで聞かないと訳せない」場面が多い\nとくに3つ目は、リアルタイムで話すAIエージェントや同時通訳にとって致命的な壁です。Kotobaは、この壁に真正面から取り組んできた数少ないチームでした。\nElevenLabsは2022年創業で、2026年2月に5億ドルを調達し、企業価値は110億ドル（約1.8兆円）、年間の売上規模は5億ドル（約800億円）を超えたとみられています。既に日本にも拠点を開設していて、昨年の11月には日本語の音声AIの開発に投資することも発表していました。\n今回の買収には狙いが2つあるとみられます。\n1つ目は、日本市場の攻略です。日本はコールセンターや受付などの人手不足が深刻で、自然な日本語で応対できる音声AIエージェントの需要は大きいはずです。\n今回Kotobaの社員15人はElevenLabsに加わります。自前で日本語の研究チームを一から育てるより、トップ研究者のチームごと買う方が速いという判断でしょう。\n2つ目は、コンテンツの吹き替えです。アニメなど日本発のコンテンツを多言語に吹き替える需要は世界で大きく、日本語の音声を高い品質で扱えることは、その入り口になります。\n今回は、いわゆるアクハイヤー（人材獲得目的の買収）に近い案件と言えそうですが、\n創業3年で日本のディープテックが世界のトップ企業に評価され、1億ドル超でのイグジットを実現した意味は大きいと思います。日本の研究者が起業して世界で評価される新しいモデルケースになりそうです。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122385927456882688/QKsYVt0G?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122452314116223169",
-          "domain": "x.com",
-          "published": "2026-11-17T07:10:39+09:00",
-          "published_label": "11/17(火) 07:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 1.0
     },
     {
       "id": "x_kosuke_uchida",
@@ -770,7 +766,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.3
+      "elapsed": 0.9
     },
     {
       "id": "x_tmiyatake1",
@@ -799,232 +795,230 @@
           "is_new": false
         },
         {
-          "title": "減量・健康管理プログラムを提供するNoomが新しい健康管理用のウェアラブルデバイス「Noom Band」を披露し、2027年にローンチすることを発表した。\n心拍数、HRV（心拍変動）、SpO2（血中酸素飽和度）、睡眠データ、活動量などをトラッキングできるとのこと。",
+          "title": "マクドナルドが映画「ホーム・アローン」の公開36周年を記念してアメリカでコラボメニュー「Home Alone Meal」を販売することを発表した。\nKevin McCallister役を演じたMacaulay Culkinを起用している。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122460277723836416/oGN0_ZIe?format=jpg&name=800x419"
+            "https://pbs.twimg.com/amplify_video_thumb/2122814946325250048/img/R2K-QRsfad4jTUur.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122482348105015612",
+          "link": "https://x.com/tmiyatake1/status/2122844861602603075",
           "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
+          "published": "2026-11-18T09:10:30+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "今年アメリカで最も期待されているゲーム「Grand Theft Auto VI」はプロモーションで色んな企業と提携してローンチ前に一部のゲーム映像を披露している。\n直近だと天気予報アプリのWeather Channelと提携。これはめちゃくちゃ良い戦略。\nThe Weather Channel (@weatherchannel)\nNobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI.\n“Grand Theft Auto VI takes place in Leonida – a fictional world inspired by modern-day Florida, a landscape with one of the most unpredictable weather systems in the US. To match the fidelity of all aspects of what is the deepest, most immersive take on the Grand Theft Auto series yet, we had to completely reimagine our in-game weather systems to feel more localized, persistent, and above all dynamic. Weather can range with everything from clear blue skies to towering vertiginous cumulonimbus clouds, grounding players in a world through weather we hope Florida locals - and new visitors to Leonida - can appreciate.” – Owen Shepherd, VP of Art: Light and Rendering, Rockstar Games.\nWelcome to Leonida. 🌴\n— https://x.com/weatherchannel/status/2122429589326798848",
+          "title": "Stripe Pressの新サイトがめちゃくちゃ良い。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXSHlO6agAATL1-.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2122833726841446400/img/eIwn6zekYXKxnMEB.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122482348046397648",
+          "link": "https://x.com/tmiyatake1/status/2122844736067092755",
           "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "AI企業のSpacesheepがAIコーディングエージェントの実行ログやセッションを統合・監視・管理するためのオープンソースのプロトコルおよびCLI「sessionpipe」をリリースした。\nVideo\nMichael Makarov (@micmakarov)\nWe launched sessionpipe\nopen source. It connects all your coding-agent sessions, on any harness, and lets you save, search, share and start them from any device\nHow many harnesses do you run?\nVideo\n— https://x.com/micmakarov/status/2122414713539887231",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122454970696122368/img/R3GZUrUr6y6Lbq7K.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2122414443464409088/img/Zcv0g0rYneN0G8DY.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482347941544406",
-          "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "AppleTVアプリでApple Podcast上でアップロードされたビデオポッドキャストを視聴できるようになる予定。\nSpotifyやYouTubeとより対抗する中、この展開はもっと早めに行うべきだったかもしれない。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122343957782835200/GmNPwAvz?format=png&name=800x419"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482347878834316",
-          "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "Chipotleが映画館にブリトーを隠して持ち込むための特製パーカーをローンチした。\n相変わらずグッズ制作がめちゃくちゃ上手いブランド。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122462448875892737/img/mF9BWY2OVmyyO_cW.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482347841118396",
-          "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "トップ人材に対して5年前と比べて給料を10倍支払いたいとVanta CEOのChristina Cacioppoが語る。\nOff Topicでも話したが、AI時代に入ってからより社内での格差が激しくなる気がする。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2112669098018766848/img/8KKypQ3wFc3nHyYK.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482347773755422",
-          "domain": "x.com",
-          "published": "2026-11-17T09:10:00+09:00",
-          "published_label": "11/17(火) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "ブランド所有・ライセンス管理会社のRepublic Brands GroupがファッションブランドのRebecca Minkoffを買収したことが発表された。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122470917993594880/bzxB4kvK?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482096274813183",
-          "domain": "x.com",
-          "published": "2026-11-17T09:09:00+09:00",
-          "published_label": "11/17(火) 09:09",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "個人向けのAIヘルスケア・コンパニオンを提供するAugust AIが$12M調達を発表した。\n保険適用内の病院探しと電話予約、最安値の薬局検索、医療費請求書の誤りチェックや保険会社への異議申し立てなど事務手続きを代行するAIエージェントも提供している。\nVideo\nAnuruddh Mishra (@anuruddh_m)\nWe raised $12M from @Accel and @PeakXV to put AI through the bullshit American healthcare puts you through.\nNavigating healthcare is hard and all of us have a list of healthcare tasks we’ve been putting off. From visiting a doctor to filing an insurance claim, the tasks pile up and get put off.\nWe’ve already helped 10M people understand their health. August now talks to the health system on your behalf. Tell it what you need, and August takes care of it.\nIn the last few weeks, August spent 24,286 minutes on hold while finding the earliest available in-network doctor appointments for our early users.\nIt spent 366 minutes on hold for one person alone. It also helped another save $1,255 on an insurance claim. Naturally, the ones who tried it say that they can't ever imagine going back.\nI’ve held the phone for hours calling doctors, while a disease made it hard to even hold the phone. I’ve felt lost and overwhelmed when dealing with a disease and the system.\nIt’s why I started building August, so that all of us have a companion for our health.\nVideo\n— https://x.com/anuruddh_m/status/2122374778074038613",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122454480629407744/img/9TcA8o7w-YzKvh_G.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2122370428652212224/img/6Da40ISnQVUQuLtq.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2122482096258347228",
-          "domain": "x.com",
-          "published": "2026-11-17T09:09:00+09:00",
-          "published_label": "11/17(火) 09:09",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "心血管疾患や脳卒中などの緊急手術を遠隔操作や自動制御で支援する血管内手術ロボットを開発するRemedy Roboticsが$62M調達を発表した。\n今現在100以上の病院と提携している。",
+          "title": "Google DeepMindのChief Strategy OfficerのJasjeet Sekhonが退任してAnthropicにジョインした。\nJas Sekhon (@Jas_S_Sekhon)\nI am excited to share that I have joined Anthropic. I am working to ensure that Claude practices and values epistemic rigor. This continues my long-standing interest in research methodology: how we learn what we know, and how we quantify what we do not.\nI am grateful to @demishassabis, who hired me at Google DeepMind, to @sundarpichai, and to the many wonderful people I got to know there.\n— https://x.com/Jas_S_Sekhon/status/2122460665407525045",
           "summary": "",
           "images": [],
-          "link": "https://x.com/tmiyatake1/status/2122482096245727302",
+          "link": "https://x.com/tmiyatake1/status/2122844736063148309",
           "domain": "x.com",
-          "published": "2026-11-17T09:09:00+09:00",
-          "published_label": "11/17(火) 09:09",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "VCファンドのBessemerではAnthropicへの投資は最も異論が多かった案件だった。\nBessemerパートナーのByron Deeterによると最も低く投票された案件だったらしい。",
+          "title": "a16zの大学を代替するための教育プログラム「Horowitz Andreessen Academy」。\nVideo\nHorowitz Andreessen Academy (@theacademysf)\nIt's 2026.\nDropping out or going to college shouldn't be the only options.\nVideo\n— https://x.com/theacademysf/status/2122490269279092773",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2112671533361754112/img/-niqVXoaJlm0z05E.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2122660810212380673/img/oCKUD3zXroSEWVZe.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2122469772067799040/img/OKaXimoQ2pHga7iz.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122482096161919311",
+          "link": "https://x.com/tmiyatake1/status/2122844735949738450",
           "domain": "x.com",
-          "published": "2026-11-17T09:09:00+09:00",
-          "published_label": "11/17(火) 09:09",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "AIコーディングエージェントの作業履歴をチームで共有・管理するためのプラットフォームTracesがVercelに買収された。",
+          "title": "Googleが長めのプロジェクトや複数ステップにわたる複雑な作業や繰り返し発生するルーチンワークをGeminiにバックグラウンドで自律的に任せられる機能「Tasks in Gemini」をアメリカ、日本、韓国、カナダ、オーストラリア、インドで無料で展開し始めたことを発表した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122343401895124992/81gA6zEE?format=png&name=420x420_2"
+            "https://pbs.twimg.com/amplify_video_thumb/2122811840757735424/img/vPQ19EHWM-w4pVSp.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122481844704960979",
+          "link": "https://x.com/tmiyatake1/status/2122844735870214643",
           "domain": "x.com",
-          "published": "2026-11-17T09:08:00+09:00",
-          "published_label": "11/17(火) 09:08",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "多くのAIモデルはアラインメントがあると思わせようとしているとMicrosoft CEOのSatya Nadellaが語る。",
+          "title": "MetaがInstagramのDM機能を独立させたメッセージアプリ「Direct」の検証をスタートした。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2112893632294653952/img/stzg2dxfZ8WEPaCj.jpg?name=small"
+            "https://pbs.twimg.com/media/HXXX-01a8AAyuC7.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122481844679807240",
+          "link": "https://x.com/tmiyatake1/status/2122844735836487714",
           "domain": "x.com",
-          "published": "2026-11-17T09:08:00+09:00",
-          "published_label": "11/17(火) 09:08",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "AIネイティブな採用自動化スタートアップ「Perfectly」がローンチした。\n候補者の発掘（ソーシング）からスカウト送信、一次スクリーニング、面接調整までを一貫して自律的に行うとのこと。\nVideo\nVictor Luo (@victorluo00)\nI'm excited to announce @hireperfectly is launching after raising at a $25M valuation from Y Combinator, Etna Labs, top angels, and others to become the best way to hire.\nPerfectly is the first AI-native recruiting team that actually owns your company's hiring goals end-to-end.\nTell Perfectly who you need to hire and when.\n→ We embed with your company to build a living, long-horizon model of your company's hiring judgement.\n→ We map the talent market, identify uniquely-fitting candidates, and handle everything from outreach to interview coordination.\n→ We continually learn from your interviews and feedback to increase your talent density as you scale.\nWe're so confident, that we're paid only if we fill your role.\nOver the past year, we've:\n- Filled for 50+ startups and enterprises, including Citizen, Corgi, and Tinyfish.\n- Averaged a 60% fill rate within 2 months, even while competing against multiple agencies.\n- Fill 80% of our customer’s pipeline.\nIf you're looking for the best way to hire, reach out now.\nVideo\n— https://x.com/victorluo00/status/2122373631678312477",
+          "title": "マクドナルドが映画「ホーム・アローン」の公開36周年を記念してアメリカでコラボメニュー「Home Alone Meal」を販売することを発表した。\nKevin McCallister役を演じたMacaulay Culkinを起用している。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122455546041442304/img/2zp6vdNZ_fV7Tmzz.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2122244183515955200/img/PCo90QxXrcXCFEJG.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2122814946325250048/img/R2K-QRsfad4jTUur.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122481844608274652",
+          "link": "https://x.com/tmiyatake1/status/2122844735689928708",
           "domain": "x.com",
-          "published": "2026-11-17T09:08:00+09:00",
-          "published_label": "11/17(火) 09:08",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "女子プロテニス選手のSerena Williamsが再度VCファンドを立ち上げる予定で、今回はVCのBeth Ferreiraと組んで$200Mファンドを調達することを目指している。",
+          "title": "Disney+とHuluが今年の12月から統合される予定。\n同時に12月からDisney+上でクリエイターのコンテンツも表示し始めることを発表した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122354093427490817/8mp0ZbA8?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2122031118874501120/85GBnCQu?format=png&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2122481844520169876",
+          "link": "https://x.com/tmiyatake1/status/2122844735651856671",
           "domain": "x.com",
-          "published": "2026-11-17T09:08:00+09:00",
-          "published_label": "11/17(火) 09:08",
+          "published": "2026-11-18T09:10:00+09:00",
+          "published_label": "11/18(水) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "サプライチェーンおよび物流の最適化・自動化を手がけるPedestal AIが$4.7M調達を発表した。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122753908539797504/H95JvxBa?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tmiyatake1/status/2122844610175070601",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:30+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "時給制労働者向けのAIネイティブ業務プラットフォーム「Workstream AI」。\n100万分の音声AI電話対応、2億以上の質問を回答したとのこと。\nVideo\nDesmond Lim (@mynameisdesmond)\nWorkstream AI is the first AI-native operating platform built for hourly teams.\nIn 2023, we made the difficult decision to re-build Workstream as an agentic platform. For the past 3 years, our AI agents have been running operations for 35,000+ locations for brands from Burger King, Dunkin' to ACE Hardware.\nWe are excited to announce for the first time–\n• 1M+ minutes of Voice AI calls, nearly two years of nonstop calling\n• 200M+ questions answered by AskAI\n• 70M+ hourly workers or 70% of the US hourly workforce have used Workstream AI\n• $700M of gross payroll run with our Compliance AI and Payroll AI platform\nWorkstream AI has spent the past 10 years building data, relationships and distribution for our customer base, backed by $120M of funding from Peter Thiel’s Founders Fund, Coatue, BOND, Mark Cuban, CEO DoorDash, CEO Zoom, Jay Z, Will Smith and more.\nWe are just getting started, let’s go!\nVideo\n— https://x.com/mynameisdesmond/status/2122721423445885034",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122832276333686785/img/8IBDDuhknIW4cYc2.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2122481613573660672/img/goSURHt6aGLwbsC8.jpg?name=small"
+          ],
+          "link": "https://x.com/tmiyatake1/status/2122844484299890752",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:00+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "サプライチェーンおよび物流の最適化・自動化を手がけるPedestal AIが$4.7M調達を発表した。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/tmiyatake1/status/2122844484170137619",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:00+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "自社でAIモデルを開発し、継続的に改善するためのトレーニング用ソフトウェアスタックを提供しているPerceptual Labsがローンチしたことを発表した。\nVideo\nKevin Miao (@KJHMiao)\nToday, we’re announcing @perceptual_labs. We believe weight-space programming will fundamentally change how we build, serve and shape intelligence: shifting from training models to engineering them, and eventually toward models that can improve themselves.\nWhen I started in interpretability in 2019, a famous researcher I admire asked me: “Why do we need to understand models if all we care about is that they work?” I’ve been trying to answer that ever since. We spend so little time understanding what models learn and so much brute-forcing data and compute.\nTo me, that isn’t intelligence.\nMy applied research at Apple and Berkeley has been about the opposite: nimble systems that learn from little data and behave in targeted ways. Understanding models is how we make them better and how we make them safe. With recent advances in weight-space programming and alignment, I think the time is finally right.\nJoin the waitlist and learn more:\nVideo\n— https://x.com/KJHMiao/status/2122723436753801521",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122813525508923392/img/t4sLQbHHpOdgZ4w3.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2122586982325071872/img/JOY0LTGmuSyrlkfF.jpg?name=small"
+          ],
+          "link": "https://x.com/tmiyatake1/status/2122844484161720391",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:00+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "Perplexityが$1Bの売上run rateを達成したとCEOのAravind Srinivasが発言。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122661171123953665/img/6EEPVzt6kAINbzOu.jpg?name=small"
+          ],
+          "link": "https://x.com/tmiyatake1/status/2122844484123902276",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:00+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "アメリカで人気の高タンパク質ミートスティックブランド「Chomps」がPEファンドのSixth Streetから$350M出資を受けた。\nChompsは2012年に設立して去年は約$1Bの売上まで成長したと思われている。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122786271768780800/DGx_bX4k?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tmiyatake1/status/2122844484102721780",
+          "domain": "x.com",
+          "published": "2026-11-18T09:09:00+09:00",
+          "published_label": "11/18(水) 09:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_nomurasyo",
@@ -1053,6 +1047,52 @@
           "is_new": false
         },
         {
+          "title": "Lキャタにbidで負けたけど資金勝負になるなら参戦しなくて良かったのかな\niB (@senri_michi_)\nこちらの記事で扱ってるんですがPEの動物病院合戦面白いです。インテグラル以外にもJ-STARと Lキャタルトンが参戦してます⚔️\n— https://x.com/senri_michi_/status/2122703836196507758",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122208628140883968/2jTHHBmv?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/wilkinsonkun/status/2122843724707451380",
+          "domain": "x.com",
+          "published": "2026-11-18T09:05:59+09:00",
+          "published_label": "11/18(水) 09:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "フランスのフロランジュ法で有名な長期保有株主優遇制度としての2倍議決権制度、オランダやイタリアでも認められていますが、近時、スペインでも新たに認められているので、事務所の同僚弁護士と一緒にニューズレターを書いてみました！\n興味のある方は是非ご笑覧ください！🤗\n西村あさひ法律事務所・外国法共同事業 (@Nishimura_law)\n■ニューズレター■\nスペインにおけるロイヤルティ株式（2倍議決権）制度の概要\n執筆弁護士：太田 洋、谷山 風未花\n— https://x.com/Nishimura_law/status/2122606542960926775",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXUDZlOaAAAgJZk.jpg?name=small"
+          ],
+          "link": "https://x.com/yota1967/status/2122718031197724691",
+          "domain": "x.com",
+          "published": "2026-11-18T00:46:31+09:00",
+          "published_label": "11/18(水) 00:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "【VC業界内輪ネタ】\nVCの競争のフロンティアは、200年代初頭は億単位でリスクマネーを投資できることと、2010年代後半からはバリューアッド競争に移行していった。\nそして、2020年代後半移行、Exit創出力が鍵となる気がする。\n投資家(LP)の視点では、世界的にVCの投資家への分配が遅れ、VCのリターン創出力に焦点があたっている。\n外部環境としても、日本ではIPO一本足打法からM&Aと両張りするデュアルトラックが当たり前になっている。セカンダリの活用もはじまっている。IPOのハードルが上がったとは言え、IPOは主要なExit手段であり続けることに変わりない。\nそんな中、VCには、会社、起業家、投資家など全てのステークホルダーが合意できる、Exitスキームを描き、それを遂行する力が求められてきているのではないか。\nIPOのハードルが上がる中で、いかにそれを楽々と超えるようなIPOを創出するか、難しい中でもどうやってIPOに漕ぎ着けるか。\n「デュアルトラック」と簡単に言われるが、M&Aを実現するのは簡単ではないし、IPOより事業としても、リターンとしても良いM＆Aを創出するのほさらに難しい。\nセカンダリーを活用するにしても、会社の資金調達にマイナスにならないかつ、ダウンサイドを押さえるだけでなく、アップサイドも残すようなリターン設計も難しい。\nファンド全体のリターン設計の視点をもち、個別投資先に落とし込み、どんなExitシナリオの選択肢を経営者と握るのか、Exit手法(IPO、M&A、セカンダリ)ｘタイミングをどう組み合わせてボラが大きい外部環境のリスクをコントロールしながらリターンを極大化するのかという、Exitにおけるファンドマネジメント目線が今まで以上に重要になっている。\nポエミーに長くなりましたが、久しぶりにVC勉強会でもやろうかなと思うので、興味ある人はコメントください~",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/s1kun/status/2122710183231234527",
+          "domain": "x.com",
+          "published": "2026-11-18T00:15:20+09:00",
+          "published_label": "11/18(水) 00:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
           "title": "会社売却した人が、売却したあとなにしてるか気になる人はいいね押しといてください",
           "summary": "",
           "images": [],
@@ -1060,6 +1100,22 @@
           "domain": "x.com",
           "published": "2026-11-17T23:57:32+09:00",
           "published_label": "11/17(火) 23:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "上限突破でみんな死ぬみたいな悪夢ありえるのかな。\nブルームバーグニュース (@BloombergJapan)\nアンソロピック、IPO価格は仮条件の上限かそれ以上を想定－関係者\n— https://x.com/BloombergJapan/status/2122698855061901392",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122692524523319296/aOXfBk4I?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/paristexas2009/status/2122700114129285512",
+          "domain": "x.com",
+          "published": "2026-11-17T23:35:19+09:00",
+          "published_label": "11/17(火) 23:35",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1078,7 +1134,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "インテグラル\nまた動物病院を買収",
@@ -1094,7 +1150,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "フォスター電機、引け後中計など開示を出した日付でAVIが買い増しの大量保有報告書を提出。AVIは決算日を意識して買っていた可能性が高そう。",
@@ -1108,7 +1164,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "表紙が決まりました！！！！今回もかわいい🫶🫶🫶\nリコピン🍅 (@tmt_bass)\n【本が出るよ】\n前著でお騒がせした「女子大生、オナホを売る。」に続きまして、\n２冊目「見えないものを売る技術」を出版することになりました！\nスピリチュアルビジネスのインサイト分析をしながら、\n様々な無形商材ビジネスで「見えない価値」をどうやって付与していくべきか？について解説！\n— https://x.com/tmt_bass/status/2121145759169224722",
@@ -1125,7 +1181,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "とりあえずアンソロピックは100株申し込んでみた。当たるかな？",
@@ -1197,64 +1253,6 @@
           "domain": "x.com",
           "published": "2026-11-17T15:49:49+09:00",
           "published_label": "11/17(火) 15:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "KKR壱になっちゃう",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/aryarya/status/2122580808527712535",
-          "domain": "x.com",
-          "published": "2026-11-17T15:41:15+09:00",
-          "published_label": "11/17(火) 15:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "よろしくお願いAntigravity！！！\nあんど (@ampersand_xyz)\n証券事業の部署のフロントエンドエンジニア募集してます🎟️\nだいぶ胸張っていい会社なので、ご興味ある方ぜひ\n軽めに気になる方はDMやリプからでも連絡OKです🫶\n221.フロントエンドエンジニア｜Brokerage - 株式会社Finatextホールディングス\n— https://x.com/ampersand_xyz/status/2122503124623773755",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122502527589703680/O_-_PlEB?format=png&name=800x419"
-          ],
-          "link": "https://x.com/Ryota/status/2122578643981619396",
-          "domain": "x.com",
-          "published": "2026-11-17T15:32:38+09:00",
-          "published_label": "11/17(火) 15:32",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "5株主総会当日にお土産が配布されるか確認する\n10 株価が落ちた瞬間に決算報告資料の最後に載ってる問い合わせ先に連絡\n証券マン (@nomurasyo)\n個人投資家偏差値\n40 勉強会に出る\n45 IRミーティングする\n50 大株主に載る\n55 大量保有報告書を出す\n60 ToSTNetでEXITする\n65 SPCに再出資する\n70 TOBする\nほかにもなにかありますか。\n— https://x.com/nomurasyo/status/2122474169967489418",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/nemusugiimunida/status/2122577238076055997",
-          "domain": "x.com",
-          "published": "2026-11-17T15:27:03+09:00",
-          "published_label": "11/17(火) 15:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "今まで考えてなかったんかい！と言いたい。\nが、個人的にはIPOの度にIPOの目的を聞いてくる投資家に辟易しています。売出しが目的で何が悪いんや。新株発行してほしいのかと思いきや、赤字企業は嫌だとか言うしな。どっちやねん。\nYasuhiko Yurimoto (@YYurimoto)\nスマートニュースのIPOの発表を見て、考えさせられたことがあります。\n今回は約112億円の売出しが予定される一方、会社には新たな資金が入らないIPOとなる見込みです。\n私は、既存株主が上場を機に投資回収を行うこと自体は自然なことだと思っています。私たちも、IPO時の売出しによって投資回収を行うことがあります。未上場企業と上場企業では求められる役割や社会的責任が異なり、それを支える株主・投資家の顔ぶれが変わるのもまた自然なことだと思っています。\nその一方で、上場後は、新たな株主を迎える機会でもあります。だからこそ、経営陣には、これから株主となる投資家に対して、上場後の成長戦略や企業価値向上の道筋を丁寧に説明する責任があると思います。\n特に、会社に新たな成長資金が入らないIPOであるならば、なぜ今上場するのか、上場によってどのように成長を加速させるのかについて、これまで以上に明確な説明が求められるのではないでしょうか。\n東証グロース市場が信頼回復に取り組む今だからこそ、新たな株主となる個人投資家を含め、多くの投資家が「この会社の成長に参加したい」と思えるIPOが増えてほしいと思います。\n— https://x.com/YYurimoto/status/2122143095072739591",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/Q4QzTwm3rzC7cqe/status/2122568579384221765",
-          "domain": "x.com",
-          "published": "2026-11-17T14:52:39+09:00",
-          "published_label": "11/17(火) 14:52",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
