@@ -238,6 +238,19 @@
       ],
       "exclude_match": [
         "Wonder Japan Solutions"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://japan-solution.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -409,7 +422,14 @@
         "オリナス株式会社"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=86631",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecs_22",
@@ -443,7 +463,14 @@
         "True Consulting"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=56054",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecs_25",
@@ -585,7 +612,14 @@
         "エフカフェ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecs_32",

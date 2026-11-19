@@ -229,6 +229,38 @@ python3 add_source.py --bulk --config sources-ad-marketing.json --title "広告�
   「studio15」のような短い英字名は、同名他社（美容のブリーチ、猫の CATS など）が混ざるので
   必ず `must_match` / `context_match` で絞る。
 
+## 1社を複数の取得元で補完する（3ソース併用）
+
+Googleニュースの社名検索だけでは、プレスリリースを出さない会社・小さい会社の「2026年の記事」が
+0件〜数件になりがちです。そういう社には、1つのカードに追加の取得元を足して合算表示できます。
+
+| フィールド | 中身 | 例 |
+| --- | --- | --- |
+| `extra_feeds` | PR TIMES の企業RSS（社名がタイトルに無くて当然なので `must_match` を通さない） | `https://prtimes.jp/companyrdf.php?company_id=69527` |
+| `html_news` | 公式サイトの「お知らせ／ニュース」ページ（HTMLから日付・タイトル・リンクを抽出） | `https://www.herb-kenko.com/news/` |
+
+- 1ソース内の複数取得元は **まとめて重複除去（同じリリース・同じ見出し）→ 日付の新しい順** で `limit` 件。
+- `html_news` は日付だけの表示（時刻は出さない）で、バッジは `公式`、PR TIMES は `PRT`。
+- 公式サイトの事務連絡（配送遅延・休業・採用・ブログ更新など）は `max_routine_items`（既定2件）までに抑え、
+  発売・キャンペーン・受賞などの本題が枠を埋められるようにしています。
+- どの取得元を足すかは `news-supplements.json` にボード別・ソースID別で持ち、
+  同期スクリプト（`sync_ec_mailorder.py` など）が `news_supplements.apply_supplements()` で毎回同じ内容を反映します。
+- 取得に失敗した取得元があっても、他の取得元と他の社は止めません（`tolerate_errors: true`）。
+
+```jsonc
+// news-supplements.json（ec-mailorder の1社ぶん）
+"ec-mailorder": {
+  "ecm_07": {
+    "extra_feeds": [{ "url": "https://prtimes.jp/companyrdf.php?company_id=69527", "origin": "prtimes" }],
+    "html_news":  [{ "url": "https://shop.formalklein.com/shop/information_categories/news", "origin": "site" }]
+  }
+}
+```
+
+補完先を増やすときは、PR TIMES のキーワード検索で社名一致の企業IDを探し、
+**同名他社でないこと**（リリース本文の「会社HP」や業種語、公式サイトの `<title>`／会社概要）を確認してから足します
+（例：「イング」= 東京のアンケートSaaS、「ナチュラルガーデン」= 和歌山のドーナツ店は別会社なので足していません）。
+
 ## 和訳
 
 本文にひらがな・カタカナがなく、ラテン文字が10字以上ある投稿は外国語とみなし、

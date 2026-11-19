@@ -34,6 +34,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
 
+from news_supplements import apply_supplements
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_OUT = os.path.join(BASE_DIR, "sources-ec-mailorder.json")
 
@@ -328,6 +330,7 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     sources = [build_source(n, i + 1) for i, n in enumerate(COMPANIES)]
+    sources = apply_supplements("ec-mailorder", sources)
     doc = make_document(sources)
 
     with open(args.out, "w", encoding="utf-8") as fh:

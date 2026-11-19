@@ -222,9 +222,17 @@ def jst_label(dt, now=None) -> str:
     if dt is None:
         return ""
     now = now or datetime.now(JST)
+    # 年は常に出す（「8/6(木)」だけだと何年の記事か分からないという指摘から）
     if dt.year != now.year:
         return f"{dt.year}/{dt.month}/{dt.day}({WEEKDAY_JP[dt.weekday()]}) {dt:%H:%M}"
-    return f"{dt.month}/{dt.day}({WEEKDAY_JP[dt.weekday()]}) {dt:%H:%M}"
+    return f"{dt.year}/{dt.month}/{dt.day}({WEEKDAY_JP[dt.weekday()]}) {dt:%H:%M}"
+
+
+def jst_date_label(dt) -> str:
+    """日付だけのソース（公式サイトのお知らせ等）用。時刻は出さない。"""
+    if dt is None:
+        return ""
+    return f"{dt.year}/{dt.month}/{dt.day}({WEEKDAY_JP[dt.weekday()]})"
 
 
 def domain_of(url: str) -> str:
@@ -358,6 +366,125 @@ def parse_feed(raw: bytes):
     return entries
 
 
+# ------------------------------------------------------- html news (公式サイト)
+HTML_DATE_RE = re.compile(
+    r"(?:(\d{4})\s*[年./\-]\s*(\d{1,2})\s*[月./\-]\s*(\d{1,2})\s*日?"
+    r"|令和\s*(\d{1,2})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日)"
+)
+HTML_BLOCK_RE = re.compile(r"<(li|tr|article|dd)\b[^>]*>", re.I)
+JUNK_TITLE_RE = re.compile(r"^(?:お知らせ一覧|ニュース一覧|新着情報|商品一覧|一覧|もっと見る|リリース|トピックス|TOP|HOME)$")
+# 公式サイトの「事務連絡」系（配送遅延・休業・採用・ブログ更新など）は、
+# 発売・キャンペーン・受賞などの本題の後ろに回す（消しはしない）。
+LOW_PRIORITY_RE = re.compile(
+    r"(配送|発送|遅延|休業|年末年始|お盆|シルバーウィーク|ゴールデンウィーク|メンテナンス|障害|"
+    r"停止|価格改定|値上げ|採用|Instagram|YouTube|ブログ|SNS|電話番号|迷惑メール|フィッシング|"
+    r"パスワード|ログイン|会員|システム|サーバ|問い合わせ)", re.I)
+
+
+def html_date(value: str):
+    """HTMLの日付表記（2026.10.01 / 2026年10月1日 / 令和8年…）を datetime に。"""
+    m = HTML_DATE_RE.search(value or "")
+    if not m:
+        return None
+    if m.group(1):
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    else:
+        y, mo, d = 2018 + int(m.group(4)), int(m.group(5)), int(m.group(6))
+    try:
+        return datetime(y, mo, d, 9, 0, tzinfo=JST)
+    except ValueError:
+        return None
+
+
+def parse_html_news(text: str, base_url: str, max_items: int = 80) -> list:
+    """公式サイトのお知らせ/ニュース HTML から (日付, タイトル, リンク) を拾う。
+
+    (1) <li>/<tr>/<article>/<dd> ブロック内の「日付＋リンク＋見出し」
+    (2) <a> 自身の中に日付がある型（<time datetime="…"> も可）
+    の両方を拾って重複を除く。取れなければ「リンク直前40文字に日付」型も見る。
+    """
+    h = re.sub(r"(?is)<\s*(script|style)\b.*?</\s*\1\s*>", " ", text or "")
+    entries, seen = [], set()
+
+    def clean_title(value: str) -> str:
+        t = HTML_DATE_RE.sub("", strip_html(value))
+        t = t.replace("-->", " ")
+        t = re.sub(r"\s+", " ", t).strip(" 　|,-–—>")
+        return t
+
+    def add(dt, title, href):
+        if not dt or not href or href.startswith(("javascript:", "#", "mailto:")):
+            return
+        link = urllib.parse.urljoin(base_url, href)
+        title = clean_title(title)
+        if len(title) < 6:
+            return
+        if JUNK_TITLE_RE.match(title):
+            return
+        for kept in entries:
+            other = kept["title"]
+            short, long_ = (title, other) if len(title) <= len(other) else (other, title)
+            if short == long_ or (len(short) >= 6 and short in long_):
+                return
+        key = (link, title)
+        if key in seen:
+            return
+        seen.add(key)
+        seen.add(title)
+        entries.append({
+            "title": title, "link": link, "summary": "", "guid": link,
+            "published": dt, "source_url": "", "source_name": "", "author": "", "images": [],
+            "date_only": True,
+            "priority": 1 if LOW_PRIORITY_RE.search(title) else 0,
+        })
+
+    # (1) ブロック型
+    for m in HTML_BLOCK_RE.finditer(h):
+        tag = m.group(1).lower()
+        end_pos = h.find(f"</{tag}>", m.end())
+        if end_pos == -1 or end_pos - m.end() > 6000:
+            continue
+        block = h[m.start(): end_pos + len(tag) + 3]
+        dt = html_date(strip_html(block))
+        if not dt:
+            continue
+        anchors = re.findall(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', block, re.S | re.I)
+        if not anchors:
+            continue
+        href, inner = anchors[0]
+        title = strip_html(inner)
+        if len(HTML_DATE_RE.sub("", title).strip()) < 6:
+            rest = strip_html(re.sub(r"<a\b[^>]*>.*?</a>", " ", block, flags=re.S | re.I))
+            title = rest[:160]
+        add(dt, title, href)
+        if len(entries) >= max_items:
+            return entries
+
+    # (2) リンク自身に日付がある型（<time datetime> も見る）
+    for m in re.finditer(r'<a\b[^>]*href="([^"]+)"[^>]*>(.*?)</a>', h, re.S | re.I):
+        href, inner = m.group(1), m.group(2)
+        inner_text = strip_html(inner)
+        dt = html_date(inner_text)
+        if not dt:
+            tm = re.search(r'<time[^>]*datetime="(\d{4}-\d{2}-\d{2})', inner, re.I)
+            if tm:
+                dt = parse_date(tm.group(1))
+        if dt:
+            add(dt, inner_text, href)
+        elif entries:
+            continue
+        else:
+            before = strip_html(h[max(0, m.start() - 400): m.start()])[-60:]
+            dt2 = html_date(before)
+            if dt2 and len(strip_html(inner)) >= 6:
+                add(dt2, inner_text, href)
+        if len(entries) >= max_items:
+            break
+
+    entries.sort(key=lambda e: e["published"], reverse=True)
+    return entries
+
+
 # ------------------------------------------------------------------ sources
 def feed_urls(src: dict, settings: dict) -> list:
     """1つのソースが持つフィードURL（X はミラーも候補に入れる）。"""
@@ -393,6 +520,40 @@ def feed_urls(src: dict, settings: dict) -> list:
             seen.add(u)
             out.append(u)
     return out
+
+
+def source_jobs(src: dict, settings: dict) -> list:
+    """1ソース分の取得ジョブ（RSS/Atom と 公式サイトHTML）を並べる。
+
+    extra_feeds … PR TIMES 企業RSS など、社名がタイトルに無い社の別フィード
+    html_news   … 公式サイトの「お知らせ／ニュース」ページ（HTML）
+    どちらも `trusted` 扱い（社名での絞り込みをしない。取得元自体がその会社なので）。
+    """
+    jobs, seen = [], set()
+    for url in feed_urls(src, settings):
+        if url and url not in seen:
+            seen.add(url)
+            jobs.append({"url": url, "kind": "feed", "origin": "", "trusted": False})
+    for item in src.get("extra_feeds") or []:
+        if isinstance(item, str):
+            item = {"url": item}
+        url = (item or {}).get("url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        jobs.append({"url": url, "kind": "feed", "origin": item.get("origin") or "prtimes", "trusted": True})
+    html_urls = src.get("html_news")
+    if isinstance(html_urls, str):
+        html_urls = [html_urls]
+    for item in html_urls or []:
+        if isinstance(item, str):
+            item = {"url": item}
+        url = (item or {}).get("url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        jobs.append({"url": url, "kind": "html", "origin": item.get("origin") or "site", "trusted": True})
+    return jobs
 
 
 def rewrite_x_link(link: str) -> str:
@@ -501,13 +662,14 @@ def build_items(src: dict, entries: list) -> list:
             images = images[:1]
 
         # 社名ごとの監視では「その社名を含む見出し」だけを残す（同名他社・一般語のノイズ対策）
-        if src.get("must_match") and not match_any_term(text, src.get("must_match")):
+        # ただし extra_feeds / html_news（取得元自体がその会社）の記事は社名が無くて当然なので素通しする
+        if src.get("must_match") and not e.get("trusted") and not match_any_term(text, src.get("must_match")):
             continue
         # 一般語の社名では、さらに業界語（EC・通販・楽天…）のどれかを含む見出しに絞る
-        if src.get("context_match") and not match_any_term(text, src.get("context_match")):
+        if src.get("context_match") and not e.get("trusted") and not match_any_term(text, src.get("context_match")):
             continue
         # 地名・別の意味の語（Town Hall / Old Town など）を含む見出しは落とす
-        if src.get("exclude_match") and match_any_term(text, src.get("exclude_match")):
+        if src.get("exclude_match") and not e.get("trusted") and match_any_term(text, src.get("exclude_match")):
             continue
 
         if (not text and not images) or not link:
@@ -536,6 +698,11 @@ def build_items(src: dict, entries: list) -> list:
             domain = domain_of(link)
 
         badge, badge_cls = detect_badge(kind, text)
+        origin = e.get("origin") or ""
+        if origin == "prtimes":
+            badge, badge_cls = "PRT", "badge-news"
+        elif origin == "site":
+            badge, badge_cls = "公式", "badge-news"
         published = e.get("published")
 
         items.append(
@@ -546,11 +713,13 @@ def build_items(src: dict, entries: list) -> list:
                 "link": link,
                 "domain": domain,
                 "published": published.isoformat() if published else None,
-                "published_label": jst_label(published),
+                "published_label": (jst_date_label(published) if e.get("date_only") else jst_label(published)),
                 "badge": badge,
                 "badge_class": badge_cls,
                 "pinned": pinned,
                 "type": kind,
+                "origin": origin,
+                "priority": int(e.get("priority") or 0),
             }
         )
 
@@ -752,7 +921,8 @@ def attach_translations(results: list, previous: dict, settings: dict, verbose: 
 
 def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
     started = time.time()
-    urls = feed_urls(src, settings)
+    jobs = source_jobs(src, settings)
+    urls = [j["url"] for j in jobs]
     timeout = int(settings.get("timeout_seconds", 20))
     retries = int(settings.get("retries", 1))
     ua = settings.get("user_agent") or "Mozilla/5.0 (compatible; MonitorBoard/1.0)"
@@ -776,19 +946,31 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
 
     if src.get("type") == "x":
         # X はミラーを順に試し、最初に成功したものだけを使う
-        candidates = urls
+        candidates = jobs
     else:
-        candidates = urls  # ニュース等は複数フィードを合成する
+        candidates = jobs  # ニュース等は複数フィード／取得元を合成する
 
-    def try_urls(urls_to_try):
+    def try_urls(jobs_to_try):
         got_entries, got_errors, got_used = [], [], []
-        for url in urls_to_try:
+        for job in jobs_to_try:
+            url = job["url"]
             try:
                 raw, status, final = http_get(url, timeout, ua, retries)
-                got = parse_feed(raw)
-                if not got and src.get("type") != "google_news":
-                    # 社名検索（google_news）は該当記事0件が普通なのでエラーにしない
-                    raise ValueError("記事が0件（フィードが空か形式が違います）")
+                if job["kind"] == "html":
+                    got = parse_html_news(
+                        raw.decode("utf-8", "replace") if isinstance(raw, bytes) else raw,
+                        final or url,
+                    )
+                    if not got:
+                        raise ValueError("ニュース記事を抽出できませんでした（HTML形式が想定外）")
+                else:
+                    got = parse_feed(raw)
+                    if not got and src.get("type") != "google_news" and not job["trusted"]:
+                        # 社名検索（google_news）は該当記事0件が普通なのでエラーにしない
+                        raise ValueError("記事が0件（フィードが空か形式が違います）")
+                for entry in got:
+                    entry["trusted"] = job["trusted"]
+                    entry["origin"] = job["origin"]
                 got_entries.extend(got)
                 got_used.append(url)
                 if verbose:
@@ -843,7 +1025,24 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
         pinned = [i for i in items if i["pinned"]]
         rest = [i for i in items if not i["pinned"]]
         items = pinned + rest
-    items.sort(key=lambda i: (0 if i["pinned"] else 1, -(datetime.fromisoformat(i["published"]).timestamp() if i["published"] else 0)))
+    # 日付の新しい順（同じ日時なら本題の記事を事務連絡より先に）
+    items.sort(key=lambda i: (
+        0 if i["pinned"] else 1,
+        -(datetime.fromisoformat(i["published"]).timestamp() if i["published"] else 0),
+        int(i.get("priority") or 0),
+    ))
+    items = dedupe_items(items)
+    # 公式サイトの事務連絡（配送遅延・休業など）で枠が埋まらないよう、既定で最大3件まで
+    max_routine = int(src.get("max_routine_items") or settings.get("max_routine_items") or 2)
+    if max_routine >= 0:
+        kept, routine = [], 0
+        for it in items:
+            if it.get("priority") and routine >= max_routine:
+                continue
+            if it.get("priority"):
+                routine += 1
+            kept.append(it)
+        items = kept
     items = items[:limit]
 
     result.update(
@@ -855,6 +1054,34 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
         elapsed=round(time.time() - started, 1),
     )
     return result
+
+
+def title_key(text: str) -> str:
+    s = unicodedata.normalize("NFKC", text or "").lower()
+    s = re.sub(r"[\s・,，.。!！?？「」『』【】\[\]（）()\-–—:：/／|｜~〜]", "", s)
+    return s
+
+
+def dedupe_items(items: list) -> list:
+    """同じリリースが Googleニュース／PR TIMES／公式サイトに重複して載るのを1本に。"""
+    kept = []
+    for it in items:
+        key = title_key(it.get("title", ""))
+        dup = False
+        for k in kept:
+            other = title_key(k.get("title", ""))
+            if not key or not other:
+                continue
+            if key == other:
+                dup = True
+                break
+            short, long_ = (key, other) if len(key) <= len(other) else (other, key)
+            if len(short) >= 12 and short in long_ and len(short) / len(long_) >= 0.7:
+                dup = True
+                break
+        if not dup:
+            kept.append(it)
+    return kept
 
 
 # -------------------------------------------------------------------- board

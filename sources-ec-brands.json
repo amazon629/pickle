@@ -21,7 +21,20 @@
         "DINETTE株式会社"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=26615",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://dinette.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_002",
@@ -1301,7 +1314,14 @@
         "Magnifi"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=85691",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_035",
@@ -1748,6 +1768,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=152214",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -2999,7 +3026,20 @@
         "JAPANSOLUTIONS"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://japan-solution.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_067",
@@ -3120,6 +3160,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.wakan.shop/news/index.html",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -3397,6 +3443,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=175747",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -3408,7 +3461,14 @@
         "株式会社HelloVenus"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=96848",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_077",
@@ -3711,6 +3771,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.whrp.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -3796,6 +3862,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://welina-salon.com/archives/category/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -3977,6 +4049,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://adcomi.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -4066,6 +4144,13 @@
       ],
       "exclude_match": [
         "アンカーマン"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=16775",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -4206,6 +4291,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -4239,7 +4331,13 @@
         "ネクストレベルホールディングス"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://nextlevelholdings.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_097",
@@ -4548,6 +4646,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=174226",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -4644,7 +4749,14 @@
         "レバレジーズM&Aアドバイザリー"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=10591",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_106",
@@ -4814,6 +4926,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.wa-kokoro.com/tatami/wordpress/category/okyakusama",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -5091,6 +5209,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=192317",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -5368,6 +5493,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21504",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -5571,6 +5703,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://marutatsu.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -5860,6 +5998,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://bf-j.com/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -6071,7 +6215,14 @@
         "GrandBleu&Co."
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=171363",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_134",
@@ -6296,7 +6447,13 @@
         "クリアビジョン"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://clearvision.kyoto.jp/news",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_141",
@@ -6307,7 +6464,13 @@
         "ダイレクトマーケティングゼロ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://dmzero.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_142",
@@ -6628,7 +6791,13 @@
         "Oz link"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://ozlink.co.jp/information/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_151",
@@ -7108,6 +7277,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=178728",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -7119,7 +7295,13 @@
         "株式会社THE RICH"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://about.silktherich.com/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_162",
@@ -7204,6 +7386,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.opt.ne.jp/news/pressrelease/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -7953,6 +8141,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://bulk.co.jp/shop/information_categories/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -8510,6 +8704,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.re-terior.com/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -8595,6 +8795,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://wowfull.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -8606,7 +8812,14 @@
         "通販の虎 マーケティング"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=142246",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_203",
@@ -9282,7 +9495,14 @@
         "アカマイテクノロジーズ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=31697",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_217",
@@ -9817,7 +10037,13 @@
         "ブランドパトローラー"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://brand-patroller.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_232",
@@ -9979,6 +10205,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://olks.site/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -11275,7 +11507,14 @@
         "HighLink"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=61060",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_277",
@@ -11360,6 +11599,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://icra.marketing/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -11563,6 +11808,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=29254",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -11840,6 +12092,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://e-omnibus.co.jp/topics/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -12173,6 +12431,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=192776",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -12675,7 +12940,14 @@
         "元株式会社テレシー"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=76049",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_310",
@@ -14000,7 +14272,13 @@
         "2-GEAR"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://beatribes.com/fit#news",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_343",
@@ -14033,7 +14311,13 @@
         "Collelis"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://www.collelis.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_346",
@@ -14195,7 +14479,13 @@
         "Weeare"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://weeare.co.jp/Blog/2",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_354",
@@ -14313,6 +14603,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://my-s.shop/shop/information",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -14464,7 +14760,13 @@
         "株式会社アトラクト"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://www.attract-cc.com/news/page/index.php?id=386",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_365",
@@ -14689,7 +14991,14 @@
         "コンボイスイッチ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=137986",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "ecb_372",
@@ -14700,7 +15009,13 @@
         "サイトスコープ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://sitescope.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_373",
@@ -14711,7 +15026,13 @@
         "サマー・スノウ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://summer-snow.co.jp/information/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_374",
@@ -14744,7 +15065,13 @@
         "ダイヤモンドファンタジー"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://diamond-f.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_377",
@@ -14840,6 +15167,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://medeta.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -14925,6 +15258,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=98890",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -15246,7 +15586,13 @@
         "Toniez"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://toniez.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_389",
@@ -15427,6 +15773,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://taion-inc.com/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -15652,6 +16004,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://to-grow.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -16390,6 +16748,13 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=158290",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -16530,6 +16895,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://lll-shop.com/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -17754,6 +18125,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://syokusenkan.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -18089,7 +18466,13 @@
         "IMAGICA IRIS"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://imagica-iris.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "ecb_486",
@@ -18314,6 +18697,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://arts-it.co.jp/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -18687,6 +19076,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://orecon.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -19252,6 +19647,19 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=3039",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://koikeya.co.jp/news/index.html",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -19422,6 +19830,12 @@
         "代表",
         "社長",
         "インタビュー"
+      ],
+      "html_news": [
+        {
+          "url": "https://kurofune-logi.co.jp/info/",
+          "origin": "site"
+        }
       ]
     },
     {
