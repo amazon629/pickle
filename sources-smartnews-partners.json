@@ -325,7 +325,13 @@
         "株式会社Slayers"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://slayers.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "snp_15",
@@ -882,6 +888,13 @@
         "インタビュー",
         "EC",
         "アプリ"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=126319",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -1241,6 +1254,19 @@
         "インタビュー",
         "EC",
         "アプリ"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=164036",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://prisma-corp.com/information/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -2318,6 +2344,19 @@
         "インタビュー",
         "EC",
         "アプリ"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=179468",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://van-cleef.jp/news/",
+          "origin": "site"
+        }
       ]
     }
   ]

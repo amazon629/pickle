@@ -385,6 +385,12 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "html_news": [
+        {
+          "url": "https://starx.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -933,7 +939,14 @@
         "SEEDER"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=104743",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "nc_39",
@@ -1378,7 +1391,13 @@
         "Lumii"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://lumii.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "nc_53",
@@ -1435,6 +1454,19 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=29274",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://minto-inc.jp/news",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -1547,7 +1579,14 @@
         "エフカフェ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "nc_64",
@@ -1630,6 +1669,19 @@
         "売上",
         "販促",
         "プロモーション"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=189362",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://www.opt.ne.jp/news/pressrelease/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -1698,6 +1750,19 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=48043",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://glpgs.com/news/",
+          "origin": "site"
+        }
       ]
     },
     {

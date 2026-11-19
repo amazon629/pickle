@@ -419,6 +419,12 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "html_news": [
+        {
+          "url": "https://starx.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -766,7 +772,20 @@
         "芙蓉アウトソーシング＆コンサルティング"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=46184",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://www.noc-net.co.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "cc_13",
@@ -998,6 +1017,12 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.aldo-system.jp/blog/category/infomation/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -1707,6 +1732,13 @@
         "サイバー",
         "情報漏えい",
         "個人情報"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -1774,7 +1806,13 @@
         "卒塔婆通販"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://sotouba.net/category/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "cc_63",
@@ -1951,6 +1989,13 @@
         "売上",
         "販促",
         "プロモーション"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=123373",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
       ]
     },
     {
@@ -2288,7 +2333,20 @@
         "インボイス株式会社"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=113945",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://www.invoice.ne.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "cc_94",
@@ -2382,7 +2440,14 @@
         "エフカフェ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
       "id": "cc_97",

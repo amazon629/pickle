@@ -243,14 +243,17 @@ Googleニュースの社名検索だけでは、プレスリリースを出さ�
 - `html_news` は日付だけの表示（時刻は出さない）で、バッジは `公式`、PR TIMES は `PRT`。
 - 公式サイトの事務連絡（配送遅延・休業・採用・ブログ更新など）は `max_routine_items`（既定2件）までに抑え、
   発売・キャンペーン・受賞などの本題が枠を埋められるようにしています。
-- どの取得元を足すかは `news-supplements.json` にボード別・ソースID別で持ち、
-  同期スクリプト（`sync_ec_mailorder.py` など）が `news_supplements.apply_supplements()` で毎回同じ内容を反映します。
+- どの取得元を足すかは `news-supplements.json` にボード別・**社名**別で持ち、
+  同期スクリプト（`sync_ec_mailorder.py`・`sync_smartnews_partners.py`・`speaker_boards.py` など）が
+  `news_supplements.apply_supplements()` で毎回同じ内容を反映します（再同期しても消えません）。
+  `id`（`snp_01`・`gn_03` など）は Excel の並び順で振るので、行が増減すると別会社に当たります。
+  そのため `apply_supplements()` は **社名を先に引き、無ければ id** を見ます。
 - 取得に失敗した取得元があっても、他の取得元と他の社は止めません（`tolerate_errors: true`）。
 
 ```jsonc
 // news-supplements.json（ec-mailorder の1社ぶん）
 "ec-mailorder": {
-  "ecm_07": {
+  "フォーマルクライン": {
     "extra_feeds": [{ "url": "https://prtimes.jp/companyrdf.php?company_id=69527", "origin": "prtimes" }],
     "html_news":  [{ "url": "https://shop.formalklein.com/shop/information_categories/news", "origin": "site" }]
   }
@@ -260,6 +263,21 @@ Googleニュースの社名検索だけでは、プレスリリースを出さ�
 補完先を増やすときは、PR TIMES のキーワード検索で社名一致の企業IDを探し、
 **同名他社でないこと**（リリース本文の「会社HP」や業種語、公式サイトの `<title>`／会社概要）を確認してから足します
 （例：「イング」= 東京のアンケートSaaS、「ナチュラルガーデン」= 和歌山のドーナツ店は別会社なので足していません）。
+
+`tools/` に一括探索の道具があります（1社ずつ手で調べない）。
+
+```bash
+cd tools
+python3 expand_supplements.py targets94.json cache94 --workers 4   # 候補探索（社ごとにキャッシュ・再開可）
+python3 build_supplements2.py                                       # 検証して news-supplements.json へ反映
+python3 measure_boards.py smartnews-partners caster-companies       # 2026年あり／0件の社数を数える
+```
+
+- `expand_supplements.py` … PR TIMES の社名一致→2026年リリース有無→会社HP照合、公式サイトは
+  検索結果の**トップページだけ**を見て `<title>` に社名（法人格込み）があるものに限定。一覧サイト・
+  企業ディレクトリ（compalyze・baseconnect 等）は除外。
+- `build_supplements2.py` … 同名他社として落とした社を `EXCLUDE` に**理由つき**で残し、
+  `update.py` の `parse_html_news` / `parse_feed` で実取得して2026年の記事が1件以上あるものだけ書く。
 
 ## 和訳
 

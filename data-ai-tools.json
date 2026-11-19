@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T19:14:23+09:00",
-  "generated_at_label": "2026/11/19 19:14 JST",
+  "generated_at": "2026-11-19T23:47:26+09:00",
+  "generated_at_label": "2026/11/19 23:47 JST",
   "title": "AI新着 監視ボード",
-  "total": 89,
+  "total": 90,
   "sources": [
     {
       "id": "x_openrouter",
@@ -290,7 +290,7 @@
           "title_ja": "本日より、Hugging Face のチャット モデルが OpenRouter を介して実行されます。\nオープンウェイト モデルは、1 年以内に OpenRouter 上のトークンの 27% から 72% に増加しました。その多くは 2 つのことから来ています。1 つは Hugging Face 🤗 で重みを公開しているラボ、もう 1 つはさまざまな側面で重みを提供しようと数十のプロバイダーが競争していることです。\n今日はその2つを結びます。ハブ上のチャット モデルは、OpenRouter のルーティングを通じて実行されるようになりました。38 のラボからの 160 のモデル、リクエストごとに選択される最適なプロバイダー、自動フェイルオーバー、同じ HF トークン。\nまた、OpenRouter トレースは、所有する Hugging Face バケットに到達し、微調整の準備が整います。\n@ClementDelangue、@julien_c、@huggingface チームと一緒にこれを構築できることに興奮しています。さらに登場!\nオープンルーター (@OpenRouter)\n@huggingface のオープン モデルが OpenRouter 経由で実行されるようになりました。\n各リクエストは、自動フェイルオーバーを備え、そのモデルに最適な価格、速度、稼働時間を提供するプロバイダーに送られます。すべてが同じ Hugging Face トークンと API で実行されます。\nブロードキャストを使用してトレースを Hugging Face Storage に送信することもできるため、リクエストはモデルの隣のハブに保存され、評価や微調整などの準備が整います。\n— https://x.com/OpenRouter/status/2122392434198131005"
         }
       ],
-      "elapsed": 3.4
+      "elapsed": 5.6
     },
     {
       "id": "x_opencode",
@@ -567,7 +567,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 5.7
+      "elapsed": 5.5
     },
     {
       "id": "x_aimirai46487",
@@ -579,6 +579,209 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "Googleは、月額1万4500円からの上位AIサブスクプラン「Google AI Ultra」に付属するYouTube Premiumを、追加料金なしで個人プランからファミリープランにアップグレードすると発表しました。日本も対象です。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123356397886902272/T_GJkc0u?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427743560020130",
+          "domain": "x.com",
+          "published": "2026-11-19T23:46:40+09:00",
+          "published_label": "2026/11/19(木) 23:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Googleは、低価格スマホ向けOS「Android Go」を搭載した端末でもGeminiを利用できるようにしました。\n対象はメモリ2GB以上の端末で、Google検索アプリを更新すると利用可能になります。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123263272178917376/y1XPcytX?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427652245832154",
+          "domain": "x.com",
+          "published": "2026-11-19T23:46:18+09:00",
+          "published_label": "2026/11/19(木) 23:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nPika (@pika_labs)\nToday, we’re excited to share Enact, a research preview of scenes that respond to you.\nEnact represents a new way of making AI video, one that’s designed to mimic the experience of directing on set. Built on Pika H3 Flex, it allows a creator to interact with “actors,” manually re-stage a scene, and manipulate the camera—all in real time.\nWe think this is the beginning of a new paradigm for creation. Read more and reach out for a demo below.\nVideo\n— https://x.com/pika_labs/status/2123127584342921652",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123127392667308032/img/rlmiKhvky1Tiu8k6.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427546406719610",
+          "domain": "x.com",
+          "published": "2026-11-19T23:45:53+09:00",
+          "published_label": "2026/11/19(木) 23:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nピカ (@pika_labs)\n本日は、あなたに反応するシーンのリサーチ プレビューである Enact を共有できることを嬉しく思います。\nEnact は、AI ビデオを作成する新しい方法を表しており、セットでの監督体験を模倣するように設計されています。 Pika H3 Flex 上に構築されているため、クリエイターは「俳優」と対話したり、シーンを手動で再ステージングしたり、カメラを操作したりすることがすべてリアルタイムで可能になります。\nこれは創造の新たなパラダイムの始まりであると私たちは考えています。詳細を読んで、以下のデモを入手してください。\nビデオ\n— https://x.com/pika_labs/status/2123127584342921652"
+        },
+        {
+          "title": "Pikaは、キャラクターへの指示や配置変更、カメラ操作をリアルタイムで行える新しいAI動画生成技術「Enact」の研究プレビューを発表しました。\n実際の映画監督のような感覚でAI動画を制作できる技術です。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123127392667308032/img/rlmiKhvky1Tiu8k6.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427502769209630",
+          "domain": "x.com",
+          "published": "2026-11-19T23:45:42+09:00",
+          "published_label": "2026/11/19(木) 23:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■Arena -Code Arena:WebDev-",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2121822908586807296/UqEnTqA9?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427421781414111",
+          "domain": "x.com",
+          "published": "2026-11-19T23:45:23+09:00",
+          "published_label": "2026/11/19(木) 23:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■アリーナ -Code Arena:WebDev-"
+        },
+        {
+          "title": "■引用元\nArena.ai (@arena)\nReal-world Arena scores are in for GPT-6.2 Astra and GPT-6.2 Sol by @OpenAI in the Code Arena: WebDev, and both have landed on the Pareto frontier!\n- #3 with 1781 pts: GPT-6.2 Astra (Max)\n- #7 with 1757 pts: GPT-6.2 Sol (Max)\nGPT-6.2 Astra: #3 with 1781 pts\n- +18 pts vs previous variant GPT-6 Astra (Max)\n- #1 in Consumer Product, compared with #4 for GPT-6 Astra\n- Median cost per task: $5.45 vs. $9.46 for GPT-6 Astra, 42% lower\n- Lands on Pareto frontier (see placement in thread)\nGPT-6.2 Sol: #7 with 1757 pts\n- +13 pts vs GPT-6.1 Sol (Max)\n- Median cost per task: $1.45 vs. $1.84 for GPT-6.1 Sol, 21% lower\n- Lands on Pareto frontier (see placement in thread)\n6.2 Astra vs. Sol\n- Astra scores +24 pts above Sol\n- Sol’s median cost per task is 73% lower ($1.45 vs. $5.45)\nCongrats to the @OpenAI team on this release. Agent score coming soon!\n— https://x.com/arena/status/2123112692810764496",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXbJQHRagAAVG1f.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427392261861757",
+          "domain": "x.com",
+          "published": "2026-11-19T23:45:16+09:00",
+          "published_label": "2026/11/19(木) 23:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nアリーナ.ai (@arena)\nCode Arena: WebDev の @OpenAI により、GPT-6.2 Astra と GPT-6.2 Sol のリアルワールド アリーナ スコアが取得され、両方ともパレート フロンティアに到達しました。\n- #3 1781 ポイント: GPT-6.2 アストラ (最大)\n- #7 1757 ポイント: GPT-6.2 ソル (最大)\nGPT-6.2 アストラ: 1781 ポイントで #3\n- 以前のバリアント GPT-6 アストラと比較して +18 ポイント (最大)\n- GPT-6 Astra の第 4 位と比較して、消費者製品で第 1 位\n- タスクあたりのコストの中央値: 5.45 ドル対 GPT-6 Astra の 9.46 ドル、42% 低い\n- パレート辺境に上陸 (スレッド内の配置を参照)\nGPT-6.2 ソル: 1757 ポイントで 7 位\n- GPT-6.1 Sol に対して +13 ポイント (最大)\n- タスクあたりのコストの中央値: 1.45 ドル対 GPT-6.1 Sol の 1.84 ドル、21% 低い\n- パレート辺境に上陸 (スレッド内の配置を参照)\n6.2 アストラ対ソル\n- アストラのスコアはソルより +24 ポイント高い\n- Sol のタスクあたりのコストの中央値は 73% 低い (1.45 ドル対 5.45 ドル)\nこのリリースに関して @OpenAI チームに感謝します。エージェントスコアは近日公開予定です!\n— https://x.com/arena/status/2123112692810764496"
+        },
+        {
+          "title": "AIプラットフォームのArenaは、AIモデルのweb開発能力を測るランキング「Code Arena:WebDev」で、OpenAIの最新AIモデル「GPT-6.2 Astra(Max)」が3位に、「GPT-6.2 Sol(Max)」が7位にランクインしたと発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXftzvua8AApq8B.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123427312721109438",
+          "domain": "x.com",
+          "published": "2026-11-19T23:44:57+09:00",
+          "published_label": "2026/11/19(木) 23:44",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nLongCat Avatar 1.6 is NOW LIVE on WaveSpeed!\n- Turn photos into speaking or singing avatars\n- Animate two characters from a single image\n- Control who speaks and when\n- Customize expressions and motion with prompts\nPerfect for TikTok videos, YouTube content, podcasts, and more.\nGot a character in mind? Make them talk!\nVideo\n— https://x.com/wavespeed_ai/status/2123074500271001878",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123052415075397632/img/BAwL3DYxjoNAKrr5.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123426709961904185",
+          "domain": "x.com",
+          "published": "2026-11-19T23:42:33+09:00",
+          "published_label": "2026/11/19(木) 23:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nLongCat Avatar 1.6 が WaveSpeed で公開されました!\n- 写真を話したり歌ったりするアバターに変える\n- 1 つの画像から 2 人のキャラクターをアニメーション化します\n- 誰がいつ話すかをコントロール\n- プロンプトを使用して表情とモーションをカスタマイズ\nTikTokビデオ、YouTubeコンテンツ、ポッドキャストなどに最適です。\n思い当たるキャラクターはありますか？彼らに話させてください！\nビデオ\n— https://x.com/wavespeed_ai/status/2123074500271001878"
+        },
+        {
+          "title": "AIプラットフォームの「WaveSpeed」で、写真から話したり歌ったりするアバターを生成できるAIモデル「LongCat Avatar 1.6」を使えるようになりました。\n2人のキャラクターの発言タイミングや表情、動きを調整できます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123052415075397632/img/BAwL3DYxjoNAKrr5.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123426678835929504",
+          "domain": "x.com",
+          "published": "2026-11-19T23:42:26+09:00",
+          "published_label": "2026/11/19(木) 23:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nOpenAI Developers (@OpenAIDevs)\nNot every workflow requires an immediate response.\nFor single- or multi-turn workflows that can wait, save up to 40% per token than Standard on GPT-6.2 Astra or GPT-6.2 Sol.\nIn Responses API background mode, choose a 2h or 8h target for the first response. These discounted windows are now in public beta.\nVideo\n— https://x.com/OpenAIDevs/status/2123188195202617408",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123188140005560320/img/K4VWAqeU3sdAeVNK.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123426621898285494",
+          "domain": "x.com",
+          "published": "2026-11-19T23:42:12+09:00",
+          "published_label": "2026/11/19(木) 23:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nOpenAI 開発者 (@OpenAIDevs)\nすべてのワークフローが即時応答を必要とするわけではありません。\n待機できるシングルターンまたはマルチターンのワークフローの場合、GPT-6.2 Astra または GPT-6.2 Sol の標準よりもトークンあたり最大 40% 節約できます。\nResponses API バックグラウンド モードでは、最初のレスポンスのターゲットを 2 時間または 8 時間から選択します。これらの割引ウィンドウは現在パブリック ベータ版です。\nビデオ\n— https://x.com/OpenAIDevs/status/2123188195202617408"
+        },
+        {
+          "title": "OpenAIは、Responses APIのバックグラウンドモードで、初回回答までの目標時間を2時間または8時間に設定することで、GPT-6.2 Astra・Solを通常より最大40％安く利用できる仕組みを、パブリックベータ版として提供開始しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123188140005560320/img/K4VWAqeU3sdAeVNK.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123426597852295225",
+          "domain": "x.com",
+          "published": "2026-11-19T23:42:06+09:00",
+          "published_label": "2026/11/19(木) 23:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■引用元\nRemotion (@Remotion)\nRemotion now has real motion blur!\nApply it\n→ agentically: reference any element and ask for motion blur\n→ interactively: click the “Motion blur” button in the Studio\n→ programmatically: Wrap your content in <HtmlInCanvasMotionBlur>\nVideo\n— https://x.com/Remotion/status/2123049725708443887",
           "summary": "",
@@ -652,207 +855,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "■引用元\nGrok Bot (@bot)\nPlan your next trip with Grok Bot.\nBot can now book flights, hotels, and rental cars, finding you the best deal anywhere you go.\nVideo\n— https://x.com/bot/status/2123121401762918718",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123120877680365568/img/0eJEtFn2X4uo2HXQ.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345801628025305",
-          "domain": "x.com",
-          "published": "2026-11-19T18:21:03+09:00",
-          "published_label": "2026/11/19(木) 18:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGrok ボット (@bot)\nGrok Bot を使って次の旅行を計画しましょう。\nボットは航空券、ホテル、レンタカーを予約できるようになり、どこにいても最安値を見つけることができます。\nビデオ\n— https://x.com/bot/status/2123121401762918718"
-        },
-        {
-          "title": "SpaceXAIのAIエージェント「Grok Bot」は、航空券やホテル、レンタカーの予約に対応し、旅行先に合わせて、お得なプランを探して予約まで行えるようになりました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123120877680365568/img/0eJEtFn2X4uo2HXQ.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345771554914710",
-          "domain": "x.com",
-          "published": "2026-11-19T18:20:56+09:00",
-          "published_label": "2026/11/19(木) 18:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■Artificial Analysis",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122232901815164928/Xtxbd--M?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345664805609983",
-          "domain": "x.com",
-          "published": "2026-11-19T18:20:31+09:00",
-          "published_label": "2026/11/19(木) 18:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■人工分析"
-        },
-        {
-          "title": "■引用元\nArtificial Analysis (@ArtificialAnlys)\nKling Image 4.0 ranks #7 in Text to Image and #6 in Image Editing, behind only OpenAI and Microsoft AI models\nIt generates images up to 8K, and its 2K price is under a third of the price of every OpenAI model ranked above it. In Image Editing, it sits just behind GPT Image 2.5 Flare (max) at #5 and ranks in the top 5 for 5 of 7 editing actions.\nIt is also a big step up from Kling Image 3.0 Omni, which ranked #86 in Text to Image and #67 in Image Editing before this launch. Kling Image 4.0 gains more than 225 Elo on both boards and improves on Kling Image 3.0 Omni in every editing action and Text to Image capability.\nCongratulations to @Kling_ai on the launch of Kling Image 4.0!\nSee below for our detailed analysis in Image Editing and Text to Image 🧵\n— https://x.com/ArtificialAnlys/status/2123242530489966738",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2123345628281663798",
-          "domain": "x.com",
-          "published": "2026-11-19T18:20:22+09:00",
-          "published_label": "2026/11/19(木) 18:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\n人工分析 (@ArtificialAnlys)\nKling Image 4.0 は、OpenAI と Microsoft AI モデルに次いで、テキストから画像への変換で第 7 位、画像編集で第 6 位にランクされています。\n最大 8K の画像を生成し、2K の価格は、それより上位にランクされているすべての OpenAI モデルの価格の 3 分の 1 以下です。画像編集では、第 5 位の GPT Image 2.5 Flare (max) のすぐ後ろに位置し、7 つの編集アクションのうち 5 つでトップ 5 にランクされています。\nまた、このリリース前に Text to Image で 86 位、画像編集で 67 位にランクされていた Kling Image 3.0 Omni からの大きな進歩でもあります。 Kling Image 4.0 は、両方のボードで 225 Elo 以上を獲得し、あらゆる編集アクションと Text to Image 機能において Kling Image 3.0 Omni を改善します。\n@Kling_ai の Kling Image 4.0 のリリースおめでとうございます!\n画像編集とテキストから画像への詳細な分析については、以下を参照してください 🧵\n— https://x.com/ArtificialAnlys/status/2123242530489966738"
-        },
-        {
-          "title": "AIモデルの比較・分析サイトArtificial Analysisの、AIモデルの画像編集能力を測るランキングで、Kling AIの画像生成AIモデル「Kling Image 4.0」が6位にランクインしました(テキスト→画像ランキングは7位)。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2123345570773541107",
-          "domain": "x.com",
-          "published": "2026-11-19T18:20:08+09:00",
-          "published_label": "2026/11/19(木) 18:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Anthropicは、IPO(新規株式公開)に伴う公募で、日本国内から29億7900万ドル(約4700億円)を調達すると発表しました。\nJX金属やスペースXの上場時の調達額を上回る大型案件となります。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123215195527065601/wEzgLnL9?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345482869260414",
-          "domain": "x.com",
-          "published": "2026-11-19T18:19:47+09:00",
-          "published_label": "2026/11/19(木) 18:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "レノボは、AI関連製品の販売好調を受けて、2026年7月～9月期の売上高が前年同期比48％増となり、市場予想を上回りました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123113155484430336/oRBTBzNR?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345386010222921",
-          "domain": "x.com",
-          "published": "2026-11-19T18:19:24+09:00",
-          "published_label": "2026/11/19(木) 18:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "米シンクタンク「38ノース」は、北朝鮮の国営テレビ映像を分析し、同国が初のAIチャットボットを開発した可能性があると指摘しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123345298361921536/vrF0Eg6v?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345296432459987",
-          "domain": "x.com",
-          "published": "2026-11-19T18:19:03+09:00",
-          "published_label": "2026/11/19(木) 18:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "さくらインターネットは、生成AI向け推論API基盤「さくらのAI Engine」で2つのAIモデル(GLM-5.3-FlashとDeepSeek-V4.1-Flash-1017)の試験提供を開始しました。\n月3000回まで無料で利用できます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123321702704951296/5UOteCLE?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345244947362276",
-          "domain": "x.com",
-          "published": "2026-11-19T18:18:50+09:00",
-          "published_label": "2026/11/19(木) 18:18",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "AIコーディングエージェントの「Cursor」で、Googleの最新AIモデル「Gemini 4 Neon」が使えるようになりました。\nCursor (@cursor_ai)\nGemini 4 Neon is now available in Cursor!\nAt its default effort, it sets a new cost-performance frontier on CursorBench 4.1, scoring 63.7%, up from 57.3% for Gemini 4 Hydrogen.\nPriced at $3/M input and $15/M output tokens.\n— https://x.com/cursor_ai/status/2123198346802450926",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXcdpRHagAArFvw.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123200507754000756",
-          "domain": "x.com",
-          "published": "2026-11-19T08:43:42+09:00",
-          "published_label": "2026/11/19(木) 08:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■Agent Arena",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123126656345010176/5ZJKKzRq?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123200440263491749",
-          "domain": "x.com",
-          "published": "2026-11-19T08:43:26+09:00",
-          "published_label": "2026/11/19(木) 08:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■エージェントアリーナ"
         }
       ],
-      "elapsed": 5.8
+      "elapsed": 3.4
     },
     {
       "id": "x_kimmonismus",
@@ -862,7 +867,7 @@
       "status": "ok",
       "error": null,
       "via": "https://nitter.cf/kimmonismus/rss",
-      "count": 14,
+      "count": 15,
       "items": [
         {
           "title": "It’s always such a big pleasure to meet @satyanadella in person.\nOne of the most significant people of our time, driving the AI ​​era forward.",
@@ -882,6 +887,45 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
+        },
+        {
+          "title": "No way! ANOTHER Gemini incoming? Give me a pause Google.\nWhat are they doing right now?! Every release is a banger. And Neon keeps surprising me how damn good it is!\nOmar Sanseviero (@osanseviero)\nShipping will continue\nVideo\n— https://x.com/osanseviero/status/2123323209135308996",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXfaKRfa4AA_QlQ.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123322994302795776/img/KyodklibssNCtcfO.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123417510716289273",
+          "domain": "x.com",
+          "published": "2026-11-19T23:06:00+09:00",
+          "published_label": "2026/11/19(木) 23:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "とんでもない！またジェミニがやってくる?ちょっと待ってください、Google。\n彼らは今何をしているのですか？どのリリースもバンガーだ。そしてNeonは、それがどれほど素晴らしいものであるかに私を驚かせ続けます！\nオマール・サンセビエロ (@osanseviero)\n発送は継続します\nビデオ\n— https://x.com/osanseviero/status/2123323209135308996"
+        },
+        {
+          "title": "Trump is the best defender for Jensen there is.\n\"China spies on us, and we spy on China. But we’re better at it\"",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123215206994046976/img/Jbxf5BhLNmp_4S5X.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123402396202418559",
+          "domain": "x.com",
+          "published": "2026-11-19T22:05:56+09:00",
+          "published_label": "2026/11/19(木) 22:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "トランプはジェンセンにとって最良の擁護者だ。\n「中国は私たちをスパイしており、私たちも中国をスパイしています。しかし、それに関しては私たちの方が優れています。」"
         },
         {
           "title": "(although Gemini4 Neon has a good chance to become my new favorite. but needs more testing)",
@@ -1087,23 +1131,6 @@
           "title_ja": "1/ 私は Gemini 4 Neon に早期アクセスし、Antigravity で 1 日かけてテストしました。シューティングゲームから 3D ワールドまで、17 のインタラクティブなデモを構築してくれました。ここではそのうちの 8 つと、コーディングとツールの使用テストを紹介します。何がうまくいったのか、何がうまくいかなかったのかも共有しています。\nスレッド:"
         },
         {
-          "title": "I’m deeply disappointed in our board\nBill Ackman (@BillAckman)\nI believe the @nvidia board is not acting in the best interest of shareholders nor in a manner consistent with their fiduciary duties.\nWhat we know is that the board fired Jensen or forced his resignation for violating company policy and/or in response to the accusation of an affair with a spy.\nThey did so without careful consideration of the impact on the company, its customers, its shareholders or other stakeholders.\nThey rushed to judgment without the benefit of careful due diligence or even with a basic understanding of the facts.\nHow do we know this?\nWe know this by how quickly Jensen was fired and how little was known at the time of his firing.\nIt takes time to convene a board meeting. There was time, maybe, for one Zoom.\nAnd this is a decision that should have been made by a board sitting in person and carefully deliberating the facts once they are known.\nAnd they should have slept on the decision and met again the day after to discuss the facts, the risks and the other implications of their decision.\nThe timing and lack of information did not allow for careful board deliberation.\nWhile boards can fire a CEO for an inappropriate relationship with a subordinate, it should not be an automatic decision. That is why we have boards comprised of humans and not agents.\nA board should consider whether or not such a relationship was consensual or whether it was an abuse of power dynamics. And a board has to consider what the impact of the firing is on all stakeholders.\nIf I were in this board, I would not have rushed to judgment based on articles in the media. I would have made sure the board had all of the facts so it could make a careful and informed decision.\nBoards of Delaware companies have a duty of care which means they must make informed, prudent and good faith decisions. This clearly did not happen here.\nWhat law firm is advising this board?\nOr is the board even taken good legal advice?\nIt doesn’t look like it.\nAnd now the board is compounding its failures by insisting that there is no possibility for Jensen’s return as CEO.\nWhy is it in the best interest of the company to foreclose the possibility of Jensen’s return and to do so before all of the facts are known? This is yet another breach of their duty of care.\nFurthermore, the board has launched an investigation whose scope is unknown. Investigations can be extremely damaging to a company and should be carefully targeted to address whatever facts need to be known rather than be overly broad in scope.\nIn short, this looks like a series of major governance failures by directors that panicked due to headlines in the media. They likely felt compelled to do something because they were afraid of looking bad in the media, not because it was the right thing for them company.\nThey couldn’t stand the heat.\nThe board’s conduct here is shocking for a company of this scale and importance to our country and the world at large, particularly at this moment in history.\n— https://x.com/BillAckman/status/2123101979375235386",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/ShangwenLi1/status/2123130704678822314",
-          "domain": "x.com",
-          "published": "2026-11-19T04:06:20+09:00",
-          "published_label": "2026/11/19(木) 04:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "私たちの取締役会には非常に失望しています\nビル・アックマン (@BillAckman)\n私は、@nvidia 取締役会が株主の利益を最優先に行動していないか、受託者責任に沿った行動をしていないと考えています。\n私たちが知っていることは、取締役会が会社の方針に違反したため、および/またはスパイとの不倫の告発を受けてジェンセンを解雇するか辞任を強要したということです。\n彼らは、会社、顧客、株主、その他の利害関係者への影響を慎重に考慮せずにそうしたことを行いました。\n彼らは慎重なデューデリジェンスの恩恵を受けることなく、あるいは事実の基本的な理解さえなしに、判決を急ぎました。\nこれをどうやって知ることができるのでしょうか?\nこれは、ジェンセンがどれほど早く解雇されたか、そして解雇当時はほとんど知られていなかったことからわかります。\n取締役会の招集には時間がかかる。おそらく 1 回の Zoom の時間はあったでしょう。\nそしてこれは、事実が判明した時点で理事会が直接出席し、慎重に審議して下されるべき決定である。\nそして、彼らはその決定について寝て、翌日再び会って、事実、リスク、および決定のその他の影響について話し合うべきでした。\nタイミングと情報不足により、取締役会での慎重な審議ができませんでした。\n取締役会は部下との不適切な関係を理由にCEOを解任することはできるが、それが自動的に決定されるべきではない。そのため、当社ではエージェントではなく人間で構成された取締役会を設けています。\n取締役会は、そのような関係が合意に基づくものかどうか、あるいは権力力学の乱用であったかどうかを検討する必要がある。そして取締役会は考慮する必要があります"
-        },
-        {
           "title": "Jensen Huang on why he doesn't like firing employees...",
           "summary": "",
           "images": [
@@ -1123,7 +1150,7 @@
           "title_ja": "ジェンセン・ファンが従業員の解雇を好まない理由について語る..."
         }
       ],
-      "elapsed": 3.0
+      "elapsed": 2.9
     },
     {
       "id": "x_haider1",
@@ -1153,6 +1180,42 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "i don't think anthropic would release fable 5.2 with all those resets last week if they only intended it to be a stand-in for a week until fable 5.5 launched\nopus 5.6 seems more likely to launch next, potentially with an ECI above 175 but that's probably still a few weeks away",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2123421033877360680",
+          "domain": "x.com",
+          "published": "2026-11-19T23:20:00+09:00",
+          "published_label": "2026/11/19(木) 23:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "anthropic が、fable 5.5 がリリースされるまでの 1 週間の代役としてだけのつもりなら、先週、あんなにリセットされた fable 5.2 をリリースするとは思わない\n次に opus 5.6 がリリースされる可能性が高く、ECI が 175 を超える可能性がありますが、それはおそらくまだ数週間先です。"
+        },
+        {
+          "title": "are we getting another release already?\ngoogle deepmind employee who works on imagen and veo models posted \"gemini\" which means something might be coming today as well\ncould be nano banana pro 2 which was deployed on google cloud a few days ago\nAgoston Weisz (@AgostonWeisz)\nGemini\n— https://x.com/AgostonWeisz/status/2123267910537986138",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXfDp3ibwAASfi2.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123380882782277895",
+          "domain": "x.com",
+          "published": "2026-11-19T20:40:27+09:00",
+          "published_label": "2026/11/19(木) 20:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "すでに別のリリースが行われていますか?\nimagen と veo モデルを担当する Google Deepmind の従業員が「gemini」を投稿しました。これは、今日も何かが起こる可能性があることを意味します\n数日前に Google Cloud にデプロイされた nano Banana Pro 2 である可能性があります\nアゴストン・ワイズ (@AgostonWeisz)\nジェミニ\n— https://x.com/AgostonWeisz/status/2123267910537986138"
         },
         {
           "title": "this is beyond anything i expected\nGPT-6.2 Astra independently found a new way to prove a 20-year-old mathematical theorem in just 94 minutes while bypassing three major results the original proof relied on\nthe 1794-line proof was formally verified with no human intervention during the run\nVals AI (@ValsAI)\nGPT-6.2 Astra just produced what we believe is the first Lean proof of Smoktunowicz’s Gap Theorem, and it found its own route to get there.\nIt happened on Autoform-Hard, a verified subset of Meta FAIR’s AutoformBench that we’re releasing results on today.\n— https://x.com/ValsAI/status/2123129588066959380",
@@ -1372,46 +1435,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "AI企業/研究室への提案:\nほとんどの人がモデルを試す前に第一印象を急いでしまうベータ テスターに早期アクセスを提供するのはやめてください。あるいは、全員がテストして自分の意見を形成する公平な機会が得られるように、少なくとも数時間は待ってもらいます\nastra 6.2 はまだ 95% のユーザーに展開されておらず、これらの人々はすでにこれを失敗作だと呼んでいます"
-        },
-        {
-          "title": "astra 6.2 most likely isn't Bel but an improved checkpoint of astra 6\nbel might arrive next month or in q1 2027 as astra 6.5 or better. we might even get a smaller, distilled version as astra 6.5 while openai keeps the full bel model for developing future models\nfable 5.2 also scores 174 on the epoch index so they're mostly tied in performance",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2122772269198102676",
-          "domain": "x.com",
-          "published": "2026-11-18T04:22:02+09:00",
-          "published_label": "2026/11/18(水) 04:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "アストラ 6.2 はベルではなく、アストラ 6 のチェックポイントを改良したものである可能性が高い\nbel は来月または 2027 年第 1 四半期に Astra 6.5 以降として登場する可能性があります。 openai が将来のモデル開発のために完全な bel モデルを保持している間、astra 6.5 として小型の蒸留バージョンを入手することさえできるかもしれません。\nfable 5.2 もエポック インデックスで 174 のスコアを獲得しているため、パフォーマンスはほぼ同等です"
-        },
-        {
-          "title": "sol 6.2 comes remarkably close to astra 6.2 in coding at about one-fifth the cost per task on FrontierCode 2.0\nnearly the same coding performance at 80% lower cost\nHaider. (@haider1)\nThis is BONKERS\non Agents' Last Exam v1.1:\ngpt-6.2 astra: 78.3% at $3 per task\nfable 5.2: 72.8% at $60 per task\nopus 5.5: 71.6% at $17.50 per task\n— https://x.com/haider1/status/2122755313141244347",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWMu-faEAALsVu.jpg?name=small",
-            "https://pbs.twimg.com/media/HXWKs-QbsAAxPpW.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122757546452947015",
-          "domain": "x.com",
-          "published": "2026-11-18T03:23:32+09:00",
-          "published_label": "2026/11/18(水) 03:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "sol 6.2 は、FrontierCode 2.0 のタスクあたりのコストの約 5 分の 1 で、コーディングにおいて astra 6.2 に著しく近づいています。\nほぼ同じコーディングパフォーマンスを 80% 低いコストで実現\nハイダー。 (@haider1)\nこれがボンカーズです\nエージェントの最終試験 v1.1 について:\ngpt-6.2 astra: タスクあたり 3 ドルで 78.3%\n寓話 5.2: タスクあたり 60 ドルで 72.8%\nopus 5.5: タスクあたり 17.50 ドルで 71.6%\n— https://x.com/haider1/status/2122755313141244347"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_testingcatalog",
@@ -1439,6 +1465,44 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 19 日\nモデル予測 👀:\n- ジェミニ・ヘリックス、来週ですか？\n- Nano Banana 3 Pro、近日発売\n- ジェミニのコバルトとクリプトン、それは誰ですか?\n- Grok 4.8、「ソフト」A/B テスト?\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Qwen4 Flash/Plus/27B、近日提供予定\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\n- GPT の「ベル」はありませんか?\nGoogle $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon は、Gemini、Antigravity、Vertex AI、API の Google AI Pro および Ultra サブスクライバーに、100 万トークンあたり 3 ドル/15 ドルで展開されます。\n- Google は、次期 Gemini 4 リリースとして Flash Lite モデルである Gemini 4 Helium を予告しました。\n- AI Studio には、Gemini 4 モデルを周期表としてレイアウトする新しいモデル セレクターが追加されました。\n- Genie 4 は、Ultra 加入者向けの Project Genie に含まれており、ネイティブ オーディオとセッション中の世界のライブ編集が可能です。\n- Stitch Loop は、Google Labs の新しい実験です。ライブ指標を監視し、修正を含む PR を開く常時稼働の製品エージェントです。\n- Google AI Ultra には追加料金なしで YouTube Premium ファミリーが含まれるようになりました (alexmichael 経由)。\n- Gemini アプリは、Android Go デバイスを含む低メモリの Android スマートフォンで実行できるようになりました。\n人智学🔥:\n- Anthropic は IPO の価格を 1 株当たり 83 ドルと、70 ～ 78 ドルの範囲を上回っており、ナスダックでの取引は本日開始される予定です。\n- ブルームバーグによると、調達額は813億ドルで、SpaceXの750億ドルを上回る史上最大のIPOとなる。\n- イーロン・マスク氏は DealBook で、Anthropic の最も可能性の高い計画は、SpaceX からさらに 10 ギガワットのコンピューティングを借りることであると述べました。\n- Claude iOS アプリには、ファイルをアップロードするためのドキュメント スキャン オプションが追加されました。"
+        },
+        {
+          "title": "Documented 🗞️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123405112253030400/mnYtuUs-?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123405126035722611",
+          "domain": "x.com",
+          "published": "2026-11-19T22:16:47+09:00",
+          "published_label": "2026/11/19(木) 22:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "文書化されました 🗞️"
+        },
+        {
+          "title": "Google is working on different Writing Modes for Gemini Notebook.\n- Writing Partner, as a default option, uses AI to help make notes better.\n- Writing Coach acts in the chat and makes suggestions to the user.\n- No AI, for those who don't want to use it at all.\nWriting Coach is basically AI that prompts humans to write better text.\nSoon 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXfZbc0WsAAlXXm.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123405122478735541",
+          "domain": "x.com",
+          "published": "2026-11-19T22:16:46+09:00",
+          "published_label": "2026/11/19(木) 22:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Google は、Gemini Notebook 用のさまざまな書き込みモードの開発に取り組んでいます。\n- Writing Partner はデフォルトのオプションとして、AI を使用してメモをより良く作成します。\n- ライティング コーチはチャットで機能し、ユーザーに提案を行います。\n- AI は使用しません。AI をまったく使用したくない人向けです。\nWriting Coach は基本的に、人間により良いテキストを書くよう促す AI です。\nもうすぐ👀"
         },
         {
           "title": "* Helix was an earlier spotted name, I think I should have named Helium\nI feel like we can survive one more model name from the periodic table, and then everyone's minds will start burning if we get more elements into the mix.",
@@ -1498,25 +1562,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ANTHROPIC 🔥: PBC が $ANT に 1 株あたり 83 ドルの価格を付けました!\n> 「売り出しはクラスA普通株式9億8000万株で構成されており、そのうち9億5635万1354株はAnthropicによって売却され、そのうち2364万8646株は特定の売却株主によって売却される。」\n明日も楽しくなりますよ🍿\nアンスロピック (@AnthropicAI)\n私たちはIPOの価格を1株あたり83ドルに設定し、明日ナスダックで取引が始まる予定です。\n法的免責事項: クラス A 普通株式に関する登録届出は、2026 年 11 月 18 日に証券取引委員会によって発効が宣言されました。この募集は目論見書によってのみ行われます。最終目論見書のコピーは、利用可能な場合には、Goldman Sachs & Co. LLC、宛先: 目論見書部門、200 West Street、New York、NY 10282、電話 (866) 471-2526、または電子メール (prospectus-ny@ny.email.gs.com) で入手できます。または Morgan Stanley & Co. LLC、宛先: Prospectus Division, 180 Varick Street, 2nd Floor, New York, NY 10014、または電子メール (prospectus@morganstanley.com)\n— https://x.com/AnthropicAI/status/2123196808675405860"
-        },
-        {
-          "title": "Documented 🗞️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123188503135547392/4Nf6h6b5?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123188504977195074",
-          "domain": "x.com",
-          "published": "2026-11-19T07:56:01+09:00",
-          "published_label": "2026/11/19(木) 07:56",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "文書化されました 🗞️"
         },
         {
           "title": "Grok Bot is getting a set of your favorite features! Flight and hotel booking, as well as car rental, are now supported.\njk, I still can't imagine myself using any of these unless service providers offer some good benefits for purchases made via AI agents.\nYet, it should be quite useful for discovery and planning!",
@@ -1693,25 +1738,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "GOOGLE 🔥: Genie 4 は現在、Google AI Ultra 加入者向けに Project Genie で公開されています。\n> Genie 4 には、ネイティブ オーディオおよびリアルタイム編集機能が付属しています。\n> ユーザーは、既製の作品のギャラリーを探索してリミックスすることもできます。\nもうすぐ👀"
-        },
-        {
-          "title": "OPENAI 🔥: ChatGPT got a dictation upgrade that makes it faster and more reliable.\nUsers can also see the text as they speak, overlaid on the \"wave\" in the prompt bar.\nI use dictation every day, and on ChatGPT I often had to rely on dictation apps instead, especially for abbreviations.\nNeeds testing 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123114211899498496/img/K5NbM-IBfZr4kelP.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123126214755783142",
-          "domain": "x.com",
-          "published": "2026-11-19T03:48:30+09:00",
-          "published_label": "2026/11/19(木) 03:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "OPENAI 🔥: ChatGPT はディクテーションがアップグレードされ、より高速かつ信頼性が向上しました。\nユーザーは、プロンプト バーの「波」に重ねて、話しているテキストを確認することもできます。\n私は毎日ディクテーションを使用していますが、ChatGPT では、特に略語については代わりにディクテーション アプリに頼らなければならないことがよくありました。\nテストが必要です 👀"
         }
       ],
       "elapsed": 0.8

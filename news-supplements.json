@@ -1,15 +1,6 @@
 {
  "ec-support": {
-  "ecs_31": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecs_21": {
+  "オリナス株式会社": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=86631",
@@ -18,7 +9,7 @@
     }
    ]
   },
-  "ecs_24": {
+  "トゥルーコンサルティング株式会社": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=56054",
@@ -27,7 +18,7 @@
     }
    ]
   },
-  "ecs_11": {
+  "株式会社JAPAN SOLUTIONS": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
@@ -41,55 +32,27 @@
      "origin": "site"
     }
    ]
+  },
+  "株式会社エフカフェ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
   }
  },
  "ec-mailorder": {
-  "ecm_02": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=170809",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ],
+  "ECホールディングス": {
    "html_news": [
     {
-     "url": "https://www.everlife.jp/news/",
+     "url": "https://www.ec-h.co.jp/news-release/",
      "origin": "site"
     }
    ]
   },
-  "ecm_07": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=69527",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ],
-   "html_news": [
-    {
-     "url": "https://shop.formalklein.com/shop/information_categories/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_17": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=88698",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ],
-   "html_news": [
-    {
-     "url": "https://krokos.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_10": {
+  "ウェルヴィーナス": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=128435",
@@ -104,39 +67,45 @@
     }
    ]
   },
-  "ecm_08": {
+  "エバーライフ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=170809",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
    "html_news": [
     {
-     "url": "https://www.yakushido.com/news/",
+     "url": "https://www.everlife.jp/news/",
      "origin": "site"
     }
    ]
   },
-  "ecm_32": {
+  "クロコス": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=88698",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
    "html_news": [
     {
-     "url": "https://www.vernal.co.jp/shop/topic/topicdetaillist.aspx?category=0",
+     "url": "https://krokos.co.jp/news/",
      "origin": "site"
     }
    ]
   },
-  "ecm_41": {
+  "ディーエムジェイグループ": {
    "html_news": [
     {
-     "url": "https://tokyo-develo.co.jp/page/news-list/",
+     "url": "https://corp.dmjegao.com/topics/",
      "origin": "site"
     }
    ]
   },
-  "ecm_42": {
-   "html_news": [
-    {
-     "url": "https://nara-yamatoshoyaku.co.jp/shop/information",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_04": {
+  "ハーブ健康本舗": {
    "html_news": [
     {
      "url": "https://www.herb-kenko.com/news/",
@@ -144,79 +113,7 @@
     }
    ]
   },
-  "ecm_06": {
-   "html_news": [
-    {
-     "url": "https://rankuphd.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_13": {
-   "html_news": [
-    {
-     "url": "https://toyama-jobiyaku.co.jp/shop/information_categories/newinfo",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_18": {
-   "html_news": [
-    {
-     "url": "https://www.hb-101.co.jp/topics",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_22": {
-   "html_news": [
-    {
-     "url": "https://www.fromcocoro.com/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_25": {
-   "html_news": [
-    {
-     "url": "https://www.s-shizensyokuhin.com/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_33": {
-   "html_news": [
-    {
-     "url": "https://www.nshk.jp/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_38": {
-   "html_news": [
-    {
-     "url": "https://oroshi-uri.com/news_290.php",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_31": {
-   "html_news": [
-    {
-     "url": "https://seedcoms.net/blogs/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_53": {
-   "html_news": [
-    {
-     "url": "https://www.ec-h.co.jp/news-release/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecm_12": {
+  "ファンファレ": {
    "html_news": [
     {
      "url": "https://fanfare-shop.com/",
@@ -224,17 +121,120 @@
     }
    ]
   },
-  "ecm_44": {
+  "フォーマルクライン": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=69527",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
    "html_news": [
     {
-     "url": "https://corp.dmjegao.com/topics/",
+     "url": "https://shop.formalklein.com/shop/information_categories/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "フロムココロ": {
+   "html_news": [
+    {
+     "url": "https://www.fromcocoro.com/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "フローラ": {
+   "html_news": [
+    {
+     "url": "https://www.hb-101.co.jp/topics",
+     "origin": "site"
+    }
+   ]
+  },
+  "ランクアップ": {
+   "html_news": [
+    {
+     "url": "https://rankuphd.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "ヴァーナル": {
+   "html_news": [
+    {
+     "url": "https://www.vernal.co.jp/shop/topic/topicdetaillist.aspx?category=0",
+     "origin": "site"
+    }
+   ]
+  },
+  "世田谷自然食品": {
+   "html_news": [
+    {
+     "url": "https://www.s-shizensyokuhin.com/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "八幡物産": {
+   "html_news": [
+    {
+     "url": "https://oroshi-uri.com/news_290.php",
+     "origin": "site"
+    }
+   ]
+  },
+  "奈良大和生薬": {
+   "html_news": [
+    {
+     "url": "https://nara-yamatoshoyaku.co.jp/shop/information",
+     "origin": "site"
+    }
+   ]
+  },
+  "富山常備薬": {
+   "html_news": [
+    {
+     "url": "https://toyama-jobiyaku.co.jp/shop/information_categories/newinfo",
+     "origin": "site"
+    }
+   ]
+  },
+  "日本自然発酵": {
+   "html_news": [
+    {
+     "url": "https://www.nshk.jp/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "日本薬師堂": {
+   "html_news": [
+    {
+     "url": "https://www.yakushido.com/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "東京ディベロ": {
+   "html_news": [
+    {
+     "url": "https://tokyo-develo.co.jp/page/news-list/",
+     "origin": "site"
+    }
+   ]
+  },
+  "野草酵素": {
+   "html_news": [
+    {
+     "url": "https://seedcoms.net/blogs/news",
      "origin": "site"
     }
    ]
   }
  },
  "ec-brands": {
-  "ecb_001": {
+  "DINETTE株式会社": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=26615",
@@ -249,25 +249,225 @@
     }
    ]
   },
-  "ecb_034": {
+  "FAVO株式会社": {
    "extra_feeds": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=85691",
+     "url": "https://prtimes.jp/companyrdf.php?company_id=175747",
      "origin": "prtimes",
      "label": "PR TIMES"
     }
    ]
   },
-  "ecb_041": {
+  "HelloVenus": {
    "extra_feeds": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=152214",
+     "url": "https://prtimes.jp/companyrdf.php?company_id=96848",
      "origin": "prtimes",
      "label": "PR TIMES"
     }
    ]
   },
-  "ecb_066": {
+  "Olks": {
+   "html_news": [
+    {
+     "url": "https://olks.site/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "Oz link": {
+   "html_news": [
+    {
+     "url": "https://ozlink.co.jp/information/",
+     "origin": "site"
+    }
+   ]
+  },
+  "Toniez株式会社": {
+   "html_news": [
+    {
+     "url": "https://toniez.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "WHRP株式会社": {
+   "html_news": [
+    {
+     "url": "https://www.whrp.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "bfj株式会社": {
+   "html_news": [
+    {
+     "url": "https://bf-j.com/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "ecxia株式会社": {
+   "html_news": [
+    {
+     "url": "https://welina-salon.com/archives/category/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "アカマイテクノロジーズ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=31697",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "アスニカ株式会社": {
+   "html_news": [
+    {
+     "url": "https://taion-inc.com/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "アドコミ株式会社": {
+   "html_news": [
+    {
+     "url": "https://adcomi.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "アンカー": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=16775",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "サヴァリ株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "ネクストレベルホールディングス株式会社": {
+   "html_news": [
+    {
+     "url": "https://nextlevelholdings.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "ヨミテ株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=174226",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "レバレジーズM&Aアドバイザリー株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=10591",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "元株式会社テレシー": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=76049",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "和心本舗株式会社": {
+   "html_news": [
+    {
+     "url": "https://www.wa-kokoro.com/tatami/wordpress/category/okyakusama",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社2-GEAR": {
+   "html_news": [
+    {
+     "url": "https://beatribes.com/fit#news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社BULK": {
+   "html_news": [
+    {
+     "url": "https://bulk.co.jp/shop/information_categories/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社Collelis": {
+   "html_news": [
+    {
+     "url": "https://www.collelis.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社GrandBleu&Co.": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=171363",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社Grow": {
+   "html_news": [
+    {
+     "url": "https://to-grow.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社HighLink": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=61060",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社IMAGICA IRIS": {
+   "html_news": [
+    {
+     "url": "https://imagica-iris.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社Icra": {
+   "html_news": [
+    {
+     "url": "https://icra.marketing/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社JAPANSOLUTIONS": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
@@ -282,61 +482,24 @@
     }
    ]
   },
-  "ecb_075": {
+  "株式会社LLL": {
+   "html_news": [
+    {
+     "url": "https://lll-shop.com/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社Magnifi": {
    "extra_feeds": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=175747",
+     "url": "https://prtimes.jp/companyrdf.php?company_id=85691",
      "origin": "prtimes",
      "label": "PR TIMES"
     }
    ]
   },
-  "ecb_076": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=96848",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_087": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=16775",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_093": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_103": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=174226",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_105": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=10591",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_112": {
+  "株式会社SHINY": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=192317",
@@ -345,25 +508,7 @@
     }
    ]
   },
-  "ecb_117": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=21504",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_133": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=171363",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_160": {
+  "株式会社SLONE": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=178728",
@@ -372,43 +517,23 @@
     }
    ]
   },
-  "ecb_202": {
-   "extra_feeds": [
+  "株式会社THE RICH": {
+   "html_news": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=142246",
-     "origin": "prtimes",
-     "label": "PR TIMES"
+     "url": "https://about.silktherich.com/news/",
+     "origin": "site"
     }
    ]
   },
-  "ecb_216": {
-   "extra_feeds": [
+  "株式会社Weeare": {
+   "html_news": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=31697",
-     "origin": "prtimes",
-     "label": "PR TIMES"
+     "url": "https://weeare.co.jp/Blog/2",
+     "origin": "site"
     }
    ]
   },
-  "ecb_276": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=61060",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_282": {
-   "extra_feeds": [
-    {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=29254",
-     "origin": "prtimes",
-     "label": "PR TIMES"
-    }
-   ]
-  },
-  "ecb_297": {
+  "株式会社fred": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=192776",
@@ -417,16 +542,72 @@
     }
    ]
   },
-  "ecb_309": {
+  "株式会社mtc.": {
    "extra_feeds": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=76049",
+     "url": "https://prtimes.jp/companyrdf.php?company_id=152214",
      "origin": "prtimes",
      "label": "PR TIMES"
     }
    ]
   },
-  "ecb_371": {
+  "株式会社my's": {
+   "html_news": [
+    {
+     "url": "https://my-s.shop/shop/information",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社アトラクト": {
+   "html_news": [
+    {
+     "url": "https://www.attract-cc.com/news/page/index.php?id=386",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社アーツ": {
+   "html_news": [
+    {
+     "url": "https://arts-it.co.jp/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社オプト": {
+   "html_news": [
+    {
+     "url": "https://www.opt.ne.jp/news/pressrelease/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社オムニバス": {
+   "html_news": [
+    {
+     "url": "https://e-omnibus.co.jp/topics/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社オレコン": {
+   "html_news": [
+    {
+     "url": "https://orecon.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社クリアビジョン": {
+   "html_news": [
+    {
+     "url": "https://clearvision.kyoto.jp/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社コンボイスイッチ": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=137986",
@@ -435,7 +616,80 @@
     }
    ]
   },
-  "ecb_379": {
+  "株式会社サイトスコープ": {
+   "html_news": [
+    {
+     "url": "https://sitescope.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社サマー・スノウ": {
+   "html_news": [
+    {
+     "url": "https://summer-snow.co.jp/information/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社セレス": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=21504",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社ダイヤモンドファンタジー": {
+   "html_news": [
+    {
+     "url": "https://diamond-f.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社ダイレクトマーケティングゼロ": {
+   "html_news": [
+    {
+     "url": "https://dmzero.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社ブランドパトローラー": {
+   "html_news": [
+    {
+     "url": "https://brand-patroller.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社メデタ": {
+   "html_news": [
+    {
+     "url": "https://medeta.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社リテリア": {
+   "html_news": [
+    {
+     "url": "https://www.re-terior.com/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社丸辰": {
+   "html_news": [
+    {
+     "url": "https://marutatsu.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社京福堂": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=98890",
@@ -444,16 +698,32 @@
     }
    ]
   },
-  "ecb_418": {
+  "株式会社出前館": {
    "extra_feeds": [
     {
-     "url": "https://prtimes.jp/companyrdf.php?company_id=158290",
+     "url": "https://prtimes.jp/companyrdf.php?company_id=29254",
      "origin": "prtimes",
      "label": "PR TIMES"
     }
    ]
   },
-  "ecb_510": {
+  "株式会社和漢": {
+   "html_news": [
+    {
+     "url": "https://www.wakan.shop/news/index.html",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社夢中": {
+   "html_news": [
+    {
+     "url": "https://wowfull.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社湖池屋": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=3039",
@@ -468,271 +738,16 @@
     }
    ]
   },
-  "ecb_070": {
-   "html_news": [
+  "株式会社通販の虎 マーケティング": {
+   "extra_feeds": [
     {
-     "url": "https://www.wakan.shop/news/index.html",
-     "origin": "site"
+     "url": "https://prtimes.jp/companyrdf.php?company_id=142246",
+     "origin": "prtimes",
+     "label": "PR TIMES"
     }
    ]
   },
-  "ecb_082": {
-   "html_news": [
-    {
-     "url": "https://www.whrp.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_083": {
-   "html_news": [
-    {
-     "url": "https://welina-salon.com/archives/category/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_086": {
-   "html_news": [
-    {
-     "url": "https://adcomi.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_096": {
-   "html_news": [
-    {
-     "url": "https://nextlevelholdings.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_107": {
-   "html_news": [
-    {
-     "url": "https://www.wa-kokoro.com/tatami/wordpress/category/okyakusama",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_122": {
-   "html_news": [
-    {
-     "url": "https://marutatsu.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_128": {
-   "html_news": [
-    {
-     "url": "https://bf-j.com/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_140": {
-   "html_news": [
-    {
-     "url": "https://clearvision.kyoto.jp/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_141": {
-   "html_news": [
-    {
-     "url": "https://dmzero.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_150": {
-   "html_news": [
-    {
-     "url": "https://ozlink.co.jp/information/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_161": {
-   "html_news": [
-    {
-     "url": "https://about.silktherich.com/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_162": {
-   "html_news": [
-    {
-     "url": "https://www.opt.ne.jp/news/pressrelease/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_183": {
-   "html_news": [
-    {
-     "url": "https://bulk.co.jp/shop/information_categories/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_200": {
-   "html_news": [
-    {
-     "url": "https://www.re-terior.com/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_201": {
-   "html_news": [
-    {
-     "url": "https://wowfull.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_231": {
-   "html_news": [
-    {
-     "url": "https://brand-patroller.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_239": {
-   "html_news": [
-    {
-     "url": "https://olks.site/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_277": {
-   "html_news": [
-    {
-     "url": "https://icra.marketing/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_287": {
-   "html_news": [
-    {
-     "url": "https://e-omnibus.co.jp/topics/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_342": {
-   "html_news": [
-    {
-     "url": "https://beatribes.com/fit#news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_345": {
-   "html_news": [
-    {
-     "url": "https://www.collelis.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_353": {
-   "html_news": [
-    {
-     "url": "https://weeare.co.jp/Blog/2",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_357": {
-   "html_news": [
-    {
-     "url": "https://my-s.shop/shop/information",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_364": {
-   "html_news": [
-    {
-     "url": "https://www.attract-cc.com/news/page/index.php?id=386",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_372": {
-   "html_news": [
-    {
-     "url": "https://sitescope.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_373": {
-   "html_news": [
-    {
-     "url": "https://summer-snow.co.jp/information/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_376": {
-   "html_news": [
-    {
-     "url": "https://diamond-f.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_378": {
-   "html_news": [
-    {
-     "url": "https://medeta.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_388": {
-   "html_news": [
-    {
-     "url": "https://toniez.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_391": {
-   "html_news": [
-    {
-     "url": "https://taion-inc.com/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_398": {
-   "html_news": [
-    {
-     "url": "https://to-grow.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_424": {
-   "html_news": [
-    {
-     "url": "https://lll-shop.com/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_468": {
+  "株式会社食選館": {
    "html_news": [
     {
      "url": "https://syokusenkan.co.jp/news/",
@@ -740,34 +755,292 @@
     }
    ]
   },
-  "ecb_485": {
-   "html_news": [
-    {
-     "url": "https://imagica-iris.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_492": {
-   "html_news": [
-    {
-     "url": "https://arts-it.co.jp/news",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_499": {
-   "html_news": [
-    {
-     "url": "https://orecon.co.jp/news/",
-     "origin": "site"
-    }
-   ]
-  },
-  "ecb_512": {
+  "株式会社黒船物流": {
    "html_news": [
     {
      "url": "https://kurofune-logi.co.jp/info/",
+     "origin": "site"
+    }
+   ]
+  },
+  "福島鰹株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=158290",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  }
+ },
+ "caster-companies": {
+  "サヴァリ株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "卒塔婆通販「卒塔婆屋さん」": {
+   "html_news": [
+    {
+     "url": "https://sotouba.net/category/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社COIM": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=123373",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社アルド": {
+   "html_news": [
+    {
+     "url": "https://www.aldo-system.jp/blog/category/infomation/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社インボイス": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=113945",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://www.invoice.ne.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社エフカフェ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社スタークス": {
+   "html_news": [
+    {
+     "url": "https://starx.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "芙蓉アウトソーシング＆コンサルティング株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=46184",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://www.noc-net.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  }
+ },
+ "ec-companies": {
+  "Semuis株式会社": {
+   "html_news": [
+    {
+     "url": "https://semuis.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "エフカフェ株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "スタークス株式会社": {
+   "html_news": [
+    {
+     "url": "https://starx.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社COIM": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=123373",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社JAPAN SOLUTIONS": {
+   "html_news": [
+    {
+     "url": "https://japan-solution.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社アルド": {
+   "html_news": [
+    {
+     "url": "https://www.aldo-system.jp/blog/category/infomation/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社ファイブスプリングス": {
+   "html_news": [
+    {
+     "url": "https://www.5springs.co.jp/blog/information/seminar/",
+     "origin": "site"
+    }
+   ]
+  }
+ },
+ "nrtv-companies": {
+  "SEEDER株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=104743",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "スタークス株式会社": {
+   "html_news": [
+    {
+     "url": "https://starx.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社Lumii": {
+   "html_news": [
+    {
+     "url": "https://lumii.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社Minto": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=29274",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://minto-inc.jp/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社エフカフェ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社オプト": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=189362",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://www.opt.ne.jp/news/pressrelease/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社ガラパゴス": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=48043",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://glpgs.com/news/",
+     "origin": "site"
+    }
+   ]
+  }
+ },
+ "smartnews-partners": {
+  "スイミー株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=126319",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社Slayers": {
+   "html_news": [
+    {
+     "url": "https://slayers.co.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社prisma": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=164036",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://prisma-corp.com/information/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社ヴァンクリーフ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=179468",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://van-cleef.jp/news/",
      "origin": "site"
     }
    ]

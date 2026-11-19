@@ -28,6 +28,8 @@ import time
 import unicodedata
 import urllib.parse
 import urllib.request
+
+from news_supplements import apply_supplements
 import xml.etree.ElementTree as ET
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
@@ -359,6 +361,9 @@ def run(board: dict, argv=None) -> int:
 
     companies = load_companies(args.xlsx, board)
     sources = [build_source(c, i + 1, board) for i, c in enumerate(companies)]
+    # news-supplements.json の補完（PR TIMES 企業RSS・公式サイトのお知らせ）を足す。
+    # 再同期しても補完定義が消えないように、書き出す直前に毎回適用する。
+    sources = apply_supplements(board.get("supplement_key") or board["out"].split("sources-")[-1].replace(".json", ""), sources)
     doc = make_document(sources, board)
 
     with open(args.out, "w", encoding="utf-8") as fh:

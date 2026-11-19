@@ -32,12 +32,15 @@ def load(path: str = DEFAULT_PATH) -> dict:
 
 
 def apply_supplements(board: str, sources: list, path: str = DEFAULT_PATH) -> list:
-    """board 名（ec-mailorder 等）の補完定義を sources に反映して返す。"""
+    """board 名（ec-mailorder 等）の補完定義を sources に反映して返す。
+
+    引くのは **社名優先**（`id` は Excel の並び順で振るので、行が増減すると別会社に当たる）。
+    """
     data = (load(path).get(board) or {})
     if not data:
         return sources
     for src in sources:
-        sup = data.get(src.get("id")) or data.get(src.get("name")) or {}
+        sup = data.get(src.get("name")) or data.get(src.get("id")) or {}
         feeds = sup.get("extra_feeds") or []
         html = sup.get("html_news") or []
         if feeds:

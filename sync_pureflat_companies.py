@@ -33,6 +33,8 @@ import xml.etree.ElementTree as ET
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
 
+from news_supplements import apply_supplements
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_XLSX = os.path.join(BASE_DIR, "..", "downloads", "pureflat-events-speakers.xlsx")
 DEFAULT_OUT = os.path.join(BASE_DIR, "sources-ec-companies.json")
@@ -306,6 +308,8 @@ def main(argv=None) -> int:
 
     companies = load_companies(args.xlsx)
     sources = [build_source(c, i + 1) for i, c in enumerate(companies)]
+    # news-supplements.json の補完（PR TIMES 企業RSS・公式サイトのお知らせ）を足す
+    sources = apply_supplements("ec-companies", sources)
     doc = make_document(sources)
 
     with open(args.out, "w", encoding="utf-8") as fh:

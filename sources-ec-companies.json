@@ -1,7 +1,7 @@
 {
   "settings": {
     "title": "ピュアフラット登壇企業 ニュース監視",
-    "nav_label": "EC企業70社",
+    "nav_label": "EC企業75社",
     "items_per_source": 5,
     "timeout_seconds": 15,
     "retries": 2,
@@ -26,6 +26,17 @@
     {
       "id": "gn_02",
       "type": "google_news",
+      "name": "株式会社マクロジ",
+      "query": "\"マクロジ\"",
+      "must_match": [
+        "マクロジ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "gn_03",
+      "type": "google_news",
       "name": "EC-Consulting Japan株式会社",
       "query": "\"EC-Consulting Japan\"",
       "must_match": [
@@ -35,23 +46,12 @@
       "enabled": true
     },
     {
-      "id": "gn_03",
+      "id": "gn_04",
       "type": "google_news",
       "name": "ec vision株式会社",
       "query": "\"ec vision\"",
       "must_match": [
         "ec vision"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "gn_04",
-      "type": "google_news",
-      "name": "株式会社マクロジ",
-      "query": "\"マクロジ\"",
-      "must_match": [
-        "マクロジ"
       ],
       "limit": 5,
       "enabled": true
@@ -72,6 +72,73 @@
     {
       "id": "gn_06",
       "type": "google_news",
+      "name": "株式会社COIM",
+      "query": "\"COIM\" EC",
+      "must_match": [
+        "COIM"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "EC",
+        "コマース",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "商品",
+        "販売",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "決済",
+        "カスタマー",
+        "CRM",
+        "セミナー",
+        "ウェビナー",
+        "登壇",
+        "株式会社",
+        "子会社",
+        "買収",
+        "提携",
+        "決算",
+        "上場",
+        "資金調達",
+        "リリース",
+        "導入",
+        "支援",
+        "構築",
+        "運用",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "代表",
+        "社長",
+        "事例",
+        "サービス",
+        "事業"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=123373",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "gn_07",
+      "type": "google_news",
       "name": "株式会社Ritaen",
       "query": "\"Ritaen\"",
       "must_match": [
@@ -81,7 +148,7 @@
       "enabled": true
     },
     {
-      "id": "gn_07",
+      "id": "gn_08",
       "type": "google_news",
       "name": "株式会社WUUZY（ECのプロ）",
       "query": "\"WUUZY\"",
@@ -92,7 +159,7 @@
       "enabled": true
     },
     {
-      "id": "gn_08",
+      "id": "gn_09",
       "type": "google_news",
       "name": "株式会社これから",
       "query": "\"株式会社これから\"",
@@ -104,7 +171,7 @@
       "enabled": true
     },
     {
-      "id": "gn_09",
+      "id": "gn_10",
       "type": "google_news",
       "name": "NE株式会社",
       "query": "\"NE株式会社\"",
@@ -117,7 +184,7 @@
       "enabled": true
     },
     {
-      "id": "gn_10",
+      "id": "gn_11",
       "type": "google_news",
       "name": "しるし株式会社",
       "query": "\"しるし\" EC",
@@ -177,7 +244,7 @@
       ]
     },
     {
-      "id": "gn_11",
+      "id": "gn_12",
       "type": "google_news",
       "name": "日本ECサービス株式会社",
       "query": "\"日本ECサービス\"",
@@ -188,7 +255,7 @@
       "enabled": true
     },
     {
-      "id": "gn_12",
+      "id": "gn_13",
       "type": "google_news",
       "name": "株式会社ALL WEB CONSULTING",
       "query": "\"ALL WEB CONSULTING\"",
@@ -197,66 +264,6 @@
       ],
       "limit": 5,
       "enabled": true
-    },
-    {
-      "id": "gn_13",
-      "type": "google_news",
-      "name": "株式会社COIM",
-      "query": "\"COIM\" EC",
-      "must_match": [
-        "COIM"
-      ],
-      "limit": 5,
-      "enabled": true,
-      "context_match": [
-        "EC",
-        "コマース",
-        "通販",
-        "ネットショップ",
-        "ネット通販",
-        "ショッピング",
-        "楽天",
-        "Amazon",
-        "アマゾン",
-        "ヤフー",
-        "Yahoo",
-        "ショップ",
-        "出店",
-        "越境",
-        "D2C",
-        "商品",
-        "販売",
-        "物流",
-        "倉庫",
-        "在庫",
-        "受注",
-        "決済",
-        "カスタマー",
-        "CRM",
-        "セミナー",
-        "ウェビナー",
-        "登壇",
-        "株式会社",
-        "子会社",
-        "買収",
-        "提携",
-        "決算",
-        "上場",
-        "資金調達",
-        "リリース",
-        "導入",
-        "支援",
-        "構築",
-        "運用",
-        "SaaS",
-        "マーケティング",
-        "広告",
-        "代表",
-        "社長",
-        "事例",
-        "サービス",
-        "事業"
-      ]
     },
     {
       "id": "gn_14",
@@ -316,6 +323,12 @@
         "事例",
         "サービス",
         "事業"
+      ],
+      "html_news": [
+        {
+          "url": "https://www.aldo-system.jp/blog/category/infomation/",
+          "origin": "site"
+        }
       ]
     },
     {
@@ -410,7 +423,13 @@
         "Semuis"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://semuis.jp/news/",
+          "origin": "site"
+        }
+      ]
     },
     {
       "id": "gn_19",
@@ -777,6 +796,17 @@
     {
       "id": "gn_34",
       "type": "google_news",
+      "name": "Paidy合同会社",
+      "query": "\"Paidy\"",
+      "must_match": [
+        "Paidy"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "gn_35",
+      "type": "google_news",
       "name": "SAVAWAY株式会社",
       "query": "\"SAVAWAY\"",
       "must_match": [
@@ -786,7 +816,7 @@
       "enabled": true
     },
     {
-      "id": "gn_35",
+      "id": "gn_36",
       "type": "google_news",
       "name": "W2株式会社",
       "query": "\"W2\" EC",
@@ -846,7 +876,7 @@
       ]
     },
     {
-      "id": "gn_36",
+      "id": "gn_37",
       "type": "google_news",
       "name": "awoo株式会社",
       "query": "\"awoo\"",
@@ -857,7 +887,7 @@
       "enabled": true
     },
     {
-      "id": "gn_37",
+      "id": "gn_38",
       "type": "google_news",
       "name": "ウェブ・コロ株式会社（Shopi/Lab）",
       "query": "\"ウェブ・コロ\"",
@@ -868,7 +898,7 @@
       "enabled": true
     },
     {
-      "id": "gn_38",
+      "id": "gn_39",
       "type": "google_news",
       "name": "エフカフェ株式会社",
       "query": "\"エフカフェ\"",
@@ -876,10 +906,17 @@
         "エフカフェ"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
     },
     {
-      "id": "gn_39",
+      "id": "gn_40",
       "type": "google_news",
       "name": "エンパタウン株式会社",
       "query": "\"エンパタウン\"",
@@ -939,7 +976,7 @@
       ]
     },
     {
-      "id": "gn_40",
+      "id": "gn_41",
       "type": "google_news",
       "name": "グリニッジ株式会社",
       "query": "\"グリニッジ\" EC",
@@ -999,7 +1036,7 @@
       ]
     },
     {
-      "id": "gn_41",
+      "id": "gn_42",
       "type": "google_news",
       "name": "スタークス株式会社",
       "query": "\"スタークス\" EC",
@@ -1056,10 +1093,16 @@
         "事例",
         "サービス",
         "事業"
+      ],
+      "html_news": [
+        {
+          "url": "https://starx.co.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
-      "id": "gn_42",
+      "id": "gn_43",
       "type": "google_news",
       "name": "ソーシャルワイヤー株式会社",
       "query": "\"ソーシャルワイヤー\"",
@@ -1070,7 +1113,18 @@
       "enabled": true
     },
     {
-      "id": "gn_43",
+      "id": "gn_44",
+      "type": "google_news",
+      "name": "トゥルーコンサルティング株式会社",
+      "query": "\"トゥルーコンサルティング\"",
+      "must_match": [
+        "トゥルーコンサルティング"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "gn_45",
       "type": "google_news",
       "name": "フュージョン株式会社",
       "query": "\"フュージョン\" EC",
@@ -1130,7 +1184,7 @@
       ]
     },
     {
-      "id": "gn_44",
+      "id": "gn_46",
       "type": "google_news",
       "name": "一般社団法人 国際ビジネス連結機構",
       "query": "\"国際ビジネス連結機構\"",
@@ -1141,7 +1195,7 @@
       "enabled": true
     },
     {
-      "id": "gn_45",
+      "id": "gn_47",
       "type": "google_news",
       "name": "株式会社ACROVE",
       "query": "\"ACROVE\"",
@@ -1152,7 +1206,7 @@
       "enabled": true
     },
     {
-      "id": "gn_46",
+      "id": "gn_48",
       "type": "google_news",
       "name": "株式会社Digital Arrow Partners（TWOSTONE&Sonsグループ）",
       "query": "\"Digital Arrow Partners\"",
@@ -1163,7 +1217,7 @@
       "enabled": true
     },
     {
-      "id": "gn_47",
+      "id": "gn_49",
       "type": "google_news",
       "name": "株式会社ECXグループ",
       "query": "\"ECXグループ\"",
@@ -1175,7 +1229,7 @@
       "enabled": true
     },
     {
-      "id": "gn_48",
+      "id": "gn_50",
       "type": "google_news",
       "name": "株式会社GIVIN（旧・株式会社blends）",
       "query": "\"株式会社GIVIN\"",
@@ -1187,7 +1241,7 @@
       "enabled": true
     },
     {
-      "id": "gn_49",
+      "id": "gn_51",
       "type": "google_news",
       "name": "株式会社GOAT",
       "query": "\"GOAT\" EC",
@@ -1247,7 +1301,7 @@
       ]
     },
     {
-      "id": "gn_50",
+      "id": "gn_52",
       "type": "google_news",
       "name": "株式会社JAPAN SOLUTIONS",
       "query": "\"JAPAN SOLUTIONS\"",
@@ -1304,10 +1358,16 @@
         "事例",
         "サービス",
         "事業"
+      ],
+      "html_news": [
+        {
+          "url": "https://japan-solution.jp/news/",
+          "origin": "site"
+        }
       ]
     },
     {
-      "id": "gn_51",
+      "id": "gn_53",
       "type": "google_news",
       "name": "株式会社Moffly",
       "query": "\"Moffly\"",
@@ -1318,7 +1378,7 @@
       "enabled": true
     },
     {
-      "id": "gn_52",
+      "id": "gn_54",
       "type": "google_news",
       "name": "株式会社Nint",
       "query": "\"Nint\"",
@@ -1329,7 +1389,18 @@
       "enabled": true
     },
     {
-      "id": "gn_53",
+      "id": "gn_55",
+      "type": "google_news",
+      "name": "株式会社PLAN-B",
+      "query": "\"PLAN-B\"",
+      "must_match": [
+        "PLAN-B"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "gn_56",
       "type": "google_news",
       "name": "株式会社SAKIYOMI",
       "query": "\"SAKIYOMI\"",
@@ -1340,7 +1411,7 @@
       "enabled": true
     },
     {
-      "id": "gn_54",
+      "id": "gn_57",
       "type": "google_news",
       "name": "株式会社Speee",
       "query": "\"Speee\"",
@@ -1351,7 +1422,7 @@
       "enabled": true
     },
     {
-      "id": "gn_55",
+      "id": "gn_58",
       "type": "google_news",
       "name": "株式会社blends",
       "query": "\"blends\" EC",
@@ -1411,7 +1482,7 @@
       ]
     },
     {
-      "id": "gn_56",
+      "id": "gn_59",
       "type": "google_news",
       "name": "株式会社はぴロジ",
       "query": "\"はぴロジ\"",
@@ -1471,7 +1542,7 @@
       ]
     },
     {
-      "id": "gn_57",
+      "id": "gn_60",
       "type": "google_news",
       "name": "株式会社ウブン",
       "query": "\"ウブン\"",
@@ -1531,7 +1602,7 @@
       ]
     },
     {
-      "id": "gn_58",
+      "id": "gn_61",
       "type": "google_news",
       "name": "株式会社エフ・コード",
       "query": "\"エフ・コード\"",
@@ -1542,7 +1613,7 @@
       "enabled": true
     },
     {
-      "id": "gn_59",
+      "id": "gn_62",
       "type": "google_news",
       "name": "株式会社ガイアックス",
       "query": "\"ガイアックス\"",
@@ -1553,7 +1624,7 @@
       "enabled": true
     },
     {
-      "id": "gn_60",
+      "id": "gn_63",
       "type": "google_news",
       "name": "株式会社サイバーレコード",
       "query": "\"サイバーレコード\"",
@@ -1564,7 +1635,7 @@
       "enabled": true
     },
     {
-      "id": "gn_61",
+      "id": "gn_64",
       "type": "google_news",
       "name": "株式会社スクロール360",
       "query": "\"スクロール360\"",
@@ -1575,7 +1646,7 @@
       "enabled": true
     },
     {
-      "id": "gn_62",
+      "id": "gn_65",
       "type": "google_news",
       "name": "株式会社ソーシャルPLUS",
       "query": "\"ソーシャルPLUS\"",
@@ -1586,7 +1657,7 @@
       "enabled": true
     },
     {
-      "id": "gn_63",
+      "id": "gn_66",
       "type": "google_news",
       "name": "株式会社ナビタイムジャパン",
       "query": "\"ナビタイムジャパン\"",
@@ -1597,7 +1668,7 @@
       "enabled": true
     },
     {
-      "id": "gn_64",
+      "id": "gn_67",
       "type": "google_news",
       "name": "株式会社ネイビーグループ",
       "query": "\"ネイビーグループ\"",
@@ -1657,7 +1728,18 @@
       ]
     },
     {
-      "id": "gn_65",
+      "id": "gn_68",
+      "type": "google_news",
+      "name": "株式会社ハックルベリー",
+      "query": "\"ハックルベリー\"",
+      "must_match": [
+        "ハックルベリー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "gn_69",
       "type": "google_news",
       "name": "株式会社ファイブスプリングス",
       "query": "\"ファイブスプリングス\"",
@@ -1665,10 +1747,27 @@
         "ファイブスプリングス"
       ],
       "limit": 5,
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://www.5springs.co.jp/blog/information/seminar/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "gn_70",
+      "type": "google_news",
+      "name": "株式会社ファブリカコミュニケーションズ",
+      "query": "\"ファブリカコミュニケーションズ\"",
+      "must_match": [
+        "ファブリカコミュニケーションズ"
+      ],
+      "limit": 5,
       "enabled": true
     },
     {
-      "id": "gn_66",
+      "id": "gn_71",
       "type": "google_news",
       "name": "株式会社マテリアルデジタル",
       "query": "\"マテリアルデジタル\"",
@@ -1728,7 +1827,7 @@
       ]
     },
     {
-      "id": "gn_67",
+      "id": "gn_72",
       "type": "google_news",
       "name": "株式会社ユーコンスカイ",
       "query": "\"ユーコンスカイ\"",
@@ -1788,7 +1887,7 @@
       ]
     },
     {
-      "id": "gn_68",
+      "id": "gn_73",
       "type": "google_news",
       "name": "株式会社ライスカレープラス",
       "query": "\"ライスカレープラス\"",
@@ -1848,7 +1947,7 @@
       ]
     },
     {
-      "id": "gn_69",
+      "id": "gn_74",
       "type": "google_news",
       "name": "株式会社リスマ",
       "query": "\"リスマ\" EC",
@@ -1908,7 +2007,7 @@
       ]
     },
     {
-      "id": "gn_70",
+      "id": "gn_75",
       "type": "google_news",
       "name": "株式会社天喜ジャパン",
       "query": "\"天喜ジャパン\"",
