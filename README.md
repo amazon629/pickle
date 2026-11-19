@@ -16,6 +16,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
 | EC・支援企業34社 ニュース監視 | `sources-ec-support.json` | `ec-support.html` | `data-ec-support.json` |
 | EC・D2C企業515社 ニュース監視 | `sources-ec-brands.json` | `ec-brands.html` | `data-ec-brands.json` |
+| 通販・健康・コスメ54社 ニュース監視 | `sources-ec-mailorder.json` | `ec-mailorder.html` | `data-ec-mailorder.json` |
 | SmartNews 認定代理店 ニュース監視 | `sources-smartnews-partners.json` | `smartnews-partners.html` | `data-smartnews-partners.json` |
 | Shopify 受賞パートナー ニュース監視 | `sources-shopify-partners.json` | `shopify-partners.html` | `data-shopify-partners.json` |
 | SNS・広告代理店 ニュース監視 | `sources-sns-agencies.json` | `sns-agencies.html` | `data-sns-agencies.json` |
@@ -28,7 +29,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -39,7 +40,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 - 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
   訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
 - 取得は全ボードまとめて並列（既定24並行・`--workers` で変更可）。X（nitter）だけは6並行に絞って
-  レート制限を避けるので、19ページ・1,120ソースでも1回の更新は30秒前後（和訳の初回生成を含めて）で終わります
+  レート制限を避けるので、20ページ・1,174ソースでも1回の更新は30秒前後（和訳の初回生成を含めて）で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
@@ -58,6 +59,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ec-companies.json` | ピュアフラット登壇企業ボードの監視対象（70社。`sync_pureflat_companies.py` で生成） |
 | `sources-ec-support.json` | EC・支援企業34社ボードの監視対象（34社。`sync_ec_support.py` で生成） |
 | `sources-ec-brands.json` | EC・D2C企業515社ボードの監視対象（515社。`sync_ec_brands.py` で生成） |
+| `sources-ec-mailorder.json` | 通販・健康・コスメ54社ボードの監視対象（54社。`sync_ec_mailorder.py` で生成） |
 | `sources-smartnews-partners.json` | SmartNews 認定代理店ボードの監視対象（90社。`sync_smartnews_partners.py` で生成） |
 | `sources-shopify-partners.json` | Shopify 受賞パートナーボードの監視対象（25社。`sync_shopify_partners.py` で生成） |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
@@ -70,6 +72,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
 | `ec-support.html` / `data-ec-support.json` | EC・支援企業34社ボードの生成物 |
 | `ec-brands.html` / `data-ec-brands.json` | EC・D2C企業515社ボードの生成物 |
+| `ec-mailorder.html` / `data-ec-mailorder.json` | 通販・健康・コスメ54社ボードの生成物 |
 | `smartnews-partners.html` / `data-smartnews-partners.json` | SmartNews 認定代理店ボードの生成物 |
 | `shopify-partners.html` / `data-shopify-partners.json` | Shopify 受賞パートナーボードの生成物 |
 | `sns-agencies.html` / `data-sns-agencies.json` | SNS・広告代理店ボードの生成物 |
@@ -84,6 +87,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_ec_support.py` | `COMPANIES`（EC・支援34社）→ `sources-ec-support.json` を生成（`--check` / `--only` 付き） |
 | `sync_ec_brands.py` | 社名リスト（1,045行）を名寄せした515社 → `sources-ec-brands.json` を生成（`--check` / `--only` 付き） |
+| `sync_ec_mailorder.py` | `COMPANIES`（通販・健康・コスメ54社）→ `sources-ec-mailorder.json` を生成（`--check` / `--only` 付き） |
 | `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
 | `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
@@ -137,6 +141,25 @@ python3 update.py --board ec-companies,ec-support,caster-companies,nrtv-companie
 - 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
 - 一時的に取れない社があっても他のボードの更新を止めないよう、このボードは `settings.tolerate_errors: true` です
   （取得できなかった社はカードに「取得エラー」と出ます）。
+
+### 通販・健康・コスメ54社ボード
+
+通販・健康食品・コスメD2Cの54社を1社＝1ソースにしたボードです（キューサイ、エバーライフ、ランクアップ、
+世田谷自然食品、RIZAP、ジャパネットたかた、ユーグレナ、ベースフード、長寿乃里 など）。
+
+```bash
+python3 sync_ec_mailorder.py                                         # 54社ぶんの設定を作り直す
+python3 sync_ec_mailorder.py --check --only ルアン,フローラ,イング   # まず数社だけ件数を確認
+python3 sync_ec_mailorder.py --check --workers 3                     # 全54社のヒット件数
+python3 update.py --config sources-ec-mailorder.json                 # この1枚だけ更新
+```
+
+- ノイズ対策は `OVERRIDES` に集約。`ランクアップ`（マナラ／スポーツの昇格記事）、`ルアン`（競走馬ではなく
+  スーパーミリオンヘアー）、`フローラ`（HB-101／ジルスチュアートのライン名）、`イング`（ビューイング等の複合語）、
+  `Right Here`（曲名）、`エポラ`（出血熱）、`ナチュラルガーデン`（園芸記事）のように、クエリの言い換え・
+  `context_match`（通販・化粧品・健康食品の語）・`exclude_match` を社名ごとに指定しています。
+- ニュースが少ない中小の通販会社（ヴァーナル、ナチュラルガーデン、東京ディベロ、奈良大和生薬）は0件のこともあります。
+  0件はエラーにせず「新しい記事はありません」と表示し、`tolerate_errors: true` で他ボードの更新を止めません。
 
 ### EC・D2C企業ボード（515社）
 

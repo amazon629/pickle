@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T17:58:45+09:00",
-  "generated_at_label": "2026/11/19 17:58 JST",
+  "generated_at": "2026-11-19T18:06:05+09:00",
+  "generated_at_label": "2026/11/19 18:06 JST",
   "title": "IPO・マーケット監視ボード",
   "total": 270,
   "sources": [
@@ -270,7 +270,7 @@
           "title_ja": "CNBCの報道によると、アンスロピックのIPOでは5,000億ドル近くの注文が集まり、そのうち機関投資家からは約4,000億ドル、小売店からは1,000億ドル近くの注文があったという。命令には拘束力はありません。\nアンスロピックはさらに株を売却し、70～78ドルの範囲を上回る80ドルを大きく超える価格設定を検討している。"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "x_ipo_navigator",
@@ -554,6 +554,20 @@
           "is_new": false
         },
         {
+          "title": "ちなみにPOWL（日本国内募集）があった米国IPO２件の初値時刻と初値騰落率は以下の通り\nスペースX：現地午前11時46分（日本時間午前0時46分）\n初値騰落率 +11.1％\nPayPay：現地午後0時46分（日本時間午前1時46分）\n初値騰落率 +18.7％\nまじめにIPO (@ipo_majime)\n読むのが面倒くさい方は「初値が東証のIPOみたいにシンプルな板寄せで決まるわけではないよ」ということだけ頭に入れておけばOKです\n初値ついたら上下にぶんぶん動くのはナスダックも東証も一緒なので…\n— https://x.com/ipo_majime/status/2123335049940738280",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/ipo_majime/status/2123341774425125127",
+          "domain": "x.com",
+          "published": "2026-11-19T18:05:03+09:00",
+          "published_label": "11/19(木) 18:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
           "title": "読むのが面倒くさい方は「初値が東証のIPOみたいにシンプルな板寄せで決まるわけではないよ」ということだけ頭に入れておけばOKです\n初値ついたら上下にぶんぶん動くのはナスダックも東証も一緒なので…\nまじめにIPO (@ipo_majime)\nアンソロピックはナスダック上場なので初値決定プロセスが東証IPOとは異なります\nPayPay上場時のツイートをご参考まで👇\n— https://x.com/ipo_majime/status/2123330971139469599",
           "summary": "",
           "images": [],
@@ -760,26 +774,9 @@
           "type": "x",
           "is_new": false,
           "title_ja": "Anthropic、PBC はクラス A 普通株の新規株式公開価格を 1 株あたり 83.00 ドルに設定しました。"
-        },
-        {
-          "title": "「AI関連株は割高派」にECBのおしゃれ番長 ラガルド姉さんがまさかのジョイン\n「ここ数週間の大幅な調整にもかかわらず、AI関連株のバリュエーションはなお強気な水準にある」\n「現状をバブルとは呼ばないが、こうした水準が続く可能性は低い」\nブルームバーグニュース (@BloombergJapan)\nラガルド総裁、「かなり強気な」AIのバリュエーションはいずれ調整へ\n— https://x.com/BloombergJapan/status/2123095659343401023",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXbFtkta4AAHjF0.png?name=small",
-            "https://pbs.twimg.com/card_img/2123077540940001280/pScOqoTs?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/ipo_majime/status/2123177176430440799",
-          "domain": "x.com",
-          "published": "2026-11-19T07:11:00+09:00",
-          "published_label": "11/19(木) 07:11",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.5
     },
     {
       "id": "x_suan_news",
@@ -1289,7 +1286,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 1.6
     },
     {
       "id": "x_kanpo_blog",
@@ -1543,7 +1540,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "x_tokyoipo_sns",
@@ -1797,7 +1794,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 3.3
     },
     {
       "id": "x_melvinvests",
@@ -2076,7 +2073,7 @@
           "title_ja": "AI 株を所有している場合は、これを読む必要があります。\n「当社の勢いは本物です。当社の需要は加速しており、供給は増加しています。当社の顧客とパートナーは当社とともにあります。そして従業員は熱心に取り組んでいます。」 NVIDIA の暫定 CEO、Colette Kress は、同社の歴史の中で最も重要な決算発表の 1 つと思われるこの決算発表をこのようにして終えました。 NVIDIA はこの四半期にいくつかの深刻な懸念を抱えて参入しました。ジェンスン・フアン氏の退社、循環型資金調達、AI支出の持続可能性、利益率の低下、輸出制限、そして創業者抜きで会社が事業を継続できるかどうか。そして、経営陣はそれらのほとんどにかなりうまく対処したと思います。\nまず、その数字が本当に信じられないほどでした。 NVIDIA の四半期売上高は 1,160 億ドルで、前年同期比で 2 倍以上、前四半期比 20% の成長を記録しました。データセンターの収益は前四半期比 21% 増の 1,080 億ドルに達し、Vera Rubin の第 1 四半期の製品出荷額は約 200 億ドルで、NVIDIA 史上最速の製品増加となりました。経営陣はまた、第4四半期の収益を1,300億ドルとする方針を示し、2028年度の収益成長見通しを70％から75％に引き上げた。ちょっと考えてみましょう。私たちが話しているのは、すでに四半期収益が 1,000 億ドルを超える企業であり、2028 年度には年間 75% の成長が見込まれているということです。最大の懸念の 1 つは明らかにジェンスン ファンの退職でした。興味深いことに、通話全体でジェンセンの名前が言及されたのは 2 回だけでした。ほとんどmのような感じでした"
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 1.4
     },
     {
       "id": "x_paradislabs",
@@ -2330,7 +2327,7 @@
           "title_ja": "ジェンセン・ファンがあなたのポートフォリオを救いにやってくる\nジェンセン・ファン（@JensenHuang）\nこの1週間、友人、業界の同僚、そして一度もお会いしたことのない方々からの愛情とサポートに圧倒されました。私と私の家族に親切にしてくださったすべての方々に感謝申し上げます。私にとっては何にも代えがたいことです。\n私は53年前にアメリカに来ましたが、アメリカ市民になったことは、私の人生における最高の贈り物であり、最も誇らしい瞬間の一つです。NVIDIAは私の人生の仕事でした。それを\n同僚と共に今日のNVIDIAを築き上げてきたことは、光栄であり、名誉なことです。NVIDIAのような企業は、アメリカ以外ではあり得ません。私はこの国を愛しており、NVIDIAを愛しています。\n私はNVIDIAの全員に求められる基準を満たすことができず、私生活において深刻な過ちを犯しました。私は取締役会に問題を引き起こしてしまいました。深く後悔しています。私は自分の過ちを完全に認め、取締役会の独立した調査に協力することを約束します。\n私の\n退任以来、NVIDIAの従業員、投資家、ビジネスパートナー、顧客から、私にCEOとして復帰してほしいという多くの要請が寄せられています。当社が複雑なテクノロジー、市場、競争、地政学的ダイナミクスを乗り越える中で、多くの人々が引き続き私に直接連絡してきています。NVIDIAは、一世代に一度しか現れないような企業です。取締役会が、私の復帰が当社の株主、従業員、会社、そしてアメリカにとって最善の利益になると判断された場合、私は喜んでお引き受けいたします。\nこれらの呼びかけに応えてCEOとして復帰します。\nご参加いただいたみなさまに"
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 1.4
     },
     {
       "id": "x_aleabitoreddit",
@@ -2605,7 +2602,7 @@
           "title_ja": "$GOOGL Threat Intelligence Group: 「自律型攻撃の時代が到来した」。\n- 完全に自律的な脆弱性悪用が現在行われています\n- 敵対者は、手動によるプロンプトを超えて、自律的なマルチエージェント攻撃フレームワークの導入に移行しました。\n- AI は脆弱性の開示と悪用の間の窓を崩壊させています\n- Google は、サイバーセキュリティ防御も自律的になる必要があると考えています\n推論用の Gemini と他のフロンティア モデル + 連続スキャン用の小型モデルを組み合わせることによって。\n私は実際、サイバーセキュリティの勝者に関係なく、この軍拡競争の受益者は AI コンピューティングとインフラプロバイダーだと主張したいと思います。\nサイバーセキュリティは永続的な推論消費の源になるためです。\n$AMZN CEO の Andy Jassy 氏も、AI トークンの 20% がサイバーセキュリティに使用される可能性があるという予測を以前に引用しました。\n信じられないかもしれませんが、敵対的な国家主体による執拗なサイバー攻撃の増加は、長期的なコンピューティング需要の構造的な推進要因となっています。"
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 1.3
     },
     {
       "id": "x_stockmktnewz",
@@ -2867,7 +2864,7 @@
           "title_ja": "ETFは金曜日ではなく月曜日に発売されることに注意してください"
         }
       ],
-      "elapsed": 1.4
+      "elapsed": 1.9
     },
     {
       "id": "x_stocksavvyshay",
@@ -3138,7 +3135,7 @@
           "title_ja": "$SPCX スターベース タワーが巨大な箸で最初のスターシップを捕まえる様子を、非常識な角度から眺めています。\nそして、SpaceXが同じ飛行場から完全に再利用可能な打ち上げを目指して取り組んでいるので、これは最終的には日常的なものになると考えられています。"
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 2.7
     },
     {
       "id": "x_wallstengine",
@@ -3400,7 +3397,7 @@
           "title_ja": "パーマー・ラッキーは、米国政府がスターシールドで同じリスクを負うつもりがないのに、イーロン・マスクがウクライナのためにスターリンク・ネットワーク全体を危険にさらすべきではないと考える理由について語った。"
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 1.9
     },
     {
       "id": "x_polymarketjapan",
@@ -3427,6 +3424,50 @@
           "pinned": true,
           "type": "x",
           "is_new": false
+        },
+        {
+          "title": "【話題】富士山で行方不明の懸賞金1200万円の中国人男性、山梨県警が捜索を打ち切り\n・20代の男性は11月8日、閉山中の富士山に入った後に連絡が途絶えた\n・男性は見つからず、県警は18日に捜索を終了\nPolymarket Japan (@polymarketjapan)\n【話題】富士山で男性が行方不明、父親が懸賞金約1200万円を提示\n・中国籍の男性（25）は閉山中に単独で登り、8日から連絡取れず\n・生きて発見なら約1200万円、遺体発見なら約240万円\n・登山家は、賞金目当ての入山による二次遭難を懸念\n— https://x.com/polymarketjapan/status/2122489897479000286",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/polymarketjapan/status/2123341342139138149",
+          "domain": "x.com",
+          "published": "2026-11-19T18:03:20+09:00",
+          "published_label": "11/19(木) 18:03",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "【速報】欧州委員会にサイバー攻撃 大量の個人データ流出の恐れ\n・Politico報道、給与明細や勤怠などのシステムが停止\n・混乱は約10日間、欧州委は攻撃の大半を封じ込めたとみる\n・実際にデータが流出したかは不明",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/polymarketjapan/status/2123340519522578833",
+          "domain": "x.com",
+          "published": "2026-11-19T18:00:04+09:00",
+          "published_label": "11/19(木) 18:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
+        },
+        {
+          "title": "年内にPHPで新たな重大脆弱性が公表される確率",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123339273168650240/n8i8CQ2i?format=png&name=800x419"
+          ],
+          "link": "https://x.com/polymarketjapan/status/2123340519707214162",
+          "domain": "x.com",
+          "published": "2026-11-19T18:00:04+09:00",
+          "published_label": "11/19(木) 18:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true
         },
         {
           "title": "ロシアとウクライナが年内に停戦合意する確率",
@@ -3593,53 +3634,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "NVIDIAの11月末の終値を予測",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123286891722387456/8DuC7iCD?format=png&name=800x419"
-          ],
-          "link": "https://x.com/polymarketjapan/status/2123292012728488143",
-          "domain": "x.com",
-          "published": "2026-11-19T14:47:19+09:00",
-          "published_label": "11/19(木) 14:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "【速報】犯罪集団がNVIDIAへのサイバー攻撃を主張\n・「The Gentlemen」が11月18日にNVIDIAを攻撃先として掲載\n・カウントダウンの期限は11月28日、流出の証拠は未提示\n・NVIDIAは取引先が影響を受けた可能性を調査し、自社システムに被害の兆候はないと説明",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/polymarketjapan/status/2123292011218522609",
-          "domain": "x.com",
-          "published": "2026-11-19T14:47:18+09:00",
-          "published_label": "11/19(木) 14:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "【速報】北朝鮮、初のAIチャットボットを公開か\n・金日成総合大学などが「知恵の泉」を開発\n・科学や技術の質問に朝鮮語と英語で対応\n・政治や社会に関する質問は禁止",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/polymarketjapan/status/2123280104415760862",
-          "domain": "x.com",
-          "published": "2026-11-19T14:00:00+09:00",
-          "published_label": "11/19(木) 14:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 2.7
     },
     {
       "id": "x_watcherguru",
@@ -3910,7 +3907,7 @@
           "title_ja": "JUST IN: ゴールドとシルバーが暴落中\n金は3,745ドルを下回る\n銀は45ドルを下回る\n今日、合計市場価値で 8 億ドルが消去されました。"
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 2.6
     },
     {
       "id": "x_wolf_financial",
@@ -4177,7 +4174,7 @@
           "title_ja": "パロアルトネットワークス $PANW が第 1 四半期の収益を発表しました\n- 収益: 34億4,000万ドル、予想の33億1,000万ドルを上回りました 🟢\n- 調整後 EPS: 1.05 ドル、予想の 0.97 ドルを上回りました 🟢\n- NGS ARR: 97 億 3000 万ドル (前年比 +66%)\nQ2 ガイダンス:\n- 収益: 35 億 3000 万ドル～35 億 5000 万ドル、予想の 34 億 2000 万ドルを上回りました 🟢\n- 調整後 EPS: $1.01 ～ $1.03、予想 $1.01 と一致 🟡\n- NGS ARR: 102 億ドル～102 億ドル\n2027 年度のガイダンスを引き上げます:\n- 収益: 145億2000万ドル～145億7000万ドル、予想の141億6000万ドルを上回りました 🟢\n- 調整後 EPS: $4.26-$4.30、予想 $4.18 を上回ります 🟢\n- NGS ARR: 114 億 8000 万ドル～115 億 3000 万ドル"
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 2.1
     },
     {
       "id": "x_polymarket",
@@ -4430,7 +4427,7 @@
           "title_ja": "JUST IN: Anthropic の IPO 資金の最優先事項は、ライバルより先に再帰的な自己改善を達成するために、より多くのコンピューティング パワーを購入することです。 — ニューヨークタイムズ"
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 3.2
     },
     {
       "id": "x_unusual_whales",
@@ -4681,9 +4678,7 @@
         {
           "title": "Police raided Megaspeed's office in Indonesia and found empty server racks. Shipping records show Nvidia chips came in, but none were there.\nRead more:",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2120756638424629249/Fq8JMhsb?format=jpg&name=800x419"
-          ],
+          "images": [],
           "link": "https://x.com/unusual_whales/status/2123234302687117745",
           "domain": "x.com",
           "published": "2026-11-19T10:58:00+09:00",
@@ -4696,7 +4691,7 @@
           "title_ja": "警察はインドネシアにあるメガスピード社のオフィスを捜索し、空のサーバーラックを発見した。出荷記録には Nvidia チップが入っていることが示されていますが、何もありませんでした。\n続きを読む："
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 3.0
     }
   ]
 }

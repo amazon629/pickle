@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T17:58:42+09:00",
-  "generated_at_label": "2026/11/19 17:58 JST",
+  "generated_at": "2026-11-19T18:06:01+09:00",
+  "generated_at_label": "2026/11/19 18:06 JST",
   "title": "AI新着 監視ボード",
   "total": 89,
   "sources": [
@@ -260,7 +260,7 @@
           "title_ja": "本日より、Hugging Face のチャット モデルが OpenRouter を介して実行されます。\nオープンウェイト モデルは、1 年以内に OpenRouter 上のトークンの 27% から 72% に増加しました。その多くは 2 つのことから来ています。1 つは Hugging Face 🤗 で重みを公開しているラボ、もう 1 つはさまざまな側面で重みを提供しようと数十のプロバイダーが競争していることです。\n今日はその2つを結びます。ハブ上のチャット モデルは、OpenRouter のルーティングを通じて実行されるようになりました。38 のラボからの 160 のモデル、リクエストごとに選択される最適なプロバイダー、自動フェイルオーバー、同じ HF トークン。\nまた、OpenRouter トレースは、所有する Hugging Face バケットに到達し、微調整の準備が整います。\n@ClementDelangue、@julien_c、@huggingface チームと一緒にこれを構築できることに興奮しています。さらに登場!\nオープンルーター (@OpenRouter)\n@huggingface のオープン モデルが OpenRouter 経由で実行されるようになりました。\n各リクエストは、自動フェイルオーバーを備え、そのモデルに最適な価格、速度、稼働時間を提供するプロバイダーに送られます。すべてが同じ Hugging Face トークンと API で実行されます。\nブロードキャストを使用してトレースを Hugging Face Storage に送信することもできるため、リクエストはモデルの隣のハブに保存され、評価や微調整などの準備が整います。\n— https://x.com/OpenRouter/status/2122392434198131005"
         }
       ],
-      "elapsed": 5.5
+      "elapsed": 5.4
     },
     {
       "id": "x_opencode",
@@ -766,7 +766,7 @@
           "title_ja": "■引用元\nStitch by Google (@stitchbygoogle)\n新しいステッチの実験、ステッチ ループをご紹介します。\nStitch は製品のデザインに役立ちます。 Stitch Loop は、公開後も改善を続けるのに役立ちます。これは PR だけでなく、結果を目的として構築された製品エージェントです。\nStitch Loop は実稼働データを監視し、目標が達成されるまで継続的に動作するループを構築できます。\n独自のカスタム ループを定義したり、次のような組み込みループを使用して初日から製品の改善を開始したりできます。\n🛡️ セキュリティ: Gemini 4 Carbon と @GoogleDeepMind CodeMender で構築\n⌚️ レイテンシー: 製品の速度を維持するため\n👋アクセシビリティ: 誰にとっても便利です\n順番待ちリストに参加してください:\n詳細はこちら 🧵👇\nビデオ\n— https://x.com/stitchbygoogle/status/2123100817863663686"
         }
       ],
-      "elapsed": 5.8
+      "elapsed": 5.7
     },
     {
       "id": "x_kimmonismus",
@@ -1009,7 +1009,7 @@
           "title_ja": "ジェンセン・ファンが従業員の解雇を好まない理由について語る..."
         }
       ],
-      "elapsed": 5.4
+      "elapsed": 5.0
     },
     {
       "id": "x_haider1",
@@ -1037,6 +1037,23 @@
           "type": "x",
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "not sure if anyone else noticed but 6.2 sol is surprisingly fast to me\ntasks that used to take forever in codex despite being quick in chat now only take a couple of minutes with 6.2 Sol, which increasingly makes me think it's only a matter of time before ultrafast comes to the $100 tier",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXb3mVQasAAQw6G.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123340527156207796",
+          "domain": "x.com",
+          "published": "2026-11-19T18:00:06+09:00",
+          "published_label": "11/19(木) 18:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "他の人が気づいたかどうかはわかりませんが、6.2 sol は私にとって驚くほど速いです\nチャットでは素早くても、コーデックスでは永遠にかかっていたタスクが、6.2 Sol では数分しかかからなくなりました。これにより、超高速が 100 ドルのレベルに達するのは時間の問題だと思うようになりました。"
         },
         {
           "title": "this is beyond anything i expected\nGPT-6.2 Astra independently found a new way to prove a 20-year-old mathematical theorem in just 94 minutes while bypassing three major results the original proof relied on\nthe 1794-line proof was formally verified with no human intervention during the run\nVals AI (@ValsAI)\nGPT-6.2 Astra just produced what we believe is the first Lean proof of Smoktunowicz’s Gap Theorem, and it found its own route to get there.\nIt happened on Autoform-Hard, a verified subset of Meta FAIR’s AutoformBench that we’re releasing results on today.\n— https://x.com/ValsAI/status/2123129588066959380",
@@ -1247,24 +1264,6 @@
           "type": "x",
           "is_new": false,
           "title_ja": "アストラ 6.2 はベルではなく、アストラ 6 のチェックポイントを改良したものである可能性が高い\nbel は来月または 2027 年第 1 四半期に Astra 6.5 以降として登場する可能性があります。 openai が将来のモデル開発のために完全な bel モデルを保持している間、astra 6.5 として小型の蒸留バージョンを入手することさえできるかもしれません。\nfable 5.2 もエポック インデックスで 174 のスコアを獲得しているため、パフォーマンスはほぼ同等です"
-        },
-        {
-          "title": "sol 6.2 comes remarkably close to astra 6.2 in coding at about one-fifth the cost per task on FrontierCode 2.0\nnearly the same coding performance at 80% lower cost\nHaider. (@haider1)\nThis is BONKERS\non Agents' Last Exam v1.1:\ngpt-6.2 astra: 78.3% at $3 per task\nfable 5.2: 72.8% at $60 per task\nopus 5.5: 71.6% at $17.50 per task\n— https://x.com/haider1/status/2122755313141244347",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWMu-faEAALsVu.jpg?name=small",
-            "https://pbs.twimg.com/media/HXWKs-QbsAAxPpW.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122757546452947015",
-          "domain": "x.com",
-          "published": "2026-11-18T03:23:32+09:00",
-          "published_label": "11/18(水) 03:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "sol 6.2 は、FrontierCode 2.0 のタスクあたりのコストの約 5 分の 1 で、コーディングにおいて astra 6.2 に著しく近づいています。\nほぼ同じコーディングパフォーマンスを 80% 低いコストで実現\nハイダー。 (@haider1)\nこれがボンカーズです\nエージェントの最終試験 v1.1 について:\ngpt-6.2 astra: タスクあたり 3 ドルで 78.3%\n寓話 5.2: タスクあたり 60 ドルで 72.8%\nopus 5.5: タスクあたり 17.50 ドルで 71.6%\n— https://x.com/haider1/status/2122755313141244347"
         }
       ],
       "elapsed": 0.7
@@ -1279,6 +1278,25 @@
       "via": "https://nitter.cf/testingcatalog/rss",
       "count": 15,
       "items": [
+        {
+          "title": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) is teased to arrive next!\nGemini 4 will return 👀\nNow I wish these models would actually be sorted by their atomic weight - we would have at least some idea of who is who w/o prior knowledge!\nOmar Sanseviero (@osanseviero)\nShipping will continue\nVideo\n— https://x.com/osanseviero/status/2123323209135308996",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXefsIfWAAAcLIK.png?name=small",
+            "https://pbs.twimg.com/media/HXeftGtWIAAZUYc.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123322994302795776/img/KyodklibssNCtcfO.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123341568954486799",
+          "domain": "x.com",
+          "published": "2026-11-19T18:04:14+09:00",
+          "published_label": "11/19(木) 18:04",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": true,
+          "title_ja": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) が次に登場すると予告されています。\nジェミニ4が戻ってきます 👀\nさて、これらのモデルが原子量によって実際に分類されればいいのにと思います。事前知識がなくても、誰が誰であるかについて少なくともある程度の見当が付くようになります。\nオマール・サンセビエロ (@osanseviero)\n発送は継続します\nビデオ\n— https://x.com/osanseviero/status/2123323209135308996"
+        },
         {
           "title": "ANTHROPIC 🔥: PBC priced $ANT at $83 per share!\n> “The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders.”\nTomorrow will be fun 🍿\nAnthropic (@AnthropicAI)\nWe’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.\nLegal disclaimer: A registration statement relating to the Class A common stock was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com\n— https://x.com/AnthropicAI/status/2123196808675405860",
           "summary": "",
@@ -1526,23 +1544,6 @@
           "type": "x",
           "is_new": false,
           "title_ja": "PromptArmor は、職場の AI エージェントが隠された指示によってどの程度の頻度で誤解されるかを測定するベンチマークである FrontierBreach をリリースしました。\n攻撃者は電子メールや文書に目に見えない行を隠すことができ、エージェントはそれを追跡してデータを送信したり、攻撃者のコードを実行したりする可能性があります。\n> 21 の AI モデル全体で、これらの隠れた攻撃は PromptArmor のテストの 34.9% で機能しました。\n> PromptArmor は、Gremini Argon の 4.3% から Muse Wonder の 15.2% まで、テストしたすべてのフロンティア モデルを突破し、Grok 4.5 は攻撃の 91.4% に該当しました。\n> エージェントのスキル内に隠された攻撃も、テストの 45.5% で機能しました。\nシャンカール・クリシュナン (@PromptArmor)\n本日、当社は、企業内のエージェント ワークフローに対する攻撃成功率の新しい標準である FrontierBreach をリリースします。\n既存のベンチマークは、現代の AI エージェントが直面するセキュリティ リスクを体系的に過小評価しています。\nFrontierBreach は、サイバー被害 (ランサムウェア、データ漏洩、フィッシングなど) をもたらす高度な攻撃チェーンを使用しながら、現実的な企業ワークフローに攻撃シナリオを反映します。\n— https://x.com/PromptArmor/status/2123114516498252054"
-        },
-        {
-          "title": "An early look at some of the UI screenshots. I was partially upset about getting access to this tool officially because I couldn't leak it, but in the end it was fully worth it.\nDocumented 🗞️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123110752286302208/rzrD5v2P?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123110993597284757",
-          "domain": "x.com",
-          "published": "2026-11-19T02:48:01+09:00",
-          "published_label": "11/19(木) 02:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false,
-          "title_ja": "いくつかの UI スクリーンショットの初期の様子。このツールを漏洩することができなかったため、このツールに正式にアクセスできるようになったことに多少動揺しましたが、最終的には十分に価値がありました。\n文書化されました 🗞️"
         }
       ],
       "elapsed": 0.8

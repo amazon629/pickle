@@ -1,0 +1,806 @@
+{
+  "settings": {
+    "title": "通販・健康・コスメ54社 ニュース監視",
+    "nav_label": "通販・コスメ54社",
+    "items_per_source": 5,
+    "timeout_seconds": 15,
+    "retries": 2,
+    "fetch_workers": 5,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "ecm_01",
+      "type": "google_news",
+      "name": "キューサイ",
+      "query": "\"キューサイ\"",
+      "must_match": [
+        "キューサイ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_02",
+      "type": "google_news",
+      "name": "エバーライフ",
+      "query": "\"エバーライフ\"",
+      "must_match": [
+        "エバーライフ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_03",
+      "type": "google_news",
+      "name": "銀座ステファニー化粧品",
+      "query": "\"銀座ステファニー\"",
+      "must_match": [
+        "銀座ステファニー",
+        "ステファニー化粧品"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_04",
+      "type": "google_news",
+      "name": "ハーブ健康本舗",
+      "query": "\"ハーブ健康本舗\"",
+      "must_match": [
+        "ハーブ健康本舗"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_05",
+      "type": "google_news",
+      "name": "ファーマフーズ",
+      "query": "\"ファーマフーズ\"",
+      "must_match": [
+        "ファーマフーズ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_06",
+      "type": "google_news",
+      "name": "ランクアップ",
+      "query": "\"マナラ\" OR \"ランクアップ\" 通販",
+      "must_match": [
+        "ランクアップ",
+        "マナラ",
+        "MANARA"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "context_match": [
+        "通販",
+        "通信販売",
+        "ネット通販",
+        "ネットショップ",
+        "EC",
+        "D2C",
+        "ダイレクトマーケティング",
+        "化粧品",
+        "コスメ",
+        "スキンケア",
+        "美容",
+        "ヘアケア",
+        "エイジングケア",
+        "基礎化粧品",
+        "健康食品",
+        "サプリ",
+        "サプリメント",
+        "青汁",
+        "酵素",
+        "ダイエット",
+        "栄養",
+        "石けん",
+        "洗顔",
+        "化粧水",
+        "美容液",
+        "クリーム",
+        "商品",
+        "新商品",
+        "発売",
+        "販売",
+        "ブランド",
+        "店舗",
+        "利用者",
+        "顧客",
+        "株式会社",
+        "決算",
+        "売上",
+        "資金調達",
+        "上場",
+        "買収",
+        "提携",
+        "取材",
+        "社長",
+        "代表",
+        "プレスリリース",
+        "リリース",
+        "発表",
+        "サービス",
+        "広告",
+        "テレビ",
+        "CM",
+        "定期購入"
+      ],
+      "exclude_match": [
+        "トリニータ",
+        "ホーリーホック",
+        "Jリーグ",
+        "J1",
+        "J2",
+        "J3",
+        "昇格",
+        "降格",
+        "チケット",
+        "ゲーム",
+        "パワプロ",
+        "選手"
+      ]
+    },
+    {
+      "id": "ecm_07",
+      "type": "google_news",
+      "name": "フォーマルクライン",
+      "query": "\"フォーマルクライン\"",
+      "must_match": [
+        "フォーマルクライン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_08",
+      "type": "google_news",
+      "name": "日本薬師堂",
+      "query": "\"日本薬師堂\"",
+      "must_match": [
+        "日本薬師堂"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_09",
+      "type": "google_news",
+      "name": "ダイドードリンコ",
+      "query": "\"ダイドードリンコ\"",
+      "must_match": [
+        "ダイドードリンコ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_10",
+      "type": "google_news",
+      "name": "ウェルヴィーナス",
+      "query": "\"ウェルヴィーナス\"",
+      "must_match": [
+        "ウェルヴィーナス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_11",
+      "type": "google_news",
+      "name": "オークローンマーケティング",
+      "query": "\"オークローンマーケティング\"",
+      "must_match": [
+        "オークローン",
+        "オークローンマーケティング"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_12",
+      "type": "google_news",
+      "name": "ファンファレ",
+      "query": "\"ファンファレ\"",
+      "must_match": [
+        "ファンファレ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_13",
+      "type": "google_news",
+      "name": "富山常備薬",
+      "query": "\"富山常備薬\"",
+      "must_match": [
+        "富山常備薬"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_14",
+      "type": "google_news",
+      "name": "ルアン",
+      "query": "\"ルアン\" ヘアケア OR \"スーパーミリオンヘアー\"",
+      "must_match": [
+        "ルアン",
+        "スーパーミリオンヘアー",
+        "SMH"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "ラオス",
+        "ルアン サイ",
+        "ルアンパバーン",
+        "ルアンプラバン",
+        "ノルキエ",
+        "ボタ",
+        "崩壊スターレイル",
+        "メルセデス",
+        "AMG"
+      ]
+    },
+    {
+      "id": "ecm_15",
+      "type": "google_news",
+      "name": "ECスタジオ",
+      "query": "\"ECスタジオ\"",
+      "must_match": [
+        "ECスタジオ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "Profoto",
+        "ストロボ",
+        "撮影",
+        "フォトスタジオ",
+        "カメラ"
+      ]
+    },
+    {
+      "id": "ecm_16",
+      "type": "google_news",
+      "name": "愛しとーと",
+      "query": "\"愛しとーと\"",
+      "must_match": [
+        "愛しとーと"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_17",
+      "type": "google_news",
+      "name": "クロコス",
+      "query": "\"クロコス\"",
+      "must_match": [
+        "クロコス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_18",
+      "type": "google_news",
+      "name": "フローラ",
+      "query": "\"株式会社フローラ\" OR \"HB-101\"",
+      "must_match": [
+        "フローラ",
+        "HB-101",
+        "エイチビー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "フローラノーティス",
+        "フローラル",
+        "腸内フローラ",
+        "ミライフローラ",
+        "フローラ・ハウス",
+        "フローラ春"
+      ]
+    },
+    {
+      "id": "ecm_19",
+      "type": "google_news",
+      "name": "エモテント",
+      "query": "\"エモテント\"",
+      "must_match": [
+        "エモテント"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_20",
+      "type": "google_news",
+      "name": "はぐくみプラス",
+      "query": "\"はぐくみプラス\"",
+      "must_match": [
+        "はぐくみプラス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_21",
+      "type": "google_news",
+      "name": "JIMOS",
+      "query": "\"JIMOS\" OR \"マキアレイベル\"",
+      "must_match": [
+        "JIMOS",
+        "マキアレイベル"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_22",
+      "type": "google_news",
+      "name": "フロムココロ",
+      "query": "\"フロムココロ\"",
+      "must_match": [
+        "フロムココロ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_23",
+      "type": "google_news",
+      "name": "ニコリオ",
+      "query": "\"ニコリオ\"",
+      "must_match": [
+        "ニコリオ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_24",
+      "type": "google_news",
+      "name": "リタマインド・ジャパン",
+      "query": "\"リタマインド\"",
+      "must_match": [
+        "リタマインド"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_25",
+      "type": "google_news",
+      "name": "世田谷自然食品",
+      "query": "\"世田谷自然食品\"",
+      "must_match": [
+        "世田谷自然食品"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_26",
+      "type": "google_news",
+      "name": "RIZAP",
+      "query": "\"RIZAP\"",
+      "must_match": [
+        "RIZAP"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_27",
+      "type": "google_news",
+      "name": "新日本製薬",
+      "query": "\"新日本製薬\"",
+      "must_match": [
+        "新日本製薬"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_28",
+      "type": "google_news",
+      "name": "アルマード",
+      "query": "\"アルマード\"",
+      "must_match": [
+        "アルマード"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_29",
+      "type": "google_news",
+      "name": "グロリアス製薬",
+      "query": "\"グロリアス製薬\"",
+      "must_match": [
+        "グロリアス製薬"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_30",
+      "type": "google_news",
+      "name": "ジャパネットたかた",
+      "query": "\"ジャパネットたかた\" OR \"ジャパネットホールディングス\"",
+      "must_match": [
+        "ジャパネット"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_31",
+      "type": "google_news",
+      "name": "野草酵素",
+      "query": "\"野草酵素\"",
+      "must_match": [
+        "野草酵素"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "マイベスト",
+        "ビオトピア",
+        "野草酵素de美人",
+        "酵素ドリンクの作り方"
+      ]
+    },
+    {
+      "id": "ecm_32",
+      "type": "google_news",
+      "name": "ヴァーナル",
+      "query": "\"ヴァーナル\"",
+      "must_match": [
+        "ヴァーナル"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "競馬",
+        "アクアヴァーナル",
+        "エリザベス女王杯",
+        "松山弘平",
+        "騎手",
+        "枠",
+        "馬券"
+      ]
+    },
+    {
+      "id": "ecm_33",
+      "type": "google_news",
+      "name": "日本自然発酵",
+      "query": "\"日本自然発酵\"",
+      "must_match": [
+        "日本自然発酵"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_34",
+      "type": "google_news",
+      "name": "ベルーナ",
+      "query": "\"ベルーナ\"",
+      "must_match": [
+        "ベルーナ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "ベルーナドーム",
+        "西武ドーム",
+        "球場",
+        "ライブ",
+        "EXILE",
+        "コンサート",
+        "試合",
+        "野球"
+      ]
+    },
+    {
+      "id": "ecm_35",
+      "type": "google_news",
+      "name": "ナチュラルガーデン",
+      "query": "\"ナチュラルガーデン\" 白酵 OR 化粧品 OR 通信販売",
+      "must_match": [
+        "ナチュラルガーデン",
+        "白酵"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "滝川",
+        "オープンガーデン",
+        "庭園",
+        "ガーデニング",
+        "軽井沢",
+        "江部乙",
+        "花壇",
+        "多年草",
+        "植えっぱなし",
+        "園芸",
+        "造園",
+        "雑草"
+      ]
+    },
+    {
+      "id": "ecm_36",
+      "type": "google_news",
+      "name": "ユーグレナ",
+      "query": "\"ユーグレナ\"",
+      "must_match": [
+        "ユーグレナ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_37",
+      "type": "google_news",
+      "name": "SBIアラプロモ",
+      "query": "\"アラプロモ\"",
+      "must_match": [
+        "アラプロモ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_38",
+      "type": "google_news",
+      "name": "八幡物産",
+      "query": "\"八幡物産\"",
+      "must_match": [
+        "八幡物産"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_39",
+      "type": "google_news",
+      "name": "サントリーウエルネス",
+      "query": "\"サントリーウエルネス\"",
+      "must_match": [
+        "サントリーウエルネス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_40",
+      "type": "google_news",
+      "name": "ホソカワミクロン化粧品",
+      "query": "\"ホソカワミクロン\"",
+      "must_match": [
+        "ホソカワミクロン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_41",
+      "type": "google_news",
+      "name": "東京ディベロ",
+      "query": "\"東京ディベロ\"",
+      "must_match": [
+        "東京ディベロ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_42",
+      "type": "google_news",
+      "name": "奈良大和生薬",
+      "query": "\"奈良大和生薬\"",
+      "must_match": [
+        "奈良大和生薬"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_43",
+      "type": "google_news",
+      "name": "エポラ",
+      "query": "\"エポラ\" 化粧品 OR ヘマチン",
+      "must_match": [
+        "エポラ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "出血熱",
+        "エボラ",
+        "コンゴ",
+        "感染",
+        "選挙",
+        "市議",
+        "議員",
+        "エポラ祭り"
+      ]
+    },
+    {
+      "id": "ecm_44",
+      "type": "google_news",
+      "name": "ディーエムジェイグループ",
+      "query": "\"ディーエムジェイ\" OR \"DMJ\"",
+      "must_match": [
+        "ディーエムジェイ",
+        "DMJ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "ジャズ",
+        "ハママツ",
+        "ヤマハ",
+        "楽器"
+      ]
+    },
+    {
+      "id": "ecm_45",
+      "type": "google_news",
+      "name": "ビタブリッドジャパン",
+      "query": "\"ビタブリッドジャパン\"",
+      "must_match": [
+        "ビタブリッドジャパン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_46",
+      "type": "google_news",
+      "name": "フレージュ",
+      "query": "\"フレージュ\"",
+      "must_match": [
+        "フレージュ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_47",
+      "type": "google_news",
+      "name": "チュラコス",
+      "query": "\"チュラコス\"",
+      "must_match": [
+        "チュラコス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_48",
+      "type": "google_news",
+      "name": "メディプラス",
+      "query": "\"メディプラス\"",
+      "must_match": [
+        "メディプラス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_49",
+      "type": "google_news",
+      "name": "ベースフード",
+      "query": "\"ベースフード\" OR \"BASE FOOD\"",
+      "must_match": [
+        "ベースフード",
+        "BASE FOOD"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_50",
+      "type": "google_news",
+      "name": "長寿乃里",
+      "query": "\"長寿乃里\"",
+      "must_match": [
+        "長寿乃里",
+        "然 よかせっけん",
+        "SHIKARI",
+        "つかってみんしゃい"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_51",
+      "type": "google_news",
+      "name": "イング",
+      "query": "\"株式会社イング\" 鹿児島 OR 化粧品 OR 健康食品",
+      "must_match": [
+        "株式会社イング",
+        "長寿の里",
+        "シリカナノコロイド",
+        "美彩生"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "ビューイング",
+        "ブリューイング",
+        "ミーティング",
+        "イングコーポレーション",
+        "スマイルサーベイ",
+        "smile survey",
+        "Salesforce",
+        "アンケート",
+        "人活診断",
+        "ドリームニュース",
+        "イーストサイド"
+      ]
+    },
+    {
+      "id": "ecm_52",
+      "type": "google_news",
+      "name": "アルトルイズム",
+      "query": "\"アルトルイズム\"",
+      "must_match": [
+        "アルトルイズム"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_53",
+      "type": "google_news",
+      "name": "ECホールディングス",
+      "query": "\"ECホールディングス\"",
+      "must_match": [
+        "ECホールディングス"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecm_54",
+      "type": "google_news",
+      "name": "Right Here",
+      "query": "\"Right Here\" 化粧品 OR WrinkFade",
+      "must_match": [
+        "Right Here",
+        "Ｒｉｇｈｔ Ｈｅｒｅ",
+        "ライトヒア",
+        "WrinkFade"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "exclude_match": [
+        "KANA-BOON",
+        "SEVENTEEN",
+        "羊文学",
+        "武道館",
+        "ツアー",
+        "楽曲",
+        "アルバム",
+        "MV",
+        "ライブ",
+        "配信リリース",
+        "オリコン"
+      ]
+    }
+  ]
+}
