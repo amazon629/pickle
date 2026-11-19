@@ -257,6 +257,9 @@ OVERRIDES = {
     "Skyroot": {"match": ["Skyroot", "スカイルート"], "context": STARTUP_CTX},
     "SpaceX": {"match": ["SpaceX", "Space X", "スペースX", "スペースエックス"]},
     "Norm Ai": {"match": ["Norm Ai", "Norm AI"]},
+    # 2026-11-20 追加分
+    "Genesis AI": {"context": STARTUP_CTX},
+    "Applied Compute": {"context": STARTUP_CTX},
 }
 
 # 表記ゆれのまとめ（小さいほうの名前 → まとめ先）
@@ -269,6 +272,64 @@ ALIASES = {
 PLACEHOLDER_RE = re.compile(r"^[（(].*[)）]$|のAIラボ|未定|仮称|不明")
 # 評価額ではなく「買収額」しか載っていない行（スタートアップの評価額ではない）
 ACQUISITION_ONLY_RE = re.compile(r"^\s*買収額")
+# 英文の定型句・見出しの断片を社名として拾ってしまった行（例:「signed a definitive agreement」）
+PHRASE_NAME_RE = re.compile(
+    r"\b(?:signed|signs|signing|definitive|agreement|agrees|agreed|announces?|announced|"
+    r"announcing|entered|enters|merger|acqui(?:re|res|red|ring|sition)|has|have|will|would|"
+    r"valued|valuation|raises?|raised|funding|series|round|startup|company|companies|"
+    r"according|reportedly|deal|deals|to\s+be)\b",
+    re.I)
+NAME_MAX_WORDS = 6
+
+
+def is_phrase_name(name: str) -> bool:
+    """社名ではなく英文の定型句・文の断片を拾ったものか。"""
+    n = (name or "").strip()
+    if not n:
+        return True
+    if PHRASE_NAME_RE.search(n):
+        return True
+    if re.search(r"[A-Za-z]", n) and len(n.split()) > NAME_MAX_WORDS:
+        return True
+    return False
+
+
+def valuation_oku(raw) -> float:
+    """評価額の表記から円換算（億円）を取り出す。円を優先し、無ければドルを1ドル=156円で換算。"""
+    s = str(raw or "").replace("＄", "$").replace("$", "").replace(" ", "").replace("約", "")
+    m = re.search(r"([\d,.]+)\s*兆\s*([\d,.]+)\s*億", s)
+    if m:
+        try:
+            return float(m.group(1).replace(",", "")) * 10000 + float(m.group(2).replace(",", ""))
+        except ValueError:
+            pass
+    m = re.search(r"([\d,.]+)\s*兆\s*円", s)
+    if m:
+        try:
+            return float(m.group(1).replace(",", "")) * 10000
+        except ValueError:
+            pass
+    m = re.search(r"([\d,.]+)\s*億\s*円", s)
+    if m:
+        try:
+            return float(m.group(1).replace(",", ""))
+        except ValueError:
+            pass
+    m = re.search(r"([\d,.]+)\s*億\s*ドル", s)
+    if m:
+        try:
+            return float(m.group(1).replace(",", "")) * 156.0
+        except ValueError:
+            pass
+    m = re.search(r"([\d,.]+)\s*([BMKT])\b", s, re.I)
+    if m:
+        mult = {"B": 10.0, "M": 0.01, "K": 0.00001, "T": 10000.0}.get(m.group(2).upper())
+        if mult:
+            try:
+                return float(m.group(1).replace(",", "")) * mult * 156.0
+            except ValueError:
+                pass
+    return 0.0
 
 
 # ------------------------------------------------------------------ xlsx 読み込み
@@ -384,6 +445,10 @@ def extract_companies(rows: list) -> tuple:
             continue
         oku = to_number(r.get(COL_OKU))
         if oku < MIN_OKU:
+            # 円換算が空欄でも、原文／Web補完に10億ドル以上が書いてあれば対象にする
+            oku = max(oku, valuation_oku(r.get(COL_VALUATION)),
+                      valuation_oku(r.get(COL_VALUATION_WEB)))
+        if oku < MIN_OKU:
             continue
 
         valuation = str(r.get(COL_VALUATION) or "").strip()
@@ -392,6 +457,9 @@ def extract_companies(rows: list) -> tuple:
 
         if PLACEHOLDER_RE.search(name):
             excluded.append({"name": name, "oku": oku, "reason": "仮称・社名未定"})
+            continue
+        if is_phrase_name(name):
+            excluded.append({"name": name, "oku": oku, "reason": "社名ではない（英文の定型句）"})
             continue
         if ACQUISITION_ONLY_RE.search(valuation):
             excluded.append({"name": name, "oku": oku,
