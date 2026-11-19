@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T17:54:01+09:00",
-  "generated_at_label": "2026/11/19 17:54 JST",
+  "generated_at": "2026-11-19T17:58:42+09:00",
+  "generated_at_label": "2026/11/19 17:58 JST",
   "title": "AI新着 監視ボード",
   "total": 89,
   "sources": [
@@ -260,7 +260,7 @@
           "title_ja": "本日より、Hugging Face のチャット モデルが OpenRouter を介して実行されます。\nオープンウェイト モデルは、1 年以内に OpenRouter 上のトークンの 27% から 72% に増加しました。その多くは 2 つのことから来ています。1 つは Hugging Face 🤗 で重みを公開しているラボ、もう 1 つはさまざまな側面で重みを提供しようと数十のプロバイダーが競争していることです。\n今日はその2つを結びます。ハブ上のチャット モデルは、OpenRouter のルーティングを通じて実行されるようになりました。38 のラボからの 160 のモデル、リクエストごとに選択される最適なプロバイダー、自動フェイルオーバー、同じ HF トークン。\nまた、OpenRouter トレースは、所有する Hugging Face バケットに到達し、微調整の準備が整います。\n@ClementDelangue、@julien_c、@huggingface チームと一緒にこれを構築できることに興奮しています。さらに登場!\nオープンルーター (@OpenRouter)\n@huggingface のオープン モデルが OpenRouter 経由で実行されるようになりました。\n各リクエストは、自動フェイルオーバーを備え、そのモデルに最適な価格、速度、稼働時間を提供するプロバイダーに送られます。すべてが同じ Hugging Face トークンと API で実行されます。\nブロードキャストを使用してトレースを Hugging Face Storage に送信することもできるため、リクエストはモデルの隣のハブに保存され、評価や微調整などの準備が整います。\n— https://x.com/OpenRouter/status/2122392434198131005"
         }
       ],
-      "elapsed": 5.4
+      "elapsed": 5.5
     },
     {
       "id": "x_opencode",
@@ -507,7 +507,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 5.0
+      "elapsed": 5.4
     },
     {
       "id": "x_aimirai46487",
@@ -766,7 +766,7 @@
           "title_ja": "■引用元\nStitch by Google (@stitchbygoogle)\n新しいステッチの実験、ステッチ ループをご紹介します。\nStitch は製品のデザインに役立ちます。 Stitch Loop は、公開後も改善を続けるのに役立ちます。これは PR だけでなく、結果を目的として構築された製品エージェントです。\nStitch Loop は実稼働データを監視し、目標が達成されるまで継続的に動作するループを構築できます。\n独自のカスタム ループを定義したり、次のような組み込みループを使用して初日から製品の改善を開始したりできます。\n🛡️ セキュリティ: Gemini 4 Carbon と @GoogleDeepMind CodeMender で構築\n⌚️ レイテンシー: 製品の速度を維持するため\n👋アクセシビリティ: 誰にとっても便利です\n順番待ちリストに参加してください:\n詳細はこちら 🧵👇\nビデオ\n— https://x.com/stitchbygoogle/status/2123100817863663686"
         }
       ],
-      "elapsed": 5.4
+      "elapsed": 5.8
     },
     {
       "id": "x_kimmonismus",
@@ -1009,7 +1009,7 @@
           "title_ja": "ジェンセン・ファンが従業員の解雇を好まない理由について語る..."
         }
       ],
-      "elapsed": 5.2
+      "elapsed": 5.4
     },
     {
       "id": "x_haider1",
@@ -1267,7 +1267,7 @@
           "title_ja": "sol 6.2 は、FrontierCode 2.0 のタスクあたりのコストの約 5 分の 1 で、コーディングにおいて astra 6.2 に著しく近づいています。\nほぼ同じコーディングパフォーマンスを 80% 低いコストで実現\nハイダー。 (@haider1)\nこれがボンカーズです\nエージェントの最終試験 v1.1 について:\ngpt-6.2 astra: タスクあたり 3 ドルで 78.3%\n寓話 5.2: タスクあたり 60 ドルで 72.8%\nopus 5.5: タスクあたり 17.50 ドルで 71.6%\n— https://x.com/haider1/status/2122755313141244347"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "x_testingcatalog",
