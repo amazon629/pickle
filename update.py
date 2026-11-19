@@ -409,6 +409,17 @@ def parse_html_news(text: str, base_url: str, max_items: int = 80) -> list:
     def clean_title(value: str) -> str:
         t = HTML_DATE_RE.sub("", strip_html(value))
         t = t.replace("-->", " ")
+        # 先頭のカテゴリラベル（NEWS / リリース / お知らせ / TOPICS など）を落とす
+        for _ in range(2):
+            t = re.sub(
+                r"^\s*(?:NEWS|news|News|リリース|お知らせ|おしらせ|TOPICS|Topics|トピックス|"
+                r"コーポレート|商品情報|新商品情報|メディア|MEDIA|Information|インフォメーション)"
+                r"\s*[:：|｜\-–—]?\s+", "", t)
+        # 末尾のカテゴリラベル（… MEDIA / … TOPICS など）も落とす
+        t = re.sub(
+            r"\s+(?:NEWS|news|リリース|お知らせ|TOPICS|Topics|トピックス|メディア|MEDIA|コーポレート)\s*$",
+            "", t)
+        t = re.sub(r"[（(]\s*[)）]\s*$", "", t)  # 末尾の空括弧
         t = re.sub(r"\s+", " ", t).strip(" 　|,-–—>")
         return t
 
