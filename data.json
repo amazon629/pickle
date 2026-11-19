@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T19:02:38+09:00",
-  "generated_at_label": "2026/11/19 19:02 JST",
+  "generated_at": "2026-11-19T19:14:23+09:00",
+  "generated_at_label": "2026/11/19 19:14 JST",
   "title": "監視ボード",
   "total": 165,
   "sources": [
@@ -275,7 +275,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.2
     },
     {
       "id": "x_sorapiyo",
@@ -559,7 +559,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.1
     },
     {
       "id": "x_mattariver2",
@@ -841,7 +841,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.0
     },
     {
       "id": "x_aoi_miyu",
@@ -1100,7 +1100,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "報道でました。犯人は生活保護を受給していました。\nあおい みゆ (@japan_miyu_)\n【続報 中野コンカフェ嬢強盗殺人事件】\n「犯人は生活保護受給者 800万コンカフェに使用」\n本日、文化放送のお昼のラジオにて\n犯人の清武一則(39)が\n・生活保護を受給\n・障碍者年金も受給\nこれらの資金も使用しコンセプトカフェに\n4年で800万円使用していた事が新たに判明\nナマポをコンカフェに使用して刺し殺してるのやばい\nVideo\n— https://x.com/japan_miyu_/status/2122914862556995908",
@@ -1118,10 +1118,10 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.3
     },
     {
       "id": "x_tsuisoku",
@@ -1397,7 +1397,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.1
     },
     {
       "id": "x_mattariver3",
@@ -1679,7 +1679,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.0
     },
     {
       "id": "x_totalnewsworld",
@@ -1970,7 +1970,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.3
+      "elapsed": 3.7
     },
     {
       "id": "x_sanae",
@@ -2253,7 +2253,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.6
+      "elapsed": 4.1
     },
     {
       "id": "x_tkzwgrs",
@@ -2551,7 +2551,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.7
+      "elapsed": 6.6
     },
     {
       "id": "yahoo_domestic_business",
@@ -2563,6 +2563,22 @@
       "via": "https://news.yahoo.co.jp/rss/topics/domestic.xml",
       "count": 15,
       "items": [
+        {
+          "title": "FIFA会長選 田嶋氏ら3人が届け出",
+          "summary": "",
+          "images": [],
+          "link": "https://news.yahoo.co.jp/pickup/6603192?source=rss",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-19T19:01:13+09:00",
+          "published_label": "2026/11/19(木) 19:01",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "内閣支持率は微増の42.8% 時事",
           "summary": "",
@@ -2708,22 +2724,6 @@
           "is_new": false
         },
         {
-          "title": "六花亭 セキュリティコード流出か",
-          "summary": "",
-          "images": [],
-          "link": "https://news.yahoo.co.jp/pickup/6603168?source=rss",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-19T16:20:54+09:00",
-          "published_label": "2026/11/19(木) 16:20",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "JT 露の子会社7社を連結から除外",
           "summary": "",
           "images": [],
@@ -2804,7 +2804,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.3
+      "elapsed": 1.5
     },
     {
       "id": "livedoor_news",
@@ -2816,6 +2816,22 @@
       "via": "https://news.google.com/rss/search?q=site%3Anews.livedoor.com&hl=ja&gl=JP&ceid=JP:ja",
       "count": 15,
       "items": [
+        {
+          "title": "悠仁さま、筑波大の学園祭で売り子か 入場規制が敷かれ「爆売れ」と同級生",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IV3RvcmcyTkxIMC1XWDM2R3FPaFlzbjhsX3lPaFhicV9GQ0hIZFprRlBWVF83dVFyR2kwT1VHNlFaQmFZa1NsMnFlUjk4OTVPN2xTaDlRZTlxMHRJWUE?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T19:00:20+09:00",
+          "published_label": "2026/11/19(木) 19:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "局地的な暴風・大雪のおそれ 20日にかけて大荒れの見込み 湿った雪…着雪にも注意を 北海道",
           "summary": "",
@@ -2881,6 +2897,22 @@
           "is_new": false
         },
         {
+          "title": "TOMORROW X TOGETHER、新AL『PERFECT STORM』がオリコン1位を記録！日韓チャートを席巻",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuWXRKSGZqbHdXZ1JWYTBtYzN1aWxqYTA4MzRveTBlNnFWOGh5TXZ6RDFlRlFCbzlTQTlXU3Jpd09RbGwxTzhjM1ZibnhjQ1lUSko4cXNfY25hVVNzb1E?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T18:13:00+09:00",
+          "published_label": "2026/11/19(木) 18:13",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "ニシキヤキッチン「レトルト福袋2027」が11月21日に最終予約販売、初回販売分は2分で完売した人気福袋",
           "summary": "",
           "images": [],
@@ -2929,6 +2961,38 @@
           "is_new": false
         },
         {
+          "title": "「地球の歩き方」ついに月へ！「Dr.STONE」とコラボした異色のガイドブック発売",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42SjdHdnRDeFRleWJ3U1ZuRjhySl96VVVuZnJOX3EydmNsNDdXZUx1TTZTZXlBZVpDZVBfSzF5c1lsczA2OWtxZEpDLWQ2X2pmWUV1R0R4YWVKeDJpc1E?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T18:00:56+09:00",
+          "published_label": "2026/11/19(木) 18:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "timeleszの「ABCマート」広告が話題「篠塚が金髪ということは…」",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYTkNEcW1ndk1RRndfbnhSVjRJRWZiZDhNZEN2UXg1aFRoVzJxM0h5dWs5NEdYVWt2Y1hsLUZwVmZVRGFEYnNNUmRWT0J5SUN2X0JBUUJYWmE5Qml2VEE?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T18:00:00+09:00",
+          "published_label": "2026/11/19(木) 18:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "病気を診ながら人を見る 人が集まる「おうち診療所」【徳島】",
           "summary": "",
           "images": [],
@@ -2945,6 +3009,38 @@
           "is_new": false
         },
         {
+          "title": "「新 美味しんぼ」来年1月放送開始 団社長役は小野大輔",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Zb3VTU3VmNHRTS2ZlZUVlV0M5amJfcVcyNjY2MXJEWnFIOE1pbTBQTHQ3Um5xVFNfWXRSYS1mYVhsdHhBM0JwcTFlcXQ5WHJWNTFSWWpZUUJ3bHYzQ1E?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T18:00:00+09:00",
+          "published_label": "2026/11/19(木) 18:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "「膝下が冷える方へ」ふくらはぎをカーッと温かくする！レベルアップふくらはぎエクササイズ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuQ1FzcTJya1Q2OFNoQWNjbTNWbUMwSnc2dkhWdXFUd0lFTk9pYldTUXh0ajZFMy1NUm5PWjNwbzkyNlZYaHZxLWpTNHNOSDR4WUhGQVBtNHdKUzdXSlE?oc=5",
+          "domain": "news.livedoor.com",
+          "published": "2026-11-19T18:00:00+09:00",
+          "published_label": "2026/11/19(木) 18:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "ブラックフライデー先行セール開始 イオンで「野菜詰め放題300円」",
           "summary": "",
           "images": [],
@@ -2959,105 +3055,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "巨人石塚裕惺が440万円増で更改 来季3年目のブレークへ「来年は1軍でより活躍したい」",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5wRlA1ZWJnWk1rMHVXM2ZvSDNsdmFLRlFOQk1YZWZvZ0J2Y2had0tQZHRfZmVRdzdEYmktdVI1LVlIV3dLSGdnVDdVMXd5TlFuMEtscktsenJGQTM4c0E?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:50:00+09:00",
-          "published_label": "2026/11/19(木) 17:50",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "石川県内 20日夜から平地でも積雪のおそれ 交通への影響や暴風に注意",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE96UGJ5ODFfXzR2bC00Uk5PUHkyb2puRmI5OVNiUGo4c3JhYUVzSU9tTXVYZFNxYW1zWUpMdFFER2VDeGNGdDM0c3E5R0xJX2hudk1uLU9BdTVoUUhFN0E?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:42:11+09:00",
-          "published_label": "2026/11/19(木) 17:42",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「一人暮らしだけど来る?」アプリで呼び出し小6女児に性的暴行加えたか 自称アルバイトの23歳の男を逮捕",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBrZkxYazRkVjhFVEdlMDRxdTJYSXhVS2hLNmpFN2Y3aDlraUUtV0E2SmJIU0ZEaUdxWXpWZ19jQ3NYQmdjVUZHMVRhX0VlaWMxMXpDZzJYNlJCNzEtRE5j?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:41:04+09:00",
-          "published_label": "2026/11/19(木) 17:41",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「急性アルコール中毒」を疑う“8つの症状”は？ 回復時間や治療法も医師が解説！",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CREx6SVFvdm5fQUxVd3FKR2hvSm9ScXBtZXk5NGpZa0JGVUZaTzBRS2V1X2hlYjBKX1l1bXoybEtoWDJnZnFhc0s3eFRXOFpDTXRVV2RCZlBxWWxMcmc?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:37:44+09:00",
-          "published_label": "2026/11/19(木) 17:37",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "髙橋藍＆小川智大はスタメン起用！ ルブリンはストレート勝利で開幕7連勝【ポーランドリーグ男子】",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83VlhnNmc5Nk9NX3RFZ01ubGJPdzFSWHhDX2NKNjVBTWh2STdTTVowanRDVWVTelFFVEluU3MwOW5tS1VpcHdUZzhoMWs4TEpXQkN6NmRFdExiWkZxVlE?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:35:37+09:00",
-          "published_label": "2026/11/19(木) 17:35",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "高市首相「国益守るための対話進める」一連の外交終え会見 中露との懸案解決の道筋は見えず",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpVWt0TGFNeE12TDFpMkVGa0RZT3EwdWpldEU4c3V4WExiZkFyVlc1em5hbG5KcW5mdFZkTFg3MURwRW9tN0pPWE5PWDA0SDRndS1JRjk3QkNmYUk1SVE?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-19T17:32:00+09:00",
-          "published_label": "2026/11/19(木) 17:32",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T19:02:42+09:00",
-  "generated_at_label": "2026/11/19 19:02 JST",
+  "generated_at": "2026-11-19T19:14:26+09:00",
+  "generated_at_label": "2026/11/19 19:14 JST",
   "title": "10億ドル以上ユニコーン ニュース監視",
   "total": 239,
   "sources": [
@@ -14,6 +14,23 @@
       "via": "https://news.google.com/rss/search?q=%22SpaceX%22&hl=en-US&gl=US&ceid=US:en",
       "count": 5,
       "items": [
+        {
+          "title": "Elon Musk Says Anthropic 'Extremely Likely' to Expand SpaceX Compute Deal, Could Seek 10 Gigawatts More",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPZWRYb1FMRnVaZGZtSDhpMmhyY0hGSjVZQnZldW1DazFCaWhsUXYtaUxJZHU1cUp3dlB5UHNvMG9qSGU0dXdZNWRYSF9RZFhGMHItMGgyWkJRVG4xNTgwRW1HT3Vad1U1V0ZiTm12WDl2SHJzczBnWjYzWnp3VnNDc2VMQkNXMllxbGs0V0ZkQ1hoOWUyNkJvREQ5ZkdUcVZXQVROb3VjS0k1Q0hQZFUxdUFhLVk4YUhYMldVSmliOFpDQmJyVzhISERxTHVmYnA1VjZLRmR6NThHZ0dja1NYbXZjY2N6bHFjbjBvSzVPWDc1LWhXYlROS2NBUnIwNTlGTFE?oc=5",
+          "domain": "benzinga.com",
+          "published": "2026-11-19T18:58:23+09:00",
+          "published_label": "2026/11/19(木) 18:58",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "イーロン・マスク氏、人類はSpaceXのコンピューティング契約を拡大する「可能性が非常に高い」、さらに10ギガワットを求める可能性があると語る"
+        },
         {
           "title": "SpaceX Catches Starship While ULA, Blue Origin Stumble. No One Is Catching Musk.",
           "summary": "",
@@ -81,26 +98,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Anthropic、SpaceXのデビューを上回る記録的なIPOで810億ドルを調達"
-        },
-        {
-          "title": "Yale Computer Society brings SpaceX-sponsored AI hackathon to coders",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPblUwcnVzZ2VCMUpFV3ZmQ2Y2bmZScEJpcHIweEFMQ3hKd2M2WUhSNldkS0F2UXRpeXhDSXhsWU5ibGJSbThhWHRpMUVETHFRYW02UWhIRHNwOGhPbldpUlpsZE1EV29TQ0U3ODd4RS1xcUY3U1BhaVI1NmxpN0tkUU95R1h1QUxYUTVFZ0FLdUxxWmV0Mmk1YUNkZUtPcTFscF9YZ2FR?oc=5",
-          "domain": "yaledailynews.com",
-          "published": "2026-11-19T18:06:12+09:00",
-          "published_label": "2026/11/19(木) 18:06",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Yale Computer Society が SpaceX 後援の AI ハッカソンをプログラマー向けに開催"
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 1.2
     },
     {
       "id": "uc_02",
@@ -197,7 +197,7 @@
           "title_ja": "インフラストラクチャーのスタートアップ Fireworks AI は、300 億ドルから 400 億ドルの評価額で新たな資金調達に向けて初期交渉を行っている"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.9
     },
     {
       "id": "uc_03",
@@ -290,7 +290,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.0
     },
     {
       "id": "uc_04",
@@ -384,7 +384,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_05",
@@ -481,7 +481,7 @@
           "title_ja": "投資家が成長と規制リスクを懸念する中、シェインの香港デビューは精彩を欠く"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.7
     },
     {
       "id": "uc_06",
@@ -576,7 +576,7 @@
           "title_ja": "イレブンラボ、日本語音声AIの拡大に向けてKotobaの買収を計画"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.0
     },
     {
       "id": "uc_07",
@@ -674,7 +674,7 @@
           "title_ja": "ドローン配送が変曲点に達し、ジップラインが6億ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.7
     },
     {
       "id": "uc_08",
@@ -772,7 +772,7 @@
           "title_ja": "ドイツの防衛スタートアップ、ヘルシングがパランティアに対抗するAI軍事ソフトウェアを発表"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.8
     },
     {
       "id": "uc_09",
@@ -869,7 +869,7 @@
           "title_ja": "Modal が 7 億 5,000 万ドルを調達、Workday と Proofpoint がサイバー取引を締結"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "uc_10",
@@ -967,7 +967,7 @@
           "title_ja": "Harvey Legal AI、20以上のSKグループ関連会社に導入"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.8
     },
     {
       "id": "uc_11",
@@ -1064,7 +1064,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "uc_12",
@@ -1161,7 +1161,7 @@
           "title_ja": "Temporal が AI エージェントの破壊を防ぐために 5 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.7
     },
     {
       "id": "uc_13",
@@ -1258,7 +1258,7 @@
           "title_ja": "Instinct、100億ドルの評価額で10億ドルを調達 — フォーチュン"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_14",
@@ -1356,7 +1356,7 @@
           "title_ja": "Quince、シリーズEで5億ドルを確保、評価額100億ドルを突破"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_15",
@@ -1452,7 +1452,7 @@
           "title_ja": "法律 AI スタートアップ Legora が評価額 88 億ドルのシリーズ E で 5 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.7
     },
     {
       "id": "uc_16",
@@ -1547,7 +1547,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.8
     },
     {
       "id": "uc_17",
@@ -1645,7 +1645,7 @@
           "title_ja": "Quantum Systems が 12 億ドルを調達、評価額が 2 倍以上に"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "uc_18",
@@ -1743,7 +1743,7 @@
           "title_ja": "ハドリアヌス帝、カッツタウンの鋳造工場を拡大し、数百人の雇用を創出するために3億ドルの投資を発表"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_19",
@@ -1840,7 +1840,7 @@
           "title_ja": "全身画像診断会社Neko Healthが7億ドルを調達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.8
     },
     {
       "id": "uc_20",
@@ -1938,7 +1938,7 @@
           "title_ja": "Best Egg と Column が個人ローンの成長をサポートする新たな融資提携を発表"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "uc_21",
@@ -2035,7 +2035,7 @@
           "title_ja": "General Intuition がゲームプレイで AI をトレーニングするために 62 億ドルの評価額で 2 億 2,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.7
     },
     {
       "id": "uc_22",
@@ -2133,7 +2133,7 @@
           "title_ja": "Tenstorrent、評価額62億ドルのシリーズEで15億ドルを調達"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_23",
@@ -2231,7 +2231,7 @@
           "title_ja": "Whop は 3 か月で 3 つの製品を出荷し、評価額 51 億ドルで 2 億ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_24",
@@ -2329,7 +2329,7 @@
           "title_ja": "AI スタートアップ Micro1 が Google の心霊データ入札の打破を目指す"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.7
     },
     {
       "id": "uc_25",
@@ -2427,7 +2427,7 @@
           "title_ja": "Chai Discovery、AI主導の分子設計を推進する4億ドルのシリーズCを発表"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.7
     },
     {
       "id": "uc_26",
@@ -2524,7 +2524,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "uc_27",
@@ -2622,7 +2622,7 @@
           "title_ja": "Neros は Bandit interceptor をサポートするために 2 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "uc_28",
@@ -2720,7 +2720,7 @@
           "title_ja": "デビッドプロテインメーカー、新たな資金調達契約で22億5000万ドルと評価される"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_29",
@@ -2818,7 +2818,7 @@
           "title_ja": "Parallel Web Systems が Agentic AI への取り組みで 1 億ドルを調達"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "uc_30",
@@ -3111,7 +3111,7 @@
           "title_ja": "Arda AI 製造資金: 記載されている 2 億 3,200 万ドル"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_33",
@@ -3208,7 +3208,7 @@
           "title_ja": "高精度の物体操作のための AI ロボット技術の開発者である Eka Robotics がシリーズ A 資金で 1 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_34",
@@ -3306,7 +3306,7 @@
           "title_ja": "Tractian、産業資産の健全性のための AI を拡張するシリーズ D で 1 億 3,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_35",
@@ -3404,7 +3404,7 @@
           "title_ja": "ウォルマート、ストリーミングTV広告プラットフォームVibe.coの買収契約を正式に締結"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "uc_36",
@@ -3502,7 +3502,7 @@
           "title_ja": "物議を醸しているロシアの新しい軍事大聖堂が奉献される"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.7
     },
     {
       "id": "uc_37",
@@ -3600,7 +3600,7 @@
           "title_ja": "Wabi が共有パーソナル AI アシスタントを拡大するために 5,500 万ドルを調達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "uc_38",
@@ -3697,7 +3697,7 @@
           "title_ja": "ウォーハウンドの新興企業、軍用グレードの遺伝子組み換え犬をターゲットに"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_39",
@@ -3794,7 +3794,7 @@
           "title_ja": "イスラエルのスタートアップ Glow が AI エンドポイント セキュリティ プラットフォームのために 1 億 8,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_40",
@@ -3892,7 +3892,7 @@
           "title_ja": "Norm AI のエージェント経済に関するフォーラムから得た 5 つの教訓"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_41",
@@ -3990,7 +3990,7 @@
           "title_ja": "入力: AI リーガル プラットフォームの評価額 12 億ドルでシリーズ B が 1 億ドル調達"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_42",
@@ -4087,7 +4087,7 @@
           "title_ja": "スカイルートが6,000万ドルの資金を確保、インド初の宇宙「ユニコーン」となる"
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "uc_43",
@@ -4185,7 +4185,7 @@
           "title_ja": "Sequoia が支援する Blacksmith が AI コーディング エージェントによって壊れた CI を修正するために 10 億ドルで 6,600 万ドルを調達"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.7
     },
     {
       "id": "uc_44",
@@ -4281,7 +4281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.6
     },
     {
       "id": "uc_45",
@@ -4460,7 +4460,7 @@
           "title_ja": "ブランク・ストリート・コーヒー、ゼネラル・カタリストとタイガー・グローバルから2,000万ドルを調達"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.8
     },
     {
       "id": "uc_47",
@@ -4558,7 +4558,7 @@
           "title_ja": "Nominal が AI をハードウェア エンジニアリングに組み込むため、評価額 30 億ドルで 8 か月で 3 倍となる 2 億 4,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.8
     },
     {
       "id": "uc_48",
@@ -4655,7 +4655,7 @@
           "title_ja": "Corma、シリーズ A 1 億 2,500 万ドルで評価額 10 億ドルに到達"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     }
   ]
 }
