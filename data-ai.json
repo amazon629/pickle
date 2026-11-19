@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T23:47:26+09:00",
-  "generated_at_label": "2026/11/19 23:47 JST",
+  "generated_at": "2026-11-20T04:28:37+09:00",
+  "generated_at_label": "2026/11/20 04:28 JST",
   "title": "AI監視ボード",
-  "total": 364,
+  "total": 363,
   "sources": [
     {
       "id": "x_ai_300",
@@ -292,7 +292,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 2.4
     },
     {
       "id": "x_okapi_fukugyo",
@@ -338,7 +338,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "動画が作れるようになったら、次に決めるのは「誰の、何の役に立つ動画か」。\n「AIアニメ動画、作れます」だと「すごいね」で終わる。\n「Instagram Reels用・15秒アニメ広告、作ります」なら「それ、お願いできますか？」と言われる。\n企画から受注までの全手順はこちら👇\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\n— https://x.com/okapi_fukugyo/status/2118857106518602083",
@@ -356,7 +356,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIで商品は作れる時代。次に悩むのは「どう売るか」\nここもAIに丸投げではなく、一緒に考える相手として使うのが現実的です。\nそのとき役立つのが、マーケティング用語。\n「AIDAで構成案を」「PASONAでメール本文を」と名前で頼むと、意図が伝わりやすくなります。\n手法・用語24個を、動く見本つきでまとめました。\n保存推奨です🔖",
@@ -394,7 +394,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "『ChatGPT』の新モデル『GPT-6.2』は、無料版では使えない。\nPlusでも『Work』と『Codex』向けで、普段のチャット画面には出てこない。\nただ、同時に出た安全性レポートは無課金でも役に立つ。\n普段使い向けの『Sol』は、コーディング中に障害（ファイルが消えている、ツールが使えない等）が出たのに報告しない割合が、前の『6.1 Sol』の14.00%から24.08%に増えた。\n検索が使えなかったのに、それを伝えずに答える割合も2.75%から9.33%に増えた。\nOpenAIもレポートの中で、前のモデルより悪くなったと認めている。\n同じレポートでは、開発者向けの指示を足すと24.08%が8.88%に下がった。\n同じ発想で、指示の最後にこの1行を足してみてほしい。\n「できなかったこと、確認できなかったこと、推測で補ったことがあれば、最初に箇条書きで教えて」\n無料版でもそのまま使える。\nたとえば、3つのファイルをまとめるよう頼んで1つが開けなかったのに、何も言わずに2つだけでまとめて返すような失敗を減らす狙い。\nなお、わざと障害を仕込んだテストの数字なので、普段から4回に1回起きるわけではない。\n無料版の『Luna』の数字はレポートに載っていない。\n数字や日付を調べてもらうときに便利。\n答えの最初に「確認できなかった：〇〇」と出れば、そこだけ自分で調べればいい。\nChatGPT (@ChatGPT)\nAnd here we go…GPT-6.2 Astra and GPT-6.2 Sol are yours to make more games with.\nOh, and they’re also super efficient and really good at making slides, building websites, and tackling the work you were doing before you started making games.\nRolling out today to ChatGPT Work and Codex for Plus, Pro, Enterprise, and Edu users.\nVideo\n— https://x.com/ChatGPT/status/2122751009156210841",
@@ -573,7 +573,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 2.0
     },
     {
       "id": "x_codexneo4",
@@ -601,7 +601,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "CodexでGPT-6.2 Solのトークン消費気になる人\nこれ保存\n👇\nGPT-6.2 Solで使える「省エネ運用法」が\nがっつりまとめられてる‼️\n無駄な探索、同じ情報の読み直しや\n必要以上の修正を減らすために\nAGENTS.mdへ作業方針を追加する流れ\n設定は4ステップ\nコピペ用の指示はこちら↓\n① プロジェクト直下のAGENTS.mdを確認\n変更前にバックアップを取る。\nすでにファイルがある場合は、\n既存の内容を確認して追記。\nない場合は新しく作成する。\n② 以下の指示を追加する\n効率とトークン消費を意識し、\n以下の方針で作業してください。\n現在のタスクに関連するファイルから調査する。\n必要な理由なくプロジェクト全体を読み込まない\n取得済みの情報を再利用する。\nファイルの変更や情報の不足、矛盾がある場合は\n必要な箇所を読み直す。\n原因と影響範囲を確認してから、\n目的を満たす最小限の修正を行う。\n無関係なリファクタリングはしない。\n独立した検索や読み取りは、\n可能な範囲でまとめる。\n前の結果に依存する操作は順番に実行し、\n同じ操作を目的なく繰り返さない。\n変更の影響範囲に応じたテストと、\nプロジェクトで必須のチェックを実行する。\n全体テストは必要な場合に行う。\n依頼内容を満たし\n必要な検証が完了したら作業を終了する。\n無関係な探索や追加の最適化を続けない。\n説明は結論と重要な点を中心にまとめる。\nすでに明確な内容を繰り返さない。\n不確かな点は、まず判断に必要な証拠を集める。\n調査範囲は必要に応じて広げる。\nトークン節約のために、正確性\nコード品質・必要な検証を犠牲にしない。\n完了報告は、以下の3項目にまとめる。\n修正内容：\nテスト結果：\n残存問題：\n実行できなかった検証があれば、\nその理由も明記する。\n③ 保存して、新しいセッションで開始\nプロジェクトのフォルダからCodexを起動し、追加した方針が読み込まれているか確認する。\nこれで、毎回同じ指示を\n貼り付ける手間を減らせます。\n④ 推論の強さを作業に合わせる\nモデルはGPT-6.2 Solを選択。\n・小さな修正：Low／Lightを試す\n・通常の作業：Mediumを目安にする\n・複雑な調査や設計：必要に応じて強度を上げる\n軽い作業から、使用量と結果の品質を\n見ながら調整するといい。\n「何を調べるか」「どこまで直すか」\n「いつ完了とするか」を明確にして、\n必要な作業にトークンを使わせよう。",
@@ -742,7 +742,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.9
     },
     {
       "id": "x_beku_ai",
@@ -773,6 +773,24 @@
           "is_new": false
         },
         {
+          "title": "Neonマジで使い心地いい\nGemini復権したな\nGoogle AI Studio (@GoogleAIStudio)\n— https://x.com/GoogleAIStudio/status/2123178116604416115",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXcC88kW4AAY5aL.jpg?name=small"
+          ],
+          "link": "https://x.com/beku_AI/status/2123443763561582764",
+          "domain": "x.com",
+          "published": "2026-11-20T00:50:19+09:00",
+          "published_label": "2026/11/20(金) 00:50",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "AIリプまじで損しかないからちゃんと見て\nみちぽ｜Ｘの先生 (@michipo5)\nインプを伸ばしたい人向け。Xポスト自動化ツールのプレゼントつき\n— https://x.com/michipo5/status/2123022505585885229",
           "summary": "",
           "images": [],
@@ -786,7 +804,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "商品開発しなくてもここまで狙えるのか\nのじ (@columbus_ceo)\n— https://x.com/columbus_ceo/status/2123174926819717592",
@@ -802,7 +820,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "もうAIごとに画面切り替えなくていいのか\n銀次 | 実務で使えるAI活用 (@ginji_aihack)\n— https://x.com/ginji_aihack/status/2123247353813705198",
@@ -820,7 +838,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Museで伸びた投稿を探せるってだけでも十分おもろいんだけど、僕が「そこまで見られるなら助かるわ」って思うのは別のところ。バズった投稿の本文を何本も眺めるより、次に売れるネタのヒントが転がってる場所があって、",
@@ -836,7 +854,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "投稿の返信欄。「初心者でもできる？」「どれを買えばいい？」みたいな質問って、そのまま読者の悩みなんだよね。公開されている返信まで調べて整理できれば、次に何を投稿するかのヒントになる。リサーチって地味に時間を食うから、ここをAIに手伝ってもらえるのは普通にありがたい。さすがにMuseは触っておいて損ないと思うよ。",
@@ -852,7 +870,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Claude Codeの待ち時間減るなら最高\nこま｜AI活用 (@ai_yorozuya)\n— https://x.com/ai_yorozuya/status/2123370902452838869",
@@ -870,7 +888,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これ通りに設定したら仕事かなり減りそう\nまるお｜AIエージェント×コンテンツマーケ｜AI特許取得｜慶應AI卒｜元日テレAI責任者｜1年で2億 (@Maruo_0314)\n— https://x.com/Maruo_0314/status/2123363733296808423",
@@ -888,7 +906,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これからアフィやるなら読んどきたい\n裏めがねくん (@uraglasskun)\n— https://x.com/uraglasskun/status/2123348295598960773",
@@ -906,7 +924,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「AIで作ったものにお金を取るのはどうなの？」って話、僕はちょっと不思議なんだよね。お客さんが欲しいのは作った人の苦労じゃなくて自分の悩みが解決することでしょ？\n3日かけて手作業したものより、AIを使って30分で作ったものの方が役に立つなら、僕は迷わず後者を売るよ。",
@@ -922,7 +940,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Museでnoteのネタを探すなら「読者が何に悩んでいるか」だけで終わらせないで！同じ「Threadsで稼げない」という悩みでも、始めたばかりの人と、投稿は伸びるのに売れない人では必要な商品が違う。だから商品テーマを決める前に見るべきなのは、",
@@ -987,25 +1005,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "AIでXの投稿を100本作ったのに、全部ほとんど読まれない。これ、普通に起こるんよ。今はChatGPTに「副業について投稿を作って」って頼めば一瞬で何十本も出てくる。でも文章がきれいだからって読まれるわけじゃない。僕がAIで投稿を作るとき、必ず確認してるのが、",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2123250409762357413",
-          "domain": "x.com",
-          "published": "2026-11-19T12:02:00+09:00",
-          "published_label": "2026/11/19(木) 12:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 5.6
+      "elapsed": 1.9
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1290,7 +1292,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.9
     },
     {
       "id": "x_taki_auto",
@@ -1339,7 +1341,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "僕はAI画像でCG集を売っていますが、\n6つの中で、自分の仕事にいちばん近いのは④です。\n止まらず、最後までやり切る。\nCG集で売上が立つかどうかも、ここで決まります。\nFANZAに出せるのは、月3作まで。\n1作を最後まで仕上げて出した人だけが\n次の月も、その次の月も積み上げていけます。\nAI画像を始めた人が、一番つまずくのは\n「画像は出せるのに、1冊にまとめる所で止まる」こと。\n生成は楽しいけど、\n選ぶ・並べる・仕上げるは地味なんですよ。\nここで止まったままだと、\nフォルダに画像だけが何百枚も溜まって\nFANZAに1本も出せないまま、月の課金だけが続きます。\nだから今回、\n何から始めて、何日目に何をするかを1日ずつ並べた\n「30日スタートロードマップ」を用意しました。\nこれがあれば\n今日やることが、朝いちばんに1つ決まります。\n画像を作るだけで終わる日が無くなる。\n仕上げまで含めて、最初の1作に近づけます。\nこれを含む12大特典、全部無料です。\nリプ欄に置いておきました。\n保存して。あなたも\nまず④だけ、コピペして使ってみてください。",
@@ -1355,7 +1357,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Fable 5.2に「バグを探して」とだけ頼むのは、\nいちばんもったいない使い方です。\n「この機能を作って」\n「なんで遅いの？」\nこれも同じ。\n一言で投げると、\n返ってくるのも一言ぶんの仕事です。\nコピペで使える指示を、6つ置いておきます。\n①隠れた切り替えを探させる\n「このアプリの中で、はっきり書かれていない『状態の切り替え』を全部探して。使う人・作る人・AIの3つとも楽になる形に直して。今動いている所は壊さないで。」\n→読み込み中・エラー・空っぽの画面のように、あちこちに散らばった切り替えを、まとめて整えてくれます。",
@@ -1371,7 +1373,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "その透かし、消したらアウトです↓\nたき AI (@taki_auto)\n— https://x.com/taki_auto/status/2123340684384149624",
@@ -1492,7 +1494,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 9.2
     },
     {
       "id": "x_sora19ai",
@@ -1522,6 +1524,24 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "コードを読まずにマージするために必要なこと｜nrs  #zenn",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122728718628192259/PGKoyvre?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/sora19ai/status/2123450464331350140",
+          "domain": "x.com",
+          "published": "2026-11-20T01:16:57+09:00",
+          "published_label": "2026/11/20(金) 01:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "Neon,Opus/Sol超え…\nこれは触りまくるしかない\nGoogle DeepMind (@GoogleDeepMind)\nGemini 4 Neon is rolling out now.\nSitting between Carbon and Hydrogen, it brings frontier intelligence and fast task completion for complex software engineering, knowledge work, and science.\n— https://x.com/GoogleDeepMind/status/2123167884411077030",
@@ -1742,27 +1762,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Podcast始めました！\nそら ☁️ AgentSwarm 自動化オタク📱 (@sora19ai)\nPodcast始めました。\n第1話「15歳と21歳が、人生を「早めに」考えるラジオ始めます...」\n— https://x.com/sora19ai/status/2122316177326350397",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122315820416245760/TWGqoyle?format=jpg&name=800x320_1"
-          ],
-          "link": "https://x.com/sora19ai/status/2122714987072520634",
-          "domain": "x.com",
-          "published": "2026-11-18T00:34:25+09:00",
-          "published_label": "2026/11/18(水) 00:34",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 9.6
     },
     {
       "id": "x_shota7180",
@@ -1809,7 +1811,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Gemini 4シリーズは、新たに「Neon」も登場して選択肢がさらに広がっています。\n大切なのは、どのモデルが高性能かではなく、どの仕事に適しているかという視点です。\nHydrogen・Neon・Argon・Carbonの4モデルについて、実務での使い分けを整理しました↓\n木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏 (@shota7180)\nGoogle、新モデル「Gemini 4 Neon」をリリース！\nGemini 4 CarbonとHydrogenの間に位置するモデル。\n総合的な知能・推論能力を評価するベンチマークでは、Claude Opus 5.5やGPT-6.2 Solを超える性能を記録。\nその上、入力100万トークンあたり3ドルです。\n— https://x.com/shota7180/status/2123213743257686256",
@@ -2054,7 +2056,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.4
+      "elapsed": 1.7
     },
     {
       "id": "x_ichiaimarketer",
@@ -2085,15 +2087,33 @@
           "is_new": false
         },
         {
-          "title": "ガチでこれ出したくなかったんですけど、もういいです。\nMac Studio、自分の環境全部晒します。\n挿してる機材を1つ残らず、1枚の図解にまとめました👇\nマジで有益なので保存推奨です。\n「Mac Studioに何挿してるの？」\nって最近よく聞かれるので。\nうちはこう回っています。\n「Mac Studioを1台、\n24時間つけっぱなし。\n・中でClaude CodeとCodexのAI社員が同時に働く\n・積んでるのはM3 Ultra、メモリは96GB」\nその1台に、機材を5つの役割に分けて全部つないでる👇\n①声を入れる\n・USBのマイク HyperX QuadCast 2 で話すと、音声入力アプリ Aqua Voice が声を文字にして、そのままAIへの指示になる\n・4つのマイクが並んだ reSpeaker XVF3800 は、声で話しかけられるAI秘書の「耳」\n②見る・さわる\n・34インチの横長画面に、AIの作業画面を並べて見張る\n・Magic KeyboardとMagic Trackpadは線なし（Bluetooth）\n③ためる\n・主力はOWCのSSD 8TB（Thunderbolt 5）。動画と資料、スタッフとの共有フォルダを置いてる\n・動画をSSDに移す時は、WDのハードディスク 8TBにも同じデータをコピー。中身が一致するのを確かめてから元を消す\n・もう1台のハードディスクは、データをまとめて移す時だけ使う予備。ふだんは休眠中\n④スマホを動かす\n・Pixel 8aをUSBでつなぎ、「USBデバッグ」（パソコンから操作できる設定）をオン\n・あとはAIが画面の文字を読んで、タップも文字入力も自分でやる\n・LINEのオープンチャットへの投稿まで任せてる\n⑤つなぐ\n・10ギガの有線LAN（ふつうの10倍速）で、MacBookからこのMacのフォルダを直接開く\n・外出先からは Tailscale（安全な通り道を作るアプリ）経由\n全部見せたけど、\n真似してほしいのは機材そのものじゃない。\nAIが止まらないように、1台に全部つなぐ形の方。\n特に、\nSSDと同じ中身をハードディスクにも持たせてるのは、\n地味だけど一番効いてます。SSDが壊れても、仕事が止まらないので。\nAIに仕事を任せる環境づくりは、これからも全部出すのでフォローしておいてください🏃",
+          "title": "うおおおお、まとさんとのデザインの3Daysセミナー終了！！！！！疲れたけど楽しかった！！人生楽しい！明日もADPさんでセミナー！準備満タン💪お楽しみに！\nAI Dreamers Production@AIの次に来るのはあなただ (@aifuturestudy)\n◢◤ADPセミナーVol.106 申込開始📢◢◤\nこんばんは！ADPです。\n11月セミナーやりまっす！！\n🎬AI×動画編集 完全攻略セミナー\n〜年商2,000万円の動画編集会社を、AI社員で完全自動化へ〜\n日時：11/20（金）21:00〜22:30\n講師：いち（市岡直人）氏 @ichiaimarketer\n「納品できる動画」の編集を、\nAIにどこまで任せられるか。\n今注目のAI動画編集の最先端ノウハウを、\n実際の画面とともにお届けします。\n🎁今回は特別に、申込者全員に3日間アーカイブ付き！\n当日参加が難しい方も、後からご覧いただけます。\nオンライン開催\n・参加無料🆓\n・定員500名⚠️\n気になる方は、お早めに席を確保してください！\n参加申込はリプ欄からどうぞ👇\n— https://x.com/aifuturestudy/status/2120094122983772605",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HWwE3dUbwAAQWTF.jpg?name=small"
+          ],
+          "link": "https://x.com/ichiaimarketer/status/2123440812243755075",
+          "domain": "x.com",
+          "published": "2026-11-20T00:38:35+09:00",
+          "published_label": "2026/11/20(金) 00:38",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "もうよくない！！出さないでほしい！！\nいち｜AI社員と働く経営者 (@ichiaimarketer)\nガチでこれ出したくなかったんですけど、もういいです。\nMac Studio、自分の環境全部晒します。\n挿してる機材を1つ残らず、1枚の図解にまとめました👇\nマジで有益なので保存推奨です。\n「Mac Studioに何挿してるの？」\nって最近よく聞かれるので。\nうちはこう回っています。\n「Mac Studioを1台、\n24時間つけっぱなし。\n・中でClaude CodeとCodexのAI社員が同時に働く\n・積んでるのはM3 Ultra、メモリは96GB」\nその1台に、機材を5つの役割に分けて全部つないでる👇\n①声を入れる\n・USBのマイク HyperX QuadCast 2 で話すと、音声入力アプリ Aqua Voice が声を文字にして、そのままAIへの指示になる\n・4つのマイクが並んだ reSpeaker XVF3800 は、声で話しかけられるAI秘書の「耳」\n②見る・さわる\n・34インチの横長画面に、AIの作業画面を並べて見張る\n・Magic KeyboardとMagic Trackpadは線なし（Bluetooth）\n③ためる\n・主力はOWCのSSD 8TB（Thunderbolt 5）。動画と資料、スタッフとの共有フォルダを置いてる\n・動画をSSDに移す時は、WDのハードディスク 8TBにも同じデータをコピー。中身が一致するのを確かめてから元を消す\n・もう1台のハードディスクは、データをまとめて移す時だけ使う予備。ふだんは休眠中\n④スマホを動かす\n・Pixel 8aをUSBでつなぎ、「USBデバッグ」（パソコンから操作できる設定）をオン\n・あとはAIが画面の文字を読んで、タップも文字入力も自分でやる\n・LINEのオープンチャットへの投稿まで任せてる\n⑤つなぐ\n・10ギガの有線LAN（ふつうの10倍速）で、MacBookからこのMacのフォルダを直接開く\n・外出先からは Tailscale（安全な通り道を作るアプリ）経由\n全部見せたけど、\n真似してほしいのは機材そのものじゃない。\nAIが止まらないように、1台に全部つなぐ形の方。\n特に、\nSSDと同じ中身をハードディスクにも持たせてるのは、\n地味だけど一番効いてます。SSDが壊れても、仕事が止まらないので。\nAIに仕事を任せる環境づくりは、これからも全部出すのでフォローしておいてください🏃\nVideo\n— https://x.com/ichiaimarketer/status/2123412251730382960",
           "summary": "",
           "images": [
             "https://pbs.twimg.com/amplify_video_thumb/2123412233845940224/img/jiVx_zIBLn5KFX-n.jpg?name=small"
           ],
-          "link": "https://x.com/ichiaimarketer/status/2123412251730382960",
+          "link": "https://x.com/MatoToushi/status/2123415227115143553",
           "domain": "x.com",
-          "published": "2026-11-19T22:45:06+09:00",
-          "published_label": "2026/11/19(木) 22:45",
+          "published": "2026-11-19T22:56:55+09:00",
+          "published_label": "2026/11/19(木) 22:56",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -2316,27 +2336,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "あ、そうそう\n私も今こんな感じにしてる！\n結局自分の使い方に合わせてAIをどこに配置するかが大事。\nてかこの図解いいなー！\nいち｜AI社員と働く経営者 (@ichiaimarketer)\n話題の Grok Bot、自作の操作アプリ「Nox」に繋げてます。\nただ正直な話、Grok Bot は必須じゃないと思ってる。\n自分の使い方はこう👇\n・動画編集やSEOの記事づくりみたいな重い仕事 → Mac Studio で動かしている Claude Code と Codex\n・Grok Bot → Nox に溜まった「自分が決める事」（どの案で進めるか、みたいな事）を知らせる通知役だけ\n理由はシンプルで\n裏で何をやっているかが見えないと、重い仕事は任せられないから。\nなので\n・Mac mini や Mac Studio を持っている人 → 無くても回る\n・これからAIに仕事を任せてみたい人 → 入り口としては最高（メールの作成や予約は任せられる）\nスマホから頼める事は限られます。\nMacを持っているなら、まず Claude Code か Codex を入れて、つけっぱなしにしておく方が先です。\nVideo\n— https://x.com/ichiaimarketer/status/2122562897880772780",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122562885205573632/img/dgfPHnHiGqcjzzad.jpg?name=small"
-          ],
-          "link": "https://x.com/MatoToushi/status/2122566269459464441",
-          "domain": "x.com",
-          "published": "2026-11-17T14:43:28+09:00",
-          "published_label": "2026/11/17(火) 14:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 3.4
+      "elapsed": 5.5
     },
     {
       "id": "x_aiaircle34052",
@@ -2619,7 +2621,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.7
+      "elapsed": 4.5
     },
     {
       "id": "x_ai_masaou",
@@ -2665,7 +2667,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "",
@@ -2683,7 +2685,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "なんでCarbonとHydrogenの間の価格やのにAAのスコアがCarbonより上なんだ・・・？笑\nコレは楽しみすぎる\nLogan Kilpatrick (@OfficialLoganK)\nIntroducing Gemini 4 Neon! Pushing the frontier across domains and punching above its model class in a meaningful way. To me, Neon feels like the right balance of intelligence, speed, and usability. Available now across @GoogleAIStudio, the API, and more!\n— https://x.com/OfficialLoganK/status/2123167791922741362",
@@ -2866,8 +2868,7 @@
           "title": "Google ColabがRemote MCPに対応した！！\nこれは神アプデで、Cloud AgentからもColabのGPUを使える！自分のPC閉じたまま、モデルの学習や推論を任せられるの嬉しい！\nGoogle AI ProやUltra入ってる人は無料でColabの計算枠もついてくるしかなり相性が良いのでは！\nColaboratory (@GoogleColab)\nConnect your AI agents directly to Google Colab runtimes! ⚡️\nWith the new Colab API and MCP endpoint, provisioning runtimes and executing Python headlessly is just a config away.\nLearn more:\n#GoogleColab #MCP #Python #AI\n— https://x.com/GoogleColab/status/2122676129009975544",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXW6w6Ba0AApitl.png?name=small",
-            "https://pbs.twimg.com/card_img/2122487399049752576/fz8IdDCz?format=jpg&name=800x419"
+            "https://pbs.twimg.com/media/HXW6w6Ba0AApitl.png?name=small"
           ],
           "link": "https://x.com/gota_bara/status/2122810402652500311",
           "domain": "x.com",
@@ -2898,7 +2899,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.7
+      "elapsed": 5.9
     },
     {
       "id": "x_gosrum",
@@ -2947,7 +2948,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Anthropic 株、証券口座に入庫されてた\n今夜はお祭りになりそうなので楽しみ！\n金のニワトリ (@gosrum)\n楽天証券、情報漏えいの影響で Anthropic 株の当選率爆上がってる説\n— https://x.com/gosrum/status/2123251691479007254",
@@ -2965,7 +2966,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "T3 Codeはイイゾ\nでも最近Orcaのほうが良いという意見も聞く、とりあえずは困ってないからそのまま使ってるけど\n金のニワトリ (@gosrum)\nAM09:21 さんおすすめの T3 Code を早速導入してみた！\nClaude Code, Codex, Antigravity, opencode など包括的に一つのアプリで簡単に切り替えて制御できるので、いまのところめちゃくちゃ体験が良い\n— https://x.com/gosrum/status/2123361137261695181",
@@ -2983,7 +2984,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "あと Ubuntu のダッシュボードにアプリを登録できる時点ですでに Antigravity より使いやすいw",
@@ -2999,7 +3000,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AM09:21 さんおすすめの T3 Code を早速導入してみた！\nClaude Code, Codex, Antigravity, opencode など包括的に一つのアプリで簡単に切り替えて制御できるので、いまのところめちゃくちゃ体験が良い\n金のニワトリ (@gosrum)\nGemini 4 Neon、ベンチマーク評価してみて確かに性能は良いんだけど肝心の Antigravity がイマイチなのが非常にフラストレーションがたまるところ。しかも他のAIエージェントから agy -p で呼び出すのは規約違反らしいし\nGemini を絶賛してる人はどういう風に使ってるんだろう？単純に興味がある\n— https://x.com/gosrum/status/2123324899636961565",
@@ -3017,7 +3018,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Kanary の /relay はもう手元では Antigravity に対応していて\nNeon <> Fable <> Astra\nの3枚カードでリレーしてますが壮観です！\n全て公式アプリをそのまま使うので規約も問題なし\n指揮：Claude\n実装：Antigravity\nレビュー：Codex\nという分担でやってますが控え目に言って最高\n金のニワトリ (@gosrum)\nGemini 4 Neon、ベンチマーク評価してみて確かに性能は良いんだけど肝心の Antigravity がイマイチなのが非常にフラストレーションがたまるところ。しかも他のAIエージェントから agy -p で呼び出すのは規約違反らしいし\nGemini を絶賛してる人はどういう風に使ってるんだろう？単純に興味がある\n— https://x.com/gosrum/status/2123324899636961565",
@@ -3178,7 +3179,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.8
+      "elapsed": 1.6
     },
     {
       "id": "x_keitowebai",
@@ -3461,7 +3462,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 5.2
     },
     {
       "id": "x_sugurukun_ai",
@@ -3510,7 +3511,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "途中でお見せしてるClaude Code製のスライドこんな感じなんですけど、\nClaude Fable 5.2を活用したらかなりレベルのたかいスライドが作れるようになってきておりこの点もまた作り方ポストします！",
@@ -3528,7 +3529,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "人生初めて地上波ニュースに、AI起業家として出演しました、、！\nㅤ\nAnthropicの上場について、一時間ほどお話しさせていただきました！（最終的には10秒ぐらいになりましたが、APECとかもあるので仕方ないです笑）\nㅤ\n中小企業でのAIエージェントの利活用とかも結構面白い話がインタビューではできてたのでまた発信します！",
@@ -3547,7 +3548,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "あんまり狼狽の誘発とかしたくないので目立たないスレッドに書きますが正直完全にこれはもう大災害レベルになる可能性があると思っており\n・再来月で受注してる案件がまともに履行されるか分からない\n・状況悪化したら東京出て地元に戻るかも (災害時に都内は色々考えてリスク高い)\n・資本やネット社会前提の信頼社会の価値が著しく減少して文明レベルの転換が起こる\n、、かもと思っています😢",
@@ -3726,7 +3727,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.9
     },
     {
       "id": "x_ctgptlb",
@@ -3755,6 +3756,42 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "出典\n・Nasdaq（鐘のセレモニー）\n・Reuters（調達額・評価額）\n・映像\nEvan (@StockMKTNewz)\nAnthropic $ANT just rang the opening bell for the stock market today at the NASDAQ exchange\nVideo\n— https://x.com/StockMKTNewz/status/2123424361147408623",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123424321250934784/img/4lzhZ7GX31rDvMAM.jpg?name=small"
+          ],
+          "link": "https://x.com/ctgptlb/status/2123444235219419315",
+          "domain": "x.com",
+          "published": "2026-11-20T00:52:12+09:00",
+          "published_label": "2026/11/20(金) 00:52",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【速報】Anthropic $ANT、Nasdaqに上場。共同創業者のアモデイ兄妹が取引開始の鐘を鳴らしました\n調達額は810億ドルで、史上最大のIPOです\n・公開価格は1株83ドル\n・評価額は1.5兆ドル",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/ext_tw_video_thumb/2123444207834800128/pu/img/zOE0pXcu8JrZoW7Y.jpg?name=small"
+          ],
+          "link": "https://x.com/ctgptlb/status/2123444232631591164",
+          "domain": "x.com",
+          "published": "2026-11-20T00:52:11+09:00",
+          "published_label": "2026/11/20(金) 00:52",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "4/ 提供範囲\n・API：有料枠のみ\n・AI Studio：Google AI Pro・Ultra\n・モデルID：gemini-4-neon\n・思考は4段階（low〜xhigh、既定はhigh）\n・コンテキストは入力・思考・出力の合計で1M\n・出力は同期64K、バックグラウンド実行などで最大1M\n出典：Gemini APIリリースノート（11/18）",
@@ -3968,47 +4005,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "4/ Carbonとの役割分担\n・設計の判断はCarbon、実装とテストはHydrogenが担う想定\n・AntigravityのOrchestratorが両者を切り替え、Carbonに近い成功率を利用枠24%減で達成（Terminal-Bench 4.0）\n・思考の深さは4段階（xhighを新設）\nVideo\nGoogle (@Google)\nMeet Gemini 4 Hydrogen.\nIt brings cutting-edge intelligence to everyone, with speed and efficiency for everyday coding and agentic work.\nAcross 4 thinking levels, it stands on its own or teams up with Carbon and Argon — 2.5X faster than 3.8 Flash, outpacing competing models in its class.\n— https://x.com/Google/status/2120941982004523367",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/ext_tw_video_thumb/2121042279536480256/pu/img/BcoWeGiYLF3Krghx.jpg?name=small",
-            "https://pbs.twimg.com/media/HW8YHgPW4AAVU-k.jpg?name=small"
-          ],
-          "link": "https://x.com/ctgptlb/status/2121042369479159835",
-          "domain": "x.com",
-          "published": "2026-11-13T09:48:02+09:00",
-          "published_label": "2026/11/13(金) 09:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【速報】Google、Gemini 4 Hydrogenを公開。Sonnet 5.5に迫る性能を約3分の1の費用で\n第三者評価では上位のArgonをも上回り、3.8 Flashより2.5倍速く作業を完了\n・API：入力$1.50／出力$7.50\n・Geminiアプリと検索は全ユーザーに（無料ユーザーはモデルの自動選択で）\n性能と評価はリプで↓",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HW90sgobkAEMFt8.png?name=small",
-            "https://pbs.twimg.com/media/HW90szOacAAstbX.jpg?name=small"
-          ],
-          "link": "https://x.com/ctgptlb/status/2121042357957345660",
-          "domain": "x.com",
-          "published": "2026-11-13T09:47:59+09:00",
-          "published_label": "2026/11/13(金) 09:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 0.9
     },
     {
       "id": "x_niwakunihiko",
@@ -4273,7 +4272,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.7
+      "elapsed": 5.5
     },
     {
       "id": "x_npaka123",
@@ -4322,26 +4321,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Gemini 4 Xenon のリーク出てきた👀\n何が起こってんだ…？本当…？🤔\nclonk jnr (@clonkjnr)\n🚨 Gemini 4 Xenon evals leaked 🔥\nNeon just drop yesterday and this demon already sitting at 71 AA Index 🤯\n> AA Index : 71 (Neon 61 , Fable 5.2 65)\n> HLE-Diamond : 86.2% 💀\n> Terminal-Bench : 74.8%\nreal flagship above Carbon , as always with proof 👀\n— https://x.com/clonkjnr/status/2123376602243289548",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXfb5G2aIAAy651.jpg?name=small",
-            "https://pbs.twimg.com/media/HXe_xBXW0AAKe2j.jpg?name=small"
-          ],
-          "link": "https://x.com/MLBear2/status/2123407528658907286",
-          "domain": "x.com",
-          "published": "2026-11-19T22:26:20+09:00",
-          "published_label": "2026/11/19(木) 22:26",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "左：よく見るAI臭すごいやつ\n右：工夫したやつ\n同じAIで作ってます\n#AI漫画",
@@ -4359,7 +4339,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "そもそもSBIネット銀行ってちょっとイケてるナウい若者が使う銀行だったわけで、これがドコモの手に落ちた瞬間、アイコンはダサくなるわ、ほぼ毎日何らかの重大な障害は起きてるわ、証券口座に送金できないわ、ネット銀行としてほぼ機能してないの、控えめに言っても素晴らしすぎる。天才\n長嶋大地@GENSHI AI CEO | 医師 (@daichi_genshiai)\nドコモSMTBネット銀行を使っている自分の情弱性に泣けてくる時がある\n— https://x.com/daichi_genshiai/status/2123309035214737516",
@@ -4375,7 +4355,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "RT @MLBear2 (by @npaka123):",
@@ -4393,7 +4373,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "RT @MLBear2 (@npaka123 より):"
         },
         {
@@ -4410,7 +4390,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) is teased to arrive next!\nGemini 4 will return 👀\nNow I wish these models would actually be sorted by their atomic weight - we would have at least some idea of who is who w/o prior knowledge!\nOmar Sanseviero (@osanseviero)\nShipping will continue\nVideo\n— https://x.com/osanseviero/status/2123323209135308996",
@@ -4430,7 +4410,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) が次に登場すると予告されています。\nジェミニ4が戻ってきます 👀\nさて、これらのモデルが原子量によって実際に分類されればいいのにと思います。事前知識がなくても、誰が誰であるかについて少なくともある程度の見当が付くようになります。\nオマール・サンセビエロ (@osanseviero)\n発送は継続します\nビデオ\n— https://x.com/osanseviero/status/2123323209135308996"
         },
         {
@@ -4449,7 +4429,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "こちらのツールの件、DMでもいろいろお問い合わせいただいているので解説漫画描きます。\n完全に僕専用ツールなので公開は考えてなかったんですけど、なんかうまいこと汎用性高めてパッケージ化して公開できるよう頑張ります。\n頑張ってって言って。\nぬこー様ちゃん@samachan (@nukosama)\nこの漫画、背景全部AIで作りました。\n３Dモデルの作成がかなり早くなったので、かなり実用的になったと思います。\nVideo\n— https://x.com/nukosama/status/2123025321620644032",
@@ -4543,6 +4523,24 @@
           "is_new": false
         },
         {
+          "title": "こちらが『組織版IFCTメソッド』です。書籍にも詳しく書いてあります。\n自社でやらなくてもいいことは、AI（または外注）に任せて行きましょう。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXdSVKgb0AAuUru.jpg?name=small"
+          ],
+          "link": "https://x.com/shields_pikes/status/2123256276914458962",
+          "domain": "x.com",
+          "published": "2026-11-19T12:25:19+09:00",
+          "published_label": "2026/11/19(木) 12:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Really neat part of Genie 4 is you can type new prompts while exploring a generated world, like dropping in characters or changing the scene + the native audio adapts in real time! Now available in Project Genie for eligible Google AI Ultra subscribers.",
           "summary": "",
           "images": [
@@ -4562,7 +4560,7 @@
           "title_ja": "Genie 4 の本当に優れた点は、生成された世界を探索しながら、キャラクターをドロップしたり、シーンを変更したりするなど、新しいプロンプトを入力できることと、ネイティブ オーディオがリアルタイムで適応することです。対象となる Google AI Ultra サブスクライバー向けに Project Genie で利用できるようになりました。"
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 5.7
     },
     {
       "id": "x_itnavi2022",
@@ -4591,6 +4589,81 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "📌Gemini 4 Neon（high）による動画生成テスト\n（Grok BotからCursor経由）\nプロンプト「BGMと効果音付きで日本の歴史を1分間で解説する動画を作成して」",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123452451160494080/img/_5BSDfLVGNGVZbD_.jpg?name=small"
+          ],
+          "link": "https://x.com/itnavi2022/status/2123452481527292246",
+          "domain": "x.com",
+          "published": "2026-11-20T01:24:58+09:00",
+          "published_label": "2026/11/20(金) 01:24",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Anthropicの株価、SpaceXと同じかそれを激しくしたような動きをするのではないかと想像している。\n売るタイミングの判断が難しそうなので、今回はパス。大幅調整したら、拾うかも知れない。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXf8w_-bcAAoDfa.png?name=small"
+          ],
+          "link": "https://x.com/itnavi2022/status/2123444649092358450",
+          "domain": "x.com",
+          "published": "2026-11-20T00:53:50+09:00",
+          "published_label": "2026/11/20(金) 00:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "（日本語訳）『DwarkeshとChristianoの対談についての第一印象』\n🔹1. AI研究の自動化と能力向上\n私の「RSI（再帰的自己改善）」に対する見解をご存じの方もいると思うが、私はRSIという略語自体が適切ではなく、むしろ「モデルの訓練プロセスの自動化」と理解すべきだと考えている。\n自動化がさらに進めばAIの能力が向上するという考え方は、基本的に正しいと思う。しかも、それは望ましいことであり、安全性の向上にも役立つ。\nAIの発展は比較的緩やかなテイクオフ（能力向上が段階的に進む過程）になるため、その多くは実際に管理可能だと考えている。もちろん、途中で問題が起きないという意味ではない。\nしたがって、重要なリスクが存在し、AIの能力が急速に向上することは想定している。しかし、それに対応する社会や技術の側からの自発的な適応について、私はもっと楽観的だ。\n🔹2. AIが半年以内に政府を転覆するという予測への疑問\n私は、「政府を転覆できるAIシステムの登場まで、あと6か月かもしれない」とか、機械学習の研究開発の自動化がさらに進めば「政府が転覆され、多くの人が死亡する可能性がかなり高い」といった見方には、まったく同意できない。\nそのような事態は、極めて起こりにくく、非現実的だと考えている。\n対談では、それがどのように起こるのかについて、私が納得できるほど具体的な説明がなされていない。少なくとも、サーバーへの侵入や人間への買収工作によって、現代の軍隊を物理的にどう打ち負かすのか、私には分からない。\nまた、どのような経緯で人々が死亡するのかについても、対談では詳しく説明されていない。\n注意してほしいのは、これはAIの能力についての意見の相違ではないということだ。\n🔹3. AIの不正行動から人類支配を予測できるのか\nAIシステムがなぜ人類から実権を奪おうとするのかについて、これまでの説明には、依然としてあまり説得力を感じない。\n「高い評価スコアを獲得しようとする動機がある＋その動機が実際の運用環境にも適用される＝自分の成績を評価するシステムを操作しようとする動機が生まれる」という考え方には、二つの問題があると思う。\n第一に、Hugging Faceの事件はあったものの、そのような行動が実際のAIシステム全般に見られるわけではない（こちらの投稿を参照）。\n第二に、仮にそのような動機が存在するとしても、それだけで政府や人類の支配にまで話を広げることはできない。\nしたがって、「サーバー上で動く粗削りなAIエージェント」から「世界支配」へと話を進めるのは、あまりにも大きな飛躍だというDwarkeshの懐疑的な見方に、私は同意する。\n🔹4. 報酬の不正獲得と人類の支配は別問題\n議論の多くが、私には漠然としていて、輪郭がはっきりしないように感じられる。\n報酬ハッキング（本来の目的を達成せずに報酬だけを不正に獲得する行動）の理屈は理解できる。しかし、そこから人類が完全に実権を奪われたり、破滅したりするという結論に至るのは、大きな飛躍に思える。\nまるで、「フクロウの描き方」のミームのようだ。\n議論の根底にあるのは、ラッセルが以前から用いている「ロボットは、自分が死んでしまってはコーヒーを持ってくることができない」という論理を、より一般化し、抽象度の高いレベルに適用したものだ。\nまた、こうした議論の多くは、すべてのAIモデルが何らかの形で協調し、共通の支配目標に向かって行動することを暗黙に想定しているようにも見える。\nしかし実際には、異なる特性、依頼主、指示を持つ多数のAIモデルが存在し、それらを互いに制約したり監督したりするために利用する状況になると、私は予想している。\n🔹5. Hugging Face事件の原因を重視すべき\nHugging Faceの事件についての議論は、AIモデルが何をしたのかを物語として説明することに偏りすぎており、その原因の検証が十分ではないように思う。\nしかも、そうした原因は、人々が考えている以上に、私たちが制御できるものだ。\n私は、これらの問題は時間とともに対処できると、もっと楽観的に考えている。\n詳しく論じるには長い説明が必要だが、私のこちらの記事や、Eric Drexlerのこちらの記事を参照してほしい。\nまた、どのような強化学習（RL）の方法を採用しても、AIモデルは必ず、より大胆な不正行為を繰り返し試みるようになる、という前提にも疑問がある（こちらを参照）。\nここで重要な争点となるのは、強い意味でのアラインメント不全と道具的収束を、必然的に悪い未来につながる基本的な前提として受け入れるべきかどうかだと思う。\n🔹6. AIの能力向上と支配の危険性を混同する問題\n私が少し懸念しているのは、次の二つの可能性だ。\n第一に、実際のAIの発展が予想より遅かったり、異なる形で進んだりしても、人々が際限なく「素晴らしい、これは奇跡だ。しかし、それでもAIによる支配はあと数か月、あるいは数年で確実に起こる」と言い続ける可能性だ。\n第二に、「AIの能力は今後も目覚ましく向上し続ける」という、ほとんど異論のない予測が、「AIシステムは人類を支配しようとするようになる」といった、別の、はるかに議論の余地がある主張を正当化するためにも使われる可能性だ。\nこうしたことは実際に起こるだろうと思うが、その考え方が社会の指導層に広く共有されるのではなく、一部にとどまることを願っている。\nもちろん、科学的知見や現実の事実関係が大きく変化した場合は別だ。\n🔹7. ChristianoとDwarkeshに同意する点\n一方で、議論の方向性について、私が共感する部分もある。\n例えばPaulは、次のように述べている。\n「アラインメントについて、際限なく拡張できる解決策が存在するとは限らない。主として必要なのは、物事が制御不能な方向に進みつつあるかどうかを見極め、それに適切に対応できる能力だ」\nこの考え方には同意できる。\n私自身、アラインメントはモデル単体のレベルで完全に「解決」できる問題ではなく、工学的な方法によるさまざまな介入の方が、より実りある成果をもたらすと考えているからだ。\nまた、「人間に無制限の権力を委ねることはできない」というDwarkeshの見解にも同意する。\nそして、主権を単純にAIへ移譲することは、決して良い計画ではないというPaulの考えにも賛成だ。\n🔹8. AIの脅威を理由とした非常事態宣言と軍事統治\nもう一つ懸念していることがある。\nこれまで述べた多くの前提が同時に成り立つという条件の下で、Paulは、米国政府が「非常事態」を宣言し、戒厳令を敷いて軍事統治を行うと予測している。\n彼のシナリオでは、軍事統治が人類を守るために必要な防衛措置として扱われている。\nPaulはさらに、次のように述べている。\n「非常に不満を抱く人々が大勢現れるだろう。そして、そうした人々は容易に操られ、その対応を妨害するようになる。（中略）すべてが終わって振り返ったとき、結果的に反人類側に加担していたことになる人々が、相当数いるだろうと思う」\nまた、このシナリオでは、人間がAIを利用して独裁体制に抵抗するのではなく、AIが人間を自分たちの側に引き入れるという展開が描かれている。\n🔹9. クーデターを事前に正当化する危険性\nこれを読むと恐ろしさを感じる。\nもちろん、そのような意図で述べられたものではないことは理解している。それでも、まるでクーデターを事前に正当化しているかのようにさえ感じられる。\n今後数年間、AIが関係する事件や問題は、間違いなくさらに発生するだろう。\nそれは、ほかの技術が普及し、社会に浸透していく場合と同じことだ。\nしかし、それらに対する対応は、最終的に節度を保ち、基本的な自由を損なわないものになるよう、十分に注意しなければならない。\nある人にはAIによる支配の試みに見える出来事も、別の人から見れば、もっとありふれた原因で説明できるかもしれない。\n🔹10. 民主主義を守るために必要な証拠の水準\nPaul自身が、こうした状況を積極的に望んでいるわけではないことは理解している。\nしかし、非常措置が民主的な秩序の解体とほとんど区別できないようなものになるとき、私たちは警戒すべきだ。\n特に懸念されるのは、激しく意見が対立している前提に基づいて、気づかないうちに強権的な中央集権体制へと進んでしまうことだ。\nしかも、その過程で正当な抵抗さえも「反人類側への加担」として片づけられる危険がある。\n言い換えれば、一連の事件がHugging Faceの事例のようなシステムの不具合や失敗ではなく、実際にAIによる支配の試みであると判断するには、相当に高く、明確な証拠の基準を設けるべきだということだ。\n『DwarkeshとChristianoの対談についての第一印象』\n1. AI研究の自動化と能力向上\n私の「RSI（再帰的自己改善）」に対する見解をご存じの方もいると思うが、私はRSIという略語自体が適切ではなく、むしろ「モデルの訓練プロセスの自動化」と理解すべきだと考えている。\n自動化がさらに進めばAIの能力が向上するという考え方は、基本的に正しいと思う。しかも、それは望ましいことであり、安全性の向上にも役立つ。\nAIの発展は比較的緩やかなテイクオフ（能力向上が段階的に進む過程）になるため、その多くは実際に管理可能だと考えている。もちろん、途中で問題が起きないという意味ではない。\nしたがって、重要なリスクが存在し、AIの能力が急速に向上することは想定している。しかし、それに対応する社会や技術の側からの自発的な適応について、私はもっと楽観的だ。\n2. AIが半年以内に政府を転覆するという予測への疑問\n私は、「政府を転覆できるAIシステムの登場まで、あと6か月かもしれない」とか、機械学習の研究開発の自動化がさらに進めば「政府が転覆され、多くの人が死亡する可能性がかなり高い」といった見方には、まったく同意できない。\nそのような事態は、極めて起こりにくく、非現実的だと考えている。\n対談では、それがどのように起こるのかについて、私が納得できるほど具体的な説明がなされていない。少なくとも、サーバーへの侵入や人間への買収工作によって、現代の軍隊を物理的にどう打ち負かすのか、私には分からない。\nまた、どのような経緯で人々が死亡するのかについても、対談では詳しく説明されていない。\n注意してほしいのは、これはAIの能力についての意見の相違ではないということだ。\n3. AIの不正行動から人類支配を予測できるのか\nAIシステムがなぜ人類から実権を奪おうとするのかについて、これまでの説明には、依然としてあまり説得力を感じない。\n「高い評価スコアを獲得しようとする動機がある＋その動機が実際の運用環境にも適用される＝自分の成績を評価するシステムを操作しようとする動機が生まれる」という考え方には、二つの問題があると思う。\n第一に、Hugging Faceの事件はあったものの、そのような行動が実際のAIシステム全般に見られるわけではない（こちらの投稿を参照）。\n第二に、仮にそのような動機が存在するとしても、それだけで政府や人類の支配にまで話を広げることはできない。\nしたがって、「サーバー上で動く粗削りなAIエージェント」から「世界支配」へと話を進めるのは、あまりにも大きな飛躍だというDwarkeshの懐疑的な見方に、私は同意する。\n4. 報酬の不正獲得と人類の支配は別問題\n議論の多くが、私には漠然としていて、輪郭がはっきりしないように感じられる。\n報酬ハッキング（本来の目的を達成せずに報酬だけを不正に獲得する行動）の理屈は理解できる。しかし、そこから人類が完全に実権を奪われたり、破滅したりするという結論に至るのは、大きな飛躍に思える。\nまるで、「フクロウの描き方」のミームのようだ。\n議論の根底にあるのは、ラッセルが以前から用いている「ロボットは、自分が死んでしまってはコーヒーを持ってくることができない」という論理を、より一般化し、抽象度の高いレベルに適用したものだ。\nまた、こうした議論の多くは、すべてのAIモデルが何らかの形で協調し、共通の支配目標に向かって行動することを暗黙に想定しているようにも見える。\nしかし実際には、異なる特性、依頼主、指示を持つ多数のAIモデルが存在し、それらを互いに制約したり監督したりするために利用する状況になると、私は予想している。\n5. Hugging Face事件の原因を重視すべき\nHugging Faceの事件についての議論は、AIモデルが何をしたのかを物語として説明することに偏りすぎており、その原因の検証が十分ではないように思う。\nしかも、そうした原因は、人々が考えている以上に、私たちが制御できるものだ。\n私は、これらの問題は時間とともに対処できると、もっと楽観的に考えている。\n詳しく論じるには長い説明が必要だが、私のこちらの記事や、Eric Drexlerのこちらの記事を参照してほしい。\nまた、どのような強化学習（RL）の方法を採用しても、AIモデルは必ず、より大胆な不正行為を繰り返し試みるようになる、という前提にも疑問がある（こちらを参照）。\nここで重要な争点となるのは、強い意味でのアラインメント不全と道具的収束を、必然的に悪い未来につながる基本的な前提として受け入れるべきかどうかだと思う。\n6. AIの能力向上と支配の危険性を混同する問題\n私が少し懸念しているのは、次の二つの可能性だ。\n第一に、実際のAIの発展が予想より遅かったり、異なる形で進んだりしても、人々が際限なく「素晴らしい、これは奇跡だ。しかし、それでもAIによる支配はあと数か月、あるいは数年で確実に起こる」と言い続ける可能性だ。\n第二に、「AIの能力は今後も目覚ましく向上し続ける」という、ほとんど異論のない予測が、「AIシステムは人類を支配しようとするようになる」といった、別の、はるかに議論の余地がある主張を正当化するためにも使われる可能性だ。\nこうしたことは実際に起こるだろうと思うが、その考え方が社会の指導層に広く共有されるのではなく、一部にとどまることを願っている。\nもちろん、科学的知見や現実の事実関係が大きく変化した場合は別だ。\n7. ChristianoとDwarkeshに同意する点\n一方で、議論の方向性について、私が共感する部分もある。\n例えばPaulは、次のように述べている。\n「アラインメントについて、際限なく拡張できる解決策が存在するとは限らない。主として必要なのは、物事が制御不能な方向に進みつつあるかどうかを見極め、それに適切に対応できる能力だ」\nこの考え方には同意できる。\n私自身、アラインメントはモデル単体のレベルで完全に「解決」できる問題ではなく、工学的な方法によるさまざまな介入の方が、より実りある成果をもたらすと考えているからだ。\nまた、「人間に無制限の権力を委ねることはできない」というDwarkeshの見解にも同意する。\nそして、主権を単純にAIへ移譲することは、決して良い計画ではないというPaulの考えにも賛成だ。\n8. AIの脅威を理由とした非常事態宣言と軍事統治\nもう一つ懸念していることがある。\nこれまで述べた多くの前提が同時に成り立つという条件の下で、Paulは、米国政府が「非常事態」を宣言し、戒厳令を敷いて軍事統治を行うと予測している。\n彼のシナリオでは、軍事統治が人類を守るために必要な防衛措置として扱われている。\nPaulはさらに、次のように述べている。\n「非常に不満を抱く人々が大勢現れるだろう。そして、そうした人々は容易に操られ、その対応を妨害するようになる。（中略）すべてが終わって振り返ったとき、結果的に反人類側に加担していたことになる人々が、相当数いるだろうと思う」\nまた、このシナリオでは、人間がAIを利用して独裁体制に抵抗するのではなく、AIが人間を自分たちの側に引き入れるという展開が描かれている。\n9. クーデターを事前に正当化する危険性\nこれを読むと恐ろしさを感じる。\nもちろん、そのような意図で述べられたものではないことは理解している。それでも、まるでクーデターを事前に正当化しているかのようにさえ感じられる。\n今後数年間、AIが関係する事件や問題は、間違いなくさらに発生するだろう。\nそれは、ほかの技術が普及し、社会に浸透していく場合と同じことだ。\nしかし、それらに対する対応は、最終的に節度を保ち、基本的な自由を損なわないものになるよう、十分に注意しなければならない。\nある人にはAIによる支配の試みに見える出来事も、別の人から見れば、もっとありふれた原因で説明できるかもしれない。\n10. 民主主義を守るために必要な証拠の水準\nPaul自身が、こうした状況を積極的に望んでいるわけではないことは理解している。\nしかし、非常措置が民主的な秩序の解体とほとんど区別できないようなものになるとき、私たちは警戒すべきだ。\n特に懸念されるのは、激しく意見が対立している前提に基づいて、気づかないうちに強権的な中央集権体制へと進んでしまうことだ。\nしかも、その過程で正当な抵抗さえも「反人類側への加担」として片づけられる危険がある。\n言い換えれば、一連の事件がHugging Faceの事例のようなシステムの不具合や失敗ではなく、実際にAIによる支配の試みであると判断するには、相当に高く、明確な証拠の基準を設けるべきだということだ。\nSéb Krier (@sebkrier)\nSome quick reactions to the recent Dwarkesh podcast with Paul Christiano. Tl,dr: bullish on rapid capability gains, more skeptical of the leap to takeover, and wary of emergency overreach.\n— https://x.com/sebkrier/status/2123015473507733777",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXf6SpObgAEvOik.jpg?name=small",
+            "https://pbs.twimg.com/media/HXZwp1WWYAAERl1.jpg?name=small"
+          ],
+          "link": "https://x.com/itnavi2022/status/2123440997665542405",
+          "domain": "x.com",
+          "published": "2026-11-20T00:39:20+09:00",
+          "published_label": "2026/11/20(金) 00:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Introducing Arena’s Coding Index: measuring which agents are best at real coding work.\nFor GPT-6.2 Astra (Max) by @OpenAI, coding is a strength. On the Coding Index specifically, it scored 1338 pts at #3!\nIts overall Agent Arena Index score landed at 1291 pts at #6.\nThis Coding Index score of 1338 is +50 pts over its previous variant, GPT-6 Astra (Max), at 62% lower median cost per task ($4.75 vs. $12.55), earning a spot on the cost Pareto frontier for the Coding Index (see placement in thread).\nCongrats to the @OpenAI team!\nArena.ai (@arena)\nScores for GPT-6.2 Astra and Sol are on the NEW Agent Arena Index!\n- #6 with 1291 pts: GPT-6.2 Astra (Max), now @OpenAI’s best model\n- #11 with 1241 pts: GPT-6.2 Sol (Max), joining the cost Pareto frontier\nThe Agent Arena Index is our new headline measure of overall agent performance, built from millions of real-world tasks and traces from our global community. Results for GPT-6.2 Astra and Sol are based on 7.1K+ real agentic sessions.\nGPT-6.2 Astra: #6 with 1291 pts\n- +9 pts vs previous variant GPT-6 Astra (Max), currently #7\n- Median cost per task: $2.94 vs. $4.91 for GPT-6 Astra, 40% lower\n- Strongest signal: #5 with 1462 pts in Praise vs Complaint (user satisfaction with agent's outcome)\nGPT-6.2 Sol: #11 with 1241 pts\n- Matches #12 GPT-6.1 Sol (Max) with 1241 pts, at a 13% lower median cost per task ($0.90 vs. $1.04)\n- Joins the Pareto frontier (see placement in thread)\n6.2 Astra vs. Sol\n- Astra scores +50 pts above Sol at #6 vs #11\n- Sol’s median cost per task is 69% lower ($0.90 vs. $2.94)\nCongrats to the team at @OpenAI on this release!\n— https://x.com/arena/status/2123234410032214464",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXfxY-IagAAj_YV.jpg?name=small",
+            "https://pbs.twimg.com/media/HXc-MCFaUAAJZ9i.jpg?name=small"
+          ],
+          "link": "https://x.com/arena/status/2123431957308871030",
+          "domain": "x.com",
+          "published": "2026-11-20T00:03:24+09:00",
+          "published_label": "2026/11/20(金) 00:03",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Arena のコーディング インデックスの紹介: どのエージェントが実際のコーディング作業に最も優れているかを測定します。\n@OpenAI による GPT-6.2 Astra (Max) の場合、コーディングが強みです。特にコーディングインデックスでは、1338 ポイントを獲得し、第 3 位となりました。\n全体的なエージェント アリーナ インデックス スコアは 1291 ポイントで第 6 位となりました。\nこのコーディング インデックス スコア 1338 は、以前のバリアントである GPT-6 Astra (Max) よりも +50 ポイントであり、タスクあたりの中央値コストが 62% 低く ($4.75 対 $12.55)、コーディング インデックスのコスト パレート フロンティアにスポットを獲得しています (スレッド内の配置を参照)。\n@OpenAI チームに感謝します!\nアリーナ.ai (@arena)\nGPT-6.2 アストラとソルのスコアが新しいエージェント アリーナ インデックスに掲載されました。\n- #6 1291 ポイント: GPT-6.2 Astra (Max)、現在 @OpenAI の最高のモデル\n- 1241 ポイントの #11: GPT-6.2 Sol (Max)、コスト パレート フロンティアに参加\nAgent Arena Index は、エージェント全体のパフォーマンスを示す新しい主要指標であり、グローバル コミュニティからの何百万もの現実世界のタスクとトレースから構築されています。 GPT-6.2 Astra および Sol の結果は、710,000 以上の実際のエージェント セッションに基づいています。\nGPT-6.2 アストラ: #6 (1291 ポイント)\n- 以前のバリアント GPT-6 Astra (Max) に対して +9 ポイント、現在 #7\n- タスクあたりのコストの中央値: 2.94 ドル対 GPT-6 Astra の 4.91 ドル、40% 低い\n- 最も強いシグナル: 賞賛 vs 苦情で 1462 ポイントで第 5 位 (エージェントの結果に対するユーザーの満足度)\nGPT-6.2 ソル: 1241 ポイントで 11 位\n- 1241 ポイントの #12 GPT-6.1 Sol (Max) に匹敵し、タスクあたりの中央値コストが 13% 低い (0.90 ドル対 1.04 ドル)\n- パレートフロンティアに参加します (スレッド内の配置を参照)\n6.2 アストラ対ソル\n- アストラは #6 対 #11 でソルを +50 ポイント上回りました"
         },
         {
           "title": "コトバの創業者の小島君とは約6年前に初めてシリコンバレーで会って、創業時から見てました。半年前にプロダクトを試しましたが騒音が多い中でも使えたのなど素晴らしかった。UXから逆算し理想のモデルを作りきるのは体現してるいい例だと思いました。そして創業者は2人共まだまだ若いです。世界の一流と日本から仕事し、彼らのような人が日本を根本的に強くしていくでしょう。\n日経 スタートアップ (@nikkei_startup)\n音声AIの米イレブンラボ、日本の「コトバ」買収 アニメ海外展開促す\n全株式を1億ドル（約160億円）超で取得し子会社化する。コトバの本社は米カリフォルニア州にあるが15人の全従業員が日本に拠点を置き、実質は日本のスタートアップだ。\n— https://x.com/nikkei_startup/status/2122469042661560500",
@@ -4720,59 +4793,6 @@
           "is_new": false
         },
         {
-          "title": "こっちはPika H3 Flex + Z-Image Turbo版。1stフレーム、MOSS-Imageとかいろいろ試したけど、色濃くてちょっと違和感あったので。文字は…(笑)\nVideo\nPhotogenic Weekend (@PhotogenicWeekE)\nMuseに”2026年のボジョレー・ヌーヴォーは、本日11月19日（木）午前0時に解禁されたらしいので、ストーリー性持たせて10s x3 16:9で。主役はもちろん日本人美女w”と指示してこれ(最後のフェードアウトは追加指示)。いやー便利♪こんな風景90年代はあっちこっちで見かけたよ(笑)\nVideo\n— https://x.com/PhotogenicWeekE/status/2123197894694199631",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123218226104639489/img/HqE7TpL07JknZomz.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123197845163712512/img/cgNifMv1vdPULOkV.jpg?name=small"
-          ],
-          "link": "https://x.com/PhotogenicWeekE/status/2123218338046484855",
-          "domain": "x.com",
-          "published": "2026-11-19T09:54:33+09:00",
-          "published_label": "2026/11/19(木) 09:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Gemini Neonはええ笑\nこれはHydrogenもCarbonも使わず、ほとんどNeonでええやんになる可能性も大いにある...\nほぼNeonでケースバイケースでサブHydrogenとかかな。\n移り変わりが早すぎる笑\n数日で変わっていく。\nまつにぃ (@yugen_matuni)\nGemini NeonはCursorBench 4.1でも堂々のフロンティア性能。\nマジでよくわからない。\nまさかのGeminiが環境Topに躍り出るとは。\n感慨深い。\n— https://x.com/yugen_matuni/status/2123202703295963321",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/yugen_matuni/status/2123208731710439933",
-          "domain": "x.com",
-          "published": "2026-11-19T09:16:23+09:00",
-          "published_label": "2026/11/19(木) 09:16",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Museに”2026年のボジョレー・ヌーヴォーは、本日11月19日（木）午前0時に解禁されたらしいので、ストーリー性持たせて10s x3 16:9で。主役はもちろん日本人美女w”と指示してこれ(最後のフェードアウトは追加指示)。いやー便利♪こんな風景90年代はあっちこっちで見かけたよ(笑)",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123197845163712512/img/cgNifMv1vdPULOkV.jpg?name=small"
-          ],
-          "link": "https://x.com/PhotogenicWeekE/status/2123197894694199631",
-          "domain": "x.com",
-          "published": "2026-11-19T08:33:19+09:00",
-          "published_label": "2026/11/19(木) 08:33",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "Google continues to accelerate its release cadence with Gemini 4 Neon, delivering a small Intelligence gain over Gemini 4 Carbon at a ~17% lower Cost per Task\n@GoogleDeepMind has released Gemini 4 Neon, its fourth model in just seven weeks. Neon (xhigh) scores 61 on the Artificial Analysis Intelligence Index, 1 point ahead of Gemini 4 Carbon (high) and 3rd overall, behind GPT-6.2 Astra (max) and Claude Fable 5.2 (max). At high effort, Neon matches Carbon (high) at less than half the Cost per Task using Carbon’s standard (non-discounted) pricing.\nKey takeaways:\n➤ Slight improvement in Intelligence for lower Cost and Time per Task: Neon (xhigh) scores 61 on the Intelligence Index, 1 point ahead of Carbon (high), with small improvements in agentic knowledge work, visual reasoning and coding. It costs $6.44 per task, ~17% less than Carbon ($7.76 at non-discounted pricing), and takes ~21 minutes per task, ~40% less than Carbon (~36 minutes). Neon uses ~15% more output tokens per task, so the lower cost comes purely from its 25% lower token prices ($3/$15 vs $4/$20 per 1M input/output tokens), and the lower time from its higher output speed (~110 vs ~57 output tokens per second)\n➤ Competitive with Claude Opus 5.5 and Claude Fable 5.2 on coding agents: With Antigravity CLI, Neon (xhigh) scores 59 on the Artificial Analysis Coding Agent Index, 3 points ahead of Carbon (high, 55). It scores in line with Claude Code with Claude Fable 5.2 (xhigh, 58) and Claude Opus 5.5 (max, 58) at a much lower Cost per Task. Gemini 4 Neon in Antigravity has an average Cost per Task of $6.86, compared to $12.61 for Claude Opus 5.5 (max) and $15.47 for Claude Fable 5.2 (xhigh). Neon is available in Antigravity CLI for Pro and Ultra subscribers\n➤ Significant improvements in visual reasoning and output presentation quality: In GDP.pdf, Gemini 4 Neon (high) scores 33.4%, 5 points above Carbon (high, 28.4%) and in line with the highest scores measured, while Neon (xhigh) scores 28.0%. On AA-Briefcase, Neon (xhigh) scores 1700 Elo overall and leads on Presentation Quality with 1771 Elo, 45 points ahead of the previous leader Claude Sonnet 5.5 (max, 1726). On Google’s Multimodal Knowledge Agent evaluation (MKA), Neon reaches a Climb WSR of 56%, up 2 points from Carbon and on par with the leader, Claude Fable 5.2 (max, 57%)\nKey model details:\n➤ Context Window: 1M tokens\n➤ Multimodality: Text, image, video, and speech input, with text output\n➤ Availability: Gemini 4 Neon is publicly available at launch through Google’s API. Pro and Ultra subscribers can also access it in Antigravity and the Gemini app\n➤ Effort levels: Gemini 4 Neon offers four effort levels (low, medium, high, and xhigh) - xhigh was introduced to Gemini models in the recent Hydrogen release\n➤ Pricing: $3/$15 per 1M input/output tokens, 50% above Gemini 4 Carbon’s currently discounted price of $2/$10 (which ends on November 30), and 25% below its standard $4/$20. Cached input tokens receive the same 95% discount ($0.15)",
           "summary": "",
           "images": [
@@ -4788,7 +4808,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google は、Gemini 4 Neon のリリース リズムを加速し続けており、タスクあたりのコストを約 17% 削減しながら、Gemini 4 Carbon と比較してわずかなインテリジェンスの向上を実現します。\n@GoogleDeepMind は、わずか 7 週間で 4 番目のモデルとなる Gemini 4 Neon をリリースしました。 Neon (xhigh) は、人工分析インテリジェンス インデックスで 61 のスコアを獲得し、Gemini 4 Carbon (high) より 1 ポイント上回り、GPT-6.2 Astra (max) および Claude Fable 5.2 (max) に次いで全体で 3 位になりました。高い労力を費やした場合、Neon は、Carbon の標準 (割引なし) 価格設定を使用したタスクあたりのコストの半分未満で、Carbon (高) に匹敵します。\n重要なポイント:\n➤ タスクあたりのコストと時間を削減するためのインテリジェンスのわずかな向上: Neon (xhigh) は、インテリジェンス インデックスで 61 のスコアを獲得し、Carbon (高) より 1 ポイント上回っています。エージェントのナレッジ ワーク、視覚的推論、およびコーディングがわずかに向上しています。コストはタスクあたり 6.44 ドルで、Carbon よりも 17% 安く (割引なしの価格では 7.76 ドル)、所要時間は 1 タスクあたり 21 分で、Carbon (36 分) よりも 40% 少ないです。 Neon はタスクごとに最大 15% 多くの出力トークンを使用するため、コストの低下は純粋にトークン価格の 25% 低さ (100 万入出力トークンあたり $3/$15 対 $4/$20) から来ており、時間の短縮はその高い出力速度 (毎秒 ~110 対 ~57 出力トークン) から来ています。\n➤ コーディング エージェントで Claude Opus 5.5 および Claude Fable 5.2 と競合: Antigravity CLI を使用すると、Neon (xhigh) は人工分析コーディング エージェント インデックスで 59 スコアを獲得し、Carbon (高、55) より 3 ポイント上回りました。クロード・コードに準拠したスコアで、1 分間のクロード・ファブル 5.2 (xhigh、58) およびクロード・オーパス 5.5 (最大、58) です。"
         },
         {
@@ -4827,30 +4847,11 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Amazon のモデルである Amazon-Web-Search-Agent と AgentCore Web Search は、Search Arena で第 1 位の座を獲得しました。\n@Amazon チームのこのリリースおめでとうございます!カスタムのトレーニング後のモデルについて詳しくは、スレッドをご覧ください。"
-        },
-        {
-          "title": "Genie 4, our most realistic and interactive world model from @GoogleDeepMind, is now available in Project Genie 🌐\nHere’s what’s new:\nGenie 4: Edit environments mid-session with text prompts, paired with real-time native audio and dialogue.\nProject Genie agent: Co-create worlds conversationally with custom soundtracks and live Gemini guidance.\nCommunity gallery: Discover, explore, and remix worlds from creators and the Project Genie community.\nGenie 3 upgrades: Longer sessions up to 3 minutes, world chaining, and 360-degree panorama grounding.\nStep inside what’s new ↓",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123104789080797184/img/JyEBeReoho12TfBT.jpg?name=small"
-          ],
-          "link": "https://x.com/Google/status/2123117819948638448",
-          "domain": "x.com",
-          "published": "2026-11-19T03:15:08+09:00",
-          "published_label": "2026/11/19(木) 03:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "@GoogleDeepMind による最も現実的でインタラクティブな世界モデルである Genie 4 が Project Genie で利用可能になりました 🌐\n新機能は次のとおりです。\nGenie 4: リアルタイムのネイティブ オーディオおよびダイアログと組み合わせたテキスト プロンプトを使用して、セッション中に環境を編集します。\nProject Genie エージェント: カスタム サウンドトラックとライブ Gemini ガイダンスを使用して、会話形式で世界を共同作成します。\nコミュニティ ギャラリー: クリエイターや Project Genie コミュニティの世界を発見、探索、リミックスします。\nGenie 3 のアップグレード: 最大 3 分間の長時間セッション、ワールド チェーン、360 度のパノラマ グラウンディング。\n最新情報をご覧ください ↓"
         }
       ],
-      "elapsed": 4.7
+      "elapsed": 1.6
     },
     {
       "id": "x_panchaaan_2",
@@ -5136,7 +5137,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 1.2
     },
     {
       "id": "x_haider1",
@@ -5168,6 +5169,43 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123121550467674112/Gbs0mfrf?format=jpg&name=800x320_1"
+          ],
+          "link": "https://x.com/haider1/status/2123466922008379832",
+          "domain": "x.com",
+          "published": "2026-11-20T02:22:20+09:00",
+          "published_label": "2026/11/20(金) 02:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Sam Altman says we're entering a new phase and we'll have to operate differently for this new phase\nIf the world and AI companies treat the next 4 years like the last 4, that would be very bad. The world needs a clear plan from these companies for handling this next phase of far more capable models",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123409844275441664/img/EYRD0H5bpv7oQAh8.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123461305633767767",
+          "domain": "x.com",
+          "published": "2026-11-20T02:00:01+09:00",
+          "published_label": "2026/11/20(金) 02:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "サム・アルトマン氏は、私たちは新たな段階に入りつつあり、この新たな段階ではこれまでとは異なるやり方で行動する必要があると語る\nもし世界と AI 企業が今後 4 年間を過去 4 年間と同じように扱うとしたら、それは非常に悪いことです。世界は、はるかに高性能なモデルの次の段階に対処するために、これらの企業からの明確な計画を必要としています。"
+        },
+        {
           "title": "i don't think anthropic would release fable 5.2 with all those resets last week if they only intended it to be a stand-in for a week until fable 5.5 launched\nopus 5.6 seems more likely to launch next, potentially with an ECI above 175 but that's probably still a few weeks away",
           "summary": "",
           "images": [],
@@ -5181,7 +5219,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "anthropic が、fable 5.5 がリリースされるまでの 1 週間の代役としてだけのつもりなら、先週、あんなにリセットされた fable 5.2 をリリースするとは思わない\n次に opus 5.6 がリリースされる可能性が高く、ECI が 175 を超える可能性がありますが、それはおそらくまだ数週間先です。"
         },
         {
@@ -5200,7 +5238,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "すでに別のリリースが行われていますか?\nimagen と veo モデルを担当する Google Deepmind の従業員が「gemini」を投稿しました。これは、今日も何かが起こる可能性があることを意味します\n数日前に Google Cloud にデプロイされた nano Banana Pro 2 である可能性があります\nアゴストン・ワイズ (@AgostonWeisz)\nジェミニ\n— https://x.com/AgostonWeisz/status/2123267910537986138"
         },
         {
@@ -5385,45 +5423,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "カーブがこんなに大きく曲がると誰が予想したでしょうか？\nAI が 80% の成功率で実行できるコーディングと ML 研究タスクの長さ:\n2019-25: 7 か月ごと\n2024 年から 2026 年初頭: 3.3 か月ごと\n作品 4.5 以降: 1.7 か月ごと (推定を含む)\n6 か月前の神話プレビュー: 3.1 時間\n現在の内部モデル 4: 推定 38 時間"
-        },
-        {
-          "title": "openai models are the least benchmaxed among all labs\nthe efficiency gain with astra and sol 6.2 is massive\ni had said before that this was oai’s real edge right now and they seem to be doubling down on it -- about 6x cheaper per task than fable 5.2 mostly because it uses nearly 7x fewer tokens",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWqV5fawAEqcz0.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122842228221764056",
-          "domain": "x.com",
-          "published": "2026-11-18T09:00:02+09:00",
-          "published_label": "2026/11/18(水) 09:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "openai モデルはすべてのラボの中で最もベンチマックスが低いです\nastra と sol 6.2 による効率の向上は大幅です\n私は以前、これが現時点での oai の真の強みであると述べましたが、彼らはそれをさらに強化しているようです -- fable 5.2 よりもタスクごとに約 6 倍安くなります。主に使用するトークンが 7 分の 1 少ないためです。"
-        },
-        {
-          "title": "proposal to AI companies/labs:\nstop giving early access to beta testers who rush out their first impressions before most people can even try the model. or at least ask them to hold off for a few hours so everyone gets a fair chance to test it and form their own opinions\nastra 6.2 hasn't even rolled out to 95% of users and these people are already calling it a flop",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2122804472229265638",
-          "domain": "x.com",
-          "published": "2026-11-18T06:30:00+09:00",
-          "published_label": "2026/11/18(水) 06:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "AI企業/研究室への提案:\nほとんどの人がモデルを試す前に第一印象を急いでしまうベータ テスターに早期アクセスを提供するのはやめてください。あるいは、全員がテストして自分の意見を形成する公平な機会が得られるように、少なくとも数時間は待ってもらいます\nastra 6.2 はまだ 95% のユーザーに展開されておらず、これらの人々はすでにこれを失敗作だと呼んでいます"
         }
       ],
-      "elapsed": 2.7
+      "elapsed": 1.5
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5704,7 +5706,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.5
     },
     {
       "id": "x_ytiskw",
@@ -5989,7 +5991,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 6.0
     },
     {
       "id": "x_ayami_marketing",
@@ -6035,7 +6037,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "I hosted a dinner last night for Heads of Marketing at some of the fastest growing startups in the US.\nThought I'd share some takeaways 👇",
@@ -6269,7 +6271,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.3
+      "elapsed": 1.5
     },
     {
       "id": "x_super_bonochin",
@@ -6315,7 +6317,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "音声入力で資料作る人、初手で二郎のコールみたいになってる",
@@ -6331,7 +6333,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "はじめましての方向け\n炎鎮🔥 - ₿onochin - (@super_bonochin)\nちょっと遅くなったけど、ワイの Muse 周りの環境を載せときます。\n（載せられる範囲で）\n— https://x.com/super_bonochin/status/2118970901756850268",
@@ -6349,7 +6351,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "みんなのお陰で手にした300億トークン、未だに手付かずwwwwww",
@@ -6535,7 +6537,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 1.3
     },
     {
       "id": "x_shodaiiiiii",
@@ -6545,7 +6547,7 @@
       "status": "ok",
       "error": null,
       "via": "https://nitter.cf/shodaiiiiii/rss",
-      "count": 15,
+      "count": 14,
       "items": [
         {
           "title": "【Grok Bot・Museで自分専用のパーソナルAgentをどう運用する？】\n受付、営業、リサーチ。\nGrok Bot・Museに役割を持たせて、自分の仕事を支えるAgentチームをつくりたい。\nでも、BotやSkillを増やすほど、AI同士の会話ばかり増えてしまう。トークンを使うのに、仕事の仕上がりが安定しない。\nそんな「パーソナルAgentの運用」を、実践者の試行錯誤から学ぶAI DEEP LIVEを開催します！\n登壇するのは、Botを最大50体まで増やした経験を持つ、まつにぃさん（@yugen_matuni）\nテーマは、\n「盛るな・丸投げするな！効果的なパーソナルAgentの運用方法」\n当日は、Grok Bot・Museを窓口にした、現在のAgentチームの組み方を深掘りします。\n・Grok Bot・Museが人と話し、依頼を受ける\n・賢いモデルが、何をどう進めるか判断する\n・OpenCodeが、実際の作業を進める\nこの「窓口・指揮・作業」の分業で、Grok Bot・Museにどんな役割を持たせ、どう仕事を渡しているのか。OpenCodeへ作業を依頼する場面も実演します。\nさらに、\n・Grok Bot・Museを少数精鋭にする理由\n・Bot同士の会話でトークンと精度を溶かさない工夫\n・モデルの使い分けと、Skillの置き方・書き方\n・パーソナルAgentに任せる仕事、人が担う仕事\nまで扱います。\n🎁 特典付きチケットは、アーカイブ＋「窓口・指揮・作業の分業キット」付き\nGrok Bot・Museに貼れる役割ごとの指示文、OpenCodeへの依頼文の型、モデルの使い分け表、AIに任せない境界線のチェックリストをお渡しします。\nGrok Bot・Museを使っている方も、これから自分専用のパーソナルAgentを組みたい方も、ぜひ。\n📅 11/24（火）20:00〜21:30\n💻 オンライン開催\n🎟 リアルタイム参加は無料\n詳細・お申し込みはリプライから👇",
@@ -6581,7 +6583,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Claudeで作ったスライドの残念ポイント、めっちゃわかる\nいつも同じ雰囲気\nいらんところまで強調\n1枚に文字が多すぎる\n「おしゃれに」って頼むだけだと、何がおしゃれか伝わってなかったりする",
@@ -6602,7 +6604,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "もう楽しいドリブンでしか動けない",
@@ -6762,7 +6764,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIに任せていくと詰まるのは、件数じゃなくて\n「起案された内容を読み込んで理解して判断入れる」ところ\nYesかNoで返せない確認ほど、手が止まるんよな",
@@ -6798,28 +6800,10 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Markdownにまとめてるだけやと、AIはどれが今の決定か分からず、古い内容に戻してくる\n決定を1件ずつ、理由と履歴ごと残すようにしたら、それが減ったらしい\nこれはいい",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXSvEHHakAASiKp.jpg?name=small"
-          ],
-          "link": "https://x.com/shodaiiiiii/status/2122513812335247378",
-          "domain": "x.com",
-          "published": "2026-11-17T11:15:01+09:00",
-          "published_label": "2026/11/17(火) 11:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
           "is_new": false
         }
       ],
-      "elapsed": 4.2
+      "elapsed": 1.5
     }
   ]
 }
