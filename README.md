@@ -14,6 +14,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
 | スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
+| EC・支援企業34社 ニュース監視 | `sources-ec-support.json` | `ec-support.html` | `data-ec-support.json` |
 | SmartNews 認定代理店 ニュース監視 | `sources-smartnews-partners.json` | `smartnews-partners.html` | `data-smartnews-partners.json` |
 | Shopify 受賞パートナー ニュース監視 | `sources-shopify-partners.json` | `shopify-partners.html` | `data-shopify-partners.json` |
 | SNS・広告代理店 ニュース監視 | `sources-sns-agencies.json` | `sns-agencies.html` | `data-sns-agencies.json` |
@@ -26,7 +27,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -37,7 +38,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 - 外国語の投稿（英語など）は本文の直下に緑の `【和訳】` ボックスで日本語訳を表示。
   訳は前回の `data*.json` に残るので、次回以降は新しく増えた投稿だけを訳します
 - 取得は全ボードまとめて並列（既定24並行・`--workers` で変更可）。X（nitter）だけは6並行に絞って
-  レート制限を避けるので、17ページ・571ソースでも1回の更新は30秒前後（和訳の初回生成を含めて）で終わります
+  レート制限を避けるので、18ページ・607ソースでも1回の更新は30秒前後（和訳の初回生成を含めて）で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
 ## ファイル
@@ -54,6 +55,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources-ai-tools.json` | AI新着 X監視ボードの監視対象（X 6アカウント。`add_source.py --bulk` で作成） |
 | `sources-urban-dev.json` | 都市開発 X監視ボードの監視対象（X 9アカウント＋`keyword_chips`。`add_source.py --bulk` で作成） |
 | `sources-ec-companies.json` | ピュアフラット登壇企業ボードの監視対象（70社。`sync_pureflat_companies.py` で生成） |
+| `sources-ec-support.json` | EC・支援企業34社ボードの監視対象（34社。`sync_ec_support.py` で生成） |
 | `sources-smartnews-partners.json` | SmartNews 認定代理店ボードの監視対象（90社。`sync_smartnews_partners.py` で生成） |
 | `sources-shopify-partners.json` | Shopify 受賞パートナーボードの監視対象（25社。`sync_shopify_partners.py` で生成） |
 | `update.py` | 取得 → 各ボードの HTML / data.json を生成 |
@@ -64,6 +66,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
 | `startup.html` / `data-startup.json` | スタートアップボードの生成物 |
 | `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
+| `ec-support.html` / `data-ec-support.json` | EC・支援企業34社ボードの生成物 |
 | `smartnews-partners.html` / `data-smartnews-partners.json` | SmartNews 認定代理店ボードの生成物 |
 | `shopify-partners.html` / `data-shopify-partners.json` | Shopify 受賞パートナーボードの生成物 |
 | `sns-agencies.html` / `data-sns-agencies.json` | SNS・広告代理店ボードの生成物 |
@@ -76,6 +79,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `ai-tools.html` / `data-ai-tools.json` | AI新着 X監視ボードの生成物 |
 | `urban-dev.html` / `data-urban-dev.json` | 都市開発 X監視ボードの生成物（キーワードチップ付き） |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
+| `sync_ec_support.py` | `COMPANIES`（EC・支援34社）→ `sources-ec-support.json` を生成（`--check` / `--only` 付き） |
 | `sync_smartnews_partners.py` | Excel「2026年／2025年認定企業一覧」→ `sources-smartnews-partners.json` を生成 |
 | `sync_shopify_partners.py` | Excel「企業別受賞集計」→ `sources-shopify-partners.json` を生成 |
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
@@ -113,9 +117,10 @@ Excel の「登壇企業一覧」から起こした「1社＝1ソース（Google
 
 ```bash
 python3 sync_pureflat_companies.py --check   # Excel を読み直して設定を作り、各社のヒット件数も表示
+python3 sync_ec_support.py --check           # EC・支援企業34社（まず --only これから,12 で数社だけ確認できる）
 python3 sync_caster_companies.py --check     # キャスター登壇企業120社
 python3 sync_nrtv_companies.py --check       # nrtv登壇企業81社
-python3 update.py --board ec-companies,caster-companies,nrtv-companies   # この3枚だけ更新
+python3 update.py --board ec-companies,ec-support,caster-companies,nrtv-companies   # 企業ニュースの4枚だけ更新
 ```
 
 - 社名は法人格を外して検索し（`"ピュアフラット"`）、`must_match` でその社名を含む見出しだけを残します。

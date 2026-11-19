@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19T10:08:30+09:00",
-  "generated_at_label": "2026/11/19 10:08 JST",
+  "generated_at": "2026-11-19T17:54:04+09:00",
+  "generated_at_label": "2026/11/19 17:54 JST",
   "title": "スタートアップ監視ボード",
-  "total": 72,
+  "total": 74,
   "sources": [
     {
       "id": "x_tanany_vc",
@@ -12,7 +12,7 @@
       "status": "ok",
       "error": null,
       "via": "https://nitter.cf/TANANY_VC/rss",
-      "count": 12,
+      "count": 14,
       "items": [
         {
           "title": "",
@@ -27,6 +27,71 @@
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "Genesis AIが780億円の調達をクロージング。\n金額だけ見るとすごいが、thenextwebの記事ではピッキングのデモでは商品を掴むことができず、現状ではハンドは数週間稼働すると摩耗して部品交換が必要になるらしい\nただ馬鹿にすべきではなくて、世界中のphsyical AIのスタートアップやLLMプレーヤーがこぞっていち早くハンド操作を極めようという競争の中で最も最前線にいるはずなので、恐らくこれがロボットハンドの現状であると解釈。\n田中 洸輝 ❘ More than a VC (@TANANY_VC)\nロボットスタートアップ Genesis AI\nシリーズAで約783億円を調達\n・創業者は、カーネギーメロン大学で物理エンジン「Genesis」を作った研究者\n・世界の100人以上の作業者が、センサー付きの手袋で働き、その手の動きを学習データにする\n・ロボットも同じ手袋をはめ、人と同じ大きさの手で作業する\n・来年から米国で量産を始める\nVideo\n— https://x.com/TANANY_VC/status/2122928431092707784",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122744764089200642/img/Fm9m_puvz9iQqMto.jpg?name=small"
+          ],
+          "link": "https://x.com/FujimotoXtv/status/2123314429463060908",
+          "domain": "x.com",
+          "published": "2026-11-19T16:16:23+09:00",
+          "published_label": "11/19(木) 16:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "「旅行準備特化のAIエージェント」を提供するスタートアップVoyage Labs\n元Google Mapsの責任者で、元Uberの最高プロダクト責任者のManik Guptaが創業し、Kleiner Perkinsのリードで約19億円を調達\n・AIエージェント「Atlas」は、旅の夢から予約、旅先、帰宅まで旅全体を担う個人のAI\n・何週間もかけて好みを学ぶ\n・価格の変化を見張り、航空券とホテルを予約する\n・テキストメッセージでも使える",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122732922298130432/img/s7QCbsZVCP5iuHB0.jpg?name=small"
+          ],
+          "link": "https://x.com/TANANY_VC/status/2123269068593770799",
+          "domain": "x.com",
+          "published": "2026-11-19T13:16:09+09:00",
+          "published_label": "11/19(木) 13:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "アラバマでデジタル名刺を作っていたスタートアップが、評価額約1,565億円で、a16zから約140億円を調達\n・名刺、営業ソフト、営業AIと何度もピボット\n・AIエージェントが、iMessage、SMS、WhatsApp、電話などで、人とやり取りするための基盤を提供する\n・処理したメッセージは10億件を超えた\n最初のアイデアが正しい必要はない。顧客の声を聞き続ける創業者が、最後に成功する事業にたどり着く",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123100381282496512/img/mxvwatcONxE-2Rah.jpg?name=small"
+          ],
+          "link": "https://x.com/TANANY_VC/status/2123268379146658152",
+          "domain": "x.com",
+          "published": "2026-11-19T13:13:24+09:00",
+          "published_label": "11/19(木) 13:13",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "2025年創業、数十名のAIスタートアップ Applied Computeが、18ヶ月で約7,043億円で売却\n・Palo Alto Networksが買収\n・OpenAI出身の3人が、2025年に創業\n・数十人のチームで売上約150億円\n・2週間前に、評価額約5,086億円で調達したばかり\n・その約1.4倍の価格での買収\n「すべての会社が、自分独自のAIを所有すべきだ」という、当時は珍しかった考え\nYash Patil (@ypatil125)\nApplied Compute has signed a definitive agreement to be acquired by Palo Alto Networks for $4.5B!\nRhythm, Linden, and I founded Applied Compute with a belief that was unusual at the time: that every company should own its intelligence. We think training, serving, and improving proprietary models will become a normal part of running a company.\nTo do useful work, a model needs to access sensitive data and systems, comply with policies, and remain explainable, verifiable, and auditable. This is the reason we've always prioritized security, and why joining Palo Alto Networks will help us go further faster. Customers will still own and control their models, and I'm excited for all the ways our combined capabilities can serve them even better.\nAbove all, I'm incredibly grateful for the AC team. A few dozen people in just over 18 months grew this company from zero revenue to over $100M in annualized revenue run-rate, working with many of the world's most innovative companies. More to come soon.\n— https://x.com/ypatil125/status/2123175975093784902",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXdcVm7aMAADQJJ.png?name=small",
+            "https://pbs.twimg.com/media/HXcJOb3bgAE6_67.jpg?name=small"
+          ],
+          "link": "https://x.com/TANANY_VC/status/2123267759744471271",
+          "domain": "x.com",
+          "published": "2026-11-19T13:10:56+09:00",
+          "published_label": "11/19(木) 13:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
           "type": "x",
           "is_new": false
         },
@@ -182,42 +247,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "スペインの電動オフロードバイクを展開するスタートアップStark Futureが、約270億円を調達し、時価総額約2,430億円に\n2026年の売上見込も約270億円、2025年から30%増\n営業利益（EBIT）は今年黒字の見込み\n環境のためではなく、速いから売れた電動バイク\n電動だからと、妥協する必要のないバイク\nReuters (@Reuters)\nElectric motorcycle maker Stark Future hits unicorn status with €150 million-plus raise\n— https://x.com/Reuters/status/2122278520147566801",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXTm2FDaAAACOz3.png?name=small",
-            "https://pbs.twimg.com/card_img/2122259639915913217/cFsRyEQ3?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/TANANY_VC/status/2122575688788226106",
-          "domain": "x.com",
-          "published": "2026-11-17T15:20:54+09:00",
-          "published_label": "11/17(火) 15:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "ステルス解除から3ヶ月で、評価額約1,500億円超\nイスラエル発のサイバーセキュリティ特化のAIモデルを開発するスタートアップCormaが、シリーズAで約196億円を調達\n・AIはコードの弱点を見つけるのが得意に\n・一方、守る力はそのまま強くなっていない\n・Cormaは、サイバーセキュリティだけのためのAIモデルを自社で作る\n・そのAIを「社員」として企業に送り込み、侵入を自分で調べさせる",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122336646901235713/img/VJo3Qeqh5QQZe5JB.jpg?name=small"
-          ],
-          "link": "https://x.com/TANANY_VC/status/2122565921512513592",
-          "domain": "x.com",
-          "published": "2026-11-17T14:42:05+09:00",
-          "published_label": "11/17(火) 14:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 1.1
     },
     {
       "id": "x_tomotake94",
@@ -229,6 +261,70 @@
       "via": "https://nitter.cf/tomotake94/rss",
       "count": 15,
       "items": [
+        {
+          "title": "人の折衝など、標準化しきれない揺らぎのある仕事以外は全部なくなるなーこれ\n管理会計とか事業計画あたりは残ってくれたらよいが\n片山幹健（Tomotake Katayama) (@tomotake94)\n投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。\n— https://x.com/tomotake94/status/2123196873246937457",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122673085279076352/Kb1Vm2ct?format=png&name=800x419"
+          ],
+          "link": "https://x.com/patmaker1111/status/2123264532399440211",
+          "domain": "x.com",
+          "published": "2026-11-19T12:58:07+09:00",
+          "published_label": "11/19(木) 12:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "Harveyといい業界特化のvertical AI agentの時代\n片山幹健（Tomotake Katayama) (@tomotake94)\n投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。\n— https://x.com/tomotake94/status/2123196873246937457",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122673085279076352/Kb1Vm2ct?format=png&name=800x419"
+          ],
+          "link": "https://x.com/glp1gipdiet/status/2123258318798127312",
+          "domain": "x.com",
+          "published": "2026-11-19T12:33:26+09:00",
+          "published_label": "11/19(木) 12:33",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "そりゃそういう時代よね かと言って、わしらが若き日に毎晩遅くまでがんばった日々が無駄とか意味がなかったわけではない。。。はず。。。\n片山幹健（Tomotake Katayama) (@tomotake94)\n投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。\n— https://x.com/tomotake94/status/2123196873246937457",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122673085279076352/Kb1Vm2ct?format=png&name=800x419"
+          ],
+          "link": "https://x.com/Lardiniguy/status/2123253075234390250",
+          "domain": "x.com",
+          "published": "2026-11-19T12:12:35+09:00",
+          "published_label": "11/19(木) 12:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "調査、モデル、ピッチ、レポートとかは、既に Agent AI で出来ますね。\n彼らのプロダクトが出回るよりも先に各社で整備が進む気がします。というか外銀では既にかなり進んでます。\nAIプロダクト開発は Agent A Iを持ってる人でも作れないものを作らないといけないですね。難しい。\n片山幹健（Tomotake Katayama) (@tomotake94)\n投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。\n— https://x.com/tomotake94/status/2123196873246937457",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122673085279076352/Kb1Vm2ct?format=png&name=800x419"
+          ],
+          "link": "https://x.com/ZcureExbanker/status/2123229512897024218",
+          "domain": "x.com",
+          "published": "2026-11-19T10:38:58+09:00",
+          "published_label": "11/19(木) 10:38",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
         {
           "title": "家賃の支払いにポイントを付ける仕組みで急成長した米Bilt Technologies（ビルト）が、5億ドル（約800億円）の資金調達を目指しているとの報道。\n目標企業価値は180億ドル（約2.9兆円）\n米国では、家賃をクレジットカードで払うと手数料がかかることが多く、払えても多くの場合ポイントは付きません。\n家賃は家計で最大の支出なのに、ポイントの「空白地帯」でした。\nBiltはここに目をつけ、提携先の賃貸物件の家賃を手数料なしでカード払いでき、ポイントが貯まる仕組みを作りました。\n貯まったポイントは、航空会社やホテルのマイル・ポイントに移せます。\nポイント好きの間では「米国で最も価値の高いポイントの1つ」と評価されています。\n大家（賃貸物件の運営会社）にとっても、入居者の家賃の支払い遅れを減らし、入居者との接点を持てるメリットがあります。Biltは大家の側も巻き込むことで、全米の賃貸物件に広がりました。\nBiltは「家賃」から「街の消費」へ。\n会員は700万〜800万人超で、提携する飲食店やジムなどの加盟店は5万店を超えています。\n11月には加盟店のレジや予約、ポイントのシステムをつなぐソフト「Neighborhood OS」を発表。さらにスポーツのファン向けポイント技術の米LAVAを3億ドル（約480億円）で買収。NFLやNBAなど56のプロスポーツチームとの関係も手に入れています。\n家賃で「住んでいる場所」を押さえ、その周りの飲食店、ジム、ホテル、スポーツ観戦まで、生活のあらゆる支払いを1つのポイントでつなぐ。\nこれがBiltの描く「街の消費圏」です。日本でいえば、楽天やVポイントの経済圏を、家賃を入り口に作ろうとしています。\nとはいえ、家賃のカード払いは、カード会社にとって手数料収入が少ないわりにポイントの負担が重く、利益を出しにくい取引です。\n実際、提携していたウェルズ・ファーゴは、損失を理由に提携を途中で打ち切ったと報じられました。新しい提携先への移行の際には手数料を巡るトラブルもあり、米消費者金融保護局から約500人への返金を命じられています。\nまた、家賃という強い入り口を持っていても、飲食店やスポーツまで利用者の行動を本当に変えられるかは未知数です。\n家賃という「誰もが毎月払うのに、誰も取りにいかなかった支払い」を押さえたことはBiltの最大の発明です。その入り口から街全体の消費圏を作れるか注目です。",
           "summary": "",
@@ -243,7 +339,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Model MLは昨年12月にも7,500万ドルのシリーズA調達をしています。\n片山幹健（Tomotake Katayama) (@tomotake94)\nAIで投資銀行・PE・VC・コンサルの“作業”を自動化する Model ML が、\nわずかローンチ1年・シードから6ヶ月での大型ラウンドで、7,500万ドル（110億円）調達。\n•ピッチブック / 投資家向け資料\n•財務モデル（Excel）\n•DDレポート・ICメモ\nまで自動生成してくれるとはとても便利。\n資料作成系のAIツールはどんどんよくなってますが、↑のような資料つくるには使いにくい。\n専門領域特化の間違えちゃうとよろしくない資料の作成とかは個別にニーズが大きそうですね。\n— https://x.com/tomotake94/status/1998008124653830465",
@@ -257,7 +353,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。",
@@ -273,7 +369,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "日本のECに特化した個人向けAIエージェントを開発するSTRACT（ストラクト）が、株式と借入をあわせて約12億円を調達しました。\nNTTドコモ・ベンチャーズ、MIRAITRONC、みずほキャピタル、GMO VenturePartnersが新規で参加。\n2022年にショッピング支援アプリ「PLUG（プラグ）」を出しました。ECサイトを見ていると、同じ商品の最安値や、使えるクーポン、キャッシュバックを自動で教えてくれるアプリです。\n累計300万ダウンロード、年間の流通総額（GMV）は100億円を超えました。\n今回、PLUGを「DONDO（ドンド）」に刷新し、AIエージェントとして本格的に立ち上げました。\nAIエージェントが、利用者が同意した購買や閲覧の履歴から好みを学んだり、複数のECサイトを横断して商品を探し、比較します。\n購入の手続きまで代わりに進め、最後の購入ボタンだけを本人が押す仕様です。\nあわせて、EC事業者向けには「ureteku AI（ウレテクAI）」を出しました。ChatGPTやGeminiなどのAIで、自社の商品がどう表示されているかを診断し、商品データを改善するツールです。初期費用も月額費用もかからず、DONDO経由で売れた分だけ手数料を払う成果報酬型です。\n日本のECは、楽天、Amazon、Yahoo!ショッピングなどのモールごとにポイントやクーポンの仕組みが複雑です。\n同じ商品でもモールによって価格の中央値に約8%の差があり、ポイントまで含めた「本当の最安値」を見つけるのは至難の業です。STRACTは4年分の価格データとサイトとの提携網を活かして実現しているので、海外の汎用AIがすぐには真似しにくい部分です。\nとはいえ、AIエージェントが顧客との接点を握ると、モールは「ただの倉庫と決済」になりかねません。大手ECがAIエージェントによる自社サイトでの購入の代行に反発する動きもあります。日本の大手モールが、どこまでAIの代理購入を受け入れるかが鍵になります。\nまた、ChatGPTやGeminiが日本のECに本格的に対応してきたとき、専門特化の強みで勝ち続けられるかもポイントです。\nAIが「検索窓」に代わって買い物の入り口になるとき、日本のECの入り口を握るのは誰か、今後に注目です。",
@@ -356,6 +452,22 @@
           "is_new": false
         },
         {
+          "title": "カタール投資庁とオリックスが昨年11月に共同設立したPEファンドは5月に1号案件の買収を発表していました。\n片山幹健（Tomotake Katayama) (@tomotake94)\nカタール投資庁（QIA）とオリックスが共同で設立したPEファンドが、日本情報産業を買収する。\n今回の買い手は、オリックスとQIAが共同で組成した日本特化型のPEファンド「OQCI Fund LP」で、ファンド総額は25億ドル（約3,700億円）規模。\n事業承継、上場企業の非公開化、大企業からのカーブアウトなどを主な投資対象にしています。\n日本情報産業は、1969年設立の独立系IT企業。売上高は約300億円、従業員数は約2,000名規模。\n製造、金融、流通、官公庁など幅広い業界に対して、システム開発・運用・ITサービスを提供してきた会社です。\n日本のITサービス業界は、独立系SIer、SES、運用保守会社が多数存在する分散市場。今回の日本情報産業を軸に、周辺領域の中小IT企業を追加買収し、ロールアップ、再編していく狙いがあるのかもしれません。\n今回の日本情報産業の買収を、入り口にその今後どのような展開になるのか注目です。\n— https://x.com/tomotake94/status/2057387769849131416",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123277361906946049/DDDerZrF?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2122943644626043320",
+          "domain": "x.com",
+          "published": "2026-11-18T15:43:01+09:00",
+          "published_label": "11/18(水) 15:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "先月スタディサプリの売却が報道されていました。\n片山幹健（Tomotake Katayama) (@tomotake94)\nリクルートHDが「スタディサプリ」を売却へ。譲渡額は500億円以上になる公算。\nスタディサプリは、リクルートが2011年に高校生向けの「受験サプリ」として始めたオンライン学習サービスです。\n2013年に月額980円の見放題サービスに切り替えし、予備校の人気講師の授業を、動画配信サービス並みの価格で提供することで、有料会員を広げてきました。\n有料会員は157万人（2020年12月末時点）、全国の高校の約半分（約2,500校）が導入とも言われています。\nそれなりの規模まで事業が成長した一方で、リクルートの稼ぎ頭はIndeedなどの人材テクノロジーであり、スタディサプリは本業とは距離があります。\nまた、生成AIの登場で学習動画の制作コストが下がpublicたり、学習のあり方も変化する中で、良い授業動画を安く見られることの価値が相対的に下がってきています。近年は中学生向けの個別指導コースや大学受験の一部コースを終了し、塾向けサービスからも撤退などサービスの成長が鈍化してきた中で、今回手放す判断をしたと考えられます。\n教育のサブスクは、子どもが卒業すれば必ず解約されるので、毎年どれだけ新しい生徒を取り込めるか、学校向け契約の持続性が、評価には大きく影響しそうです。\nリクルートが育てた事業を、外部の資本がどう再成長させるのか注目ですね。\n— https://x.com/tomotake94/status/2110264839004430659",
           "summary": "",
           "images": [
@@ -386,87 +498,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "確かCluelyも近いことができた気がしますが、これは需要ありそうです。\n文字起こしだけだと、スライドに表示されていた内容が読み上げられずに端折られていたりもするので、あとで見返したときに何の話だったかよくわからないということもありますよね。\nTetsuro Miyatake (@tmiyatake1)\nスクショや画面共有した情報も取り入れて議事録を書いてくれるAIサービス「Nutmeg」。\n個人的にはこれは将来的に一機能として大手が導入する気がする。\nVideo\n— https://x.com/tmiyatake1/status/2122843477939569129",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122831522143326208/img/Oln-i2gGI14vKkka.jpg?name=small"
-          ],
-          "link": "https://x.com/tomotake94/status/2122896102978646316",
-          "domain": "x.com",
-          "published": "2026-11-18T12:34:07+09:00",
-          "published_label": "11/18(水) 12:34",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "独ロボット企業のAgile Robots、5億ドル（約800億円）を調達、企業価値85億ドル（約1.4兆円）に。\nリードはソフトバンクグループで、NVIDIA、日立グループなども参加しています。\n2018年に、ドイツ航空宇宙センター（DLR）のロボット研究所の研究者たちが創業しました。CEOの陳兆芃氏は中国出身で、本社はミュンヘンと北京の2つです。初期には中国の大手VCであるHillhouseやHongShan（旧セコイア・チャイナ）が出資し、2021年にはソフトバンク・ビジョン・ファンド主導のシリーズCで、シャオミやフォックスコンも加わってユニコーンになりました。\n社員は3,500人を超え、これまでに産業用ロボットを2万台以上導入してきました。\nもともとは、力を感じながら精密に動くロボットアームと、それを使った工場の自動化を手がけていましたが、\n2025年11月には、産業用の人型ロボット「Agile ONE」を発表しました。2026年初めにはミュンヘン近郊で量産工場も稼働しています。\n売上は2024年に約2億ユーロ（約340億円）で、人型ロボットの会社としては珍しく、すでに大きな売上があります。\nAgile Robotsの魅力は、中国流の量産のノウハウを持ちながら、ドイツの工場で生産し、欧州の自動車メーカーを顧客にしていることです。\nつまり、欧米の製造業にとって「安心して入れられる人型ロボット」になれる、珍しい立ち位置です。\nとはいえ、中国にルーツを持つことは、量産の強みであると同時に、米国進出の際にはリスクにもなり得ます。\n「欧州の会社」として受け入れられるかが問われそうです。\n競合のドイツNeura Roboticsも、2026年6月に最大14億ドルを調達し、企業価値は約70億ドルと報じられています。欧州のロボット・スタートアップに、巨額の資金が集まり始めています。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122488200761671680/xWel80Ny?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122846191742534025",
-          "domain": "x.com",
-          "published": "2026-11-18T09:15:47+09:00",
-          "published_label": "11/18(水) 09:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "血管の中の治療を遠隔で行うロボットを開発する米Remedy Robotics（レメディ・ロボティクス）が、シリーズBで6,200万ドル（約99億円）を調達しました。リードは米ディープテックVCのDCVC。\n開発しているのは、カテーテル治療を行うロボット「N1」です。カテーテル治療は、胸や頭を開かずに、足の付け根などの血管から細い管を入れて体内の血管を治療する方法です。\nN1は次の3つを組み合わせています。\n・治療の前に、AIが患者の画像を解析して手技を予行演習する\n・治療中は、事前の3D画像とリアルタイムのX線画像を重ねて、器具の位置を示す\n・操作は治療室からでも、別の建物からでもでき、自動で動かすこともできます\n2025年10月には、カナダで、医師が別の病院からロボットを操作して脳血管の治療を行い、「世界初の完全遠隔での脳血管内治療」を成功させました。\n脳の血管が詰まる脳梗塞では、カテーテルで血の塊を取り除く「血栓回収療法」がとても効果的ですが、治療は時間との勝負で、できる専門医がいる病院は限られています。\n専門医の「技術」を物理的な距離から切り離す同社には注目が集まっています。\n一方で、ハードルも高いです。\n1つ目は、規制と臨床試験です。N1はまだ治験中の機器で、承認までには時間と資金がかかります。\n2つ目は、通信の安全性です。遠隔操作では、通信の遅延や途切れが命に直結します。\n3つ目は、病院側の体制です。ロボットがあっても、現場でカテーテルの準備や患者の管理をするスタッフは必要です。\n過去には、独シーメンス・ヘルシニアーズが血管内治療ロボットの米Corindusを買収しながら、のちに撤退した例もあります。医療ロボットは技術だけでなく、普及のさせ方が勝負になります。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/tomotake94/status/2122842957338558816",
-          "domain": "x.com",
-          "published": "2026-11-18T09:02:56+09:00",
-          "published_label": "11/18(水) 09:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "ヒューリックが、航空機リース事業に参入。今後3年で1,000億円規模を投資し、機体の取得から管理、航空会社へのリース、売却までを手がけます。\n3年後には、この事業で営業利益100億円を目指します。\n12月1日付で、航空機への投資を担う完全子会社「Hulic Aviation Capital合同会社」を設立します。\n対象は、短・中距離路線向けで航空会社の需要が多い「単通路機」（通路が1本の小型ジェット機）で、新造機か、製造から年数の浅い中古機を、1機約100億円で10機ほど取得します。\n国内外の航空会社にリースし、3〜5年で外部に売却する想定です。\nあわせて、フィンテック グローバル傘下で航空機の管理を手がけるaviner（アビネール）の第三者割当増資を引き受け、33.4%を出資して持分法適用会社にします。\n機体の管理を任せ、案件の情報収集や航空会社との交渉でも連携します。aviner側は、住友商事や三菱商事系の航空機リース会社で経験を積んだ人材を抱えており、ヒューリックに足りない専門性を「出資して借りる」形です。\nなぜヒューリックが航空機リースなのか？\n1つ目は資金調達力の活用です。ヒューリックは格付けAA格で、低い金利で資金を集められます。\n航空機リースは、調達コストの差がそのまま利回りの差になる事業ですので、資金調達力が活かせます。\n2つ目は、航空機のリース料は主にドル建てで、借り手も世界中にいますので、金利の上昇、建築費の高騰、人口減少で、利幅が確保しにくくなる国内の不動産への依存を減らす事業として相性がよいです。\n加えて、中長期経営計画で2036年までにM&Aや企業投資に7,500億円を投じ、経常利益の3〜4割を新規事業で稼ぐ計画を掲げています。\nすでに教育（リソー教育、鉄緑会）、高齢者向けの配食（クックデリ）、データセンターなどへ広げており、航空機もこの「不動産の外へ」という流れの1つです。\nヒューリックの航空機参入の今後に注目ですね。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122595743374741504/Swb7x7fV?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122825848726360517",
-          "domain": "x.com",
-          "published": "2026-11-18T07:54:57+09:00",
-          "published_label": "11/18(水) 07:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "片山幹健（Tomotake Katayama) (@tomotake94)\nハウス食品グループ本社が、ココイチを運営する壱番屋の売却を検討している。\n報道を受けて壱番屋の株価はストップ高買い気配。\nすでに複数の投資ファンドが名乗りを上げています。\nハウス食品は2015年に壱番屋をTOBで子会社化し、原材料調達などで連携してきました。\n今回は事業ポートフォリオの見直しと、親子上場の解消による資本効率の向上が理由。\n壱番屋の業績は好調で、\n2026年2月期の売上高は約655億円、EBITDAは70億円でマージン10.7%。\nフランチャイズ中心で、しかも社員がのれん分けで独立するブルームシステムという独自の制度を持つため、本部が資本を大きく使わずに店舗を増やせる。アセットライトで資本効率の高いモデルです。\n一方で、EV/EBITDAは外食チェーンとしては高めな水準ですので、海外展開の加速などで大きく伸ばしていけるファンドが有力にはなりそうですね。\nまた、ハウス食品との原材料調達の連携は子会社化よりも前の創業期から続いていましたので、独立後も継続して供給契約を続けられるのかもポイントに思います。\n— https://x.com/tomotake94/status/2094351013801275549",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122578257937842177/MxSMRA-Z?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2122689389008683073",
-          "domain": "x.com",
-          "published": "2026-11-17T22:52:42+09:00",
-          "published_label": "11/17(火) 22:52",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_kosuke_uchida",
@@ -493,6 +527,44 @@
           "is_new": false
         },
         {
+          "title": "昨日、サンフロンティア不動産主催の「FRONTIER PITCH TOKYO for Startups」に審査員として参加しました。\n選抜されたスタートアップの皆さんの熱量あふれるピッチに触れ、こちらも身が引き締まる思いでした。\n今年は、地域や現場の課題に向き合う事業が多かった印象です。こうした現場との接点にAIを掛け合わせることで、さらに大きな可能性が広がると感じました。\n4年目を迎えた本イベントには、オフィスを1年間無償で利用できる豪華な特典も。固定費を抑えながら事業に集中したいスタートアップの皆さんは、来年もぜひチェックしてみてください！\nZ Venture Capital (@ZVC_Official)\n昨日（18日）、サンフロンティア不動産が主催するスタートアップ向けピッチコンテスト「FRONTIER PITCH TOKYO for Startups」に、ZVCから@yudamasak1が審査員として参加しました。\n優勝賞品として「＋S SHIBUYAフルセットアップオフィス（1,500万円相当）1年間無償利用権」を勝ち取ったあかり保証さんをはじめ、計8社の素晴らしいピッチに触れることができました。\nZVCもサンフロンティア不動産、East Venturesとともに、シェアオフィス「Hive Shibuya」を運営するなど、オフィスを通じたスタートアップ支援にも取り組んでいます。\nこれからも起業家の挑戦を支える環境づくりを進めていきます！！\n— https://x.com/ZVC_Official/status/2123240530490605612",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXdDrWdbkAAEa_O.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdDxyna0AAo1cL.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdDxyqbgAAf1Q4.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdD3H_aQAAJrNv.jpg?name=small"
+          ],
+          "link": "https://x.com/yudamasak1/status/2123248465643978983",
+          "domain": "x.com",
+          "published": "2026-11-19T11:54:16+09:00",
+          "published_label": "11/19(木) 11:54",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "昨日（18日）、サンフロンティア不動産が主催するスタートアップ向けピッチコンテスト「FRONTIER PITCH TOKYO for Startups」に、ZVCから@yudamasak1が審査員として参加しました。\n優勝賞品として「＋S SHIBUYAフルセットアップオフィス（1,500万円相当）1年間無償利用権」を勝ち取ったあかり保証さんをはじめ、計8社の素晴らしいピッチに触れることができました。\nZVCもサンフロンティア不動産、East Venturesとともに、シェアオフィス「Hive Shibuya」を運営するなど、オフィスを通じたスタートアップ支援にも取り組んでいます。\nこれからも起業家の挑戦を支える環境づくりを進めていきます！！",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXdDrWdbkAAEa_O.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdDxyna0AAo1cL.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdDxyqbgAAf1Q4.jpg?name=small",
+            "https://pbs.twimg.com/media/HXdD3H_aQAAJrNv.jpg?name=small"
+          ],
+          "link": "https://x.com/ZVC_Official/status/2123240530490605612",
+          "domain": "x.com",
+          "published": "2026-11-19T11:22:45+09:00",
+          "published_label": "11/19(木) 11:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "B Dash Camp 2026 Fall in Fukuoka、お疲れさまでした🔥🔥🔥\n今回初めてB Dash Campに参加し、スタッフとしてゲストの皆様同士の交流をお手伝いする役割を担当させていただきました。\nとにかく会場の熱気がすさまじく、参加者の皆さんが積極的に新たな出会いやビジネスの機会を求めて交流されている中で、少しでもそのお手伝いができていれば嬉しく思います。\nお話しさせていただいた皆さん、ありがとうございました！ゆっくりお話しできなかった方も、ぜひ改めて情報交換させてください！\nまた、スタッフとして運営に関わる中で、皆さんがそれぞれの役割を担いながら、一丸となってより良いイベントをつくろうとする熱量は圧巻でした。その一員として関われたことに感謝です。\n本当にありがとうございました！！！\n#bdashcamp\nB Dash Camp (@BDashCamp)\n【B Dash Campまもなく開幕🔥】\nこの後18:30より、B Dash Camp 2026 Fall in Fukuoka開幕です！\nDay 1、初日はウェルカムパーティーを開催いたします。\nスタッフ一同、参加者の皆さまのお越しを心よりお待ちしております！\n#bdashcamp\n— https://x.com/BDashCamp/status/2120418170708377787",
           "summary": "",
           "images": [
@@ -502,6 +574,43 @@
           "domain": "x.com",
           "published": "2026-11-15T21:34:35+09:00",
           "published_label": "11/15(日) 21:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "11月11日、ZVCは「JAPAN BOOT CAMP 2026」の一環として、韓国スタートアップ10社とLINEヤフーグループ各社による交流イベントを開催しました。\n「JAPAN BOOT CAMP 2026」は2014年に始まり、これまで12回の開催を通じて、累計で約120社の日本進出を支援してきました。\n今回のイベントでは、Startup Allianceと、ZVCのLead, Value Creationを務めるYuni Kim（@yuni59）が連携し、ZVCのオフィスがあるガーデンテラス紀尾井町を会場に、10社による事業ピッチと意見交換を実施しました。\nZVCは今後も、国境を越えてスタートアップとLINEヤフーグループをつなぎ、新たな事業機会の創出を後押ししていきます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HW-ipjca8AAUIVp.jpg?name=small",
+            "https://pbs.twimg.com/media/HW-is9qbEAAtuqi.jpg?name=small",
+            "https://pbs.twimg.com/media/HW-is9iagAA9tLg.jpg?name=small"
+          ],
+          "link": "https://x.com/ZVC_Official/status/2121111102188916885",
+          "domain": "x.com",
+          "published": "2026-11-13T14:21:09+09:00",
+          "published_label": "11/13(金) 14:21",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "「GCV Asia Congress 2026」に合わせ、ZVCは2日間にわり、国境を越えたスタートアップの成長について議論を深めました。\n11/10は、GCVが企画する代表団の訪問先として、海外CVC・VC投資家の皆さんを、ZVCオフィスに迎えました。この中で、Partnerを務める@yudamasak1が登壇し、日本のスタートアップ市場やZVCの投資活動を紹介しました。\nまた、11/11は、世界各国のCVCやイノベーションリーダーが集うカンファレンス「GCV Asia Congress」にCEOのHwangが登壇し、国境を越えた成長戦略～複数市場をつなぐCVCの可能性をテーマに議論しました。\nZVCは今後もグローバルなネットワークをさらに広げ、国境を越えたスタートアップの挑戦と成長を支援していきます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HW0hwKeaYAA-gGS.jpg?name=small",
+            "https://pbs.twimg.com/media/HW0hwKba0AAo-P7.jpg?name=small",
+            "https://pbs.twimg.com/media/HW0jgWzbEAAgHyl.jpg?name=small",
+            "https://pbs.twimg.com/media/HW0jgW0bYAEHUvl.jpg?name=small"
+          ],
+          "link": "https://x.com/ZVC_Official/status/2120394519850168770",
+          "domain": "x.com",
+          "published": "2026-11-11T14:53:43+09:00",
+          "published_label": "11/11(水) 14:53",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -587,6 +696,41 @@
           "is_new": false
         },
         {
+          "title": "B Dash Camp 2026 Fall in Fukuoka（11/11〜13＠福岡）のスタッフキックオフミーティングを実施しました✨\nVC、CVC、事業会社等からお集まりいただいた皆さまと一緒に今回のイベントを運営いたします。\nB Dash Camp、いよいよ来月開催となります！\n#bdashcamp",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HU-S8o7b0AAD9LG.jpg?name=small"
+          ],
+          "link": "https://x.com/BDashCamp/status/2112068350058893487",
+          "domain": "x.com",
+          "published": "2026-10-19T15:28:29+09:00",
+          "published_label": "10/19(月) 15:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "東京・ソウル・サンフランシスコ。\n先週、3拠点に分かれるZVCのメンバーが、“アジアの窓口”福岡に集まりました。\n10月8日はCIC Fukuokaを会場に、福岡県とのThursday GatheringにZVCメンバーが登壇。日本からは@yudamasak1（後列右から2番目）と@kosuke_uchida（後列一番右）が登壇し、トークセッションをはじめ、参加した起業家の皆さんと交流しました。\nまた、大名カンファレンスで開催されたGlobalSummitでは代表のHwangが登壇し、「クロスボーダー投資と成長」をテーマにディスカッションを行いました。\nLINEヤフーのCVCとして、そしてグローバルに投資を行うZVCにとって、アジアの窓口である福岡で皆さんと交流できたことは、とても有意義な時間でした。\nまた皆さんとお会いできるのを楽しみにしています！気軽にZVCにお声がけいただけると嬉しいです。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HUfl9l0a8AAIZFn.jpg?name=small",
+            "https://pbs.twimg.com/media/HUfmB32bQAAhJY9.jpg?name=small",
+            "https://pbs.twimg.com/media/HUfoU8VbsAAerdG.jpg?name=small",
+            "https://pbs.twimg.com/media/HUfsVaIboAE2791.jpg?name=small"
+          ],
+          "link": "https://x.com/ZVC_Official/status/2109920728321806410",
+          "domain": "x.com",
+          "published": "2026-10-13T17:14:36+09:00",
+          "published_label": "10/13(火) 17:14",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
           "title": "先週は福岡で開催されたGLOBAL CONNECTに登壇しました！\nZVCの東京・ソウル・サンフランシスコのメンバーと、各地域の投資トレンドや投資判断、スタートアップの海外展開についてお話ししました。\nセッション後も皆さんと交流でき、楽しい時間でした。ご参加いただいた皆さま、ありがとうございました！\nZ Venture Capital (@ZVC_Official)\n10時からCIC Fukuokaを会場に、福岡県とZVCの共催イベント、グローバルコネクトを開催しています。\n東京、ソウル、サンフランシスコからメンバーが参加し、各地のトレンドや注目領域を話したり、起業家の皆さんと交流したりする予定です。\n12時まで開催していますので、ぜひ気軽にご参加ください。\n— https://x.com/ZVC_Official/status/2108005254449307993",
           "summary": "",
           "images": [
@@ -619,105 +763,9 @@
           "pinned": false,
           "type": "x",
           "is_new": false
-        },
-        {
-          "title": "【🇩🇪防衛スタートアップのクオンタム・システムズが、海洋向けドローンに参入】\n・ウクライナ戦争を通じて空・陸で進んだ監視・偵察などの任務の無人化を海洋領域にも拡大\n・艦艇より低コストな無人機を多数配置し、海底ケーブルやEEZなどをきめ細かく監視するネットワークを構築\n海洋国家である日本でも、防衛・重要インフラ保護の両面で重要な論点ですね。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122550210362773504/m_Xx0WaZ?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2107260982162792853",
-          "domain": "x.com",
-          "published": "2026-10-06T09:05:43+09:00",
-          "published_label": "10/6(火) 09:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "【スタートアップとLINEヤフーグループを繋ぐピッチイベント「ZVC Connect Vol.7」を開催🚀】\n今回は以下の4社に登壇いただきました。\n・株式会社トキハナ\n・株式会社TERASS\n・株式会社Linc\n・クレイ・テクノロジーズ株式会社\nLYグループの事業部キーマンとの接点が作れるイベントですので、お気軽にお声掛けください！\nZ Venture Capital (@ZVC_Official)\nスタートアップとLINEヤフーグループをつなぐピッチイベント「ZVC Connect Vol.7」を開催しました🚀\n今回は「バーティカルAI」をテーマに、\n・トキハナ（安藤 正樹さん：@antimo）\n・TERASS（江口 亮介さん：@eguri）\n・Linc（仲 思遥さん：@shiyo_naka）\n・クレイ・テクノロジーズ（中田 智文さん）の4社に登壇いただきました。\n【開催レポートはコメント欄より】\nこれまでの開催から、協業やZVCからの出資につながったケースもあり、LINEヤフーグループとの連携に関心のあるスタートアップの方は、ぜひ次回もご応募ください。\nまたZVC Connectに限らず、ZVCに関心がある方はキャピタリストにもコンタクトください。\n【ZVC JP】\n@yudamasak1\n@Uchimaru_ZVC\n@ChihiroKameoka\n@kosuke_uchida\n— https://x.com/ZVC_Official/status/2105091498522169638",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HTbGqUIaYAA1njb.jpg?name=small"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2105105635088212433",
-          "domain": "x.com",
-          "published": "2026-09-30T10:21:09+09:00",
-          "published_label": "9/30(水) 10:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "【IonQ、量子誤り訂正を単一CPUでリアルタイム処理】\nIonQが、量子コンピュータの実用化に不可欠な「量子誤り訂正」で新たな成果を発表しました。\n・量子コンピュータは規模が大きくなるほど、大量に発生するエラーをリアルタイムで処理する必要があります。その処理を担う通常のコンピュータ（古典コンピュータ）側も、大規模化に伴う課題の一つです。\n・今回IonQは、大規模な量子コンピュータを想定した検証で、一般的なCPU 1台でもエラー処理をリアルタイムに行えることを示しました。\n・量子ハードの商用化は、量子ビット数を増やすだけではなく、誤り訂正や制御まで含めたシステム全体を実用規模まで拡張できるかが重要です。\n・今回の発表は、FTQCの商用化に向けて、こうした大規模化の課題が一つずつ具体的に潰されてきていることを示す動きだと見ています。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122501194916470784/n0LCbJ7M?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2103037806671196603",
-          "domain": "x.com",
-          "published": "2026-09-24T17:24:20+09:00",
-          "published_label": "9/24(木) 17:24",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122962081377058816/B5Qr-UCE?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2099666349748543546",
-          "domain": "x.com",
-          "published": "2026-09-15T10:07:22+09:00",
-          "published_label": "9/15(火) 10:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "【Oceanへの追加出資】\n私は、Oceanを「免税だけの会社」だとは見ていません。\nTax Refundはあくまで入口。訪日客の購買データを蓄積し、その先のインバウンドマーケティングへ。将来的には、インバウンド消費のゲートウェイを担う存在になり得ると考えています。\nその将来像と、それを実現するOceanチームの力を信じ、今回ZVCとしてOceanのシリーズAラウンドにリード出資しました！\n2025年11月のシード出資から、約10ヶ月でのフォローオン投資です。\n今回の追加出資においては、メイン担当として、数ヶ月にわたりDDから投資委員会まで関わってきたので、こうして発表できるのは素直に嬉しいです。\n今後ともOceanの挑戦を心から応援しています！",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HSOChEXakAAHAE1.jpg?name=small"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2099666073604046873",
-          "domain": "x.com",
-          "published": "2026-09-15T10:06:16+09:00",
-          "published_label": "9/15(火) 10:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
-        },
-        {
-          "title": "日経の記事はこちら",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2119988660309315584/tStoXSa3?format=png&name=800x419"
-          ],
-          "link": "https://x.com/kosuke_uchida/status/2097119449468059762",
-          "domain": "x.com",
-          "published": "2026-09-08T09:26:54+09:00",
-          "published_label": "9/8(火) 09:26",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": true
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_tmiyatake1",
@@ -759,7 +807,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "全世界をマインクラフト上で再現したプロジェクト。\n$2,000で出来たのはすごい。",
@@ -775,7 +823,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "2030年のワールドカップのアメリカでの放映権をNetflixが勝ち取ろうとすると思われている。\n放映権を今現在抱えているのはFox Sportsで今回の放映権の最終価格は$1.5B〜$2Bになると思われている。\nNetflix以外にApple TV、Disney、Amazon、YouTube、Daznなどがオファーを出すと予想されている。",
@@ -791,7 +839,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIリーガルテック企業のHarveyがウィンブルドン選手権の公式リーガルアシスタントパートナーに就任したことを発表した。",
@@ -807,7 +855,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Disneyテーマパークでは3体の新しいスターウォーズ系のアニマトロニックを導入したが、AIを活用してリアルタイムでゲストとやりとりができるらしい。",
@@ -823,7 +871,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "全世界をマインクラフト上で再現したプロジェクト。\n$2,000で出来たのはすごい。",
@@ -839,7 +887,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "OpenAIのSam Altmanに関する映画「Artificial」の新しい予告動画。",
@@ -855,7 +903,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "冷凍ピザブランドの「Yough!」が$4M調達を発表した。\n2022年にローンチして今年の3月にTargetで販売スタートしたが、今はTargetで最も売れている冷凍ピザブランドになった。\n今年は$16Mの売上を想定している。",
@@ -871,7 +919,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "今年最も期待されていたゲーム「GTA VI」はローンチ初日でTwitchで329万同時視聴者とYouTubeで319万同時視聴者を達成した。",
@@ -887,7 +935,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "MicrosoftがSalesforceと提携して営業ワークフローを支援するプラットフォーム「Copilotforce」を発表した。\nVideo\nMarc Benioff (@Benioff)\nWelcome Copilotforce powered by Salesforce. 🚀 Salesforce customer context and sales workflows are now inside Microsoft Copilot. Real-time CRM collaboration is live in Microsoft Teams. Salesforce Data 360 connects with Microsoft Fabric through bidirectional zero-copy data access. Mahalo Accenture as our design and implementation partner — customer zero deploying across their global sales org. This is how AI agents get real customer context, wherever work happens. The agent era just got stronger.\n#Agentforce #Copilot\n— https://x.com/Benioff/status/2123113351089930630",
@@ -904,7 +952,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "RampがGTA VIをオマージュしたゲームを作った。\nOff TopicやSlow Timesでも話しているように、ゲーム・ソフトウェアがコンテンツ化する時代が訪れている。",
@@ -920,7 +968,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "海軍向けに長時間の連続稼働が可能な自律型無人潜水艇や無人水上艇を開発しているOdin Dynamicsがステルスから脱して$17M調達を発表した。",
@@ -936,7 +984,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "営業・収益自動化AIプラットフォームするCardinalがGTM用のAIエージェントをローンチした。",
@@ -952,7 +1000,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "MicrosoftがSalesforceと提携して営業ワークフローを支援するプラットフォーム「Copilotforce」を発表した。\nVideo\nMarc Benioff (@Benioff)\nWelcome Copilotforce powered by Salesforce. 🚀 Salesforce customer context and sales workflows are now inside Microsoft Copilot. Real-time CRM collaboration is live in Microsoft Teams. Salesforce Data 360 connects with Microsoft Fabric through bidirectional zero-copy data access. Mahalo Accenture as our design and implementation partner — customer zero deploying across their global sales org. This is how AI agents get real customer context, wherever work happens. The agent era just got stronger.\n#Agentforce #Copilot\n— https://x.com/Benioff/status/2123113351089930630",
@@ -969,7 +1017,7 @@
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.8
@@ -1001,27 +1049,27 @@
           "is_new": false
         },
         {
-          "title": "あれ？AnthropicのIPO配分って今日言われるんだっけ？ビビリなので2000株にしてます🥹",
+          "title": "みんなまじめニキのツイート読んで\nまじめにIPO (@ipo_majime)\n読むのが面倒くさい方は「初値が東証のIPOみたいにシンプルな板寄せで決まるわけではないよ」ということだけ頭に入れておけばOKです\n初値ついたら上下にぶんぶん動くのはナスダックも東証も一緒なので…\n— https://x.com/ipo_majime/status/2123335049940738280",
           "summary": "",
           "images": [],
-          "link": "https://x.com/nomuraRyos72389/status/2123204356933828898",
+          "link": "https://x.com/nomurasyo/status/2123335895445279006",
           "domain": "x.com",
-          "published": "2026-11-19T08:59:00+09:00",
-          "published_label": "11/19(木) 08:59",
+          "published": "2026-11-19T17:41:41+09:00",
+          "published_label": "11/19(木) 17:41",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "何故なら、「嘘はバレる時代だから」\n竹村俊助 | 株式会社WORDS代表 (@tshun423)\nブランディングというと、まだまだ「良く見せる」とか「いい部分を見せる」という方向に話が行きがち。SNSやAI時代のブランディングで大事なのは「正直であること」「嘘をつかないこと」だと僕は思っていて、そこを啓発していくと同時に実績も作っていきたい所存。\n— https://x.com/tshun423/status/2122962771306561864",
+          "title": "読むのが面倒くさい方は「初値が東証のIPOみたいにシンプルな板寄せで決まるわけではないよ」ということだけ頭に入れておけばOKです\n初値ついたら上下にぶんぶん動くのはナスダックも東証も一緒なので…\nまじめにIPO (@ipo_majime)\nアンソロピックはナスダック上場なので初値決定プロセスが東証IPOとは異なります\nPayPay上場時のツイートをご参考まで👇\n— https://x.com/ipo_majime/status/2123330971139469599",
           "summary": "",
           "images": [],
-          "link": "https://x.com/semlabo/status/2123175734667821533",
+          "link": "https://x.com/ipo_majime/status/2123335049940738280",
           "domain": "x.com",
-          "published": "2026-11-19T07:05:16+09:00",
-          "published_label": "11/19(木) 07:05",
+          "published": "2026-11-19T17:38:20+09:00",
+          "published_label": "11/19(木) 17:38",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1029,15 +1077,16 @@
           "is_new": false
         },
         {
-          "title": "ワタミが上場したのは1996年10月です。なぜワタミは上場したのか？渡邉美樹さんは当時の思いを忘れてしまいましたか？\n経営改革は上場したままできます。",
+          "title": "麻布台ヒルズ今週のポップアップ3000daysバーガー\nテイクアウトだったからお試しにしたが、やはり美味さわからず。飛騨牛はイートインで食べます",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXcG4YwaMAAhKkg.jpg?name=small"
+            "https://pbs.twimg.com/media/HXeYGtnbYAAzYWY.jpg?name=small",
+            "https://pbs.twimg.com/media/HXeYGtqbwAAgJBh.jpg?name=small"
           ],
-          "link": "https://x.com/IB57185560/status/2123173655681323482",
+          "link": "https://x.com/toramomon/status/2123332994857685477",
           "domain": "x.com",
-          "published": "2026-11-19T06:57:00+09:00",
-          "published_label": "11/19(木) 06:57",
+          "published": "2026-11-19T17:30:10+09:00",
+          "published_label": "11/19(木) 17:30",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1045,15 +1094,15 @@
           "is_new": false
         },
         {
-          "title": "自分も10年以上前であれば、社外取締役をスキマバイト的なものとして認識していたかもしれない。\nただ今は全くの逆。\nあんなに大変で責任が伴う仕事はない。\n役職の響きだけで社外取締役を引き受ける時代は終わった。\n証券マン (@nomurasyo)\n☆社外取締役の方は必見☆\n昨今は株主との面談に応じないと、解任を要求され、恥をかきます！\n株主との面談は積極的に行いましょう！\n— https://x.com/nomurasyo/status/2123076010950496312",
+          "title": "損に応じて配分されたのかな、、\nわしは1万株申し込んで126株もらったから\n苦瓜 (@hamigeni2)\n話題のアンソロIPO、SBIで13000株申し込んでまさかの落選...。\n最近ノートレで信用金利落としてないから当選確率低かったのかも。\n他業者は面倒臭いのでやってないです。\n— https://x.com/hamigeni2/status/2123267945061339249",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXauAs8agAA2Z0q.png?name=small"
+            "https://pbs.twimg.com/media/HXdc8Rsa4AA-0WB.jpg?name=small"
           ],
-          "link": "https://x.com/balance_journal/status/2123086761765318851",
+          "link": "https://x.com/tauren_jp/status/2123327464734957904",
           "domain": "x.com",
-          "published": "2026-11-19T01:11:43+09:00",
-          "published_label": "11/19(木) 01:11",
+          "published": "2026-11-19T17:08:11+09:00",
+          "published_label": "11/19(木) 17:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1061,30 +1110,13 @@
           "is_new": false
         },
         {
-          "title": "⭐︎社外取締役の方に110億円提訴請求してくる株主も⭐︎\nまったりお小遣いもらえると思ったら、こんなケースもありますので、社外取締役のリスクを把握しておきましょう！\n証券マン (@nomurasyo)\n☆社外取締役の方は必見☆\n昨今は株主との面談に応じないと、解任を要求され、恥をかきます！\n株主との面談は積極的に行いましょう！\n— https://x.com/nomurasyo/status/2123076010950496312",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXaxJCWbcAAIheV.jpg?name=small",
-            "https://pbs.twimg.com/media/HXauAs8agAA2Z0q.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123079049065255360",
-          "domain": "x.com",
-          "published": "2026-11-19T00:41:04+09:00",
-          "published_label": "11/19(木) 00:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "is_new": false
-        },
-        {
-          "title": "・創業者持分が少ない\n・キャッシュリッチ\n・ガバナンス悪い\nな会社の社外取締役になる方は、株主から面談を求められる可能性があります！\nいまのうちにトレーニングしておきましょう！",
+          "title": "まさか、こんなにも反響があるとは思わなかった。初めて木下さんのYouTubeに出演してから、「2ヶ月で預かり資産100億円ってどうやったんですか？」「130人も面談したんですか？」と、本当にたくさんの方から連絡をいただくようになった。今日も嬉しい出会いがあった。僕がつくりたいのは、普通ならなかなか会えないような人にも会えて、自分一人ではできないような大きな仕事に挑戦できる会社。そのためのチャンスも、仕組みも、僕が率先して必死につくる。あとはいい人を集めること。まっすぐで、仕事に真摯に向き合い、お客様を大切にする。他人を裏切らず、自分自身も裏切らない。そんな人たちと働きたい。いい人が集まれば、あとは何とでもなると思っている。",
           "summary": "",
           "images": [],
-          "link": "https://x.com/nomurasyo/status/2123077099422708090",
+          "link": "https://x.com/sorakaze_GTP/status/2123325739764470251",
           "domain": "x.com",
-          "published": "2026-11-19T00:33:20+09:00",
-          "published_label": "11/19(木) 00:33",
+          "published": "2026-11-19T17:01:20+09:00",
+          "published_label": "11/19(木) 17:01",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1092,16 +1124,13 @@
           "is_new": false
         },
         {
-          "title": "☆東証も言ってます☆\n証券マン (@nomurasyo)\n☆社外取締役の方は必見☆\n昨今は株主との面談に応じないと、解任を要求され、恥をかきます！\n株主との面談は積極的に行いましょう！\n— https://x.com/nomurasyo/status/2123076010950496312",
+          "title": "ブランディングを「実物よりもかっこよく見せる」ことと捉えるのではなく、「等身大の自分を知ってもらう」ことと捉えるべきだと思う。\nSNSの時代は想像と実態が大きく乖離すると、どこかで必ず綻びが出る。だったら最初から等身大でいた方がいい。\nただ、それは「今のままでいい」という意味ではなくて、等身大の自分を少しずつ高めていく努力こそが、結果的に一番強いブランディングになるんだと思う。\n竹村俊助 | 株式会社WORDS代表 (@tshun423)\nブランディングというと、まだまだ「良く見せる」とか「いい部分を見せる」という方向に話が行きがち。SNSやAI時代のブランディングで大事なのは「正直であること」「嘘をつかないこと」だと僕は思っていて、そこを啓発していくと同時に実績も作っていきたい所存。\n— https://x.com/tshun423/status/2122962771306561864",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXauoJnboAAgZzD.jpg?name=small",
-            "https://pbs.twimg.com/media/HXauAs8agAA2Z0q.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123076366602268799",
+          "images": [],
+          "link": "https://x.com/usapon/status/2123324877277217077",
           "domain": "x.com",
-          "published": "2026-11-19T00:30:25+09:00",
-          "published_label": "11/19(木) 00:30",
+          "published": "2026-11-19T16:57:54+09:00",
+          "published_label": "11/19(木) 16:57",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1109,15 +1138,15 @@
           "is_new": false
         },
         {
-          "title": "☆社外取締役の方は必見☆\n昨今は株主との面談に応じないと、解任を要求され、恥をかきます！\n株主との面談は積極的に行いましょう！",
+          "title": "アンソロピックの配分あった人は、まじめニキフォローしてた方がいいすよ\nまじめにIPO (@ipo_majime)\nアンソロピックIPO\n国内募集の株数と金額が当初レンジを下回ったことで、日本からの需要が弱かったと受け止めた方が結構いらっしゃるようですが\n【大前提】グローバルオファリングのため、世界中の販売地域の需要を見て各地域への販売割合を決定する仕組み\n↓\n最も重視する米国機関投資家の需要が 想定以上に強かった\n↓\nじゃあ日本から剝がすべ\nという意思決定がされた、くらいの理解でよろしいかと思います\nそもそも届出書には「国内募集の株数を算出するのは困難なので仮で3846万株～5000万株にしておくし、さらにここから上下20％ブレますよ」と書いてあります\nホリエモンに言わせれば想定の範囲内です\n本件をリードしたゴールドマンとモルガン・スタンレーにとって、米国以外の販売地域の需要はディール運営を安定させるためのバッファーみたいなもんなので、どちらかというと日本の販売金額が上振れた時にびびる、というのが正しいリアクションかと\n過去最大だったスペースXの日本国内募集額は約3500億円\n今回のアンソロピックでは4739億円であり、スペースXのそれを1000億円以上上回る金額を捌いたことになります\n元「中の人」の私からすると「荒れた相場でようやった」という印象です\n（ただ初値とその後の値動きは「知らんけど」なので、皆でドキドキしながら見守りましょう）\n— https://x.com/ipo_majime/status/2123285420855472565",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXauAs8agAA2Z0q.png?name=small"
+            "https://pbs.twimg.com/media/HXdruLHbkAAG_N6.png?name=small"
           ],
-          "link": "https://x.com/nomurasyo/status/2123076010950496312",
+          "link": "https://x.com/nomurasyo/status/2123321324361887798",
           "domain": "x.com",
-          "published": "2026-11-19T00:29:00+09:00",
-          "published_label": "11/19(木) 00:29",
+          "published": "2026-11-19T16:43:47+09:00",
+          "published_label": "11/19(木) 16:43",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1125,15 +1154,15 @@
           "is_new": false
         },
         {
-          "title": "30名以上にインタビュー\n中国とベトナム視察\n20時間の運営委員会、100回に及ぶ会議",
+          "title": "Forbes：How AI Is Rewriting The Shareholder Activist Playbook\nAIの普及によってアクティビストの企業分析能力が飛躍的に向上し、ターゲットの選定から経営陣への問題提起、経営改革の実現に至るまでの時間軸が短縮\nまた、業績不振や資本効率の低さだけでなく、技術革新への対応の遅れそのものが、アクティビストの介入理由になり得る",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXaYN-Va8AAwkGW.jpg?name=small"
+            "https://pbs.twimg.com/media/HXeE9XqaIAAdD26.png?name=small"
           ],
-          "link": "https://x.com/nomurasyo/status/2123052311920722228",
+          "link": "https://x.com/susteps_jp/status/2123312100001075204",
           "domain": "x.com",
-          "published": "2026-11-18T22:54:50+09:00",
-          "published_label": "11/18(水) 22:54",
+          "published": "2026-11-19T16:07:08+09:00",
+          "published_label": "11/19(木) 16:07",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1141,15 +1170,15 @@
           "is_new": false
         },
         {
-          "title": "アクティビスト最終奥義\n自ら非公開化提案\nエリオット、トライアン他",
+          "title": "2026年11月12日、Hibiki Path Advisors SPC主要投資先の一社である株式会社やまびこが26/12期3Q決算発表を行いました。本件についてコメントを行うとともに、私どもの視点による当社独自の成長ストーリーも簡潔にご紹介します。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123023353309212673/W7XpgEzw?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2123310879458590720/RYp5RwvB?format=jpg&name=420x420_2"
           ],
-          "link": "https://x.com/FatTailAlpha/status/2123023622109594006",
+          "link": "https://x.com/news_hibiki/status/2123311513767399858",
           "domain": "x.com",
-          "published": "2026-11-18T21:00:50+09:00",
-          "published_label": "11/18(水) 21:00",
+          "published": "2026-11-19T16:04:48+09:00",
+          "published_label": "11/19(木) 16:04",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1157,15 +1186,15 @@
           "is_new": false
         },
         {
-          "title": "猛禽「3Ⅾインベストメント」に狙われたベンチャー投資の雄「ジャフコ」の末路",
+          "title": "Anthropicに約32億円投資とは凄すぎます！\n上場企業でも買収できそうな金額ですね。。。\nClaudeに『32億円の投資判断は正しい？』と聞いたら、全力で肯定してくれるか！？\n気になるClaudeの初値予想は、私もAnthropic保有者なのでここでは控えておきます…。\n※今度柏原さんとお会いしたときのAnthropicトークが楽しみ。🙂\n柏原 真人 Masato Kashiwabara (@Kswbrmst)\nAnthropic アンソロピック\n24万株取得！\n夜が楽しみだ😌\n— https://x.com/Kswbrmst/status/2123248688881602680",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123006928020471808/hnxrlqlX?format=jpg&name=386x202"
+            "https://pbs.twimg.com/media/HXdLbWJbsAAEh_m.jpg?name=small"
           ],
-          "link": "https://x.com/nomurasyo/status/2123017591098859784",
+          "link": "https://x.com/takhaya/status/2123305971720323284",
           "domain": "x.com",
-          "published": "2026-11-18T20:36:52+09:00",
-          "published_label": "11/18(水) 20:36",
+          "published": "2026-11-19T15:42:47+09:00",
+          "published_label": "11/19(木) 15:42",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1173,15 +1202,13 @@
           "is_new": false
         },
         {
-          "title": "清酒「松竹梅」の宝HDに火の手／「バリューアクト」と「オアシス」が挟み撃ち！",
+          "title": "61株\nテスラx スペースX資本家Plaid (@teslafan1201)\n同じく61株当選でした㊗️\n— https://x.com/teslafan1201/status/2123293400040628376",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122941413306597376/iOWSjw4N?format=jpg&name=386x202"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123017528259866711",
+          "images": [],
+          "link": "https://x.com/nomurasyo/status/2123304618692329712",
           "domain": "x.com",
-          "published": "2026-11-18T20:36:37+09:00",
-          "published_label": "11/18(水) 20:36",
+          "published": "2026-11-19T15:37:24+09:00",
+          "published_label": "11/19(木) 15:37",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1189,15 +1216,13 @@
           "is_new": false
         },
         {
-          "title": "アホすぎん？\n証券マン (@nomurasyo)\n\"角南源五取締役も「資本関係の裏付けがなければ、トップ交渉を毎月行うのは難しい」と強調\"\nテレビ朝日HD会長、東映株保有の必要性を強調 村上氏側が追及\n— https://x.com/nomurasyo/status/2122985205023883664",
+          "title": "73株\n鶴田 浩之｜CAIO＠StudyPocket (@mocchicc)\nAnthropicのIPO、73株だけ当選\n— https://x.com/mocchicc/status/2123300085891317855",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122952097088065536/Tp_VQGhm?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/nomurasyo/status/2122985291460014125",
+          "images": [],
+          "link": "https://x.com/nomurasyo/status/2123302060116623381",
           "domain": "x.com",
-          "published": "2026-11-18T18:28:31+09:00",
-          "published_label": "11/18(水) 18:28",
+          "published": "2026-11-19T15:27:14+09:00",
+          "published_label": "11/19(木) 15:27",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1205,15 +1230,27 @@
           "is_new": false
         },
         {
-          "title": "\"角南源五取締役も「資本関係の裏付けがなければ、トップ交渉を毎月行うのは難しい」と強調\"\nテレビ朝日HD会長、東映株保有の必要性を強調 村上氏側が追及",
+          "title": "すとぷり株うますぎワロタ",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122952097088065536/Tp_VQGhm?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/nomurasyo/status/2122985205023883664",
+          "images": [],
+          "link": "https://x.com/ygr_kabu/status/2123301003256885533",
           "domain": "x.com",
-          "published": "2026-11-18T18:28:10+09:00",
-          "published_label": "11/18(水) 18:28",
+          "published": "2026-11-19T15:23:02+09:00",
+          "published_label": "11/19(木) 15:23",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "is_new": false
+        },
+        {
+          "title": "AnthropicのIPO、73株だけ当選",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/mocchicc/status/2123300085891317855",
+          "domain": "x.com",
+          "published": "2026-11-19T15:19:24+09:00",
+          "published_label": "11/19(木) 15:19",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1221,7 +1258,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.1
     }
   ]
 }
