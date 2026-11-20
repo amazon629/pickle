@@ -24,6 +24,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | SNS・広告代理店 ニュース監視 | `sources-sns-agencies.json` | `sns-agencies.html` | `data-sns-agencies.json` |
 | キャスター登壇企業 ニュース監視 | `sources-caster-companies.json` | `caster-companies.html` | `data-caster-companies.json` |
 | nrtv登壇企業 ニュース監視 | `sources-nrtv-companies.json` | `nrtv-companies.html` | `data-nrtv-companies.json` |
+| ECのプロ登壇企業 ニュース監視（276社） | `sources-ecnopro-companies.json` | `ecnopro-companies.html` | `data-ecnopro-companies.json` |
 | 広告・マーケ X監視ボード | `sources-ad-marketing.json` | `ad-marketing.html` | `data-ad-marketing.json` |
 | ポケカ・買取 X監視ボード | `sources-pokeca.json` | `pokeca.html` | `data-pokeca.json` |
 | 10億ドル以上ユニコーン ニュース監視 | `sources-unicorns.json` | `unicorns.html` | `data-unicorns.json` |
@@ -31,7 +32,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -82,6 +83,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sns-agencies.html` / `data-sns-agencies.json` | SNS・広告代理店ボードの生成物 |
 | `caster-companies.html` / `data-caster-companies.json` | キャスター登壇企業ボードの生成物 |
 | `nrtv-companies.html` / `data-nrtv-companies.json` | nrtv登壇企業ボードの生成物 |
+| `ecnopro-companies.html` / `data-ecnopro-companies.json` | ECのプロ登壇企業ボード（276社）の生成物 |
 | `ad-marketing.html` / `data-ad-marketing.json` | 広告・マーケ X監視ボードの生成物 |
 | `pokeca.html` / `data-pokeca.json` | ポケカ・買取 X監視ボードの生成物 |
 | `unicorns.html` / `data-unicorns.json` | 10億ドル以上ユニコーンボードの生成物 |
@@ -97,6 +99,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
 | `sync_caster_companies.py` | Excel「登壇企業一覧」（キャスター）→ `sources-caster-companies.json` を生成（120社） |
 | `sync_nrtv_companies.py` | Excel「登壇企業一覧」（nrtv）→ `sources-nrtv-companies.json` を生成（81社） |
+| `sync_ecnopro_companies.py` | Excel「企業別集計」（ECのプロ）→ `sources-ecnopro-companies.json` を生成（276社・表記ゆれ統合と本文ノイズ除去付き） |
 | `sync_ipo_approved_news.py` | `archive-ipo-approved.json` の社名 → `sources-ipo-news.json` を生成・追記（`--check` / `--explain` でノイズ確認。`update.py` が毎回の実行前に自動で呼ぶ） |
 | `sync_unicorn_startups.py` | Excel「評価額あり案件」→ `sources-unicorns.json` を生成（円換算1,500億円以上＝10億ドル以上・重複統合・ノイズ除去`--check` 付き） |
 | `speaker_boards.py` | 上記2本の共通部品（Excel 読み取り・社名の名寄せ・クエリ組み立て・`--check`） |
@@ -138,7 +141,8 @@ python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json 
 
 ### 社名ごとにニュースを追う（登壇企業ボード）
 
-`sources-ec-companies.json` / `sources-caster-companies.json` / `sources-nrtv-companies.json` は、
+`sources-ec-companies.json` / `sources-caster-companies.json` / `sources-nrtv-companies.json` /
+`sources-ecnopro-companies.json` は、
 Excel の「登壇企業一覧」から起こした「1社＝1ソース（Google ニュース検索）」のボードです。
 （ピュアフラットは `sync_pureflat_companies.py`、キャスターと nrtv は共通部品 `speaker_boards.py` を使います）
 
@@ -147,6 +151,7 @@ python3 sync_pureflat_companies.py --check   # Excel を読み直して設定を
 python3 sync_ec_support.py --check           # EC・支援企業34社（まず --only これから,12 で数社だけ確認できる）
 python3 sync_caster_companies.py --check     # キャスター登壇企業120社
 python3 sync_nrtv_companies.py --check       # nrtv登壇企業81社
+python3 sync_ecnopro_companies.py --check    # ECのプロ登壇企業276社（元Excel 325表記 → ノイズ8行を除き276社）
 python3 update.py --board ec-companies,ec-support,caster-companies,nrtv-companies   # 企業ニュースの4枚だけ更新
 ```
 

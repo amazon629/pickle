@@ -209,6 +209,10 @@ def load_companies(xlsx: str, board: dict) -> list:
             return 0
 
     aliases = {name_key(k): name_key(v) for k, v in (board.get("aliases") or {}).items()}
+    # Excel の行に混ざる解析ノイズ（本文の切れ端など）を落とす・表記をそろえる
+    skip_names = set(board.get("exclude_names") or [])
+    skip_prefixes = tuple(board.get("exclude_prefixes") or [])
+    name_map = board.get("name_map") or {}
 
     def root_key(name: str) -> str:
         k = name_key(name)
@@ -223,6 +227,9 @@ def load_companies(xlsx: str, board: dict) -> list:
         name = (r[ci] if ci < len(r) else "").strip()
         if not name:
             continue
+        if name in skip_names or (skip_prefixes and name.startswith(skip_prefixes)):
+            continue
+        name = name_map.get(name, name)
         key = root_key(name)
         g = groups.setdefault(key, {"names": [], "sessions": 0, "events": 0, "first": pos, "counts": {}})
         if name not in g["names"]:
@@ -275,6 +282,8 @@ def build_source(company: dict, index: int, board: dict) -> dict:
         "limit": 5,
         "enabled": True,
     }
+    if override.get("exclude"):
+        source["exclude_match"] = override["exclude"]
     if override.get("context"):
         ctx = override["context"]
         if ctx == "strict":
@@ -317,6 +326,7 @@ def check_source(src: dict, settings: dict) -> dict:
                 for t in titles
                 if match_any(t, src["must_match"])
                 and (not src.get("context_match") or match_any(t, src["context_match"]))
+                and not (src.get("exclude_match") and match_any(t, src["exclude_match"]))
             ]
             return {"total": len(titles), "kept": len(kept), "sample": kept[:3], "error": None}
         except Exception as exc:  # noqa: BLE001

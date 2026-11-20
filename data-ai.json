@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:54:58+09:00",
-  "generated_at_label": "2026/11/20 10:54 JST",
+  "generated_at": "2026-11-20T11:19:23+09:00",
+  "generated_at_label": "2026/11/20 11:19 JST",
   "title": "AI監視ボード",
   "total": 363,
   "sources": [
@@ -31,6 +31,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "これはヤバい\n写真を一筆ずつ絵にするデモ\n「Paint」で描く過程まで見せる\n大きな形から細部まで4段階\n完成画像を出すだけで終わらない\n注目すべきは絵より「描く仕組み」\n画面から分かる仕組みは👇\n右側に表示されているのは参考写真\n左側には同じ人物を描いた肖像画\n顔だけでなく髪や服の陰影も表現\n背景まで含めて写真を再現している\n画面のタイトルは「Portrait study」\n上部にはブラシサイズの選択欄\n使用色はカラーコードで表示される\n説明文には一筆ごとに写真から色を取るとある\nその色を重ねて肖像画を作る仕組み\n描画工程は4つに分かれている\n最初は「Block-in」で大きな形\n次は「Form and color」で形と色\n続く「Refinement」で描写を整える\n最後は「Fine details」で細部を詰める\n大まかな形から細部へ進む構成だ\n筆数を示すカウンターも表示\n一筆の積み重ねを数字でも見せている\n一時停止と再スタートのボタンがある\n再生速度には1倍と2倍の表示\n別の写真へ変更する項目もある\n右上にはPNGの保存ボタン\n注目したいのは写実性だけじゃない\n写真を作品に変える過程まで見せる点\n完成画像1枚とは違う楽しみ方になる\n応用を考えるなら似顔絵の制作演出\nSNSで制作過程を見せる使い方もある\n展示で絵が現れていく演出にも合う\n同じ見せ方を設計するなら核は3つ\n参考写真から色を拾う処理\n粗い形から細部へ筆跡を重ねる処理\nその過程を再生して見せる画面\nただし静止画だけでは判断できない点もある\n実際の制作時間やAIの担当範囲は不明\n元投稿の「本物のAGI」という評価は未検証\n描画の再生とAIの自律操作は別の話\nそれでも作品の見せ方として面白い\n完成品だけでなく過程もコンテンツになる\n何を作るかに加えてどう見せるかで差がつく\nVideo\n鈴木@アナログ営業会社を100日後にAIで売上を300％にする人 (@ai_300)\n— https://x.com/ai_300/status/2117751132806435132",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2122763229021491200/img/LX7qooQXxn_QvvXh.jpg?name=small",
+            "https://pbs.twimg.com/media/HWM5pTOaEAA4UcU.jpg?name=small"
+          ],
+          "link": "https://x.com/ai_300/status/2123597200773251400",
+          "domain": "x.com",
+          "published": "2026-11-20T11:00:01+09:00",
+          "published_label": "2026/11/20(金) 11:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "これはヤバい\n画像1枚が街になった\nGPT 6.2で3D空間化\n交差点をそのまま歩ける\n地図アプリの見方が変わる\n動画で見ると一発で震える\n再現方法は👇\n街の写真を1枚用意する\n今回はビル街の交差点\nラーメン屋の角が中心\n道路\n横断歩道\n建物\n看板\n歩道\n車\n人の位置まで写っている\nこの画像をGPT 6.2に渡す\nやっていることはシンプル\n写真を解析させる\n街の構造を読み取らせる\n奥行きを推定させる\n建物の面を分ける\n道路の向きを判断する\n交差点の形を作る\nそのまま3D空間に変換する\n完成した画面がすごい\nただの画像ではない\n実際に中へ入れる\n視点を動かせる\n交差点に降りられる\nラーメン屋の前に立てる\n道沿いに歩ける\n画像の中を探索できる\n従来なら3Dモデリングが必要\n建物を作る\n道路を作る\nテクスチャを貼る\nカメラ位置を合わせる\n全部人間の作業だった\nそれが画像1枚から始まる\nここが一番デカい\n写真が素材ではなくなる\n写真そのものが空間になる\n不動産の内見にも使える\n観光案内にも使える\nゲーム背景にも使える\n街歩きコンテンツにも使える\n店舗紹介にも刺さる\n必要なのは元画像\nあとは空間化する指示\n最後に歩ける形で出すだけ\nこれで差がつく\n2Dを見る時代から\n3Dに入る時代に変わる\nVideo\n鈴木@アナログ営業会社を100日後にAIで売上を300％にする人 (@ai_300)\nこれはヤバい\nMuseのオープンソースが出た\n「LightVela」にクラウドPCまで搭載\n新規ユーザーは1か月無料\nしかも4,500 AIクレジット付き\nAIが自分専用のPCを持つ時代に突入\n使い方は👇\n今回話題になっているのが「LightVela」\nTencentのLighthouseチームが開発した\nクラウド型のAIエージェント\nMetaのMuseを連想させるサービスだが\n注目すべきはクラウドPCの存在\n画像を見ると上部にチャット画面\nその下に「クラウドPC」のタブがある\nタブを開くと表示されるのは\nAIエージェント専用のデスクトップ\n紫色の壁紙にアプリのアイコン\n普通のPCのような画面が現れる\nさらに画面下には\n「デスクトップを操作」のボタン\n操作権限を取得すれば\nキーボードとマウスで直接操作できる\n「最大化」を押せば\nクラウドPCの画面を大きく表示可能\nしかも単なる遠隔PCではない\n裏側ではHermes Agentが動いている\nチャットから仕事を依頼でき\n設定したAIモデルやスキルを活用できる\n例えば競合調査や資料の下書き\n情報整理などを任せる使い方がある\n複数のBotを作成して\n役割や記憶を分けることも可能\nさらにスケジュールタスクにも対応\n自分のPCを起動し続けなくても\nクラウド上でAgentを稼働させられる\n従来ならサーバーの契約から\n環境構築や運用まで必要だった\nLightVelaはその面倒な部分を減らし\nブラウザーから使える形にしている\n再現するなら公式サイトで登録\nプランを有効化してBotを設定\nチャットで指示を出し\nクラウドPCの画面を開くだけ\nただしクラウドPCはまだBeta機能\nAIによる全操作の成功を保証するものではない\nそれでも変化は大きい\nAIは質問に答えるだけの存在から\n専用の作業環境を持つ存在へ変わっている\nこれからはAIを何体使うかより\nAIにどんな仕事を任せるかで差がつく\n— https://x.com/ai_300/status/2123189512675156074",
@@ -273,27 +292,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "機能の説明ゼロでシェア8割。B2Bの購買って、スペック表じゃなくて後悔の一言で動くんだ。\n横ちゃん | 元芸人の笑売士 (@YokotaSho)\n『上京して20年。お母さん、また好きな事例が一つ増えました。』\n— https://x.com/YokotaSho/status/2122508418108022868",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXSmwLga0AA_yM9.jpg?name=small"
-          ],
-          "link": "https://x.com/ai_300/status/2122700510700728402",
-          "domain": "x.com",
-          "published": "2026-11-17T23:36:54+09:00",
-          "published_label": "2026/11/17(火) 23:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 2.9
     },
     {
       "id": "x_okapi_fukugyo",
@@ -574,7 +575,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 2.6
     },
     {
       "id": "x_codexneo4",
@@ -1008,7 +1009,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 2.5
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1293,7 +1294,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.1
+      "elapsed": 2.5
     },
     {
       "id": "x_taki_auto",
@@ -1497,7 +1498,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 3.0
     },
     {
       "id": "x_sora19ai",
@@ -1772,7 +1773,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.2
+      "elapsed": 6.4
     },
     {
       "id": "x_shota7180",
@@ -2063,7 +2064,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 6.2
     },
     {
       "id": "x_ichiaimarketer",
@@ -2345,7 +2346,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.8
+      "elapsed": 6.3
     },
     {
       "id": "x_aiaircle34052",
@@ -2628,7 +2629,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.4
+      "elapsed": 6.1
     },
     {
       "id": "x_ai_masaou",
@@ -2657,6 +2658,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "本当に最近は文字も打ちたくない、読みたくない、ブラウザも操作したくない。話すだけにしたいマンになりつつあります。\nいろいろあれこれ自分でもやってはいるんですがドンピシャな企画ありがとうございます。T3Codeで連携てとこが憎いねー！\n予約ポチりました。学ぶぞー🔥\nまさお@AI駆動開発 (@AI_masaou)\n【※人数限定】\nGrok Bot ヴァイキング\n1DAYマスター勉強会\n11/25（水）20:00〜\nGrok Botを中心とした\nパーソナルAIエージェントの\n徹底解剖から具体の活用事例まで\n完全継承します...\n詳細は下記の動画をご覧ください👇\n🎁 豪華特典もあり\n📅 開催日程\n11/25（水）20:00〜22:00（予定）\nZoom・参加費無料・アーカイブなし\n✅ 参加方法\n下記の募集ページから登録\n※予約の受付は11/25（水）20:00まで\nVideo\n— https://x.com/AI_masaou/status/2123370718801097038",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXiBe4obkAAFQ-M.png?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123367457620713473/img/-JstXFhKg2vk_gAw.jpg?name=small"
+          ],
+          "link": "https://x.com/Lovanaut/status/2123590017641840978",
+          "domain": "x.com",
+          "published": "2026-11-20T10:31:29+09:00",
+          "published_label": "2026/11/20(金) 10:31",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "【※人数限定】\nGrok Bot ヴァイキング\n1DAYマスター勉強会\n11/25（水）20:00〜\nGrok Botを中心とした\nパーソナルAIエージェントの\n徹底解剖から具体の活用事例まで\n完全継承します...\n詳細は下記の動画をご覧ください👇\n🎁 豪華特典もあり\n📅 開催日程\n11/25（水）20:00〜22:00（予定）\nZoom・参加費無料・アーカイブなし\n✅ 参加方法\n下記の募集ページから登録\n※予約の受付は11/25（水）20:00まで",
@@ -2889,25 +2909,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "俺はとても好きだよ 6.2シリーズ",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AI_masaou/status/2122795705790320679",
-          "domain": "x.com",
-          "published": "2026-11-18T05:55:10+09:00",
-          "published_label": "2026/11/18(水) 05:55",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 8.4
+      "elapsed": 6.4
     },
     {
       "id": "x_gosrum",
@@ -3187,7 +3191,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 7.0
+      "elapsed": 6.1
     },
     {
       "id": "x_keitowebai",
@@ -3470,7 +3474,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.4
+      "elapsed": 5.4
     },
     {
       "id": "x_sugurukun_ai",
@@ -3735,7 +3739,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.4
+      "elapsed": 0.7
     },
     {
       "id": "x_ctgptlb",
@@ -4015,7 +4019,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 6.0
     },
     {
       "id": "x_niwakunihiko",
@@ -4280,7 +4284,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.5
+      "elapsed": 6.7
     },
     {
       "id": "x_npaka123",
@@ -4569,7 +4573,7 @@
           "title_ja": "RT @MLBear2 (@npaka123 より):"
         }
       ],
-      "elapsed": 8.6
+      "elapsed": 6.9
     },
     {
       "id": "x_itnavi2022",
@@ -4858,7 +4862,7 @@
           "title_ja": "Amazon のモデルである Amazon-Web-Search-Agent と AgentCore Web Search は、Search Arena で第 1 位の座を獲得しました。\n@Amazon チームのこのリリースおめでとうございます!カスタムのトレーニング後のモデルについて詳しくは、スレッドをご覧ください。"
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 2.2
     },
     {
       "id": "x_panchaaan_2",
@@ -5144,7 +5148,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.6
+      "elapsed": 2.4
     },
     {
       "id": "x_haider1",
@@ -5432,7 +5436,7 @@
           "title_ja": "astra 6.2 は基本的に 6 のスーパーチャージャー版です\n昨夜6.2がドロップされたとき、私はastra 6を使用したソフトウェアアプリケーションに取り組んでいたので、それにいくつかの変更を加えました。私はその警告を無視して、いつも6でやったようにファイルを直接コピーして、結局プロジェクトを壊してしまいました。\nしかし、6.2 では 6 よりもはるかに速くすべてが修正されました。"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.8
     },
     {
       "id": "x_lxgtugtlrsh8yxw",
@@ -5713,7 +5717,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.4
+      "elapsed": 2.3
     },
     {
       "id": "x_ytiskw",
@@ -5998,7 +6002,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.3
+      "elapsed": 2.3
     },
     {
       "id": "x_ayami_marketing",
@@ -6278,7 +6282,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 1.3
     },
     {
       "id": "x_super_bonochin",
@@ -6549,7 +6553,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 1.4
     },
     {
       "id": "x_shodaiiiiii",
@@ -6578,6 +6582,42 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122689464376217600/CMZeVfU6?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/shodaiiiiii/status/2123600986635977066",
+          "domain": "x.com",
+          "published": "2026-11-20T11:15:04+09:00",
+          "published_label": "2026/11/20(金) 11:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "AI臭をなくすスキル、Copilotで使えるmini版もあるんや\nエージェント・PowerPoint・Coworkで使う手順まで載っててありがたい",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXiL1UJbIAASw_B.jpg?name=small"
+          ],
+          "link": "https://x.com/shodaiiiiii/status/2123600974535364741",
+          "domain": "x.com",
+          "published": "2026-11-20T11:15:01+09:00",
+          "published_label": "2026/11/20(金) 11:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "",
@@ -6761,40 +6801,6 @@
           "is_new": false
         },
         {
-          "title": "お！エンジニアが集まるバーが近所にできるのか気になる👀\nかほ / Kaho Michimae (@kaho_eng)\n【ご報告】\n2027年1月、京都・今出川にエンジニアが集まるバー「\nなぜ今京都に作るのか、これまでの葛藤や立ち上げへの想いをnoteにまとめました。\nぜひ読んでいただけると嬉しいです！\n— https://x.com/kaho_eng/status/2118274795695730938",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/shodaiiiiii/status/2122921194425122960",
-          "domain": "x.com",
-          "published": "2026-11-18T14:13:49+09:00",
-          "published_label": "2026/11/18(水) 14:13",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【本日15:00〜生配信！】\n「現場の信頼を失わずに、みんながハッピーになるDXを」\n創業135年・老舗製造業の7代目アトツギであり、DX・AX専門家の桺本頌大さん（freeeアトツギ支援室アンバサダー）をお迎えし、実際のfreee画面やAIを動かしながら現場改革のリアルを検証します！\nテーマ：『なぜ社内改革は「勤怠DX」から始めるべきなのか？』\n事前登録不要・当アカウントのタイムラインでそのまま無料視聴いただけます。15時になりましたらぜひ覗きにきてください👇\n#freee #アトツギ #中小企業DX",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXYIYYiaUAAKP61.jpg?name=small"
-          ],
-          "link": "https://x.com/freee_jp/status/2122894893546873148",
-          "domain": "x.com",
-          "published": "2026-11-18T12:29:18+09:00",
-          "published_label": "2026/11/18(水) 12:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "AIに任せていくと詰まるのは、件数じゃなくて\n「起案された内容を読み込んで理解して判断入れる」ところ\nYesかNoで返せない確認ほど、手が止まるんよな",
           "summary": "",
           "images": [
@@ -6813,7 +6819,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.3
+      "elapsed": 5.8
     }
   ]
 }
