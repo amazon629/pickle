@@ -1917,6 +1917,21 @@ def prefetch_all(boards: list, workers: int = None) -> dict:
 
 def run(args) -> int:
     """コマンドライン引数から対象ボードを決めて更新する。"""
+    # 新規承認銘柄の自動同期: ipo-approved の archive に増えた社名を
+    # sources-ipo-news.json（ipo-news.html）へ自動で足す。
+    # archive は ipo-approved ボードの取得時に update.py 自身が追記するので、
+    # ここで一度読むだけで「新しい新規承認が出たら次の回から監視に加わる」が成立する。
+    # 失敗しても他のボードの更新は止めない。
+    if not args.config:
+        try:
+            import sync_ipo_approved_news
+
+            added = sync_ipo_approved_news.sync(verbose=bool(args.verbose))
+            if added:
+                print(f"IPO新規承認ニュース: 新規 {len(added)} 社を監視に追加（{', '.join(added)}）")
+        except Exception as exc:  # noqa: BLE001
+            print(f"IPO新規承認ニュースの同期をスキップ: {exc}", file=sys.stderr)
+
     all_boards = discover_boards()
     boards = list(all_boards)
 

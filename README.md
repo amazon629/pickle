@@ -12,6 +12,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI監視ボード | `sources-ai.json` | `ai.html` | `data-ai.json` |
 | IPO・マーケット監視ボード | `sources-ipo.json` | `ipo.html` | `data-ipo.json` |
 | 東京IPO・新規承認ボード（2026年以降の「新規承認」だけ／過去分は `archive-ipo-approved.json`） | `sources-ipo-approved.json` | `ipo-approved.html` | `data-ipo-approved.json` |
+| IPO新規承認銘柄 ニュース監視（新規承認された銘柄ごとにGoogleニュース／新しい承認は自動追加） | `sources-ipo-news.json` | `ipo-news.html` | `data-ipo-news.json` |
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
 | スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
@@ -30,7 +31,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -51,6 +52,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sources.json` | メインボードの監視対象（ここだけ触れば増減できる） |
 | `sources-ai.json` | AIボードの監視対象 |
 | `sources-ipo.json` | IPO・マーケットボードの監視対象 |
+| `sources-ipo-news.json` | IPO新規承認銘柄ニュースボードの監視対象（`sync_ipo_approved_news.py` が `archive-ipo-approved.json` から自動生成） |
 | `sources-prtimes.json` | PR TIMESボードの監視対象 |
 | `sources-startup.json` | スタートアップボードの監視対象 |
 | `sources-unicorns.json` | 10億ドル以上ユニコーンボードの監視対象（48社。`sync_unicorn_startups.py` で生成） |
@@ -68,6 +70,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `index.html` / `data.json` | メインボードの生成物 |
 | `ai.html` / `data-ai.json` | AIボードの生成物 |
 | `ipo.html` / `data-ipo.json` | IPO・マーケットボードの生成物 |
+| `ipo-news.html` / `data-ipo-news.json` | IPO新規承認銘柄ニュースボードの生成物 |
 | `prtimes.html` / `data-prtimes.json` | PR TIMESボードの生成物 |
 | `startup.html` / `data-startup.json` | スタートアップボードの生成物 |
 | `ec-companies.html` / `data-ec-companies.json` | 登壇企業ボードの生成物 |
@@ -94,6 +97,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
 | `sync_caster_companies.py` | Excel「登壇企業一覧」（キャスター）→ `sources-caster-companies.json` を生成（120社） |
 | `sync_nrtv_companies.py` | Excel「登壇企業一覧」（nrtv）→ `sources-nrtv-companies.json` を生成（81社） |
+| `sync_ipo_approved_news.py` | `archive-ipo-approved.json` の社名 → `sources-ipo-news.json` を生成・追記（`--check` / `--explain` でノイズ確認。`update.py` が毎回の実行前に自動で呼ぶ） |
 | `sync_unicorn_startups.py` | Excel「評価額あり案件」→ `sources-unicorns.json` を生成（円換算1,500億円以上＝10億ドル以上・重複統合・ノイズ除去`--check` 付き） |
 | `speaker_boards.py` | 上記2本の共通部品（Excel 読み取り・社名の名寄せ・クエリ組み立て・`--check`） |
 | `sources-ad-marketing.json` | 広告・マーケ X監視ボードの監視対象（X 10アカウント。`add_source.py --bulk` で作成） |
@@ -111,6 +115,20 @@ python3 update.py --dry-run -v   # 取得だけしてファイルは書かない
 python3 update.py --board ipo            # IPO ボードだけ
 python3 update.py --config sources-ipo.json --out ipo.html --data data-ipo.json  # 出力先も指定
 ```
+
+### IPO新規承認の新しい銘柄を自動で監視に足す
+
+`ipo-news.html`（IPO新規承認銘柄ニュースボード）は、`sync_ipo_approved_news.py` が
+`archive-ipo-approved.json`（東京IPO @tokyoipo_sns の「新規承認」投稿の蓄積）から社名を抜き出して
+`sources-ipo-news.json` を作ります。`update.py` は毎回の実行の冒頭でこの同期を自動で呼ぶので、
+**新しい新規承認が出れば、次の更新（GitHub Actions の毎時実行）から自動でカードが増えます**（AI不要）。
+
+- 18社ぶんの検索クエリ・ノイズ除去は `sync_ipo_approved_news.py` の `PROFILES` に固めてあり、
+  `--check`（実際に引いて件数と見出しを確認）と `--check --explain GO`（落とした見出しも表示）で調整できます。
+- 未登録の社名は `auto_profile()` が自動でクエリを作ります。短い名前・英字だけの名前は
+  株式・事業の語（`context_match`）で絞ったうえで `note` に「要調整」と残します。
+- 株価ページ・掲示板などの定型見出し（`ROUTINE_NOISE`）は全社共通で除外します。
+- 同期結果は `settings.auto_added` に残るので、あとから個別ルールを書くべき社名が分かります。
 
 ### ボードを増やす
 
