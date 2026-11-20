@@ -210,9 +210,13 @@ def load_companies(xlsx: str, board: dict) -> list:
 
     aliases = {name_key(k): name_key(v) for k, v in (board.get("aliases") or {}).items()}
     # Excel の行に混ざる解析ノイズ（本文の切れ端など）を落とす・表記をそろえる
+    # name_map / exclude_names は空白・中黒・全角半角の揺れを無視して照合する
+    # （Excel を作り直すと「AI CROSS株式会社」が「AICROSS株式会社」になる等、表記が変わるため）。
     skip_names = set(board.get("exclude_names") or [])
+    skip_keys = {name_key(n) for n in skip_names}
     skip_prefixes = tuple(board.get("exclude_prefixes") or [])
-    name_map = board.get("name_map") or {}
+    strip_prefixes = tuple(board.get("strip_prefixes") or [])
+    name_map = {name_key(k): v for k, v in (board.get("name_map") or {}).items()}
 
     def root_key(name: str) -> str:
         k = name_key(name)
@@ -227,9 +231,21 @@ def load_companies(xlsx: str, board: dict) -> list:
         name = (r[ci] if ci < len(r) else "").strip()
         if not name:
             continue
-        if name in skip_names or (skip_prefixes and name.startswith(skip_prefixes)):
+        # 「企業名：」「｜」などセルに紛れ込んだラベルを外す
+        changed = True
+        while changed:
+            changed = False
+            for prefix in strip_prefixes:
+                if name.startswith(prefix):
+                    name = name[len(prefix):].strip()
+                    changed = True
+        if not name:
             continue
-        name = name_map.get(name, name)
+        if name in skip_names or name_key(name) in skip_keys:
+            continue
+        if skip_prefixes and name.startswith(skip_prefixes):
+            continue
+        name = name_map.get(name_key(name), name)
         key = root_key(name)
         g = groups.setdefault(key, {"names": [], "sessions": 0, "events": 0, "first": pos, "counts": {}})
         if name not in g["names"]:

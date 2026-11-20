@@ -1186,12 +1186,43 @@
     }
    ]
   },
+  "株式会社Dダイレクションズ": {
+   "html_news": [
+    {
+     "url": "https://d-direction.jp/information/",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社JAPANSOLUTIONS": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "html_news": [
+    {
+     "url": "https://japan-solution.jp/news/",
+     "origin": "site"
+    }
+   ]
+  },
   "株式会社SpiderLabs": {
    "extra_feeds": [
     {
      "url": "https://prtimes.jp/companyrdf.php?company_id=31981",
      "origin": "prtimes",
      "label": "PR TIMES"
+    }
+   ]
+  },
+  "株式会社WacWorks": {
+   "html_news": [
+    {
+     "url": "https://wac-works-ec.jp/news/",
+     "origin": "site"
     }
    ]
   },
@@ -1273,6 +1304,14 @@
    "html_news": [
     {
      "url": "https://www.re-terior.com/news",
+     "origin": "site"
+    }
+   ]
+  },
+  "株式会社久": {
+   "html_news": [
+    {
+     "url": "https://www.qinc.co.jp/news/",
      "origin": "site"
     }
    ]

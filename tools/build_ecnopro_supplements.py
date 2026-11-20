@@ -44,6 +44,7 @@ PRT = [
     ("サヴァリ株式会社", 33158),
     ("アジアンブリッジ株式会社", 34674),
     ("株式会社銀座千疋屋ホールディングス", 115451),  # PR TIMES 表記は「銀座千疋屋」
+    ("株式会社JAPANSOLUTIONS", 163031),   # 京都のEC/TikTok Shop支援（2026年のリリースあり）
 ]
 
 # (社名, 公式サイトのニュース／お知らせURL) — 2026年の記事が取れることを実取得で確認済み
@@ -62,6 +63,10 @@ SITE = [
     ("株式会社セレクト", "https://select-ltd.jp/news/"),
     ("株式会社リテリア", "https://www.re-terior.com/news"),
     ("アジアンブリッジ株式会社", "https://www.asian-bridge.com/news/"),
+    ("株式会社JAPANSOLUTIONS", "https://japan-solution.jp/news/"),
+    ("株式会社Dダイレクションズ", "https://d-direction.jp/information/"),
+    ("株式会社WacWorks", "https://wac-works-ec.jp/news/"),
+    ("株式会社久", "https://www.qinc.co.jp/news/"),   # Q Inc.／ブランドEC成長支援
 ]
 
 
