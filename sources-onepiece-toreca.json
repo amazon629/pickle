@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "title": "トレカ・ワンピカ X監視ボード",
+    "nav_label": "🏴‍☠️ ワンピカ・トレカ",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_onepiecenyuka",
+      "type": "x",
+      "name": "ワンピースカードゲーム速報 - 抽選 再販予約通知",
+      "handle": "onepiecenyuka",
+      "enabled": true
+    },
+    {
+      "id": "x_komugichanex",
+      "type": "x",
+      "name": "こむぎ｜トレカ",
+      "handle": "komugichanex",
+      "enabled": true
+    },
+    {
+      "id": "x_zabi_pokeka",
+      "type": "x",
+      "name": "♠ザビマル♣ トレカ投資 抽選速報",
+      "handle": "Zabi_pokeka",
+      "enabled": true
+    },
+    {
+      "id": "x_shyzeriyan",
+      "type": "x",
+      "name": "シャイゼリヤン",
+      "handle": "shyzeriyan",
+      "enabled": true
+    },
+    {
+      "id": "x_pika11000",
+      "type": "x",
+      "name": "ぴかQ",
+      "handle": "pika11000",
+      "enabled": true
+    },
+    {
+      "id": "x_onepiecetcgnews",
+      "type": "x",
+      "name": "ワンピースカードまとめ｜ワンピカ 予約・抽選・再販情報",
+      "handle": "onepiecetcgnews",
+      "enabled": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T09:52:17+09:00",
-  "generated_at_label": "2026/11/20 09:52 JST",
+  "generated_at": "2026-11-20T10:32:41+09:00",
+  "generated_at_label": "2026/11/20 10:32 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 2.8
+      "elapsed": 6.8
     },
     {
       "id": "x_opencode",
@@ -568,7 +568,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 2.8
+      "elapsed": 6.8
     },
     {
       "id": "x_aimirai46487",
@@ -848,7 +848,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 6.9
     },
     {
       "id": "x_kimmonismus",
@@ -878,6 +878,28 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
+        },
+        {
+          "title": "A short review of Microsoft Ignite + honest take:\nI spent the last few days at Microsoft Ignite. I got to watch the keynote and do two interviews, with Kyle Daigle (@kdaigle COO of GitHub and CMO Developer at Microsoft) and Sergey Fayfer ( @fayfers CVP Copilot Product). Two absolutely nice guys. On top of that, I had a Q&A with Microsoft CEO Satya Nadella in a very small group. Great as always, you just get really interesting insights.\nFirst, a quick recap of what Microsoft announced:\n- New in-house MAI models, including MAI Code 2 and Code 2 Flash (live in GitHub Copilot), MAI Image 2.7 and the speech-to-speech model MAI Realtime 1\n- Autopilot, an always-on agent with its own identity and memory, starting to roll out to Frontier customers (Microsoft's early access program)\n- Copilot Home, where Chat and Cowork come together, plus Word, Excel and PowerPoint inside the Copilot app, both generally available\n- Workspaces, shared spaces where people and agents work on one project (the successor to Notebooks)\n- Microsoft-Decision-1.1, a small router model that picks the model and effort level for each task and powers the Auto mode in Cowork\n- Microsoft IQ, the context layer that gives company agents access to mails, files and data\nI want to highlight two things:\n1) Microsoft is betting on efficiency. Cheaper tokens matter in business. With MAI Code 2 they continue on the path GitHub already took: their own cheap models, plus orchestration that goes way beyond simple routers. GitHub's Fusion picks the models for each task and lets them work together. A cheaper model starts and a stronger one only takes over when needed, or one model drafts and another reviews. Microsoft says MAI Code 2 reaches 96% of Claude Opus 5.5's performance at 5% of the cost.\nAnd credit where it's due: Microsoft, with its focus on business and enterprise through Office, will be successful with this. I say that out of conviction. You hear from everywhere that token costs keep rising in companies. Microsoft shows up as the provider with ideas on how to cut those costs, keep working smart and keep customers inside its own Office ecosystem at the same time.\n2) And that ecosystem got a lot bigger. Autopilot, Microsoft's always-on agent for work, is now rolling out, starting with Frontier customers. That matters too. Think about how many customers Microsoft has through Office. This is a big step toward getting the working world used to personalized agents. They have the context of your company, they are tailored to each person, and they are very similar to OpenAI's Dots.\nTo be fair, I also said in my conversations that Microsoft has to be careful not to make the same mistake as OpenAI here. What makes Grok Bot (among others) so good is that you can create as many agents as you want, with team meetings, a chief of staff and much deeper personalization. Autopilot feels more like OpenAI's Dots: one agent, one long session, even though you can create several sessions with Autopilot. I'd like to see more personalization, but I heard Microsoft's always-on agent is still a work in progress. The same applies to Copilot. Routing is often selected by default. However, my distrust likely stems from the GPT-5 release, when routing was first truly implemented - and it worked rather poorly.\nOne more thought that came to me during the event: Microsoft and GitHub are going their own way more and more, with their own models. With MAI Code 2 and Fusion they get close to frontier models like Opus 5.5 at a much lower cost. To me it looks like Microsoft is looking for independence. More and more of their business runs on their own models, together with attractive offers for their customers, and that could actually become a moat. We'll see.\nOverall a really interesting look behind the scenes. Microsoft is slimming down and simplifying its interface and bringing it all together, and I'm quite sure they listen to feedback. That's why I look back at Ignite in a positive way.\nIt was a great experience and im really looking forward to what Microsoft is going to release and update. And who knows, maybe in a few months even Microsoft is starting to compete with OpenAI, Anthropic and Google (though that's not very likely ;)",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXh9pEsbsAAPQhr.jpg?name=small",
+            "https://pbs.twimg.com/media/HXh9pQhawAAMR0u.jpg?name=small",
+            "https://pbs.twimg.com/media/HXh9pcOboAAsCqh.jpg?name=small",
+            "https://pbs.twimg.com/media/HXh9pnHagAA7tDy.png?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123585386379411838",
+          "domain": "x.com",
+          "published": "2026-11-20T10:13:05+09:00",
+          "published_label": "2026/11/20(金) 10:13",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Microsoft Ignite の短いレビュー + 正直な意見:\nここ数日間、私は Microsoft Ignite で過ごしました。私は基調講演を視聴し、Kyle Daigle (@kdaigle GitHub の COO および Microsoft の CMO 開発者) と Sergey Fayfer (@fayfers CVP Copilot Product) に 2 つのインタビューをすることができました。本当に素敵な二人です。それに加えて、非常に少人数のグループで Microsoft CEO の Satya Nadella と Q&A を行いました。いつものように素晴らしいです。本当に興味深い洞察が得られます。\nまず、Microsoft が発表した内容を簡単に要約します。\n- 新しい社内 MAI モデル (MAI Code 2 および Code 2 Flash (GitHub Copilot でライブ)、MAI Image 2.7、および音声合成モデル MAI Realtime 1 を含む)\n- 独自の ID とメモリを備えた常時稼働エージェントである Autopilot が、Frontier 顧客への展開を開始 (Microsoft の早期アクセス プログラム)\n- Chat と Cowork が連携する Copilot ホーム、および Copilot アプリ内の Word、Excel、PowerPoint (どちらも一般提供)\n- ワークスペース、ユーザーとエージェントが 1 つのプロジェクトに取り組む共有スペース (Notebooks の後継)\n- Microsoft-Decision-1.1、各タスクのモデルと作業レベルを選択し、Cowork の自動モードを強化する小型ルーター モデル\n- Microsoft IQ、企業エージェントがメール、ファイル、データにアクセスできるようにするコンテキスト層\n2 つのことを強調したいと思います。\n1) Microsoft は効率性に賭けています。ビジネスにおいては、より安価なトークンが重要です。 MAI Code 2 では、GitHub がすでにたどった道を継続します。独自の安価なモデルと、単純なルーターをはるかに超えたオーケストレーションです。 GitHu"
         },
         {
           "title": "",
@@ -1113,28 +1135,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "「SECの提出書類と投資家によると、今日の同社のIPO後、アンスロピックの平均的な従業員の価値は4,000万ドルを超える可能性があります。」"
-        },
-        {
-          "title": "Introducing Genie 4 in the Gemini API + @GoogleAIStudio, our first world model for developers to build with and create new world model experiences 🔮\nTry it out:",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123465723993276417/UVxCCw5I?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/OfficialLoganK/status/2123467449257623770",
-          "domain": "x.com",
-          "published": "2026-11-20T02:24:26+09:00",
-          "published_label": "2026/11/20(金) 02:24",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Gemini API に Genie 4 を導入 + @GoogleAIStudio、開発者が新しいワールド モデル エクスペリエンスを構築および作成するための最初のワールド モデル 🔮\n試してみてください:"
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 6.4
     },
     {
       "id": "x_haider1",
@@ -1164,6 +1167,23 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "astra 6.2 and gemini 4 neon might be the best coding combo right now\n6.2 as the orchestrator and neon as the coding agent which is honestly a coding machine\nastra 6.2 understands context and overall project management better and neon is better than carbon",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2123589644570730939",
+          "domain": "x.com",
+          "published": "2026-11-20T10:30:00+09:00",
+          "published_label": "2026/11/20(金) 10:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "astra 6.2 と gemini 4 neon は現時点で最高のコーディングの組み合わせかもしれません\n6.2 はオーケストレーターとして、neon はコーディング エージェントとして、つまりコーディング マシンです\nastra 6.2 はコンテキストと全体的なプロジェクト管理をよりよく理解しており、ネオンはカーボンよりも優れています"
         },
         {
           "title": "not sure if anyone else noticed but the biggest improvement with 6.2 astra and sol is how much faster it is compared to 6.1\ntasks that used to take forever in codex now take just a couple of minutes with 6.2 sol which makes me think it's only a matter of time before ultrafast comes to the $100 tier",
@@ -1403,28 +1423,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "astra 6.2 は基本的に 6 のスーパーチャージャー版です\n昨夜6.2がドロップされたとき、私はastra 6を使用したソフトウェアアプリケーションに取り組んでいたので、それにいくつかの変更を加えました。私はその警告を無視して、いつも6でやったようにファイルを直接コピーして、結局プロジェクトを壊してしまいました。\nしかし、6.2 では 6 よりもはるかに速くすべてが修正されました。"
-        },
-        {
-          "title": "well well well...\ndeepmind scientist has been vagueposting about google achieving RSI soon and google is expected to drop another model today\ngoogle in the last 7 days:\ngemini 4 carbon and hydrogen and likely to drop neon today which might sit somewhere between hydrogen and carbon\nLogan Kilpatrick (@OfficialLoganK)\nGemini\n— https://x.com/OfficialLoganK/status/2122876403091959982",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXZR5ENa0AACAWn.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122978120961847394",
-          "domain": "x.com",
-          "published": "2026-11-18T18:00:01+09:00",
-          "published_label": "2026/11/18(水) 18:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "まあまあまあ...\nディープマインドの科学者は、グーグルが近いうちにRSIを達成するという曖昧な投稿をしており、グーグルは今日別のモデルをドロップすると予想されている\n過去 7 日間の Google:\nジェミニ4の炭素と水素、そして今日ネオンをドロップする可能性が高く、水素と炭素の間のどこかに位置する可能性があります\nローガン・キルパトリック (@OfficialLoganK)\nジェミニ\n— https://x.com/OfficialLoganK/status/2122876403091959982"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 5.6
     },
     {
       "id": "x_testingcatalog",
@@ -1730,7 +1731,7 @@
           "title_ja": "Google は、Gemini Notebook 用のさまざまな書き込みモードの開発に取り組んでいます。\n- Writing Partner はデフォルトのオプションとして、AI を使用してメモをより良く作成します。\n- ライティング コーチはチャットで機能し、ユーザーに提案を行います。\n- AI は使用しません。AI をまったく使用したくない人向けです。\nWriting Coach は基本的に、人間により良いテキストを書くよう促す AI です。\nもうすぐ👀"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 1.8
     }
   ]
 }

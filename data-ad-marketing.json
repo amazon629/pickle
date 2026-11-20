@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T09:52:17+09:00",
-  "generated_at_label": "2026/11/20 09:52 JST",
+  "generated_at": "2026-11-20T10:32:40+09:00",
+  "generated_at_label": "2026/11/20 10:32 JST",
   "title": "広告・マーケ X監視ボード",
   "total": 120,
   "sources": [
@@ -218,7 +218,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.0
+      "elapsed": 8.4
     },
     {
       "id": "x_kwm_co_jp",
@@ -448,7 +448,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.1
+      "elapsed": 4.0
     },
     {
       "id": "x_rkawtr",
@@ -460,6 +460,24 @@
       "via": "https://nitter.cf/RKawtr/rss",
       "count": 12,
       "items": [
+        {
+          "title": "\"AIO・LLMOに取り組んでも、ノウハウ系クエリの流入は以前の水準には戻らないと考えている\"\n\"チャネルがどう変わっても、顧客に届けるメッセージは、商品の価値そのものからしか生まれない\"\n生成AIの普及によるWebサイトのトラフィック激減と当社での対策",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123557601770385408/1RXIw0Hg?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/RKawtr/status/2123589520679706912",
+          "domain": "x.com",
+          "published": "2026-11-20T10:29:30+09:00",
+          "published_label": "2026/11/20(金) 10:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "対応が完了。\nエックスサーバー【公式】 (@xserverjp)\n【続報：脆弱性への対応完了のお知らせ】\nWebサーバー「nginx」の脆弱性への対応が完了したため、本日11月19日(木) 11:00頃、対象サービスの全サーバーでHTTP/2を再度有効化しました。\n現在は通常どおりHTTP/2による通信をご利用いただけます。\n— https://x.com/xserverjp/status/2123248111753863329",
           "summary": "",
@@ -655,27 +673,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "グーグルの敵はグーグル自身、AI回答が「年約35兆円」の検索広告を侵食 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2120350967002701824/U8gDICJH?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/RKawtr/status/2120698114063704524",
-          "domain": "x.com",
-          "published": "2026-11-12T11:00:05+09:00",
-          "published_label": "2026/11/12(木) 11:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 6.0
+      "elapsed": 13.8
     },
     {
       "id": "x_unyoojp",
@@ -904,7 +904,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.2
+      "elapsed": 13.8
     },
     {
       "id": "x_anagrams_inc",
@@ -1148,7 +1148,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.0
+      "elapsed": 5.8
     },
     {
       "id": "x_kloutter",
@@ -1177,6 +1177,26 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "マジかぁ\nGoogleの「AIによる概要（AI Overviews）」のアルゴリズムが流出した疑惑出てる\n1️⃣AIは検索前から候補ブランドを知っている\nユーザーの質問に対し、Googleは最初から一定のブランドを候補として持っている\n2️⃣候補ブランドの絞り込み方法\n最初に8社を認識+検索によって新たな5社が追加→最終的に5社に絞って回答\n3️⃣Redditを意図的に探している\n回答生成の途中でRedditの投稿を探す処理が確認されたと主張しています。Redditがブランドの評判を確認する材料になっているということ\n4️⃣ブランドの認知、関連性が重要\nGoogleがブランドをどのような存在として知っているかが推薦に影響\nChris Long (@chris_nectiv)\nNew AEO article: This AI Overviews leak reveals it's internal logic. Google specifically looks at Reddit + may already know the brands it wants to recommend:\nSo Very very interesting screenshot from Stéphane Le Mentec, LL.M. from @Ketch. He found what appears to be a leaked response from AI Overviews that publicly outlines the thinking logic it used to generate a response.\nNow normally I'm skeptical of these things but this seems pretty legitimate. If you've read Dan Petrovic's work around AI Mode tags, the <FollowUp> tag is exactly like the one he mentioned. It also uses <InlineEntity> which I don't believe was in his article, but closely matches the tags around entities.\nSo here's some very interesting takeaways.\n- It's heavily evaluating entities. It directly is looking for a list of entities <Inline Entity>\n- It seems to have an idea of the brands it wants to evaluate against already. In the \"Constraints\" it lists known entities. So that would indicate that similar to ChatGPT, it might have an existing corpus of brands it recommends that it starts off with.\n- I've also looked at a lot of fan-out query data where you can see brand search specifically. To me, that's more confirmation that Google is acting this way.\n- You can also see it looking DIRECTLY for Reddit. In the response it tries to find an Reddit thread where applicable.\n- It starts off with 8 brands, expands to 13 and then reduces to 5. My inference is that search retrieval can introduce new brands but it eventually narrows them down and stronger entity alliance gives a huge leg up for recommendation.\nAlso, here is some other required reading that is helpful context for this:\n1. ChatGPT Already Knows Who's In The Running Before It Searches (@suganthan)\n2. AI Mode Tags: FollowUp, Generate, Layout, Entity List and prompt_leaks.ignore (@dejanseo):\n— https://x.com/chris_nectiv/status/2123070530932625627",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXapXnxWYAAb7eL.jpg?name=small",
+            "https://pbs.twimg.com/media/HXapXnyW4AArXQU.jpg?name=small",
+            "https://pbs.twimg.com/media/HXapXnyXoAAiWjG.jpg?name=small"
+          ],
+          "link": "https://x.com/Mieruca_kun/status/2123539312658809341",
+          "domain": "x.com",
+          "published": "2026-11-20T07:10:00+09:00",
+          "published_label": "2026/11/20(金) 07:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "あのサービスが漏れたので各サービスのお詫びが大量に送られてくる。自社だけじゃ防げない時代",
@@ -1354,28 +1374,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "1～3月決算のアパレル小売り各社の中間決算が概ね揃いました。\n- 24社中、16社が増収増益\n- 大幅増収増益は、インターメスティック、TOKYO BASE、ワークマン、TSIHD、yutori\n- 減益は、西松屋、JFR、AOKI、ワコール\n- 赤字は、バロックジャパン、ジーイエット、三陽商会、はるやまでいずれも前年からの赤字幅が拡大\n林 亮介 │デジタル視点の店舗環境変革リーダー (@Rin0717Hayashi)\n発表があったアパレル小売り各社の第2四半期決算、および8月期決算企業の通期決算一覧です。\n- ほとんどの企業が増収増益\n- 国内ユニクロは営業利益が20%に迫る驚異の数字！\n- GUも営業利益率が10%に迫る\n- ジーイエットと三陽商会は赤字継続、拡大中\n- アンドエスティHDは営業利益率が大幅改善\n- オーダースーツのグローバルスタイルは拡大継続中。営業利益が10億円に迫る\n— https://x.com/Rin0717Hayashi/status/2109435765390467296",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXM9lfPaoAAqrO2.jpg?name=small",
-            "https://pbs.twimg.com/media/HUY4CWJbIAAaRH_.jpg?name=small"
-          ],
-          "link": "https://x.com/Rin0717Hayashi/status/2122107651131941046",
-          "domain": "x.com",
-          "published": "2026-11-16T08:21:05+09:00",
-          "published_label": "2026/11/16(月) 08:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 6.4
+      "elapsed": 5.8
     },
     {
       "id": "x_atarajp",
@@ -1604,7 +1605,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.3
+      "elapsed": 10.4
     },
     {
       "id": "x_ytakara",
@@ -1832,7 +1833,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 5.8
     },
     {
       "id": "x_hidenoritakii",
@@ -2055,7 +2056,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 5.9
     },
     {
       "id": "x_sugiharg",
@@ -2278,7 +2279,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 6.7
     }
   ]
 }
