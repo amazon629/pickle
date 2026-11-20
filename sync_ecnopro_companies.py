@@ -143,7 +143,7 @@ BOARD = {
         "ロックウェーブ": {"context": "strict"},
         "サヴァリ": {"context": "strict"},
         "しるし": {"query": '"しるし株式会社"', "match": ["しるし株式会社"]},
-        "COIM": {"context": True},
+        "COIM": {"context": True, "exclude": ["アップサイクル"]},
         # --- ECのプロ固有の短い社名・英字名・一般語 ---
         "W2": {"query": '"W2" EC', "context": "strict"},
         "Momentum": {"query": '"Momentum" EC', "context": "strict"},
@@ -195,6 +195,10 @@ BOARD = {
         "メディアリンク": {"query": '"メディアリンク" 株式会社', "match": ["メディアリンク"], "context": "strict"},
         "ネットショップ支援": {"query": '"ネットショップ支援" 株式会社', "match": ["ネットショップ支援"]},
         "SpiderLabs": {"match": ["SpiderLabs", "Spider Labs", "Spider AF"]},
+        # 同名の別物が多い英字名（音楽・馬券・ペット・数学用語など）
+        "UNCOVER": {"query": '"UNCOVER" EC', "context": "strict"},
+        "Rabo": {"query": '"Rabo" EC', "context": "strict"},
+        "ベクトル": {"query": '"株式会社ベクトル"', "match": ["株式会社ベクトル", "ベクトル[6058]"]},
         "フュージョン": {
             "match": ["フュージョン株式会社", "株式会社フュージョン", "フュージョン、", "フュージョンが", "フュージョンの"],
             "exclude": ["ニューロフュージョン", "ヘリカルフュージョン", "核融合", "アルファフュージョン", "ホットドッグ"],
