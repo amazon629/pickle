@@ -11,6 +11,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | 監視ボード（メイン） | `sources.json` | `index.html` | `data.json` |
 | AI監視ボード | `sources-ai.json` | `ai.html` | `data-ai.json` |
 | IPO・マーケット監視ボード | `sources-ipo.json` | `ipo.html` | `data-ipo.json` |
+| 東京IPO・新規承認ボード（2026年以降の「新規承認」だけ／過去分は `archive-ipo-approved.json`） | `sources-ipo-approved.json` | `ipo-approved.html` | `data-ipo-approved.json` |
 | PR TIMES監視ボード | `sources-prtimes.json` | `prtimes.html` | `data-prtimes.json` |
 | スタートアップ監視ボード | `sources-startup.json` | `startup.html` | `data-startup.json` |
 | ピュアフラット登壇企業 ニュース監視 | `sources-ec-companies.json` | `ec-companies.html` | `data-ec-companies.json` |
@@ -29,7 +30,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）

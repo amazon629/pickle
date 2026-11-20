@@ -93,6 +93,8 @@ JST = timezone(timedelta(hours=9), "JST")
 GLOBAL_FETCH_WORKERS = 24
 # nitter へ同時に投げる本数の上限（レート制限で空フィードが返るのを避ける）
 X_FETCH_GATE = threading.Semaphore(6)
+# archive-*.json（過去投稿のシード）の読み込みキャッシュ
+_ARCHIVE_CACHE = {}
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
 CJK_RE = re.compile(r"[ぁ-んァ-ヶー一-龥々〆ヵヶ]")
 ILLEGAL_XML_RE = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
@@ -618,6 +620,25 @@ def match_any_term(text: str, terms: list) -> bool:
     return False
 
 
+def starts_with_term(text: str, terms: list) -> bool:
+    """本文の1行目（先頭の絵文字・記号を除く）が terms のどれかとちょうど一致するか。
+
+    東京IPOの「新規承認カード」だけを拾いたいときに使う。
+    「🎉新規承認 / 💹FOLIO…」は一致、「新規承認出ないなぁー…」のような話題投稿、
+    お詫び・価格決定の投稿は不一致になる。
+    """
+    t = unicodedata.normalize("NFKC", text or "").strip()
+    first = t.split("\n", 1)[0].strip()
+    # 先頭・末尾の絵文字や記号（🎉・【】・！！など）を落としてから比べる
+    first = re.sub(r"^[^0-9A-Za-z\u3040-\u30ff\u4e00-\u9fff]+", "", first)
+    first = re.sub(r"[^0-9A-Za-z\u3040-\u30ff\u4e00-\u9fff]+$", "", first).strip()
+    for term in terms or []:
+        n = unicodedata.normalize("NFKC", term or "").strip()
+        if n and first.lower() == n.lower():
+            return True
+    return False
+
+
 def clean_news_title(value: str, source_name: str = "") -> str:
     """Googleニュース由来の「 - サイト名」「(2026年11月17日掲載)」を落とす。"""
     s = (value or "").strip()
@@ -675,6 +696,9 @@ def build_items(src: dict, entries: list) -> list:
         # 社名ごとの監視では「その社名を含む見出し」だけを残す（同名他社・一般語のノイズ対策）
         # ただし extra_feeds / html_news（取得元自体がその会社）の記事は社名が無くて当然なので素通しする
         if src.get("must_match") and not e.get("trusted") and not match_any_term(text, src.get("must_match")):
+            continue
+        # 本文の「冒頭」が決まった見出しの投稿だけを残す（例: x_tokyoipo_approved の「🎉新規承認」）
+        if src.get("must_start") and not e.get("trusted") and not starts_with_term(text, src.get("must_start")):
             continue
         # 一般語の社名では、さらに業界語（EC・通販・楽天…）のどれかを含む見出しに絞る
         if src.get("context_match") and not e.get("trusted") and not match_any_term(text, src.get("context_match")):
@@ -1031,6 +1055,19 @@ def fetch_source(src: dict, settings: dict, verbose: bool = False) -> dict:
         return result
 
     items = build_items(src, entries)
+    # 年で絞るボード用（sources-*.json の settings/src に min_year を書いたときだけ効く）。
+    # 例: ipo-approved は min_year: 2026 で「2026年の新規承認」だけを残す。
+    min_year = int(src.get("min_year") or settings.get("min_year") or 0)
+    if min_year:
+        def _year_of(it):
+            pub = it.get("published")
+            if not pub:
+                return 0
+            try:
+                return datetime.fromisoformat(pub).year
+            except ValueError:
+                return int(pub[:4]) if pub[:4].isdigit() else 0
+        items = [it for it in items if _year_of(it) >= min_year]
     limit = int(src.get("limit") or settings.get("items_per_source", 15))
     if settings.get("pinned_first", True):
         pinned = [i for i in items if i["pinned"]]
@@ -1108,6 +1145,124 @@ def load_sources(path: str = SOURCES_PATH) -> dict:
 
 def previous_links(data_path: str = DATA_PATH) -> set:
     return set(previous_items_by_link(data_path))
+
+
+def load_archive(path: str) -> list:
+    """過去ログ（archive-*.json）の items を読む。書き換えない読み取り専用のシード。"""
+    if path not in _ARCHIVE_CACHE:
+        try:
+            with open(path, encoding="utf-8") as fh:
+                _ARCHIVE_CACHE[path] = json.load(fh).get("items", [])
+        except (FileNotFoundError, ValueError):
+            _ARCHIVE_CACHE[path] = []
+    return _ARCHIVE_CACHE[path]
+
+
+def save_archive(path: str, items: list) -> None:
+    """archive-*.json を日付降順で書き戻す（毎時実行で新しい投稿を蓄積するため）。"""
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (FileNotFoundError, ValueError):
+        data = {}
+    items = sorted(items, key=lambda it: it.get("published") or "", reverse=True)
+    data.setdefault("settings", {})
+    data["settings"].update(
+        {
+            "item_count": len(items),
+            "oldest": items[-1].get("published") if items else None,
+            "newest": items[0].get("published") if items else None,
+            "updated_at": datetime.now(JST).isoformat(timespec="seconds"),
+        }
+    )
+    data["items"] = items
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
+        json.dump(data, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    os.replace(tmp, path)
+    _ARCHIVE_CACHE[path] = items
+
+
+def merge_archive(res: dict, src: dict, settings: dict) -> dict:
+    """archive-*.json の過去分を、今回の取得結果に合流させる。
+
+    RSS は最新 18〜20件しか返さないので、それより古い投稿はここで補う。
+    毎時実行でも archive ファイルはそのまま残り、新しい投稿は RSS 側から先頭に積まれる。
+    同じ link は取得結果を優先（本文・画像が最新）。
+    """
+    rel = src.get("archive")
+    if not rel:
+        return res
+    path = rel if os.path.isabs(rel) else os.path.join(BASE_DIR, rel)
+    archived = load_archive(path)
+    if not archived:
+        return res
+    min_year = int(src.get("min_year") or settings.get("min_year") or 0)
+    limit = int(src.get("limit") or settings.get("items_per_source", 15))
+
+    def keeps(it: dict) -> bool:
+        pub = it.get("published") or ""
+        if min_year:
+            try:
+                if datetime.fromisoformat(pub).year < min_year:
+                    return False
+            except ValueError:
+                if not (pub[:4].isdigit() and int(pub[:4]) >= min_year):
+                    return False
+        if src.get("must_start") and not starts_with_term(it.get("title", ""), src.get("must_start")):
+            return False
+        if src.get("must_match") and not match_any_term(it.get("title", ""), src.get("must_match")):
+            return False
+        return True
+
+    by_link = {}
+    for it in res.get("items", []):
+        if it.get("link"):
+            by_link[it["link"]] = it
+    added = 0
+    archived_links = {it.get("link") for it in archived}
+    fresh_for_archive = [
+        it for it in res.get("items", []) if it.get("link") and it["link"] not in archived_links and keeps(it)
+    ]
+    for it in archived:
+        link = it.get("link")
+        if not link or link in by_link:
+            continue
+        if not keeps(it):
+            continue
+        item = dict(it)
+        item.setdefault("type", "x")
+        item.setdefault("badge", "X")
+        item.setdefault("badge_class", "badge-x")
+        item.setdefault("domain", "x.com")
+        item.setdefault("pinned", False)
+        item["is_new"] = False
+        item["from_archive"] = True
+        by_link[link] = item
+        added += 1
+    # 今回 RSS で取れた新しい投稿は archive にも追記（古い投稿が RSS から流れても残す）
+    if fresh_for_archive:
+        to_store = []
+        for it in fresh_for_archive:
+            clean = {k: v for k, v in it.items() if k not in ("is_new", "from_archive", "title_ja")}
+            to_store.append(clean)
+        save_archive(path, list(archived) + to_store)
+    if not added:
+        return res
+    items = list(by_link.values())
+    items.sort(key=lambda i: (
+        0 if i.get("pinned") else 1,
+        -(datetime.fromisoformat(i["published"]).timestamp() if i.get("published") else 0),
+    ))
+    items = items[:limit] if limit > 0 else items
+    res = dict(res)
+    res["items"] = items
+    res["count"] = len(items)
+    res["archive_added"] = added
+    if res.get("status") == "error":
+        res["status"] = "partial"
+    return res
 
 
 def previous_items_by_link(data_path: str = DATA_PATH) -> dict:
@@ -1629,8 +1784,17 @@ def run_board(board: dict, args, nav_block: str = "", prefetched: list = None) -
                 print(f"  - {src.get('name')} [{src.get('type')}]")
         with ThreadPoolExecutor(max_workers=min(workers, max(1, len(sources)))) as pool:
             fetched = list(pool.map(lambda s: fetch_source(s, settings, verbose=False), sources))
+    src_by_id = {s.get("id"): s for s in sources}
+    for res in fetched:
+        fixed = merge_archive(res, src_by_id.get(res["id"]) or {}, settings)
+        if fixed is not res:
+            fetched[fetched.index(res)] = fixed
     for res in fetched:
         for item in res["items"]:
+            if item.get("from_archive"):
+                # archive（過去分）は「新着」にしない
+                item["is_new"] = False
+                continue
             item["is_new"] = bool(old_links) and item["link"] not in old_links
 
     attach_translations(fetched, previous, settings, verbose=args.verbose)

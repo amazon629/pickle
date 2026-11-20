@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "title": "東京IPO・新規承認ボード",
+    "nav_label": "🆕 IPO新規承認",
+    "items_per_source": 50,
+    "min_year": 2026,
+    "timeout_seconds": 20,
+    "retries": 1,
+    "pinned_first": true,
+    "translate": true,
+    "translate_max_per_run": 60,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_tokyoipo_approved",
+      "type": "x",
+      "name": "東京IPO（新規承認）",
+      "handle": "tokyoipo_sns",
+      "must_match": [
+        "新規承認"
+      ],
+      "must_start": [
+        "新規承認"
+      ],
+      "min_year": 2026,
+      "limit": 50,
+      "archive": "archive-ipo-approved.json",
+      "enabled": true
+    }
+  ]
+}
