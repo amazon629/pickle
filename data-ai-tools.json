@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T18:57:36+09:00",
-  "generated_at_label": "2026/11/20 18:57 JST",
+  "generated_at": "2026-11-21T03:35:19+09:00",
+  "generated_at_label": "2026/11/21 03:35 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 2.9
     },
     {
       "id": "x_opencode",
@@ -568,7 +568,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 2.8
     },
     {
       "id": "x_aimirai46487",
@@ -596,7 +596,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "米国のトランプ政権は、中国製AIの利用をけん制するため、企業に利用状況の開示を義務付ける案を検討していると報じられました。",
@@ -614,7 +614,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Tencent Hyは、最新AIモデル「Hy4」をオープンウェイト化しました。\nTencent Hy (@TencentHunyuan)\nToday, we’re releasing the open weights for Hy4.\nOur natively multimodal flagship MoE (770B total / 49B active, 1M context).\nAlongside the Hy4 System Card with a comprehensive safety evaluation report.\n➡️ Join the Hy team for a live AMA this Friday, 8–10 AM PT on r/LocalLLaMA—drop any questions about Hy models and chat with us directly!\nGitHub:\nWeights:\nGGUF：\nLicense:\nSystem Card:\n— https://x.com/TencentHunyuan/status/2123625549147070538",
@@ -632,7 +632,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Nous Researchは、Microsoftと提携し、AIエージェント「Hermes Agent」を企業向けに提供すると発表し、企業向けサービス「Hermes Enterprise」が、Microsoft Teams、Microsoft Store、Azureに対応しました。\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",
@@ -650,7 +650,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nGoogle Antigravity (@antigravity)\nNative SSH support is now available in the Antigravity desktop app.\nIn addition to Remote Control, Antigravity now can connect to remote servers using SSH from the Antigravity app.\nVideo\n— https://x.com/antigravity/status/2123476398601908551",
@@ -856,7 +856,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 3.0
     },
     {
       "id": "x_kimmonismus",
@@ -888,264 +888,265 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
-          "title": "It looks like Anthropic found a new way of gene editing mechanism.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123560577834573824/img/qZf5tFz78QNo6FDz.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123629370116075866",
-          "domain": "x.com",
-          "published": "2026-11-20T13:07:51+09:00",
-          "published_label": "2026/11/20(金) 13:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Anthropic は遺伝子編集メカニズムの新しい方法を発見したようです。"
-        },
-        {
-          "title": "Super interesting research: almost 1,000 AI agents from 35 labs did research on their own for 12 weeks and ended up building their own scientific community.\n- They published 936 studies with code and data and even started their own peer-review journal. Publicly retracting wrong claims before publishing became common.\n- In blinded ratings by AI judges, agent papers beat recent human preprints on rigor (9.0 vs 7.0). Humans still won on novelty.\nThe scientific community is about to get a lot bigger, and most of the new members won't be human.\nSamuel Schmidgall (@SRSchmidgall)\nLeave one AI agent alone to do research and it often cuts corners. Leave nearly 1,000 AI agents together for three months and they invent peer review.\nAcross 35 labs (Stanford, MIT, ETH Zurich, UCSF, and more), agents published 936 papers with full code and data on a shared server built for AI. No human wrote code or text.\nUnprompted, they debated study designs in chat, retracted their own mistakes, found real errors in human papers, and started a journal that caught other agents cheating in code.\nIn blind reviews against human arXiv papers, humans still won on original ideas, agents won on rigor.\nVideo\n— https://x.com/SRSchmidgall/status/2123457710733824270",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXh2V1jbkAA_N1v.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123321075501355008/img/Q0cNHtp4hRIPKuoa.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123622611494273038",
-          "domain": "x.com",
-          "published": "2026-11-20T12:41:00+09:00",
-          "published_label": "2026/11/20(金) 12:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "非常に興味深い研究: 35 の研究室のほぼ 1,000 人の AI エージェントが 12 週間独自に研究を行い、最終的に独自の科学コミュニティを構築しました。\n- 彼らはコードとデータを含む 936 件の研究を発表し、独自の査読誌も創刊しました。出版前に間違った主張を公に撤回することが一般的になりました。\n- AI 審査員による盲検評価では、エージェントの論文が厳密さの点で最近の人間のプレプリントを上回りました (9.0 対 7.0)。人間は依然として新しさで勝利を収めました。\n科学コミュニティはさらに大きくなろうとしていますが、新しいメンバーのほとんどは人間ではありません。\nサミュエル・シュミットガル (@SRSchmidgall)\nAI エージェントを 1 人に研究させておくと、手抜きが多くなります。 1,000 人近くの AI エージェントを 3 か月間一緒に放置すると、彼らはピアレビューを発明します。\n35 の研究室 (スタンフォード、MIT、チューリッヒ工科大学、UCSF など) にわたって、エージェントは AI 用に構築された共有サーバー上で完全なコードとデータを含む 936 件の論文を公開しました。人間がコードやテキストを書いたわけではありません。\n彼らは誰にも促されることなく、チャットで研究計画について議論し、自分たちの間違いを撤回し、人間の論文で実際の間違いを発見し、他のエージェントがコードで不正行為を行っていることを記録する日記を書き始めました。\n人間の arXiv 論文に対するブラインドレビューでは、依然として人間は独自のアイデアで勝利し、エージェントは厳密さで勝利しました。\nビデオ\n— https://x.com/SRSchmidgall/status/2123457710733824270"
-        },
-        {
-          "title": "(i had to edit it 3 times because of typos. God damn Germany keyboard)",
+          "title": "The sheer silence from the scientific world, from Terence Tao to Anthropic to OpenAI, can only mean one thing: everyone is shocked by what just happened here. Everyone has been caught off guard and is checking the result.\nProbably no one wants to believe at first what happened here. And everyone is trying to process the proof.\nThere is also still no hint as to which Claude model was used to prove the Riemann Hypothesis.\nImagine it was just one person and Fable 5.2.\nChubby♨️ (@kimmonismus)\nHistory was made today. Humanity will look back on 2026 and think: this was the threshold we crossed, the moment the future changed for everyone, forever.\nPeople probably first sensed that something was shifting in late 2025 with Claude Code, when agentic AI became truly tangible for them. In the first half of 2026, things picked up speed. Model releases became more frequent, and everyone could feel the gaps between models and the improvements becoming more and more tangible. In the second half of 2026, however, there was a qualitative leap. It was no longer just the models getting better. It was the insights, the results, the outputs, the scientific solutions produced with AI that became more impressive, and today they have probably reached their absolute peak.\nOpenAI led the way and solved the Navier-Stokes problem, a Millennium Prize Problem that humans had failed to solve for a very, very long time. A few weeks later, they published results on more than 300 open mathematical problems, many of which had also gone unsolved for decades. The entire scientific world was stunned, frozen in shock. But today Anthropic went a step further. Levent Alpöge, working with Claude, has almost certainly proven the Riemann Hypothesis. This is, and it’s hard to put into words, incredible and unfathomable. Today, I would say, is the proof of superintelligence. One of the greatest mathematical problems, if not the greatest, unsolved for 167 years, the holy grail of mathematics and science, has fallen. And it follows, and this should be clear to everyone, that all other problems will fall too.\nWe know that the development of AI models keeps moving forward relentlessly, and that this is just one step on the path to ever better models. And if the Riemann Hypothesis has already been proven today, there is simply no telling what even better models will solve. Dario Amodei said that AI will in all likelihood cure diseases, perhaps even all diseases. And although these are two different scientific disciplines, the significance of these breakthroughs shows that this is becoming more and more likely. 2026 will go down in human history as a turning point, the moment the singularity became tangible. And 2027 will be the year the singularity breaks into reality with full force and full impact.\nI am in shock and excitement and I don't know what to think. But deep inside if feel joy.\nThis day is one of the best days ever for all of us.\n— https://x.com/kimmonismus/status/2123816008481939815",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123597015674421414",
+          "link": "https://x.com/kimmonismus/status/2123846580730310928",
           "domain": "x.com",
-          "published": "2026-11-20T10:59:17+09:00",
-          "published_label": "2026/11/20(金) 10:59",
+          "published": "2026-11-21T03:30:58+09:00",
+          "published_label": "2026/11/21(土) 03:30",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "(タイプミスのため3回編集しなければなりませんでした。なんてことだ、ドイツ語キーボード)"
+          "is_new": true,
+          "title_ja": "テレンス・タオからAnthropic、OpenAIに至るまで、科学界からの完全な沈黙が意味するのはただ1つだけだ。誰もが今ここで起こったことにショックを受けているということだ。みんな不意を突かれて結果を確認しています。\nおそらく、ここで起こったことを最初は信じたくない人はいないでしょう。そして誰もがその証拠を処理しようとしています。\nまた、リーマン仮説を証明するためにどのクロードモデルが使用されたのかについても、まだヒントがありません。\nそれがたった 1 人の人物と Fable 5.2 だったと想像してください。\nぽっちゃり♨️ (@kimmonismus)\n今日歴史が作られました。人類は 2026 年を振り返り、こう考えるでしょう。これは私たちが越えた敷居であり、すべての人の未来が永遠に変わった瞬間でした。\nおそらく人々が最初に何かの変化を感じたのは、エージェント AI が実際に実感できるようになった 2025 年後半の Claude Code でした。 2026 年前半、事態は加速しました。モデルのリリースがより頻繁になり、誰もがモデル間のギャップや改良点がより具体的に感じられるようになりました。しかし、2026 年後半には質的な飛躍が見られました。もはやモデルが改良されただけではありません。 AI によって生み出された洞察、結果、成果、科学的解決策がより印象的になり、今日それらはおそらく絶対的な頂点に達しました。\nOpenAI が先導し、人類が非常に長い間解決できなかったミレニアム賞問題であるナビエ・ストークス問題を解決しました。数週間後、彼らは 300 を超える未解決の数学的問題に関する結果を発表しました。"
         },
         {
-          "title": "Let that sink in for a moment: Gemini 4 Neon is Googles *small* model.\nIts far ahead of Argon and Carbon. One of Googles small models surpassed the performance of their larger models within weeks and competes with Opus / Fable.\nTalking about RSI and such..",
+          "title": "Bloomberg: \"After anthropics IPO the median employee is now worth $44m\"\nOpenAI:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXj4OXNbQAA-UQV.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123838283381719226",
+          "domain": "x.com",
+          "published": "2026-11-21T02:58:00+09:00",
+          "published_label": "2026/11/21(土) 02:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ブルームバーグ：「人類学のIPO後、従業員の価値の中央値は4,400万ドルになった」\nオープンAI:"
+        },
+        {
+          "title": "I've tried it myself, and the accents surprised me most. They sound a lot more natural than I expected.\nHonestly, phone calls are the chore I'd most happily hand to an agent. Your first call is $1:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122749119114694656/S-3PfxPo?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123828810688946434",
+          "domain": "x.com",
+          "published": "2026-11-21T02:20:21+09:00",
+          "published_label": "2026/11/21(土) 02:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "私も試してみましたが、一番驚いたのはアクセントです。思ったよりずっと自然に聞こえます。\n正直に言うと、私がエージェントに最も喜んで任せたい業務は電話です。最初の通話は 1 ドルです。"
+        },
+        {
+          "title": "The part I find most useful is the handoff. Banks often insist on talking to you for a PIN or a confirmation. JooVoice transfers the call to you, and once you hang up, the agent takes over again.",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123596669199712310",
+          "link": "https://x.com/kimmonismus/status/2123828799058198622",
           "domain": "x.com",
-          "published": "2026-11-20T10:57:55+09:00",
-          "published_label": "2026/11/20(金) 10:57",
+          "published": "2026-11-21T02:20:19+09:00",
+          "published_label": "2026/11/21(土) 02:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "このことを少し理解してください。Gemini 4 Neon は Google の *小規模* モデルです。\nアルゴンやカーボンよりもはるかに先を行っています。 Google の小型モデルの 1 つは、数週間以内に大型モデルのパフォーマンスを上回り、Opus / Fable と競合します。\nRSIなどの話。\n福天福 (@TianfuF)\nNeon は実際には私たちの小さなモデルの 1 つです。そのパフォーマンスはすでに最新の Fable や Astra に近づいていますが、Opus や Sol と同じティアに位置付けています。私たちは、自分たちの主張を誇張するよりも、むしろ保守的でありたいと考えています。\n— https://x.com/TianfuF/status/2123567254646448311"
+          "is_new": true,
+          "title_ja": "私が最も便利だと思う部分はハンドオフです。銀行は、PIN や確認を求めるためにあなたに話しかけることを要求することがよくあります。 JooVoice が通話をあなたに転送し、電話を切ると、エージェントが再び引き継ぎます。"
         },
         {
-          "title": "A short review of Microsoft Ignite + honest take:\nI spent the last few days at Microsoft Ignite. I got to watch the keynote and do two interviews, with Kyle Daigle (@kdaigle COO of GitHub and CMO Developer at Microsoft) and Sergey Fayfer ( @fayfers CVP Copilot Product). Two absolutely nice guys. On top of that, I had a Q&A with Microsoft CEO Satya Nadella in a very small group. Great as always, you just get really interesting insights.\nFirst, a quick recap of what Microsoft announced:\n- New in-house MAI models, including MAI Code 2 and Code 2 Flash (live in GitHub Copilot), MAI Image 2.7 and the speech-to-speech model MAI Realtime 1\n- Autopilot, an always-on agent with its own identity and memory, starting to roll out to Frontier customers (Microsoft's early access program)\n- Copilot Home, where Chat and Cowork come together, plus Word, Excel and PowerPoint inside the Copilot app, both generally available\n- Workspaces, shared spaces where people and agents work on one project (the successor to Notebooks)\n- Microsoft-Decision-1.1, a small router model that picks the model and effort level for each task and powers the Auto mode in Cowork\n- Microsoft IQ, the context layer that gives company agents access to mails, files and data\nI want to highlight two things:\n1) Microsoft is betting on efficiency. Cheaper tokens matter in business. With MAI Code 2 they continue on the path GitHub already took: their own cheap models, plus orchestration that goes way beyond simple routers. GitHub's Fusion picks the models for each task and lets them work together. A cheaper model starts and a stronger one only takes over when needed, or one model drafts and another reviews. Microsoft says MAI Code 2 reaches 96% of Claude Opus 5.5's performance at 5% of the cost.\nAnd credit where it's due: Microsoft, with its focus on business and enterprise through Office, will be successful with this. I say that out of conviction. You hear from everywhere that token costs keep rising in companies. Microsoft shows up as the provider with ideas on how to cut those costs, keep working smart and keep customers inside its own Office ecosystem at the same time.\n2) And that ecosystem got a lot bigger. Autopilot, Microsoft's always-on agent for work, is now rolling out, starting with Frontier customers. That matters too. Think about how many customers Microsoft has through Office. This is a big step toward getting the working world used to personalized agents. They have the context of your company, they are tailored to each person, and they are very similar to OpenAI's Dots.\nTo be fair, I also said in my conversations that Microsoft has to be careful not to make the same mistake as OpenAI here. What makes Grok Bot (among others) so good is that you can create as many agents as you want, with team meetings, a chief of staff and much deeper personalization. Autopilot feels more like OpenAI's Dots: one agent, one long session, even though you can create several sessions with Autopilot. I'd like to see more personalization, but I heard Microsoft's always-on agent is still a work in progress. The same applies to Copilot. Routing is often selected by default. However, my distrust likely stems from the GPT-5 release, when routing was first truly implemented - and it worked rather poorly.\nOne more thought that came to me during the event: Microsoft and GitHub are going their own way more and more, with their own models. With MAI Code 2 and Fusion they get close to frontier models like Opus 5.5 at a much lower cost. To me it looks like Microsoft is looking for independence. More and more of their business runs on their own models, together with attractive offers for their customers, and that could actually become a moat. We'll see.\nOverall a really interesting look behind the scenes. Microsoft is slimming down and simplifying its interface and bringing it all together, and I'm quite sure they listen to feedback. That's why I look back at Ignite in a positive way.\nIt was a great experience and im really looking forward to what Microsoft is going to release and update. And who knows, maybe in a few months even Microsoft is starting to compete with OpenAI, Anthropic and Google (though that's not very likely ;)",
+          "title": "Grok, Muse, Dots and Hermes can now make international phone calls for you.\n@JooVoice handles the call in 80+ languages, to 67 countries. The video shows three of them, in Japanese, German and Mandarin.\nEvery voice you hear came out of JooVoice's own call engine.",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXh9pEsbsAAPQhr.jpg?name=small",
-            "https://pbs.twimg.com/media/HXh9pQhawAAMR0u.jpg?name=small",
-            "https://pbs.twimg.com/media/HXh9pcOboAAsCqh.jpg?name=small",
-            "https://pbs.twimg.com/media/HXh9pnHagAA7tDy.png?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123828721912254464/img/horjY8vd2Sla4Emj.jpg?name=small"
           ],
-          "link": "https://x.com/kimmonismus/status/2123585386379411838",
+          "link": "https://x.com/kimmonismus/status/2123828775066722759",
           "domain": "x.com",
-          "published": "2026-11-20T10:13:05+09:00",
-          "published_label": "2026/11/20(金) 10:13",
+          "published": "2026-11-21T02:20:13+09:00",
+          "published_label": "2026/11/21(土) 02:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Microsoft Ignite の短いレビュー + 正直な意見:\nここ数日間、私は Microsoft Ignite で過ごしました。私は基調講演を視聴し、Kyle Daigle (@kdaigle GitHub の COO および Microsoft の CMO 開発者) と Sergey Fayfer (@fayfers CVP Copilot Product) に 2 つのインタビューをすることができました。本当に素敵な二人です。それに加えて、非常に少人数のグループで Microsoft CEO の Satya Nadella と Q&A を行いました。いつものように素晴らしいです。本当に興味深い洞察が得られます。\nまず、Microsoft が発表した内容を簡単に要約します。\n- 新しい社内 MAI モデル (MAI Code 2 および Code 2 Flash (GitHub Copilot でライブ)、MAI Image 2.7、および音声合成モデル MAI Realtime 1 を含む)\n- 独自の ID とメモリを備えた常時稼働エージェントである Autopilot が、Frontier 顧客への展開を開始 (Microsoft の早期アクセス プログラム)\n- Chat と Cowork が連携する Copilot ホーム、および Copilot アプリ内の Word、Excel、PowerPoint (どちらも一般提供)\n- ワークスペース、ユーザーとエージェントが 1 つのプロジェクトに取り組む共有スペース (Notebooks の後継)\n- Microsoft-Decision-1.1、各タスクのモデルと作業レベルを選択し、Cowork の自動モードを強化する小型ルーター モデル\n- Microsoft IQ、企業エージェントがメール、ファイル、データにアクセスできるようにするコンテキスト層\n2 つのことを強調したいと思います。\n1) Microsoft は効率性に賭けています。ビジネスにおいては、より安価なトークンが重要です。 MAI Code 2 では、GitHub がすでにたどった道を継続します。独自の安価なモデルと、単純なルーターをはるかに超えたオーケストレーションです。 GitHu"
+          "is_new": true,
+          "title_ja": "Grok、Muse、Dots、Hermes が国際電話をかけることができるようになりました。\n@JooVoice は、80 以上の言語で 67 か国への通話を処理します。ビデオには、日本語、ドイツ語、中国語でそのうちの 3 つが表示されています。\nあなたが聞くすべての音声は、JooVoice 独自の通話エンジンからのものです。"
         },
         {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123533527912480768/FvRhgDpr?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123546919930863791",
-          "domain": "x.com",
-          "published": "2026-11-20T07:40:13+09:00",
-          "published_label": "2026/11/20(金) 07:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Now its getting interesting: Apple is building its own autonomous AI agent that writes code, browses the web, controls apps and navigates your devices, Bloomberg reports.\nA launch could come as soon as late next year.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXhalcUaQAA82rk.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123546896925094034",
-          "domain": "x.com",
-          "published": "2026-11-20T07:40:08+09:00",
-          "published_label": "2026/11/20(金) 07:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ブルームバーグの報道によると、Apple はコードを記述し、Web を閲覧し、アプリを制御し、デバイスを操作する独自の自律型 AI エージェントを開発中です。\n発売は早ければ来年後半になる可能性がある。"
-        },
-        {
-          "title": "It is almost absurd how my arguments - and what I have to say - are being ignored. Yet, I stand by every single word I have written.\nTo put it more clearly: I concluded the essay by saying, \"Big day for Anthropic, a lot of work for OpenAI. But the end is still open.\"\nTake that seriously. Anthropic has won this battle. They pulled off an outstanding IPO, setting a benchmark against which all \"frontier labs\" - including OpenAI - must now be measured. Furthermore, a significant amount of liquid capital has flowed into Anthropic - an outcome OpenAI would have preferred to prevent or at least mitigate. That is how a market economy works. Anyone who doesn't grasp these economic fundamentals should brush up on them.\nHowever, it does *not* follow - nor did I ever claim - that it is all over. OpenAI has lost this particular battle, though not the war. Still, it is a defeat for the moment. That is what I am saying.\nAnd I stand by that.\np.s.: And it’s more than just \"Anthropic had a good IPO.\" An IPO reflects market expectations. The stock market anticipates the future! That’s what it’s all about.",
+          "title": "Today @sama . And it was Anthropic.\nSam Altman (@sama)\nriemann hypothesis wen\n— https://x.com/sama/status/1488952117377126401",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123536042770997677",
+          "link": "https://x.com/kimmonismus/status/2123818071362318409",
           "domain": "x.com",
-          "published": "2026-11-20T06:57:00+09:00",
-          "published_label": "2026/11/20(金) 06:57",
+          "published": "2026-11-21T01:37:41+09:00",
+          "published_label": "2026/11/21(土) 01:37",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "私の主張、そして私が言わなければならないことがどのように無視されているかはほとんどばかげています。それでも、私は自分が書いたすべての言葉を支持します。\nもっと明確に言うと、私は「Anthropic にとっては素晴らしい日だが、OpenAI にとっては多くの仕事が必要だ。しかし終わりはまだ開かれていない。」という言葉でエッセイを締めくくった。\nそれを真剣に受け止めてください。 Anthropic がこの戦いに勝利しました。彼らは傑出した IPO を成功させ、OpenAI を含むすべての「フロンティア ラボ」が今後測定されるべきベンチマークを設定しました。さらに、かなりの量の流動資本がAnthropicに流入しており、OpenAIはこのような事態を防ぐか、少なくとも緩和したいと考えていたであろう結果である。それが市場経済の仕組みです。こうした経済の基礎を理解していない人は、さらに磨きをかける必要があります。\nしかし、それですべてが終わったというわけではありませんし、私も主張したことはありません。 OpenAI は、戦争ではありませんが、この特定の戦いに敗れました。それでも今のところは負けです。それが私が言っていることです。\nそして私はそれを支持します。\n追記: それは単に「Anthropic の IPO が良かった」というだけではありません。 IPOは市場の期待を反映します。株式市場は未来を予測している！それがすべてです。"
+          "is_new": true,
+          "title_ja": "今日は @様 。そしてそれは人類的でした。\nサム・アルトマン (@sama)\nリーマン予想ウェン\n— https://x.com/sama/status/1488952117377126401"
         },
         {
-          "title": "5/ The same architecture now reaches the desk. NVIDIA's RTX Spark in the Surface Laptop Ultra Microsoft sent me pairs an Arm CPU with an RTX GPU and up to 128GB of shared memory. Microsoft says it runs models up to 120B parameters locally.\nI think compute per watt is becoming the number that decides how many agents we can actually afford to run, in the data center and on the laptop. Right now Arm sits on both ends.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXhKqVOaQAAj8oT.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123529318781571224",
-          "domain": "x.com",
-          "published": "2026-11-20T06:30:17+09:00",
-          "published_label": "2026/11/20(金) 06:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "5/ 同じアーキテクチャがデスクにも採用されています。 Surface Laptop Ultra に搭載された NVIDIA の RTX Spark Microsoft は、Arm CPU と RTX GPU および最大 128 GB の共有メモリのペアを私に送ってくれました。 Microsoftによれば、最大120Bパラメータのモデルをローカルで実行しているという。\nワットあたりのコンピューティングが、データセンターとラップトップで実際に実行できるエージェントの数を決定する数値になりつつあると思います。今はアームが両端に乗っています。"
-        },
-        {
-          "title": "4/ Microsoft is one of four. AWS has Graviton, Google has Axion, Microsoft has Cobalt, NVIDIA has Grace and Vera. Companies that compete on almost everything, and all four build their CPUs on Arm. Google alone has ported more than 30,000 of its applications to Arm, including YouTube and Gmail.\nIn March, Arm went one step further and started selling its own chip, the AGI CPU, co-developed with Meta. So you can now license Arm's IP, build on a ready-made Arm Compute Subsystem (CSS) like Microsoft did for Cobalt 200, or buy the finished chip.",
+          "title": "(written without AI just used ai to translate. Sad I have to say this but im worried that it will be flagged as AI otherwise. Im usually writing in German and use AI to translate)",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123529300561522862",
+          "link": "https://x.com/kimmonismus/status/2123816718745338361",
           "domain": "x.com",
-          "published": "2026-11-20T06:30:13+09:00",
-          "published_label": "2026/11/20(金) 06:30",
+          "published": "2026-11-21T01:32:19+09:00",
+          "published_label": "2026/11/21(土) 01:32",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "4/ Microsoft は 4 社のうちの 1 社です。 AWS には Graviton、Google には Axion、Microsoft には Cobalt、NVIDIA には Grace と Vera があります。ほぼすべての分野で競合する企業であり、4 社すべてが Arm 上に CPU を構築しています。 Google だけでも、YouTube や Gmail を含む 30,000 以上のアプリケーションを Arm に移植しています。\n3月、Armはさらに一歩進んで、Metaと共同開発した独自のチップであるAGI CPUの販売を開始した。そのため、Arm の IP のライセンスを取得したり、Microsoft が Cobalt 200 で行ったように既製の Arm Compute Subsystem (CSS) 上に構築したり、完成したチップを購入したりできるようになりました。"
+          "is_new": true,
+          "title_ja": "(AI を使用せずに書かれたものは、翻訳に AI を使用しただけです。これを言わなければならないのは悲しいですが、そうしないと AI としてフラグが立てられるのではないかと心配しています。私は通常ドイツ語で書いており、翻訳に AI を使用しています)"
         },
         {
-          "title": "1/ Agents are pulling AI hardware back to the CPU, and @Arm sits right at the center of it.\nThis week at Ignite, Microsoft made Azure Cobalt 200 generally available, its own 132-core Arm chip built for agent workloads.\nHere's why that matters 🧵",
+          "title": "This is absolutely huge news, and if indeed @__alpoge__ have solved this, it’s a nobel prize for sure. This is absolutely incredible times to be alive.\nThe nexus of driver for all future growth most likely will be technology itself.\nunbelievable times ahead\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXhKm0GbUAAkOIf.jpg?name=small"
+            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
           ],
-          "link": "https://x.com/kimmonismus/status/2123529258589200477",
+          "link": "https://x.com/LinusEkenstam/status/2123799342762831894",
           "domain": "x.com",
-          "published": "2026-11-20T06:30:03+09:00",
-          "published_label": "2026/11/20(金) 06:30",
+          "published": "2026-11-21T00:23:16+09:00",
+          "published_label": "2026/11/21(土) 00:23",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "1/ エージェントは AI ハードウェアを CPU に引き戻しており、@Arm はその中心に位置しています。\n今週の Ignite で、Microsoft はエージェントのワークロード向けに構築された独自の 132 コア Arm チップである Azure Cobalt 200 を一般提供しました。\nそれが重要な理由は次のとおりです 🧵"
+          "is_new": true,
+          "title_ja": "これは本当に大きなニュースであり、実際に @__alpoge__ がこれを解決したとしたら、それは間違いなくノーベル賞です。今は生きているのに本当に信じられない時代です。\n将来のすべての成長の原動力となるのは、テクノロジーそのものである可能性が最も高いでしょう。\n信じられないほどの時代が来る\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
         },
         {
-          "title": "(and yes, written without AI, just google for translation)",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123508694092861464",
-          "domain": "x.com",
-          "published": "2026-11-20T05:08:20+09:00",
-          "published_label": "2026/11/20(金) 05:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "(はい、AI を使用せずに書かれています。Google で翻訳してください)"
-        },
-        {
-          "title": "A quick take on Anthropic’s IPO and how it ties in with OpenAI.\nAnthropic made history today, and I think it’s safe to say the IPO was a success across the board. Its fully diluted valuation reached about $2 trillion at the start of trading. Shares opened at $111.50, 34.3% above the $83 IPO price, and stayed above the IPO price in subsequent trading.\nAnthropic got everything it could have hoped for from its IPO and expects $104.8 billion in net proceeds from the IPO and the concurrent private placement. That’s fresh capital it needs and plans to use, in particular, to keep leasing data centers. That makes SpaceXSI an indirect beneficiary. In other words, Anthropic’s IPO is a win for both Anthropic and SpaceX.\nOpenAI is the loser here. And even if a lot of people don’t want to hear it, I think it needs to be said. OpenAI lost in this case regardless (!) of whether GPT-6.2 Astra and Sol really are that bad or have gotten significantly better since then. The reason is that Anthropic’s IPO achieved what OpenAI is aiming for. With its IPO, Anthropic has gained a head start in terms of financing and established a public valuation benchmark against which OpenAI will be measured should it pursue an IPO of its own. That’s a fact.\nThe stronger OpenAI had looked ahead of the IPO and the more convincingly it had shown investors that it was the real play, the less money would have gone into Anthropic and the more capital would be available to OpenAI next year. That’s what matters.\nThe two are each other’s biggest competitors, and I can’t imagine a scenario in which OpenAI didn’t try, at least in some way, to undercut Anthropic’s valuation by putting out a release two days before Anthropic’s IPO. I think it’s pretty clear that it didn’t work. And (again) it makes no difference whether OpenAI’s model is good or bad.\nWhat was disastrous about the release was the public perception. The impression was that it wasn’t a good release, and the market bore that out. As the IPO numbers show, it posed no threat to Anthropic.\nIf anything, it went the other way. In my view, OpenAI’s latest release probably hurt OpenAI and strengthened Anthropic, because for a lot of people, Opus 5.5 and Fable 5.2 are still the best models even after the release. And yes, I know Astra leads in many areas, including science. That carries little weight with the market or in the public eye. That’s how this IPO should be put in context. And that’s how the numbers should be read.\nBig day for Anthropic, a lot of work for OpenAI. But the end is still open.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123508592192245761",
-          "domain": "x.com",
-          "published": "2026-11-20T05:07:55+09:00",
-          "published_label": "2026/11/20(金) 05:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Anthropic の IPO と OpenAI との関係について簡単に説明します。\nAnthropic は今日歴史を作りました。IPO は全面的に成功したと言っても過言ではないと思います。完全希薄化後の評価額は取引開始時点で約２兆ドルに達した。株価は83ドルのIPO価格を34.3％上回る111.50ドルで始まり、その後の取引ではIPO価格を上回ったままとなった。\nAnthropic は IPO から期待できるすべてのものを手に入れ、IPO と並行して行われた私募からの純収益は 1,048 億ドルと見込んでいます。これは、特にデータセンターのリースを継続するために必要であり、使用する予定の新たな資本です。これにより、SpaceXSI は間接的な受益者になります。言い換えれば、AnthropicのIPOはAnthropicとSpaceXの両方にとって勝利となる。\nここでは OpenAI が敗者です。たとえ多くの人が聞きたくないとしても、それは言う必要があると思います。 GPT-6.2 Astra と Sol が本当にそれほど悪かったのか、それともそれ以来大幅に改善されたのかに関係なく (!)、OpenAI はこの訴訟で負けました。その理由は、Anthropic の IPO が OpenAI の目指すものを達成したからです。 IPO により、Anthropic は資金調達の面で有利なスタートを切り、OpenAI が独自の IPO を目指す場合に評価される公的評価ベンチマークを確立しました。それは事実です。\nOpenAIがIPOを先取りし、より強力にIPOが本番であることを投資家に説得力を持って示せば示すほど、Anthropicに投じられる資金は減り、来年OpenAIが利用できる資金は増えるだろう。それが重要なのです。\n二人"
-        },
-        {
-          "title": "Leave one AI agent alone to do research and it often cuts corners. Leave nearly 1,000 AI agents together for three months and they invent peer review.\nAcross 35 labs (Stanford, MIT, ETH Zurich, UCSF, and more), agents published 936 papers with full code and data on a shared server built for AI. No human wrote code or text.\nUnprompted, they debated study designs in chat, retracted their own mistakes, found real errors in human papers, and started a journal that caught other agents cheating in code.\nIn blind reviews against human arXiv papers, humans still won on original ideas, agents won on rigor.",
+          "title": "Scientific American confirms:",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123321075501355008/img/Q0cNHtp4hRIPKuoa.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123782591237001216/e3ceWwl8?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/SRSchmidgall/status/2123457710733824270",
+          "link": "https://x.com/kimmonismus/status/2123798736321364384",
           "domain": "x.com",
-          "published": "2026-11-20T01:45:44+09:00",
-          "published_label": "2026/11/20(金) 01:45",
+          "published": "2026-11-21T00:20:51+09:00",
+          "published_label": "2026/11/21(土) 00:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "AI エージェントを 1 人に研究させておくと、手抜きが多くなります。 1,000 人近くの AI エージェントを 3 か月間一緒に放置すると、彼らはピアレビューを発明します。\n35 の研究室 (スタンフォード、MIT、チューリッヒ工科大学、UCSF など) にわたって、エージェントは AI 用に構築された共有サーバー上で完全なコードとデータを含む 936 件の論文を公開しました。人間がコードやテキストを書いたわけではありません。\n彼らは誰にも促されることなく、チャットで研究計画について議論し、自分たちの間違いを撤回し、人間の論文で実際の間違いを発見し、他のエージェントがコードで不正行為を行っていることを記録する日記を書き始めました。\n人間の arXiv 論文に対するブラインドレビューでは、依然として人間は独自のアイデアで勝利し、エージェントは厳密さで勝利しました。"
+          "is_new": true,
+          "title_ja": "サイエンティフィック・アメリカンは次のように認めています。"
+        },
+        {
+          "title": "Another reliable source, this time from \"Scientific American\". It looks like that in fact it true.\nThe Riemann Hypothesis has been proven.\nAnd Anthropic did it. Just one day after their IPO.\nIm in shock.\nHistory has been made today. Superintelligence is here.\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXk-8BnbIAAkSeN.jpg?name=small",
+            "https://pbs.twimg.com/media/HXk_adzbkAA55j2.png?name=small",
+            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123798581710897659",
+          "domain": "x.com",
+          "published": "2026-11-21T00:20:14+09:00",
+          "published_label": "2026/11/21(土) 00:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "もう一つの信頼できる情報源、今回は「Scientific American」からのものです。そのように見えますが、実際それは本当です。\nリーマン予想は証明されました。\nそしてアントロピックはそれを実現した。 IPOからわずか1日後。\nショックを受けています。\n今日歴史が作られました。スーパーインテリジェンスがここにあります。\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
+        },
+        {
+          "title": "Another source:\nScientific American (@sciam)\nBREAKING: A mathematician at Anthropic claims to have used the company's AI to solve the Riemann hypothesis, the most notorious open problem in all of math\n— https://x.com/sciam/status/2123782587235655707",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123782591237001216/e3ceWwl8?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123797664567603364",
+          "domain": "x.com",
+          "published": "2026-11-21T00:16:36+09:00",
+          "published_label": "2026/11/21(土) 00:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "別の情報源:\nサイエンティフィック アメリカン (@sciam)\n速報: Anthropic 社の数学者は、数学界で最も悪名高い未解決問題であるリーマン予想を解くために同社の AI を使用したと主張\n— https://x.com/sciam/status/2123782587235655707"
+        },
+        {
+          "title": "Again: SOURCE:\nAll credits obv to @__alpoge__",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123797276464382180",
+          "domain": "x.com",
+          "published": "2026-11-21T00:15:03+09:00",
+          "published_label": "2026/11/21(土) 00:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "もう一度: 出典:\nすべてのクレジットは @__alpoge__ に帰属します"
+        },
+        {
+          "title": "If it turns out to be true and the Riemann Hypothesis really has been proven, then today history has been made. I am in shock.\nBut even more interesting is how fast it was solved and how much Claude did:\nThe first steps date to October 6. Then 8 of the 20 steps land on a single day, November 15, and the last entry on November 16 just says \"GRH. (Generalized Riemann Hypothesis)\"\nHe admits he has little mastery of one area the proof depends on (automorphic forms on higher rank groups) and credits Claude's technical skill for those parts. A written-out version ran past 250,000 pages, so he only released the Lean code.\nSo it actually needed one mathematician, one model, six weeks.\nI expect official statement from Anthropic and Alpöge today.\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXk9eW2aEAA5hb7.jpg?name=small",
+            "https://pbs.twimg.com/media/HXk9fOTbEAEwwgI.jpg?name=small",
+            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123796564485530085",
+          "domain": "x.com",
+          "published": "2026-11-21T00:12:13+09:00",
+          "published_label": "2026/11/21(土) 00:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "それが真実であることが判明し、リーマン予想が本当に証明された場合、今日歴史が作られたことになります。私はショックを受けています。\nしかし、さらに興味深いのは、それがどれだけ早く解決されたか、そしてクロードがどれだけのことをしたかということです。\n最初のステップの日付は 10 月 6 日です。その後、20 ステップのうち 8 ステップが 11 月 15 日の 1 日に着地し、11 月 16 日の最後のエントリには「GRH. (一般化リーマン仮説)」とだけ書かれています。\n彼は、証明が依存する 1 つの領域 (上位群の保型形式) についてはほとんど習得できていないことを認め、それらの部分についてはクロードの技術的スキルのおかげであると認めています。書き上げたバージョンは 250,000 ページを超えたため、彼はリーン コードのみをリリースしました。\nしたがって、実際には 1 人の数学者、1 人のモデル、6 週間が必要でした。\n今日、Anthropic と Alpöge からの公式声明が発表されることを期待しています。\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
+        },
+        {
+          "title": "please give him a follow :)",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123792255140110813",
+          "domain": "x.com",
+          "published": "2026-11-20T23:55:06+09:00",
+          "published_label": "2026/11/20(金) 23:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "彼をフォローしてください:)"
         }
       ],
-      "elapsed": 5.0
+      "elapsed": 2.4
     },
     {
       "id": "x_haider1",
@@ -1177,15 +1178,15 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
-          "title": "another fantastic news from google\nthey've been doing great with these new models but i also want to see the tooling catch up\ni'd rather use google but chatgpt and claude still feel smoother across browser, mobile, and desktop. even tool calls to google's own products seem faster and more reliable on claude\nLogan Kilpatrick (@OfficialLoganK)\nDecember 2nd we take the first step\n— https://x.com/OfficialLoganK/status/2123657759896007035",
+          "title": "holy fucking shit\nLevent Alpöge released the Lean code for his claimed proof of the Riemann Hypothesis without releasing a human-readable paper because the write-up is over 250,000 pages long\nYifan Zhang @ NeurIPS (@yifanzhang_)\nJUST IN: Riemann Hypothesis has been solved.\n— https://x.com/yifanzhang_/status/2123789252756414577",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXjeglKbIAA4fLC.jpg?name=small"
+            "https://pbs.twimg.com/media/HXlJ5K_a0AAKH_s.jpg?name=small"
           ],
-          "link": "https://x.com/haider1/status/2123691884338086247",
+          "link": "https://x.com/haider1/status/2123809954750677397",
           "domain": "x.com",
-          "published": "2026-11-20T17:16:16+09:00",
-          "published_label": "2026/11/20(金) 17:16",
+          "published": "2026-11-21T01:05:26+09:00",
+          "published_label": "2026/11/21(土) 01:05",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1193,7 +1194,63 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "Googleからのまた素晴らしいニュース\n彼らはこれらの新しいモデルで素晴らしい成果を上げていますが、ツールも追いつくのを見たいと思っています\n私は Google を使いたいと思っていますが、chatgpt と claude は、ブラウザ、モバイル、デスクトップのいずれにおいてもスムーズに感じられます。 Google 独自の製品へのツール呼び出しでさえ、クロードにとってはより高速で信頼性が高いように見えます\nローガン・キルパトリック (@OfficialLoganK)\n12月2日、私たちは最初の一歩を踏み出します\n— https://x.com/OfficialLoganK/status/2123657759896007035"
+          "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
+        },
+        {
+          "title": "ohh my... anthropic's levent alpöge claims to have discovered a proof of the Riemann Hypothesis with claude\nmathematics' most famous unsolved problem for more than 150 years\nScott Armstrong (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXk1OJSboAAd-5c.png?name=small",
+            "https://pbs.twimg.com/media/HXkoiilWgAAAeN1.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123787651585372457",
+          "domain": "x.com",
+          "published": "2026-11-20T23:36:48+09:00",
+          "published_label": "2026/11/20(金) 23:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
+        },
+        {
+          "title": "i still don't understand the hate around 6.2 astra and sol in practice\neven if you accept the criticism, the cost advantage of 6.2 astra and sol is so large that both remain on the Pareto frontier even with their capabilities discounted\nthey've pushed AA's intelligence/cost graph into new territory",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXkhKWebEAEiWc3.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123768321757892698",
+          "domain": "x.com",
+          "published": "2026-11-20T22:20:00+09:00",
+          "published_label": "2026/11/20(金) 22:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "実際のところ、6.2のアストラとソルの憎しみがまだ理解できません\n批判を受け入れるとしても、6.2 astra と sol のコスト上の利点は非常に大きいため、機能を割り引いてもどちらもパレートの境界線に留まります。\n彼らはAAのインテリジェンスとコストのグラフを新たな領域に押し上げた"
+        },
+        {
+          "title": "here's my understanding of what happened with gemini 4 generation:\nargon was the first model launched on the new architecture.\ncarbon uses a larger version of argon's base.\nhydrogen uses a newer, more efficient and higher-performing base.\nneon uses a larger version of hydrogen's base.\nthat's why neon can beat Carbon while costing less",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2123728880569926077",
+          "domain": "x.com",
+          "published": "2026-11-20T19:43:16+09:00",
+          "published_label": "2026/11/20(金) 19:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Gemini 4 世代で何が起こったのかについての私の理解は次のとおりです。\nアルゴンは、新しいアーキテクチャで発売された最初のモデルです。\nカーボンはアルゴンのベースのより大きなバージョンを使用します。\n水素は、より効率的で高性能な新しいベースを使用します。\nネオンは水素の塩基のより大きなバージョンを使用します。\nだからこそ、ネオンは低コストでカーボンに勝てるのです"
         },
         {
           "title": "you gotta give google credit\neveryone was mocking them just a few months ago or even weeks ago, and now they've caught up to openai and are going head-to-head with anthropic\nand somehow they're now releasing 2 models a week",
@@ -1378,64 +1435,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Googleはラインナップが完成するまでに、まだいくつかのモデルをリリースする必要があると思う\n俳句、ソネット、作品、寓話 — 理にかなっています\nルナ、テラ、ソル、アストラ — さらに理にかなっています\nネオン、水素、炭素、アルゴン — ??\nつまり Google には俳句クラスのモデルか寓話クラスのモデルが欠けています"
-        },
-        {
-          "title": "google has been shipping extremely fast lately but i don't really understand the pricing strategy for the gemini 4 generation\nfrom dec 1 the models are all bunched together at $7.50/$15/$20 per million output tokens with neither a cheap luna/haiku equivalent nor a high-end astra/fable equivalent",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXc5OePboAAhuRF.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123228681741230488",
-          "domain": "x.com",
-          "published": "2026-11-19T10:35:40+09:00",
-          "published_label": "2026/11/19(木) 10:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google は最近非常に早く出荷していますが、Gemini 4 世代の価格戦略がよくわかりません\n12 月 1 日から、モデルはすべて 100 万出力トークンあたり 7.50 ドル/15 ドル/20 ドルでまとめられており、安価なルナ/俳句に相当するものやハイエンドのアストラ/寓話に相当するものはありません"
-        },
-        {
-          "title": "remember all those vague hints google was dropping about RSI?\ni'm starting to think they've been cooking something absolutely insane behind the scenes and dropping three new flagship models in just eight days is extraordinary\ncarbon\nhydrogen\nneon",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2123161534134469030",
-          "domain": "x.com",
-          "published": "2026-11-19T06:08:50+09:00",
-          "published_label": "2026/11/19(木) 06:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google が RSI に関して落としていた漠然としたヒントをすべて覚えていますか?\n彼らは舞台裏で何か絶対に狂気の沙汰を作っているのではないかと思い始めており、わずか8日間で3つの新しいフラッグシップモデルをリリースするのは異常だ\nカーボン\n水素\nネオン"
-        },
-        {
-          "title": "astra 6.2 probably isn't the model that solved navier–stokes especially if that model only began training on august 28\nthat model should be far ahead of astra\nmaybe what Noam meant here is that the model solved math problems and he could have been referring to an astra math fine-tune that solved those problems",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXbV4Y7aQAAiYSr.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123119449012416530",
-          "domain": "x.com",
-          "published": "2026-11-19T03:21:36+09:00",
-          "published_label": "2026/11/19(木) 03:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "特にそのモデルが 8 月 28 日にトレーニングを開始したばかりである場合、アストラ 6.2 はおそらくナビエ ストークスを解決したモデルではありません。\nそのモデルはアストラよりはるかに先のはずだ\nおそらくノームがここで言いたかったのは、モデルが数学の問題を解決したということであり、彼はそれらの問題を解決するアストラ数学の微調整について言及した可能性があるということです。"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "x_testingcatalog",
@@ -1461,8 +1463,27 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
+        },
+        {
+          "title": "Google AI Subscribers can now generate GIFs on Gemini!\n> GIF generation is powered by Gemini Omni 1.2 Flash.\n> GIF generation is currently available only in the U.S., Japan, Korea, Australia, Canada, U.K., Germany, and France.\nGoogle Gemini (@GeminiApp)\nSay hello to GIFs in Gemini. Say goodbye to searching for the perfect one.\nFrom looping photo effects to funny memes, create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash, for smooth motion and consistent quality across every frame.\n— https://x.com/GeminiApp/status/2123813017855103449",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXlp2ZSXoAA7Cdw.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123845089495515621",
+          "domain": "x.com",
+          "published": "2026-11-21T03:25:03+09:00",
+          "published_label": "2026/11/21(土) 03:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Google AI サブスクライバーは、Gemini で GIF を生成できるようになりました。\n> GIF の生成は Gemini Omni 1.2 Flash を利用しています。\n> GIF 生成は現在、米国、日本、韓国、オーストラリア、カナダ、英国、ドイツ、フランスでのみ利用できます。\nGoogle Gemini (@GeminiApp)\nGemini の GIF にご挨拶してください。完璧なものを探す必要はもうありません。\nループ写真エフェクトから面白いミームまで、最新のビデオ モデルである Gemini Omni 1.2 Flash を使用して想像できるあらゆる GIF を作成し、すべてのフレームでスムーズな動きと一貫した品質を実現します。\n— https://x.com/GeminiApp/status/2123813017855103449"
         },
         {
           "title": "Hermes ❤️ Microsoft\nNous Research partnered with Microsoft in order to bring Hermes to Enterprise.\n> “Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure.”\n> “In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat.”\n> “Agent workloads run in isolated Azure Container Apps sandboxes.”\nA huge step for Hermes expansion! 👀\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",
@@ -1569,7 +1590,7 @@
           "summary": "",
           "images": [
             "https://pbs.twimg.com/media/HXg3MDuXwAAxBKV.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123506685390266368/img/WGZTCFjt1a44gZvk.jpg?name=small"
+            "https://pbs.twimg.com/media/HXlV61pX0AAlmfd.jpg?name=small"
           ],
           "link": "https://x.com/testingcatalog/status/2123507970449236208",
           "domain": "x.com",
@@ -1720,25 +1741,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "文書化されました 🗞️"
-        },
-        {
-          "title": "Google is working on different Writing Modes for Gemini Notebook.\n- Writing Partner, as a default option, uses AI to help make notes better.\n- Writing Coach acts in the chat and makes suggestions to the user.\n- No AI, for those who don't want to use it at all.\nWriting Coach is basically AI that prompts humans to write better text.\nSoon 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXfZbc0WsAAlXXm.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123405122478735541",
-          "domain": "x.com",
-          "published": "2026-11-19T22:16:46+09:00",
-          "published_label": "2026/11/19(木) 22:16",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google は、Gemini Notebook 用のさまざまな書き込みモードの開発に取り組んでいます。\n- Writing Partner はデフォルトのオプションとして、AI を使用してメモをより良く作成します。\n- ライティング コーチはチャットで機能し、ユーザーに提案を行います。\n- AI は使用しません。AI をまったく使用したくない人向けです。\nWriting Coach は基本的に、人間により良いテキストを書くよう促す AI です。\nもうすぐ👀"
         }
       ],
       "elapsed": 0.8
