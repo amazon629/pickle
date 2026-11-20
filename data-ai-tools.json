@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:32:41+09:00",
-  "generated_at_label": "2026/11/20 10:32 JST",
+  "generated_at": "2026-11-20T10:45:48+09:00",
+  "generated_at_label": "2026/11/20 10:45 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 6.8
+      "elapsed": 7.8
     },
     {
       "id": "x_opencode",
@@ -568,7 +568,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 6.8
+      "elapsed": 8.5
     },
     {
       "id": "x_aimirai46487",
@@ -848,7 +848,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.9
+      "elapsed": 8.3
     },
     {
       "id": "x_kimmonismus",
@@ -898,7 +898,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Microsoft Ignite の短いレビュー + 正直な意見:\nここ数日間、私は Microsoft Ignite で過ごしました。私は基調講演を視聴し、Kyle Daigle (@kdaigle GitHub の COO および Microsoft の CMO 開発者) と Sergey Fayfer (@fayfers CVP Copilot Product) に 2 つのインタビューをすることができました。本当に素敵な二人です。それに加えて、非常に少人数のグループで Microsoft CEO の Satya Nadella と Q&A を行いました。いつものように素晴らしいです。本当に興味深い洞察が得られます。\nまず、Microsoft が発表した内容を簡単に要約します。\n- 新しい社内 MAI モデル (MAI Code 2 および Code 2 Flash (GitHub Copilot でライブ)、MAI Image 2.7、および音声合成モデル MAI Realtime 1 を含む)\n- 独自の ID とメモリを備えた常時稼働エージェントである Autopilot が、Frontier 顧客への展開を開始 (Microsoft の早期アクセス プログラム)\n- Chat と Cowork が連携する Copilot ホーム、および Copilot アプリ内の Word、Excel、PowerPoint (どちらも一般提供)\n- ワークスペース、ユーザーとエージェントが 1 つのプロジェクトに取り組む共有スペース (Notebooks の後継)\n- Microsoft-Decision-1.1、各タスクのモデルと作業レベルを選択し、Cowork の自動モードを強化する小型ルーター モデル\n- Microsoft IQ、企業エージェントがメール、ファイル、データにアクセスできるようにするコンテキスト層\n2 つのことを強調したいと思います。\n1) Microsoft は効率性に賭けています。ビジネスにおいては、より安価なトークンが重要です。 MAI Code 2 では、GitHub がすでにたどった道を継続します。独自の安価なモデルと、単純なルーターをはるかに超えたオーケストレーションです。 GitHu"
         },
         {
@@ -1137,7 +1137,7 @@
           "title_ja": "「SECの提出書類と投資家によると、今日の同社のIPO後、アンスロピックの平均的な従業員の価値は4,000万ドルを超える可能性があります。」"
         }
       ],
-      "elapsed": 6.4
+      "elapsed": 3.9
     },
     {
       "id": "x_haider1",
@@ -1182,7 +1182,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "astra 6.2 と gemini 4 neon は現時点で最高のコーディングの組み合わせかもしれません\n6.2 はオーケストレーターとして、neon はコーディング エージェントとして、つまりコーディング マシンです\nastra 6.2 はコンテキストと全体的なプロジェクト管理をよりよく理解しており、ネオンはカーボンよりも優れています"
         },
         {
@@ -1425,7 +1425,7 @@
           "title_ja": "astra 6.2 は基本的に 6 のスーパーチャージャー版です\n昨夜6.2がドロップされたとき、私はastra 6を使用したソフトウェアアプリケーションに取り組んでいたので、それにいくつかの変更を加えました。私はその警告を無視して、いつも6でやったようにファイルを直接コピーして、結局プロジェクトを壊してしまいました。\nしかし、6.2 では 6 よりもはるかに速くすべてが修正されました。"
         }
       ],
-      "elapsed": 5.6
+      "elapsed": 6.2
     },
     {
       "id": "x_testingcatalog",
@@ -1731,7 +1731,7 @@
           "title_ja": "Google は、Gemini Notebook 用のさまざまな書き込みモードの開発に取り組んでいます。\n- Writing Partner はデフォルトのオプションとして、AI を使用してメモをより良く作成します。\n- ライティング コーチはチャットで機能し、ユーザーに提案を行います。\n- AI は使用しません。AI をまったく使用したくない人向けです。\nWriting Coach は基本的に、人間により良いテキストを書くよう促す AI です。\nもうすぐ👀"
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 1.1
     }
   ]
 }
