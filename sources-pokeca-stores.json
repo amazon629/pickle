@@ -1,0 +1,274 @@
+{
+  "settings": {
+    "title": "ポケカ32店舗 公式X監視ボード",
+    "nav_label": "🏪 ポケカ32店舗",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_pokemoncenterpr",
+      "type": "x",
+      "name": "✅ ポケセンオンライン @pokemoncenterPR",
+      "handle": "pokemoncenterPR",
+      "enabled": true,
+      "account_name": "ポケモンセンター公式"
+    },
+    {
+      "id": "x_aeon_japan",
+      "type": "x",
+      "name": "✅ イオンオンライン @AEON_JAPAN",
+      "handle": "AEON_JAPAN",
+      "enabled": true,
+      "account_name": "イオン公式（イオンリテール）"
+    },
+    {
+      "id": "x_yamada_official",
+      "type": "x",
+      "name": "✅ ヤマダ @yamada_official",
+      "handle": "yamada_official",
+      "enabled": true,
+      "account_name": "ヤマダデンキ"
+    },
+    {
+      "id": "x_pcgl_shibuya",
+      "type": "x",
+      "name": "✅ ラウンジ @PCGL_Shibuya",
+      "handle": "PCGL_Shibuya",
+      "enabled": true,
+      "account_name": "POKÉMON CARD LOUNGE公式（ポケモンカードラウンジ）"
+    },
+    {
+      "id": "x_card_x",
+      "type": "x",
+      "name": "✅ カードボックス @card_x",
+      "handle": "card_x",
+      "enabled": true,
+      "account_name": "カードボックスオフィシャル"
+    },
+    {
+      "id": "x_amazonjp",
+      "type": "x",
+      "name": "✅ Amazon @AmazonJP",
+      "handle": "AmazonJP",
+      "enabled": true,
+      "account_name": "Amazon.co.jp（アマゾンジャパン）"
+    },
+    {
+      "id": "x_yodobashi_x",
+      "type": "x",
+      "name": "✅ ヨドバシオンライン @Yodobashi_X",
+      "handle": "Yodobashi_X",
+      "enabled": true,
+      "account_name": "ヨドバシカメラ【公式】"
+    },
+    {
+      "id": "x_pao_online",
+      "type": "x",
+      "name": "✅ PAO（竜星のPAO） @PAO_online",
+      "handle": "PAO_online",
+      "enabled": true,
+      "account_name": "PAO通販部（通販のPAO）"
+    },
+    {
+      "id": "x_fullcomp_online",
+      "type": "x",
+      "name": "✅ フルコンプ @FULLCOMP_online",
+      "handle": "FULLCOMP_online",
+      "enabled": true,
+      "account_name": "フルコンプオンラインショップ"
+    },
+    {
+      "id": "x_7_netshopping",
+      "type": "x",
+      "name": "✅ セブンネット @7_netshopping",
+      "handle": "7_netshopping",
+      "enabled": true,
+      "account_name": "セブンネットショッピング"
+    },
+    {
+      "id": "x_ds_ecommerce",
+      "type": "x",
+      "name": "✅ ドラスタ（ドラゴンスター） @ds_ecommerce",
+      "handle": "ds_ecommerce",
+      "enabled": true,
+      "account_name": "ドラゴンスター通販"
+    },
+    {
+      "id": "x_ys_info",
+      "type": "x",
+      "name": "✅ イエローサブマリン @YS_INFO",
+      "handle": "YS_INFO",
+      "enabled": true,
+      "account_name": "イエローサブマリン宣伝"
+    },
+    {
+      "id": "x_rakutenbooks",
+      "type": "x",
+      "name": "✅ 楽天ブックス @rakutenbooks",
+      "handle": "rakutenbooks",
+      "enabled": true,
+      "account_name": "楽天ブックス"
+    },
+    {
+      "id": "x_toy_yamashiroya",
+      "type": "x",
+      "name": "✅ ヤマシロヤ @toy_yamashiroya",
+      "handle": "toy_yamashiroya",
+      "enabled": true,
+      "account_name": "ヤマシロヤ【公式】"
+    },
+    {
+      "id": "x_wgoo_official",
+      "type": "x",
+      "name": "✅ わんだーぐー（WonderGOO） @wgoo_official",
+      "handle": "wgoo_official",
+      "enabled": true,
+      "account_name": "WonderGOO（ワンダーグー）公式"
+    },
+    {
+      "id": "x_hbst_event",
+      "type": "x",
+      "name": "✅ ホビステ（ホビーステーション） @hbst_event",
+      "handle": "hbst_event",
+      "enabled": true,
+      "account_name": "ホビーステーション＠イベント案内"
+    },
+    {
+      "id": "x_hareruya2pokeca",
+      "type": "x",
+      "name": "✅ ハレツー（晴れる屋2） @hareruya2pokeca",
+      "handle": "hareruya2pokeca",
+      "enabled": true,
+      "account_name": "ハレツー（晴れる屋2）"
+    },
+    {
+      "id": "x_tz_kyoto",
+      "type": "x",
+      "name": "✅ トレカザウルス @TZ_kyoto",
+      "handle": "TZ_kyoto",
+      "enabled": true,
+      "account_name": "トレカザウルス 京都店"
+    },
+    {
+      "id": "x_gogo_sanyodo2",
+      "type": "x",
+      "name": "✅ 三洋堂（三洋堂書店） @GOGO_SANYODO2",
+      "handle": "GOGO_SANYODO2",
+      "enabled": true,
+      "account_name": "三洋堂書店【公式】"
+    },
+    {
+      "id": "x_joshinweb",
+      "type": "x",
+      "name": "✅ ジョーシンWeb @joshinweb",
+      "handle": "joshinweb",
+      "enabled": true,
+      "account_name": "Joshin webショップ"
+    },
+    {
+      "id": "x_torepla_ec",
+      "type": "x",
+      "name": "✅ トレカプラザ55 @torepla_ec",
+      "handle": "torepla_ec",
+      "enabled": true,
+      "account_name": "トレカプラザ55通販店"
+    },
+    {
+      "id": "x_heiwadoofficial",
+      "type": "x",
+      "name": "❌ 平和堂 @HEIWADOofficial",
+      "handle": "HEIWADOofficial",
+      "enabled": true,
+      "account_name": "【公式】株式会社 平和堂"
+    },
+    {
+      "id": "x_furu1tenpo",
+      "type": "x",
+      "name": "❌ ふるいち @furu1tenpo",
+      "handle": "furu1tenpo",
+      "enabled": true,
+      "account_name": "古本市場・ふるいち【公式】アカウント"
+    },
+    {
+      "id": "x_edion_pr",
+      "type": "x",
+      "name": "❌ エディオン @edion_PR",
+      "handle": "edion_PR",
+      "enabled": true,
+      "account_name": "家電とリフォームのエディオン【公式】"
+    },
+    {
+      "id": "x_joshin_info",
+      "type": "x",
+      "name": "❌ ジョーシン店舗 @joshin_info",
+      "handle": "joshin_info",
+      "enabled": true,
+      "account_name": "ジョーシン【公式】"
+    },
+    {
+      "id": "x_genki302",
+      "type": "x",
+      "name": "❌ ゲームプラザ元気 @genki302",
+      "handle": "genki302",
+      "enabled": true,
+      "account_name": "ゲームプラザ元気302"
+    },
+    {
+      "id": "x_toysrus_jp",
+      "type": "x",
+      "name": "❌ トイザらス @TOYSRUS_JP",
+      "handle": "TOYSRUS_JP",
+      "enabled": true,
+      "account_name": "トイザらス・ベビーザらス 公式"
+    },
+    {
+      "id": "x_shippo_online",
+      "type": "x",
+      "name": "⚠️ 竜のしっぽ @shippo_online",
+      "handle": "shippo_online",
+      "enabled": true,
+      "account_name": "竜のしっぽ通販部"
+    },
+    {
+      "id": "x_biccamerae",
+      "type": "x",
+      "name": "⚠️ ビックカメラ @biccameraE",
+      "handle": "biccameraE",
+      "enabled": true,
+      "account_name": "ビックカメラ【公式】"
+    },
+    {
+      "id": "x_lets_go_yokado",
+      "type": "x",
+      "name": "⚠️ ヨーカドー（イトーヨーカドー） @Lets_go_Yokado",
+      "handle": "Lets_go_Yokado",
+      "enabled": true,
+      "account_name": "イトーヨーカドー"
+    },
+    {
+      "id": "x_hobbyz_official",
+      "type": "x",
+      "name": "⚠️ ホビゾ（ホビーゾーン） @HobbyZ_official",
+      "handle": "HobbyZ_official",
+      "enabled": true,
+      "account_name": "Hobby Zone【公式】"
+    },
+    {
+      "id": "x_mintheadquarter",
+      "type": "x",
+      "name": "⚠️ MINT @MintHeadquarter",
+      "handle": "MintHeadquarter",
+      "enabled": true,
+      "account_name": "ミント【公式】"
+    }
+  ]
+}

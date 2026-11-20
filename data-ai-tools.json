@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:45:48+09:00",
-  "generated_at_label": "2026/11/20 10:45 JST",
+  "generated_at": "2026-11-20T10:54:58+09:00",
+  "generated_at_label": "2026/11/20 10:54 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 7.8
+      "elapsed": 6.6
     },
     {
       "id": "x_opencode",
@@ -568,7 +568,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 8.5
+      "elapsed": 6.7
     },
     {
       "id": "x_aimirai46487",
@@ -848,7 +848,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 8.3
+      "elapsed": 13.5
     },
     {
       "id": "x_kimmonismus",
@@ -878,6 +878,23 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
+        },
+        {
+          "title": "Let that sink in for a moment: Gemini 4 is Googles *small* model.\nIts far ahead of Argon and Carbon. One of Googles small models surpassed the performance of their larger models within weeks and competes with Opus / Fable.\nTalking about RSI and such..\nTianfu Fu (@TianfuF)\nNeon is actually one of our small models. We’re positioning it in the same tier as Opus and Sol, even though its performance is already approaching latest Fable and Astra. We’d rather be conservative with our claims than overhype it.\n— https://x.com/TianfuF/status/2123567254646448311",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123594971118993882",
+          "domain": "x.com",
+          "published": "2026-11-20T10:51:10+09:00",
+          "published_label": "2026/11/20(金) 10:51",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "このことを少し理解してください。Gemini 4 は Google の *小規模* モデルです。\nアルゴンやカーボンよりもはるかに先を行っています。 Google の小型モデルの 1 つは、数週間以内に大型モデルのパフォーマンスを上回り、Opus / Fable と競合します。\nRSIなどの話。\n福天福 (@TianfuF)\nNeon は実際には私たちの小さなモデルの 1 つです。そのパフォーマンスは既に最新の Fable や Astra に近づいていますが、Opus や Sol と同じ層に位置付けています。私たちは、自分たちの主張を誇張するよりも、むしろ保守的でありたいと考えています。\n— https://x.com/TianfuF/status/2123567254646448311"
         },
         {
           "title": "A short review of Microsoft Ignite + honest take:\nI spent the last few days at Microsoft Ignite. I got to watch the keynote and do two interviews, with Kyle Daigle (@kdaigle COO of GitHub and CMO Developer at Microsoft) and Sergey Fayfer ( @fayfers CVP Copilot Product). Two absolutely nice guys. On top of that, I had a Q&A with Microsoft CEO Satya Nadella in a very small group. Great as always, you just get really interesting insights.\nFirst, a quick recap of what Microsoft announced:\n- New in-house MAI models, including MAI Code 2 and Code 2 Flash (live in GitHub Copilot), MAI Image 2.7 and the speech-to-speech model MAI Realtime 1\n- Autopilot, an always-on agent with its own identity and memory, starting to roll out to Frontier customers (Microsoft's early access program)\n- Copilot Home, where Chat and Cowork come together, plus Word, Excel and PowerPoint inside the Copilot app, both generally available\n- Workspaces, shared spaces where people and agents work on one project (the successor to Notebooks)\n- Microsoft-Decision-1.1, a small router model that picks the model and effort level for each task and powers the Auto mode in Cowork\n- Microsoft IQ, the context layer that gives company agents access to mails, files and data\nI want to highlight two things:\n1) Microsoft is betting on efficiency. Cheaper tokens matter in business. With MAI Code 2 they continue on the path GitHub already took: their own cheap models, plus orchestration that goes way beyond simple routers. GitHub's Fusion picks the models for each task and lets them work together. A cheaper model starts and a stronger one only takes over when needed, or one model drafts and another reviews. Microsoft says MAI Code 2 reaches 96% of Claude Opus 5.5's performance at 5% of the cost.\nAnd credit where it's due: Microsoft, with its focus on business and enterprise through Office, will be successful with this. I say that out of conviction. You hear from everywhere that token costs keep rising in companies. Microsoft shows up as the provider with ideas on how to cut those costs, keep working smart and keep customers inside its own Office ecosystem at the same time.\n2) And that ecosystem got a lot bigger. Autopilot, Microsoft's always-on agent for work, is now rolling out, starting with Frontier customers. That matters too. Think about how many customers Microsoft has through Office. This is a big step toward getting the working world used to personalized agents. They have the context of your company, they are tailored to each person, and they are very similar to OpenAI's Dots.\nTo be fair, I also said in my conversations that Microsoft has to be careful not to make the same mistake as OpenAI here. What makes Grok Bot (among others) so good is that you can create as many agents as you want, with team meetings, a chief of staff and much deeper personalization. Autopilot feels more like OpenAI's Dots: one agent, one long session, even though you can create several sessions with Autopilot. I'd like to see more personalization, but I heard Microsoft's always-on agent is still a work in progress. The same applies to Copilot. Routing is often selected by default. However, my distrust likely stems from the GPT-5 release, when routing was first truly implemented - and it worked rather poorly.\nOne more thought that came to me during the event: Microsoft and GitHub are going their own way more and more, with their own models. With MAI Code 2 and Fusion they get close to frontier models like Opus 5.5 at a much lower cost. To me it looks like Microsoft is looking for independence. More and more of their business runs on their own models, together with attractive offers for their customers, and that could actually become a moat. We'll see.\nOverall a really interesting look behind the scenes. Microsoft is slimming down and simplifying its interface and bringing it all together, and I'm quite sure they listen to feedback. That's why I look back at Ignite in a positive way.\nIt was a great experience and im really looking forward to what Microsoft is going to release and update. And who knows, maybe in a few months even Microsoft is starting to compete with OpenAI, Anthropic and Google (though that's not very likely ;)",
@@ -1116,28 +1133,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "今日だけで +40m になったと想像してみてください。あなたは従業員としてこの会社を前進させることにとても興奮しているに違いありません"
-        },
-        {
-          "title": "\"The average Anthropic employee could be worth over $40 million after the company’s IPO today, according to SEC filings and investors.\"",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgTb3XaEAA5mTa.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123468633469034522",
-          "domain": "x.com",
-          "published": "2026-11-20T02:29:09+09:00",
-          "published_label": "2026/11/20(金) 02:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "「SECの提出書類と投資家によると、今日の同社のIPO後、アンスロピックの平均的な従業員の価値は4,000万ドルを超える可能性があります。」"
         }
       ],
-      "elapsed": 3.9
+      "elapsed": 6.5
     },
     {
       "id": "x_haider1",
@@ -1425,7 +1423,7 @@
           "title_ja": "astra 6.2 は基本的に 6 のスーパーチャージャー版です\n昨夜6.2がドロップされたとき、私はastra 6を使用したソフトウェアアプリケーションに取り組んでいたので、それにいくつかの変更を加えました。私はその警告を無視して、いつも6でやったようにファイルを直接コピーして、結局プロジェクトを壊してしまいました。\nしかし、6.2 では 6 よりもはるかに速くすべてが修正されました。"
         }
       ],
-      "elapsed": 6.2
+      "elapsed": 6.0
     },
     {
       "id": "x_testingcatalog",

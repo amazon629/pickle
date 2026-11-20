@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T10:45:58+09:00",
-  "generated_at_label": "2026/11/20 10:45 JST",
+  "generated_at": "2026-11-20T10:55:03+09:00",
+  "generated_at_label": "2026/11/20 10:55 JST",
   "title": "10億ドル以上ユニコーン ニュース監視",
   "total": 249,
   "sources": [
@@ -28,7 +28,8 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "クリス・メイズAG、コチース郡にSpaceXデータセンターに関する投票延期を要請"
         },
         {
           "title": "Lenders aim to bar SpaceX from launching $40bn of chips into orbit",
@@ -99,7 +100,7 @@
           "title_ja": "イーロン・マスク氏、スペースXには携帯電話のデッドゾーンをなくす計画があると語る"
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 1.1
     },
     {
       "id": "uc_02",
@@ -385,7 +386,7 @@
           "title_ja": "Crusoe は大規模なデータセンターと小規模なモジュール式「AI ファクトリー」を構築するために 39 億ドルを調達"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_05",
@@ -413,6 +414,22 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "英国の売上高が25億8000万ポンドに達し、シェインは英国のライバルエイソスを上回った。"
+        },
+        {
+          "title": "MusinsaのIPO時価総額8兆ウォン、カギ握る「プラットフォーム利益」…Shein発のバリュエーション下方修正懸念",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83LVB6amxUb0FLVHJibkNrU3pGR1drTVJzRzVHZUVwRXUwb0ViejVmVEtyV2c5S3ZTVXoyNXBqN3llY0RLMTIzMHpUelM2YU1VbUdvUG92eWRSSFNpNkc3dnlIVlRMaFVmblhrcGs3UGg2TUdv?oc=5",
+          "domain": "finance.biggo.jp",
+          "published": "2026-10-02T11:00:48+09:00",
+          "published_label": "2026/10/2(金) 11:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "世界のＩＰＯ、8月は前年比37％増の100億ドル ＳＨＥＩＮ上場のアジア寄与＝ＬＳＥＧ",
@@ -463,26 +480,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "デロイト中国がSHEINのSEHKへの上場を支援"
-        },
-        {
-          "title": "What Shein's IPO means for customers",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX0l6bVA1Y0ZhMU9TUHdZZ1RObVJNVjJCMGxKT015WUVnRmhPaWlyNG56akVUcDc5T2FXZUl2VkM3X1RBbjBhRnN5bVU3TmEwLTBIZV9leTJkVlRNTTBzOFZyVVpqSHRETjEyclM5bmxpMXNydVh6MTcydl9MeEFKRmZKMVBCSDg?oc=5",
-          "domain": "marketplace.org",
-          "published": "2026-09-01T16:00:00+09:00",
-          "published_label": "2026/9/1(火) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Shein の IPO が顧客にとって意味するもの"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "uc_06",
@@ -576,7 +576,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 0.9
     },
     {
       "id": "uc_07",
@@ -670,10 +670,11 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "ドローン配送が変曲点に達し、ジップラインが6億ドルを調達"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "uc_08",
@@ -771,7 +772,7 @@
           "title_ja": "ドイツの防衛スタートアップ、ヘルシングがパランティアに対抗するAI軍事ソフトウェアを発表"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "uc_09",
@@ -814,7 +815,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Nvidia wins fast-growing AI startup Modal for new central processors",
@@ -830,7 +831,8 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "Nvidia、新しい中央プロセッサ向けに急成長する AI スタートアップ Modal を獲得"
         },
         {
           "title": "AI Funding Hits $2.42B as Modal Lands $750M at $15.75B (Oct 12-Oct 18, 2026)",
@@ -846,7 +848,8 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "AI資金調達が24億2000万ドルに達し、モーダルが157億5000万ドルで7億5000万ドルを獲得（2026年10月12日～10月18日）"
         },
         {
           "title": "Modal raises $750M, Workday and Proofpoint make cyber deals",
@@ -862,10 +865,11 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "Modal が 7 億 5,000 万ドルを調達、Workday と Proofpoint がサイバー取引を締結"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_10",
@@ -877,6 +881,23 @@
       "via": "https://news.google.com/rss/search?q=%22Harvey%22%20%28startup%20OR%20funding%20OR%20valuation%20OR%20%22legal%20AI%22%20OR%20%22law%20firm%22%20OR%20raises%29&hl=en-US&gl=US&ceid=US:en",
       "count": 5,
       "items": [
+        {
+          "title": "Harvey and DeepJudge Integration Enhances Legal AI Workflows",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yeGhqdTAxcVdWSWNPVzlscXlteVVDRVJmT2c5V3I0SEt6VXZYdjhVVWEwLWFNb19qd1NRRHV2bUpsaEM3c04tTEUwYmw2MDdDMUd0cTNLLUd2NVJyTDlpY3lJS01rZGRySnFQOHZCUXNCRTVK?oc=5",
+          "domain": "blockchain.news",
+          "published": "2026-11-20T10:35:00+09:00",
+          "published_label": "2026/11/20(金) 10:35",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Harvey と DeepJudge の統合により法務 AI ワークフローが強化"
+        },
         {
           "title": "Harris County continues fund funding for Harvey recovery, stalls AI facial recognition contract",
           "summary": "",
@@ -929,39 +950,24 @@
           "title_ja": "ハーベイ・シール、法務AIスポーツマーケティング電撃戦でウィンブルドンと提携"
         },
         {
-          "title": "Harvey Legal AI Rolls Out Across More Than 20 SK Group Affiliates",
+          "title": "Harvey Plans to Add GPT-6.2 Astra and Sol to Legal AI Platform",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUlQZ21zQy01bExmRUdObkwydUs3YjFsaDllMTFheVpseUl5aXY4bF9xMEtlaDRfWTJRWjRqbzJDLWJseGItQjhWem5xdnlWODRhcTBRODZzbWhpQlVtSFVwcEhlaGFpMmQ5RWhJZExvOE92aVFXUm02MFVuOFZ2Zy1TUUVzaHNHd0xvX3BiVTQ0dDc5aWR3?oc=5",
-          "domain": "securities.io",
-          "published": "2026-11-18T09:25:50+09:00",
-          "published_label": "2026/11/18(水) 09:25",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GS3ZFYlhQUkdHdDBrTkdBZ2dvYlJHT044VFJPM0VVZ1NzUkpteElndk5nZWIzbWJVWWxiWEw0Nm9JMnpaOExvZWIwR3VmakQycnpvdnBNdDF0RDQ?oc=5",
+          "domain": "tokenpost.com",
+          "published": "2026-11-18T13:37:00+09:00",
+          "published_label": "2026/11/18(水) 13:37",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "McGuireWoods’ Greg Hawver Speaks at Harvey FORUM Chicago About Legal AI",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWGtVTnRtOVI5QXFhOTdEZm1YN1ZaVG0wWUNUTUhIWkFsSWtjN05HblVUdFFGX29STUdTaGFTUWY0c2JHOTEzYWwxSmFCcUZ2VjJIV3NxNlBOR2VQOVl4ckZhakljaV9ZOHZNSFFzZXJWM1NyNW9wUG1Pd1ZDVE9zSjlWWjBHY1VoeDZReUZJYV9yLWx3OTRCY1ZadURPT3dZVnZPUC1qSEZyNVh0VFA2UG9rUm5NZmNTNFl1Y2VHWHEyOUMyci1r?oc=5",
-          "domain": "mcguirewoods.com",
-          "published": "2026-11-18T02:51:19+09:00",
-          "published_label": "2026/11/18(水) 02:51",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": true,
+          "title_ja": "Harvey は GPT-6.2 Astra と Sol を法律 AI プラットフォームに追加する計画"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_11",
@@ -1058,7 +1064,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "uc_12",
@@ -1155,7 +1161,7 @@
           "title_ja": "Temporal が AI エージェントの破壊を防ぐために 5 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "uc_13",
@@ -1168,88 +1174,91 @@
       "count": 5,
       "items": [
         {
-          "title": "Instinct: Funding, Investors, Team and Key Events",
+          "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1keEJaTGV3UVg5ODYxMWhBREx3dHdHcHkyX0FCT2xPUnFqNnpXVDk5Ym1HTEFGMHJtNWo5SzZHWGF6aHJZdU15UnZzTUhKZnZQU1E?oc=5",
-          "domain": "cryptorank.io",
-          "published": "2026-11-14T07:12:23+09:00",
-          "published_label": "2026/11/14(土) 07:12",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95eWpSR3Z5bmFQQTA4REpKVXR3eTRjUXFjVGJTenBsZ1N5c3EwUllFakRaTE1DcF9jclRqVjdqS2FFemd0eHJRbDlrYzRzcEozVG05YVI0blBla016VFBOMGFCaHlOc1Ftc1dNNlYxb21qRmxkMmp1VlhNc1JxZm8?oc=5",
+          "domain": "theverge.com",
+          "published": "2026-10-09T16:00:00+09:00",
+          "published_label": "2026/10/9(金) 16:00",
           "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Instinct は最も活発な AI エージェントでした。Instinct は Muse に生き残ることができるでしょうか?"
+        },
+        {
+          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeFNjd09OVXVoS3ZRT25TSl9oUERJLXk2ZnRsNnRzVmNCdGFtLXI1U3lla1libktXRkRjd1ZIbjliY0Z6VWlGLUZyOTBqZ09GdExKODdWZjFmRHE4RkloUy1ab0dpYzhWc0xiemxvWDhqWnR4OEdlSG9QVkZCR0JsY0lOb2xIMFprdl9vd1pfZHU1S3U3RnE3NnRNZzJiVVlsMlRtUmQzeF9ITzFBTzhDZmhiY1o?oc=5",
+          "domain": "techcrunch.com",
+          "published": "2026-10-05T16:00:00+09:00",
+          "published_label": "2026/10/5(月) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Instinct は、アカウントを持たない友人に対しても AI エージェントをグループ チャットに導入します"
+        },
+        {
+          "title": "As Muse Tops the App Store and Instinct Raises $1 Billion, Snaplii Offers a Separate Wallet for AI Agent Spending, With Cashback",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRlBuYjMyVVE0TkZwZ0pNVEVfUjU3X3k4UFlBRXNsS2JsR0JSajZraU5XazVGdE94c0pVLUc3T2hNNjZlMFB0YlczTTZicmRER1ZPVjJ0VXVSWVhJYXk3bVd3YThCMldBcFJXTDZHMkItZ1Npb09zdXhGdXVNYXZtR1BXaW83WVpZdXhsd0gxOW1GeVlINUtj?oc=5",
+          "domain": "finance.yahoo.com",
+          "published": "2026-10-05T16:00:00+09:00",
+          "published_label": "2026/10/5(月) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Muse が App Store でトップとなり、Instinct が 10 億ドルを調達する中、Snaplii は AI エージェントの支出用にキャッシュバック付きの別のウォレットを提供"
+        },
+        {
+          "title": "Instinct raises $1 billion at a $10 billion valuation — Fortune",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPd25PVjFSeFlCbDFNcjBISlhfN0J4MTA1dTRXUUt5TTVJOVB4aFFBWVRjdFNuT29wZ3FEYVNSVjVzallodjRPTFhGOHphdDhlbnZnTjVQRFpTUWZaWlJRNnlVQWtXVzJ1UkRMUlR3cnZiMjd5MWRFNjJ3UW5JekVHY3BEMUZKV01QZUIw?oc=5",
+          "domain": "ua.news",
+          "published": "2026-09-30T16:00:00+09:00",
+          "published_label": "2026/9/30(水) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Instinct、100億ドルの評価額で10億ドルを調達 — フォーチュン"
+        },
+        {
+          "title": "話題のAIエージェント「Instinct」に旅行計画を任せてみた。出張は優秀、でも休暇はわくわく感が消えた",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMUtvM3NFakRpOGRvT3RMWEF1S3M0anoyOGltX1I1SWk2VkhwSzNBOWhmRXNTNDJMY3R1YnZFd1A1emJvdmdleHN5VTJWdUdIYkhSU3liVzlfYTVfRWJOdFNGMmY5R296RGFMMmU2ajVMSEZNZWZuZlg4Uk9SdGVSd0JqT3k4ZWhmQnFZdkh1ZzFTNmZaT1hhWUV4NTJjYlVDcXlHaXlTOEJhUQ?oc=5",
+          "domain": "businessinsider.jp",
+          "published": "2026-09-30T16:00:00+09:00",
+          "published_label": "2026/9/30(水) 16:00",
+          "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
           "is_new": true
-        },
-        {
-          "title": "Instinct fixes WhatsApp disruption: What happened, what does its personal AI agent do?",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN1NCNTNDWVhKLUU1LUF2WGVqcmZWa21OdGM3enl3UHdTQm9NUGFXN09uZU15WEVUN1N3OGt0dzRkSFJvYVRDSEQ3MTl0UlNUeEp4Qjh5ZE80YlZCX29oZ3pPdE5KQTJxRV8zT21wc0hYUzloYWh0SURMa1FuVUxEUXJwTjdMUlVlR2xMc0dVaE1PeUo1NnJQVU9lbUxtZmxQT1FUdjB0dUFlMDQ5aFVBZ3o1Uks1dlpDMjd6bGdkdUZSSFNaUlhfaEVvZ9IB0gFBVV95cUxNSzA1T2RwYnJ3NG0tRGxtVEpkVDJYZHdqSGcyeG9zZV9BRGRRRkQtV3dKeTJQSUhtRnY3dWZ1anBoVEZOV1dhVFFncl9VYTFGRWFBbF9WeWFZU1NzQmlRQi1kb1h6ZGFJSGNOZmx2RVB0MHBDdlBMbXFKd2ZicUNwazB5dnp2NUF4cDJsdE4wNXBPcDFLMGw0WTV2dFd5MjRKVWdLaElHTzM1aTh6Z1RuRGdhOFRSU24zSUxqSi1yYmtCdFZuUlZrekRsSmZKZ0ZlaEE?oc=5",
-          "domain": "indianexpress.com",
-          "published": "2026-11-04T17:00:00+09:00",
-          "published_label": "2026/11/4(水) 17:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "WhatsApp AI agent Instinct went silent after payment error",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLWh0X3BfdFpybk1JZnFON1RiUktoenJvSGtQQ0dBS0EzeW9MdHYwbTVIam4zbnNKMUU2QWJrV3lsQXZXSnliUWF1TVN1SE9MNzdJR3FGNEl1X1pwanRMUV9VSGxmaURjWmc4bDVUN3d1b2xMbmtHX0VCTWkwc2dLMTl2bzVvUQ?oc=5",
-          "domain": "techinasia.com",
-          "published": "2026-11-02T13:16:00+09:00",
-          "published_label": "2026/11/2(月) 13:16",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Zocdoc partners with Instinct for AI appointment booking",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTVcybFNPNU44OGQ3WXZZMzZaNHE0cUczTmFjaUREUUhaUWJ1RHp1SGJTN3RKLVEwaXdEY1daMENxREt4VG5pVTBPckxiWFBCLWg3aHZPRjV4bE1iYnN0MlkwQjJwVWlvaGQ1SkFIVXlWMkktUC1ZMjhUYl9ma1k2RklUVi15a05tQWZN?oc=5",
-          "domain": "mobihealthnews.com",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Wabi raises $55M from IVP at $1.25B: Can Replika’s founder out-run Meta’s Muse and Instinct?",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40Y3pUZUNIdmJBbGV6N25ISHdNU3Z2bF9pZVV5X01QRGk3Z2EwbFVsdk5ZY2xLcWxFbVNrX3hEMkZiRHNuRjRRVnNwblhQRTNFTWVPeXc0RHFMQS1lVFYxaXFmd1V1b1dHYU8td2RqXzNMaDdyT1UtRExhOEVNYjQ?oc=5",
-          "domain": "techfundingnews.com",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Wabi が IVP から 5,500 万ドルを 12 億 5,000 万ドルで調達: Replika の創設者は Meta の Muse と Instinct を上回ることができるか?"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.6
     },
     {
       "id": "uc_14",
@@ -1262,92 +1271,92 @@
       "count": 5,
       "items": [
         {
-          "title": "Quince Just Restocked Some of the Best Values in Golf Apparel",
+          "title": "Toronto's Distillery Winter Village Expands Retail Offerings as Quince Takes Title Sponsorship",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTEdueU5OMkdFTG5wRGZGcjI1cHQ4WDFiV0I1UHRqVWpvQkFvc1hhMlVWY2E4S0I3T3ZPLVVfRHJCVVhvNXdack9kVU9vWGsxTVJrem9yVnZVVVczcFNPc0VqM0FNSGFLYlZ6VlFkQlMycTRhNUJIS3J3THpHSFZOUGhsRjdUSEg2RmVWeWIyUC1OcllLc05uSGU3dllXUQ?oc=5",
-          "domain": "mygolfspy.com",
-          "published": "2026-07-21T16:00:00+09:00",
-          "published_label": "2026/7/21(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcEZjYmZsQklrOXB2WXNFbkFzdmdkdnB0S0JFZ2JJUU9KNWp2eVgtXy1qd3VTejVCZU12UnZlWUxQa1dKSGFXNEFuY2hLb1lDSFdxM093aHVvbzFkcUw1UUhWLTdBS0ZzdUpEN1NKZHZXczk0aktqbUM1SkdGRWhnQjgyWEhCMjZuU1dsTnd4VEl6Y2FFMTVSY0Z5dFJhNndMdlBfSWJuUDVhaGZqMDVMMFJUQUt6aHl6bGdYT0NlX3p0alRuaU43dEtobHAxSmtud3VMc21VLXozTVVH?oc=5",
+          "domain": "retail-insider.com",
+          "published": "2026-10-28T16:00:00+09:00",
+          "published_label": "2026/10/28(水) 16:00",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Quince がゴルフアパレルのお買い得商品を再入荷しました"
+          "is_new": true,
+          "title_ja": "トロントの蒸留所ウィンター・ビレッジ、クインスがタイトルスポンサーとなり小売商品を拡大"
         },
         {
-          "title": "Quince's business model could be the new retail standard",
+          "title": "Quince Expands European Footprint With U.K. E-commerce Launch",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPU3Nfdi10c0dZZGd5WmVIbWdqT2hCTHoyUm10N3JtS21BMHgzb3pxaVpqVXRadzE3NXFYTHV5Y1lSOW5raDBlR25oRGxMbnVYVUlkdkVhUE15bUNhUEFpUnV4S2lpejdBRzBBcjI1OE5MWF8xQk5HX3ROUks0T0Y1VFd1TFlFM0xKUEM4Q2lhQWRWeWZ0OGxOVzBaWXNkUEk?oc=5",
-          "domain": "marketplace.org",
-          "published": "2026-05-25T16:00:00+09:00",
-          "published_label": "2026/5/25(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcjA2XzFXZnEwaHEyZGF1UWtpS2loSDE1M0FHMGU5TEZxcmpwUXVvVjk0ZmRjbmdkMlAtZERTZ25MalVPUDk4YklzT3lmLW5yZElEYzBiVkNQNWZ2cTgzOHYwdEJUSjRnTWxaeklpb0ZqanI4a21yN25ONjZoZi1vQXdGOFQ5a09mTGFuMFE2QTBIaVdJcXF0cVhfcWo3dXg5andqYlZ1X0xfdWpvTU02WUFST0xucURaTEI5cnQ4b0JnUQ?oc=5",
+          "domain": "modaes.com",
+          "published": "2026-10-19T16:00:00+09:00",
+          "published_label": "2026/10/19(月) 16:00",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Quince のビジネス モデルは新しい小売標準になる可能性がある"
+          "is_new": true,
+          "title_ja": "Quince、英国での電子商取引開始でヨーロッパの拠点を拡大"
         },
         {
-          "title": "Fashion Retailer Quince Sued Over Unauthorized Music Use In TikTok Influencer Posts",
+          "title": "EXCLUSIVE: Quince’s $10.1bn valuation spotlights the appeal of algorithmic retail",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ1pqdm5YNUc4MzlJMHJFc0R3aHJYOFpQdzZQTHRGbWkzYXBiT05ZX0ltbldHMXhFVlloVk0wNTdwVHVmZUpsTUdvRlBpcWc2b0k2MzYxeTM4SWpnWkFaVWpXYi1IcEp4eW9CWVp5bUQ0c3N1UXBqaW1aTWdrNHN2X0lXTlBYS0VsSXlaTkc1OGZod3EtVklIM1AyRVcyMEFvSGtTc1l6Uk5IWHA0eG9hTFVfZlE?oc=5",
-          "domain": "netinfluencer.com",
-          "published": "2026-04-22T16:00:00+09:00",
-          "published_label": "2026/4/22(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdkpEZlF2RE5DcVJNZ1FHc2dwcEpRN3VZM1daWEJaRm53eXhoWGpjcFUzZndqOUtZaGJzR09UcDMtY3Y1WmUtN3M1LUxsSmI4YkJjYUI3TWF3bVEzSzU5eERtRUVVOHZoU1RGak1MSndlbk5TWDAyaURCZTAxVkxKWm1ncW0tZ2VGdHBNTE1CcVZxY1ZwdmNzSTFQYi1DLUNOU0hYQldmc0l3MTluWVNEaTVGT1ZXWlZhU2duOTB5bw?oc=5",
+          "domain": "bizcommunity.com",
+          "published": "2026-09-30T17:49:14+09:00",
+          "published_label": "2026/9/30(水) 17:49",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "ファッション小売業者Quince、TikTokインフルエンサー投稿での音楽無断使用で訴えられる"
+          "is_new": true,
+          "title_ja": "独占：Quinceの101億ドルの評価額がアルゴリズム小売の魅力にスポットライトを当てる"
         },
         {
-          "title": "Why Quince’s Luxury-For-Less Model Has Earned A $10.1 Billion Valuation",
+          "title": "How Much Did Quince Raise? Funding & Key Investors",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZGh4ZjNudmlDMHVZSHhZazZnNS13OWVLVDNVWFg3anRiS3ZnaVI2cm5RUHJJVlJ2WkduNzEyQS1pbHFLd2VJQVVZVXk4a3ozeHk3SkFKaVR4enQ1TWloUE16VVc1dG9OZXgzUGpvbi1XejFPNjJZcHRoRno5NjkwV1VXOTVpY1V5bkdLYmtsaFRwUEVmLWVHUDc3UTQtcmNLZWx4OHA2WTNjdnB4Ym9Cal8xbjhEdWQ5d2RudU9R?oc=5",
-          "domain": "forbes.com",
-          "published": "2026-03-24T16:00:00+09:00",
-          "published_label": "2026/3/24(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fd3dCaGF1ckZsb3RiMm1OX0J6U0FtNWFMUWV0YlpMLUpBTzkwdVNiX3lWeU1JTk82Z2ZYVHVsX3M5ajNaeEhEWWdEYzV5aXd3QlZpZ1NR?oc=5",
+          "domain": "clay.com",
+          "published": "2026-09-02T16:00:00+09:00",
+          "published_label": "2026/9/2(水) 16:00",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Quince の高級モデルが 101 億ドルの評価を得た理由"
+          "is_new": true,
+          "title_ja": "クインスはいくら集めましたか?資金調達と主要投資家"
         },
         {
-          "title": "Quince raises $500 million, stone manufacturers seek federal protection, and more",
+          "title": "'Premium Golf Apparel Without The Price' - Why You Need To Try The New Golf Collection From Quince",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWpzNGpOMnV1YWQ5VVNHTTJ4eDAteV9XSTVlNUgyNERSWjYyMDQ5SFA0R2dJYk5CU1FoWUxxVVdLRktZeFdUUmN0Yng0N3cyMXZGWkRJS1pWVVdwR2VSd25nTzJZNnhtWGJZWHl3TW1LaUkxZXlGQU4tdEJ0eHE5Zzduc1ZPZmNsVmhVUV9iRXA5R1BRT0lWdHVULWxYdUppdko1UDFqcUQtQkNzUWt3bHBnZmE?oc=5",
-          "domain": "businessofhome.com",
-          "published": "2026-03-17T16:00:00+09:00",
-          "published_label": "2026/3/17(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWnJNM2FmMVd2bHhIWVk3SXBieG50NXU5S3paMkZhaUM3WkUwY0ZuX1hXUlBMZFRYRUlPUmd6eThLemVEMkpCUHk3QWd3M2Y1UzNYU0xGU1U4Ynppc1VyRUQ0QWdqb0NFNG5BcjZOZmhRM2dTUWFRMlloaDFKeUJsYk4wdGx3OHJlVUxaVnV0YWtwOU9xa0U4VkhUTWNHNV9FRVBJWnRxUzJ5YS1QVU9XYnRqcnlUV2pjWnRHa2RfZThaZG5TS2pVU3lmdnVCQXMzYnc?oc=5",
+          "domain": "golfmonthly.com",
+          "published": "2026-08-24T23:38:29+09:00",
+          "published_label": "2026/8/24(月) 23:38",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Quince が 5 億ドルを調達、石材製造業者が連邦政府の保護を求めるなど"
+          "is_new": true,
+          "title_ja": "「価格のないプレミアムなゴルフアパレル」 - Quince の新しいゴルフ コレクションを試す必要がある理由"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.8
     },
     {
       "id": "uc_15",
@@ -1359,38 +1368,6 @@
       "via": "https://news.google.com/rss/search?q=%22Legora%22&hl=en-US&gl=US&ceid=US:en",
       "count": 5,
       "items": [
-        {
-          "title": "Legora Appoints Alicia Goonetilleke as Senior Talent Acquisition Partner",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZTZYMnRRTnZDbV9VZUI4c2lWWld4VHEyaURIRlJzS3lCc1pBYWJ4dWtrNVAtTWlCVi1wNzdhZjRyMHFCT1dkamdRQWdPRGVCX3pYamI5NDh3Nm5BZmtGVWszb0RmWlFLOXZCdmFCd1RkY0JmRDRKc0xlWmNXUmtHX0YtRlVhamtVZHRNN1FVSHpaZy1mVmhJ?oc=5",
-          "domain": "hrtoday.in",
-          "published": "2026-11-17T02:46:44+09:00",
-          "published_label": "2026/11/17(火) 02:46",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Harvey + Legora IPO Plans, A&O $1.1bn, Legal Innovators NY",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaDlldGxIekU1bzd0SU81SUpQZW40LWpRUEF6b19LdzE0eFpoTFRpQU5KLVZSM3FJN2JGQU10d1YxbWJsYjdKdks3bW00ZXgzNDdVRHYzMUx6a2tNYng4MUJ5NEpHLVhkQlowQ1NVeDZKUnZrRHBLMVlaeDN5bGw0WW9zc2hhSWFjYmlfMWpHN3NtZ0dNdzFOWnlhWkpQdw?oc=5",
-          "domain": "artificiallawyer.com",
-          "published": "2026-11-06T17:00:00+09:00",
-          "published_label": "2026/11/6(金) 17:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "Legora CTOヤコブ・ラウリッツェン氏：リーガルAI事業の価値は88億ドル、その理由は「モデルは製品ではない」から",
           "summary": "",
@@ -1427,7 +1404,7 @@
           "title": "Legora raises $550 million Series E at $8.8 billion valuation to accelerate growth",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZmdDLXNlNzRMUjFYTUp5YUwzaElnRGkxckY3OWRGbF85M3pVcXBaYXVZSGxFNVVBZlkyZzVRU0JxZEpKV3psdDY4Xzh3MlZGdU85YVJGYU1KRldQUm1BNlliTjR1cE9LN0poZ19FcUNsLWQ4RGJJbGlrdWtObWNieG1TUzFTelo5MERhTS1tczBNaXJxX3NIYjZKUHJyaFhKQkxrZFVXMmxnWXNC?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE45SGdYRzNvWTlHUG5EZWtaRGVleUl2N0hSZlM1R3hfZ1c1QWkyVGphdExkMXFWZGxKWEFSWHhGRWhrUE91X01F?oc=5",
           "domain": "legora.com",
           "published": "2026-10-21T16:00:00+09:00",
           "published_label": "2026/10/21(水) 16:00",
@@ -1437,10 +1414,44 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
+          "is_new": true,
+          "title_ja": "Legora、成長を加速するために評価額 88 億ドルでシリーズ E で 5 億 5,000 万ドルを調達"
+        },
+        {
+          "title": "Legal AI startup Legora valued at $8.8 billion in new $550 million funding round",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb3dxWTFFQ05Ddm9pX0w2RjdIcW41OXdQOHNZWnpzY0dKbjNJQ1FZUnNVekI3akxmMXNLdGpZSFhuMzJtdUNqSi1UTGxWaGkzQ2cyY29kbXV2SXoyTE1SelZPTkZ4TG9zLWI4X3RtUHFQbGMyMWVDUmwzWHp0RTl4cFJuOUM2ZExXYkJ2Z0JmdTViTi1yVTlsa280UW52ZWVfZUJYNE1kMzBPTHJCZGl5dkk4QktYTVRxYlhGdzhWTnhKdjV6bEE?oc=5",
+          "domain": "reuters.com",
+          "published": "2026-10-21T16:00:00+09:00",
+          "published_label": "2026/10/21(水) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "法律 AI スタートアップ Legora、新たな 5 億 5,000 万ドルの資金調達ラウンドで評価額は 88 億ドル"
+        },
+        {
+          "title": "法務AIスタートアップのLegora、シリーズEで$550を調達、評価額は$8.8",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSDZuNE9RaWZZT0RmQXVsRnFZQWFFdlg4ZzlFRjlfb1ZBM1dBYTBxVHU4ZlRKUFdoR09FQXk5dndKZ0ZfVmR5OEJRZEtySzBXY3RiS0pLelFEVjMtUklaemJfWDJ4UTAtLW5nc3MzNnU5VVNJNUp0Mm10MEY3VFNWVkE2bVFaRmRFSjJTYURjWnRmVmdsNktiOA?oc=5",
+          "domain": "mezha.net",
+          "published": "2026-10-21T16:00:00+09:00",
+          "published_label": "2026/10/21(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
           "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_16",
@@ -1499,7 +1510,8 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "フィジカル AI のリーダーである Agile Robots が世界的な成長を加速するために、評価額 85 億ドルでシリーズ F で 5 億ドルを調達"
         },
         {
           "title": "ソフトバンク主導で約800億円調達、独「Agile Robots」が評価額1.4兆円に、ヒューマノイド年産1万台へ",
@@ -1535,7 +1547,7 @@
           "title_ja": "Agile Robots が生産能力を増強するために 5 億ドルを調達"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_17",
@@ -1578,7 +1590,8 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false,
+          "title_ja": "Quantum Systems: 欧州の 80 億ドルの防衛ドローン ユニコーン |ユニコーン アトラス"
         },
         {
           "title": "Quantum Systems raises $1.2B to expand drone production and deployments",
@@ -1594,7 +1607,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Quantum Systems raises $1.2 billion, more than doubling valuation",
@@ -1610,7 +1623,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "UAV Manufacturer Quantum Systems Raises $1.2 Billion in Funding",
@@ -1626,7 +1639,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.8
@@ -1727,7 +1740,7 @@
           "title_ja": "ハドリアン氏、ペンシルベニア鋳造工場を買収、潜水艦部品生産に3億ドル投資を計画"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     },
     {
       "id": "uc_19",
@@ -1922,7 +1935,7 @@
           "title_ja": "Best Egg と Column が個人ローンの成長をサポートする新たな融資提携を発表"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "uc_21",
@@ -1968,6 +1981,22 @@
           "title_ja": "General Intuition が 62 億米ドルの評価額で 2 億 2,000 万米ドルの資金を調達"
         },
         {
+          "title": "General Intuition Raises $220M to Scale World Models for Physical AI",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcnNKNlBlSU5tdk56cHV2Wk9QVnJiQ3h1QktjNmJGRGJvdmphRE9VMXJFeGdTV3FfSkJaWHRWT0F6VzdTR3p0WVB2NmlhbU56eFFQZFpEQXBhTlV6Z3pHS01aOEZkWUh2allQN0QwRXBuNU9pck56dFB3Umk4MGdadnJiTXVkcy16QzlYdkNOUWVsTlpEb05QVTMyTVBQazc2VFk1bQ?oc=5",
+          "domain": "konsulteer.com",
+          "published": "2026-09-30T16:00:00+09:00",
+          "published_label": "2026/9/30(水) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "General Intuition Raises $220 Million At $6.2 Billion Valuation",
           "summary": "",
           "images": [],
@@ -2000,22 +2029,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "General Intuition がゲームプレイで AI をトレーニングするために 62 億ドルの評価額で 2 億 2,000 万ドルを調達"
-        },
-        {
-          "title": "World model startup General Intuition closes $220M investment",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb1BSNEY4d0pOTS1aQlA3b2c5ZXJaY3pZdkZUMXVTUkEyclZucW11TXhiYWloZVhQYkxuZ2hhdF9raDByZ0cydlN5b0tiYS1BR1NjemJGWjlOYkhhUnYweFFneGN3S0F5amRXSnY0Q1cwMlhJNk15b2lkbmxieXdWZ29ycFFDLWRJdjd3QWJ3ZVlMSEc4RERjMDQ3Vy1RZw?oc=5",
-          "domain": "siliconangle.com",
-          "published": "2026-09-29T16:00:00+09:00",
-          "published_label": "2026/9/29(火) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
       "elapsed": 0.7
@@ -2031,72 +2044,20 @@
       "count": 5,
       "items": [
         {
-          "title": "Tenstorrent - 2026 Funding Rounds & List of Investors",
+          "title": "Tenstorrent Raises $1.5 Billion Series E At $6.2 Billion Valuation",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMHJOaXE0UFBnWVpYbWkyWldOVDVRcXZydWJmOUR6TVpKYm5malViMG80VHBnaDFocG1RaHdNMWpETm16bFpGaUx1WG92Q3VpRkNYa2xfZXZiU19vcVVrWnpWYVo3a0hGUklVSDJsdDdGVHJock90elF0WE00NUZUQlBpTFlSZVowOHVELWFXTG5Qbmg1cWEtVXFKTDg3RkFNM0hrUVcwOTVZM01RRGdn?oc=5",
-          "domain": "tracxn.com",
-          "published": "2026-11-14T09:17:54+09:00",
-          "published_label": "2026/11/14(土) 09:17",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1paS0FUM0pkdXN0T21qRW1UV1gzcnhEMEptYzlIc0lia3NWajd5YUNwaFlDdkZXVFRFQ09yZXVmallDdjlSVjRTOHdfdXFmTEZvTi1CZEtsRWhSV1BwcnZsMndwT2Z6NmJuSTFybGYtazh0X1B0SGdQcDYweHhIRHYyYTY2b3daMHJURQ?oc=5",
+          "domain": "pulse2.com",
+          "published": "2026-10-28T05:32:41+09:00",
+          "published_label": "2026/10/28(水) 05:32",
           "badge": "EN",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "Tenstorrent - 2026 年の資金調達ラウンドと投資家のリスト"
-        },
-        {
-          "title": "Tenstorrent Announced a $1.5B Series E at a $6.2B Valuation",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb2hkUTBrdnpOWnZVVEFoNnNLM2xmdWNqX0ZPbk5rYjhyS0pWMTcxZk53QTQ5Wm9yZUd4c09qZ051TFZlTFlqeFdNZUVRNXcxa2RDdVlyTVhCVTVIRHVlSnMtVTdKeWdLVjNBMVlHQ0dwMWFERDJLWmV0b1d1UEZuOTFDZ0xLNUxTZEt3eG42VVFpQWJ1em1MemhyOHp0TExGLUc5X0RB?oc=5",
-          "domain": "storagenewsletter.com",
-          "published": "2026-11-11T22:06:01+09:00",
-          "published_label": "2026/11/11(水) 22:06",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Tenstorrent、62億ドルの評価額で15億ドルのシリーズEを発表"
-        },
-        {
-          "title": "Tenstorrent is lobbying Ottawa for data-centre funding and sovereign AI contracts",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOTNkMG1iTDhzWTNVZU4tdy1QblU2WGRhTHJVR2pRb0dUdUlQU2VuMHdMRlVNWWxQUF9SVURsMVFTYW8yWHdyTi1UenBSZ2lvZk1XbF90dnc0azZob0t0RHkyUy1iYkJFbGZrNUJjQ0hiUXF4V1lnWUVQUEluMDFwLVNPNnRLa0NReEdiQXdReGVqWWNWeE9LMVg3X3BqY1ktYVE?oc=5",
-          "domain": "thelogic.co",
-          "published": "2026-11-11T20:11:45+09:00",
-          "published_label": "2026/11/11(水) 20:11",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Tenstorrentはデータセンターへの資金提供と主権AI契約を求めてオタワにロビー活動を行っている"
-        },
-        {
-          "title": "Australian investment platform NonPublic raises $118m for US AI tech unicorn Tenstorrent in US$1.5B round",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMW5jU0tza2F3RGJEak5GQnlDRGJIX3FuV05jZEowQnN3aXVsYTN6TWVLaU9HcDlFTTB3SzRkcHJWM2YwV2lpcWp5cklFUFgxdGI4X1dJaW42a3NUanFLWnBITzdmSE9XbTFnT0ZPMEYxOElod0dwaThLTUlvZlN0Y2hSNUVBLUVvd0xSN2JROV9ycHI3NmhjdGpCT05kLUVZc3MtSFFrM2ZldlhBbE1UdTN3T21jMWpQNGtLT01tbDAwQ3VoaUdGdjY2STl5NFR0MTluQVRmZm92eHp3QUFUV09oMFJkZw?oc=5",
-          "domain": "einpresswire.com",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "オーストラリアの投資プラットフォームNonPublic、米国のAI技術ユニコーンTenstorrentに対し15億ドルのラウンドで1億1,800万ドルを調達"
+          "is_new": true
         },
         {
           "title": "Innovation X Co-Leads Tenstorrent's $1.5 Billion Series E at a $6.2 Billion Valuation",
@@ -2112,10 +2073,58 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "AI chip startup Tenstorrent raises $1.5 billion in Series E",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcVhuZ2VLNVZzMFdlUXR2YVY5NXhlTWZzSW4tbVNuTW5Ta2ZFcmZBXzIyVUNaYzFvRFRxVUxxdkJWd3h1aXRSbF8xRlktcVZHVTEwcHlXZXFqNzQ4SEp5WFNxUnFsb0UtUmVWak05d2lFTmFibnR0WFIta3RKTldqQzVJY3h2Slk0MTdUdmVmWU5XSE9kdzd1UQ?oc=5",
+          "domain": "evertiq.com",
+          "published": "2026-10-23T16:00:00+09:00",
+          "published_label": "2026/10/23(金) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Wilson Sonsini Advises Tenstorrent on $1.5 Billion Series E Financing",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNUlLVWlkQzZaMGRRNldrVlhseU5ucHkzazVDbExZYjlHeFJYdE95QzdHNWgyMGhESGFYMjAydElzYi15TEI3ME9EdDhyYW1xWkRPX3pGbkFLeGVERlBMcnFFVnF5UFZyQ3B5R1I2b3ZtZGtja1FoMndWcm9tdlg4Tld1b1Z4VFczejdWLWF4V3ZWeFA3S2k1dUhxTWJ4aENqdzF5YnBocEZwc0N3M0ktZg?oc=5",
+          "domain": "wsgr.com",
+          "published": "2026-10-21T16:00:00+09:00",
+          "published_label": "2026/10/21(水) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Tenstorrent raises $1.5B Series E at $6.2B valuation",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yVUc0SXpDNjdhNVQwcEctTTVwT0lHS29OV1hoaUhfaUpKMldzSHM2dUx1ZlI4RzNIOEkyRkpKeS03MFFmWjQ2Uzd3Mi1kMzg4d0ZEQU1wdEdJSmNFQkU3RGx1RG5KeUFXMUJGbklR?oc=5",
+          "domain": "technode.global",
+          "published": "2026-10-20T16:00:00+09:00",
+          "published_label": "2026/10/20(火) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
           "is_new": true
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.6
     },
     {
       "id": "uc_23",
@@ -2209,7 +2218,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.6
@@ -2224,22 +2233,6 @@
       "via": "https://news.google.com/rss/search?q=%22Micro1%22&hl=en-US&gl=US&ceid=US:en",
       "count": 5,
       "items": [
-        {
-          "title": "Who Buys a Dead Startup’s Data? 36 People in AI Pick micro1",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOGZxNGpXcTlsM05GU1BSa2hmbmhpSko2d2d4RV9zVHJxbU5mckVvWTROeFNCU09WZFVWVFBpY3NhVmR3Zl9Fei1qZ2pWenlCc3Q2cXpiMzRfWmZDTXZTNjkzVlZtNHpxT29FMkxOWG9yR0ZxbGwtQ1k3cndXcDk0LUcxcFlwOXNsXzR3RXJ3?oc=5",
-          "domain": "fourweekmba.com",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "AI Training-Data Startup Micro1 Reportedly Hits $4B Valuation",
           "summary": "",
@@ -2307,9 +2300,25 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ほとんど知られていない AI スタートアップ Micro1 が、破産したスピリット航空のデータを求める Google の入札を打ち破ろうとしている"
+        },
+        {
+          "title": "AI Startup Micro1 Seeks to Topple Google’s Bid for Spirit Data",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeERyR3RjMjdCRGw3d202OHN6Q29SOHgyMlpqOTVWSnlMazdwTWE0cmxFa2hrMXpQSHJ2Qk93bTlDRUs5dGhOQUJYRWRHRURHZ2lXUFlQcHdNbjlhYVc1T1IwRjI0N0pHemVLb0NEVUtHdFBOMWNpN2duNFBTWjZsOHF6djZfY3VIUmJkOTFOMWVVaGtuYmdEU3h4dUdNNmJzd2N4X2tiOEE2VG82bERUWjRuSQ?oc=5",
+          "domain": "bloomberg.com",
+          "published": "2026-09-04T16:00:00+09:00",
+          "published_label": "2026/9/4(金) 16:00",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_25",
@@ -2603,7 +2612,7 @@
           "title_ja": "Genesis AI、人間の手を持つ汎用ロボットを開発するためにシリーズ A で 5 億ドルを調達"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "uc_28",
@@ -2646,7 +2655,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Palo Alto Networks jumps into model training with $4.5B Applied Compute acquisition",
@@ -2666,6 +2675,22 @@
           "title_ja": "パロアルトネットワークス、45億ドルのアプライド・コンピューティング買収でモデルトレーニングに本格参入"
         },
         {
+          "title": "Palo Alto acquires Applied Compute for $4.5 billion",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB4emp5OWQ1eUhlanlrYUJLeXBDaXR2R0xoSmJyQk9vTW9IamdQU2QxSVA2dVZ0NUdFdjVaRkhyZw?oc=5",
+          "domain": "jawlah.co",
+          "published": "2026-11-20T03:13:11+09:00",
+          "published_label": "2026/11/20(金) 03:13",
+          "badge": "EN",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Palo Alto Networks agreed to buy AI startup Applied Compute for $4.5 billion",
           "summary": "",
           "images": [],
@@ -2681,25 +2706,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "パロアルトネットワークス、AI新興企業アプライド・コンピューティングを45億ドルで買収することで合意"
-        },
-        {
-          "title": "Palo Alto Networks bets $4.5 billion on AI startup Applied Compute as shares jump 9%",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ05yVmFaRmJCeF8yZFFNTVNBN29WMFd2dFNPbFRPVXhIbXNkMFRDSVVjdlcyY0ZXaU1tQ3lrQkpMV3kwaVhMQlI0OVVNclhqcWNnNU9EOGdtNHAyNEZIem9JX3FYSmp1eTQ3VEhIWVZacUFaeHhOcEpQeWZMVDNzMFhhMWhvTDZ4R1dOZW5QSmIzNkUweEs5aXN5bmZvSnVkc0RQZXRNM21PZVM0MWJ6RWhINXhvdnFWMW0xcVlocFNzSlJzV0Nadzg3RFdHNGs?oc=5",
-          "domain": "americanbazaaronline.com",
-          "published": "2026-11-20T01:48:31+09:00",
-          "published_label": "2026/11/20(金) 01:48",
-          "badge": "EN",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "uc_29",
@@ -2797,7 +2806,7 @@
           "title_ja": "Neros は Bandit interceptor をサポートするために 2 億 5,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_30",
@@ -2895,7 +2904,7 @@
           "title_ja": "デビッドプロテインメーカー、新たな資金調達契約で22億5000万ドルと評価される"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_31",
@@ -2993,7 +3002,7 @@
           "title_ja": "Parallel Web Systems が Agentic AI への取り組みで 1 億ドルを調達"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "uc_32",
@@ -3091,7 +3100,7 @@
           "title_ja": "スターク・フューチャーは今やユニコーンです。お金は汚れを残すためにある"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "uc_33",
@@ -3188,7 +3197,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "uc_34",
@@ -3286,7 +3295,7 @@
           "title_ja": "Arda AI 製造資金: 記載されている 2 億 3,200 万ドル"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_35",
@@ -3382,7 +3391,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_36",
@@ -3480,7 +3489,7 @@
           "title_ja": "Tractian、産業資産の健全性のための AI を拡張するシリーズ D で 1 億 3,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_37",
@@ -3540,7 +3549,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Walmart completes its acquisition of TV advertising company Vibe.co",
@@ -3556,7 +3565,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Walmart Officially Closes Deal to Buy Streaming TV Ad Platform Vibe.co",
@@ -3572,10 +3581,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.5
     },
     {
       "id": "uc_38",
@@ -3670,7 +3679,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "uc_39",
@@ -3767,7 +3776,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_40",
@@ -3864,7 +3873,7 @@
           "title_ja": "ウォーハウンドの新興企業、軍用グレードの遺伝子組み換え犬をターゲットに"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_41",
@@ -4055,7 +4064,7 @@
           "title_ja": "Norm AI のエージェント経済に関するフォーラムから得た 5 つの教訓"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "uc_43",
@@ -4151,7 +4160,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "uc_44",
@@ -4244,7 +4253,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "uc_45",
@@ -4340,7 +4349,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "uc_46",
@@ -4531,7 +4540,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "uc_48",
@@ -4611,7 +4620,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "uc_49",
@@ -4709,7 +4718,7 @@
           "title_ja": "Nominal が AI をハードウェア エンジニアリングに組み込むため、評価額 30 億ドルで 8 か月で 3 倍となる 2 億 4,000 万ドルを調達"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.8
     },
     {
       "id": "uc_50",
@@ -4802,7 +4811,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.6
