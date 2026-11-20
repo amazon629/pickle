@@ -5,6 +5,7 @@ news-supplements.json を sources-*.json の各社カードへ足す。
 
 Googleニュース検索だけでは2026年の記事が取れない会社について、
   extra_feeds … PR TIMES 企業RSS（companyrdf.php?company_id=…）
+  site_feeds  … 公式サイトの「お知らせ／ニュース」RSS
   html_news   … 公式サイトの「お知らせ／ニュース」ページ
 を1カードの中で合算して表示するための補完定義。
 
@@ -59,9 +60,12 @@ def apply_supplements(board: str, sources: list, path: str = DEFAULT_PATH) -> li
         sup = (data.get(src.get("name")) or data.get(src.get("id"))
                or by_key.get(_name_key(src.get("name") or "")) or {})
         feeds = sup.get("extra_feeds") or []
+        site = sup.get("site_feeds") or []
         html = sup.get("html_news") or []
         if feeds:
             src["extra_feeds"] = feeds
+        if site:
+            src["site_feeds"] = site
         if html:
             src["html_news"] = html
     return sources

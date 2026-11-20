@@ -1,0 +1,131 @@
+{
+  "settings": {
+    "title": "ライブコマース・TikTok Shop 4社 ニュース監視ボード",
+    "nav_label": "🏢 ライブコマース4社",
+    "items_per_source": 25,
+    "timeout_seconds": 20,
+    "retries": 2,
+    "fetch_workers": 5,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "lc4_sholdings",
+      "type": "google_news",
+      "name": "株式会社Sホールディングス",
+      "query": "\"Sホールディングス\" OR \"S-ホールディングス\"",
+      "must_match": [
+        "Sホールディングス",
+        "S-ホールディングス",
+        "燕チャンネル",
+        "ABITOKYO",
+        "アビトーキョー",
+        "S-LIVE JAPAN",
+        "1899mall"
+      ],
+      "limit": 25,
+      "enabled": true,
+      "note": "本社 東京都品川区上大崎3-5-11／銀座オフィス 中央区銀座2-3-6、代表 燕咏靖。ライブコマース（燕チャンネル）・ブランド（ABITOKYO 等）事業。",
+      "exclude_match": [
+        "SBS",
+        "RSホールディングス",
+        "GSホールディングス",
+        "NSホールディングス",
+        "ソフトバンク",
+        "SBホールディングス",
+        "エス・ホールディングス",
+        "エスホールディングス"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=90341",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "site_feeds": [
+        {
+          "url": "https://www.s-hldgs.co.jp/news/feed/",
+          "origin": "site",
+          "label": "公式サイト"
+        }
+      ]
+    },
+    {
+      "id": "lc4_cellest",
+      "type": "google_news",
+      "name": "株式会社Cellest",
+      "query": "\"Cellest\"",
+      "must_match": [
+        "Cellest"
+      ],
+      "limit": 25,
+      "enabled": true,
+      "note": "本社 大阪市中央区本町3-1-10、代表 佐々木宏志。ライブコマースECモール「WABE」・事務所「トキバナ」運営。",
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=102719",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "site_feeds": [
+        {
+          "url": "https://cellest.co.jp/feed/",
+          "origin": "site",
+          "label": "公式サイト"
+        }
+      ]
+    },
+    {
+      "id": "lc4_gastroduce",
+      "type": "google_news",
+      "name": "Gastroduce Japan株式会社",
+      "query": "\"Gastroduce Japan\" OR \"GastroduceJapan\" OR \"ガストロデュース\"",
+      "must_match": [
+        "Gastroduce Japan",
+        "GastroduceJapan",
+        "ガストロデュース"
+      ],
+      "limit": 25,
+      "enabled": true,
+      "note": "本社 福岡市博多区下川端町10-9、代表 若松友貴。食品EC支援・TikTok Shop公式パートナー（TSP/TAP/CAP）。",
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=56558",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "site_feeds": [
+        {
+          "url": "https://gastroduce-japan.co.jp/?cat=18&feed=rss2",
+          "origin": "site",
+          "label": "公式サイト"
+        }
+      ]
+    },
+    {
+      "id": "lc4_creok",
+      "type": "google_news",
+      "name": "株式会社ＣＲＥＯＫ",
+      "query": "\"CREOK\" OR \"ＣＲＥＯＫ\"",
+      "must_match": [
+        "CREOK"
+      ],
+      "limit": 25,
+      "enabled": true,
+      "note": "本社 東京都江東区毛利2-9-20、代表 桜井吉男。TikTok Shop支援（TSP/TAP/MCN・CAP）・CREOK LAB。公式サイトにニュース／お知らせページが無いため、発表はPR TIMESが一次情報。",
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=169316",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    }
+  ]
+}

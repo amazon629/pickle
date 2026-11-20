@@ -539,6 +539,8 @@ def source_jobs(src: dict, settings: dict) -> list:
     """1ソース分の取得ジョブ（RSS/Atom と 公式サイトHTML）を並べる。
 
     extra_feeds … PR TIMES 企業RSS など、社名がタイトルに無い社の別フィード
+    site_feeds  … 公式サイトの「お知らせ／ニュース」RSS（HTML一覧がJS描画などで
+                  取れないサイト向け。取得元自体がその会社なので trusted 扱い）
     html_news   … 公式サイトの「お知らせ／ニュース」ページ（HTML）
     どちらも `trusted` 扱い（社名での絞り込みをしない。取得元自体がその会社なので）。
     """
@@ -555,6 +557,14 @@ def source_jobs(src: dict, settings: dict) -> list:
             continue
         seen.add(url)
         jobs.append({"url": url, "kind": "feed", "origin": item.get("origin") or "prtimes", "trusted": True})
+    for item in src.get("site_feeds") or []:
+        if isinstance(item, str):
+            item = {"url": item}
+        url = (item or {}).get("url")
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        jobs.append({"url": url, "kind": "feed", "origin": item.get("origin") or "site", "trusted": True})
     html_urls = src.get("html_news")
     if isinstance(html_urls, str):
         html_urls = [html_urls]

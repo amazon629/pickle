@@ -32,8 +32,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 | トレカ抽選速報 X監視ボード（せど子・アフロくま・ぴかQ） | `sources-toreca-lottery.json` | `toreca-lottery.html` | `data-toreca-lottery.json` |
+| ライブコマース・TikTok Shop 4社 ニュース監視（Sホールディングス／Cellest／Gastroduce Japan／CREOK） | `sources-livecommerce-4companies.json` | `livecommerce-4companies.html` | `data-livecommerce-4companies.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -91,6 +92,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `jp-stocks.html` / `data-jp-stocks.json` | 日本株・投資 X監視ボードの生成物 |
 | `ai-tools.html` / `data-ai-tools.json` | AI新着 X監視ボードの生成物 |
 | `urban-dev.html` / `data-urban-dev.json` | 都市開発 X監視ボードの生成物（キーワードチップ付き） |
+| `livecommerce-4companies.html` / `data-livecommerce-4companies.json` | ライブコマース・TikTok Shop 4社ボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_ec_support.py` | `COMPANIES`（EC・支援34社）→ `sources-ec-support.json` を生成（`--check` / `--only` 付き） |
 | `sync_ec_brands.py` | 社名リスト（1,045行）を名寄せした515社 → `sources-ec-brands.json` を生成（`--check` / `--only` 付き） |
@@ -100,6 +102,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sync_sns_agencies.py` | `COMPANIES`（38社）→ `sources-sns-agencies.json` を生成（`--list` / `--check` 付き） |
 | `sync_caster_companies.py` | Excel「登壇企業一覧」（キャスター）→ `sources-caster-companies.json` を生成（120社） |
 | `sync_nrtv_companies.py` | Excel「登壇企業一覧」（nrtv）→ `sources-nrtv-companies.json` を生成（81社） |
+| `sync_livecommerce_companies.py` | `COMPANIES`（ライブコマース・TikTok Shop 4社）→ `sources-livecommerce-4companies.json` を生成（`--check` 付き） |
 | `sync_ecnopro_companies.py` | Excel「企業別集計」（ECのプロ）→ `sources-ecnopro-companies.json` を生成（276社・表記ゆれ統合と本文ノイズ除去付き） |
 | `sync_ipo_approved_news.py` | `archive-ipo-approved.json` の社名 → `sources-ipo-news.json` を生成・追記（`--check` / `--explain` でノイズ確認。`update.py` が毎回の実行前に自動で呼ぶ） |
 | `sync_unicorn_startups.py` | Excel「評価額あり案件」→ `sources-unicorns.json` を生成（円換算1,500億円以上＝10億ドル以上・重複統合・ノイズ除去`--check` 付き） |
@@ -166,6 +169,27 @@ python3 update.py --board ec-companies,ec-support,caster-companies,nrtv-companie
 - 社名検索でヒット0件でもエラーにはせず「新しい記事はありません」と表示します。
 - 一時的に取れない社があっても他のボードの更新を止めないよう、このボードは `settings.tolerate_errors: true` です
   （取得できなかった社はカードに「取得エラー」と出ます）。
+
+### ライブコマース・TikTok Shop 4社ボード
+
+Sホールディングス・Cellest・Gastroduce Japan・CREOK の4社を、1社＝1カードで深く追うボードです。
+（`livecommerce-4companies.html` / `sources-livecommerce-4companies.json`）
+
+```bash
+python3 sync_livecommerce_companies.py            # 4社ぶんの設定を作り直す
+python3 sync_livecommerce_companies.py --check    # 各社の件数・2026年件数・ソース別内訳を確認
+python3 update.py --config sources-livecommerce-4companies.json
+```
+
+- `株式会社Sホールディングス` は **SBSホールディングス（物流）・RS/GS/NSホールディングス・ソフトバンク関連** の
+  記事が混ざりやすいので、`exclude_match` で除外し、社名がタイトルに無い自社リリースは
+  ブランド名（燕チャンネル／ABITOKYO／S-LIVE JAPAN／1899mall）で拾います。本物は
+  東京都品川区・銀座オフィス、代表 燕咏靖のライブコマース・ブランド会社です。
+- `株式会社ＣＲＥＯＫ` は全角/半角の表記ゆれを両方検索し、`must_match` は NFKC 正規化で
+  `ＣＲＥＯＫ` も `CREOK` として一致します。
+- 3ソース併用: GoogleニュースRSS＋PR TIMES企業RSS（`company_id` 90341／102719／56558／169316）
+  ＋公式サイトのニュースRSS。CREOK は公式サイトにニュース／お知らせページ自体が無いため、
+  一次情報は PR TIMES とニュース記事（2ソース）です。
 
 ### 通販・健康・コスメ54社ボード
 
@@ -263,6 +287,7 @@ Googleニュースの社名検索だけでは、プレスリリースを出さ�
 | --- | --- | --- |
 | `extra_feeds` | PR TIMES の企業RSS（社名がタイトルに無くて当然なので `must_match` を通さない） | `https://prtimes.jp/companyrdf.php?company_id=69527` |
 | `html_news` | 公式サイトの「お知らせ／ニュース」ページ（HTMLから日付・タイトル・リンクを抽出） | `https://www.herb-kenko.com/news/` |
+| `site_feeds` | 公式サイトの「お知らせ／ニュース」RSS（HTML一覧がJS描画・独自形式で取れないサイト向け） | `https://www.s-hldgs.co.jp/news/feed/` |
 
 - 1ソース内の複数取得元は **まとめて重複除去（同じリリース・同じ見出し）→ 日付の新しい順** で `limit` 件。
 - `html_news` は日付だけの表示（時刻は出さない）で、バッジは `公式`、PR TIMES は `PRT`。

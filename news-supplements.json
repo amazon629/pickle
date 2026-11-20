@@ -1325,5 +1325,64 @@
     }
    ]
   }
+ },
+ "livecommerce-4companies": {
+  "株式会社Sホールディングス": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=90341",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "site_feeds": [
+    {
+     "url": "https://www.s-hldgs.co.jp/news/feed/",
+     "origin": "site",
+     "label": "公式サイト"
+    }
+   ]
+  },
+  "株式会社Cellest": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=102719",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "site_feeds": [
+    {
+     "url": "https://cellest.co.jp/feed/",
+     "origin": "site",
+     "label": "公式サイト"
+    }
+   ]
+  },
+  "Gastroduce Japan株式会社": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=56558",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ],
+   "site_feeds": [
+    {
+     "url": "https://gastroduce-japan.co.jp/?cat=18&feed=rss2",
+     "origin": "site",
+     "label": "公式サイト"
+    }
+   ]
+  },
+  "株式会社ＣＲＥＯＫ": {
+   "extra_feeds": [
+    {
+     "url": "https://prtimes.jp/companyrdf.php?company_id=169316",
+     "origin": "prtimes",
+     "label": "PR TIMES"
+    }
+   ]
+  }
  }
 }

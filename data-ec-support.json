@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T16:08:00+09:00",
-  "generated_at_label": "2026/11/20 16:08 JST",
+  "generated_at": "2026-11-20T16:10:25+09:00",
+  "generated_at_label": "2026/11/20 16:10 JST",
   "title": "EC・支援企業34社 ニュース監視",
   "total": 145,
   "sources": [
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_02",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "ecs_04",
@@ -415,7 +415,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "ecs_07",
@@ -694,7 +694,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_10",
@@ -768,7 +768,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ブルボン子会社レーマン、メールアドレス1万4,136件が流出 アララへの不正アクセスがGMOメイクショップ経由で波及",
@@ -892,7 +892,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BES-CORE%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "ecs_13",
@@ -1062,7 +1062,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_15",
@@ -1155,7 +1155,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_16",
@@ -1167,22 +1167,6 @@
       "via": "https://news.google.com/rss/search?q=%22shizai%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "POST COFFEEも実践する開封体験の向上施策 鍵を握る梱包資材のコスト最適化を解説【ECzine Day 2024 Autumn・shizai登壇セッション動画】",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1IR3NXN2ZGT3U1UXdwUlM2UmNiQlI2SFBPeVpGeE9FUDdfTWhXdl9QRFpCZU5WQ2FmdXF1ZlQtQnk4ZlNaUFZiUWt3?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-09-01T04:02:38+09:00",
-          "published_label": "2026/9/1(火) 04:02",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "日本郵便×shizai、深夜の激論が紡ぐ現場共創の正体",
           "summary": "",
@@ -1203,8 +1187,8 @@
           "title": "売るのは資材ではなく、体験価値とトータルコストへのアプローチ ～ 資材スタートアップのshizai（シザイ）と日本郵便の取り組み ～",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FYWRpM2ZzTnJFYS0yWlVRRFlxZWQ0RVkxRklGWXE5WUlrN3RwNDlDc1VDR0R1WmxaMXlTWWVSMW40YjNaTkVSdV9mSFFZYXNxWlpJN3JjclZVa0pCQXc?oc=5",
-          "domain": "okinawatimes.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41WXp4b2pmN2M4bFBwVHFwOVc0YmVpVncxaU5ReFRQM0s1VlAtNnNQNjFNSjN6OUFDTnViZnNsM1hLX2w3NUhJZzBFTzAzVXhVTks2YnNJc25FeTdIRzZLaUFn?oc=5",
+          "domain": "ehime-np.co.jp",
           "published": "2025-11-18T17:00:00+09:00",
           "published_label": "2025/11/18(火) 17:00",
           "badge": "JP",
@@ -1213,7 +1197,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "株式会社shizai、常陸風月堂の高級栗羊羹「万羊羹」のEC配送箱をリニューアル",
@@ -1246,6 +1230,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "shizai、シリーズB 2nd closeで合計6.2億円の資金調達完了。 | 株式会社shizaiのプレスリリース",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YRlJjX2k2cmRicm9HZ3JwLTVQRmF1SmJ4QjhmWDZQSXhoMDloMl9IaHVydld3bFRpdmlHSDhNZk9Ca3VTUXdfZFZ2ZEYxd2wwN3BYN1JfaXVaOUNjZVF0TlhnZFNDSWZON3c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2025-06-30T16:00:00+09:00",
+          "published_label": "2025/6/30(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.3
@@ -1447,22 +1447,6 @@
       "count": 5,
       "items": [
         {
-          "title": "SUPER STUDIOが提供するecforce Dev MCP Serverでテーマ開発が劇的に効率化される時代の到来",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VSVZMMzZ3QXZlelpPSUJtSi04S0x5dFNqVEpncVRrNTFtU0VXOFA4Sm1VSEF5ZGpZb0wyTEJpOTN0SEttYnZqT0ZndUpuMURkTjFRV3lkM0xFcWNXX09LU3Y2NXBTaWNsVDJGbmZLSmhkcG8?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "BtoBコミュニティを事業成長のエンジンに変える NotionとSUPER STUDIOの実践知 (1/3)",
           "summary": "",
           "images": [],
@@ -1477,22 +1461,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "「九州カリーナ」のチケット販売において「ecforce check」導入（SUPER STUDIO）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBNSEo4Rm1EUEhJcUR3MWJETG44ZUhOVUdiZUNkYm12VjFOWGhfcTZQVW44VlNSSmwtblF2NnIxWTN6SUZOakcwWWVHdUVtWkJWa09vLTlIMmRsUmc?oc=5",
-          "domain": "paymentnavi.com",
-          "published": "2026-10-10T16:00:00+09:00",
-          "published_label": "2026/10/10(土) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         },
         {
           "title": "wevnal、SUPER STUDIOと電話接客領域におけるLTV最大化を目指す包括的アライアンスを締結",
@@ -1525,6 +1493,38 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "SUPER STUDIO、店舗予約・顧客管理システム「ecforce check」に「フォト管理機能」を追加",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiZy14czh2R21BMTRJQU5LVUthWFBVM18wR1U4YzFSR2MzeENaQXVRWmNpOE1Wakw3WlVOSzJOYlVlQk1Ic3dPeHZtb2h1Zm4wTy11MFNn?oc=5",
+          "domain": "netkeizai.com",
+          "published": "2026-08-24T06:34:59+09:00",
+          "published_label": "2026/8/24(月) 06:34",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "SUPER STUDIO、「ecforce AI」でMCP接続機能を提供開始―外部AIツールからデータ参照・操作が可能に",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB0WFExM3EyYklJcXdwVTc1cWdkczYwNkNtN2tqV1NJSHJCeGs5NUNtay1acW40VUxLNksxaWpVVzFQbHpTMVFmeGdUSExsMlAydEp1ZFR3?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-08-05T16:00:00+09:00",
+          "published_label": "2026/8/5(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -1694,7 +1694,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "登録者数日本一のYouTuber「ISSEI」と6言語でローカライズ発信するグローバルクリエイター「TadeVlogs」のコラボ動画が公開",
@@ -1710,10 +1710,10 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "ecs_22",
@@ -1739,7 +1739,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社ホットリンク：「本質を貫く」SNSマーケティングで若手が活躍！",
@@ -1755,7 +1755,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "新卒1年目から、システムの主担当を任される。ホットリンクの若手エンジニアの仕事",
@@ -1771,7 +1771,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ミツカン×ホットリンクが本音で語る、UGCを売上につなげるKPI設計とは【#ノミナー レポート】｜SNSコラム",
@@ -1787,7 +1787,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ホットリンクグループのNonagon Capital、企業とAIエージェントのためのデータ流通基盤「Nonagon Link」ベータ版を限定公開",
@@ -1803,10 +1803,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "ecs_23",
@@ -1899,7 +1899,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_24",
@@ -2082,10 +2082,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.1
     },
     {
       "id": "ecs_26",
@@ -2111,7 +2111,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Yahoo!ショッピングの開店準備チェックリスト12項目を公開 開店審査で戻されやすいのは送料・決済・口座・取り扱い申請（EC-Consulting Japan株式会社）",
@@ -2127,7 +2127,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Yahoo!ショッピングで開店3か月、月商2,970万円に 福岡の薬局ECの立ち上げの進め方を公開（EC-Consulting Japan株式会社）",
@@ -2175,7 +2175,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.1
@@ -2190,7 +2190,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE12%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "ecs_28",
@@ -2376,7 +2376,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_30",
@@ -2469,7 +2469,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_31",
@@ -2655,7 +2655,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_33",
@@ -2748,7 +2748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.4
     },
     {
       "id": "ecs_34",
@@ -2760,7 +2760,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%B7%E3%83%8A%E3%82%B8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.1
     }
   ]
 }

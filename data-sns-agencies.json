@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T16:08:06+09:00",
-  "generated_at_label": "2026/11/20 16:08 JST",
+  "generated_at": "2026-11-20T16:10:26+09:00",
+  "generated_at_label": "2026/11/20 16:10 JST",
   "title": "SNS・広告代理店 ニュース監視",
   "total": 190,
   "sources": [
@@ -34,8 +34,8 @@
           "title": "大阪発ショート動画マーケティング企業「Yaaha」、セレッソ大阪とオフィシャルスポンサー契約を締結 新シーズン開幕戦となる8月8日に「Yaahaサポーティングマッチ」を開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBM2dQRi1kTWRZdlBFV04yMHQ1UGQ0aHJLTkNCQ3pUTlZGRDU4TkQ4R1lNaENUMktnTVBmbDNZbHZrMUYwQkNPcmtfTFNxcVpPYzFUYmRHbWtqeVZxR2xXYjRVQzdLRVpDb2c?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JQmI4MmpVU1BoWlg4X082YUx3X04zYmMxc1N5OWpuSUI2N0hQbHM1MGpfaWt0d19mT0pUS0RMVjE4YkxOUHRmLXVJOEZsaTVuRTg5b2JKZk5LRzZodHlfbHlUQTFTOV9MZU9sdGZ2YzRSZw?oc=5",
+          "domain": "news.infoseek.co.jp",
           "published": "2026-08-05T16:00:00+09:00",
           "published_label": "2026/8/5(水) 16:00",
           "badge": "JP",
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.1
     },
     {
       "id": "sns_02",
@@ -121,7 +121,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "電通デジタル、AI活用を提案する「Marketing Workflow Designer」提供開始",
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_03",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_04",
@@ -293,22 +293,6 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%8A%E3%83%8F%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "ナハト、eスポーツチーム「REJECT」と戦略的業務提携を締結",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpN2xMSHE1TWFuTTItN2V1WHZhU01WVmdjUDJYRUFFV2NkYmZNOWFiYndFVWRhVHQ4X2IyN09LYkw2dG5mMWVFOHpzekFVZlZYTTBucldWUGdqRjloTVlTX1JhRE1yeHcyZEM5SlgwRUJYdw?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-11-05T17:00:00+09:00",
-          "published_label": "2026/11/5(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "ナハト、みずほ銀行からデットファイナンスで追加40億円、累計100億円の資金調達を実施",
           "summary": "",
@@ -324,22 +308,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ナハト、EXPEの事業を承継し「地方創生・自治体支援事業」へ本格参入",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GMFFKYVpwcHVvU0VwaHlHTFU5NGNwS3hyX1FTejRmTWkxa29kZ21wTlJiWHZiMy1jTXIzemRrQ3hKU2VScU1tT0JQNnYxdVFCSDRyUWtVSTZOUzFmLUpOYm9ZN2NiM0tuLUE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-05T17:00:00+09:00",
-          "published_label": "2026/11/5(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         },
         {
           "title": "【COMPANY】株式会社ナハトと戦略的業務提携を締結",
@@ -358,13 +326,45 @@
           "is_new": false
         },
         {
-          "title": "【CPA15.6%削減・新規リーチ40%増】Meta×ナハトが実証したThreads広告の勝ち筋 (1/3)",
+          "title": "ナハト、9月16日（水）開催の「アドタイ・フォーラム」に登壇、「Cleo’s Beaute」の全SNS横断戦略を公開！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9adl9Hb3pKXzFFUUl1emxPMG5zQ193eEx6UzU4SHVENHlldUdCYTdFbkdIbGl4alhjRlFuNVFpVXg0bUNyUzFvSkQ3VExPRUZHcjVz?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-09-24T16:00:00+09:00",
-          "published_label": "2026/9/24(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1VTNZSGsweENoRmZJZE55ZWxsbUhRVk9WUElNWVBZVk9aTUF0NUlLUWhkSU9LTktBeTlDWjg2bzd0ZzViWS1mN3NuRnpnZEZlM0V2QjhfLW4xMnViYTRLNVlZN3NuQmFpMEE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-09-02T16:00:00+09:00",
+          "published_label": "2026/9/2(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "株式会社ナハトのオフィスが国内外デザインアワード6冠を達成",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43R3d4c3V6T3hfa1BhdXV5cVNyTHNnMVpHcWliUVlFM3dKc1VCbk03dUt4QUdPY3l0QlZFVXM1NVBaeVQ3emJMTnhWaWdXNXNHYVlSbTdibm5scXdSRzdobENPa2ZzSVgtcFE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-07-22T16:00:00+09:00",
+          "published_label": "2026/7/22(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "インフルエンサーマーケは本当に”オワコン”か？ナハト流・再現性重視の運用ノウハウを「Commerce NEXT」で限定公開！",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uRzBfbjZqc1BxRnlrS0lySUpnVXVQR0ZscjVIQ0dvcWZfV2Q5Z3NLTHpxa292X3hsWTM1eGZNUVNFS05jcDRtSzlFZU14aWx4Rm11TkJ3RmcwZEFRSkd6c1V5cnpCanhndmc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-06-10T16:00:00+09:00",
+          "published_label": "2026/6/10(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "sns_06",
@@ -586,7 +586,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【博報堂BIZ GARAGE主催】顧客の、買いたい「今」をつかまえる ～博報堂×Brazeが提案する、シンクロナイズドマーケティング～",
@@ -602,7 +602,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "博報堂ＤＹ－反落 IP商品の企画からEC販売まで手掛ける新サービス開始(トレーダーズ・ウェブ)",
@@ -618,7 +618,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "博報堂、IP商品の企画・デザインからEC販売まで手掛ける新サービス「別注商会」を開始",
@@ -634,7 +634,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "博報堂DYホールディングスの「配属先における育成環境のばらつき」に左右されない人材育成モデル――成長の再現性を生む「データ×AI×Humanity」をどう仕組み化し、いかに現場に根付かせたのか",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "sns_08",
@@ -746,7 +746,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_09",
@@ -929,10 +929,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_11",
@@ -948,10 +948,26 @@
           "title": "CARTA ZERO、執行役員人事に関するお知らせ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90WlBGenp3MXVMcmh4a3ROM0xYbkFvZVgxM05DMjVSUGxsdGNZbDNpb1R0RjdEdHJCd1FQTFBwQWd0dVBKNTVPeDFvelV0ZUZfdnM0TDQ5MTRrM0N2SHozV2hqSl9YaEJPX0E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-16T18:00:01+09:00",
-          "published_label": "2026/11/16(月) 18:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zaUE5R0pLQ2FMTW9tYzR1dnNrbG9WVWRvbW1xSXd3UklySE4tVS0zWm1zUFhoeXhWWVU5WWZBVkdVNVdfcnkwTTBicHlWTXI4NFA2VQ?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-17T03:15:52+09:00",
+          "published_label": "2026/11/17(火) 03:15",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "CARTA ZERO、「Meta Agency First Awards 2026」にて「Best SMB Partner」および「Best Solution Award - Signals」を受賞",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoZnR3NkV2djVjVDVKWnIybFFNOGhBZkZoLV84dGxhOXNkSWtoYlktMU9FbVFfcE4ydlpaTGxoaG54VG8tNy14YndNVC13WElBRVJlVkVsNjVnQ0ZKU0ZxaQ?oc=5",
+          "domain": "koubo.jp",
+          "published": "2026-11-10T17:00:00+09:00",
+          "published_label": "2026/11/10(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -993,29 +1009,13 @@
           "is_new": false
         },
         {
-          "title": "CARTA ZEROが美容ブランドのマーケ支援組織「Beauty Compass室」新設、カテゴリ横断で分析（Web担当者Forum）",
+          "title": "CARTA ZERO、「ChatGPT広告」の配信および「Conversions API」の導入支援を開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Q3ZlVzB0RzNvV092a3c1R2d1blNkREluMkFOZi1CaTdrNzY5eGktRU45SlN4NEt3ckNQVjd3TlpFdU9XQzY4SHZXbnR3ZEdvaEVSYk45TWpwR284ZmhVT01sRm1oYkxJQXdNVlVhenNPS2RodmxGd3NUdEZRS1E?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "CARTA ZERO、現場の思考プロセスから実践の裏側までを深掘りするデジタルマーケティングメディア「DIGMA（ディグマ）」をオープン",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iaWI5Q0ZSMTU0aVl5bVhKNFFDYWljbHgtTEh1bkIxMlBpVTZ2d1YwVUdHU0UtWS01SW5KN2hFZDZvZVQxUzlIalB1RDk4YlRmWEpfMlpvRFFpaTN6SXMweVFXYUZxSUdiLXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWTDk0UHZycndzc1p4Sm9pcHNlbkx3cVBiSzh2NElDdkkybno0alhiZG96b25XNVZhckxPeTFPT0FKOEgzMHBGLW5LQzROUQ?oc=5",
+          "domain": "rtbsquare.work",
+          "published": "2026-11-05T13:53:50+09:00",
+          "published_label": "2026/11/5(木) 13:53",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1025,7 +1025,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_12",
@@ -1118,7 +1118,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "sns_13",
@@ -1211,7 +1211,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "sns_14",
@@ -1304,7 +1304,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_15",
@@ -1322,8 +1322,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DbktPeHltRkt0NFhjVkU4NTNqTEU4NVF2SVNGdGJtNFhSU0pyRENaT3BWWEJiRU82eTBzelZPNndiYWg0bktzNGFpRW04U2M1ZUE?oc=5",
           "domain": "sanyonews.jp",
-          "published": "2026-11-20T08:07:01+09:00",
-          "published_label": "2026/11/20(金) 08:07",
+          "published": "2026-11-18T06:48:04+09:00",
+          "published_label": "2026/11/18(水) 06:48",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1490,7 +1490,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "sns_17",
@@ -1506,9 +1506,9 @@
           "title": "Meta社Agency Partnerが最新の考え方を解説、CyberACEは「効果おまかせAI」による24時間運用の成果を人の運用との比較データで公開",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GdkE2Q0RfdjNuR3BuREpuWThFTllIUFlGRndSM2VldjN4VnlpQkdIYXV4c29kT09qM0dXSkNfLUZwMHdzSkZXdXdDZTBicng3aldXcFM5RVlGd3p0M25ldk9jRGROcDljWTFTdFVsRjJzUEJUaXJVc1dR?oc=5",
-          "domain": "iza.ne.jp",
-          "published": "2026-11-18T15:00:00+09:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51TGVLY2hIRnpMSEhEZEEwZGU4U1RvUEVmSzlfaTVyOTFQSHdpcm1XUjZKZ3NveHNfQXdmX09DdWVzOTJaLW9nSnZuaTJWYlhCNnczVVhYdjctM214UVBnMXpZLUVJQ0VGS0E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-18T15:00:02+09:00",
           "published_label": "2026/11/18(水) 15:00",
           "badge": "JP",
           "badge_class": "badge-news",
@@ -1535,22 +1535,6 @@
           "is_new": false
         },
         {
-          "title": "CyberACE、AIエージェントによる広告運用を本格展開。「効果おまかせAI」の導入が50アカウントを突破し、検索広告へも拡大",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nWHR4Q3M5OF91cnFsWlpwUUtveVNYRlNYa1lfVmd2NjZ1RXZ4M3IyVU9wRnBRek1KbzBISjVNV2tZV0lwTE5RUEdENHJ1Q0ZTOS1XaGVPb0hvTnlYY21xUERWZWZzS0l0WEtWOFNpTXlNckU?oc=5",
-          "domain": "excite.co.jp",
-          "published": "2026-11-09T17:15:00+09:00",
-          "published_label": "2026/11/9(月) 17:15",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "CyberACE、AIエージェント「効果おまかせAI」を本格展開 検索広告へも拡大へ",
           "summary": "",
           "images": [],
@@ -1567,13 +1551,29 @@
           "is_new": false
         },
         {
-          "title": "CyberACE、Googleを迎えたAI MaxとLP制作のセミナーを11月13日開催へ",
+          "title": "CyberACE、AIエージェントによる広告運用を本格展開。「効果おまかせAI」の導入が50アカウントを突破し、検索広告へも拡大",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ETHJ0OFlCMFIzR0FXZXlhVmVTTExMR1RBaFRpbXZhZjlndWFxWDdLOVA5T1plbHBSUXJkbnlCM192dlh6TjdJ?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-11-08T15:31:34+09:00",
-          "published_label": "2026/11/8(日) 15:31",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBcXVGLWdZNm03eGVzcER6dVVjVXgwWmgwOTcyeHQ4bzQwZndwWXFNem1qLVNPNnVSR1FPMnlGTnFUMVVWYkRyR09zQ1hMZzN1a3dxSmJHWmlUeEkxQTIxdWZHWE9tYi1DVkE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-09T17:00:00+09:00",
+          "published_label": "2026/11/9(月) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【ハイブリッド開催】広告成果を次のステージへ。CriteoとCyberACEが共催セミナー「高パフォーマンスで成果につ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CV1hQeWNTdXZoZ2JZMWFQX0FtT2ZrbXZlVGk1UG1aRTVPVEsxT2lQd0VDVUNxYUQ4RVNYdk9IU1Vqck84VzVjZ3d5NXdyQnJVcmI5Sw?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-05T17:00:00+09:00",
+          "published_label": "2026/11/5(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1583,7 +1583,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_18",
@@ -1660,13 +1660,13 @@
           "is_new": false
         },
         {
-          "title": "TikTok Shopで成果を出す最短ルートを認定パートナーTORIHADAが解説！事業者・クリエイター必携の実践書「TikTok Shop大全」12月17日（水）に発売",
+          "title": "ブランジスタとTORIHADAが業務提携 TikTok Shopマーケティングを加速",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXSTZuQ0swbm5MZ01od3Y0dW1MQzBLbzRJTmNad3FpcTJwQTNpNGttOFFiMDk2S3k3ZmNRbEJtY28ycXAyV0l3eFRHeEZUOUhGdTVIdjYzWURQOHI2dk9fV3RmVjRseVF0OWc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2025-11-12T17:00:00+09:00",
-          "published_label": "2025/11/12(水) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MRDBzbEs1Nmt2N1F1V3lVUThlNGZqVmtnOHpFdTFQMEw1VDg3dElaRkpVX3ZZa0FIc3d4bFRHekRFM253ZEdEUU9oYWs3RVZpMV9mNl93UHB2eHJsRkFULWtEYWc?oc=5",
+          "domain": "ecnomikata.com",
+          "published": "2025-11-14T17:00:00+09:00",
+          "published_label": "2025/11/14(金) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1676,7 +1676,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_19",
@@ -1724,17 +1724,17 @@
           "title": "株式会社Natee、秋田市と「地域活性化起業人」の協定を締結",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQaWxuN2Zrc1pBTG5RTUtadm5NRkh0WkRkWkRBYThxV2MzdDVRNzNUZFlDZWNheTdiTFRzdG4zOWV1YVRWVXlxdi1nV1djZzl5dkg3dG5vTXRUbzBFOUNIV3l6X1luNWp0dUE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-02T17:00:00+09:00",
-          "published_label": "2026/11/2(月) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBVQlhaNDhROE1WbW1wbzBLYVd1NUlNY09RQUMtOHNLOW1MTmp1X2x5cUREMTZVN2dIVTVwUEdXQlJsenNBWnRGM21EeTVYeDJwNkw3akhaN0tJQnpXWDRPYzY2X2NuWTJCMUNN?oc=5",
+          "domain": "jiji.com",
+          "published": "2026-11-03T17:00:00+09:00",
+          "published_label": "2026/11/3(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "株式会社Natee、Tinder®の新機能「イベント」の日本展開を支援",
@@ -1753,11 +1753,11 @@
           "is_new": false
         },
         {
-          "title": "Natee、EC支援事業を開始。SNS起点の需要創出×EC運用を一気通貫で提供 | 株式会社Nateeのプレスリリース",
+          "title": "Natee、SNSとECを連携させた新EC支援事業を開始―クリエイター活用で売上成長を実現",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKRWhXZDJKZmx4RjdGcl82RkUwUHJqNU16MEpPOU1TalVwRmFDWDJDd2RNcWhfc0tUY3ZDVGlUSHhBaGxuSTh4cXQ4QXBXQUMwa2JyTW05RDlleVJnYnAweERxUVdRaXpCOVE?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9BNjBWMDlTRExQLUo0QTBLc0gxRDdfeVktSzZKaHNjQngxallWZ213WXhYcDYzWVhfMHBrMUg5TFp5aDhuWXN3SEVrU292enlKcWo3QnZ3?oc=5",
+          "domain": "commercepick.com",
           "published": "2026-07-06T16:00:00+09:00",
           "published_label": "2026/7/6(月) 16:00",
           "badge": "JP",
@@ -1766,10 +1766,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "sns_20",
@@ -1862,7 +1862,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_21",
@@ -1923,22 +1923,6 @@
           "is_new": false
         },
         {
-          "title": "【6/10開催】TikTok for Business Japanなど10社が集結。広告・SEO・コンテンツの「勝ち筋」を塗り替える3.5時間。2026年の成果に直結する“実践知”を一挙網羅。 | 株式会社イルグルムのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KREM0SnpTUFVuUHVVUklKN0ZfT1dvODNUOWRDbDFGa0hNR0tMZ0Y2OVFHR21KaVRlV3pYUkF0Q3F2UHY0MV83Vm5DTnROSG1sYXA4S2RCUG9fQ3FwUDZVQ0N6SDZ0blFpUkE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-06-02T16:00:00+09:00",
-          "published_label": "2026/6/2(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "株式会社KASHIKA、TikTok for Business・TikTok Shop・Senjin Holdings共催セミナーに登壇｜コマース成長を加速させるクリエイティブ活用戦略を解説",
           "summary": "",
           "images": [],
@@ -1953,9 +1937,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "「TikTok for Business Japan Agency Awards 2026」で5賞を受賞",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lTzhadWhBSk52Q0RvY3k1Y203dzFfZjU0N3JOYzFNbnlvWF96eWZVUEREVzg5NUZ4VURGTlB4dUptTlhnd3U5dmd6enhJN1NYS05JekgwTXotaFRoQ0E?oc=5",
+          "domain": "cyberagent.co.jp",
+          "published": "2026-04-22T16:00:00+09:00",
+          "published_label": "2026/4/22(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "sns_22",
@@ -2074,7 +2074,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "損保ジャパンとX Mile、物流業界の2024年問題解決へ業務提携…全国代理店網で「ロジポケ」展開",
@@ -2138,10 +2138,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_24",
@@ -2234,7 +2234,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_25",
@@ -2260,7 +2260,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アドウェイズについて、岡村陽久氏は保有割合が減少したと報告 [変更報告書No.33]",
@@ -2308,7 +2308,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アドウェイズが伊藤忠商事と資本・業務提携、伊藤忠グループへの広告配信システムの導入推進",
@@ -2327,7 +2327,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_26",
@@ -2340,10 +2340,10 @@
       "count": 5,
       "items": [
         {
-          "title": "株式会社DYM、新卒・若手向け採用支援4サービスを「ミーツカンパニー」ブランドに統合",
+          "title": "「求人ボックス」最上位代理店の株式会社DYM、株式会社ゼクウと共催ウェビナーを開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNFNxTGdUYVAyNDkxV015QkRKbVkwRmsyOU15aUIwZ0RhR1dQR1RoOENQNmVDU1Q4c0lLSWxPa013YnllT0FkeFpKeXYxMER1VXlpRDlGdU14a0VGbE9zU05fMkpocWRUM3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWm1aUUhQSWhDSTJVVFNwb2szbS1sSFRWRzlyUS00dFpWZ001S1JKeTQ2aUYwaFRfdmY2bGNkTHFCT2J0RGtsYlBOYUVFMzJBRDduU0hmQS0yWGF0MENPOC15Mm4wSnZYQXc?oc=5",
           "domain": "prtimes.jp",
           "published": "2026-10-01T16:00:00+09:00",
           "published_label": "2026/10/1(木) 16:00",
@@ -2356,10 +2356,10 @@
           "is_new": false
         },
         {
-          "title": "「求人ボックス」最上位代理店の株式会社DYM、株式会社ゼクウと共催ウェビナーを開催",
+          "title": "株式会社DYM、新卒・若手向け採用支援4サービスを「ミーツカンパニー」ブランドに統合",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWm1aUUhQSWhDSTJVVFNwb2szbS1sSFRWRzlyUS00dFpWZ001S1JKeTQ2aUYwaFRfdmY2bGNkTHFCT2J0RGtsYlBOYUVFMzJBRDduU0hmQS0yWGF0MENPOC15Mm4wSnZYQXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNFNxTGdUYVAyNDkxV015QkRKbVkwRmsyOU15aUIwZ0RhR1dQR1RoOENQNmVDU1Q4c0lLSWxPa013YnllT0FkeFpKeXYxMER1VXlpRDlGdU14a0VGbE9zU05fMkpocWRUM3c?oc=5",
           "domain": "prtimes.jp",
           "published": "2026-10-01T16:00:00+09:00",
           "published_label": "2026/10/1(木) 16:00",
@@ -2417,10 +2417,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "sns_27",
@@ -2446,7 +2446,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "セプテーニHD（4293）、3Q累計はすべての科目で過去最高更新 メディアハウスHD子会社化でHRマーケティング領域を拡張",
@@ -2513,7 +2513,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.1
     },
     {
       "id": "sns_28",
@@ -2632,7 +2632,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "トランスコスモス協賛の「Pickleball X」、国内初のピックルボールプロリーグ「PX LEAGUE」が11月22日開幕",
@@ -2648,7 +2648,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "トランスコスモスのアスリート社員、野畑美咲選手が「2026 ISSF世界選手権ドーハ大会」で銅メダル",
@@ -2731,8 +2731,8 @@
           "title": "「ここで暮らしたら」をショートドラマで描く。studio15、南相馬市小高区「おだかる」の移住促進コンテンツを制作",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVdHJIV05EZkZvaU5Fd0N2OHN1T3FMd3RjRG4zLXVPVE1oZjRJYUNWa1RlVWRzRW16aHpiTFpHZ1NJT2ZsR1lCZHNiWWo4d1NOSU5aTXd0SzZuNjFDUE0xelFlNkR4eGM?oc=5",
-          "domain": "minpo.jp",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50aDFfdTNLeHI0YVV6VFZ3MkFHQWR3dDJYeTFnNHhvUEJMODRHVERPLXhUM3pkOVVLdXdtdkFRMmpmeWFDSVpzUThBVlk2aFZKaUFTeXNZOWhTd3RGcnpFN2JOYmlqTU5EdXc?oc=5",
+          "domain": "prtimes.jp",
           "published": "2026-11-05T17:00:00+09:00",
           "published_label": "2026/11/5(木) 17:00",
           "badge": "JP",
@@ -2885,7 +2885,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_32",
@@ -2897,38 +2897,6 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AA%E3%83%97%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "博報堂DYHD、国内マーケティング事業の再編検討 大広・読広・オプトを統合へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03eHlMX2ROZEtwSHRNS3llN1ZvOE53MWtiQWFCZWtoOV9JLUZQZnUwcGE2Vm0yU2Utc2NUY3RzZUJ0V2FaMzk3MzVEb2UtX3JaTTcwLWRZRkdDV2ZEWTlFaHRBcDVLQktsYVE?oc=5",
-          "domain": "media-innovation.jp",
-          "published": "2026-11-13T14:51:40+09:00",
-          "published_label": "2026/11/13(金) 14:51",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "株式会社オプトリンクスが提供するWebサイトの脆弱性診断サービス「Guardia Verified」バッジの魅力",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qNVhfYXJmQVRTbUdudlhQc1VnOHZpa28tRi03cHJLTXVQcnJIVTJPTE1YaHlNdHhmVjV3VzNVQm5QTmJVeGRyWm9EY0ZSdEVrV3RMMkljNjNVZjh3azdFSWpaX2M2dy02bTZDTA?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-10T19:46:37+09:00",
-          "published_label": "2026/11/10(火) 19:46",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "オプトが広告入稿代行サービス「アド・インフラパック™」提供開始、インハウス化支援で新たなハイブリッド運用モデルを実現",
           "summary": "",
@@ -2976,9 +2944,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "オプト、スマートニュースの認定代理店制度「SmartNews Ads パートナー プログラム」において、二年連続「Gold」に認定",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52a1EybnNndXlzekpBMUVtaFRRSEc1UmhIRE9EWFJiYk5mTHJKQklwcUxrWHdkVVZDR0FlZFBpLWV3MjF0UGQ1ME00TjR3em1wbm5SZ2RBZUpwdTd1ZXM2ZFR5Y2U5emdCNnc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-05-25T16:00:00+09:00",
+          "published_label": "2026/5/25(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "オプトがAnthropic社「Claude Enterprise Plan」を全社導入、AIエージェント基盤の広告運用構造変革を始動",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBVUpfVnhNbDVGRHVxejJ0MFpheWkzTWpCYzMwR1ctSFdkYk9WT0xtSXdkYzQwYks5cko3azJCTDg2SUw4cEl5Y25SdkNmeVVfdS1YZVNn?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-05-19T16:00:00+09:00",
+          "published_label": "2026/5/19(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_33",
@@ -3071,7 +3071,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_34",
@@ -3367,10 +3367,10 @@
           "title": "Publica by IASと電通ジャパン・インターナショナルブランズ、プレミアムCTV広告の透明性と投資効率の向上に向けた戦略的パートナーシップを発表",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uNUhTQTM2blZoZTRxeVk3UUZHNzJKUERGWjc2Wl9CNVZXZHFKRldBeEdqWE9NQTZkQXpjaTV6RndtT0lBeGQ3ZV9QOWlDX0FRaXpWcHpiOVI5U05BaFpkbFZWc284Nm5lYTBJ?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaYTBmUE1uQ0dpbnpOSkxTblFlQTE2NlJJVEhocUpLcHVBYTRSb2g0emJqaGkyU0VmRVA5N1R3QXViSkw2ODUtNGZzWVFZaDRGaW1qVEs2a29ld3dOYWo1bWk1VkxxVFhrekluVG9DdVlMd2Uy?oc=5",
+          "domain": "excite.co.jp",
+          "published": "2026-10-22T16:00:00+09:00",
+          "published_label": "2026/10/22(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,

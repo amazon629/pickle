@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f2f3f5">
+<title>ライブコマース・TikTok Shop 4社 ニュース監視ボード</title>
+<style>
+  :root {
+    --bg: #f2f3f5;
+    --card: #ffffff;
+    --text: #16181c;
+    --text-2: #3f434a;
+    --muted: #8a8f98;
+    --line: #eef0f2;
+    --new-bg: #ecf8f0;
+    --dot: #e5484d;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-bottom: 40px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 12px; }
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(242,243,245,.92);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    padding: 10px 0 8px;
+    border-bottom: 1px solid rgba(0,0,0,.04);
+  }
+  .topbar .row { display: flex; align-items: baseline; gap: 8px; }
+  .topbar h1 { font-size: 16px; margin: 0; letter-spacing: .02em; }
+  .topbar .updated { font-size: 11px; color: var(--muted); }
+  .nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+  .nav a {
+    font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;
+    color: var(--text-2); background: #fff; border: 1px solid #e4e6ea;
+    text-decoration: none;
+  }
+  .nav a.is-active { background: var(--text); border-color: var(--text); color: #fff; }
+  .search {
+    margin-top: 8px; position: relative;
+  }
+  .search input {
+    width: 100%; border: 0; border-radius: 10px; background: #fff;
+    padding: 9px 12px 9px 34px; font-size: 16px; color: var(--text);
+    box-shadow: 0 1px 2px rgba(16,24,40,.05);
+    outline: none;
+  }
+  .search::before {
+    content: ""; position: absolute; left: 12px; top: 12px; width: 12px; height: 12px;
+    border: 2px solid #b6bbc4; border-radius: 50%;
+  }
+  .search::after {
+    content: ""; position: absolute; left: 23px; top: 23px; width: 6px; height: 2px;
+    background: #b6bbc4; transform: rotate(45deg); border-radius: 1px;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip {
+    font: inherit; font-size: 11.5px; line-height: 1.5; padding: 3px 10px;
+    border-radius: 999px; border: 1px solid #e4e6ea; background: #fff;
+    color: var(--text-2); cursor: pointer; -webkit-appearance: none; appearance: none;
+  }
+  .chip .n { font-size: 10px; color: var(--muted); margin-left: 4px; }
+  .chip.is-on { background: #1a56c4; border-color: #1a56c4; color: #fff; }
+  .chip.is-on .n { color: rgba(255,255,255,.85); }
+  .chip.is-zero { color: #b0b5bd; }
+  .noresult {
+    margin: 18px 4px; font-size: 12.5px; color: var(--muted); text-align: center;
+  }
+  mark.kw { background: #fff08a; color: inherit; border-radius: 2px; padding: 0 1px; }
+  .cards { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 3px rgba(16,24,40,.03);
+  }
+  .card header {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px; padding: 13px 15px 11px;
+    border-bottom: 1px solid var(--line);
+  }
+  .card h2 { font-size: 14.5px; margin: 0; font-weight: 700; letter-spacing: .01em; }
+  .count { font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .items { display: flex; flex-direction: column; }
+  .item {
+    display: flex; gap: 9px; align-items: flex-start;
+    padding: 10px 15px 9px;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none; color: inherit;
+  }
+  .item:last-child { border-bottom: 0; }
+  .item:active { background: #f7f8fa; }
+  .item.is-new { background: var(--new-bg); }
+  .badge {
+    flex: 0 0 auto; margin-top: 2px;
+    font-size: 9.5px; font-weight: 700; letter-spacing: .02em;
+    padding: 1px 5px; border-radius: 4px; line-height: 1.5;
+    background: #fdf3d7; color: #9a6700;
+  }
+  .badge-x { background: #e9f0fe; color: #1a56c4; }
+  .badge-yt { background: #fdeaea; color: #c62828; }
+  .badge-note { background: #e6f7ee; color: #0f7a4a; }
+  .body { min-width: 0; flex: 1 1 auto; display: block; }
+  .title {
+    display: block; font-size: 13.5px; line-height: 1.62; color: var(--text-2);
+    word-break: break-word;
+  }
+  .item.is-new .title::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--dot); margin-right: 6px; vertical-align: 1px;
+  }
+  .desc {
+    display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.6;
+    color: var(--muted); word-break: break-word;
+  }
+  .trans {
+    display: block; margin-top: 6px; padding: 6px 9px 6px 9px;
+    background: #eefaf3; border-left: 3px solid #16a34a; border-radius: 4px;
+    font-size: 13px; line-height: 1.62; color: #14532d; word-break: break-word;
+  }
+  .trans-label { font-weight: 700; color: #15803d; margin-right: 1px; }
+  .imgs { display: grid; gap: 4px; margin-top: 8px; }
+  .imgs.n2, .imgs.n4 { grid-template-columns: 1fr 1fr; }
+  .imgs.n3 { grid-template-columns: 1fr 1fr 1fr; }
+  .imgs img {
+    display: block; width: 100%; border-radius: 9px; background: var(--bg);
+    object-fit: cover; object-position: top; aspect-ratio: 4 / 3;
+  }
+  .imgs.n3 img { aspect-ratio: 1 / 1; }
+  .imgs.n1 { justify-items: start; }
+  .imgs.n1 img {
+    width: auto; height: auto; max-width: 100%; max-height: 340px;
+    aspect-ratio: auto; object-fit: contain; border-radius: 10px;
+  }
+  .pin {
+    display: inline-block; font-size: 9.5px; font-weight: 700; color: #9a6700;
+    background: #fdf3d7; border-radius: 4px; padding: 1px 5px; margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .meta {
+    display: flex; justify-content: space-between; gap: 10px;
+    margin-top: 4px; font-size: 10.5px; color: var(--muted);
+  }
+  .dom { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .time { white-space: nowrap; }
+  .err { margin: 0; padding: 14px 15px; font-size: 12.5px; color: #b42318; }
+  .err span { color: var(--muted); font-size: 11px; word-break: break-all; }
+  .err.note { color: var(--muted); padding-top: 6px; padding-bottom: 10px; border-top: 1px solid var(--line); }
+  footer {
+    margin: 18px 2px 0; font-size: 11px; color: var(--muted);
+    display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+  }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="row"><h1>ライブコマース・TikTok Shop 4社 ニュース監視ボード</h1><span class="updated">最終更新 2026/11/20 16:10 JST</span></div>
+    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="ai-tools.html">✨ AI新着</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="ec-brands.html">EC・D2C 515社</a><a class="" href="ec-companies.html">EC企業75社</a><a class="" href="ec-mailorder.html">通販・コスメ54社</a><a class="" href="ec-support.html">EC・支援34社</a><a class="" href="ecnopro-companies.html">🎤 ECのプロ企業</a><a class="" href="ipo-approved.html">🆕 IPO新規承認</a><a class="" href="ipo-news.html">📰 IPO新規ニュース</a><a class="" href="ipo.html">IPO</a><a class="" href="jp-stocks.html">📊 日本株・投資</a><a class="is-active" href="livecommerce-4companies.html">🏢 ライブコマース4社</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="onepiece-toreca.html">🏴‍☠️ ワンピカ・トレカ</a><a class="" href="pokeca-lottery.html">🎟️ ポケカ抽選</a><a class="" href="pokeca-stores.html">🏪 ポケカ32店舗</a><a class="" href="pokeca.html">ポケカ</a><a class="" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="" href="toreca-lottery.html">🎯 トレカ抽選</a><a class="" href="unicorns.html">🦄 10億ドル以上</a><a class="" href="urban-dev.html">🏙️ 都市開発</a></nav>
+    <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
+  </div>
+  <main class="cards" id="cards">
+<section class="card" data-source="lc4_sholdings">
+  <header><h2>株式会社Sホールディングス</h2><span class="count">25件</span></header>
+  <div class="items">
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9vRlV3QlNUcHltejhxbXIyOENhQnJ6T0k3Wk1rbi1takxoRGxhcVJza09pMW9YeF9FUlVfNUxVUko4TU9BS1JULThORHBfdW5oVGE3Y0l5eWFMU0k0WEh5N1RtQ3UycFJmUkE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">11月11日「ライブコマースでつながる日」記念イベントをSホールディングス銀座オフィスで開催</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/20(金) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1PYUhHTE8zckdMWUNNMmp4cGR1bEtWc0VUcUlBUTB2b1d2a0pnajVSbEo5MW9EcFlwXzJmX1VIU3Y1ZF8tN1REdDIyNGhHRll3cTJobjhZeVE2ODFkVmpiNUNQWnAyUWlWX3c?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【12ヶ月連続1位】TikTokライブコマース「燕チャンネル」、スターランキングで年間首位を達成</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/13(金) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000139.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">11月11日「ライブコマースでつながる日」が誕生。日本記念日協会に正式登録</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/12(木) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9ja2JZQXpKYXRMblBnUUtaQ1Z2YjhJanNyMmszOUVDa2J4SklYMy1wOTBkNTctUUs5WEIyN0h4NUtEZDJDSkd5OGNPUVFXWGZhWUNIX19EVzBzMkhnLWpsQnk5bXA3WENvX0E?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、10月度TikTokスターランキングで1位を獲得</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/10(火) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://www.s-hldgs.co.jp/news/tiktok%e3%83%a9%e3%82%a4%e3%83%96%e3%82%b3%e3%83%9e%e3%83%bc%e3%82%b9%e3%80%8c%e7%87%95%e3%83%81%e3%83%a3%e3%83%b3%e3%83%8d%e3%83%ab%e3%80%8d%e3%80%81resnobe%ef%bc%88%e3%83%ac%e3%82%b9%e3%83%8e/" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、RESNOBE（レスノベ）「クリスタルルビーアンプル」が販売開始約10分で売上1,000万円を突破</span>
+    <span class="meta"><span class="dom">s-hldgs.co.jp</span><span class="time">2026/11/9(月) 10:20</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000134.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、Sukuu project「NANOバブル美容液」が販売開始約10分で売上600万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/6(金) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFB2WjUwZHdFUnJFTUFESUpjYlUxTEFTZGNlV2VGeG90dVU0M1JCZVU0ejMxckl1eUhCOTFYa0JzazF1TEx0LU5XWUlCc0M4S0QxUnJpYWtsQkx4WndJa1laMVRwTG5PSmFnQlE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">株式会社Sホールディングス、ライブコマース事業の拡大に伴い銀座へオフィスを移転</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/5(木) 17:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1WZHZqN053bmt1a1lOeHNCenpnQVBYWVNiTWNsM3d3ckRPcGJTUTcySDNGdFZtcmVUa3ItUUZCT0xYYzcwekFGc2N0anZzVUpzTzdqelQ3TmJySVZiRnpNRXo5aE1mQ0VGeGc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、健康食品「Catch-i MIRTO」が販売開始約10分で売上700万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/30(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5UbGxELXQ0LXJ0V09USWVvbDdKVFZtTEVZQ0I4UmtOV1JxTHptTTZtV1VWdlFYRzMtR2s5eEVHd0dJNHJZdEtxbVA3WGpDLUJZMDVqTGQzNnhLN3FHNWJyelYyVFJDUW5Mdnc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、ABITOKYO×クルールラボ共同開発商品「エアリストpro」が販売開始約10分で売上500万円を突破 | 株式会社Sホールディングスのプレスリリース</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/29(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000124.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、コスメドルチェ「シトラス」を販売開始約10分で1,600点以上販売</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/28(水) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000123.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、newtra(ニュートラ)「VC28 15ml」が、販売開始約10分で3,000点を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/21(水) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000122.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、XHI「スーパータイムスペース ペプチドカプセル」が販売開始約10分で売上1,100万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/20(火) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000120.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、Moritek「リフト＆タイトニングエッセンスミスト」が約10分で完売、売上500万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/19(月) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5Jd2VNN2Jyc3NvY1oyZXdtNjhsYmctdmZ5clZXRUQyTDRRV2NKSlZCT0ktUnpJYldMb0tSM2lIb1c0SHFYaWJoSEQ2NUlCVUJLbk5odl9jaEo1dGU4QmJuOW1FMS1WN0lhRWc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【11ヶ月連続1位】TikTokライブコマース「燕チャンネル」、9月度TikTokスターランキングで1位を獲得</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/16(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE81YUkzOWVDYTM2U1BOREduUnlSSVNmLWdCNFQyMmpIQm5xXzNkR1o3UWlrX1NZUy1sOFNRMXdwZzByZ2Z0QzNGTkU1WTlMajhmb3MtY2VnM1Y5SjB2SXFJcndRTmdGVWZNdUE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、小島瑠璃子さんとのコラボ配信でhetras(へトラス)「プレミアム大容量ディフューザー 500ml」を870点以上販売</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/15(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5HbEVoTkZtVE5PV2RNMWh0VHpzRDg4c2dCaDdMZV9MNllCTWwyaGh5MnMybzZrYnJnUk5IemZacUlETEExcWNIS2ZMZXlPVU1sODhGVGVGV3YwY1VHWGxaN2ZTSGVZQlVxS2c?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【世界初販売】TikTokライブコマース「燕チャンネル」、新美容アイテム「métera(メテラ)」が約10分で売上750万円超を達成</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/8(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000118.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">【世界初販売】TikTokライブコマース「燕チャンネル」、新美容アイテム「metera(メテラ)」が約10分で売上750万円超を達成</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/8(木) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBqZVI4MzNFcG1BVmNldDdHX0U2Yjl6VlhKbHFlNjRNUVB1R1NwN2diTDNuTkw5X1pBV3k1a2E1c3ZhSk1YTUJaRDRRN1JOSjAxb1hzSTBsR3VUa2pPdzFlS3k3RDdKNVNyQ3c?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」でプレミアムクリームが約10分で完売、売上650万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/7(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9UcFlJbVhRdE1qTFBlc1Q1RlRDa2lnT1ZBNlJfUFhBWmxpc3ZLTUpEU1RIUHRISG5KazRaaVB1aWZmdExnVWxjUkk2NFFHRmhtQ1B1NWQtbHRpakJveXRZRklCdmRLOFVzNEE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、「CONC リンクル インジェクション Gen2」が販売開始約10分で900点以上完売</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/29(火) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000113.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、DRH+「ダメージリペア ヘアミスト」が約10分で800点以上完売</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/28(月) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000112.000090341.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">【スターランキング9位】TikTokライブコマース「7号ななチャンネル」、8月度トクトクセールで9位にランクイン</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/14(月) 06:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9UNTdRVVZTaElGRk9PeUtScXV3OFFVa2tPOVhibjNjNGZyeUk1VjBDUEk0Sk1iMUgyOFJLcWJwWG05T29yNVRFV3VkVzBaOVJDWmZBNHFCQWtGVzJLblU0OGtlWG9CaXlkUXc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【10ヶ月連続1位】TikTokライブコマース「燕チャンネル」、8月度TikTokスターランキングで1位を獲得</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/11(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9VYWFaRlVjVVFSZ1hYVnFpLVFXcVBnSy1KMnNiOWQ1RThfOVE3MGNrNzNQaFVheHA1bmFnUXFqTy1EaDRhOG1aQWFOY1dtbmlFNnJtbEpYMkE2VTlPZ2ZJUnNndDg3QWJJelE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokライブコマース「燕チャンネル」、BIJOU DE MER「ボーテ アンバリエンテ プラ キャビ エクセレンス ナノ ローション」が開始約10分で完売、売上1,500万円を突破 | 株式会社Sホールディングスのプレスリリース</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/10(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9FdEZta1dHVF9yNm93TTZrOUFSNHZoN3RtRWlCNU4xM0tYbGJPYTF1RDhZa3F3ay0zeUdmU01uUFhaMlRDQkN6UlBKX2U1VVJTeWI5MEpsdnM4SWppeUxIZFpMRjdWNzUtVUE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【販売実績更新】TikTokライブコマース「燕チャンネル」、「DIFFER &amp; DEEPER」メラチノール クラウドクリームが累計7,200点・売上3,700万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/9(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1FVEVIOUVYMWRGaWhlQmUweklrQzNoanRJMkpaSjVjUXFjZkI1OWNoUFRub0I5Z18zNUpwZnRzQXZFNlBvMEllUFA0cGZTdnpXVGp0azFTdmFGS2lQN0F0bVZndDdEV09JS1E?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【年内開講予定】Sホールディングス、JAPANライブコマース協会と連携し「LIVE MONSTER」を開講</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/8(火) 16:00</span></span>
+  </span>
+</a>
+  </div>
+</section>
+<section class="card" data-source="lc4_cellest">
+  <header><h2>株式会社Cellest</h2><span class="count">25件</span></header>
+  <div class="items">
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000146.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">ライブコマース専門事務所「トキバナ」所属のトップライブコマーサー・Kanaが「TikTok Shop Local in北海道フービーフェスティバル」に参加</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/16(月) 16:29</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000145.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">最高月間GMV2億円のライブコマースチャンネル「ぞうねこちゃんねる」で、元アパレル店員の「Ren」がライブコマーサーデビュー！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/29(木) 15:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000144.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">ライブコマーサー歴10年目の「ゆきちゃ」がライブコマース専門事務所「トキバナ」に所属決定！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/26(月) 11:12</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000143.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">話題の「ジェネリック化粧品」スキンケア3点セット、「ぞうねこちゃんねる」初販売で244セットを完売！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/23(金) 15:57</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://cellest.co.jp/2026/10/23/2159/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=php%25e3%2581%25ae%25e8%2584%2586%25e5%25bc%25b1%25e6%2580%25a7%25e3%2581%25ab%25e9%2596%25a2%25e3%2581%2599%25e3%2582%258b%25e8%25aa%25bf%25e6%259f%25bb%25e7%25b5%2590%25e6%259e%259c" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">PHPの脆弱性に関する調査結果</span>
+    <span class="meta"><span class="dom">cellest.co.jp</span><span class="time">2026/10/23(金) 08:42</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000142.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">関東在住の現役フリーアナウンサー「村多美咲」がライブコマース専門事務所「トキバナ」の研修を経て、ライブコマーサーデビュー！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/22(木) 11:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000141.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">【WABE史上最高売上を記録】L.store 寺本俊介氏が美容特化型ライブコマースイベントでトップセラーに！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/20(火) 10:18</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNE5XS09aTzNxUm9IR3VPam9CWUZ2bTc3d2RkcTVJTjVIUnpVSF8xMkliUXI1RHJ6Q1RCZFptY1AwLWVjN0YwWE1TQ1g0aFhpWWRsRjFR?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Cellest、ライブコマースの「トキバナ」で「カノン社長」さんが活動開始</span>
+    <span class="meta"><span class="dom">tsuhannews.jp</span><span class="time">2026/10/19(月) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000139.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">「女上司と部下」コント動画で話題！SNS総フォロワー数10万人以上のクリエイター「カノン社長」がライブコマース専門事務所「トキバナ」に所属決定！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/16(金) 10:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zVlgwNE5JV0J2dldyNDJiYkFIQnRSbl9paTJpQWxhUFMyRjVtSHJVeHo0ZDVXbUllNFdqOGw0SnFVdHJ3SVRtS2JTTC1ZNUtRQ0JWNkF3?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Cellest、TikTok Shopの新チャンネル「くまかなライブコマーサー」が初月に売上1億円超</span>
+    <span class="meta"><span class="dom">netkeizai.com</span><span class="time">2026/10/4(日) 13:03</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000138.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTok「トクトクSALE BIG LIVE」で目標GMVを達成！「ぞうねこちゃんねる」が1,711万円、「くまかなライブコマーサー」が2,100万円を24時間以内に突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/2(金) 16:31</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000136.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">月間GMV2億円の実績を持つライブコマース専門事務所「トキバナ」より、食品に特化した新チャンネル『神スタ食堂』が誕生！ 開設1カ月で累計視聴者数16.5万人を突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/24(木) 16:15</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000135.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">SNS総フォロワー数100万人以上の大人気クリエイター「8ちゃんねるのエイト」がライブコマース専門事務所「トキバナ」に所属決定！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/17(木) 18:12</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxWk1Xc0JzQ25ObTN6Tm8xWDNXdG9KY3NvbzZTbGJDMkxDUVhZaWZsNGFfVDh4akF6OEVXUXZSbVplbUJOamNSeGE3UXYyTnY0RWZWLWpHV2NIcWppUkZxY2lZSjNNM0RV?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">プレスリリース：［賞金10万円＋専属契約］株式会社Cellest、『ライブコマーサーオーディション』開催決定！9月1日（火）よりエントリー受付開始（PR TIMES）</span>
+    <span class="meta"><span class="dom">mainichi.jp</span><span class="time">2026/9/2(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000134.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">【ライブコマース専門事務所「トキバナ」所属】トップライブコマーサー・Kanaの新チャンネル「くまかなライブコマーサー」が初月で売上1億円を突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/9/2(水) 10:37</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000132.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">ライブコマース専門事務所「トキバナ」所属のKanaが中国・深圳開催の国際イベント「KACE 2026」にて【2026 Kalodata Japan Top Creator】を受賞！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/25(火) 17:11</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000131.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">【賞金総額100万円】ライブコマース専用ECモールアプリ「WABE」、美容特化の大型イベント『WABE BEAUTY DAY』を8月24日（月）に開催！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/22(土) 12:11</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000130.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">「マーケティング・セールス World 2026 夏 大阪」にCellestが登壇！TikTok Shop月商2億円の実績から「売れるライブコマース戦略」を解説！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/20(木) 14:59</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000129.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">株式会社Cellest 代表取締役CEO 佐々木宏志が、通販通信ECMO主催セミナー「秋冬繁忙期、売り逃しゼロへ。EC運営の効率化と機会損失を防ぐ『直前チェックポイント』」に登壇！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/14(金) 10:04</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000128.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">「学校の評価がすべてじゃない」未来の選択肢を広げるため、Cellestが大阪府立箕面東高等学校向けに「特別出前授業」と「ライブコマース職業体験」を実施</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/12(水) 10:46</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000127.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">SNS月間総再生回数4,000万回超え！“うざママあるある”で人気の「かおりの今日もよしなに」がライブコマース専門事務所「トキバナ」の連携クリエイターに！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/7(金) 14:23</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000126.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">月間GMV2億円の実績を持つトップライブコマーサー・Kana、新チャンネル「くまかなライブコマーサー」を始動！活動開始から総配信時間わずか8時間で累計GMV1,000万円突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/6(木) 13:26</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000125.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">ライブコマース専用ECモールアプリ「WABE」、累計ダウンロード数5,000件を突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/8/4(火) 12:58</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aU2pQOTdTeExpQW50RFZiUXpTN1prUEh3bG1OZmVxMThldE54WHFiU2dBbHpibWUtMzFybU5SZW1NRFJWcDZVbVpLYVF5Uzc1N3RyZVJ3?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Cellest、TikTok Shopの公式パートナー3資格を取得</span>
+    <span class="meta"><span class="dom">tsuhannews.jp</span><span class="time">2026/7/24(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000124.000102719.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">ライブコマース専用ECモールアプリ「WABE」、複数の配信者・店舗が参加するライブコマースイベント「WABE FRIDAY」を7月24日（金）に開催</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/7/24(金) 08:30</span></span>
+  </span>
+</a>
+  </div>
+</section>
+<section class="card" data-source="lc4_gastroduce">
+  <header><h2>Gastroduce Japan株式会社</h2><span class="count">25件</span></header>
+  <div class="items">
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SNl8tcDFLbk9Ncm5sR0RBVWVMYWxkWTRWalhCSGoxQ1JIYmhlN3lNRTJkNzJOdjMyMlJIZVVGaS10aTRNUzBN?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Gastroduce JapanとECマスターズ、TikTok Shop講座を12月開講へ</span>
+    <span class="meta"><span class="dom">news.dellows.jp</span><span class="time">2026/11/20(金) 00:11</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqVWFzclpabG1kSGpwLUtWcWZtWWNnbWwtWlJDVF9yb1BHREtBQVpFVEstb2tKdmx2dnczdDFzQTFBN3BuSVE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">GastroduceJapan、食品向けTikTok Shop運営代行プランを提供へ</span>
+    <span class="meta"><span class="dom">news.dellows.jp</span><span class="time">2026/11/13(金) 07:53</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000041.000056558.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">楽天市場・Amazonの売上に、TikTok Shopで次の伸びしろを。Gastroduce Japan、ECマスターズと「TikTok Shop グループコンサル」を12月に共同開講</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/11/12(木) 13:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/11/09/%e3%81%8a%e5%8f%96%e3%82%8a%e5%af%84%e3%81%9b%e3%83%bb%e3%81%8a%e5%be%97%e6%83%85%e5%a0%b1%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e3%80%8cfood-force-studio%e3%80%8d%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25e3%2581%258a%25e5%258f%2596%25e3%2582%258a%25e5%25af%2584%25e3%2581%259b%25e3%2583%25bb%25e3%2581%258a%25e5%25be%2597%25e6%2583%2585%25e5%25a0%25b1%25e3%2581%25ae%25e3%2583%2596%25e3%2583%25ad%25e3%2582%25b0%25e3%2580%258cfood-force-studio%25e3%2580%258d%25e3%2582%2592%25e5%2585%25ac%25e9%2596%258b%25e3%2581%2597" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">お取り寄せ・お得情報のブログ「FOOD FORCE STUDIO」を公開しました</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/11/9(月) 23:02</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/11/03/gastroduce-japan-10th-year/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gastroduce-japan-10th-year" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">Gastroduce Japan、創業10年目へ。食品EC支援の9年の感謝と、次の10年の挑戦</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/11/3(火) 22:42</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiekFVX3lxTFA4aDdSYkhkV1hfUlk1b1R3MGItTG1xNXZGck1VdmxoeFhkLXJYSW56RThYOW43VC1DcWZvUXZ2dk42OWlPejdMckoxQkRuZ3NjRU1GRFJLQW1BSlNza0tIMktXZW9kT3BIRktIZFNPZTY3aXNBTlAtZU5n?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Gastroduce Japan【ガストロ】運営「FOOD-FORCE-STUDIO」、「TikTok Shop Local in 北海道フービーフェスティバル」にLIVE配信クリエイターとして参加</span>
+    <span class="meta"><span class="dom">mainichikirei.jp</span><span class="time">2026/10/28(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1PRUhVbnBQclAzRGVzQTRxNDE4V0EwUGdnRTVuRTkxZlJ5cHUwb05MQk8yQlluNzFIYjFkUnRrSUZCUHVJbDQ5dF9JZVpnd2NELXhubzNYTkJLOTJOSFFQNW9XNXUtSUJqMEE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">OTOGIと支援先合計7社が『Wantedly Awards 2026』BEST100選出！Gastroduce Japanが「LOCAL」、ABABAが「BEST EPISODE GOLD」を受賞！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/23(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000037.000056558.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">食品クリエイタープラットフォーム「FOOD FORCE STUDIO（FFS）」のTikTokアカウント、成果報酬型モデルで月間流通1,000万円を突破</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/16(金) 08:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiRkFVX3lxTFAwc3QzdlBRV0tSYllmVFFMeGVuTzY4MkZRRUtQZmo3aUVOSGZhckVkZHRpYlpLT3Y5cUEzbFIyRkE2Y0NHUFE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">GastroduceJapanがWantedly Awards 2026受賞 幹部候補を募集へ</span>
+    <span class="meta"><span class="dom">news.dellows.jp</span><span class="time">2026/10/16(金) 05:16</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZk5wTjFsR1A3ajB6NGZwaGFUMjQ3MWRHaXB3LU1MNTFuVnVLbjBQd3pEVm5kekFKeFc3M0RiM3d0SmZrU1dobmJJU0RKUVBZcmY3Uw?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">GastroduceJapan（ガストロデュースジャパン）、TikTok</span>
+    <span class="meta"><span class="dom">news.nicovideo.jp</span><span class="time">2026/10/14(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000036.000056558.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">GastroduceJapan（ガストロデュースジャパン）、TikTok Shop公式認定パートナー（TSP）として食品カテゴリ特化の運用支援を展開！支援60店舗・月間流通総額3.5億円の実績突破！</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/14(水) 08:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000034.000056558.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">TikTok Shop食品特化のクリエイターコミュニティ「FOOD FORCE STUDIO」、登録クリエイター数が1,500人を突破！食品メーカーとクリエイターのマッチングを強化</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/10/10(土) 08:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHcXF5eUhja3RITzNFVjFOWnFLVlp3cXR5Q0o3eDZiQ1duUWdJWWVHYnJxLUhSTGJoTTE2OGR5cEwxZThxcHV0U3Fwek9LMUs3bU1qZXdGTQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">食品特化TSPのGastroduceJapan、食品メーカー向け「TikTok Shop運営代行プラン」を提供開始 コンサル・運用代行・LIVE配信代行の3プランで、出店から売上拡大までを支援 - 写真・画像(1/1)</span>
+    <span class="meta"><span class="dom">nishinippon.co.jp</span><span class="time">2026/10/8(木) 17:51</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE80dkpHSDNSVmZqS0lfQUVjb25xbHQ4aW9TWFROLXBpMkRybGUtVGZUdnR4RXFlVmVZa1dZMFY0eXFKcXdIMWYxZXhxSG1wZDh0WUtQNWh3?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">「Wantedly Awards 2026」受賞を記念し、GastroduceJapanが第2創業期を共に創る幹部候補を大募集</span>
+    <span class="meta"><span class="dom">nishinippon.co.jp</span><span class="time">2026/10/2(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/10/01/wantedly-awards-2026-team-of-the-year-local/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=wantedly-awards-2026-team-of-the-year-local" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">「Wantedly Awards 2026」TEAM OF THE YEAR LOCALを受賞</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/10/1(木) 18:19</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMic0FVX3lxTE5VYmpHOEw2OXNFT2h4cDlhUThUbGVDekdfS0k3aTNfMFhJTm5mMW5XOWdDNmRkalNOcVl1NnREMjhPVVNRSDJCeHh3Vm1EemZZcG9XMmFNelNTbDQzeUdsc3JpS241MFpRbEdkWXhFeTNXcUE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTok Shop「ザ・ブランドデー」モスバーガーデーの運用をGastroduceJapanが支援</span>
+    <span class="meta"><span class="dom">excite.co.jp</span><span class="time">2026/8/27(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/08/27/mos-burger-day-tiktok-shop/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=mos-burger-day-tiktok-shop" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">TikTok Shop「ザ・ブランドデー｜モスバーガーデー」の運用を支援｜食品ブランド2社目のTSP採用</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/8/27(木) 10:20</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwT2hobmd3UGNfMXR1WkxLbGQteklkOHlZakVRLTZpZUJ5c3ZhNDktQVhGUE0xZWIzNjhnWUhySmk5UFFPNGdWSmtNZmZkWFdzNGEtaWZ3?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">GastroduceJapanがTikTok Shop食品EC支援で月間流通3.5億円突破、全国3拠点のライブ配信体制を確立</span>
+    <span class="meta"><span class="dom">commercepick.com</span><span class="time">2026/7/30(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1UQkUwVGU0c2FDY3dORGZJR01ualRPU29Ia0k1dFc0U1pXRTZOaFN0V3d5WDNtS3pTV2JWdG54RWVvQWc1NEN6Ul9NbHdEZndyd2dQeGpkb1ZZMFVfQ19uUG9QZFZ1Uk1nbGc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【プレスリリース】食品ECの「占有率」を獲る。GastroduceJapan、2026年上半期の事業成果を発表</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/7/30(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/07/29/food-ec-share-2026-h1-results/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=food-ec-share-2026-h1-results" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">食品ECの「占有率」を獲る。2026年上半期の事業成果を発表</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/7/29(水) 19:06</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://prtimes.jp/main/html/rd/p/000000029.000056558.html" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">PRT</span>
+  <span class="body">
+    <span class="title">松屋フーズ食品カテゴリー初の&quot;TikTokshopジャック&quot;が実現×「オムライス兄さん」「あやんぬ」がTikTok Shop初参入</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/4/24(金) 12:30</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2026/04/24/matsuya-foods-day-tiktok-shop-brand-day/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=matsuya-foods-day-tiktok-shop-brand-day" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">食品カテゴリー初のTikTok Shop「ザ・ブランドデー｜松屋フーズデー」を企画・運営</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2026/4/24(金) 12:30</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBkZkNVWVV1TE5Gd2N1eVdlT2pHbVl5UmRyYV9nRkZMWFZuaUg3T05EMk5RT2hUblU3X0lYaWF0T0pCc1ZzVnMyWmdNNGJ0R09iOGFmeW9OYkY1V3c0a1QtWjEwVExucHV5bFE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">Gastroduce Japanの食品EC戦略が「AdverTimes.」に掲載</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2025/12/23(火) 17:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2025/12/18/matsuya-tiktok-shop-advertimes/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=matsuya-tiktok-shop-advertimes" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">松屋フーズのTikTok Shop活用事例が宣伝会議「AdverTimes.」に掲載</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2025/12/18(木) 13:45</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://gastroduce-japan.co.jp/2025/12/13/gastroduce-transformation-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=gastroduce-transformation-2025" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">公式</span>
+  <span class="body">
+    <span class="title">【この1年で、ガストロは“別の会社”になった】</span>
+    <span class="meta"><span class="dom">gastroduce-japan.co.jp</span><span class="time">2025/12/13(土) 21:40</span></span>
+  </span>
+</a>
+  </div>
+</section>
+<section class="card" data-source="lc4_creok">
+  <header><h2>株式会社ＣＲＥＯＫ</h2><span class="count">25件</span></header>
+  <div class="items">
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMie0FVX3lxTE0wRUx5TDJYa1VaM3hMbVJ2TkpUMzZHbHZUTmZLazZycWZoMlNDNjVBUEJ6NkZ3NWYtM1lDZkhyX1pfVnlkS0FqSVdsWGJ0b29FUWpOQndyRUE5ZUN4S1FFVWdCTHZBOXlOenVwNmRGbnQ0Vk5BdklEZlEyYw?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、Offbeatとの資本戦略提携を強化。次世代ソーシャルコマース市場の拡大へ</span>
+    <span class="meta"><span class="dom">sankei.com</span><span class="time">2026/11/16(月) 10:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NeC1QQWV1RGlSLXk3YzlBYzRtUk9qZl92VzdzaXdXUlRQRE42MTFlWm5FX25IanA4cFM0RExVcjJROVNTNEFxU3hBckNONDBENXRfRw?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">「“フォロワー数”だけでは売れない」月間GMV2,500万円を記録したCREOKが明かすライブコマース成功の法則とは？</span>
+    <span class="meta"><span class="dom">news.nicovideo.jp</span><span class="time">2026/11/9(月) 21:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjRllOYnpUWVVVSmk1ZGZFc1dyaTJPSGRJZWNFX25sbE9wdGpUdWlILXpUdnUtRUw2dzZzWEpUQkpfSlBLb3VDWHJyQkpsYzZUalk3ZU5B?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、TikTok Shopの累計売上約15億円 実績生かしTTS支援をFC展開へ</span>
+    <span class="meta"><span class="dom">netkeizai.com</span><span class="time">2026/11/4(水) 17:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxUm9EVElhVDVjamI0YXhCYkhwSlBMcGFwVWdUSmIxaTNtOS1wSVBtTlVJZnZZUGkzUEZnN29uazRCZzU3T296SFduMUxZNkJHaDlCelZBZzZhQThORG5Z?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">テレビショッピング、SNS、ECが1つに!? TikTok Shopがもたらす“購買体験”の変化とは？CREOK代表・桜井吉男が解説</span>
+    <span class="meta"><span class="dom">chiba-tv.com</span><span class="time">2026/10/29(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZWFRKaFZXbnEzQmNMc3paQTJFdWJmY3gxRjVtT2lEYVZvdFladVh0YlRCcWl0ZHRRcWFIMERTbEUyVEh6UGI0LTZSSTVtOHhLaExxRkVnRloteUFRMkxF?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">AI時代のライブコマース最前線!CREOKが描く｢売れる仕組み｣と信頼の未来</span>
+    <span class="meta"><span class="dom">chiba-tv.com</span><span class="time">2026/10/24(土) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE1BMDM0cGktQng2dDdwM2thQXpwdVpabC1iQWtXWDVqTzVlOTc5clJUakVoc1dnc2FtVGxmVDFoTlBkWTd3NFUtT1RoN19EdGFkUlhxd3IzWkdGV3pDNFJOS3ZYOVBZM2J0cjFuQzU0SlBtSHlFNEcxU2VRZm5PMzg?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、ライブコマース支援を全国FC展開へ 初年度の流通総額15億円</span>
+    <span class="meta"><span class="dom">news.yahoo.co.jp</span><span class="time">2026/10/21(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiO0FVX3lxTE9xc25LVGtUZWhuNEUweDFveFdrcWE0bUtsb292WVdzM1d5c20talpMbDdqaDRkQVRJWUJj?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">「日本でライブコマースは無理」は本当か TikTok Shopで初年度GMV15億円 CREOKが明かす全国FCの勝算</span>
+    <span class="meta"><span class="dom">36kr.jp</span><span class="time">2026/10/21(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMickFVX3lxTFBTOWJlMlVCb3c1ZlgwY2I1b0wzaVN2c2V5a1ZmZ08zTDVFM01BeHpaWUxwMDVnUE9rNjMtWk5vT0RUX0tsOWZEZGFvbVBNMUZBaFZpUzhjNFYxWUZBdU5SR0NSQWVQMTQtbEp5d0dMWkozQQ?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">【オークファン】CREOK設立1周年記念イベントに登壇、トークセッションで次世代ECの可能性を語る</span>
+    <span class="meta"><span class="dom">news.infoseek.co.jp</span><span class="time">2026/10/20(火) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE96QWZjX3F4SXVycnhsV3dBYVdfb3V6QWZ4X1B3VUd0SVdpWXpsdU1ORmxWbW0ydVBibUI2SU5tUDQ5ZmtDTV9qQlNDamg3MVpw?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">ライブ配信に「音のハンコ」 CREOKとシヤチハタ、AI時代のなりすまし防止へ | 黃信維（コウ・シンイ） | ニュース</span>
+    <span class="meta"><span class="dom">japan.storm.mg</span><span class="time">2026/10/19(月) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VR1pIUU5xZDJ1UkdnN0ZvMHFNMXdwdDk3QklDNDk3bHJTbDk4OXBhcDl1cTc5TzRrYml2T2l2YjNuMENxR28yczFFbw?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTok Shopで累計売上約15億円！CREOKが全国13拠点構想、シヤチハタとの「本物の証」開発も発表</span>
+    <span class="meta"><span class="dom">getnews.jp</span><span class="time">2026/10/19(月) 10:19</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcnpmN1BsN2NqdXhMNGdDQWxvbDlaR1otMUltX2t5TGZBTG5yX1Y5U3lvQXFpTUpwYzhfV1VUUDkwVHhqdUxUbFBZUDBnbUpaYlkwalZsdVJ1Y2ZCZkYzLU5pd2E3TUlETmUtYXlzdHE2V2hwemVYSg?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">『CREOK 1st. ANNIVERSARY - 一周年記念発表会 -』を開催、トークセッション実施｜CREOK、ライブコマース事業全国FC展開を始動。シヤチハタ等と「AI時代の信頼インフラ」構築へ</span>
+    <span class="meta"><span class="dom">rbbtoday.com</span><span class="time">2026/10/17(土) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiR0FVX3lxTFBjUlg0SGxYUko3YjFFTnNKanA0a195U1dncGVyaG1yUWVSS3FacFRIWHBQdzI2eTBUb1pCLXJmaFRPQURPZ1p3?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、TikTok Shop参入1年で累計売上約15億円。全国13拠点のフランチャイズとシヤチハタとの共同プロジェクトを発表【CREOK 1st. ANNIVERSARY】</span>
+    <span class="meta"><span class="dom">livetimes.jp</span><span class="time">2026/10/17(土) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SOWJFakZwSjl1OG9mb1U0WHRpMjV5N2JQcDRadG9YOVVNNnh2QlJhRm1fSFFfeTlOOEVuRVowUGJpd01Ga2NUdllPanFxZG5ZM3F0dVln?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">オークファンとCREOKが資本業務提携、TikTok ShopでリユースビジネスのD2Xコマース構築へ</span>
+    <span class="meta"><span class="dom">commercepick.com</span><span class="time">2026/7/1(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9NN1pqNDVsOW1ERXlNZ1g5YUttSEExSHpGSFpyUmdnYUNfeFJocHJ2VzdRT0N3X1pyUWJoUEQxTXEtWmtyVThXMGhUQ3p2Y0pVb2s5U1J4SUg1ekJPVFBZVGRxZEhOeGd4NXc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、オークファンと資本業務提携、リユース品ライブコマース市場創出へ</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/7/1(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE5EaWRacHIxNkV4YnIzY2JDUnlfaHMxSXJmQ1JyeGFtaVhrNFlOOVk2Q2lpR3liNGZrV25ZWkQ2ZjQzNGMyM0xLYUxJQVBSTFB4dTdaakxuU09TZEdic3M5S216TFdYVUkzV2c?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">オークファン、CREOKと資本業務提携、リユース品ライブコマース市場創出へ</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/7/1(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEemt2S1htODBwa21UZnpsbVlEMGdZUmRVTFh3Z3dJUnc0bHpjclJwXzNrQ3ZUaERxNVZVNlduRnJEd2k4cWJUSmtVU0VtV2UyTmNv?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">オークファン、CREOKと資本業務提携しリユース品のライブコマース展開へ</span>
+    <span class="meta"><span class="dom">voix.jp</span><span class="time">2026/7/1(水) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE82TjFfRzNDVHlXS2RtcEU0bnBhYy1oVFljcmFUbUwxcGtJSWdpSWFkWmRaTWFfSjBTdFo4eHNIRkZYVGtHeVB4Z0NKMHVLVnFFY3RZbkxZT2g?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">「15分で8億円」の世界が来る？スーパーコマーサー創出と、日本ライブコマースの未来図｜CREOK CEO 桜井吉男〈独占インタビュー・後編〉</span>
+    <span class="meta"><span class="dom">livetimes.jp</span><span class="time">2026/5/17(日) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GRDU5dGk4X0xEOGQweE9lRXVLY2E3bTctQUVoWmNWeUJHY1laNkhQNTNzc1pNeHdGZXVRcV8xS2R1UFBYekt3OXhKYnBFNWUtNl94YTFmNWE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">「日本は世界17番目」TikTok Shop市場の実態と、企業が今すぐ知るべき参入の勘所｜CREOK CEO 桜井吉男〈独占インタビュー・中編〉</span>
+    <span class="meta"><span class="dom">livetimes.jp</span><span class="time">2026/5/17(日) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZb0JZRGQ0c3VTVThJTzdnNEVhSHNWZnBSRU5sYXVpSVZuWEtnUDJBR1pxRkRHRUlaRmZKMGRFSVo5RDhKUWVJSUFwYU5oS05IVXZpQjBTaUM?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">TikTokとLark「2つの0→1」を経た元ByteDance上席執行役員が語る、”集大成”としてのライブコマース｜CREOK CEO 桜井吉男〈独占インタビュー・前編〉</span>
+    <span class="meta"><span class="dom">livetimes.jp</span><span class="time">2026/5/17(日) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jYThRMWwyWGtKLW5wSnZFRGFVVlNBNnQ0QUZnTk5YakQzZ2gtakN0T01idVo1OG9HUXRMb0Ria1pMemtUczVZbG9BazV4bk0?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">UUUMとCREOKがTikTok Shop起点のコンテンツコマース基盤構築で提携：commercezine</span>
+    <span class="meta"><span class="dom">markezine.jp</span><span class="time">2026/4/17(金) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSWWxGRTA2R3VnaDVvenlmX2RJWW5CRFpPeFFXM2R4V19Jc3hGRFZncWNWOG43bVJWaVUyT010WUdveXRzOEtMMHhiNFB4c1h6VkZQRA?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">UUUM、CREOKと戦略的業務提携 TikTok Shopのコンテンツコマース事業を共同展開</span>
+    <span class="meta"><span class="dom">musicman.co.jp</span><span class="time">2026/4/16(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9lLUNGbk1CRlpxTGtyUnktTjg2Nlp6VnMwQnVaV3pnN2N5R2RnY0tpWHV3eW9wMFNCQVdNZ3ctRGs4dzU2UkkwX1gtZ0R6Nkt6a3ZxRm9MTzhFeFpuZjhZSEZxVWdGekhBUlE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、トランスコスモス株式会社と戦略的協業</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/4/16(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTFBodHlNTE91TmRadnlXWnFyTk1VUVRSNVNFTlpvanJPQzdheTNkSzFMNzVzYnVDSk1KdjFDMWZFeHVTQlpPSXNQQ2lOc3E5eTVuQmczLV9DQTI5QkV1eDdKZk1nX0lyV3JKZFE?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">CREOK、UUUMと戦略的業務提携を締結</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/4/16(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE1aYVJfVklJcUxhd0pmandsc1FfU1pDOEQ0MWh5YjZ2SU80TEpnNHBPTXNHV0h6UUdFR3RFZ3dfQXFHRGkySjY0VEQ1dWFzNko3NGZpZHpYNE9SMFdqcmg0V2FCSTlkUGJmd1E?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">UUUM、CREOKと戦略的業務提携契約を締結 | UUUM株式会社のプレスリリース</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/4/16(木) 16:00</span></span>
+  </span>
+</a>
+<a class="item t-google_news" href="https://news.google.com/rss/articles/CBMiakFVX3lxTE44cGFJMHpYUGpBVkR2X21lbWVMQ1JCWW5FZzRSUlhkTDRWY1JjSm1HYkZrUW1LMXVuSndrODE1ZXhQZXhGY3BYYlo2dFBTTmdxUDFjaEItbGdualFfb1FodzBPN2kyd3RIWmc?oc=5" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-news">JP</span>
+  <span class="body">
+    <span class="title">トランスコスモス、株式会社CREOKとTikTok Shopにおける戦略的協業を開始</span>
+    <span class="meta"><span class="dom">prtimes.jp</span><span class="time">2026/4/16(木) 16:00</span></span>
+  </span>
+</a>
+  </div>
+</section>
+  </main>
+  <p class="noresult hidden" id="noresult"></p>
+  <footer><span>全100件 ・ ニュース 4</span><span>1時間ごとに自動更新 (GitHub Actions)</span></footer>
+</div>
+<script id="board-data" type="application/json">{"generated_at": "2026-11-20T16:10:26+09:00", "generated_at_label": "2026/11/20 16:10 JST", "title": "ライブコマース・TikTok Shop 4社 ニュース監視ボード", "total": 100, "sources": [{"id": "lc4_sholdings", "type": "google_news", "name": "株式会社Sホールディングス", "handle": "", "status": "ok", "error": null, "via": "https://news.google.com/rss/search?q=%22S%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%22%20OR%20%22S-%E3%83%9B%E3%83%BC%E3%83%AB%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B9%22&hl=ja&gl=JP&ceid=JP:ja", "count": 25, "items": [{"title": "11月11日「ライブコマースでつながる日」記念イベントをSホールディングス銀座オフィスで開催", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vRlV3QlNUcHltejhxbXIyOENhQnJ6T0k3Wk1rbi1takxoRGxhcVJza09pMW9YeF9FUlVfNUxVUko4TU9BS1JULThORHBfdW5oVGE3Y0l5eWFMU0k0WEh5N1RtQ3UycFJmUkE?oc=5", "domain": "prtimes.jp", "published": "2026-11-20T06:00:02+09:00", "published_label": "2026/11/20(金) 06:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【12ヶ月連続1位】TikTokライブコマース「燕チャンネル」、スターランキングで年間首位を達成", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PYUhHTE8zckdMWUNNMmp4cGR1bEtWc0VUcUlBUTB2b1d2a0pnajVSbEo5MW9EcFlwXzJmX1VIU3Y1ZF8tN1REdDIyNGhHRll3cTJobjhZeVE2ODFkVmpiNUNQWnAyUWlWX3c?oc=5", "domain": "prtimes.jp", "published": "2026-11-13T06:00:01+09:00", "published_label": "2026/11/13(金) 06:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "11月11日「ライブコマースでつながる日」が誕生。日本記念日協会に正式登録", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000139.000090341.html", "domain": "prtimes.jp", "published": "2026-11-12T06:00:02+09:00", "published_label": "2026/11/12(木) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、10月度TikTokスターランキングで1位を獲得", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ja2JZQXpKYXRMblBnUUtaQ1Z2YjhJanNyMmszOUVDa2J4SklYMy1wOTBkNTctUUs5WEIyN0h4NUtEZDJDSkd5OGNPUVFXWGZhWUNIX19EVzBzMkhnLWpsQnk5bXA3WENvX0E?oc=5", "domain": "prtimes.jp", "published": "2026-11-10T06:00:02+09:00", "published_label": "2026/11/10(火) 06:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、RESNOBE（レスノベ）「クリスタルルビーアンプル」が販売開始約10分で売上1,000万円を突破", "summary": "", "images": [], "link": "https://www.s-hldgs.co.jp/news/tiktok%e3%83%a9%e3%82%a4%e3%83%96%e3%82%b3%e3%83%9e%e3%83%bc%e3%82%b9%e3%80%8c%e7%87%95%e3%83%81%e3%83%a3%e3%83%b3%e3%83%8d%e3%83%ab%e3%80%8d%e3%80%81resnobe%ef%bc%88%e3%83%ac%e3%82%b9%e3%83%8e/", "domain": "s-hldgs.co.jp", "published": "2026-11-09T10:20:51+09:00", "published_label": "2026/11/9(月) 10:20", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、Sukuu project「NANOバブル美容液」が販売開始約10分で売上600万円を突破", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000134.000090341.html", "domain": "prtimes.jp", "published": "2026-11-06T06:00:02+09:00", "published_label": "2026/11/6(金) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "株式会社Sホールディングス、ライブコマース事業の拡大に伴い銀座へオフィスを移転", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB2WjUwZHdFUnJFTUFESUpjYlUxTEFTZGNlV2VGeG90dVU0M1JCZVU0ejMxckl1eUhCOTFYa0JzazF1TEx0LU5XWUlCc0M4S0QxUnJpYWtsQkx4WndJa1laMVRwTG5PSmFnQlE?oc=5", "domain": "prtimes.jp", "published": "2026-11-05T17:00:00+09:00", "published_label": "2026/11/5(木) 17:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、健康食品「Catch-i MIRTO」が販売開始約10分で売上700万円を突破", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WZHZqN053bmt1a1lOeHNCenpnQVBYWVNiTWNsM3d3ckRPcGJTUTcySDNGdFZtcmVUa3ItUUZCT0xYYzcwekFGc2N0anZzVUpzTzdqelQ3TmJySVZiRnpNRXo5aE1mQ0VGeGc?oc=5", "domain": "prtimes.jp", "published": "2026-10-30T16:00:00+09:00", "published_label": "2026/10/30(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、ABITOKYO×クルールラボ共同開発商品「エアリストpro」が販売開始約10分で売上500万円を突破 | 株式会社Sホールディングスのプレスリリース", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UbGxELXQ0LXJ0V09USWVvbDdKVFZtTEVZQ0I4UmtOV1JxTHptTTZtV1VWdlFYRzMtR2s5eEVHd0dJNHJZdEtxbVA3WGpDLUJZMDVqTGQzNnhLN3FHNWJyelYyVFJDUW5Mdnc?oc=5", "domain": "prtimes.jp", "published": "2026-10-29T16:00:00+09:00", "published_label": "2026/10/29(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、コスメドルチェ「シトラス」を販売開始約10分で1,600点以上販売", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000124.000090341.html", "domain": "prtimes.jp", "published": "2026-10-28T06:00:01+09:00", "published_label": "2026/10/28(水) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、newtra(ニュートラ)「VC28 15ml」が、販売開始約10分で3,000点を突破", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000123.000090341.html", "domain": "prtimes.jp", "published": "2026-10-21T06:00:01+09:00", "published_label": "2026/10/21(水) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、XHI「スーパータイムスペース ペプチドカプセル」が販売開始約10分で売上1,100万円を突破", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000122.000090341.html", "domain": "prtimes.jp", "published": "2026-10-20T06:00:02+09:00", "published_label": "2026/10/20(火) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、Moritek「リフト＆タイトニングエッセンスミスト」が約10分で完売、売上500万円を突破", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000120.000090341.html", "domain": "prtimes.jp", "published": "2026-10-19T06:00:01+09:00", "published_label": "2026/10/19(月) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "【11ヶ月連続1位】TikTokライブコマース「燕チャンネル」、9月度TikTokスターランキングで1位を獲得", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Jd2VNN2Jyc3NvY1oyZXdtNjhsYmctdmZ5clZXRUQyTDRRV2NKSlZCT0ktUnpJYldMb0tSM2lIb1c0SHFYaWJoSEQ2NUlCVUJLbk5odl9jaEo1dGU4QmJuOW1FMS1WN0lhRWc?oc=5", "domain": "prtimes.jp", "published": "2026-10-16T16:00:00+09:00", "published_label": "2026/10/16(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、小島瑠璃子さんとのコラボ配信でhetras(へトラス)「プレミアム大容量ディフューザー 500ml」を870点以上販売", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81YUkzOWVDYTM2U1BOREduUnlSSVNmLWdCNFQyMmpIQm5xXzNkR1o3UWlrX1NZUy1sOFNRMXdwZzByZ2Z0QzNGTkU1WTlMajhmb3MtY2VnM1Y5SjB2SXFJcndRTmdGVWZNdUE?oc=5", "domain": "prtimes.jp", "published": "2026-10-15T16:00:00+09:00", "published_label": "2026/10/15(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【世界初販売】TikTokライブコマース「燕チャンネル」、新美容アイテム「métera(メテラ)」が約10分で売上750万円超を達成", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5HbEVoTkZtVE5PV2RNMWh0VHpzRDg4c2dCaDdMZV9MNllCTWwyaGh5MnMybzZrYnJnUk5IemZacUlETEExcWNIS2ZMZXlPVU1sODhGVGVGV3YwY1VHWGxaN2ZTSGVZQlVxS2c?oc=5", "domain": "prtimes.jp", "published": "2026-10-08T16:00:00+09:00", "published_label": "2026/10/8(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【世界初販売】TikTokライブコマース「燕チャンネル」、新美容アイテム「metera(メテラ)」が約10分で売上750万円超を達成", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000118.000090341.html", "domain": "prtimes.jp", "published": "2026-10-08T06:00:01+09:00", "published_label": "2026/10/8(木) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」でプレミアムクリームが約10分で完売、売上650万円を突破", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqZVI4MzNFcG1BVmNldDdHX0U2Yjl6VlhKbHFlNjRNUVB1R1NwN2diTDNuTkw5X1pBV3k1a2E1c3ZhSk1YTUJaRDRRN1JOSjAxb1hzSTBsR3VUa2pPdzFlS3k3RDdKNVNyQ3c?oc=5", "domain": "prtimes.jp", "published": "2026-10-07T16:00:00+09:00", "published_label": "2026/10/7(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、「CONC リンクル インジェクション Gen2」が販売開始約10分で900点以上完売", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UcFlJbVhRdE1qTFBlc1Q1RlRDa2lnT1ZBNlJfUFhBWmxpc3ZLTUpEU1RIUHRISG5KazRaaVB1aWZmdExnVWxjUkk2NFFHRmhtQ1B1NWQtbHRpakJveXRZRklCdmRLOFVzNEE?oc=5", "domain": "prtimes.jp", "published": "2026-09-29T16:00:00+09:00", "published_label": "2026/9/29(火) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、DRH+「ダメージリペア ヘアミスト」が約10分で800点以上完売", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000113.000090341.html", "domain": "prtimes.jp", "published": "2026-09-28T06:00:01+09:00", "published_label": "2026/9/28(月) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "【スターランキング9位】TikTokライブコマース「7号ななチャンネル」、8月度トクトクセールで9位にランクイン", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000112.000090341.html", "domain": "prtimes.jp", "published": "2026-09-14T06:00:02+09:00", "published_label": "2026/9/14(月) 06:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "【10ヶ月連続1位】TikTokライブコマース「燕チャンネル」、8月度TikTokスターランキングで1位を獲得", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UNTdRVVZTaElGRk9PeUtScXV3OFFVa2tPOVhibjNjNGZyeUk1VjBDUEk0Sk1iMUgyOFJLcWJwWG05T29yNVRFV3VkVzBaOVJDWmZBNHFCQWtGVzJLblU0OGtlWG9CaXlkUXc?oc=5", "domain": "prtimes.jp", "published": "2026-09-11T16:00:00+09:00", "published_label": "2026/9/11(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokライブコマース「燕チャンネル」、BIJOU DE MER「ボーテ アンバリエンテ プラ キャビ エクセレンス ナノ ローション」が開始約10分で完売、売上1,500万円を突破 | 株式会社Sホールディングスのプレスリリース", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VYWFaRlVjVVFSZ1hYVnFpLVFXcVBnSy1KMnNiOWQ1RThfOVE3MGNrNzNQaFVheHA1bmFnUXFqTy1EaDRhOG1aQWFOY1dtbmlFNnJtbEpYMkE2VTlPZ2ZJUnNndDg3QWJJelE?oc=5", "domain": "prtimes.jp", "published": "2026-09-10T16:00:00+09:00", "published_label": "2026/9/10(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【販売実績更新】TikTokライブコマース「燕チャンネル」、「DIFFER & DEEPER」メラチノール クラウドクリームが累計7,200点・売上3,700万円を突破", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9FdEZta1dHVF9yNm93TTZrOUFSNHZoN3RtRWlCNU4xM0tYbGJPYTF1RDhZa3F3ay0zeUdmU01uUFhaMlRDQkN6UlBKX2U1VVJTeWI5MEpsdnM4SWppeUxIZFpMRjdWNzUtVUE?oc=5", "domain": "prtimes.jp", "published": "2026-09-09T16:00:00+09:00", "published_label": "2026/9/9(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【年内開講予定】Sホールディングス、JAPANライブコマース協会と連携し「LIVE MONSTER」を開講", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FVEVIOUVYMWRGaWhlQmUweklrQzNoanRJMkpaSjVjUXFjZkI1OWNoUFRub0I5Z18zNUpwZnRzQXZFNlBvMEllUFA0cGZTdnpXVGp0azFTdmFGS2lQN0F0bVZndDdEV09JS1E?oc=5", "domain": "prtimes.jp", "published": "2026-09-08T16:00:00+09:00", "published_label": "2026/9/8(火) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}], "elapsed": 1.3}, {"id": "lc4_cellest", "type": "google_news", "name": "株式会社Cellest", "handle": "", "status": "ok", "error": null, "via": "https://news.google.com/rss/search?q=%22Cellest%22&hl=ja&gl=JP&ceid=JP:ja", "count": 25, "items": [{"title": "ライブコマース専門事務所「トキバナ」所属のトップライブコマーサー・Kanaが「TikTok Shop Local in北海道フービーフェスティバル」に参加", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000146.000102719.html", "domain": "prtimes.jp", "published": "2026-11-16T16:29:23+09:00", "published_label": "2026/11/16(月) 16:29", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "最高月間GMV2億円のライブコマースチャンネル「ぞうねこちゃんねる」で、元アパレル店員の「Ren」がライブコマーサーデビュー！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000145.000102719.html", "domain": "prtimes.jp", "published": "2026-10-29T15:00:03+09:00", "published_label": "2026/10/29(木) 15:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "ライブコマーサー歴10年目の「ゆきちゃ」がライブコマース専門事務所「トキバナ」に所属決定！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000144.000102719.html", "domain": "prtimes.jp", "published": "2026-10-26T11:12:55+09:00", "published_label": "2026/10/26(月) 11:12", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "話題の「ジェネリック化粧品」スキンケア3点セット、「ぞうねこちゃんねる」初販売で244セットを完売！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000143.000102719.html", "domain": "prtimes.jp", "published": "2026-10-23T15:57:14+09:00", "published_label": "2026/10/23(金) 15:57", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "PHPの脆弱性に関する調査結果", "summary": "", "images": [], "link": "https://cellest.co.jp/2026/10/23/2159/?utm_source=rss&utm_medium=rss&utm_campaign=php%25e3%2581%25ae%25e8%2584%2586%25e5%25bc%25b1%25e6%2580%25a7%25e3%2581%25ab%25e9%2596%25a2%25e3%2581%2599%25e3%2582%258b%25e8%25aa%25bf%25e6%259f%25bb%25e7%25b5%2590%25e6%259e%259c", "domain": "cellest.co.jp", "published": "2026-10-23T08:42:31+09:00", "published_label": "2026/10/23(金) 08:42", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "関東在住の現役フリーアナウンサー「村多美咲」がライブコマース専門事務所「トキバナ」の研修を経て、ライブコマーサーデビュー！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000142.000102719.html", "domain": "prtimes.jp", "published": "2026-10-22T11:00:02+09:00", "published_label": "2026/10/22(木) 11:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "【WABE史上最高売上を記録】L.store 寺本俊介氏が美容特化型ライブコマースイベントでトップセラーに！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000141.000102719.html", "domain": "prtimes.jp", "published": "2026-10-20T10:18:02+09:00", "published_label": "2026/10/20(火) 10:18", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "Cellest、ライブコマースの「トキバナ」で「カノン社長」さんが活動開始", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SNE5XS09aTzNxUm9IR3VPam9CWUZ2bTc3d2RkcTVJTjVIUnpVSF8xMkliUXI1RHJ6Q1RCZFptY1AwLWVjN0YwWE1TQ1g0aFhpWWRsRjFR?oc=5", "domain": "tsuhannews.jp", "published": "2026-10-19T16:00:00+09:00", "published_label": "2026/10/19(月) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「女上司と部下」コント動画で話題！SNS総フォロワー数10万人以上のクリエイター「カノン社長」がライブコマース専門事務所「トキバナ」に所属決定！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000139.000102719.html", "domain": "prtimes.jp", "published": "2026-10-16T10:00:01+09:00", "published_label": "2026/10/16(金) 10:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "Cellest、TikTok Shopの新チャンネル「くまかなライブコマーサー」が初月に売上1億円超", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zVlgwNE5JV0J2dldyNDJiYkFIQnRSbl9paTJpQWxhUFMyRjVtSHJVeHo0ZDVXbUllNFdqOGw0SnFVdHJ3SVRtS2JTTC1ZNUtRQ0JWNkF3?oc=5", "domain": "netkeizai.com", "published": "2026-10-04T13:03:12+09:00", "published_label": "2026/10/4(日) 13:03", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTok「トクトクSALE BIG LIVE」で目標GMVを達成！「ぞうねこちゃんねる」が1,711万円、「くまかなライブコマーサー」が2,100万円を24時間以内に突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000138.000102719.html", "domain": "prtimes.jp", "published": "2026-10-02T16:31:33+09:00", "published_label": "2026/10/2(金) 16:31", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "月間GMV2億円の実績を持つライブコマース専門事務所「トキバナ」より、食品に特化した新チャンネル『神スタ食堂』が誕生！ 開設1カ月で累計視聴者数16.5万人を突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000136.000102719.html", "domain": "prtimes.jp", "published": "2026-09-24T16:15:51+09:00", "published_label": "2026/9/24(木) 16:15", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "SNS総フォロワー数100万人以上の大人気クリエイター「8ちゃんねるのエイト」がライブコマース専門事務所「トキバナ」に所属決定！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000135.000102719.html", "domain": "prtimes.jp", "published": "2026-09-17T18:12:35+09:00", "published_label": "2026/9/17(木) 18:12", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "プレスリリース：［賞金10万円＋専属契約］株式会社Cellest、『ライブコマーサーオーディション』開催決定！9月1日（火）よりエントリー受付開始（PR TIMES）", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxWk1Xc0JzQ25ObTN6Tm8xWDNXdG9KY3NvbzZTbGJDMkxDUVhZaWZsNGFfVDh4akF6OEVXUXZSbVplbUJOamNSeGE3UXYyTnY0RWZWLWpHV2NIcWppUkZxY2lZSjNNM0RV?oc=5", "domain": "mainichi.jp", "published": "2026-09-02T16:00:00+09:00", "published_label": "2026/9/2(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【ライブコマース専門事務所「トキバナ」所属】トップライブコマーサー・Kanaの新チャンネル「くまかなライブコマーサー」が初月で売上1億円を突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000134.000102719.html", "domain": "prtimes.jp", "published": "2026-09-02T10:37:58+09:00", "published_label": "2026/9/2(水) 10:37", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "ライブコマース専門事務所「トキバナ」所属のKanaが中国・深圳開催の国際イベント「KACE 2026」にて【2026 Kalodata Japan Top Creator】を受賞！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000132.000102719.html", "domain": "prtimes.jp", "published": "2026-08-25T17:11:43+09:00", "published_label": "2026/8/25(火) 17:11", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "【賞金総額100万円】ライブコマース専用ECモールアプリ「WABE」、美容特化の大型イベント『WABE BEAUTY DAY』を8月24日（月）に開催！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000131.000102719.html", "domain": "prtimes.jp", "published": "2026-08-22T12:11:34+09:00", "published_label": "2026/8/22(土) 12:11", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "「マーケティング・セールス World 2026 夏 大阪」にCellestが登壇！TikTok Shop月商2億円の実績から「売れるライブコマース戦略」を解説！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000130.000102719.html", "domain": "prtimes.jp", "published": "2026-08-20T14:59:19+09:00", "published_label": "2026/8/20(木) 14:59", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "株式会社Cellest 代表取締役CEO 佐々木宏志が、通販通信ECMO主催セミナー「秋冬繁忙期、売り逃しゼロへ。EC運営の効率化と機会損失を防ぐ『直前チェックポイント』」に登壇！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000129.000102719.html", "domain": "prtimes.jp", "published": "2026-08-14T10:04:16+09:00", "published_label": "2026/8/14(金) 10:04", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "「学校の評価がすべてじゃない」未来の選択肢を広げるため、Cellestが大阪府立箕面東高等学校向けに「特別出前授業」と「ライブコマース職業体験」を実施", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000128.000102719.html", "domain": "prtimes.jp", "published": "2026-08-12T10:46:41+09:00", "published_label": "2026/8/12(水) 10:46", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "SNS月間総再生回数4,000万回超え！“うざママあるある”で人気の「かおりの今日もよしなに」がライブコマース専門事務所「トキバナ」の連携クリエイターに！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000127.000102719.html", "domain": "prtimes.jp", "published": "2026-08-07T14:23:28+09:00", "published_label": "2026/8/7(金) 14:23", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "月間GMV2億円の実績を持つトップライブコマーサー・Kana、新チャンネル「くまかなライブコマーサー」を始動！活動開始から総配信時間わずか8時間で累計GMV1,000万円突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000126.000102719.html", "domain": "prtimes.jp", "published": "2026-08-06T13:26:45+09:00", "published_label": "2026/8/6(木) 13:26", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "ライブコマース専用ECモールアプリ「WABE」、累計ダウンロード数5,000件を突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000125.000102719.html", "domain": "prtimes.jp", "published": "2026-08-04T12:58:04+09:00", "published_label": "2026/8/4(火) 12:58", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "Cellest、TikTok Shopの公式パートナー3資格を取得", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1aU2pQOTdTeExpQW50RFZiUXpTN1prUEh3bG1OZmVxMThldE54WHFiU2dBbHpibWUtMzFybU5SZW1NRFJWcDZVbVpLYVF5Uzc1N3RyZVJ3?oc=5", "domain": "tsuhannews.jp", "published": "2026-07-24T16:00:00+09:00", "published_label": "2026/7/24(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "ライブコマース専用ECモールアプリ「WABE」、複数の配信者・店舗が参加するライブコマースイベント「WABE FRIDAY」を7月24日（金）に開催", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000124.000102719.html", "domain": "prtimes.jp", "published": "2026-07-24T08:30:08+09:00", "published_label": "2026/7/24(金) 08:30", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}], "elapsed": 1.6}, {"id": "lc4_gastroduce", "type": "google_news", "name": "Gastroduce Japan株式会社", "handle": "", "status": "ok", "error": null, "via": "https://news.google.com/rss/search?q=%22Gastroduce%20Japan%22%20OR%20%22GastroduceJapan%22%20OR%20%22%E3%82%AC%E3%82%B9%E3%83%88%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%22&hl=ja&gl=JP&ceid=JP:ja", "count": 25, "items": [{"title": "Gastroduce JapanとECマスターズ、TikTok Shop講座を12月開講へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5SNl8tcDFLbk9Ncm5sR0RBVWVMYWxkWTRWalhCSGoxQ1JIYmhlN3lNRTJkNzJOdjMyMlJIZVVGaS10aTRNUzBN?oc=5", "domain": "news.dellows.jp", "published": "2026-11-20T00:11:24+09:00", "published_label": "2026/11/20(金) 00:11", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "GastroduceJapan、食品向けTikTok Shop運営代行プランを提供へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBqVWFzclpabG1kSGpwLUtWcWZtWWNnbWwtWlJDVF9yb1BHREtBQVpFVEstb2tKdmx2dnczdDFzQTFBN3BuSVE?oc=5", "domain": "news.dellows.jp", "published": "2026-11-13T07:53:49+09:00", "published_label": "2026/11/13(金) 07:53", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "楽天市場・Amazonの売上に、TikTok Shopで次の伸びしろを。Gastroduce Japan、ECマスターズと「TikTok Shop グループコンサル」を12月に共同開講", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000041.000056558.html", "domain": "prtimes.jp", "published": "2026-11-12T13:00:02+09:00", "published_label": "2026/11/12(木) 13:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "お取り寄せ・お得情報のブログ「FOOD FORCE STUDIO」を公開しました", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/11/09/%e3%81%8a%e5%8f%96%e3%82%8a%e5%af%84%e3%81%9b%e3%83%bb%e3%81%8a%e5%be%97%e6%83%85%e5%a0%b1%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e3%80%8cfood-force-studio%e3%80%8d%e3%82%92%e5%85%ac%e9%96%8b%e3%81%97/?utm_source=rss&utm_medium=rss&utm_campaign=%25e3%2581%258a%25e5%258f%2596%25e3%2582%258a%25e5%25af%2584%25e3%2581%259b%25e3%2583%25bb%25e3%2581%258a%25e5%25be%2597%25e6%2583%2585%25e5%25a0%25b1%25e3%2581%25ae%25e3%2583%2596%25e3%2583%25ad%25e3%2582%25b0%25e3%2580%258cfood-force-studio%25e3%2580%258d%25e3%2582%2592%25e5%2585%25ac%25e9%2596%258b%25e3%2581%2597", "domain": "gastroduce-japan.co.jp", "published": "2026-11-09T23:02:12+09:00", "published_label": "2026/11/9(月) 23:02", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "Gastroduce Japan、創業10年目へ。食品EC支援の9年の感謝と、次の10年の挑戦", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/11/03/gastroduce-japan-10th-year/?utm_source=rss&utm_medium=rss&utm_campaign=gastroduce-japan-10th-year", "domain": "gastroduce-japan.co.jp", "published": "2026-11-03T22:42:31+09:00", "published_label": "2026/11/3(火) 22:42", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "Gastroduce Japan【ガストロ】運営「FOOD-FORCE-STUDIO」、「TikTok Shop Local in 北海道フービーフェスティバル」にLIVE配信クリエイターとして参加", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4aDdSYkhkV1hfUlk1b1R3MGItTG1xNXZGck1VdmxoeFhkLXJYSW56RThYOW43VC1DcWZvUXZ2dk42OWlPejdMckoxQkRuZ3NjRU1GRFJLQW1BSlNza0tIMktXZW9kT3BIRktIZFNPZTY3aXNBTlAtZU5n?oc=5", "domain": "mainichikirei.jp", "published": "2026-10-28T16:00:00+09:00", "published_label": "2026/10/28(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "OTOGIと支援先合計7社が『Wantedly Awards 2026』BEST100選出！Gastroduce Japanが「LOCAL」、ABABAが「BEST EPISODE GOLD」を受賞！", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PRUhVbnBQclAzRGVzQTRxNDE4V0EwUGdnRTVuRTkxZlJ5cHUwb05MQk8yQlluNzFIYjFkUnRrSUZCUHVJbDQ5dF9JZVpnd2NELXhubzNYTkJLOTJOSFFQNW9XNXUtSUJqMEE?oc=5", "domain": "prtimes.jp", "published": "2026-10-23T16:00:00+09:00", "published_label": "2026/10/23(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "食品クリエイタープラットフォーム「FOOD FORCE STUDIO（FFS）」のTikTokアカウント、成果報酬型モデルで月間流通1,000万円を突破", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000037.000056558.html", "domain": "prtimes.jp", "published": "2026-10-16T08:00:02+09:00", "published_label": "2026/10/16(金) 08:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "GastroduceJapanがWantedly Awards 2026受賞 幹部候補を募集へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAwc3QzdlBRV0tSYllmVFFMeGVuTzY4MkZRRUtQZmo3aUVOSGZhckVkZHRpYlpLT3Y5cUEzbFIyRkE2Y0NHUFE?oc=5", "domain": "news.dellows.jp", "published": "2026-10-16T05:16:29+09:00", "published_label": "2026/10/16(金) 05:16", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "GastroduceJapan（ガストロデュースジャパン）、TikTok", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oZk5wTjFsR1A3ajB6NGZwaGFUMjQ3MWRHaXB3LU1MNTFuVnVLbjBQd3pEVm5kekFKeFc3M0RiM3d0SmZrU1dobmJJU0RKUVBZcmY3Uw?oc=5", "domain": "news.nicovideo.jp", "published": "2026-10-14T16:00:00+09:00", "published_label": "2026/10/14(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "GastroduceJapan（ガストロデュースジャパン）、TikTok Shop公式認定パートナー（TSP）として食品カテゴリ特化の運用支援を展開！支援60店舗・月間流通総額3.5億円の実績突破！", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000036.000056558.html", "domain": "prtimes.jp", "published": "2026-10-14T08:00:02+09:00", "published_label": "2026/10/14(水) 08:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "TikTok Shop食品特化のクリエイターコミュニティ「FOOD FORCE STUDIO」、登録クリエイター数が1,500人を突破！食品メーカーとクリエイターのマッチングを強化", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000034.000056558.html", "domain": "prtimes.jp", "published": "2026-10-10T08:00:01+09:00", "published_label": "2026/10/10(土) 08:00", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "食品特化TSPのGastroduceJapan、食品メーカー向け「TikTok Shop運営代行プラン」を提供開始 コンサル・運用代行・LIVE配信代行の3プランで、出店から売上拡大までを支援 - 写真・画像(1/1)", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHcXF5eUhja3RITzNFVjFOWnFLVlp3cXR5Q0o3eDZiQ1duUWdJWWVHYnJxLUhSTGJoTTE2OGR5cEwxZThxcHV0U3Fwek9LMUs3bU1qZXdGTQ?oc=5", "domain": "nishinippon.co.jp", "published": "2026-10-08T17:51:16+09:00", "published_label": "2026/10/8(木) 17:51", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「Wantedly Awards 2026」受賞を記念し、GastroduceJapanが第2創業期を共に創る幹部候補を大募集", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80dkpHSDNSVmZqS0lfQUVjb25xbHQ4aW9TWFROLXBpMkRybGUtVGZUdnR4RXFlVmVZa1dZMFY0eXFKcXdIMWYxZXhxSG1wZDh0WUtQNWh3?oc=5", "domain": "nishinippon.co.jp", "published": "2026-10-02T16:00:00+09:00", "published_label": "2026/10/2(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「Wantedly Awards 2026」TEAM OF THE YEAR LOCALを受賞", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/10/01/wantedly-awards-2026-team-of-the-year-local/?utm_source=rss&utm_medium=rss&utm_campaign=wantedly-awards-2026-team-of-the-year-local", "domain": "gastroduce-japan.co.jp", "published": "2026-10-01T18:19:48+09:00", "published_label": "2026/10/1(木) 18:19", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "TikTok Shop「ザ・ブランドデー」モスバーガーデーの運用をGastroduceJapanが支援", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5VYmpHOEw2OXNFT2h4cDlhUThUbGVDekdfS0k3aTNfMFhJTm5mMW5XOWdDNmRkalNOcVl1NnREMjhPVVNRSDJCeHh3Vm1EemZZcG9XMmFNelNTbDQzeUdsc3JpS241MFpRbEdkWXhFeTNXcUE?oc=5", "domain": "excite.co.jp", "published": "2026-08-27T16:00:00+09:00", "published_label": "2026/8/27(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTok Shop「ザ・ブランドデー｜モスバーガーデー」の運用を支援｜食品ブランド2社目のTSP採用", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/08/27/mos-burger-day-tiktok-shop/?utm_source=rss&utm_medium=rss&utm_campaign=mos-burger-day-tiktok-shop", "domain": "gastroduce-japan.co.jp", "published": "2026-08-27T10:20:00+09:00", "published_label": "2026/8/27(木) 10:20", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "GastroduceJapanがTikTok Shop食品EC支援で月間流通3.5億円突破、全国3拠点のライブ配信体制を確立", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwT2hobmd3UGNfMXR1WkxLbGQteklkOHlZakVRLTZpZUJ5c3ZhNDktQVhGUE0xZWIzNjhnWUhySmk5UFFPNGdWSmtNZmZkWFdzNGEtaWZ3?oc=5", "domain": "commercepick.com", "published": "2026-07-30T16:00:00+09:00", "published_label": "2026/7/30(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【プレスリリース】食品ECの「占有率」を獲る。GastroduceJapan、2026年上半期の事業成果を発表", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UQkUwVGU0c2FDY3dORGZJR01ualRPU29Ia0k1dFc0U1pXRTZOaFN0V3d5WDNtS3pTV2JWdG54RWVvQWc1NEN6Ul9NbHdEZndyd2dQeGpkb1ZZMFVfQ19uUG9QZFZ1Uk1nbGc?oc=5", "domain": "prtimes.jp", "published": "2026-07-30T16:00:00+09:00", "published_label": "2026/7/30(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "食品ECの「占有率」を獲る。2026年上半期の事業成果を発表", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/07/29/food-ec-share-2026-h1-results/?utm_source=rss&utm_medium=rss&utm_campaign=food-ec-share-2026-h1-results", "domain": "gastroduce-japan.co.jp", "published": "2026-07-29T19:06:27+09:00", "published_label": "2026/7/29(水) 19:06", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "松屋フーズ食品カテゴリー初の\"TikTokshopジャック\"が実現×「オムライス兄さん」「あやんぬ」がTikTok Shop初参入", "summary": "", "images": [], "link": "https://prtimes.jp/main/html/rd/p/000000029.000056558.html", "domain": "prtimes.jp", "published": "2026-04-24T12:30:02+09:00", "published_label": "2026/4/24(金) 12:30", "badge": "PRT", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "prtimes", "priority": 0, "is_new": false}, {"title": "食品カテゴリー初のTikTok Shop「ザ・ブランドデー｜松屋フーズデー」を企画・運営", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2026/04/24/matsuya-foods-day-tiktok-shop-brand-day/?utm_source=rss&utm_medium=rss&utm_campaign=matsuya-foods-day-tiktok-shop-brand-day", "domain": "gastroduce-japan.co.jp", "published": "2026-04-24T12:30:00+09:00", "published_label": "2026/4/24(金) 12:30", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "Gastroduce Japanの食品EC戦略が「AdverTimes.」に掲載", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkZkNVWVV1TE5Gd2N1eVdlT2pHbVl5UmRyYV9nRkZMWFZuaUg3T05EMk5RT2hUblU3X0lYaWF0T0pCc1ZzVnMyWmdNNGJ0R09iOGFmeW9OYkY1V3c0a1QtWjEwVExucHV5bFE?oc=5", "domain": "prtimes.jp", "published": "2025-12-23T17:00:00+09:00", "published_label": "2025/12/23(火) 17:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "松屋フーズのTikTok Shop活用事例が宣伝会議「AdverTimes.」に掲載", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2025/12/18/matsuya-tiktok-shop-advertimes/?utm_source=rss&utm_medium=rss&utm_campaign=matsuya-tiktok-shop-advertimes", "domain": "gastroduce-japan.co.jp", "published": "2025-12-18T13:45:58+09:00", "published_label": "2025/12/18(木) 13:45", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}, {"title": "【この1年で、ガストロは“別の会社”になった】", "summary": "", "images": [], "link": "https://gastroduce-japan.co.jp/2025/12/13/gastroduce-transformation-2025/?utm_source=rss&utm_medium=rss&utm_campaign=gastroduce-transformation-2025", "domain": "gastroduce-japan.co.jp", "published": "2025-12-13T21:40:22+09:00", "published_label": "2025/12/13(土) 21:40", "badge": "公式", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "site", "priority": 0, "is_new": false}], "elapsed": 2.2}, {"id": "lc4_creok", "type": "google_news", "name": "株式会社ＣＲＥＯＫ", "handle": "", "status": "ok", "error": null, "via": "https://news.google.com/rss/search?q=%22CREOK%22%20OR%20%22%EF%BC%A3%EF%BC%B2%EF%BC%A5%EF%BC%AF%EF%BC%AB%22&hl=ja&gl=JP&ceid=JP:ja", "count": 25, "items": [{"title": "CREOK、Offbeatとの資本戦略提携を強化。次世代ソーシャルコマース市場の拡大へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wRUx5TDJYa1VaM3hMbVJ2TkpUMzZHbHZUTmZLazZycWZoMlNDNjVBUEJ6NkZ3NWYtM1lDZkhyX1pfVnlkS0FqSVdsWGJ0b29FUWpOQndyRUE5ZUN4S1FFVWdCTHZBOXlOenVwNmRGbnQ0Vk5BdklEZlEyYw?oc=5", "domain": "sankei.com", "published": "2026-11-16T10:00:00+09:00", "published_label": "2026/11/16(月) 10:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「“フォロワー数”だけでは売れない」月間GMV2,500万円を記録したCREOKが明かすライブコマース成功の法則とは？", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5NeC1QQWV1RGlSLXk3YzlBYzRtUk9qZl92VzdzaXdXUlRQRE42MTFlWm5FX25IanA4cFM0RExVcjJROVNTNEFxU3hBckNONDBENXRfRw?oc=5", "domain": "news.nicovideo.jp", "published": "2026-11-09T21:00:28+09:00", "published_label": "2026/11/9(月) 21:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、TikTok Shopの累計売上約15億円 実績生かしTTS支援をFC展開へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjRllOYnpUWVVVSmk1ZGZFc1dyaTJPSGRJZWNFX25sbE9wdGpUdWlILXpUdnUtRUw2dzZzWEpUQkpfSlBLb3VDWHJyQkpsYzZUalk3ZU5B?oc=5", "domain": "netkeizai.com", "published": "2026-11-04T17:00:00+09:00", "published_label": "2026/11/4(水) 17:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "テレビショッピング、SNS、ECが1つに!? TikTok Shopがもたらす“購買体験”の変化とは？CREOK代表・桜井吉男が解説", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBxUm9EVElhVDVjamI0YXhCYkhwSlBMcGFwVWdUSmIxaTNtOS1wSVBtTlVJZnZZUGkzUEZnN29uazRCZzU3T296SFduMUxZNkJHaDlCelZBZzZhQThORG5Z?oc=5", "domain": "chiba-tv.com", "published": "2026-10-29T16:00:00+09:00", "published_label": "2026/10/29(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "AI時代のライブコマース最前線!CREOKが描く｢売れる仕組み｣と信頼の未来", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZWFRKaFZXbnEzQmNMc3paQTJFdWJmY3gxRjVtT2lEYVZvdFladVh0YlRCcWl0ZHRRcWFIMERTbEUyVEh6UGI0LTZSSTVtOHhLaExxRkVnRloteUFRMkxF?oc=5", "domain": "chiba-tv.com", "published": "2026-10-24T16:00:00+09:00", "published_label": "2026/10/24(土) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、ライブコマース支援を全国FC展開へ 初年度の流通総額15億円", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BMDM0cGktQng2dDdwM2thQXpwdVpabC1iQWtXWDVqTzVlOTc5clJUakVoc1dnc2FtVGxmVDFoTlBkWTd3NFUtT1RoN19EdGFkUlhxd3IzWkdGV3pDNFJOS3ZYOVBZM2J0cjFuQzU0SlBtSHlFNEcxU2VRZm5PMzg?oc=5", "domain": "news.yahoo.co.jp", "published": "2026-10-21T16:00:00+09:00", "published_label": "2026/10/21(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「日本でライブコマースは無理」は本当か TikTok Shopで初年度GMV15億円 CREOKが明かす全国FCの勝算", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9xc25LVGtUZWhuNEUweDFveFdrcWE0bUtsb292WVdzM1d5c20talpMbDdqaDRkQVRJWUJj?oc=5", "domain": "36kr.jp", "published": "2026-10-21T16:00:00+09:00", "published_label": "2026/10/21(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "【オークファン】CREOK設立1周年記念イベントに登壇、トークセッションで次世代ECの可能性を語る", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTOWJlMlVCb3c1ZlgwY2I1b0wzaVN2c2V5a1ZmZ08zTDVFM01BeHpaWUxwMDVnUE9rNjMtWk5vT0RUX0tsOWZEZGFvbVBNMUZBaFZpUzhjNFYxWUZBdU5SR0NSQWVQMTQtbEp5d0dMWkozQQ?oc=5", "domain": "news.infoseek.co.jp", "published": "2026-10-20T16:00:00+09:00", "published_label": "2026/10/20(火) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "ライブ配信に「音のハンコ」 CREOKとシヤチハタ、AI時代のなりすまし防止へ | 黃信維（コウ・シンイ） | ニュース", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE96QWZjX3F4SXVycnhsV3dBYVdfb3V6QWZ4X1B3VUd0SVdpWXpsdU1ORmxWbW0ydVBibUI2SU5tUDQ5ZmtDTV9qQlNDamg3MVpw?oc=5", "domain": "japan.storm.mg", "published": "2026-10-19T16:00:00+09:00", "published_label": "2026/10/19(月) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTok Shopで累計売上約15億円！CREOKが全国13拠点構想、シヤチハタとの「本物の証」開発も発表", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VR1pIUU5xZDJ1UkdnN0ZvMHFNMXdwdDk3QklDNDk3bHJTbDk4OXBhcDl1cTc5TzRrYml2T2l2YjNuMENxR28yczFFbw?oc=5", "domain": "getnews.jp", "published": "2026-10-19T10:19:26+09:00", "published_label": "2026/10/19(月) 10:19", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "『CREOK 1st. ANNIVERSARY - 一周年記念発表会 -』を開催、トークセッション実施｜CREOK、ライブコマース事業全国FC展開を始動。シヤチハタ等と「AI時代の信頼インフラ」構築へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qcnpmN1BsN2NqdXhMNGdDQWxvbDlaR1otMUltX2t5TGZBTG5yX1Y5U3lvQXFpTUpwYzhfV1VUUDkwVHhqdUxUbFBZUDBnbUpaYlkwalZsdVJ1Y2ZCZkYzLU5pd2E3TUlETmUtYXlzdHE2V2hwemVYSg?oc=5", "domain": "rbbtoday.com", "published": "2026-10-17T16:00:00+09:00", "published_label": "2026/10/17(土) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、TikTok Shop参入1年で累計売上約15億円。全国13拠点のフランチャイズとシヤチハタとの共同プロジェクトを発表【CREOK 1st. ANNIVERSARY】", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBjUlg0SGxYUko3YjFFTnNKanA0a195U1dncGVyaG1yUWVSS3FacFRIWHBQdzI2eTBUb1pCLXJmaFRPQURPZ1p3?oc=5", "domain": "livetimes.jp", "published": "2026-10-17T16:00:00+09:00", "published_label": "2026/10/17(土) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "オークファンとCREOKが資本業務提携、TikTok ShopでリユースビジネスのD2Xコマース構築へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SOWJFakZwSjl1OG9mb1U0WHRpMjV5N2JQcDRadG9YOVVNNnh2QlJhRm1fSFFfeTlOOEVuRVowUGJpd01Ga2NUdllPanFxZG5ZM3F0dVln?oc=5", "domain": "commercepick.com", "published": "2026-07-01T16:00:00+09:00", "published_label": "2026/7/1(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、オークファンと資本業務提携、リユース品ライブコマース市場創出へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NN1pqNDVsOW1ERXlNZ1g5YUttSEExSHpGSFpyUmdnYUNfeFJocHJ2VzdRT0N3X1pyUWJoUEQxTXEtWmtyVThXMGhUQ3p2Y0pVb2s5U1J4SUg1ekJPVFBZVGRxZEhOeGd4NXc?oc=5", "domain": "prtimes.jp", "published": "2026-07-01T16:00:00+09:00", "published_label": "2026/7/1(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "オークファン、CREOKと資本業務提携、リユース品ライブコマース市場創出へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EaWRacHIxNkV4YnIzY2JDUnlfaHMxSXJmQ1JyeGFtaVhrNFlOOVk2Q2lpR3liNGZrV25ZWkQ2ZjQzNGMyM0xLYUxJQVBSTFB4dTdaakxuU09TZEdic3M5S216TFdYVUkzV2c?oc=5", "domain": "prtimes.jp", "published": "2026-07-01T16:00:00+09:00", "published_label": "2026/7/1(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "オークファン、CREOKと資本業務提携しリユース品のライブコマース展開へ", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEemt2S1htODBwa21UZnpsbVlEMGdZUmRVTFh3Z3dJUnc0bHpjclJwXzNrQ3ZUaERxNVZVNlduRnJEd2k4cWJUSmtVU0VtV2UyTmNv?oc=5", "domain": "voix.jp", "published": "2026-07-01T16:00:00+09:00", "published_label": "2026/7/1(水) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「15分で8億円」の世界が来る？スーパーコマーサー創出と、日本ライブコマースの未来図｜CREOK CEO 桜井吉男〈独占インタビュー・後編〉", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE82TjFfRzNDVHlXS2RtcEU0bnBhYy1oVFljcmFUbUwxcGtJSWdpSWFkWmRaTWFfSjBTdFo4eHNIRkZYVGtHeVB4Z0NKMHVLVnFFY3RZbkxZT2g?oc=5", "domain": "livetimes.jp", "published": "2026-05-17T16:00:00+09:00", "published_label": "2026/5/17(日) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "「日本は世界17番目」TikTok Shop市場の実態と、企業が今すぐ知るべき参入の勘所｜CREOK CEO 桜井吉男〈独占インタビュー・中編〉", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5GRDU5dGk4X0xEOGQweE9lRXVLY2E3bTctQUVoWmNWeUJHY1laNkhQNTNzc1pNeHdGZXVRcV8xS2R1UFBYekt3OXhKYnBFNWUtNl94YTFmNWE?oc=5", "domain": "livetimes.jp", "published": "2026-05-17T16:00:00+09:00", "published_label": "2026/5/17(日) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "TikTokとLark「2つの0→1」を経た元ByteDance上席執行役員が語る、”集大成”としてのライブコマース｜CREOK CEO 桜井吉男〈独占インタビュー・前編〉", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZb0JZRGQ0c3VTVThJTzdnNEVhSHNWZnBSRU5sYXVpSVZuWEtnUDJBR1pxRkRHRUlaRmZKMGRFSVo5RDhKUWVJSUFwYU5oS05IVXZpQjBTaUM?oc=5", "domain": "livetimes.jp", "published": "2026-05-17T16:00:00+09:00", "published_label": "2026/5/17(日) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "UUUMとCREOKがTikTok Shop起点のコンテンツコマース基盤構築で提携：commercezine", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jYThRMWwyWGtKLW5wSnZFRGFVVlNBNnQ0QUZnTk5YakQzZ2gtakN0T01idVo1OG9HUXRMb0Ria1pMemtUczVZbG9BazV4bk0?oc=5", "domain": "markezine.jp", "published": "2026-04-17T16:00:00+09:00", "published_label": "2026/4/17(金) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "UUUM、CREOKと戦略的業務提携 TikTok Shopのコンテンツコマース事業を共同展開", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSWWxGRTA2R3VnaDVvenlmX2RJWW5CRFpPeFFXM2R4V19Jc3hGRFZncWNWOG43bVJWaVUyT010WUdveXRzOEtMMHhiNFB4c1h6VkZQRA?oc=5", "domain": "musicman.co.jp", "published": "2026-04-16T16:00:00+09:00", "published_label": "2026/4/16(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、トランスコスモス株式会社と戦略的協業", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9lLUNGbk1CRlpxTGtyUnktTjg2Nlp6VnMwQnVaV3pnN2N5R2RnY0tpWHV3eW9wMFNCQVdNZ3ctRGs4dzU2UkkwX1gtZ0R6Nkt6a3ZxRm9MTzhFeFpuZjhZSEZxVWdGekhBUlE?oc=5", "domain": "prtimes.jp", "published": "2026-04-16T16:00:00+09:00", "published_label": "2026/4/16(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "CREOK、UUUMと戦略的業務提携を締結", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBodHlNTE91TmRadnlXWnFyTk1VUVRSNVNFTlpvanJPQzdheTNkSzFMNzVzYnVDSk1KdjFDMWZFeHVTQlpPSXNQQ2lOc3E5eTVuQmczLV9DQTI5QkV1eDdKZk1nX0lyV3JKZFE?oc=5", "domain": "prtimes.jp", "published": "2026-04-16T16:00:00+09:00", "published_label": "2026/4/16(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "UUUM、CREOKと戦略的業務提携契約を締結 | UUUM株式会社のプレスリリース", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aYVJfVklJcUxhd0pmandsc1FfU1pDOEQ0MWh5YjZ2SU80TEpnNHBPTXNHV0h6UUdFR3RFZ3dfQXFHRGkySjY0VEQ1dWFzNko3NGZpZHpYNE9SMFdqcmg0V2FCSTlkUGJmd1E?oc=5", "domain": "prtimes.jp", "published": "2026-04-16T16:00:00+09:00", "published_label": "2026/4/16(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}, {"title": "トランスコスモス、株式会社CREOKとTikTok Shopにおける戦略的協業を開始", "summary": "", "images": [], "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44cGFJMHpYUGpBVkR2X21lbWVMQ1JCWW5FZzRSUlhkTDRWY1JjSm1HYkZrUW1LMXVuSndrODE1ZXhQZXhGY3BYYlo2dFBTTmdxUDFjaEItbGdualFfb1FodzBPN2kyd3RIWmc?oc=5", "domain": "prtimes.jp", "published": "2026-04-16T16:00:00+09:00", "published_label": "2026/4/16(木) 16:00", "badge": "JP", "badge_class": "badge-news", "pinned": false, "type": "google_news", "origin": "", "priority": 0, "is_new": false}], "elapsed": 0.6}]}</script>
+<script>
+(function () {
+  var q = document.getElementById('q');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var active = [];              // 選ばれているチップ [{terms: [...], label: '...'}]
+  var allItems = [];
+  cards.forEach(function (c) {
+    var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
+    c.dataset.total = its.length;
+    its.forEach(function (it) {
+      it.dataset.text = it.textContent.toLowerCase();
+      allItems.push(it);
+    });
+  });
+  function activeTerms() {
+    var out = [];
+    active.forEach(function (a) { out = out.concat(a.terms); });
+    return out;
+  }
+  function hasTerm(text, terms) {
+    for (var i = 0; i < terms.length; i++) {
+      if (text.indexOf(terms[i]) !== -1) return true;
+    }
+    return false;
+  }
+  function apply() {
+    var v = q.value.trim().toLowerCase();
+    var terms = activeTerms();
+    var filtering = !!v || terms.length > 0;
+    var shownTotal = 0;
+    cards.forEach(function (c) {
+      var shown = 0;
+      Array.prototype.slice.call(c.querySelectorAll('.item')).forEach(function (it) {
+        var hit = (!v || it.dataset.text.indexOf(v) !== -1)
+               && (!terms.length || hasTerm(it.dataset.text, terms));
+        it.classList.toggle('hidden', !hit);
+        if (hit) shown++;
+      });
+      var count = c.querySelector('.count');
+      if (count) {
+        if (c.dataset.error === '1') { /* エラー表示はそのまま */ }
+        else if (!filtering) { count.textContent = c.dataset.total + '件'; }
+        else { count.textContent = shown + '/' + c.dataset.total + '件'; }
+      }
+      c.classList.toggle('hidden', filtering && shown === 0);
+      shownTotal += shown;
+    });
+    var nr = document.getElementById('noresult');
+    if (nr) {
+      if (filtering && shownTotal === 0) {
+        var names = active.map(function (a) { return a.label; });
+        if (v) names.push(q.value.trim());
+        nr.textContent = '「' + names.join('・') + '」に該当する投稿はありません';
+        nr.classList.remove('hidden');
+      } else {
+        nr.classList.add('hidden');
+      }
+    }
+  }
+  function clearMarks(root) {
+    Array.prototype.slice.call(root.querySelectorAll('mark.kw')).forEach(function (m) {
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    });
+    root.normalize();
+  }
+  function markText(root, terms) {
+    clearMarks(root);
+    if (!terms.length) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      if (!text) return;
+      var lower = text.toLowerCase(), hits = [];
+      terms.forEach(function (t) {
+        var idx = 0;
+        while ((idx = lower.indexOf(t, idx)) !== -1) {
+          hits.push([idx, idx + t.length]);
+          idx += t.length;
+        }
+      });
+      if (!hits.length) return;
+      hits.sort(function (a, b) { return a[0] - b[0]; });
+      var merged = [];
+      hits.forEach(function (h) {
+        var last = merged[merged.length - 1];
+        if (last && h[0] <= last[1]) last[1] = Math.max(last[1], h[1]);
+        else merged.push(h.slice());
+      });
+      var frag = document.createDocumentFragment(), pos = 0;
+      merged.forEach(function (h) {
+        if (h[0] > pos) frag.appendChild(document.createTextNode(text.slice(pos, h[0])));
+        var m = document.createElement('mark');
+        m.className = 'kw';
+        m.textContent = text.slice(h[0], h[1]);
+        frag.appendChild(m);
+        pos = h[1];
+      });
+      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  function marks() {
+    var terms = activeTerms();
+    allItems.forEach(function (it) {
+      Array.prototype.slice.call(it.querySelectorAll('.title, .trans, .desc')).forEach(function (el) {
+        markText(el, terms);
+      });
+    });
+  }
+  chips.forEach(function (ch) {
+    var label = ch.dataset.label || ch.dataset.kw || '';
+    var terms = (ch.dataset.kw || '').split('|').map(function (s) {
+      return s.trim().toLowerCase();
+    }).filter(Boolean);
+    var n = allItems.filter(function (it) { return hasTerm(it.dataset.text, terms); }).length;
+    var num = document.createElement('span');
+    num.className = 'n';
+    num.textContent = n;
+    ch.appendChild(num);
+    if (!n) ch.classList.add('is-zero');
+    ch.addEventListener('click', function () {
+      var idx = -1;
+      active.forEach(function (a, i) { if (a.label === label) idx = i; });
+      if (idx === -1) active.push({terms: terms, label: label}); else active.splice(idx, 1);
+      ch.classList.toggle('is-on', idx === -1);
+      apply();
+      marks();
+    });
+  });
+  q.addEventListener('input', apply);
+})();
+</script>
+</body>
+</html>
