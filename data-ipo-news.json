@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T09:33:07+09:00",
-  "generated_at_label": "2026/11/20 09:33 JST",
+  "generated_at": "2026-11-20T09:52:19+09:00",
+  "generated_at_label": "2026/11/20 09:52 JST",
   "title": "IPO新規承認銘柄 ニュース監視",
   "total": 90,
   "sources": [
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_16",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "ipon_15",
@@ -374,7 +374,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "ipon_14",
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_13",
@@ -479,22 +479,6 @@
       "via": "https://news.google.com/rss/search?q=%22estie%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "上場会見：estie、不透明な市況こそデータ活用の好機",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85M016ZnkzVjNmeXpUZ1NMdi1xNFZtVTRKblR5d1ZKTXBaekp0dDcyT0FwdzlmQ2dPMDJCZmFoTWZqSURLbDJQRg?oc=5",
-          "domain": "c-eye.co.jp",
-          "published": "2026-11-19T14:38:31+09:00",
-          "published_label": "2026/11/19(木) 14:38",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "＜特別気配＞ 森組、イオレ、ｅｓｔｉｅが買い気配",
           "summary": "",
@@ -544,23 +528,39 @@
           "is_new": false
         },
         {
-          "title": "estieが買い気配､第3四半期決算を材料視",
+          "title": "ｅｓｔｉｅ、1-9月期(3Q累計)経常は1.9億円で着地",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pMzZ3TkFLX0wzZ2o1aDltbmFWRnRrQW5IQ1JXWEtnbGxYTHVaT25IWDVuQ2hMdnhlaUd3NDN5ZG1YMEtfOU80bFNqR2VmYU5CV3VxcFh1cw?oc=5",
-          "domain": "shikiho.toyokeizai.net",
-          "published": "2026-11-16T09:24:54+09:00",
-          "published_label": "2026/11/16(月) 09:24",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fWFZNZ082bDBIekFMTnRuMzJ3ak1BZWdJbGlzQmhIb0FHOWJ0Tld1SkRHR3NZZHlLNzYwUXlsNGIxZmUtaWUycDFQZjFyQ3FwOHc?oc=5",
+          "domain": "kabutan.jp",
+          "published": "2026-11-13T16:00:00+09:00",
+          "published_label": "2026/11/13(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "ｅｓｔｉｅ[658A]：2026年12月期 第3四半期 決算説明資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DcHVkc3djbGxmSVljOVViZl9DTUhtT0FCSmNlRVNHV29zWl90OGZOdHV1bVlBZlNHX2V2SFd0NXM3OS1ZMVFnbmJhNUlwcjBsRFdiR1kxN1d2WGJOYnBrT0ZKbkFJQzA3X3c?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-13T16:00:00+09:00",
+          "published_label": "2026/11/13(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "ipon_12",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_11",
@@ -932,7 +932,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_08",
@@ -1022,10 +1022,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.8
     },
     {
       "id": "ipon_07",
@@ -1240,6 +1240,22 @@
           "is_new": false
         },
         {
+          "title": "ビーエイブル[604A]：支配株主等に関する事項について 2026年11月19日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbUt1U3gybGlKN3NfYk1yeWRyb1Y1Y1k2My11cUtETjFNbzlLbjRZYzhMNUV6M0ltdGVvdnJqMzVYSjQzRlNHSWlWa0FyWld5STlLUENuU2FZNG4zZjU2LWhfeWk5WG1mcjd3MWdEdU1GMTZpdDQwTHFBd0VyU21ScU9HazkwWWVoaHdXX1BjT25lajBQZzF6SVVidEk4UjU1OW8tMXNGVUNuNUdfOXZidnZEWWdMa0pUSGNCeUU0b1ZNdEhEdFhvUGdwdEk?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-19T11:30:00+09:00",
+          "published_label": "2026/11/19(木) 11:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "ビーエイブル：福島第一原発の廃炉作業を担う技術集団、原子力再稼働と再エネO&Mが次の成長軸",
           "summary": "",
           "images": [],
@@ -1256,38 +1272,6 @@
           "is_new": false
         },
         {
-          "title": "ロボットでクマ追い払い ビーエイブル 鹿角市の農園で実証実験 来年の実用化目指す",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WMkpsNDFrbDZXNkJka3NrM3hpRGV5d0lnR0Y1VW1EbUZVd3oxeEtfZFowN0pnODZIOEFibkRkSUYwOGg2X3lYM1JlM3pXRmZXcWtWc283YU5vZzl2alpXRHJacWpnM1hKOE5ZSkNQU0tZSHg5?oc=5",
-          "domain": "hokuroku.co.jp",
-          "published": "2026-11-07T17:00:00+09:00",
-          "published_label": "2026/11/7(土) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "光と音で威嚇、クマ追い払いロボット開発 ビーエイブル（福島）、鹿角市で実証実験",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85NFg1dFQyNGxUZWl3ZWpkTGZFZE1NUlEtbVNoSXBudTlpQWw5a2g4dzlDcnBYSndBN2pBYTVXSG42MHdlY3NQb05vbmZJZ3ZOb1hKWTJjZlRyUzc0LWJNbExR?oc=5",
-          "domain": "sakigake.jp",
-          "published": "2026-11-06T17:00:00+09:00",
-          "published_label": "2026/11/6(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "ビーエイブルについて、野村証は保有割合が5％を超えたと報告 [大量保有報告書]",
           "summary": "",
           "images": [],
@@ -1302,9 +1286,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ビーエイブル[604A]：第36回定時株主総会招集ご通知 2026年10月7日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oVDRxZXhQNEUybmdNci1RLUtEeWYtUldja20xenVUYVFVOGlOMU1IVm16dnVleFNXeFFMdXJBR3VtQXhLLXVFR2RrMmNVdy14SmFHMzlWQ0JLUlpUTGYxYXJSZkdoZ19NMlE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-10-07T16:00:00+09:00",
+          "published_label": "2026/10/7(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "ipon_04",
@@ -1397,7 +1397,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.3
     },
     {
       "id": "ipon_03",
@@ -1583,7 +1583,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_01",
@@ -1595,22 +1595,6 @@
       "via": "https://news.google.com/rss/search?q=%22GO%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%22%20OR%20%22GO%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%22%20OR%20%22%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA%E3%80%8CGO%E3%80%8D%22%20-%22%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3GO%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "「寒い夜にまさかの反復横跳び！？」タクシーアプリ「GO」新CMで家族と大奮闘する剛田部長を竹野内豊さんが続投！コミカルな演技に注目",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5TUTJBNkE2Sm1vRWQ1bVBTVTNGOEtrQTJEYW9UMGpZSVVnRURLNVJtblpWUDNvODZnSDB6d2VIelplTHdoRlZv?oc=5",
-          "domain": "hirto.net",
-          "published": "2026-11-19T12:31:11+09:00",
-          "published_label": "2026/11/19(木) 12:31",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "No.1タクシーアプリ『GO』の新TVCM「GOする！寒い夜」篇が公開",
           "summary": "",
@@ -1628,55 +1612,71 @@
           "is_new": false
         },
         {
-          "title": "GO、Waymo、日本交通 自動運転タクシー商用化の実現に向けて合意 2027年中に国内初の完全無人タクシー運行を目指す",
+          "title": "タクシーの活用で待機児童問題の解消を目指す⁉︎タクシーアプリ「GO」と横浜市が始めた、子育て世代にうれしいサービスとは？",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBtZ2Z6NTZZT1FSVFg3V3hnZGhqQU51MGNxdEdqa0ZMbG15U1I1Yk9jajdjb3FodkxNdndwMS13Wi1UMXdLRzA0aDEzVHZ3Q3RyekxSVkNUc0d0dUdRQVU4Ym5xU0pmbDlkZ0N3?oc=5",
-          "domain": "goinc.jp",
-          "published": "2026-09-15T16:00:00+09:00",
-          "published_label": "2026/9/15(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fSjBmeUNKN2R6bVhoVVQtUWtxMlVMR0JNVUpCNkpYRGNfak43aTdCSHBxTm1BUWNrenE0aFFfZGlzbHRsVXk2VHpjaFlxN0V1ZFlkVXJn0gFbQVVfeXFMT0NYaExGdVNmd2ItNE9yNlh4WlRLT2Jka1pvYjVuWVdsclVzTVRHZ2x3anpkMTZjV21XbzNZNVNhLXJiY2JSZldQcmN1R1l1ZGpfUnJjZ1JLd1B3Yw?oc=5",
+          "domain": "walkerplus.com",
+          "published": "2026-11-17T13:27:12+09:00",
+          "published_label": "2026/11/17(火) 13:27",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "No.1タクシーアプリ『GO』の新TVCM 「GOする！寝坊」篇、「GOする！娘の誕生日」篇が公開",
+          "title": "即使える！5,000円のGO(ゴー)タクシーのクーポン・コード情報まとめ！2回目以降も",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12RW1QX24zWmFBUUhJd2Y5WFpfQXNBYWpadU9ndThEYXhob1Vyd09YbVZBRlFuODFJSXVoZlR1ZXdJSktVVnFBQ250bnktSnNmVVZBczRWT2xsNjZGbVJ6SUEwc0J4ejZZM3Fr?oc=5",
-          "domain": "goinc.jp",
-          "published": "2026-09-03T16:00:00+09:00",
-          "published_label": "2026/9/3(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VY2VyY0NOXzU0STY1OUZwOXBRT1h4OTZDQW5DVFNPUGNGYlZFSndiZF96SWtPbjNJUjdNUTRpRlRUa2RzNFNVcg?oc=5",
+          "domain": "jidounten-lab.com",
+          "published": "2026-11-11T22:00:35+09:00",
+          "published_label": "2026/11/11(水) 22:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "No.1タクシーアプリ『GO』 4,000万ダウンロード突破！",
+          "title": "タクシーアプリを完全比較【2026年11月】GO・DiDi・S.RIDE・Uberはどれがいい？料金と違いを解説",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15MEZlSGlRWkQyTFRTcXVqX2wxMU80c2NGdXV1VE5ncGRFQzRZN1VvbDh1SWgtbHNFQndDc1FxUGpzazVLZ3FsZXRNeWJ0dHNGUkRxVzVxbVlJdUJrb19pNTAwWkJDY01ITlFv?oc=5",
-          "domain": "goinc.jp",
-          "published": "2026-08-17T16:00:00+09:00",
-          "published_label": "2026/8/17(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqcGQ2Ml9tVjVIcmtNTFlKX0tMbUxjZDNjTlhrMmRuRll3MHhwWlJaTzRHd3lkUTJ4SU5ISW00Z2F1TmRPVmJ2TA?oc=5",
+          "domain": "jidounten-lab.com",
+          "published": "2026-11-10T17:00:00+09:00",
+          "published_label": "2026/11/10(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "GO株式会社から分社化1年 GOジョブ落坂氏が語る売上1.5倍の組織改革【11/11開催】（ポーターズ株式会社）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OT0ZxQmNwMlA0eVNEWVhsb3ZrNG1USlczRV9kbVNjSVpKLTU4dTRoelREa2tGaGNDcmxlWlo3bDdxTmtTNFVpRWNIZTloVWpBOXo2YkFWWjh3cWhVZlN2OGJJOXRka0M3d3F4dUJ4M0kzMzA3RjNRV3FfaW5IS0k?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-05T17:00:00+09:00",
+          "published_label": "2026/11/5(木) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     }
   ]
 }

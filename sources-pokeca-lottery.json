@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "title": "ポケカ抽選・再販 X監視ボード",
+    "nav_label": "🎟️ ポケカ抽選",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_pokeka_chusen",
+      "type": "x",
+      "name": "ポケカ抽選・再販情報まとめ@トレゲト",
+      "handle": "pokeka_chusen",
+      "enabled": true
+    },
+    {
+      "id": "x_pokecayoyaku",
+      "type": "x",
+      "name": "ポケモンカード抽選予約速報",
+      "handle": "pokecayoyaku",
+      "enabled": true
+    },
+    {
+      "id": "x_pokeca_new_card",
+      "type": "x",
+      "name": "★ポケモンカード新作・再販速報",
+      "handle": "pokeca_new_card",
+      "enabled": true
+    },
+    {
+      "id": "x_pokecamatomeru",
+      "type": "x",
+      "name": "ポケカ速報＠予約抽選・最新情報まとめ",
+      "handle": "pokecamatomeru",
+      "enabled": true
+    },
+    {
+      "id": "x_pokegetinfomain",
+      "type": "x",
+      "name": "ポケゲトちゃんねる＠ポケモンカードまとめ",
+      "handle": "PokeGetInfoMain",
+      "enabled": true
+    },
+    {
+      "id": "x_pokecachan",
+      "type": "x",
+      "name": "ポケカ予約速報@ポケモンカード情報",
+      "handle": "pokecachan",
+      "enabled": true
+    }
+  ]
+}
