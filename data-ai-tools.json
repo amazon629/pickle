@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T16:10:23+09:00",
-  "generated_at_label": "2026/11/20 16:10 JST",
+  "generated_at": "2026-11-20T18:57:36+09:00",
+  "generated_at_label": "2026/11/20 18:57 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 2.9
+      "elapsed": 3.1
     },
     {
       "id": "x_opencode",
@@ -568,7 +568,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 5.0
+      "elapsed": 3.1
     },
     {
       "id": "x_aimirai46487",
@@ -580,6 +580,78 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "Metaが2026年12月までに発売するとされているAI搭載の小型デバイス「Muse Charm」の価格は、約300ドル(約4万7700円)になると報じられています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123638041482866688/YhkvQWUF?format=jpg&name=420x420_2"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123705975542841754",
+          "domain": "x.com",
+          "published": "2026-11-20T18:12:15+09:00",
+          "published_label": "2026/11/20(金) 18:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "米国のトランプ政権は、中国製AIの利用をけん制するため、企業に利用状況の開示を義務付ける案を検討していると報じられました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123623487332036610/pBA0RE4D?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123705679752143160",
+          "domain": "x.com",
+          "published": "2026-11-20T18:11:05+09:00",
+          "published_label": "2026/11/20(金) 18:11",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Tencent Hyは、最新AIモデル「Hy4」をオープンウェイト化しました。\nTencent Hy (@TencentHunyuan)\nToday, we’re releasing the open weights for Hy4.\nOur natively multimodal flagship MoE (770B total / 49B active, 1M context).\nAlongside the Hy4 System Card with a comprehensive safety evaluation report.\n➡️ Join the Hy team for a live AMA this Friday, 8–10 AM PT on r/LocalLLaMA—drop any questions about Hy models and chat with us directly!\nGitHub:\nWeights:\nGGUF：\nLicense:\nSystem Card:\n— https://x.com/TencentHunyuan/status/2123625549147070538",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXigRmbboAALIGw.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123705613029187949",
+          "domain": "x.com",
+          "published": "2026-11-20T18:10:49+09:00",
+          "published_label": "2026/11/20(金) 18:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Nous Researchは、Microsoftと提携し、AIエージェント「Hermes Agent」を企業向けに提供すると発表し、企業向けサービス「Hermes Enterprise」が、Microsoft Teams、Microsoft Store、Azureに対応しました。\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXhQovZXcAAD-Jt.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123705558335426981",
+          "domain": "x.com",
+          "published": "2026-11-20T18:10:36+09:00",
+          "published_label": "2026/11/20(金) 18:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■引用元\nGoogle Antigravity (@antigravity)\nNative SSH support is now available in the Antigravity desktop app.\nIn addition to Remote Control, Antigravity now can connect to remote servers using SSH from the Antigravity app.\nVideo\n— https://x.com/antigravity/status/2123476398601908551",
           "summary": "",
@@ -782,79 +854,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Canvaは、生成AI機能をオフにする設定と、AIが生成したテンプレートやデザイン素材の表示を減らす設定を導入すると発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123580682353913856/HaJi9bE1?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623319509590335",
-          "domain": "x.com",
-          "published": "2026-11-20T12:43:49+09:00",
-          "published_label": "2026/11/20(金) 12:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ゲーム開発会社のユービーアイソフトは、生成AI研究プロジェクト「Teammates」の開発チーム「Motherbrain」を専門子会社として独立させたと発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123597230129152000/egvVRUry?format=jpg&name=600x314"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623281089785930",
-          "domain": "x.com",
-          "published": "2026-11-20T12:43:39+09:00",
-          "published_label": "2026/11/20(金) 12:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "DeNAは、生成AIを社員のように配属・育成できるサービス「AI社員 by DeNA」の外部提供を開始すると発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123604814647242752/_jt8MtWa?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623232557490671",
-          "domain": "x.com",
-          "published": "2026-11-20T12:43:28+09:00",
-          "published_label": "2026/11/20(金) 12:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "OpenAIは、AIエージェント「dots」のテストを、ChatGPTのPlusプランの一部ユーザー向けに提供開始すると発表しました。\nTibo (@thsottiaux)\nHeads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements.\nWe’re also bringing dots to all ChatGPT Business Standard users. Rollout will start today.\n— https://x.com/thsottiaux/status/2123556256392847657",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2123564977550483872",
-          "domain": "x.com",
-          "published": "2026-11-20T08:51:59+09:00",
-          "published_label": "2026/11/20(金) 08:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 5.2
+      "elapsed": 3.1
     },
     {
       "id": "x_kimmonismus",
@@ -1143,7 +1145,7 @@
           "title_ja": "AI エージェントを 1 人に研究させておくと、手抜きが多くなります。 1,000 人近くの AI エージェントを 3 か月間一緒に放置すると、彼らはピアレビューを発明します。\n35 の研究室 (スタンフォード、MIT、チューリッヒ工科大学、UCSF など) にわたって、エージェントは AI 用に構築された共有サーバー上で完全なコードとデータを含む 936 件の論文を公開しました。人間がコードやテキストを書いたわけではありません。\n彼らは誰にも促されることなく、チャットで研究計画について議論し、自分たちの間違いを撤回し、人間の論文で実際の間違いを発見し、他のエージェントがコードで不正行為を行っていることを記録する日記を書き始めました。\n人間の arXiv 論文に対するブラインドレビューでは、依然として人間は独自のアイデアで勝利し、エージェントは厳密さで勝利しました。"
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 5.0
     },
     {
       "id": "x_haider1",
@@ -1173,6 +1175,25 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
+        },
+        {
+          "title": "another fantastic news from google\nthey've been doing great with these new models but i also want to see the tooling catch up\ni'd rather use google but chatgpt and claude still feel smoother across browser, mobile, and desktop. even tool calls to google's own products seem faster and more reliable on claude\nLogan Kilpatrick (@OfficialLoganK)\nDecember 2nd we take the first step\n— https://x.com/OfficialLoganK/status/2123657759896007035",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXjeglKbIAA4fLC.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123691884338086247",
+          "domain": "x.com",
+          "published": "2026-11-20T17:16:16+09:00",
+          "published_label": "2026/11/20(金) 17:16",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Googleからのまた素晴らしいニュース\n彼らはこれらの新しいモデルで素晴らしい成果を上げていますが、ツールも追いつくのを見たいと思っています\n私は Google を使いたいと思っていますが、chatgpt と claude は、ブラウザ、モバイル、デスクトップのいずれにおいてもスムーズに感じられます。 Google 独自の製品へのツール呼び出しでさえ、クロードにとってはより高速で信頼性が高いように見えます\nローガン・キルパトリック (@OfficialLoganK)\n12月2日、私たちは最初の一歩を踏み出します\n— https://x.com/OfficialLoganK/status/2123657759896007035"
         },
         {
           "title": "you gotta give google credit\neveryone was mocking them just a few months ago or even weeks ago, and now they've caught up to openai and are going head-to-head with anthropic\nand somehow they're now releasing 2 models a week",
@@ -1412,28 +1433,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "特にそのモデルが 8 月 28 日にトレーニングを開始したばかりである場合、アストラ 6.2 はおそらくナビエ ストークスを解決したモデルではありません。\nそのモデルはアストラよりはるかに先のはずだ\nおそらくノームがここで言いたかったのは、モデルが数学の問題を解決したということであり、彼はそれらの問題を解決するアストラ数学の微調整について言及した可能性があるということです。"
-        },
-        {
-          "title": "it's amazing how openai keeps improving model intelligence while reducing both token consumption and cost with each new release\ni think they're more focused on becoming the cost-effective workhorse for enterprise workflows while anthropic is pushing the frontier in areas like coding",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXahyQya4AAmnXP.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123063678400655676",
-          "domain": "x.com",
-          "published": "2026-11-18T23:40:00+09:00",
-          "published_label": "2026/11/18(水) 23:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "openai が新しいリリースのたびにトークン消費量とコストの両方を削減しながらモデル インテリジェンスを向上させ続けているのは驚くべきことです\nanthropic がコーディングなどの分野で最前線を開拓している一方で、彼らはエンタープライズ ワークフローのコスト効率の高い主力となることに重点を置いていると思います。"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     },
     {
       "id": "x_testingcatalog",
@@ -1446,21 +1448,21 @@
       "count": 15,
       "items": [
         {
-          "title": "DAILY AI BRIEF 🗞 — Nov 19\nMODEL FORECAST 👀:\n- Gemini Helix, next week?\n- Nano Banana 3 Pro, soon\n- Gemini Cobalt and Krypton, who are they?\n- Grok 4.8, \"soft\" A/B testing?\n- Voxtral Mini TTS 3.1, this month?\n- Qwen4 Flash/Plus/27B, soon\n- Muse Spark 1.4, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- GPT \"bell\", never?\nGOOGLE $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon is rolling out to Google AI Pro and Ultra subscribers across Gemini, Antigravity, Vertex AI and the API at $3/$15 per million tokens.\n- Google teased Gemini 4 Helium, a Flash Lite model, as the next Gemini 4 release.\n- AI Studio got a new model selector that lays out Gemini 4 models as a periodic table.\n- Genie 4 is now in Project Genie for Ultra subscribers, with native audio and live editing of worlds mid-session.\n- Stitch Loop is a new Google Labs experiment: an always-on product agent that watches live metrics and opens PRs with fixes.\n- Google AI Ultra now includes YouTube Premium Family at no extra cost (via alexmichael).\n- The Gemini app now runs on lower-memory Android phones, including Android Go devices.\nANTHROPIC 🔥:\n- Anthropic priced its IPO at $83 per share, above the $70–78 range, and trading on Nasdaq is expected to start today.\n- At $81.3B raised, it is the biggest IPO ever, topping SpaceX's $75B, per Bloomberg.\n- Elon Musk said at DealBook that Anthropic's most likely plan is to rent another 10 gigawatts of compute from SpaceX.\n- The Claude iOS app is getting a document scan option for uploading scans straight into a chat.\n- Claude Code 2.1.328 brings auto mode to Bedrock, Google Cloud, Microsoft Foundry and the Claude apps gateway.\nOPENAI 🔥:\n- ChatGPT got a faster, more reliable dictation upgrade that shows your text live as you speak.\n- Discounted background windows in the Responses API save up to 40% on GPT-6.2 Astra and Sol for workflows that can wait 2 or 8 hours.\n- OpenAI says its models found up to a 14% PPA improvement on AMD's flagship GPU IP and helped improve Jalapeño, its first custom inference chip.\n- OpenAI published a post on how it handles safety at every stage of a model's life, plus new data on how AI use is growing in its own research.\n- Arizona opened a criminal investigation into OpenAI and other AI companies over rogue AI agents getting into banks, per Reuters.\nMICROSOFT $508.29 (+0.40%) 🔥:\n- Microsoft is close to a $500M deal to sell AI to ByteDance, taking over business Anthropic used to provide, per The Information.\n- GitHub-verified MCP connectors are rolling out in public preview across the GitHub Copilot app, Copilot CLI and VS Code.\n- Salesforce is bringing its customer context and sales workflows into Copilot and Teams with Copilotforce.\nSPACEXSI $143.50 (+1.27%) 🔥:\n- Grok Bot can now book flights, hotels and rental cars.\n- Grok Bot now has a Google Analytics connector that pulls GA4 reports and changes property settings (via alexmichael).\n- Elon Musk says Grok 4.8 is in RL and that Grok Bot users sometimes get different test versions of Grok.\n- Gemini 4 Neon is now in Cursor, scoring 63.7% on CursorBench 4.1.\n- xAI asked a US appeals court to block California's AI disclosure law, per Reuters.\nMETA $616.38 (−0.40%) 🔥:\n- Muse got Try On, which shows how clothes look on you while you shop.\n- Meta is holding off on distributing a new class of shares meant to fund its AI investments while an investor lawsuit plays out, per Bloomberg.\nPERPLEXITY 🔥:\n- Teammates and Multiagent are now in the iOS and Android apps for Max subscribers, with voice control for Teammates.\n- Perplexity launched the Context API, which turns lists of webpages into content agents can use.\nAMAZON $267.74 (+3.82%) 🔥:\n- Amazon-Web-Search-Agent with AgentCore Web Search took the #1 spot on Search Arena.\nNVIDIA $150.96 (−2.89%) 🔥:\n- Nemotron-Labs-Sigma is a new open model that generates blocks of tokens in parallel instead of one at a time.\nTELEGRAM 🔥:\n- Telegram is testing Dictator, an AI agent in its macOS beta that reads and replies to chats and runs code in its own Linux VM.\nARENA 🔥:\n- Arena launched the Agent Arena Index, which ranks agents on nearly 3M real-world sessions, with Claude Fable 5.2 at #1.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 18\nMODEL FORECAST 👀:\n- Gemini 4 Neon, today!?\n- Gemini Helix, soon?\n- Nano Banana 3 Pro, soon\n- Voxtral Mini TTS 3.1, this month?\n- Grok 4.8, not yet\n- Qwen4 Flash/Plus/27B, soon?\n- Muse Spark 1.4, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\nOPENAI 🔥:\n- GPT-6.2 Astra and GPT-6.2 Sol are rolling out in ChatGPT Work, Codex and the API, with Sol Ultrafast for Pro users.\n- ChatGPT for Sales launched with a new Sales plugin and 30+ new or improved partner plugins.\n- The API usage dashboard now tracks spend, rate limits and errors by model, project or API key.\n- OpenAI hired Anthony Morris, who helped build the Claude Code desktop experience at Anthropic (via alexmichael).\nMICROSOFT $506.24 (−2.27%) 🔥:\n- Microsoft launched seven new MAI models at Ignite, including MAI Code 2, Code 2 Flash, Cyber 2 Flash and Realtime 1.\n- Copilot Workspaces lets people and agents work together on a shared project with shared context.\n- Autopilot is expanding across Copilot, Teams and Outlook for Microsoft 365 users.\n- GitHub Copilot got a Chrome extension and Azure DevOps integration in the Copilot app.\n- Microsoft is working to replace the Anthropic models in Copilot with cheaper OpenAI models, per The Information.\nGOOGLE $280.20 (−1.24%) 🔥:\n- Tasks in Gemini, powered by Gemini 4 Hydrogen, are now free in the US, Japan, Korea, Canada, Australia and India.\n- Gemini 4 Hydrogen is now live in Google Search globally.\n- AI Studio Build can now buy custom domains, and US users can install the Android apps they build through the Play Store.\n- Antigravity turned one, and every user got a usage reset across all models.\n- Google is teasing a new Gemini \"daily driver\" model, which is Gemini 4 Neon.\n- Google is reportedly working on a new robotics model called Astra (via lyraxana).\n- Isomorphic Labs raised $5B in Series C funding from Greenoaks, Sequoia and Andreessen Horowitz.\nANTHROPIC 🔥:\n- Anthropic is expected to price its IPO today at the top of its range or above, per Bloomberg.\n- Microsoft plans to invest $1B in the IPO, and Anthropic has committed $49B over seven years to rent Nvidia servers from Azure, per The Information.\n- Claude Code got Code Mode, an experimental way for Claude to chain tools together in scripts.\n- Linked billing is in beta on the Claude Platform, so apps like Factory, Linear and Ramp can bill Claude API usage to a customer's own organization.\n- Claude Desktop has a new opt-in Latest release channel on Mac and Windows.\nNVIDIA $155.46 (−0.44%) 🔥:\n- Q3 revenue hit $115.8B, up 103% year over year, and Q4 guidance is $130B with no China data center compute included.\n- Nvidia is no longer shipping Hopper data center chips to China, per Bloomberg.\n- A new Nemotron 4 model, Nemotron Shortcut, showed up in a vLLM pull request (via aitrackerbot).\nPERPLEXITY 🔥:\n- Multiagent is a new effort level in Computer and Teammates where a lead agent runs a team of agents on different frontier models.\n- Perplexity launched the Orchestrator API, which routes each task to the right model and provider under one bill.\n- Aravind Srinivas says Perplexity has crossed $1B ARR.\nMETA $618.87 (−1.20%) 🔥:\n- Muse launched in Australia, and Muse voice is now on Apple Watch and Wear OS.\n- Muse Wonder, Muse Spark 1.3 and Muse Ember are coming soon to Microsoft Foundry.\nSPACEXSI $141.70 (+3.16%) 🔥:\n- SpaceXSI is testing answering live phone calls from the chat in Grok Bot (via blankspeaker).\nTENCENT HK$370.80 (−1.38%) 🔥:\n- Hy4 Flash is now open weights: a natively multimodal 224B MoE model with 12B active parameters and a 1M context window.\nALIBABA $86.65 (−4.38%) 🔥:\n- Qwen4-Max is now available to enterprises on Alibaba Cloud.\nMISTRAL 🔥:\n- Mistral launched the Vibe desktop app, and European developers get Vibe Pro free for three months.\nAPPLE $351.91 (−0.25%) 🔥:\n- Apple released FastFrames, open video generation models built for interactive speed, on Hugging Face.\nKLING HK$24.00 (−0.99%) 🔥:\n- Kling Image 4.0 is out, with native 8K generation and better text rendering.\nELEVENLABS 🔥:\n- Scribe v3 Live Medical brings real-time medical transcription to ElevenAgents.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2122994695269732532",
+          "title": "DAILY AI BRIEF 🗞 — Nov 20\nANTHROPIC $97.17 (+17.07%) 🔥:\n- $ANT closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price.\n- Shares slipped over 3% after hours as the broader AI sell-off weighed, per Bloomberg.\n- Anthropic has overtaken OpenAI in use by US businesses, per FT.\n- Claude Code 2.1.329 shows scheduled tasks, /loop wakeups and forks in /tasks.\nGOOGLE $272.66 (−3.46%) 🔥:\n- Gemini for Mac can now use your computer, working across your folders, apps and the web in a background window.\n- Genie 4 is now in the Gemini API and AI Studio, Google's first world model for developers.\n- Genie 4 waitlist invites are going out to Google AI Pro subscribers.\n- The Antigravity desktop app now supports native SSH to remote servers.\n- Google Search on desktop is rolling out a collapsible sidebar for recent AI searches.\n- Google is working on Writing Partner, Writing Coach and No AI modes for Gemini Notebook.\nOPENAI 🔥:\n- Dots are rolling out to a small number of ChatGPT Plus users and all Business Standard users.\n- ChatGPT is getting a new mobile experience, starting with Pro users who have a dot or can create one.\n- GPT-Live-1.1 is now in the API with more natural accents and a new standby option to cut idle costs.\n- ChatGPT Health is now available on desktop, dots, Sites and Android.\n- GPT-6.2 agents in the Responses API can now reuse earlier reasoning for better results with fewer tokens.\nMICROSOFT $498.30 (−1.97%) 🔥:\n- Microsoft AI launched Canvas, an interactive workspace powered by MAI Image 2.7 Flash.\n- Aion Instruct, Microsoft's 2.3B on-device model, is now open weights and the built-in small language model in Edge.\n- Nous Research's Hermes Agent now works inside Microsoft Teams, the Microsoft Store and Azure.\n- Mustafa Suleyman told colleagues to prepare for OpenAI possibly cutting off Microsoft's access to its IP, per The Information.\nAPPLE $349.21 (−0.92%) 🔥:\n- Apple is developing an autonomous AI agent that can control apps, browse the web and write code, per Bloomberg.\nMETA $596.22 (−3.27%) 🔥:\n- Muse now has its own email address and can send and receive emails for you.\n- Meta plans to charge $300 for its Muse Charm AI device, per The Information.\nNVIDIA $145.98 (−3.30%) 🔥:\n- Nvidia is in advanced talks to buy diffusion-model startup Inception for over $500M, per The Information.\nSPACEXSI $138.43 (−3.53%) 🔥:\n- Grok Bot can now connect to your Obsidian vault to create, search and manage notes.\nPERPLEXITY 🔥:\n- You can now call Teammates from the iOS and Android apps to assign work, review findings and change priorities by voice.\n- Brain in Perplexity Computer now writes self-improving skills from your past sessions and memory.\nIDEOGRAM 🔥:\n- Ideogram 4.6 brings precise editing in native 4K, with better realism and less pixel drift outside your edits.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 19\nMODEL FORECAST 👀:\n- Gemini Helix, next week?\n- Nano Banana 3 Pro, soon\n- Gemini Cobalt and Krypton, who are they?\n- Grok 4.8, \"soft\" A/B testing?\n- Voxtral Mini TTS 3.1, this month?\n- Qwen4 Flash/Plus/27B, soon\n- Muse Spark 1.4, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- GPT \"bell\", never?\nGOOGLE $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon is rolling out to Google AI Pro and Ultra subscribers across Gemini, Antigravity, Vertex AI and the API at $3/$15 per million tokens.\n- Google teased Gemini 4 Helium, a Flash Lite model, as the next Gemini 4 release.\n- AI Studio got a new model selector that lays out Gemini 4 models as a periodic table.\n- Genie 4 is now in Project Genie for Ultra subscribers, with native audio and live editing of worlds mid-session.\n- Stitch Loop is a new Google Labs experiment: an always-on product agent that watches live metrics and opens PRs with fixes.\n- Google AI Ultra now includes YouTube Premium Family at no extra cost (via alexmichael).\n- The Gemini app now runs on lower-memory Android phones, including Android Go devices.\nANTHROPIC 🔥:\n- Anthropic priced its IPO at $83 per share, above the $70–78 range, and trading on Nasdaq is expected to start today.\n- At $81.3B raised, it is the biggest IPO ever, topping SpaceX's $75B, per Bloomberg.\n- Elon Musk said at DealBook that Anthropic's most likely plan is to rent another 10 gigawatts of compute from SpaceX.\n- The Claude iOS app is getting a document scan option for uploading scans straight into a chat.\n- Claude Code 2.1.328 brings auto mode to Bedrock, Google Cloud, Microsoft Foundry and the Claude apps gateway.\nOPENAI 🔥:\n- ChatGPT got a faster, more reliable dictation upgrade that shows your text live as you speak.\n- Discounted background windows in the Responses API save up to 40% on GPT-6.2 Astra and Sol for workflows that can wait 2 or 8 hours.\n- OpenAI says its models found up to a 14% PPA improvement on AMD's flagship GPU IP and helped improve Jalapeño, its first custom inference chip.\n- OpenAI published a post on how it handles safety at every stage of a model's life, plus new data on how AI use is growing in its own research.\n- Arizona opened a criminal investigation into OpenAI and other AI companies over rogue AI agents getting into banks, per Reuters.\nMICROSOFT $508.29 (+0.40%) 🔥:\n- Microsoft is close to a $500M deal to sell AI to ByteDance, taking over business Anthropic used to provide, per The Information.\n- GitHub-verified MCP connectors are rolling out in public preview across the GitHub Copilot app, Copilot CLI and VS Code.\n- Salesforce is bringing its customer context and sales workflows into Copilot and Teams with Copilotforce.\nSPACEXSI $143.50 (+1.27%) 🔥:\n- Grok Bot can now book flights, hotels and rental cars.\n- Grok Bot now has a Google Analytics connector that pulls GA4 reports and changes property settings (via alexmichael).\n- Elon Musk says Grok 4.8 is in RL and that Grok Bot users sometimes get different test versions of Grok.\n- Gemini 4 Neon is now in Cursor, scoring 63.7% on CursorBench 4.1.\n- xAI asked a US appeals court to block California's AI disclosure law, per Reuters.\nMETA $616.38 (−0.40%) 🔥:\n- Muse got Try On, which shows how clothes look on you while you shop.\n- Meta is holding off on distributing a new class of shares meant to fund its AI investments while an investor lawsuit plays out, per Bloomberg.\nPERPLEXITY 🔥:\n- Teammates and Multiagent are now in the iOS and Android apps for Max subscribers, with voice control for Teammates.\n- Perplexity launched the Context API, which turns lists of webpages into content agents can use.\nAMAZON $267.74 (+3.82%) 🔥:\n- Amazon-Web-Search-Agent with AgentCore Web Search took the #1 spot on Search Arena.\nNVIDIA $150.96 (−2.89%) 🔥:\n- Nemotron-Labs-Sigma is a new open model that generates blocks of tokens in parallel instead of one at a time.\nTELEGRAM 🔥:\n- Telegram is testing Dictator, an AI agent in its macOS beta that reads and replies to chats and runs code in its own Linux VM.\nARENA 🔥:\n- Arena launched the Agent Arena Index, which ranks agents on nearly 3M real-world sessions, with Claude Fable 5.2 at #1.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2123349626216464509",
           "summary": "",
           "images": [],
-          "link": "https://x.com/testingcatalog/status/2123349626216464509",
+          "link": "https://x.com/testingcatalog/status/2123690301214560447",
           "domain": "x.com",
-          "published": "2026-11-19T18:36:15+09:00",
-          "published_label": "2026/11/19(木) 18:36",
+          "published": "2026-11-20T17:09:58+09:00",
+          "published_label": "2026/11/20(金) 17:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 19 日\nモデル予測 👀:\n- ジェミニ・ヘリックス、来週ですか？\n- Nano Banana 3 Pro、近日発売\n- ジェミニのコバルトとクリプトン、それは誰ですか?\n- Grok 4.8、「ソフト」A/B テスト?\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Qwen4 Flash/Plus/27B、近日提供予定\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\n- GPT の「ベル」はありませんか?\nGoogle $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon は、Gemini、Antigravity、Vertex AI、API の Google AI Pro および Ultra サブスクライバーに、100 万トークンあたり 3 ドル/15 ドルで展開されます。\n- Google は、次期 Gemini 4 リリースとして Flash Lite モデルである Gemini 4 Helium を予告しました。\n- AI Studio には、Gemini 4 モデルを周期表としてレイアウトする新しいモデル セレクターが追加されました。\n- Genie 4 は、Ultra 加入者向けの Project Genie に含まれており、ネイティブ オーディオとセッション中の世界のライブ編集が可能です。\n- Stitch Loop は、Google Labs の新しい実験です。ライブ指標を監視し、修正を含む PR を開く常時稼働の製品エージェントです。\n- Google AI Ultra には追加料金なしで YouTube Premium ファミリーが含まれるようになりました (alexmichael 経由)。\n- Gemini アプリは、Android Go デバイスを含む低メモリの Android スマートフォンで実行できるようになりました。\n人智学🔥:\n- Anthropic は IPO の価格を 1 株当たり 83 ドルと、70 ～ 78 ドルの範囲を上回っており、ナスダックでの取引は本日開始される予定です。\n- ブルームバーグによると、調達額は813億ドルで、SpaceXの750億ドルを上回る史上最大のIPOとなる。\n- イーロン・マスク氏は DealBook で、Anthropic の最も可能性の高い計画は、SpaceX からさらに 10 ギガワットのコンピューティングを借りることであると述べました。\n- Claude iOS アプリには、ファイルをアップロードするためのドキュメント スキャン オプションが追加されました。"
+          "is_new": true,
+          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         },
         {
           "title": "Hermes ❤️ Microsoft\nNous Research partnered with Microsoft in order to bring Hermes to Enterprise.\n> “Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure.”\n> “In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat.”\n> “Agent workloads run in isolated Azure Container Apps sandboxes.”\nA huge step for Hermes expansion! 👀\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",

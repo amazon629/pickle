@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T16:10:23+09:00",
-  "generated_at_label": "2026/11/20 16:10 JST",
+  "generated_at": "2026-11-20T18:57:36+09:00",
+  "generated_at_label": "2026/11/20 18:57 JST",
   "title": "キャスター登壇企業 ニュース監視",
-  "total": 555,
+  "total": 559,
   "sources": [
     {
       "id": "cc_01",
@@ -14,6 +14,38 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%AD%E3%83%A3%E3%82%B9%E3%82%BF%E3%83%BC%22%20EC&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "「うちのサイト、関係ある？」 キャスター、Web棚卸し・暫定テストを行う『CASTER NEO Patch & Test』先行トライアル開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TcDZDQzBjTkp3T1hzbXBrQ0NaWVBRcWptUUJ3SlRod2F0YVV0dnJnYWhJNl9NYjhSbWxkcGRvd0FzaUJuWkNDZUlmTlhudGtGeUpCc1Exc2VQV1BScEd4azBLUko4OUU3?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-20T17:45:21+09:00",
+          "published_label": "2026/11/20(金) 17:45",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "キャスターが提供する新サービス『CASTER NEO Patch & Test』でサイトの安全性を確認する方法",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02S0RuX3JDdjVoMUJ4MFUtVG5pRGJTMk1BTG5RU2ZfSmdlWlVnQTZPa2lhUTg5d0N4TUhVU0VfM0FXT3FQbkdETFhCaThRRUJYS20tWkNPMndkQXlPdHE5TWlFRGNwU0p1VVhMdw?oc=5",
+          "domain": "voix.jp",
+          "published": "2026-11-20T17:06:10+09:00",
+          "published_label": "2026/11/20(金) 17:06",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "キャスター、オンラインアシスタントをAIアシスタントへ刷新",
           "summary": "",
@@ -61,41 +93,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "キャスター、AI技術をリモートアシスタントサービスに活用",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UdC1kb1JMQjlEUjl0MEhSX0ZpOXpkdHUzTnA0UUYwNTdDMFBEckZtMUhNNkVpeVA4elROS05RdkxiM2w0Z1N1NGN4dWVnWDhRb2J6Q1IyNUFaZktWSUVIbWc2UF9ETXA5Znc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2024-07-11T16:00:00+09:00",
-          "published_label": "2024/7/11(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「au PAY マーケット」、「ウェザーニュース」の人気キャスターがグランピング体験をする特別番組をライブ配信",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDYzk1SVhZeHkyVFlkakk2YVNlQ0l0ZHkwSFUxc09jVzJhR3dJOE9SUXZLNWNTRFBFNXRXYmlRdktfMk5TS3RzY1AwNnYwbGx3OGc4SWJ3?oc=5",
-          "domain": "netkeizai.com",
-          "published": "2024-04-24T13:15:40+09:00",
-          "published_label": "2024/4/24(水) 13:15",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_02",
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_03",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.4
     },
     {
       "id": "cc_04",
@@ -374,7 +374,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_05",
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_06",
@@ -480,20 +480,52 @@
       "count": 5,
       "items": [
         {
-          "title": "【当社調べ】Yahoo!ショッピングのコンサル費用、月4,000円弱から月50万円近くまで100倍以上の差 公式マーケットプレイス掲載13サービスの料金を調査し、選び方を公開 | EC-Consulting Japan株式会社のプレスリリース",
+          "title": "Yahoo!ショッピングのコンサル会社が支援先50店舗の売上を集計 98%が増収、伸び率の中央値は251%（EC-Consulting Japan株式会社）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05bzBVS0RfNlBPMVkyalI0YmpvN0NKbVFBVVQ3dG1pVHNvanQzMzkyY0Z2QlpFOEt1QlU1ZjZwNXpaeHBWSTNWaXdNMkxRNDFDeXdPXzFDNUhKcXZkcEtGUU94UlYzUmFtZXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-20T14:00:02+09:00",
-          "published_label": "2026/11/20(金) 14:00",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXhDWDhsTGRYcEhMLU9MbUY4S0xCUHhxTTE5YmZLbmhLNDNjMzNoUEtySzdFQlM5c2N5bXNiOWl1djRGd1ZMQ0p0Z0xheDZ3dmZ5dG1YNWVvX2Y3ek1MUnowZzEtNm5IR0VQM1ltX2c4MnhkQ183YkdkM1NXQm5ZNlFFcnhHdTUtLUEwRVV3?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-20T16:52:34+09:00",
+          "published_label": "2026/11/20(金) 16:52",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "外国籍の代表者でもYahoo!ショッピングに出店できる？出店審査サポートを英語・中国語・韓国語で開始（EC-Consulting Japan株式会社）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNmdXVU5UMGd6c0hPSF96MkEzZlFpeVZvRXgwa3NCSHlYR2FfdHV6ZGVVREhNU3ZNalBodkMwS1pjN1hHY2tId3pIQTljdVdZMHBDZGZMVkhwMkhSUmpLU2tkT1VUMlhvYUxrdl91ZWtiQjdHWVFxNTJUVS1nQUw5RTNoSlF1U0pCbWEtTkR3?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-20T10:04:04+09:00",
+          "published_label": "2026/11/20(金) 10:04",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ヤフオクストアの出店審査サポートを拡充、再申請の回数上限を撤廃 相談から再申請まで無料（EC-Consulting Japan株式会社）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOXzBoTXNjOVBaY003Nmk4Q0sta1FaaGRHZmYxMlU4R0laakNSdk43RmRLRjdtbThRUmZRWkVKR1N4ZloyeXN1OE1TczZkeHRVMWIzRV9kd1d4eHBaOE92NmtGVXBubEw2Rko2S3hsNXdQOFU0d2kxbzd5eGpOZUpIN0JqbVZXQzFELU5qN1hB?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-20T10:03:35+09:00",
+          "published_label": "2026/11/20(金) 10:03",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "Yahoo!ショッピングの開店準備チェックリスト12項目を公開 開店審査で戻されやすいのは送料・決済・口座・取り扱い申請（EC-Consulting Japan株式会社）",
@@ -515,7 +547,7 @@
           "title": "Yahoo!ショッピングで開店3か月、月商2,970万円に 福岡の薬局ECの立ち上げの進め方を公開（EC-Consulting Japan株式会社）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56aW1yX0JMZEQ0SEVCbEozQVJpY19jRy15M0xoSnRCdVRURWllNXZVd3dGc0FfaEs4YTlvWnlPQ1lxLWRRV0NlMmluLXJGdEQwMzhBVjZYWXZvUHdqem1DcFE3LXdDZUw3X3kzQjRQSVAyeEFuVjRxazFZQjhpeGc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTDBETHBjUmVlWHdTZWRVQlFHWktORXdtblhwQUE2cHpQOE94LWNHYkJrU1NBR3ROQi1WTkFUdFViai0wZkNscmlGNXJiWnd0dXUzSjhfeUR2Y1VOQVA3UE9nbDJka25QZm11Nl9zYno2VzRYaVNleHp4TzZrM1F2SnhNY0x0N0hJVzBMVEt3?oc=5",
           "domain": "news.yahoo.co.jp",
           "published": "2026-11-20T10:03:08+09:00",
           "published_label": "2026/11/20(金) 10:03",
@@ -525,42 +557,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Yahoo!ショッピングの出店審査、自力で通るかを最大3問・約30秒で確かめられる無料の「出店審査シミュレーター」を公開 今のお店の月商から出店後の売上・粗利も試算 | EC-Consulting Japan株式会社のプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11SmRzZ3JTMkxBZDFLUWpQaFpqcElUem9kdFNLajhhbHJ1S0hhN2RnZEtIaU1Qc1U2YkxKNktDbzFYd2FzSTVsbW94eGRHaTlIMWdxTXFpbjRtOGNkbC04OE03Z3liMjJVbGc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-18T10:00:02+09:00",
-          "published_label": "2026/11/18(水) 10:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Yahoo!ショッピングの出店審査、自分で申し込んで通りそうかを確かめられる無料診断を公開（EC-Consulting Japan株式会社）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUYzZ1ZpLV8yblR1VmE0OG1vQUJVY2tyNnNranByLUFBaEdUZlRIekZlOEZNenVhY2VBNldUNWRMbHhnck1ObUh4eXN1b1FwM01keFFtTFRJWWpabTBEaWgtUFJYMlhJcm1oZjhoRHdDMDZ2NzA1Z0IzdG1rSERyaFRER2FMQkY3N2dYUlhR?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-12T10:18:53+09:00",
-          "published_label": "2026/11/12(木) 10:18",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_07",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_08",
@@ -730,7 +730,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.4
     },
     {
       "id": "cc_09",
@@ -836,6 +836,22 @@
       "count": 5,
       "items": [
         {
+          "title": "Ｓａｎｓａｎ[4443]：株式会社KiteRaの株式の取得（子会社化）に関するお知らせ 2026年11月20日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzYmo4bGhKYzU0Y1VYaV91WHBObHJ5cEtGeEEwdVp4aXo4ZnI1YnlobW9hNE9aODJrZWJZSS1HcUFLRms3cDlHbTBkc1FvV0NSVXRRWFBzc2hQLU1DRGpYQUlnellDNXhpZ2c?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-20T16:30:00+09:00",
+          "published_label": "2026/11/20(金) 16:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Ｓａｎｓａｎ---大幅続落、米関連銘柄の下落でSAAS関連が軟調",
           "summary": "",
           "images": [],
@@ -891,22 +907,6 @@
           "domain": "prtimes.jp",
           "published": "2026-11-12T11:00:02+09:00",
           "published_label": "2026/11/12(木) 11:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Sansan、「ITreview Grid Award 2026 Fall」で5部門を受賞〜名刺管理ソフト、CRMツール、SFAツール、企業データベース、メール配信の各部門で最高位「Leader」に選出",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5aMjJIODd1OE50SmN3Nk92a2tseWVvbmxBOUdZUE9MbVpBSWw1ZGJSMFB5RkdHXzQtaWdCNl83MDRzdGIzS1NyVmplN0NxZVlYaGZoekVMbzlaQQ?oc=5",
-          "domain": "jp.corp-sansan.com",
-          "published": "2026-11-04T16:08:10+09:00",
-          "published_label": "2026/11/4(水) 16:08",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1009,7 +1009,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_101",
@@ -1102,7 +1102,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_102",
@@ -1118,7 +1118,7 @@
           "title": "コムニコが開発・提供するSNS投稿管理ツール「コムニコ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BWFp6dnhpQ2F6REJkdU5KdlRIb0RoZ0lMV0pWNjBGWU1HWVpQS1kxY1FWV3ZTejVEVTI2SS01ZUhHSWFTMGFkb2s4WXRBMkRWTzdtVWkyN3pKQWwwa25SUEpyd3JWaUM1R2oyVkVIWGsyVEtxaERpSy01Zw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BeUU2SE50ajNyRDJtTmJXMFd2NkFVLU5pU1BaRUZHRThrTWRwRGpLYVhnNHMyNklWM3gwZldkQTYydFp5cnVvVEMzUE5TZXRqdEthczVjUTBsSkJMckZidFctUGRLaXJxYVd1N25QR0xZd1poNW5iVm1Hcw?oc=5",
           "domain": "news.nicovideo.jp",
           "published": "2026-11-16T13:21:19+09:00",
           "published_label": "2026/11/16(月) 13:21",
@@ -1128,7 +1128,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "コムニコ、インターファクトリー主催の無料オンラインカンファレンスに登壇 Instagramの「親密度」を高めるキャンペーン施策を解説",
@@ -1195,7 +1195,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_103",
@@ -1288,7 +1288,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "cc_104",
@@ -1320,8 +1320,8 @@
           "title": "株式会社サポーターズ本社移転のお知らせ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KQ2oyZTg1RzMzeUpFV2h2bGlmMXRHS1pwVTFhMjhOMUp3MG9nc1ZCU3VPTlVLTXd2NmZqS1dMOG9BdzBMQjVoM0M4RDJGb3V4M19aSFdGNVFITjdaUVk5VjItbTVXUXVTR0E?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jTU80WXp1ekRrdnVLR0lKZEVkb0VrajlnM0dDQW9uamxsbWRDR0RESVhiaU5aTGZ4MzM2WU8xN0I0aVNyeHBLeXpHVTd0ZEZ1cWxaU2UteXBRa0FSSWNqRlpqZm13NUgwZzJhNnhtOA?oc=5",
+          "domain": "hrpro.co.jp",
           "published": "2026-06-01T16:00:00+09:00",
           "published_label": "2026/6/1(月) 16:00",
           "badge": "JP",
@@ -1474,7 +1474,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_106",
@@ -1567,7 +1567,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 1.0
     },
     {
       "id": "cc_107",
@@ -1615,8 +1615,8 @@
           "title": "【ウェビナー】11月5日（木）「先進シェアオフィスに学ぶ、選ばれ続けるオフィスの作り方」SOHOプラザ × トドケール トップ対談",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fOHdPNjg3aFBlWEJITVZ5ZkxMaGpkdDZWQjF0aUl1SVpvTUpVMWlFbTVmbGNBWXgtWHR5VkxrVUwyb2xvNm9KaWduZFhXVHRfYXZPYw?oc=5",
-          "domain": "news.nicovideo.jp",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE56ZC04VmlmWVZ3VDJvSHB5eGxLZmw1VE1vSURyWXltOGpKcDhnQ0VZSDRDNGt0T2pRd3JiWG1ydnFoU3ZvbGNoTWFMZFlMcjFrVi1BRlI1U2hpVVZxMTlvejNpckYzY3lyeDNDcHVhUGQ1dw?oc=5",
+          "domain": "news.infoseek.co.jp",
           "published": "2026-10-30T16:00:00+09:00",
           "published_label": "2026/10/30(金) 16:00",
           "badge": "JP",
@@ -1660,7 +1660,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_108",
@@ -1753,7 +1753,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_109",
@@ -1785,17 +1785,17 @@
           "title": "ハックルベリーのデータ連携SaaS「CoreLink」パートナープログラムにソウルドアウト株式会社が参画",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IaUYxMTZkd1FEZ2hraFJKSjZoUHpqMXBJUmhIR1FfajkxTk5PZ2pvY2pvcEI2UUxqN05SVk9ubU5uSklSQlFIX0M1bHppM3pxYW5xZHdGcHlua0lEVE5adWI3cXhfUnQ0Y3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-18T13:00:01+09:00",
-          "published_label": "2026/11/18(水) 13:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE94b0VjSTF6MjhWdTBQS0hqRDVMNjJhZmVJQ0toOW9QQTgtdXVRU3ZHcVNFd2xIbzZYVW84ZThrVEdiTHRqNE1DaWNFTmhHZ3U3MFYwOUxmNkVmZ09qOXhoS0ljZXdOZW1fUmNCTXFjM0tQZw?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-11-19T01:10:02+09:00",
+          "published_label": "2026/11/19(木) 01:10",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "SaaS型ECサイト構築プラットフォーム「futureshop」、ハックルベリーの「TikTok Shop」連携専用コネクタ「CoreLink for TikTok Shop」と連携（ネットショップ担当者フォーラム）",
@@ -1939,7 +1939,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_110",
@@ -2032,7 +2032,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_111",
@@ -2138,22 +2138,6 @@
       "count": 5,
       "items": [
         {
-          "title": "ファンコミュニケーションズ、生成AIの検索離れでA8.net16％減収 戦略事業は増収も先行投資で損失拡大",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yS2pta2lnOF80M1RFQzRYcjZKZjV0cERQcmFBWkpyT0lpOHJJRzY5aE9tcnd3WDdmWUhtdDFQT1IteTlvMUFCWU1ST0k0VGg1bS1oclp5RUM2eUpmai1QVkdMaUJvQ2hMT2c?oc=5",
-          "domain": "media-innovation.jp",
-          "published": "2026-11-16T11:00:03+09:00",
-          "published_label": "2026/11/16(月) 11:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "【2461】株式会社ファンコミュニケーションズ 事業概要と成長戦略に関するIRインタビュー",
           "summary": "",
           "images": [],
@@ -2216,6 +2200,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ファンコミュニケーションズ[2461]：株式会社レイリーの株式の取得（子会社化）に関するお知らせ 2026年6月1日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpRFp3TGlxSjVrSHVvb1E5c3V4RjFkTTFueTJ4ODlqNGdNSGwtT0N5SmhaMjJIM25NeHJhRHI5Vzd1UkRDMTdaQXdRQVpYNHM5WTVFZk8wek9fT2tneDV4YW1obGNBakhlUWc?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-06-01T16:00:00+09:00",
+          "published_label": "2026/6/1(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.3
@@ -2324,13 +2324,13 @@
       "count": 5,
       "items": [
         {
-          "title": "ヤプリ[4168]：2026年12月期 第３四半期決算説明会 書き起こし公開のお知らせ 2026年11月19日(適時開示) ：日経会社情報DIGITAL",
+          "title": "ヤプリ[4168]：ヤプリ、AI機能群「Yappli AI Agent」を発表 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vZ21TVUFIbERHQVJQU2tpY3RtdHdxV1JxMnc2dElQSWEzbFZPVlNtTGtRZ0Jzc1I3ckhpRER4T0hpNi1qUXJxQ0RodVFmLUM2SnI1LWpHNWVESWZrMWpMdWYwVU91QTg2QXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pOUlmRkRaWi1aMnhVcjFsUXFxclNQMi1uWmVJUjRFVUtDQkJVR2JySVRBVmZuT05jeHljMGExYVlGYmZtdEV0VTJnWVZ3U3YxYWs0TVQxeEtEWkZPaVBlUTNMU2xVRkI2SlE?oc=5",
           "domain": "nikkei.com",
-          "published": "2026-11-19T17:00:00+09:00",
-          "published_label": "2026/11/19(木) 17:00",
+          "published": "2026-11-13T10:00:00+09:00",
+          "published_label": "2026/11/13(金) 10:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2340,13 +2340,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリ（4168）、3Q累計は売上高・営業利益ともに過去最高を更新 4Qはマーケティングに先行投資",
+          "title": "(株)ヤプリ【4168】：決算情報",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ka2V2eVh5MVdVSnZXbHgzcUV6YzQ4ZDBYSW15T25mTENGOEgzSEZ6dGkwU05fY0tsNW5xclg5cWxuSkYyelh4bzB4aHRVUmVpSUE?oc=5",
-          "domain": "finance.logmi.jp",
-          "published": "2026-11-19T16:00:02+09:00",
-          "published_label": "2026/11/19(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KUVN6MlJxb3IyVkRmZkNBOEEzQ082dUFOMHY5Umlfd19qOGp3VjFZVDBrVEVxZVNkb0Uxb0hoNnBwQnVPTmFnOUpadWowODJqZ2hvWk1JVnhxMW5ILVd1WQ?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-12T15:30:00+09:00",
+          "published_label": "2026/11/12(木) 15:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2356,13 +2356,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリ、AI機能群「Yappli AI Agent」を発表 制作から運用・改善までを支援：commercezine",
+          "title": "ヤプリ、1-9月期(3Q累計)経常は18％増益で着地",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rbWJNZlp1WnVIS0piVVB3SDE4WVdmTHpPVC1INHRvMWpKajZWT2lveEtKZV9GV3daS2dVM3hXNkpYTWVUUEhZMzBoT0liNVU?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-11-16T08:30:00+09:00",
-          "published_label": "2026/11/16(月) 08:30",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54V0tXbzdWNXVhTkFfRkNIYW5wbWtZRFg4Z2xlVDRmVVpldFljNThJRE1uZjJwY3pxd2dNUkdFU1ExMktHd2ZhMXJJVks0bDRsOGc?oc=5",
+          "domain": "kabutan.jp",
+          "published": "2026-11-12T15:30:00+09:00",
+          "published_label": "2026/11/12(木) 15:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2372,13 +2372,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリが発表したAI機能群「Yappli AI Agent」がアプリ制作を革新する時代の到来",
+          "title": "ヤプリ、アルペンの顧客体験と従業員体験を支える基盤を提供",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56YTJfc3YxOS1UTno2cFN1RjFUOEpYczh4Tjk5Wng1VExISUMtcFBhVlBtVldIWjg1VjJjN1hYWU8za2JmSGRqZmlodHRFeWJ5bkhDRHhLZmhHOUhlcFotSDB3?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-13T16:35:33+09:00",
-          "published_label": "2026/11/13(金) 16:35",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TUnNQY0U4eFRBUklpaG1jdmFhYnpWdlB4T3YzWUhOVGozajFkbjB6YVU5SFUwVGxCOWZGOGJLTkhrVmJTWUdxeWQ1MUFUWTdzcnU4Sjd4NjJZRUpvS0V4bWpqNGFXQWtjU3c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-09-07T16:00:00+09:00",
+          "published_label": "2026/9/7(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2388,13 +2388,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリ、AI機能群「Yappli AI Agent」を発表",
+          "title": "ヤプリ、「Yappli Summit 2026『BEYOND THE CODE』」を10月8日より2日間開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94WnZSUVNmSUQ3ajdKVmFGd0VQdnFaRFlmM2pEODJTeVFMMVhXRHFGSHNqaHhIRC1zUVZnUTNqbG9uU0VDLUJvaHRtZHU2cnNOVjJF?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-13T10:03:03+09:00",
-          "published_label": "2026/11/13(金) 10:03",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11R3Vha09kdVkxRER4dU9lX2xYR2hFT3dKYVhESHV1MkF2c2tyVk51Y0J1aTFobWhBdnFQcnVvSlhHUXVtdURyYUZwdDFQUXNBVTZRZjhSWmpQWTBYeFM3LXpLWXhfb2IwaXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-08-27T16:00:00+09:00",
+          "published_label": "2026/8/27(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2404,7 +2404,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "cc_115",
@@ -2497,7 +2497,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_116",
@@ -2590,7 +2590,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_117",
@@ -2619,7 +2619,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "cc_118",
@@ -2632,36 +2632,20 @@
       "count": 5,
       "items": [
         {
-          "title": "リブランディングと識学、採用AIOと組織構造を学ぶ無料オンラインセミナー開催へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9yQkQ3UXBKNUJIWkxCWUdpZ0p3SHhqSWZvN1NCeUtLdXVBWVhoNjdXUlRmdWUxS1FpMDNfU2FLOHA3Y3Y5ZVR3?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-11-20T03:35:55+09:00",
-          "published_label": "2026/11/20(金) 03:35",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "【REFOLMO Med】株式会社識学主催ウェビナーに登壇｜長く働きたいと思える職場は、“迷い”が少ない",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5nUTJsNXQ3ZnlOQ3NIYWl4RjRoUlA5MDR0MHNlZDBadTFnekIyUTJHWnpYekNBR255d3JLM1paSG8xandRZ1YzSVUzcTJQam1NLTZsRXBrSlN2T3BfZlFNMzB0RnRRSjdn?oc=5",
-          "domain": "news.nicovideo.jp",
-          "published": "2026-11-19T16:30:12+09:00",
-          "published_label": "2026/11/19(木) 16:30",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdGU3RGhMcjNCOGJ5bnQ0QmVEVXI0RHl0Q2d0dnpTdkctZmZIWHBvLXhtWmpIRFFkeXVpNWhJeUFRWWxFX2xpTTVIOE1qWkEzMkRKRVZYV2dBZ3pnZDFiZndRa0lrWThWWDkwd1RvS3FLYk1Sc2E1TVRB?oc=5",
+          "domain": "iza.ne.jp",
+          "published": "2026-11-19T10:30:00+09:00",
+          "published_label": "2026/11/19(木) 10:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "AIの提案で期待した成果が出なかったら？42.6%が「責任は決めた自分に」【識学調査】",
@@ -2680,20 +2664,36 @@
           "is_new": false
         },
         {
-          "title": "識学の安藤広大代表による新刊書籍がダイヤモンド社から発刊",
+          "title": "やる気はあるのにパンクしてしまう…「キャパオーバー」に陥る人の理由・キャパを拡張する方法【識学30】",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9QSDZOd0JJdDdSbG4tYkNLaVljNnZKcjBWeWx0ejJlN3d2RE5TeEdUNmlkZW9Wd1NSVGFuTldNdzNZZ0twWE5R?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-11-11T21:02:02+09:00",
-          "published_label": "2026/11/11(水) 21:02",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XejVmMmh0bFd0SDI1UkRSUF9Gb0U3SWpzOGZwRUpOZGtlMFV3UjJ5WXotZ3FYQkxla1U3OFRsMm9TM2x6TGZxd1B3VmNmNzhXRVBmb1JiN1VWM194czNZdWNFM1JYUnFl?oc=5",
+          "domain": "goetheweb.jp",
+          "published": "2026-11-18T10:50:00+09:00",
+          "published_label": "2026/11/18(水) 10:50",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "（株）識学 代表取締役社長 安藤広大の新刊書籍が11月11日に発刊",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CNDZ1a3JWRTk0OEl5RHl5THZrdkxHNm1tLWNZeDFGNlNXTWZRbjFldWx6dnBiVjdfMnVzZkxDZUdWNkJ1VEEwVTIxUl9ZMXdvekIzSm1heThlaEtHWS10ZDRVeXlOX1pqWVY3cW5WWkE1Zw?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-11-11T18:45:29+09:00",
+          "published_label": "2026/11/11(水) 18:45",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "「何をAIに任せ、人は何を担うのか」株式会社アスレバ、識学・PKSHA Infinityなど6社が登壇するAIカンファレンスを開催",
@@ -2712,7 +2712,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "cc_119",
@@ -2773,7 +2773,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_12",
@@ -2959,7 +2959,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 1.4
     },
     {
       "id": "cc_13",
@@ -3052,7 +3052,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_14",
@@ -3145,7 +3145,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_15",
@@ -3238,7 +3238,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_16",
@@ -3254,17 +3254,17 @@
           "title": "【11/5開催】価格ではなく「価値」で選ばれるブランドへ。株式会社LeaguEが冬のEC商戦をテーマにした9社合同セミナーに登壇",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3NjFQM09HZXRMczhQMzBvVDVTQkxTOHQ1WGQ1dVBqWVEtS25NSHJlemVGbElRUnRnSjYyOG1yeUpDSVItQ0lURGxxUDFteXF5ZWhVcDNFQUx6NjNPLS1Oa2lWMm41N2pERkRDbjdFOEFDdw?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-11-03T17:00:00+09:00",
-          "published_label": "2026/11/3(火) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DUmhzXzVWSTJveTdBdTFWcHdmTTlzMFpkUGZqMVZpX0RRbnZfbmUydDF6dVAycFB2eE5pT01rcmVQcEJZTkJGTTE0T1AxREZ6cEptbmJuQ2F5S28tVUl1dXBkdEVzSjlQYWc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-29T16:00:00+09:00",
+          "published_label": "2026/10/29(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "【7月15日・16日無料開催】次なる成長の柱を見つける大型カンファレンス「ECフェス 2026」に、株式会社LeaguE・武智翔太郎が登壇",
@@ -3331,7 +3331,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_17",
@@ -3424,7 +3424,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_18",
@@ -3562,7 +3562,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 1.5
     },
     {
       "id": "cc_20",
@@ -3655,7 +3655,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_21",
@@ -3748,7 +3748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_22",
@@ -3838,10 +3838,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_23",
@@ -3902,7 +3902,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_24",
@@ -3914,7 +3914,7 @@
       "via": "https://news.google.com/rss/search?q=%22Bloomstrategia%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "cc_25",
@@ -4007,7 +4007,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_26",
@@ -4286,7 +4286,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "cc_29",
@@ -4379,7 +4379,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_30",
@@ -4456,23 +4456,23 @@
           "is_new": false
         },
         {
-          "title": "ノウンズ株式会社とREECH社が連携、新ツール『Knowns インフルエンサーリサーチ by REECH』を提供開始",
+          "title": "株式会社REECH、TikTok動画再生回数保証型のインフルエンサープロモーションパッケージを提供開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tUnE0eHJOYXNtQnp0Zml5QS1iTVBDVUlHcVl1bTRsMzB0b2RZYmxaWDBfWmJKLTYtbF83ZjNESXdUNndScnJGdGY3eWtuQlpEbmt5RmtR?oc=5",
-          "domain": "commercepick.com",
-          "published": "2025-01-22T17:00:00+09:00",
-          "published_label": "2025/1/22(水) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1TYWxHQTgwTTdleHVFWG5vS2diVERXTjhMVlRXLXVyb2p5cHNybDVyVkg2S3lFbGxhWlVxRmdUVFM1UjZ2aXFj?oc=5",
+          "domain": "newscast.jp",
+          "published": "2024-04-23T16:00:00+09:00",
+          "published_label": "2024/4/23(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_31",
@@ -4500,22 +4500,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "（株）TalentX 2026年度第2四半期決算説明会"
-        },
-        {
-          "title": "【TalentX FY2026 Q2 決算説明会】売上高9.5億円で計画比101%達成、AIネイティブ化で営業利益率20%・通期調整後営業利益予想の95%を上半期で確保",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oUWpuNHdYT2J5TS15WklCd3pZRGhpTFVRT1FweFlQY1U4anYtVjJGclh1VWU0cEFKQ3JHeGJwRll2S3NpODR5QjREUVdMdHVuZWdqUjlaVEhjdjNpRmln?oc=5",
-          "domain": "finance.biggo.jp",
-          "published": "2026-11-19T13:24:00+09:00",
-          "published_label": "2026/11/19(木) 13:24",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         },
         {
           "title": "ＴａｌｅｎｔＸ[330A]：2027年３月期 第２四半期決算説明 動画公開ご案内 2026年11月19日(適時開示) ：日経会社情報DIGITAL",
@@ -4550,13 +4534,29 @@
           "is_new": false
         },
         {
-          "title": "ＴａｌｅｎｔＸ[330A]：EYストラテジー・アンド・コンサルティング、 「MyTalent Platform」導入約1年でタレントプール登録者数500名超に 2026年11月17日(適時開示) ：日経会社情報DIGITAL",
+          "title": "【330A】株式会社TalentX 事業概要と成長戦略に関するIRインタビュー",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE94V3lnRVN0NkxyMTlURzdsRlhPend3eWJqZFhGWlAxQjY2VGFnM1o1U0FBcnZiUXZBT2UwOHJ5dzN1LUhPMUZoaDNJZEszQ0N4ckVmOXZlb2NSVVotN3ZXMGZnQjFkWmVKRnc?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-17T10:00:00+09:00",
-          "published_label": "2026/11/17(火) 10:00",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1hSlpTbzgxRkhIU2t5eUNOeXJrYndzbWhWTkRaZHFvaHBLZkdpZWY1Z0pBZzliVFVzZDYzTnFFbFNIUQ?oc=5",
+          "domain": "invest-n.jp",
+          "published": "2026-11-11T17:00:00+09:00",
+          "published_label": "2026/11/11(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "TalentX---YKK APが採用CRM「MyTalent CRM」を導入、タレントプール採用を本格始動",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjX1JrSGx3NzJocFM0RkdEMEtsaHVseWJuZnhKcm5QMU5ZYUFBcXhwazFJSjg1Tm4xYm5oQ1NTWHR5amJ1ZVlVTTUzVmpmVk9mclQ5OVRCU1A4OVZMMS1RMQ?oc=5",
+          "domain": "kabutan.jp",
+          "published": "2026-11-05T11:42:06+09:00",
+          "published_label": "2026/11/5(木) 11:42",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4752,7 +4752,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_34",
@@ -4938,7 +4938,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_36",
@@ -5124,7 +5124,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_38",
@@ -5294,7 +5294,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_40",
@@ -5399,7 +5399,7 @@
       "via": "https://news.google.com/rss/search?q=%22Cast%20a%20spell%22%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_42",
@@ -5444,6 +5444,22 @@
           "is_new": false
         },
         {
+          "title": "＜Crevo HR Clip＞【超実践型】AIを活用した「学生から選ばれる」ための採用ブランディング戦略｜株式会社Human Resource Design 松村恭行氏",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KTnlSNGUwRFZVRWVMZmdEZ1ZoNmtPLXJxRzhTSjU4QktmcmQzc2lPdHNXVTRnMzFTSldxempRNTY3SXZtX3Rsag?oc=5",
+          "domain": "crevo.jp",
+          "published": "2024-12-04T17:00:00+09:00",
+          "published_label": "2024/12/4(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "＜Crevo Marketing Clip＞今すぐ確認したい！BtoB向け広告運用の基礎戦略と実践 〜成果を上げる12のチェックポイント〜｜アナグラム株式会社 二平燎平氏",
           "summary": "",
           "images": [],
@@ -5467,22 +5483,6 @@
           "domain": "prtimes.jp",
           "published": "2024-02-16T17:00:00+09:00",
           "published_label": "2024/2/16(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【2/21開催】新卒の採用から定着までのノウハウを解説！ Crevo・HR team・O:が3社共催ウェビナーを開催",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1IOG1EV3ZBT196dTBvV01vTVVKZXc1VGV5NS1ZZXo2RzFESk9Nby1PMlFNTXhKcGhsRF9hUkFIMXZ0QQ?oc=5",
-          "domain": "crevo.jp",
-          "published": "2024-02-15T17:00:00+09:00",
-          "published_label": "2024/2/15(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -5521,7 +5521,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_44",
@@ -5553,8 +5553,8 @@
           "title": "Gastroduce Japan【ガストロ】運営「FOOD-FORCE-STUDIO」、「TikTok Shop Local in 北海道フービーフェスティバル」にLIVE配信クリエイターとして参加",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55ZUxBRFNrNFhJWmtLaHJseldlLUNQVU1weXQ0a0RvdGo3aHlINTAyLV9jYzB3cWhucmk3N2RnOWo1UGxZSzR6dnFDOTUzQTFybU1SalhhM20wbktieFBBN3NieUFlWVFSbmc?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4aDdSYkhkV1hfUlk1b1R3MGItTG1xNXZGck1VdmxoeFhkLXJYSW56RThYOW43VC1DcWZvUXZ2dk42OWlPejdMckoxQkRuZ3NjRU1GRFJLQW1BSlNza0tIMktXZW9kT3BIRktIZFNPZTY3aXNBTlAtZU5n?oc=5",
+          "domain": "mainichikirei.jp",
           "published": "2026-10-28T16:00:00+09:00",
           "published_label": "2026/10/28(水) 16:00",
           "badge": "JP",
@@ -5563,7 +5563,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "OTOGIと支援先合計7社が『Wantedly Awards 2026』BEST100選出！Gastroduce Japanが「LOCAL」、ABABAが「BEST EPISODE GOLD」を受賞！",
@@ -5704,13 +5704,29 @@
       "count": 5,
       "items": [
         {
-          "title": "K-Beautyスキンケア「AestheFic（エステフィック）」、Qoo10「メガデビュー」初日に3つのランキングで1位を獲得",
+          "title": "Qoo10の商品を原宿でリアル体験できる「MEGA",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMQjZHTGpIM2JjMmVsU2hJeTlUMk04ZEphN3BvNm5XTXdiZ2h1a0JvbkVBWHI0OXBjU3lNZ3Uwbk9feHMwZk03RlhYY3FNUUpmbGlFRUhyMTdxWGx5QmxKWnhDWFRNSFk4a1VvMVhfWnYyX2NW?oc=5",
-          "domain": "excite.co.jp",
-          "published": "2026-11-20T15:45:00+09:00",
-          "published_label": "2026/11/20(金) 15:45",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1vNDhDbVdJcm5pem8yY3gzTVhRN2lKUnkxMl8tYW5pcmozNVRnNGZlMzY5bDVhRF9WQ3I2Q3ZfVWJ1dkZfQlcyMlZJT0ZZeDJFX2RpUDBsbFNKODdBblYxRUpkdUthMll0d2tjdTVxMzhBZGNVVTJZSA?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-20T18:00:41+09:00",
+          "published_label": "2026/11/20(金) 18:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "K-Beautyスキンケア「AestheFic（エステフィック）」、Qoo10「メガデビュー」初日に3つのランキングで1位を獲得（PR TIMES）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EMzllbzVwamFsVHBVOEtZQlFFbWJNOXc4XzduTGpKTDRhWXdWTjM5Tnphc2Y5dkY0cGZUTXpRSE80ZGRQTEJjSHB3a3VJbFpuSGIxSEFuNENYdXdZMnRUejU2RkVlOERF?oc=5",
+          "domain": "mainichi.jp",
+          "published": "2026-11-20T15:54:00+09:00",
+          "published_label": "2026/11/20(金) 15:54",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -5766,25 +5782,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "バンドルカード、Qoo10での合計1万円以上の支払いで抽選260名様に最大2万円分の残高をプレゼント",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9JOG9rT09ZRXpUenNXRG1iTTB3ckh3N09YZWQ0N0dXdktsTkpUSFR4Qm5fdHEyaV9rN0R4cXE3UmdnWVh1YWpnODRGNlBDNEVmdzJoRTRaTFJYdEhnMnc?oc=5",
-          "domain": "okinawatimes.co.jp",
-          "published": "2026-11-20T11:08:17+09:00",
-          "published_label": "2026/11/20(金) 11:08",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "cc_47",
@@ -5845,7 +5845,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_48",
@@ -5938,7 +5938,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "cc_49",
@@ -5972,8 +5972,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vTTc2YW4xdmN2WVhJeE9NUEJDT2ppaVdzb2VsNzJiNkNRTjNuS1d1OUNDQW1sR25XbXhfUmVWNW1tc2FHR1QwM0I0ZEsxMzREN0Q2RmFCb0h1MWt2cmZURk1naEFTMEZ1b3c?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-11-12T10:00:02+09:00",
-          "published_label": "2026/11/12(木) 10:00",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6041,26 +6041,90 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22narrative%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 1,
+      "count": 5,
       "items": [
         {
-          "title": "第10回「ジャパン・ツーリズム・アワード」で、株式会社narrativeの取り組み「narrative inside®」が内閣総理大臣賞を受賞",
+          "title": "第10回「ジャパン・ツーリズム・アワード」で、株式会社narrativeの取り組み「narrative inside(R)」が内閣総理大臣賞を受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LZ19PczhRa0JFNG5TOXJkWFVWclY1Y20tLWtjWTRXSlo2QkJHcjNWcXp0VF83NnhFQVZNSG9seUt2OEJEaGxRemx3amRFQVJmYjNxSWtRdTV4UkNncmdzaWF4Q25WMGQxVlE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-28T16:00:00+09:00",
-          "published_label": "2026/8/28(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90QUdkay1lTUV5SUl3Ti1xMDBZc2FiSWl2YWFxN2w3MDIwYmFvMXZSMHFBcmE4bmpjTlJpVER4Qm9vOVRxZ0JHd0h5NXROWDA?oc=5",
+          "domain": "agara.co.jp",
+          "published": "2026-08-29T04:53:31+09:00",
+          "published_label": "2026/8/29(土) 04:53",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "ホテルブランド「蘊（UHN）」始動。奈良最古の醤油蔵と大正の万年筆本舗、歴史的建築物を改修した2つのホテルが、2026年8月29日にリブランドオープン | 株式会社narrativeのプレスリリース",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3RDl5X3Bua3dfdF9UNlhMUDhZRlB1LUpuN1R3cHlsMnl4cDdLVFI0TVlFUUhRYThNQzVZNzZkSnNraWRjaXc3VGtvb0pYRnZxU2doYnVkZ1R2NUZOaVVHQkR2em1NVFAtcEE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-08-03T16:00:00+09:00",
+          "published_label": "2026/8/3(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "TVアニメ「ダイヤのＡ actⅡ-Second Season-」の新作グッズが登場！ | narrative株式会社のプレスリリース",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QTXk5OU5LbzZtd29GR0ZIREF6QjYxWUpCYVFpcDJ6cm9fVHRxTE1hbnNtTm81RnpveHBVRzB6Qy13c0tFUHVKVTlDSHVJVVpOZUg5THk0ZHg0d29EVU5kdVg3VWc4blktWlE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-01-30T17:00:00+09:00",
+          "published_label": "2026/1/30(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "narrative、地域・建物の持つ歴史から着想",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sbXpNb3hxaTNUVWl2NUQzTWM0cDMyb292ZUJtQXVCZGh2enFFMHhwbnJmNXBtLTBocnNiSWlSUVVqTVdXRUJFUWw1dnRRaXFtd3JmMQ?oc=5",
+          "domain": "zenchin.com",
+          "published": "2025-11-28T17:00:00+09:00",
+          "published_label": "2025/11/28(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "feebee、個展「re Narrativeのためのプルラリティ」を7/4（金）より開催、ナラティブの可能性を問い直す",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tM2ZfNHhpY1ZXX2tiTUtfWHZQZzBYVUFkcGhqb2lGTkYzdjlOYW1DT2hQYWZIR1lXMWpsV2Jkank1ME9kZE05YmphU1ZYVjhiY1FaYXZ5MmFHSzg?oc=5",
+          "domain": "qui.tokyo",
+          "published": "2025-07-04T16:00:00+09:00",
+          "published_label": "2025/7/4(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "cc_51",
@@ -6153,7 +6217,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_52",
@@ -6180,6 +6244,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "オンサイト株式会社と共同開発し非IT部門のためのRPA RobotXをリリース。同社のHR・EC運営業務で利用開始。",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2NktUZnZMQ1VXdEsyaXJVZkpnT0VPSVo3QU03UUlPNlE3dnI2bk83MkdhZTV2WnJHSUJ4bm5FRXRlWEZkV1VIcEcyc0tMa1lfV01zS3V4aUNuT0pISUN2eU1fTTJGQkFiSXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2023-02-01T17:00:00+09:00",
+          "published_label": "2023/2/1(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "【オンサイト株式会社】一部組織変更および執行役員CRO就任のお知らせ",
@@ -6228,22 +6308,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "オンサイト株式会社、応募を最大化する採用CMS『reccru(リックル)』提供開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1pOU9jeXBUTElzSEhkQld4OVFiLWNkLXI4Yzd5RXR5Wng4VXdVcm10MDlWNWZxNlRsenlEZWhQd2xOVzV5TXBKQjhLSW5rc3c?oc=5",
-          "domain": "hrog.net",
-          "published": "2021-01-08T17:00:00+09:00",
-          "published_label": "2021/1/8(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
       "elapsed": 0.3
@@ -6357,8 +6421,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SYlBLdzl2UXhGNHlwVEZxWG9tdDBqS3NjcWRXZ1pKelhJRE5ZU3BSTUx3UzlyNWdUMFF6UTZwU05SOGdvWEh3VUFSY240T3VBY1pFclViQmg3VkFRdjU1cA?oc=5",
           "domain": "pjl.co.jp",
-          "published": "2026-11-11T14:02:00+09:00",
-          "published_label": "2026/11/11(水) 14:02",
+          "published": "2026-11-11T17:00:00+09:00",
+          "published_label": "2026/11/11(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6525,7 +6589,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_56",
@@ -6618,7 +6682,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.8
     },
     {
       "id": "cc_57",
@@ -6711,7 +6775,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_58",
@@ -6723,6 +6787,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%9E%E3%83%8D%E3%83%BC%E3%83%84%E3%83%AA%E3%83%BC%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "MUFGとグーグルが描く「金融×健康」の未来。家計簿アプリ・マネーツリーが「睡眠」も表示する狙い",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNM1E1SGJCV3o2N1piR05RSUdkQk1HdG05OFZpc0s0bXJNRFdybm1lWjltMmJMbEFmMi11TDF3ZlRfSnV5VFJURkdlWmlXZ3NvTkpTUWRsMWpuS3llZG5mUjhFZkg3M09EMGpodG43NUNraC1WWTVnS2ZZZ1JtUExqNU9uWVRTRGJp?oc=5",
+          "domain": "businessinsider.jp",
+          "published": "2026-11-10T17:00:00+09:00",
+          "published_label": "2026/11/10(火) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "MUFGとマネーツリーが資産管理サービスMoneytreeとGoogle Healthの連携による金融×ウェルネスの機能を提供開始",
           "summary": "",
@@ -6786,25 +6866,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "マネーツリー、家計データをClaudeに開放…無料で使えるが気になる「期限」とは？ ｜FinTech Journal",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1mYUhOSGwzSE9FLXZqRW51VzNBd0Y2U3phMVpJZWVEajBWcnBERGwxc1pDQ0RuV2lVZU9UYzhaM0l2TUR3MzNSOGpPVUZCTEk?oc=5",
-          "domain": "sbbit.jp",
-          "published": "2026-10-29T16:00:00+09:00",
-          "published_label": "2026/10/29(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.7
     },
     {
       "id": "cc_59",
@@ -6846,7 +6910,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ブルパス・キャピタルのファンド、採用代行などを展開するマルゴトへ投資実行",
@@ -6990,7 +7054,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_61",
@@ -7083,7 +7147,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_62",
@@ -7173,10 +7237,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 1.5
     },
     {
       "id": "cc_63",
@@ -7269,7 +7333,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_64",
@@ -7484,6 +7548,22 @@
           "is_new": false
         },
         {
+          "title": "複業を「当たり前」の文化へ。Another worksが挑む人的資本OSの社会実装",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE51aVFjWHVkNFZFRTI5ZXVVSzhCVTMtVElvb3MzbGZxOTdDckR5WlYyb1BpdVlmVWhZTVk4R2VHa3B4TXJBSlNSXy05ekMxdw?oc=5",
+          "domain": "zuuonline.com",
+          "published": "2026-08-21T13:07:52+09:00",
+          "published_label": "2026/8/21(金) 13:07",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "新執行役員が就任、複業の社会実装に向け事業拡大を加速 | 株式会社Another worksのプレスリリース",
           "summary": "",
           "images": [],
@@ -7523,22 +7603,6 @@
           "domain": "prtimes.jp",
           "published": "2026-06-07T16:00:00+09:00",
           "published_label": "2026/6/7(日) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "2026年、公務員複業元年。Another works、公務員向け特設サイトを開設し、複業希望者の登録受付を開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fcjE5T1Z1ekRkVjFuRlM5VUxJbXdkdVJrd2NxUG5uM2szaFFiZUg5X0FhUW9tejJIb0lEUUdkNmFLTE8wYkRtZDZqOVk0ZTNnbnNobWV2MThzcTJQMF9way1TVUdjTkROS1E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-06-05T16:00:00+09:00",
-          "published_label": "2026/6/5(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7609,7 +7673,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "cc_68",
@@ -7702,7 +7766,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_69",
@@ -7795,7 +7859,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_70",
@@ -7885,10 +7949,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_71",
@@ -7906,8 +7970,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hTzhkNy1tRFdnWE8zZFFGdFgwTS1Gc2k3RHpyb0VWc3F5ZGlEZDE1Q2Ita2JpelI5bDdldEdXZUpuUW9YaXA1bFJKeDI1VEwzcWYtaUptMUN6RUVzQ1dpenhFQ3VLeGRhNGc?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-11-12T10:00:02+09:00",
-          "published_label": "2026/11/12(木) 10:00",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7981,7 +8045,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.3
     },
     {
       "id": "cc_72",
@@ -8010,7 +8074,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_73",
@@ -8196,7 +8260,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_75",
@@ -8366,23 +8430,23 @@
           "is_new": false
         },
         {
-          "title": "あと払いの「Paidy」が「東京ゲームショウ 2026」に初出展した狙いは？橋本副社長に聞いた（BCN）",
+          "title": "Paidy（ペイディ）のキャンペーン！Amazonで得する方法も解説【2026年11月】",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOSk5iZjh3UFRScnVtcFlteGdSTzFxdkFGYXlnbTQ0X0Z5WUpJU3Y1SUt0dHFlQW9hbkFzT29IdEdUc1p3di1kSlNXdHZmQ0U2cndrcmdZZzNCYmdNMlJhTmxIb29fQnBEQnJSbXVndU9kbExySmlWQXRxekxXc1E?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-09-28T16:00:00+09:00",
-          "published_label": "2026/9/28(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBlVzZEV1NlNXdnRTlGVVlMSGVYa0xvUFp4UTVTaFNkZkJGbTFvYm1nZ1pHQldQanJERUZFWUZtVjBVQlZ0WmRwVQ?oc=5",
+          "domain": "my-best.com",
+          "published": "2026-11-14T00:00:00+09:00",
+          "published_label": "2026/11/14(土) 00:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_77",
@@ -8568,7 +8632,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_79",
@@ -8580,38 +8644,6 @@
       "via": "https://news.google.com/rss/search?q=%22ReviCo%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "アパレル２ブランドの公式EC、レビュー閲覧者の購入率が非閲覧者の約６倍に ReviCo導入事例",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBrRFYyM3cwZ1JkVzBKTzAxZUxJeGRTeXBqZWwwYWtpdHJ1TVpENElQMmQyZkZxaVJfTjctdjUtZktrdnVVVEpvQU5JN2o3RFl2eHd5MlhwNA?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-11-19T12:28:55+09:00",
-          "published_label": "2026/11/19(木) 12:28",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ReviCo、ファーイーストカンパニーが運営する「allureville」「LOULOU WILLOUGHBY」へレビュー機能を提供 レビュー閲覧ユーザーのCVRは非閲覧ユーザーの約6倍を記録！",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DczFvVmEzMkdLX2htVHhfM3Z6TE9JQjc4aHI5NFhLS29lbVpuSGpyN3hFVVUxT255SmxaUXlzZlJxbm8tbW0wM3FIdFNsam9UVlVPYWdwSTlTOXFlSWJfdEhwdjVodnpUdWRoQUdYaElPY2tsZzNkMFNn?oc=5",
-          "domain": "iza.ne.jp",
-          "published": "2026-11-19T10:00:00+09:00",
-          "published_label": "2026/11/19(木) 10:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "「ReviCo」、「4℃」公式ECにレビュー機能を提供 レビュー投稿率493％増を達成 (日本ネット経済新聞)",
           "summary": "",
@@ -8659,9 +8691,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "株式会社visumo、レビュー機能「ReviCo」をShopify App Storeで提供開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4zUjBROWJEMVJBWEVzWTB3YUxYS2dkWk1OTndfWVhweHFnNmg0cm93Z2lvSzZEdl9DSFZ3MEZ1MXhndER5NmprRXdjZTlpNjlPSkd6aFdkOA?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-10-06T16:00:00+09:00",
+          "published_label": "2026/10/6(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "「ReviCo」、Shopify App Storeに提供開始 商品・注文情報の自動連携で効率的なレビュー運用を支援",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmdEJESUxMbjZmV09vWmRXRFpZeXVJSEVNN3BJNnZFM2plb2tKVWVENzEySDZ4X2dRdmNtczNxRWl4c01nREFuQ0w4ZHYtU0w0c3VpUWhIaGJzNnNwOGh0ZHc1UjBnQzRtMFE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-06T16:00:00+09:00",
+          "published_label": "2026/10/6(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_80",
@@ -8847,7 +8911,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_82",
@@ -8860,13 +8924,13 @@
       "count": 5,
       "items": [
         {
-          "title": "Ｓｐｅｅｅ[4499]：オンチェーン金融におけるプライバシー 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "title": "Ｓｐｅｅｅ[4499]：公認会計士等の異動に関するお知らせ 2026年11月16日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BUlljV0h0a2hxNlh0aVdGU1kzcFl1dEtQcUw4cWIwcHU2eVI5S2kxUmpvRm10ZGNqVWtYMGZsTkRYZ2JORWlkRU4xT2h0ZFFGbG5tNUZJbVIxZ0xDVjVibjExZVlOSHlFR2c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVcy1Pb2hBRGpuclpwNTdMNmhRaUF3bmZ2ak15ampiSjVOX1Uxc3Yzc2J1c2JueWh1V2RmRjljc0NrMDRqOXNDZ0JwbmMycXp1WWtVRWVjU2lUdjhGRlJNN0RGWVJNU25CMFE?oc=5",
           "domain": "nikkei.com",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
+          "published": "2026-11-16T15:30:00+09:00",
+          "published_label": "2026/11/16(月) 15:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -8889,7 +8953,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)Ｓｐｅｅｅ【4499】：決算情報",
@@ -8905,7 +8969,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Speeeグループ4サービスに不正ログイン、延べ3,822件の個人情報に閲覧・取得の可能性 イエウール・ヌリカエなどが対象",
@@ -8921,7 +8985,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Speeeが対象に（午後の空売り規制アラート）",
@@ -8937,10 +9001,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_83",
@@ -8952,6 +9016,22 @@
       "via": "https://news.google.com/rss/search?q=%22TOKIUM%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "中央工学校がTOKIUMインボイスなどを導入 経理業務を年間約600時間削減",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE16RnRQWW9VRmFCc1NkOXpHYW81VVNWNVpkM1kxVmJlWUtXTDI4cEptYzhWcmlOZTVJWXNycUMwRUcyNFA3RFE?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-11-20T18:19:38+09:00",
+          "published_label": "2026/11/20(金) 18:19",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "〔新規公開〕TOKIUM、25日グロース上場＝経理システム開発(時事通信)",
           "summary": "",
@@ -9015,25 +9095,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ＴＯＫＩＵＭの公開価格は１６２０円に決定、１１月２５日グロース市場に新規上場",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91RFRnVVRIdDN0OENad3pzWF9DSG5ORUpVUEo3VE5lY09yRHdqSlVzQ2l6NkFucWc1X1RUVkdlb1dmR2lKNWhGaGNPVFN0S21FcGM1a1FFTFYyN3Zfcmc?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-16T17:11:19+09:00",
-          "published_label": "2026/11/16(月) 17:11",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_84",
@@ -9126,7 +9190,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "cc_85",
@@ -9216,7 +9280,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -9235,17 +9299,17 @@
           "title": "グリーングロース、YOUTRUST主催キャリアイベント「STARTUP＆VENTURE PARADISE（#スタパラ）」に出展・登壇",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB1c01vaW5kWVRwWngwM1FuaFp0ekFMT0s2SW5iNDlwNUZIbzhjbUdpYndhR1I3QS1zOGtlV0Q3aEh1dzNaMTJ6eWoxUWlhYUxueGJxOG5BUFd5Z3JGYUtjZTZVLW11S0lnX2JJ?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-11-20T14:47:00+09:00",
-          "published_label": "2026/11/20(金) 14:47",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBibDhyOG9CdDEzSU9IbGZLOHlJWW02QUpVdFFUSEVMUDFvazUtQXMxd28zcFBpZmh5aG5aV090MWlzcmRzclZmR0lLQldITWZ3M1RrRzUwTEhsaVF1a2Q2ODEtTHZfcEFEb2c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-20T12:10:02+09:00",
+          "published_label": "2026/11/20(金) 12:10",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "プレスリリース：株式会社テックビズ、信頼を起点とした新規顧客開拓の強化を目的に「YOUTRUST SALES」を導入（PR TIMES）",
@@ -9312,7 +9376,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "cc_87",
@@ -9389,13 +9453,13 @@
           "is_new": false
         },
         {
-          "title": "「106万円の壁」撤廃を前に、40〜50代女性の履歴書は「パート」から「転職」へ | 株式会社Yagishのプレスリリース",
+          "title": "【11/25(水)開催】売れないCAとトップCAは何が違うのか？〜データが暴く「決定数3倍」を生む歩留まりの真実〜 Yagish×circus×ブレイン・ラボ 3社共催セミナー",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TMF9IUDN2SVBlRTgyMDdyb0FKNmpDRzNjTmIwcmM2d3JZazZockxXVzNOcHJVVmp3aVZ4X0tTOGVlSUkyc3NHM1FjdXoxbHZnSEhMMTVUZExPV0tEdHZ2cTRnTk5IeGw3OHc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zV3lodDhtVkRMakpyZ0s0WXhlQV9hbTRxWld3ME95V09VSURPSTNmWjBtV0lXdnBiR0FsN28xOTJsdkFHS21lQWlPUDVYYjVUVFVVX3FGS0ZCeHFkUzVfOXQ1R2N0azlTY2c?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-10-29T16:00:00+09:00",
-          "published_label": "2026/10/29(木) 16:00",
+          "published": "2026-11-13T08:50:02+09:00",
+          "published_label": "2026/11/13(金) 08:50",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -9495,10 +9559,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_89",
@@ -9652,10 +9716,10 @@
           "is_new": false
         },
         {
-          "title": "うるる[3979]：2027年3月期 第2四半期 決算説明資料 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
+          "title": "うるる[3979]：2027年3月期 第2四半期 決算データシート（PDF） 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRXNDRFc3SnhjSFNfZzFMODJUN0xxNUVwYnBKX3FJUG5EYzFIOV81UnBCNzRoZE1HbWlzVU9wSHZEY1I3NGJfdkxsalNRLUFXYUVrZVloTWl6LUszZjN5UWxCZUx1Y18zMG9OZU5fR21UV054Uzg0VElKQ21heEZHUk9hbEN4c2NmZWlnb0RFU1YwckVQRXkxSHVrZzI1THRSUHpGTG8zX0NWU2Q4a0gyMUpSNVZFX3l3WDhRTDdwdHRYRk1aVFhYQ3pDaXg?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LdHg4ZFBaU0hQSVk2dFdCN3Zjd1JBenI2TDc5TkxEY0d2ZVNtTHRia3ZZX21ZM21BUThKZDdMQzU3V1V2U1lNMWRuOFA3UkM5ZXFwRDBlZ2NKTmFuSllzXzN2ODhzeXZSLWc?oc=5",
           "domain": "nikkei.com",
           "published": "2026-11-12T12:00:00+09:00",
           "published_label": "2026/11/12(木) 12:00",
@@ -9665,7 +9729,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "うるる[3979]：自己株券買付状況報告書（法２４条の６第１項に基づくもの） (有価証券報告書) ：日経会社情報DIGITAL",
@@ -9684,7 +9748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "cc_91",
@@ -9777,7 +9841,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "cc_92",
@@ -9975,7 +10039,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%A2%E3%83%83%E3%83%97%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "cc_95",
@@ -10161,7 +10225,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "cc_97",
@@ -10179,8 +10243,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DN0VlT2hETHNSZ3hGNWNVNE8wOVlmazZKdDI3UnhsSHMxbDdWMElkVnRoSWU5bzlVdWxtc1VsM3VMR2w1LXJkLUc5cXZGQmVjTVJaUVJCRGNIV0VvamFhNlg5d2ZQQUhw?oc=5",
           "domain": "news.mynavi.jp",
-          "published": "2026-11-12T14:00:00+09:00",
-          "published_label": "2026/11/12(木) 14:00",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -10195,31 +10259,15 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41SjhXZkZvMXNWWjdweUw3NElNODZPcmFycFpGTV9tVlRoYVZxamllQm5hVXpfYi1aREM4MFdvbU5YazZldTlObHg1RklWT3Uya0xULU1rd2xudUpQVTNHc2hySG5LVG1UZ3c?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-11-12T10:00:02+09:00",
-          "published_label": "2026/11/12(木) 10:00",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "なぜ上場を捨ててまでAIに賭けたのか？ カオナビが非公開化して進める「脱・勘と経験の人事」（1/6 ページ）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4tMlFHTmRORGplMlNWbXM4VEowRkNNbU1pcHBVUU9TOUJfQWNnRkdUYkRIM1N2T1h1N09iaGxQWTNuTWFDUHUyV3FCRGl3QktTQTdZTFBnTko4ZlRDUkJhQ0VzRnJ4Z2RlTGhNbXBWSk1Jdw?oc=5",
-          "domain": "itmedia.co.jp",
-          "published": "2026-10-22T16:00:00+09:00",
-          "published_label": "2026/10/22(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「カオナビ パートナーアワード2026」を開催 “繋ぐ”から“共創”へ、変わるパートナービジネス｜ニュース",
@@ -10235,7 +10283,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "カオナビがAIエージェント「KTi」をリリース｜ニュース",
@@ -10243,6 +10291,22 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10NDBWN05JcjBrTDRUSmlwNExrWGhET2pYQXpaeGRSZzJNSE5tOFYzTnV2N09ubTg5Q2dnUWw5R1h6NVhKTDU3c1NWdUpoZnBzNzRV?oc=5",
           "domain": "corp.kaonavi.jp",
+          "published": "2026-10-01T16:00:00+09:00",
+          "published_label": "2026/10/1(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "香取慎吾が「カオナビ」の新サービスAIエージェント「KTi」の新CMに出演！10月3日より放映開始！",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rS29vbUtzNnBsUm5nMG05ZXJhbEdiOURKTW5DMXVLNHZkUjdBVGlramR5QVNlQUZsNzlrM3NiVmVwdEpXa0tCY19JSUtlTlFwV0xmZ09aNXo3LVFyeFgyLTZFbkFiTlVxNVpjZHBDaDY5cy1K?oc=5",
+          "domain": "contents.atarashiichizu.com",
           "published": "2026-10-01T16:00:00+09:00",
           "published_label": "2026/10/1(木) 16:00",
           "badge": "JP",
@@ -10266,6 +10330,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%AC%E3%82%A4%E3%82%A2%E3%83%83%E3%82%AF%E3%82%B9%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "(株)ガイアックス【3775】：株価・株式情報",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43V0M0NnpaamwxQkhhMjNNX0ZHZnNXWUxGTUJHSjVhaTlrM1ZvMk5wemlvMWs2WVBXdFNCbGVUSFI5d01QVVo0SUlENEZiSEg0Qmc?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-20T16:51:28+09:00",
+          "published_label": "2026/11/20(金) 16:51",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ガイアックス、静岡県「N-E.X.T.ハイスクール」改革先導校に伴走 静岡新聞社とeiiconの3社で連携",
           "summary": "",
@@ -10302,9 +10382,9 @@
           "title": "【 株式会社eiicon 】静岡新聞社・ガイアックスとともに 静岡県「N-E.X.T.ハイスクール」改革先導拠点高校 4校の伴走支援を開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAyTHFwNzBZUzZ6VndaZHZURFBSQzg5NUlxVXRBX1VBZW9tNFlGYnQ1ZGhJSWdvc1lZa0NjX1hrbFpjTGZJLXY2SkYzRk9vNnNpc0hnMUpSTjVfWVZabVJzSFRsYTdGbUpzeVE3MFBVeEI5d1U5SC1paGxB?oc=5",
-          "domain": "iza.ne.jp",
-          "published": "2026-11-16T10:00:00+09:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OeVItSVZ2LU1CeW4xeUdNWVdRV19pZWJNZVhLeWlzZ0o2ZmJBQVlCcUw4MUMzUFc1ZURQdlFTY3E2SlhuN2xZLUhVNWV0S0djc3BTM0d4TU9XdzA2Zk1xeUlwY0VKWEk1VXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-16T10:00:02+09:00",
           "published_label": "2026/11/16(月) 10:00",
           "badge": "JP",
           "badge_class": "badge-news",
@@ -10315,28 +10395,12 @@
           "is_new": true
         },
         {
-          "title": "【決算速報】ガイアックス、今期最終を3000万円の赤字～2000万円の黒字に下方修正(株探ニュース)",
+          "title": "ガイアックス、２６年１２月期の連結純損益予想を３０００万円の赤字に修正(ウエルスアドバイザー)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPb1Z2UFA5VXdQY0E3TGJiSnRrSGRuRlE0ZG9JNTNhYTBCNkFQeEFvd0J4ck1xQWRPV0hnR1lYQlNKUTJOODdqQUZlT2JtVVlEZzN0cGlzdFNTcHJ3VmtsQXdNWk5ITks1dzNWMXpreEdkS1JVUGF2WnR1allzeDVuRm56QlVDMUk?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZUZQM3NLMnZfQm1jNFNvbHZ2Z2pMQWoyUWhGRC1XaWJCNDN1VjQxNXVlYlNfWWxCMXlocFpqVHo3eGNZRlEzRm84dUs3M1Z1S1k0MzBsODUyOEd2OVlVb0tQUUhNT0wtMlphR1pNZENrNS1sSFc3X1hBR1hFNGhpSWFLOGJoSWc?oc=5",
           "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-12T16:04:38+09:00",
-          "published_label": "2026/11/12(木) 16:04",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "【決算速報】ガイアックス、3Q累計経常89百万。(アイフィス株予報)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3NFUXpyTGVPXzRKdzZCaVhDekhRVnNacUVsSnlDajVlVjRLV3hob3hkQ0J0eWpqQkRxRnMtdUxYMVFVdlhwZTdqZlJnbXFxNzNSamZiYlM2TV9PaWdYT0tCLXNKM19XYXZtZElZaDkzU2IteERtdjFoUUtPOHZDb1JrOWFNdkU?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-12T16:00:40+09:00",
+          "published": "2026-11-12T16:00:34+09:00",
           "published_label": "2026/11/12(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
@@ -10347,7 +10411,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "cc_99",
@@ -10376,20 +10440,20 @@
           "is_new": false
         },
         {
-          "title": "ギャプライズが「Claude」でUXを改善する4つの機能の提供を開始、サイトの使いやすさ向上へ（Web担当者Forum）",
+          "title": "ギャプライズが「Claude」でUXを改善する4つの機能の提供を開始、サイトの使いやすさ向上へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MN0pzdnlVR25VZGZxcVZhdDY4d0tWRkJpV1JaZWV3bW0yeFRDYnVuNzNjRUJCcTk5YjU3dGhmeTZLLWJ6MXBWMF9jZ1J4Y3lKU3F4ZDZsMC1Hcy0yWnVOYW91NTg2NW8wSXpMekxLSGpHX3hBME51WkR2aFlBRGc?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-13T15:03:49+09:00",
-          "published_label": "2026/11/13(金) 15:03",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52ZzBlWDdfb3N4T29rOE43eElCTUxFbE9JVkJiNHJ0S29hVUZVaE45eDhwODdnNjJONjJGODhhdmxGWnBpWHRSQTBuZVFSZ2gzX3UxdHNEbldzeXc?oc=5",
+          "domain": "webtan.impress.co.jp",
+          "published": "2026-11-13T07:01:00+09:00",
+          "published_label": "2026/11/13(金) 07:01",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "ギャプライズ、Claudeを使ったUX改善の4つの機能を提供開始 示唆・案・試作はAI、判断は人",
