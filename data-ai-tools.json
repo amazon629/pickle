@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T04:28:36+09:00",
-  "generated_at_label": "2026/11/20 04:28 JST",
+  "generated_at": "2026-11-20T09:15:58+09:00",
+  "generated_at_label": "2026/11/20 09:15 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "3 more weeks of free Perplexity Decider-v1.3 👀\nAravind Srinivas (@AravSrinivas)\nWe've decided to keep Perplexity Decider-v1.3 (and Flash) free for another 3 weeks on @OpenRouter. Perplexity's share of requests on Decision models is now close to 20%. We're able to do this because we own the full stack: model, inference, compute, search. Have fun!\n— https://x.com/AravSrinivas/status/2123478424761368980",
@@ -65,7 +65,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Perplexity Decider-v1.3 をあと 3 週間無料でご利用いただけます 👀\nアラヴィンド・スリニバス (@AravSrinivas)\n@OpenRouter で Perplexity Decider-v1.3 (および Flash) をさらに 3 週間無料で提供し続けることを決定しました。意思決定モデルに関するリクエストにおける Perplexity のシェアは現在 20% 近くになっています。これができるのは、モデル、推論、計算、検索のフルスタックを所有しているからです。楽しむ！\n— https://x.com/AravSrinivas/status/2123478424761368980"
         },
         {
@@ -84,7 +84,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "@SpeechifyAI の Simba 3.5 が OpenRouter で 12 月 3 日まで 25% オフになりました。\nSpeechify の最新のテキスト読み上げモデル、48 言語、ストリーミング音声があり、価格は 100 万文字あたり 11.25 ドル (15 ドルから値下げ) です。\nもっと見る:\nOpenRouter のモデル (@ModelsOnOR)\n@SpeechifyAI の Simba 3.5 が OpenRouter で公開されました\nSpeechify の最新のテキスト読み上げモデルは、48 言語とストリーミング音声を備え、100 万文字あたり 15 ドルです。\nもっと見る:\n— https://x.com/ModelsOnOR/status/2120638114683306261"
         },
         {
@@ -103,7 +103,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "支出の割合別の上位プロンプト カテゴリ:\n1. 実装\n2. 分類とタグ付け\n3. デバッグ"
         },
         {
@@ -122,7 +122,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Googleは今、泣き寝入りしている。\n彼らの最新のモデルの気に入っている点は、多くのタスク、特に imo の作成に優れているだけでなく、他のモデルとは考え方が違うように見えることです。\nプロのヒント: Grok @bot などの日常エージェントに @OpenRouter MCP をインストールし、作成しているものがうまくいかない場合や、何かについて新しい視点が必要な場合には、Neon や Carbon などの Gemini モデルをプルします。\n私はさまざまな執筆タスクでこれを行ってきましたが、ほとんどの場合、品質を向上させ、多くの遅れを取り除くのに役立ちます。\nOpenRouter のモデル (@ModelsOnOR)\n@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\n— https://x.com/ModelsOnOR/status/2123169016076460334"
         },
         {
@@ -158,7 +158,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\nGoogle ディープマインド (@GoogleDeepMind)\nGemini 4 Neon は現在展開中です。\n炭素と水素の間に位置し、複雑なソフトウェア エンジニアリング、知識作業、科学に最先端のインテリジェンスと迅速なタスクの完了をもたらします。\n— https://x.com/GoogleDeepMind/status/2123167884411077030"
         },
         {
@@ -291,7 +291,7 @@
           "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 8.1
+      "elapsed": 3.4
     },
     {
       "id": "x_opencode",
@@ -447,6 +447,24 @@
           "title_ja": "退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\nオープンコード (@opencode)\nGLM作戦フェーズ1\n100 ドル分の GLM 5.3 使用量を 10 ドルで\nすべての OpenCode Go サブスクライバーが利用可能\n— https://x.com/opencode/status/2122600875562537329"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2119541981278093312/v6iU4oU9?format=png&name=800x419"
+          ],
+          "link": "https://x.com/opencode/status/2122601201531507042",
+          "domain": "x.com",
+          "published": "2026-11-17T17:02:17+09:00",
+          "published_label": "2026/11/17(火) 17:02",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Operation GLM Phase 1\n$100 of GLM 5.3 usage for $10\navailable to all OpenCode Go subscribers",
           "summary": "",
           "images": [],
@@ -548,28 +566,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
-        },
-        {
-          "title": "this is what happens when a designer has ai psychosis",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122760046060642304/RnMvR5Fm?format=png&name=800x419"
-          ],
-          "link": "https://x.com/thdxr/status/2121047123290362335",
-          "domain": "x.com",
-          "published": "2026-11-13T10:06:55+09:00",
-          "published_label": "2026/11/13(金) 10:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "デザイナーがAI精神病になるとこうなる"
         }
       ],
-      "elapsed": 12.0
+      "elapsed": 3.3
     },
     {
       "id": "x_aimirai46487",
@@ -582,284 +581,274 @@
       "count": 15,
       "items": [
         {
-          "title": "Googleは、月額1万4500円からの上位AIサブスクプラン「Google AI Ultra」に付属するYouTube Premiumを、追加料金なしで個人プランからファミリープランにアップグレードすると発表しました。日本も対象です。",
+          "title": "OpenAIは、AIエージェント「dots」のテストを、ChatGPTのPlusプランの一部ユーザー向けに提供開始すると発表しました。\nTibo (@thsottiaux)\nHeads up, we’re starting to test dots with a small number of ChatGPT Plus users. Looking forward to the continued feedback as we expand and I’m recently seeing a lot more positives around how good the proactivity has been after many improvements.\nWe’re also bringing dots to all ChatGPT Business Standard users. Rollout will start today.\n— https://x.com/thsottiaux/status/2123556256392847657",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123356397886902272/T_GJkc0u?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427743560020130",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2123564977550483872",
           "domain": "x.com",
-          "published": "2026-11-19T23:46:40+09:00",
-          "published_label": "2026/11/19(木) 23:46",
+          "published": "2026-11-20T08:51:59+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Googleは、低価格スマホ向けOS「Android Go」を搭載した端末でもGeminiを利用できるようにしました。\n対象はメモリ2GB以上の端末で、Google検索アプリを更新すると利用可能になります。",
+          "title": "■Ideogram",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123263272178917376/y1XPcytX?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2120214453744807936/_RdtNtL2?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427652245832154",
+          "link": "https://x.com/AIMIRAI46487/status/2123564920931553343",
           "domain": "x.com",
-          "published": "2026-11-19T23:46:18+09:00",
-          "published_label": "2026/11/19(木) 23:46",
+          "published": "2026-11-20T08:51:45+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nPika (@pika_labs)\nToday, we’re excited to share Enact, a research preview of scenes that respond to you.\nEnact represents a new way of making AI video, one that’s designed to mimic the experience of directing on set. Built on Pika H3 Flex, it allows a creator to interact with “actors,” manually re-stage a scene, and manipulate the camera—all in real time.\nWe think this is the beginning of a new paradigm for creation. Read more and reach out for a demo below.\nVideo\n— https://x.com/pika_labs/status/2123127584342921652",
+          "title": "■引用元\nIdeogram (@ideogram_ai)\nIntroducing Ideogram 4.6: the new frontier of precise editing, now in native 4K.\nA new image model with dramatically better realism and texture detail. Significantly less pixel drift outside your edits and much better color accuracy.\nVideo\n— https://x.com/ideogram_ai/status/2123461101224624402",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123127392667308032/img/rlmiKhvky1Tiu8k6.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123453315035824128/img/ZR6NkZ-4nv0Y253_.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427546406719610",
+          "link": "https://x.com/AIMIRAI46487/status/2123564883627389403",
           "domain": "x.com",
-          "published": "2026-11-19T23:45:53+09:00",
-          "published_label": "2026/11/19(木) 23:45",
+          "published": "2026-11-20T08:51:36+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nピカ (@pika_labs)\n本日は、あなたに反応するシーンのリサーチ プレビューである Enact を共有できることを嬉しく思います。\nEnact は、AI ビデオを作成する新しい方法を表しており、セットでの監督体験を模倣するように設計されています。 Pika H3 Flex 上に構築されているため、クリエイターは「俳優」と対話したり、シーンを手動で再ステージングしたり、カメラを操作したりすることがすべてリアルタイムで可能になります。\nこれは創造の新たなパラダイムの始まりであると私たちは考えています。詳細を読んで、以下のデモを入手してください。\nビデオ\n— https://x.com/pika_labs/status/2123127584342921652"
+          "is_new": true,
+          "title_ja": "■引用元\nイデオグラム (@ideogram_ai)\nIdeogram 4.6 の紹介: ネイティブ 4K での正確な編集の新境地。\nリアリズムとテクスチャの詳細が劇的に向上した新しい画像モデル。編集範囲外のピクセル ドリフトが大幅に減少し、色の精度が大幅に向上しました。\nビデオ\n— https://x.com/ideogram_ai/status/2123461101224624402"
         },
         {
-          "title": "Pikaは、キャラクターへの指示や配置変更、カメラ操作をリアルタイムで行える新しいAI動画生成技術「Enact」の研究プレビューを発表しました。\n実際の映画監督のような感覚でAI動画を制作できる技術です。",
+          "title": "Ideogramは、画像生成AIモデル「Ideogram 4.6」を公開しました(Ideogram公式で無料でお試し可、APIでも提供)。\n4K画質に対応し、生成する画像のリアルさや質感、色の再現精度が向上し、編集時の意図しない画像の変化も大幅に減少しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123127392667308032/img/rlmiKhvky1Tiu8k6.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123453315035824128/img/ZR6NkZ-4nv0Y253_.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427502769209630",
+          "link": "https://x.com/AIMIRAI46487/status/2123564832167535096",
           "domain": "x.com",
-          "published": "2026-11-19T23:45:42+09:00",
-          "published_label": "2026/11/19(木) 23:45",
+          "published": "2026-11-20T08:51:24+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■Arena -Code Arena:WebDev-",
+          "title": "■引用元\nOpenAI Developers (@OpenAIDevs)\nGPT-Live-1.1 is now available in the API.\nIt speaks with more natural and consistent accents across languages, supports lower idle costs with a new standby option, and completes tasks even more reliably.\nVideo\n— https://x.com/OpenAIDevs/status/2123506733524136446",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2121822908586807296/UqEnTqA9?format=jpg&name=800x419"
+            "https://pbs.twimg.com/amplify_video_thumb/2123506685390266368/img/WGZTCFjt1a44gZvk.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427421781414111",
+          "link": "https://x.com/AIMIRAI46487/status/2123564752286929367",
           "domain": "x.com",
-          "published": "2026-11-19T23:45:23+09:00",
-          "published_label": "2026/11/19(木) 23:45",
+          "published": "2026-11-20T08:51:05+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■アリーナ -Code Arena:WebDev-"
+          "is_new": true,
+          "title_ja": "■引用元\nOpenAI 開発者 (@OpenAIDevs)\nGPT-Live-1.1 が API で利用できるようになりました。\nどの言語でもより自然で一貫したアクセントで話し、新しいスタンバイ オプションでアイドル コストの削減をサポートし、タスクをより確実に完了します。\nビデオ\n— https://x.com/OpenAIDevs/status/2123506733524136446"
         },
         {
-          "title": "■引用元\nArena.ai (@arena)\nReal-world Arena scores are in for GPT-6.2 Astra and GPT-6.2 Sol by @OpenAI in the Code Arena: WebDev, and both have landed on the Pareto frontier!\n- #3 with 1781 pts: GPT-6.2 Astra (Max)\n- #7 with 1757 pts: GPT-6.2 Sol (Max)\nGPT-6.2 Astra: #3 with 1781 pts\n- +18 pts vs previous variant GPT-6 Astra (Max)\n- #1 in Consumer Product, compared with #4 for GPT-6 Astra\n- Median cost per task: $5.45 vs. $9.46 for GPT-6 Astra, 42% lower\n- Lands on Pareto frontier (see placement in thread)\nGPT-6.2 Sol: #7 with 1757 pts\n- +13 pts vs GPT-6.1 Sol (Max)\n- Median cost per task: $1.45 vs. $1.84 for GPT-6.1 Sol, 21% lower\n- Lands on Pareto frontier (see placement in thread)\n6.2 Astra vs. Sol\n- Astra scores +24 pts above Sol\n- Sol’s median cost per task is 73% lower ($1.45 vs. $5.45)\nCongrats to the @OpenAI team on this release. Agent score coming soon!\n— https://x.com/arena/status/2123112692810764496",
+          "title": "OpenAIは、AIと音声会話できる音声AIモデル「GPT-Live-1.1」が、APIで利用できるようになったと発表しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXbJQHRagAAVG1f.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123506685390266368/img/WGZTCFjt1a44gZvk.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427392261861757",
+          "link": "https://x.com/AIMIRAI46487/status/2123564730535256467",
           "domain": "x.com",
-          "published": "2026-11-19T23:45:16+09:00",
-          "published_label": "2026/11/19(木) 23:45",
+          "published": "2026-11-20T08:51:00+09:00",
+          "published_label": "2026/11/20(金) 08:51",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nアリーナ.ai (@arena)\nCode Arena: WebDev の @OpenAI により、GPT-6.2 Astra と GPT-6.2 Sol のリアルワールド アリーナ スコアが取得され、両方ともパレート フロンティアに到達しました。\n- #3 1781 ポイント: GPT-6.2 アストラ (最大)\n- #7 1757 ポイント: GPT-6.2 ソル (最大)\nGPT-6.2 アストラ: 1781 ポイントで #3\n- 以前のバリアント GPT-6 アストラと比較して +18 ポイント (最大)\n- GPT-6 Astra の第 4 位と比較して、消費者製品で第 1 位\n- タスクあたりのコストの中央値: 5.45 ドル対 GPT-6 Astra の 9.46 ドル、42% 低い\n- パレート辺境に上陸 (スレッド内の配置を参照)\nGPT-6.2 ソル: 1757 ポイントで 7 位\n- GPT-6.1 Sol に対して +13 ポイント (最大)\n- タスクあたりのコストの中央値: 1.45 ドル対 GPT-6.1 Sol の 1.84 ドル、21% 低い\n- パレート辺境に上陸 (スレッド内の配置を参照)\n6.2 アストラ対ソル\n- アストラのスコアはソルより +24 ポイント高い\n- Sol のタスクあたりのコストの中央値は 73% 低い (1.45 ドル対 5.45 ドル)\nこのリリースに関して @OpenAI チームに感謝します。エージェントスコアは近日公開予定です!\n— https://x.com/arena/status/2123112692810764496"
+          "is_new": true
         },
         {
-          "title": "AIプラットフォームのArenaは、AIモデルのweb開発能力を測るランキング「Code Arena:WebDev」で、OpenAIの最新AIモデル「GPT-6.2 Astra(Max)」が3位に、「GPT-6.2 Sol(Max)」が7位にランクインしたと発表しました。",
+          "title": "Geminiのデスクトップアプリ(macOS版)に、AIがパソコンを操作する「Computer Use」機能が追加されました(米国の有料ユーザーに展開)。\nGoogle Gemini (@GeminiApp)\nWith computer use in the Gemini app for Mac, you can now hand off tasks across your folders, apps, and the web, while your screen and cursor stay yours.\nWatch Gemini click, scroll, and type in a live background window, turning a quick sketch into a rigged 3D model in Blender.\n— https://x.com/GeminiApp/status/2123513203745538423",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXftzvua8AApq8B.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123427312721109438",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2123564656451268647",
           "domain": "x.com",
-          "published": "2026-11-19T23:44:57+09:00",
-          "published_label": "2026/11/19(木) 23:44",
+          "published": "2026-11-20T08:50:42+09:00",
+          "published_label": "2026/11/20(金) 08:50",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nLongCat Avatar 1.6 is NOW LIVE on WaveSpeed!\n- Turn photos into speaking or singing avatars\n- Animate two characters from a single image\n- Control who speaks and when\n- Customize expressions and motion with prompts\nPerfect for TikTok videos, YouTube content, podcasts, and more.\nGot a character in mind? Make them talk!\nVideo\n— https://x.com/wavespeed_ai/status/2123074500271001878",
+          "title": "OpenAIの携帯ゲーム機「ModRetro Chromatic」のCodex特別版が、オンラインショップ「Supply Co.」に再入荷しました。\nOpenAI Developers (@OpenAIDevs)\nChromatic respawned. Back in stock on Supply Co.\n— https://x.com/OpenAIDevs/status/2123491774274449422",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123052415075397632/img/BAwL3DYxjoNAKrr5.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2122533656413814784/bXVns-tU?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123426709961904185",
+          "link": "https://x.com/AIMIRAI46487/status/2123564546006888942",
           "domain": "x.com",
-          "published": "2026-11-19T23:42:33+09:00",
-          "published_label": "2026/11/19(木) 23:42",
+          "published": "2026-11-20T08:50:16+09:00",
+          "published_label": "2026/11/20(金) 08:50",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nLongCat Avatar 1.6 が WaveSpeed で公開されました!\n- 写真を話したり歌ったりするアバターに変える\n- 1 つの画像から 2 人のキャラクターをアニメーション化します\n- 誰がいつ話すかをコントロール\n- プロンプトを使用して表情とモーションをカスタマイズ\nTikTokビデオ、YouTubeコンテンツ、ポッドキャストなどに最適です。\n思い当たるキャラクターはありますか？彼らに話させてください！\nビデオ\n— https://x.com/wavespeed_ai/status/2123074500271001878"
+          "is_new": true
         },
         {
-          "title": "AIプラットフォームの「WaveSpeed」で、写真から話したり歌ったりするアバターを生成できるAIモデル「LongCat Avatar 1.6」を使えるようになりました。\n2人のキャラクターの発言タイミングや表情、動きを調整できます。",
+          "title": "Googleは、Gemini APIやAIプラットフォームの「Google AI Studio」で世界モデル「Genie 4」を利用できるようになったと発表しました。\nGoogle for Developers (@googledevs)\nDevelopers can now build with Genie 4 via the Gemini API (Interactions API) and @GoogleAIStudio. Check out how @reactorworld is using it via Reactor API to build infinite, interactive worlds with real-time controls and native audio ↓\n— https://x.com/googledevs/status/2123488427215860139",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123052415075397632/img/BAwL3DYxjoNAKrr5.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123426678835929504",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2123564492282057199",
           "domain": "x.com",
-          "published": "2026-11-19T23:42:26+09:00",
-          "published_label": "2026/11/19(木) 23:42",
+          "published": "2026-11-20T08:50:03+09:00",
+          "published_label": "2026/11/20(金) 08:50",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nOpenAI Developers (@OpenAIDevs)\nNot every workflow requires an immediate response.\nFor single- or multi-turn workflows that can wait, save up to 40% per token than Standard on GPT-6.2 Astra or GPT-6.2 Sol.\nIn Responses API background mode, choose a 2h or 8h target for the first response. These discounted windows are now in public beta.\nVideo\n— https://x.com/OpenAIDevs/status/2123188195202617408",
+          "title": "SpaceXAIのAIエージェント「Grok Bot」がノートアプリのObsidianとの連携(プラグイン経由)に対応し、Grok Botからノートの作成・検索・管理やWeb情報の保存などが可能になりました。\nObsidian (@obsdmd)\nGrok Bot can now connect to your Obsidian vault.\nCreate, search, and manage notes. It can update links, capture content from the web, create Bases and Canvas files. All while syncing changes to your devices with Obsidan Sync.\n— https://x.com/obsdmd/status/2123484964268413341",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123188140005560320/img/K4VWAqeU3sdAeVNK.jpg?name=small"
+            "https://pbs.twimg.com/media/HXggFuHbwAAuw4w.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123426621898285494",
+          "link": "https://x.com/AIMIRAI46487/status/2123564417166307826",
           "domain": "x.com",
-          "published": "2026-11-19T23:42:12+09:00",
-          "published_label": "2026/11/19(木) 23:42",
+          "published": "2026-11-20T08:49:45+09:00",
+          "published_label": "2026/11/20(金) 08:49",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nOpenAI 開発者 (@OpenAIDevs)\nすべてのワークフローが即時応答を必要とするわけではありません。\n待機できるシングルターンまたはマルチターンのワークフローの場合、GPT-6.2 Astra または GPT-6.2 Sol の標準よりもトークンあたり最大 40% 節約できます。\nResponses API バックグラウンド モードでは、最初のレスポンスのターゲットを 2 時間または 8 時間から選択します。これらの割引ウィンドウは現在パブリック ベータ版です。\nビデオ\n— https://x.com/OpenAIDevs/status/2123188195202617408"
+          "is_new": true
         },
         {
-          "title": "OpenAIは、Responses APIのバックグラウンドモードで、初回回答までの目標時間を2時間または8時間に設定することで、GPT-6.2 Astra・Solを通常より最大40％安く利用できる仕組みを、パブリックベータ版として提供開始しました。",
+          "title": "■引用元\nMicrosoft AI (@MicrosoftAI)\nMeet Canvas, our new interactive workspace powered by MAI Image 2.7 Flash.\nTurn sketches into polished diagrams, make precise image edits and refine your creations without starting over.\nSee it in action and try it yourself:\nVideo\n— https://x.com/MicrosoftAI/status/2123462465740533910",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123188140005560320/img/K4VWAqeU3sdAeVNK.jpg?name=small"
+            "https://pbs.twimg.com/media/HXgN3BKXkAABbae.png?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123426597852295225",
+          "link": "https://x.com/AIMIRAI46487/status/2123564333624086935",
           "domain": "x.com",
-          "published": "2026-11-19T23:42:06+09:00",
-          "published_label": "2026/11/19(木) 23:42",
+          "published": "2026-11-20T08:49:25+09:00",
+          "published_label": "2026/11/20(金) 08:49",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■引用元\nマイクロソフト AI (@MicrosoftAI)\nMAI Image 2.7 Flash を搭載した新しいインタラクティブなワークスペースである Canvas をご紹介します。\nスケッチを洗練された図に変換し、正確な画像編集を行って、最初からやり直すことなく作品を洗練させます。\n実際の動作を見て、自分で試してみてください。\nビデオ\n— https://x.com/MicrosoftAI/status/2123462465740533910"
         },
         {
-          "title": "■引用元\nRemotion (@Remotion)\nRemotion now has real motion blur!\nApply it\n→ agentically: reference any element and ask for motion blur\n→ interactively: click the “Motion blur” button in the Studio\n→ programmatically: Wrap your content in <HtmlInCanvasMotionBlur>\nVideo\n— https://x.com/Remotion/status/2123049725708443887",
+          "title": "Microsoft AIは、AIプラットフォームの「MAI Playground」に、新しい画像生成AI「MAI Image 2.7 Flash」を搭載した、対話型の作業スペース「Canvas」を実装しました(無料で利用可)。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123049280533417987/img/XOoGZ3ItTvnKt3ZK.jpg?name=small"
+            "https://pbs.twimg.com/media/HXgN3BKXkAABbae.png?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123346038748795309",
+          "link": "https://x.com/AIMIRAI46487/status/2123564250027438164",
           "domain": "x.com",
-          "published": "2026-11-19T18:22:00+09:00",
-          "published_label": "2026/11/19(木) 18:22",
+          "published": "2026-11-20T08:49:05+09:00",
+          "published_label": "2026/11/20(金) 08:49",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nリモート (@Remotion)\nリモートに本物のモーション ブラーが追加されました。\n適用してください\n→ エージェント的に: 任意の要素を参照し、モーション ブラーを要求します。\n→ インタラクティブ: Studio の「モーション ブラー」ボタンをクリックします。\n→ プログラム的に: コンテンツを <HtmlInCanvasMotionBlur> でラップします。\nビデオ\n— https://x.com/Remotion/status/2123049725708443887"
+          "is_new": true
         },
         {
-          "title": "解説動画生成スキル(Agent Skills)のRemotionに、本格的なモーションブラー(動いている物体がブレて見える効果)が追加されました。",
+          "title": "米国のトランプ大統領は、中国の習近平国家主席と協力し、AIの安全性を確保するための合理的な規制作りを進める考えを示しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123049280533417987/img/XOoGZ3ItTvnKt3ZK.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123502125577850880/KgVl3mp4?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345977499378043",
+          "link": "https://x.com/AIMIRAI46487/status/2123564170234958293",
           "domain": "x.com",
-          "published": "2026-11-19T18:21:45+09:00",
-          "published_label": "2026/11/19(木) 18:21",
+          "published": "2026-11-20T08:48:46+09:00",
+          "published_label": "2026/11/20(金) 08:48",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nMistral AI (@MistralAI)\nMistral Vibe is now available on Desktop!\nRun agents locally or remotely, and start shipping straight from your MacOS or Windows device.\nYou can try the Pro plan for free if you’re building in Europe. Coupon code: LECHONK\n(yes, we added more after we ran out yesterday).\nUse the link in 🧵:\nVideo\n— https://x.com/MistralAI/status/2123073168659141119",
+          "title": "台湾の半導体受託生産世界最大手「TSMC」は、米国の輸出規制強化を受け、中国のAI半導体企業からの一部先端製品の受注を停止しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123073010877825025/img/fnGdqX57-qa6NdP4.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2122609825888763904/AoNwSQUv?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345886281658474",
+          "link": "https://x.com/AIMIRAI46487/status/2123564118582137328",
           "domain": "x.com",
-          "published": "2026-11-19T18:21:23+09:00",
-          "published_label": "2026/11/19(木) 18:21",
+          "published": "2026-11-20T08:48:34+09:00",
+          "published_label": "2026/11/20(金) 08:48",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nミストラルAI (@MistralAI)\nミストラルバイブがデスクトップでも利用できるようになりました!\nエージェントをローカルまたはリモートで実行し、MacOS または Windows デバイスから直接配信を開始します。\nヨーロッパで構築している場合は、Pro プランを無料で試すことができます。クーポンコード: LECHONK\n（はい、昨日足りなくなった後、さらに追加しました）。\n🧵 のリンクを使用してください:\nビデオ\n— https://x.com/MistralAI/status/2123073168659141119"
+          "is_new": true
         },
         {
-          "title": "Mistral AIのAIエージェント「Mistral Vibe」のデスクトップアプリが公開されました(macOSとWindows対応)。",
+          "title": "Anthropicが米国のナスダック市場へ上場しました。株価は、初値が公開価格を約34％上回り、時価総額は一時2兆ドルを突破しました(最終的には公開価格を17.1％上回って取引終了)。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123073010877825025/img/fnGdqX57-qa6NdP4.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123517554367021056/-g1GVCzE?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2123345865691865362",
+          "link": "https://x.com/AIMIRAI46487/status/2123564020078989531",
           "domain": "x.com",
-          "published": "2026-11-19T18:21:18+09:00",
-          "published_label": "2026/11/19(木) 18:21",
+          "published": "2026-11-20T08:48:10+09:00",
+          "published_label": "2026/11/20(金) 08:48",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 12.1
+      "elapsed": 3.7
     },
     {
       "id": "x_kimmonismus",
@@ -891,6 +880,186 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123533527912480768/FvRhgDpr?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123546919930863791",
+          "domain": "x.com",
+          "published": "2026-11-20T07:40:13+09:00",
+          "published_label": "2026/11/20(金) 07:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Now its getting interesting: Apple is building its own autonomous AI agent that writes code, browses the web, controls apps and navigates your devices, Bloomberg reports.\nA launch could come as soon as late next year.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXhalcUaQAA82rk.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123546896925094034",
+          "domain": "x.com",
+          "published": "2026-11-20T07:40:08+09:00",
+          "published_label": "2026/11/20(金) 07:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ブルームバーグの報道によると、Apple はコードを記述し、Web を閲覧し、アプリを制御し、デバイスを操作する独自の自律型 AI エージェントを開発中です。\n発売は早ければ来年後半になる可能性がある。"
+        },
+        {
+          "title": "It is almost absurd how my arguments - and what I have to say - are being ignored. Yet, I stand by every single word I have written.\nTo put it more clearly: I concluded the essay by saying, \"Big day for Anthropic, a lot of work for OpenAI. But the end is still open.\"\nTake that seriously. Anthropic has won this battle. They pulled off an outstanding IPO, setting a benchmark against which all \"frontier labs\" - including OpenAI - must now be measured. Furthermore, a significant amount of liquid capital has flowed into Anthropic - an outcome OpenAI would have preferred to prevent or at least mitigate. That is how a market economy works. Anyone who doesn't grasp these economic fundamentals should brush up on them.\nHowever, it does *not* follow - nor did I ever claim - that it is all over. OpenAI has lost this particular battle, though not the war. Still, it is a defeat for the moment. That is what I am saying.\nAnd I stand by that.\np.s.: And it’s more than just \"Anthropic had a good IPO.\" An IPO reflects market expectations. The stock market anticipates the future! That’s what it’s all about.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123536042770997677",
+          "domain": "x.com",
+          "published": "2026-11-20T06:57:00+09:00",
+          "published_label": "2026/11/20(金) 06:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "私の主張、そして私が言わなければならないことがどのように無視されているかはほとんどばかげています。それでも、私は自分が書いたすべての言葉を支持します。\nもっと明確に言うと、私は「Anthropic にとっては素晴らしい日だが、OpenAI にとっては多くの仕事が必要だ。しかし終わりはまだ開かれていない。」という言葉でエッセイを締めくくった。\nそれを真剣に受け止めてください。 Anthropic がこの戦いに勝利しました。彼らは傑出した IPO を成功させ、OpenAI を含むすべての「フロンティア ラボ」が今後測定されるべきベンチマークを設定しました。さらに、かなりの量の流動資本がAnthropicに流入しており、OpenAIはこのような事態を防ぐか、少なくとも緩和したいと考えていたであろう結果である。それが市場経済の仕組みです。こうした経済の基礎を理解していない人は、さらに磨きをかける必要があります。\nしかし、それですべてが終わったというわけではありませんし、私も主張したことはありません。 OpenAI は、戦争ではありませんが、この特定の戦いに敗れました。それでも今のところは負けです。それが私が言っていることです。\nそして私はそれを支持します。\n追記: それは単に「Anthropic の IPO が良かった」というだけではありません。 IPOは市場の期待を反映します。株式市場は未来を予測している！それがすべてです。"
+        },
+        {
+          "title": "5/ The same architecture now reaches the desk. NVIDIA's RTX Spark in the Surface Laptop Ultra Microsoft sent me pairs an Arm CPU with an RTX GPU and up to 128GB of shared memory. Microsoft says it runs models up to 120B parameters locally.\nI think compute per watt is becoming the number that decides how many agents we can actually afford to run, in the data center and on the laptop. Right now Arm sits on both ends.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXhKqVOaQAAj8oT.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123529318781571224",
+          "domain": "x.com",
+          "published": "2026-11-20T06:30:17+09:00",
+          "published_label": "2026/11/20(金) 06:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "5/ 同じアーキテクチャがデスクにも採用されています。 Surface Laptop Ultra に搭載された NVIDIA の RTX Spark Microsoft は、Arm CPU と RTX GPU および最大 128 GB の共有メモリのペアを私に送ってくれました。 Microsoftによれば、最大120Bパラメータのモデルをローカルで実行しているという。\nワットあたりのコンピューティングが、データセンターとラップトップで実際に実行できるエージェントの数を決定する数値になりつつあると思います。今はアームが両端に乗っています。"
+        },
+        {
+          "title": "4/ Microsoft is one of four. AWS has Graviton, Google has Axion, Microsoft has Cobalt, NVIDIA has Grace and Vera. Companies that compete on almost everything, and all four build their CPUs on Arm. Google alone has ported more than 30,000 of its applications to Arm, including YouTube and Gmail.\nIn March, Arm went one step further and started selling its own chip, the AGI CPU, co-developed with Meta. So you can now license Arm's IP, build on a ready-made Arm Compute Subsystem (CSS) like Microsoft did for Cobalt 200, or buy the finished chip.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123529300561522862",
+          "domain": "x.com",
+          "published": "2026-11-20T06:30:13+09:00",
+          "published_label": "2026/11/20(金) 06:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "4/ Microsoft は 4 社のうちの 1 社です。 AWS には Graviton、Google には Axion、Microsoft には Cobalt、NVIDIA には Grace と Vera があります。ほぼすべての分野で競合する企業であり、4 社すべてが Arm 上に CPU を構築しています。 Google だけでも、YouTube や Gmail を含む 30,000 以上のアプリケーションを Arm に移植しています。\n3月、Armはさらに一歩進んで、Metaと共同開発した独自のチップであるAGI CPUの販売を開始した。そのため、Arm の IP のライセンスを取得したり、Microsoft が Cobalt 200 で行ったように既製の Arm Compute Subsystem (CSS) 上に構築したり、完成したチップを購入したりできるようになりました。"
+        },
+        {
+          "title": "1/ Agents are pulling AI hardware back to the CPU, and @Arm sits right at the center of it.\nThis week at Ignite, Microsoft made Azure Cobalt 200 generally available, its own 132-core Arm chip built for agent workloads.\nHere's why that matters 🧵",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXhKm0GbUAAkOIf.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123529258589200477",
+          "domain": "x.com",
+          "published": "2026-11-20T06:30:03+09:00",
+          "published_label": "2026/11/20(金) 06:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "1/ エージェントは AI ハードウェアを CPU に引き戻しており、@Arm はその中心に位置しています。\n今週の Ignite で、Microsoft はエージェントのワークロード向けに構築された独自の 132 コア Arm チップである Azure Cobalt 200 を一般提供しました。\nそれが重要な理由は次のとおりです 🧵"
+        },
+        {
+          "title": "(and yes, written without AI, just google for translation)",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123508694092861464",
+          "domain": "x.com",
+          "published": "2026-11-20T05:08:20+09:00",
+          "published_label": "2026/11/20(金) 05:08",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "(はい、AI を使用せずに書かれています。Google で翻訳してください)"
+        },
+        {
+          "title": "A quick take on Anthropic’s IPO and how it ties in with OpenAI.\nAnthropic made history today, and I think it’s safe to say the IPO was a success across the board. Its fully diluted valuation reached about $2 trillion at the start of trading. Shares opened at $111.50, 34.3% above the $83 IPO price, and stayed above the IPO price in subsequent trading.\nAnthropic got everything it could have hoped for from its IPO and expects $104.8 billion in net proceeds from the IPO and the concurrent private placement. That’s fresh capital it needs and plans to use, in particular, to keep leasing data centers. That makes SpaceXSI an indirect beneficiary. In other words, Anthropic’s IPO is a win for both Anthropic and SpaceX.\nOpenAI is the loser here. And even if a lot of people don’t want to hear it, I think it needs to be said. OpenAI lost in this case regardless (!) of whether GPT-6.2 Astra and Sol really are that bad or have gotten significantly better since then. The reason is that Anthropic’s IPO achieved what OpenAI is aiming for. With its IPO, Anthropic has gained a head start in terms of financing and established a public valuation benchmark against which OpenAI will be measured should it pursue an IPO of its own. That’s a fact.\nThe stronger OpenAI had looked ahead of the IPO and the more convincingly it had shown investors that it was the real play, the less money would have gone into Anthropic and the more capital would be available to OpenAI next year. That’s what matters.\nThe two are each other’s biggest competitors, and I can’t imagine a scenario in which OpenAI didn’t try, at least in some way, to undercut Anthropic’s valuation by putting out a release two days before Anthropic’s IPO. I think it’s pretty clear that it didn’t work. And (again) it makes no difference whether OpenAI’s model is good or bad.\nWhat was disastrous about the release was the public perception. The impression was that it wasn’t a good release, and the market bore that out. As the IPO numbers show, it posed no threat to Anthropic.\nIf anything, it went the other way. In my view, OpenAI’s latest release probably hurt OpenAI and strengthened Anthropic, because for a lot of people, Opus 5.5 and Fable 5.2 are still the best models even after the release. And yes, I know Astra leads in many areas, including science. That carries little weight with the market or in the public eye. That’s how this IPO should be put in context. And that’s how the numbers should be read.\nBig day for Anthropic, a lot of work for OpenAI. But the end is still open.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123508592192245761",
+          "domain": "x.com",
+          "published": "2026-11-20T05:07:55+09:00",
+          "published_label": "2026/11/20(金) 05:07",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Anthropic の IPO と OpenAI との関係について簡単に説明します。\nAnthropic は今日歴史を作りました。IPO は全面的に成功したと言っても過言ではないと思います。完全希薄化後の評価額は取引開始時点で約２兆ドルに達した。株価は83ドルのIPO価格を34.3％上回る111.50ドルで始まり、その後の取引ではIPO価格を上回ったままとなった。\nAnthropic は IPO から期待できるすべてのものを手に入れ、IPO と並行して行われた私募からの純収益は 1,048 億ドルと見込んでいます。これは、特にデータセンターのリースを継続するために必要であり、使用する予定の新たな資本です。これにより、SpaceXSI は間接的な受益者になります。言い換えれば、AnthropicのIPOはAnthropicとSpaceXの両方にとって勝利となる。\nここでは OpenAI が敗者です。たとえ多くの人が聞きたくないとしても、それは言う必要があると思います。 GPT-6.2 Astra と Sol が本当にそれほど悪かったのか、それともそれ以来大幅に改善されたのかに関係なく (!)、OpenAI はこの訴訟で負けました。その理由は、Anthropic の IPO が OpenAI の目指すものを達成したからです。 IPO により、Anthropic は資金調達の面で有利なスタートを切り、OpenAI が独自の IPO を目指す場合に評価される公的評価ベンチマークを確立しました。それは事実です。\nOpenAIがIPOを先取りし、より強力にIPOが本番であることを投資家に説得力を持って示せば示すほど、Anthropicに投じられる資金は減り、来年OpenAIが利用できる資金は増えるだろう。それが重要なのです。\n二人"
+        },
+        {
+          "title": "Neon ran Blender locally to model the diver, arenas and boss, then wired nine exported models into Three.js. All three boss rings animate live. Early on, damage previews were off and dying from overheating could leave you stuck in combat. Neon fixed both after we showed it how to trigger them. Balance is forgiving. An attack-first strategy won 66/96 seeded runs without the Orrery and 96/96 with Solar Meridian.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2123502173971743033",
+          "domain": "x.com",
+          "published": "2026-11-20T04:42:25+09:00",
+          "published_label": "2026/11/20(金) 04:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Neon は Blender をローカルで実行してダイバー、アリーナ、ボスをモデル化し、エクスポートした 9 つのモデルを Three.js に接続しました。 3 つのボス リングはすべてライブでアニメーションします。初期の段階では、ダメージのプレビューがオフになっており、オーバーヒートで死亡すると戦闘中に動けなくなる可能性がありました。 Neon は、それらをトリガーする方法を示した後、両方を修正しました。バランスは寛容です。攻撃第一の戦略により、オーラリーなしではシードランで66/96、ソーラーメリディアンでは96/96で勝利しました。"
+        },
+        {
+          "title": "I asked Gemini 4 Neon Extra to build a deckbuilder in Antigravity (\"Slay the Spire\"). It made The Glass Meridian, set in a flooded observatory. My favorite part is the boss. Halfway through the fight, the same card combo that kept your suit cool starts heating it up.\nA few more iterations and you will prompt any game you ever dreamt of and it will be ready to play.\nVideo\nChubby♨️ (@kimmonismus)\n1/ I got early access to Gemini 4 Neon and spent the day testing it in Antigravity. It built 17 interactive demos for me, from shooters to 3D worlds. Here are 8 of them, plus coding and tool use tests. I'm also sharing what went right and what went wrong.\nA thread:\nVideo\n— https://x.com/kimmonismus/status/2123168299890704735",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123502069424467968/img/l_j9HBRAk8SmqwwJ.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123168275190439936/img/s6ySTfFYUhckQEE8.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123502161749504393",
+          "domain": "x.com",
+          "published": "2026-11-20T04:42:22+09:00",
+          "published_label": "2026/11/20(金) 04:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "私は Gemini 4 Neon Extra に Antigravity (「Slay the Spire」) のデッキビルダーを構築するよう依頼しました。それは、浸水した天文台を舞台にした『The Glass Meridian』を作りました。私のお気に入りの部分はボスです。戦闘の途中で、スーツを冷静に保っていたのと同じカードの組み合わせがスーツを熱くし始めます。\nさらに数回繰り返すと、夢に見たどんなゲームでもプロンプトが表示され、すぐにプレイできるようになります。\nビデオ\nぽっちゃり♨️ (@kimmonismus)\n1/ 私は Gemini 4 Neon に早期アクセスし、Antigravity で 1 日かけてテストしました。シューティングゲームから 3D ワールドまで、17 のインタラクティブなデモを構築してくれました。ここではそのうちの 8 つと、コーディングとツールの使用テストを紹介します。何がうまくいったのか、何がうまくいかなかったのかも共有しています。\nスレッド:\nビデオ\n— https://x.com/kimmonismus/status/2123168299890704735"
+        },
+        {
           "title": "Your watch tracks your heart. Your ring tracks your sleep. Your eyes work from the second you wake up until you shut the laptop at night, and almost nothing reads them.\nSTASIS (YC F26) just launched glasses that do. Six sensors sit inside a frame that looks like a regular pair. They track every blink, squint and stare, flag when your eyes are tired, you're too close to the screen or the lighting is bad, and tint the lenses when your eyes need relief.\nWhat's interesting is the data. How fast your eyes move and how wide your pupils get says a lot about sleep, fatigue and focus.\nPreorders are open.\nSoham Chakraborty (@sochak03)\nBacked by YC and tested by NBA star Moses Moody, our glasses tell you when your brain peaks.\nYour ring tracks your heart. Your watch tracks your sleep. Nothing tracks the eyes and brain running the show.\nSTASIS reads your 100,000+ daily eye movements to tell you:\n• When you’re at peak focus\n• When your eyes start burning out\n• When scrolling and blue light starts costing you sleep\n6 sensors. 11mm frame. 92% accuracy. No external cameras.\nPre-orders are open. Get yours.\nVideo\n— https://x.com/sochak03/status/2123476426968216055",
           "summary": "",
           "images": [
@@ -906,7 +1075,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "時計はあなたの心を追跡します。あなたのリングはあなたの睡眠を追跡します。目が覚めてから夜にラップトップを閉じるまで、目は働いていますが、ほとんど何も読みません。\nSTASIS (YC F26) は、そのようなメガネを発売しました。通常のペアのように見えるフレーム内に 6 つのセンサーが設置されています。まばたき、目を細めて凝視するたびに追跡し、目が疲れているとき、画面に近づきすぎているとき、または照明が悪いときにフラグを立て、目を和らげる必要があるときにレンズに色を付けます。\n興味深いのはデータです。目の動きの速さと瞳孔の広がりは、睡眠、疲労、集中力について多くを左右します。\n予約注文は受付中です。\nソーハム・チャクラボルティ (@sochak03)\nYC の支援を受け、NBA スターのモーゼス ムーディによってテストされた当社のメガネは、脳がいつピークに達するかを教えてくれます。\nあなたのリングはあなたの心を追跡します。時計は睡眠を追跡します。ショーを実行している目や脳を追跡するものは何もありません。\nSTASIS は、毎日 100,000 回を超える目の動きを読み取り、次のことを伝えます。\n• 集中力がピークに達しているとき\n• 目が疲れ始めたとき\n• スクロールやブルーライトで睡眠が妨げられ始めたとき\n6つのセンサー。 11mmフレーム。 92%の精度。外部カメラはありません。\n予約注文は受付中です。入手してください。\nビデオ\n— https://x.com/sochak03/status/2123476426968216055"
         },
         {
@@ -923,7 +1092,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "今日だけで +40m になったと想像してみてください。あなたは従業員としてこの会社を前進させることにとても興奮しているに違いありません"
         },
         {
@@ -942,7 +1111,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "「SECの提出書類と投資家によると、今日の同社のIPO後、アンスロピックの平均的な従業員の価値は4,000万ドルを超える可能性があります。」"
         },
         {
@@ -961,199 +1130,11 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Gemini API に Genie 4 を導入 + @GoogleAIStudio、開発者が新しいワールド モデル エクスペリエンスを構築および作成するための最初のワールド モデル 🔮\n試してみてください:"
-        },
-        {
-          "title": "Its now the 6th most valuable company in the world",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123466679166660682",
-          "domain": "x.com",
-          "published": "2026-11-20T02:21:23+09:00",
-          "published_label": "2026/11/20(金) 02:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "現在、世界で6番目に価値のある企業です"
-        },
-        {
-          "title": "They did it. Anthropic wrote history today. They are valued at $2 trillion market cap and opened 34% higher than the IPO price of $83.\nThey raised over $100b this morning.\nOpenAI must be in shock.\nChubby♨️ (@kimmonismus)\nAnd so it begins: Anthropic just rang the opening bell at Nasdaq. This is going to be a record IPO.\nVideo\n— https://x.com/kimmonismus/status/2123431161276015030",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgQpHwakAAcsGF.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123424321250934784/img/4lzhZ7GX31rDvMAM.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123466131310870806",
-          "domain": "x.com",
-          "published": "2026-11-20T02:19:12+09:00",
-          "published_label": "2026/11/20(金) 02:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "彼らはそれをやったのです。今日、人類は歴史を書きました。これらの時価総額は2兆ドルと評価され、公開価格の83ドルより34％高いオープンとなった。\n今朝彼らは1000億ドル以上を集めました。\nOpenAIはショックを受けているに違いない。\nぽっちゃり♨️ (@kimmonismus)\nそして始まります。Anthropic がナスダック市場の開始のベルを鳴らしたところです。これは記録的なIPOとなるだろう。\nビデオ\n— https://x.com/kimmonismus/status/2123431161276015030"
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123437972360253440/SKtsasb-?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123455269145575544",
-          "domain": "x.com",
-          "published": "2026-11-20T01:36:02+09:00",
-          "published_label": "2026/11/20(金) 01:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Anthropics stock is in such high demand that it is already up 32% and will now start trading at approximately $110/share.\nAt the same, AMD, fell sharply after Hunterbrook reported that a U.S.-blacklisted Chinese server maker kept publishing updates with newer AMD firmware.\nAMD agreed to invest $2.5B in Anthropic alongside the IPO. Oh the irony.\nAnd its only 8:30am.\n$ANT $AMD",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgGaCpbwAAoLcb.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123455222261727312",
-          "domain": "x.com",
-          "published": "2026-11-20T01:35:51+09:00",
-          "published_label": "2026/11/20(金) 01:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "アンスロピックス株の需要は非常に高く、すでに32％上昇しており、今後は1株あたり約110ドルで取引が始まるだろう。\n同時に、米国のブラックリストに載っている中国のサーバーメーカーが新しいAMDファームウェアを使ったアップデートを公開し続けているとハンターブルックが報じた後、AMDは急落した。\nAMDはIPOと同時にAnthropicに25億ドルを投資することに同意した。ああ、皮肉なことだ。\nそしてまだ午前8時30分です。\n$ANT $AMD"
-        },
-        {
-          "title": "Google is on such a run right now! its insane.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123443019974414373",
-          "domain": "x.com",
-          "published": "2026-11-20T00:47:22+09:00",
-          "published_label": "2026/11/20(金) 00:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "Google は今、まさに絶好調です。それは非常識です。"
-        },
-        {
-          "title": "Holy, feel the acceleration: Google DeepMind researchers are already thinking past AGI:\nIn a new DeepMind Institute essay, Tim Genewein says AGI is \"coming within reach\" and lays out four paths to superintelligence:\n-bigger models and data,\n-new paradigms,\n-millions of coordinated agents, and\n-recursive self-improvement.\n- Effective compute grows at least 10x per year. In ten years you could run more copies of today's agents than there are people on Earth.\n- Work that costs $1 billion in compute today would cost around $1,000.\nAnd: restricting one input like training compute won't stop progress, because the other paths keep moving.\nSo yeah, ASI it is. Looks like the path is clear and everything is within reach. Im so excited :)\nShane Legg (@ShaneLegg)\nDeepMind Institute\nOur new essay examines the path from AGI to ASI (Artificial General Super Intelligence)\nRead it here:\n— https://x.com/ShaneLegg/status/2123433633692495908",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXf6y3CawAA9f20.jpg?name=small",
-            "https://pbs.twimg.com/media/HXf7TV3asAAkVYk.jpg?name=small",
-            "https://pbs.twimg.com/media/HXf7bCOaMAAQDZm.jpg?name=small",
-            "https://pbs.twimg.com/media/HXf7ilQawAAbg3i.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123442644877799789",
-          "domain": "x.com",
-          "published": "2026-11-20T00:45:52+09:00",
-          "published_label": "2026/11/20(金) 00:45",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "加速を感じてください。Google DeepMind の研究者はすでに AGI を超えて考えています。\nDeepMind Institute の新しいエッセイの中で、ティム・ジェネワイン氏は、AGI が「手の届くところに来ている」と述べ、超知能への 4 つの道筋を示しています。\n- より大きなモデルとデータ、\n- 新しいパラダイム、\n- 何百万もの調整されたエージェント、および\n- 再帰的な自己改善。\n- 効果的なコンピューティングは年間少なくとも 10 倍に増加します。 10 年後には、地球上の人口よりも多くの現在のエージェントのコピーを実行できるでしょう。\n- 現在、コンピューティングに 10 億ドルかかる作業は、約 1,000 ドルかかるでしょう。\nまた、トレーニング コンピューティングのように 1 つの入力を制限しても、他のパスは移動し続けるため、進行が停止することはありません。\nそうです、ASIです。道は明瞭で、すべてが手の届くところにあるようです。とても興奮しています:)\nシェーン・レッグ (@ShaneLegg)\nディープマインド研究所\n私たちの新しいエッセイでは、AGI から ASI (人工汎用超知能) への道を考察します。\nここで読んでください:\n— https://x.com/ShaneLegg/status/2123433633692495908"
-        },
-        {
-          "title": "And so it begins: Anthropic just rang the opening bell at Nasdaq. This is going to be a record IPO.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123424321250934784/img/4lzhZ7GX31rDvMAM.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123431161276015030",
-          "domain": "x.com",
-          "published": "2026-11-20T00:00:14+09:00",
-          "published_label": "2026/11/20(金) 00:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "そして始まります。Anthropic がナスダック市場の開始のベルを鳴らしたところです。これは記録的なIPOとなるだろう。"
-        },
-        {
-          "title": "No way! ANOTHER Gemini incoming? Give me a pause Google.\nWhat are they doing right now?! Every release is a banger. And Neon keeps surprising me how damn good it is!\nOmar Sanseviero (@osanseviero)\nShipping will continue\nVideo\n— https://x.com/osanseviero/status/2123323209135308996",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXfaKRfa4AA_QlQ.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123322994302795776/img/KyodklibssNCtcfO.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123417510716289273",
-          "domain": "x.com",
-          "published": "2026-11-19T23:06:00+09:00",
-          "published_label": "2026/11/19(木) 23:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "とんでもない！またジェミニがやってくる?ちょっと待ってください、Google。\n彼らは今何をしているのですか？どのリリースもバンガーだ。そしてNeonは、それがどれほど素晴らしいものであるかに私を驚かせ続けます！\nオマール・サンセビエロ (@osanseviero)\n発送は継続します\nビデオ\n— https://x.com/osanseviero/status/2123323209135308996"
-        },
-        {
-          "title": "Trump is the best defender for Jensen there is.\n\"China spies on us, and we spy on China. But we’re better at it\"",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123215206994046976/img/Jbxf5BhLNmp_4S5X.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123402396202418559",
-          "domain": "x.com",
-          "published": "2026-11-19T22:05:56+09:00",
-          "published_label": "2026/11/19(木) 22:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "トランプはジェンセンにとって最良の擁護者だ。\n「中国は私たちをスパイしており、私たちも中国をスパイしています。しかし、それに関しては私たちの方が優れています。」"
-        },
-        {
-          "title": "(although Gemini4 Neon has a good chance to become my new favorite. but needs more testing)",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123251729185869941",
-          "domain": "x.com",
-          "published": "2026-11-19T12:07:15+09:00",
-          "published_label": "2026/11/19(木) 12:07",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "(ただし、Gemini4 Neon が私の新しいお気に入りになる可能性は十分にあります。ただし、さらにテストが必要です)"
         }
       ],
-      "elapsed": 8.1
+      "elapsed": 1.1
     },
     {
       "id": "x_haider1",
@@ -1185,6 +1166,44 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "not sure if anyone else noticed but the biggest improvement with 6.2 astra and sol is how much faster it is compared to 6.1\ntasks that used to take forever in codex now take just a couple of minutes with 6.2 sol which makes me think it's only a matter of time before ultrafast comes to the $100 tier",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXga1f2akAAUKIA.png?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123548120604918018",
+          "domain": "x.com",
+          "published": "2026-11-20T07:45:00+09:00",
+          "published_label": "2026/11/20(金) 07:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "他の人が気づいたかどうかはわかりませんが、6.2 astra と sol の最大の改善点は、6.1 と比較してどれだけ高速になったかです。\nコーデックスでは永遠にかかっていたタスクが、6.2 sol ではわずか数分で済むようになったので、超高速が 100 ドルのレベルに達するのは時間の問題だと思われます。"
+        },
+        {
+          "title": "openai models remain the efficiency kings and are dominating the performance/price pareto frontier\nbarely behind fable 5.2 at a fraction of the price while sol matches opus 5.5 at a fraction of the price as well. i can't imagine what an openai model as large as fable could do",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXgax1uaMAAUpGF.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123504080408473865",
+          "domain": "x.com",
+          "published": "2026-11-20T04:50:00+09:00",
+          "published_label": "2026/11/20(金) 04:50",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "openai モデルは引き続き効率の王様であり、パフォーマンスと価格のパレートフロンティアを支配しています\n数分の1の価格でfable 5.2にわずかに劣る一方、solは数分の1の価格でopus 5.5にも匹敵します。寓話ほど大きな Openai モデルで何ができるか想像できません"
+        },
+        {
           "title": "",
           "summary": "",
           "images": [
@@ -1200,7 +1219,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sam Altman says we're entering a new phase and we'll have to operate differently for this new phase\nIf the world and AI companies treat the next 4 years like the last 4, that would be very bad. The world needs a clear plan from these companies for handling this next phase of far more capable models",
@@ -1218,7 +1237,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "サム・アルトマン氏は、私たちは新たな段階に入りつつあり、この新たな段階ではこれまでとは異なるやり方で行動する必要があると語る\nもし世界と AI 企業が今後 4 年間を過去 4 年間と同じように扱うとしたら、それは非常に悪いことです。世界は、はるかに高性能なモデルの次の段階に対処するために、これらの企業からの明確な計画を必要としています。"
         },
         {
@@ -1403,45 +1422,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "まあまあまあ...\nディープマインドの科学者は、グーグルが近いうちにRSIを達成するという曖昧な投稿をしており、グーグルは今日別のモデルをドロップすると予想されている\n過去 7 日間の Google:\nジェミニ4の炭素と水素、そして今日ネオンをドロップする可能性が高く、水素と炭素の間のどこかに位置する可能性があります\nローガン・キルパトリック (@OfficialLoganK)\nジェミニ\n— https://x.com/OfficialLoganK/status/2122876403091959982"
-        },
-        {
-          "title": "nobody is talking about how good Astra 6.2 is at long-running autonomous workflows\ni gave it a complex operations project involving hundreds of files, emails, and documents to organize and cross-check across multiple apps\nleft it running overnight and woke up to everything completed after almost 5 hours\nand it only used 8% of my weekly limit",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2122936432805228696",
-          "domain": "x.com",
-          "published": "2026-11-18T15:14:22+09:00",
-          "published_label": "2026/11/18(水) 15:14",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Astra 6.2 が長時間実行される自律型ワークフローでどれほど優れているかについては誰も話していません\n私は、複数のアプリを整理して相互チェックするために、数百のファイル、電子メール、ドキュメントを含む複雑な運用プロジェクトを与えました。\n一晩実行し続け、ほぼ 5 時間後にすべてが完了していました。\n使用したのは 1 週間の制限の 8% だけでした"
-        },
-        {
-          "title": "who would've thought the curve would bend this hard?\nlength of coding and ML research tasks AI can do at 80% success:\n2019-25: every 7 months\n2024-early 2026: every 3.3 months\nsince opus 4.5: every 1.7 months (incl. estimates)\nmythos preview 6 months ago: 3.1 hours\ninternal model 4 now: estimated 38 hours",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWrM_4bAAATafT.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2122887528177164767",
-          "domain": "x.com",
-          "published": "2026-11-18T12:00:02+09:00",
-          "published_label": "2026/11/18(水) 12:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "カーブがこんなに大きく曲がると誰が予想したでしょうか？\nAI が 80% の成功率で実行できるコーディングと ML 研究タスクの長さ:\n2019-25: 7 か月ごと\n2024 年から 2026 年初頭: 3.3 か月ごと\n作品 4.5 以降: 1.7 か月ごと (推定を含む)\n6 か月前の神話プレビュー: 3.1 時間\n現在の内部モデル 4: 推定 38 時間"
         }
       ],
-      "elapsed": 7.0
+      "elapsed": 2.8
     },
     {
       "id": "x_testingcatalog",
@@ -1471,6 +1454,185 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 19 日\nモデル予測 👀:\n- ジェミニ・ヘリックス、来週ですか？\n- Nano Banana 3 Pro、近日発売\n- ジェミニのコバルトとクリプトン、それは誰ですか?\n- Grok 4.8、「ソフト」A/B テスト?\n- Voxtral Mini TTS 3.1 は今月ですか?\n- Qwen4 Flash/Plus/27B、近日提供予定\n- Muse Spark 1.4、近日リリース予定\n- Claude Fable 5.5 と Mythos 5.5、もうすぐではないですか?\n- GPT の「ベル」はありませんか?\nGoogle $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon は、Gemini、Antigravity、Vertex AI、API の Google AI Pro および Ultra サブスクライバーに、100 万トークンあたり 3 ドル/15 ドルで展開されます。\n- Google は、次期 Gemini 4 リリースとして Flash Lite モデルである Gemini 4 Helium を予告しました。\n- AI Studio には、Gemini 4 モデルを周期表としてレイアウトする新しいモデル セレクターが追加されました。\n- Genie 4 は、Ultra 加入者向けの Project Genie に含まれており、ネイティブ オーディオとセッション中の世界のライブ編集が可能です。\n- Stitch Loop は、Google Labs の新しい実験です。ライブ指標を監視し、修正を含む PR を開く常時稼働の製品エージェントです。\n- Google AI Ultra には追加料金なしで YouTube Premium ファミリーが含まれるようになりました (alexmichael 経由)。\n- Gemini アプリは、Android Go デバイスを含む低メモリの Android スマートフォンで実行できるようになりました。\n人智学🔥:\n- Anthropic は IPO の価格を 1 株当たり 83 ドルと、70 ～ 78 ドルの範囲を上回っており、ナスダックでの取引は本日開始される予定です。\n- ブルームバーグによると、調達額は813億ドルで、SpaceXの750億ドルを上回る史上最大のIPOとなる。\n- イーロン・マスク氏は DealBook で、Anthropic の最も可能性の高い計画は、SpaceX からさらに 10 ギガワットのコンピューティングを借りることであると述べました。\n- Claude iOS アプリには、ファイルをアップロードするためのドキュメント スキャン オプションが追加されました。"
         },
         {
+          "title": "Hermes ❤️ Microsoft\nNous Research partnered with Microsoft in order to bring Hermes to Enterprise.\n> “Hermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure.”\n> “In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat.”\n> “Agent workloads run in isolated Azure Container Apps sandboxes.”\nA huge step for Hermes expansion! 👀\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXhr2WMXEAAsR7-.jpg?name=small",
+            "https://pbs.twimg.com/media/HXhr2WIWYAAivT6.jpg?name=small",
+            "https://pbs.twimg.com/media/HXhQovZXcAAD-Jt.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123565811147383032",
+          "domain": "x.com",
+          "published": "2026-11-20T08:55:17+09:00",
+          "published_label": "2026/11/20(金) 08:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "エルメス❤️マイクロソフト\nNous Research は、Hermes を Enterprise に導入するために Microsoft と提携しました。\n> 「Hermes Enterprise は、Microsoft Teams、Microsoft Store、Azure 内で動作するようになりました。」\n> 「Teams では、従業員が財務分析、文書の下書き、受信トレイのトリアージなどの作業を Herme に任せ、同じチャットで結果を確認します。」\n> 「エージェントのワークロードは、分離された Azure Container Apps サンドボックスで実行されます。」\nエルメス拡大への大きな一歩！ 👀\nヌースリサーチ (@NousResearch)\n私たちは @Microsoft と提携して、Hermes Agent を企業に導入しました。\nHermes Enterprise は、Microsoft Teams、Microsoft Store、Azure 内で動作するようになりました。 Teams では、従業員が財務分析、文書の下書き、受信トレイのトリアージなどの作業を Herme に任せ、同じチャットで結果を確認します。エージェントのワークロードは、分離された Azure Container Apps サンドボックスで実行されます。\n誰かが定期的なタスクを実行するための良い方法を見つけた場合、Hermes はそれをスキルとして保存します。 Collective Wisdom を使用すると、レビュー後にそのスキルをチームと共有できるため、次の人はそのタスクを達成するために誰もが見つけた最良のアプローチから始めることができます。そして、スキルは会社とともに成長します。\n厳格なデータ常駐ルールまたは調達ルールを持つ企業は、独自の Azure テナントで Hermes Enterprise を実行できます。当社の CTO Jeffrey Quesnelle は、本日の Microsoft Ignite のセッション BRK448 で、Hermes がこれらのサンドボックスをどのように使用しているかを紹介します。\n@M12vc と @Azure Container Apps チームに感謝します。\n— https://x.com/NousResearch/status/2123535954946257096"
+        },
+        {
+          "title": "OPENAI 🔥: Dots are rolling out to a small number of ChatGPT Plus users as well as all ChatGPT Business Standard users.\n- In addition, ChatGPT is getting a new mobile experience, where a Dot gets a dedicated tab.\n- Codex, Projects, Images, and tabs can also be moved to the bottom nav bar.\n- This new experience will arrive for ChatGPT Pro users first.\nIt looks like Dots are getting closer to becoming a main interaction interface for ChatGPT as well.\nExcept EU 💀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123557071723565056/img/DO1s4ZVPR6Yamusk.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123559153742303679",
+          "domain": "x.com",
+          "published": "2026-11-20T08:28:50+09:00",
+          "published_label": "2026/11/20(金) 08:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OPENAI 🔥: ドットは、すべての ChatGPT Business Standard ユーザーだけでなく、少数の ChatGPT Plus ユーザーにも展開されています。\n- さらに、ChatGPT には新しいモバイル エクスペリエンスが追加され、ドットには専用のタブが表示されます。\n- コーデックス、プロジェクト、画像、タブも下部のナビゲーション バーに移動できます。\n- この新しいエクスペリエンスは、まず ChatGPT Pro ユーザーに提供されます。\nDots も ChatGPT の主要な対話インターフェイスに近づいているようです。\nEUを除く💀"
+        },
+        {
+          "title": "Nace AI has launched Drex Router, which can pick the right AI model for every task.\nIt routes easy prompts to cheaper models and hard ones to stronger models. In Nace's tests on general knowledge questions, it scored higher than its strongest rival, at about 1/11 of the price.\nIn the tests, 1M prompts totaled $100 vs $1,090 for the equivalent with Jev Router.\nGTA 6 PC port example 👀\nVideo\nNace AI (@NaceAI)\nIntroducing Drex Router.\nA small model that picks the right LLM/SLM and reasoning effort for every step your agent takes.\nAccuracy: Drex Router 87.6% vs. Jev Router’s 86.4%\nTry it:\nCOMMENT DREX and get extra $5 in API credits\nVideo\n— https://x.com/NaceAI/status/2123502254657605658",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123531188392402944/img/2jYV0wv7xRjjNwYu.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123500886584676352/img/2hpuAFl-KGoLNUjs.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123531678878400758",
+          "domain": "x.com",
+          "published": "2026-11-20T06:39:40+09:00",
+          "published_label": "2026/11/20(金) 06:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Nace AI は、あらゆるタスクに適切な AI モデルを選択できる Drex Router を発表しました。\n簡単なプロンプトはより安価なモデルにルーティングされ、難しいプロンプトはより強力なモデルにルーティングされます。一般知識に関する質問に関する Nace のテストでは、価格が約 11 分の 1 で、最強のライバルよりも高いスコアを獲得しました。\nテストでは、100 万プロンプトの合計は 100 ドルでしたが、Jev Router を使用した場合は 1,090 ドルでした。\nGTA 6 PC ポートの例 👀\nビデオ\nネイスAI (@NaceAI)\nDrexルーターのご紹介です。\nエージェントが実行するすべてのステップに対して、適切な LLM/SLM と推論努力を選択する小規模なモデル。\n精度: Drex Router 87.6% vs Jev Router 86.4%\n試してみてください:\nDREX にコメントすると、さらに 5 ドルの API クレジットを獲得できます\nビデオ\n— https://x.com/NaceAI/status/2123502254657605658"
+        },
+        {
+          "title": "Users can keep using the same models, with the routing happening in under a tenth of a second. In Nace's test, building a small game costs $1.26 with Drex Router vs $13.44 using only Claude Opus.\nIt is now available on the Nace Console, and eligible new accounts get $5 in free credit.\nTest it out 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2120371626076450816/0VpEeksT?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123531681693130877",
+          "domain": "x.com",
+          "published": "2026-11-20T06:39:40+09:00",
+          "published_label": "2026/11/20(金) 06:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ユーザーは同じモデルを使い続けることができ、ルーティングは 10 分の 1 秒以内に行われます。 Nace のテストでは、小規模なゲームの構築にかかるコストは、Drex Router を使用した場合は 1.26 ドルでしたが、Claude Opus のみを使用した場合は 13.44 ドルでした。\n現在は Nace Console で利用可能であり、対象となる新規アカウントには 5 ドルの無料クレジットが付与されます。\n試してみてください 👀"
+        },
+        {
+          "title": "Google started sending out waitlist access to Genie 4 for Gemini Pro users!\n> \"You’re off the waitlist! You now have access to Project Genie as part of your Google AI Pro subscription.\"\nThat's great news, meaning it will be available to all Pro users at some point.\nGemini Pro sub just got better 👀\n🚨 AI News | TestingCatalog (@testingcatalog)\nGOOGLE 🔥: Genie 4 is now available on Google AI Studio and APIs.\nFor many users, this is the first time they can properly test this World model with an API key, as it's currently only available to Ultra subscribers.\n> \"Using real-time keyboard controls alongside live text prompts, you can navigate environments and change weather, lighting, objects, or events on the fly.\"\nTesting time! 👀\n— https://x.com/testingcatalog/status/2123502622133133398",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXg74tKXgAAxFBz.jpg?name=small",
+            "https://pbs.twimg.com/media/HXg76uuWMAAwWrZ.jpg?name=small",
+            "https://pbs.twimg.com/media/HXgyWwvWIAA4_mW.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123513155238199586",
+          "domain": "x.com",
+          "published": "2026-11-20T05:26:03+09:00",
+          "published_label": "2026/11/20(金) 05:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Google は、Gemini Pro ユーザー向けに Genie 4 へのアクセス待ちリストの送信を開始しました。\n> 「待機リストから外れました! Google AI Pro サブスクリプションの一部として Project Genie にアクセスできるようになりました。」\nこれは素晴らしいニュースであり、ある時点ですべての Pro ユーザーが利用できるようになるということです。\nGemini Pro サブがさらに改良されました 👀\n🚨 AI ニュース |テストカタログ (@testingcatalog)\nGOOGLE 🔥: Genie 4 が Google AI Studio と API で利用できるようになりました。\n現在 Ultra サブスクライバーのみが利用できるため、多くのユーザーにとって、API キーを使用してこの World モデルを適切にテストできるのはこれが初めてです。\n> 「ライブ テキスト プロンプトとともにリアルタイム キーボード コントロールを使用すると、環境をナビゲートし、天気、照明、オブジェクト、イベントをその場で変更できます。」\nテストの時間です！ 👀\n— https://x.com/testingcatalog/status/2123502622133133398"
+        },
+        {
+          "title": "OPENAI 🔥: GPT-Live-1.1 has been released on the API and is now available on the OpenAI Platform for testing!\nIt comes with a new standby option to lower idle costs.\nICYMI: The Live tab on the OpenAI Platform lets users test all the API features right away and includes a visual voice sphere.\nOpenAI Developers (@OpenAIDevs)\nGPT-Live-1.1 is now available in the API.\nIt speaks with more natural and consistent accents across languages, supports lower idle costs with a new standby option, and completes tasks even more reliably.\nVideo\n— https://x.com/OpenAIDevs/status/2123506733524136446",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXg3MDuXwAAxBKV.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123506685390266368/img/WGZTCFjt1a44gZvk.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123507970449236208",
+          "domain": "x.com",
+          "published": "2026-11-20T05:05:27+09:00",
+          "published_label": "2026/11/20(金) 05:05",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OPENAI 🔥: GPT-Live-1.1 が API でリリースされ、OpenAI プラットフォームでテストできるようになりました。\nアイドル コストを削減するための新しいスタンバイ オプションが付属しています。\nICYMI: OpenAI プラットフォームの [ライブ] タブを使用すると、ユーザーはすべての API 機能をすぐにテストでき、視覚的な音声領域が含まれます。\nOpenAI 開発者 (@OpenAIDevs)\nGPT-Live-1.1 が API で利用できるようになりました。\nどの言語でもより自然で一貫したアクセントで話し、新しいスタンバイ オプションでアイドル コストの削減をサポートし、タスクをより確実に完了します。\nビデオ\n— https://x.com/OpenAIDevs/status/2123506733524136446"
+        },
+        {
+          "title": "GOOGLE 🔥: Genie 4 is now available on Google AI Studio and APIs.\nFor many users, this is the first time they can properly test this World model with an API key, as it's currently only available to Ultra subscribers.\n> \"Using real-time keyboard controls alongside live text prompts, you can navigate environments and change weather, lighting, objects, or events on the fly.\"\nTesting time! 👀\nLogan Kilpatrick (@OfficialLoganK)\nIntroducing Genie 4 in the Gemini API + @GoogleAIStudio, our first world model for developers to build with and create new world model experiences 🔮\nTry it out:\n— https://x.com/OfficialLoganK/status/2123467449257623770",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXgyWwvWIAA4_mW.jpg?name=small",
+            "https://pbs.twimg.com/card_img/2123465723993276417/UVxCCw5I?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123502622133133398",
+          "domain": "x.com",
+          "published": "2026-11-20T04:44:12+09:00",
+          "published_label": "2026/11/20(金) 04:44",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "GOOGLE 🔥: Genie 4 が Google AI Studio と API で利用できるようになりました。\n現在 Ultra サブスクライバーのみが利用できるため、多くのユーザーにとって、API キーを使用してこの World モデルを適切にテストできるのはこれが初めてです。\n> 「ライブ テキスト プロンプトとともにリアルタイム キーボード コントロールを使用すると、環境をナビゲートし、天気、照明、オブジェクト、イベントをその場で変更できます。」\nテストの時間です！ 👀\nローガン・キルパトリック (@OfficialLoganK)\nGemini API に Genie 4 を導入 + @GoogleAIStudio、開発者が新しいワールド モデル エクスペリエンスを構築および作成するための最初のワールド モデル 🔮\n試してみてください:\n— https://x.com/OfficialLoganK/status/2123467449257623770"
+        },
+        {
+          "title": "The bug-fixing feature, LavaFlow, is available in early access and is included on all paid plans.\nVolcano is free to start.\nTest it out 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123118404890406912/KFylloww?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123499656378531995",
+          "domain": "x.com",
+          "published": "2026-11-20T04:32:25+09:00",
+          "published_label": "2026/11/20(金) 04:32",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "バグ修正機能である LavaFlow は早期アクセスで利用でき、すべての有料プランに含まれています。\nVolcano は無料で始められます。\n試してみてください 👀"
+        },
+        {
+          "title": "Kong has launched Volcano, a cloud platform that hosts AI apps and agents, bringing everything they need into one place.\nUsers can build apps with Claude Code, Cursor, or Codex and publish them on Volcano, with built-in database and sign-in functionality.\nVolcano can also find bugs in production apps and prepare fixes, which users can review and approve before they are applied. Agents can also pick up a build from a backup after a crash.\nMarco Palladino (@subnetmarco)\nAt Kong we run half a quadrillion AI tokens a year, and I kept seeing agents stuck on clouds built for websites.\nSo we built a cloud for agents.\nVolcano is live today: the self-healing agent cloud. Sandboxes, durable workflows, Postgres, hosting.\nVideo\n— https://x.com/subnetmarco/status/2123424142569714004",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXgvrGIWMAA9wVo.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123423927708119041/img/U7XP2pxzI6MlQF-Y.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123499652012281970",
+          "domain": "x.com",
+          "published": "2026-11-20T04:32:24+09:00",
+          "published_label": "2026/11/20(金) 04:32",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Kong は、AI アプリとエージェントをホストするクラウド プラットフォームである Volcano を立ち上げ、必要なものすべてを 1 か所にまとめました。\nユーザーは、Claude Code、Cursor、または Codex を使用してアプリを構築し、組み込みのデータベースとサインイン機能を備えた Volcano で公開できます。\nVolcano は実稼働アプリのバグを見つけて修正を準備することもでき、ユーザーは適用前にレビューして承認できます。エージェントは、クラッシュ後にバックアップからビルドを取得することもできます。\nマルコ・パラディーノ (@subnetmarco)\nKong では年間 5,000 兆個の AI トークンを実行していますが、エージェントがウェブサイト用に構築されたクラウド上で立ち往生しているのを何度も目にしました。\nそこで私たちはエージェント用のクラウドを構築しました。\nVolcano は現在、自己修復エージェント クラウドとして稼働しています。サンドボックス、耐久性のあるワークフロー、Postgres、ホスティング。\nビデオ\n— https://x.com/subnetmarco/status/2123424142569714004"
+        },
+        {
           "title": "Microsoft released a new Canvas experience on MAI Playground, powered by the MAI Image 2.7 Flash model.\nUsers can refine and precisely adjust their diagrams and images via prompts and editing tools.\nMAIshop 👀",
           "summary": "",
           "images": [
@@ -1486,7 +1648,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Microsoft は、MAI Image 2.7 Flash モデルを利用した新しい Canvas エクスペリエンスを MAI Playground でリリースしました。\nユーザーは、プロンプトや編集ツールを使用して図や画像を改良し、正確に調整できます。\nまいショップ👀"
         },
         {
@@ -1507,7 +1669,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "$ANT 株は現在、NASDAQ で正式にライブ取引されています。\nそれがどのような方向に向かうのか、そしてAnthropicに対する全体的な感情がどのようなものになるのかはまだわかりません。 Anthropic は最初の「AI ファースト」の大企業の 1 つであるため、これは一般の人々の間で AI に関するコンセンサスを示す非常に良い指標になると思います。\nモニタリング🍿\nナスダック (@Nasdaq)\n$ANT: 現在ナスダックで取引されています。 @anthropicAI\n— https://x.com/Nasdaq/status/2123458732570882295"
         },
         {
@@ -1526,7 +1688,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "アンソロピック 🔥: ダリオ・アモデイがナスダック市場の鐘を鳴らしました。 $ANT にとって史上最大の IPO が正式に開始されました。\n価格は1株あたり83ドルに設定されている。取引はまだ始まっていませんが、間もなく始まる予定です。"
         },
         {
@@ -1566,189 +1728,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Google は、Gemini Notebook 用のさまざまな書き込みモードの開発に取り組んでいます。\n- Writing Partner はデフォルトのオプションとして、AI を使用してメモをより良く作成します。\n- ライティング コーチはチャットで機能し、ユーザーに提案を行います。\n- AI は使用しません。AI をまったく使用したくない人向けです。\nWriting Coach は基本的に、人間により良いテキストを書くよう促す AI です。\nもうすぐ👀"
-        },
-        {
-          "title": "* Helix was an earlier spotted name, I think I should have named Helium\nI feel like we can survive one more model name from the periodic table, and then everyone's minds will start burning if we get more elements into the mix.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2123352623235703220",
-          "domain": "x.com",
-          "published": "2026-11-19T18:48:10+09:00",
-          "published_label": "2026/11/19(木) 18:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "* Helix は以前に発見された名前でした。Helium と名付けるべきだったと思います\n周期表からもう 1 つのモデル名が残れば生き残れるような気がします。その後、さらに多くの要素を組み合わせれば、誰もが興奮し始めるでしょう。"
-        },
-        {
-          "title": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) is teased to arrive next!\nGemini 4 will return 👀\nNow I wish these models would actually be sorted by their atomic weight - we would have at least some idea of who is who w/o prior knowledge!\nOmar Sanseviero (@osanseviero)\nShipping will continue\nVideo\n— https://x.com/osanseviero/status/2123323209135308996",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXefsIfWAAAcLIK.png?name=small",
-            "https://pbs.twimg.com/media/HXeftGtWIAAZUYc.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123322994302795776/img/KyodklibssNCtcfO.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123341568954486799",
-          "domain": "x.com",
-          "published": "2026-11-19T18:04:14+09:00",
-          "published_label": "2026/11/19(木) 18:04",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "GOOGLE 🔥: Gemini 4 Helium (Flash Lite) が次に登場すると予告されています。\nジェミニ4が戻ってきます 👀\nさて、これらのモデルが原子量によって実際に分類されればいいのにと思います。事前知識がなくても、誰が誰であるかについて少なくともある程度の見当が付くようになります。\nオマール・サンセビエロ (@osanseviero)\n発送は継続します\nビデオ\n— https://x.com/osanseviero/status/2123323209135308996"
-        },
-        {
-          "title": "ANTHROPIC 🔥: PBC priced $ANT at $83 per share!\n> “The offering consists of 980,000,000 shares of Class A common stock, 956,351,354 of which are being sold by Anthropic and 23,648,646 of which are being sold by certain selling stockholders.”\nTomorrow will be fun 🍿\nAnthropic (@AnthropicAI)\nWe’ve priced our IPO at $83 per share, with trading expected to begin on Nasdaq tomorrow.\nLegal disclaimer: A registration statement relating to the Class A common stock was declared effective by the Securities and Exchange Commission on November 18, 2026. The offering is being made only by means of a prospectus. Copies of the final prospectus may be obtained, when available, from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014, or by email at prospectus@morganstanley.com\n— https://x.com/AnthropicAI/status/2123196808675405860",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXckvC-W4AApI5k.jpg?name=small",
-            "https://pbs.twimg.com/media/HXckvC_W8AECmm1.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2120989428113956864/0aB_1tfE?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123206145552883894",
-          "domain": "x.com",
-          "published": "2026-11-19T09:06:07+09:00",
-          "published_label": "2026/11/19(木) 09:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ANTHROPIC 🔥: PBC が $ANT に 1 株あたり 83 ドルの価格を付けました!\n> 「売り出しはクラスA普通株式9億8000万株で構成されており、そのうち9億5635万1354株はAnthropicによって売却され、そのうち2364万8646株は特定の売却株主によって売却される。」\n明日も楽しくなりますよ🍿\nアンスロピック (@AnthropicAI)\n私たちはIPOの価格を1株あたり83ドルに設定し、明日ナスダックで取引が始まる予定です。\n法的免責事項: クラス A 普通株式に関する登録届出は、2026 年 11 月 18 日に証券取引委員会によって発効が宣言されました。この募集は目論見書によってのみ行われます。最終目論見書のコピーは、利用可能な場合には、Goldman Sachs & Co. LLC、宛先: 目論見書部門、200 West Street、New York、NY 10282、電話 (866) 471-2526、または電子メール (prospectus-ny@ny.email.gs.com) で入手できます。または Morgan Stanley & Co. LLC、宛先: Prospectus Division, 180 Varick Street, 2nd Floor, New York, NY 10014、または電子メール (prospectus@morganstanley.com)\n— https://x.com/AnthropicAI/status/2123196808675405860"
-        },
-        {
-          "title": "Grok Bot is getting a set of your favorite features! Flight and hotel booking, as well as car rental, are now supported.\njk, I still can't imagine myself using any of these unless service providers offer some good benefits for purchases made via AI agents.\nYet, it should be quite useful for discovery and planning!",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123120877680365568/img/0eJEtFn2X4uo2HXQ.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123187422125043905",
-          "domain": "x.com",
-          "published": "2026-11-19T07:51:43+09:00",
-          "published_label": "2026/11/19(木) 07:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Grok Bot にはお気に入りの機能が備わっています。航空券やホテルの予約、レンタカーの予約もサポートされるようになりました。\njk、サービス プロバイダーが AI エージェント経由での購入に対して何らかの良い特典を提供しない限り、これらのいずれかを使用することはまだ想像できません。\nそれでも、発見と計画には非常に役立つはずです。"
-        },
-        {
-          "title": "The redesigned Netlify is open for new sign-ups, with a waitlist for existing customers.\nThe new backend option, Netlify Server, is available for free during early access.\nTest it out 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2121881793020280832/1iLBriRN?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123184346244771880",
-          "domain": "x.com",
-          "published": "2026-11-19T07:39:29+09:00",
-          "published_label": "2026/11/19(木) 07:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "再設計された Netlify は新規サインアップを受け付けており、既存顧客の待機リストも用意されています。\n新しいバックエンド オプションである Netlify Server は、早期アクセス中に無料で利用できます。\n試してみてください 👀"
-        },
-        {
-          "title": "Netlify is relaunching its platform around AI agents, focusing on agentic app development and hosting.\nThe launch includes 150 new connectors, allowing its agents to plug into services such as Notion, Linear, or Stripe on their own. Every code change is an entry in the version history that can be previewed, published, or rolled back at any time.\nApps that need to stay online 24/7, such as live chat or multiplayer games, can now also host their backend on Netlify.\nNetlify (@Netlify)\nNew mission. New brand. New website. New Netlify. ✨\nTurn your imagination into reality. Describe an app, build it with agents in a live preview, and developers and your agents can pick it up in Git or your own preferred tools.\nCheck out @biilmann’s new video.\nVideo\n— https://x.com/Netlify/status/2123091723706630658",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXcQ0-eX0AAelnl.jpg?name=small",
-            "https://pbs.twimg.com/media/HXcQ0-bXcAELG-R.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123091464553168896/img/30AcDrOHzANddD23.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123184343405219979",
-          "domain": "x.com",
-          "published": "2026-11-19T07:39:28+09:00",
-          "published_label": "2026/11/19(木) 07:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Netlify は、AI エージェントを中心としたプラットフォームを再起動し、エージェント アプリの開発とホスティングに重点を置いています。\nこのリリースには 150 個の新しいコネクタが含まれており、エージェントが Notion、Linear、Stripe などのサービスに独自に接続できるようになります。すべてのコード変更はバージョン履歴のエントリとなり、いつでもプレビュー、公開、ロールバックできます。\nライブ チャットやマルチプレイヤー ゲームなど、24 時間年中無休でオンラインを維持する必要があるアプリも、Netlify でバックエンドをホストできるようになりました。\nネットリファイ (@Netlify)\n新しいミッション。新しいブランド。新しいウェブサイト。新しいNetlify。 ✨\n想像力を現実にしましょう。アプリについて説明し、ライブ プレビューでエージェントと一緒にビルドすると、開発者とエージェントは Git または好みのツールでアプリを取得できます。\n@biilmann の新しいビデオをチェックしてください。\nビデオ\n— https://x.com/Netlify/status/2123091723706630658"
-        },
-        {
-          "title": "BREAKING 🔥: Google officially announced Gemini 4 Neon, its new frontier-level model!\nGemini 4 Neon outperforms Opus 5.5 and GPT-6.2 Sol on many benchmarks.\nIt is now available to Google AI Pro and Ultra subscribers across Gemini, Antigravity, and APIs.\nNeonsday 👀\nLogan Kilpatrick (@OfficialLoganK)\nIntroducing Gemini 4 Neon! Pushing the frontier across domains and punching above its model class in a meaningful way. To me, Neon feels like the right balance of intelligence, speed, and usability. Available now across @GoogleAIStudio, the API, and more!\n— https://x.com/OfficialLoganK/status/2123167791922741362",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXcC3uRXUAENhAf.png?name=small",
-            "https://pbs.twimg.com/media/HXcC4pLWwAAvv2l.jpg?name=small",
-            "https://pbs.twimg.com/media/HXb9c3sbEAA9-y7.png?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123168936363741689",
-          "domain": "x.com",
-          "published": "2026-11-19T06:38:15+09:00",
-          "published_label": "2026/11/19(木) 06:38",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "速報 🔥: Google は、新しいフロンティアレベルのモデルである Gemini 4 Neon を正式に発表しました。\nGemini 4 Neon は、多くのベンチマークで Opus 5.5 および GPT-6.2 Sol を上回ります。\n現在、Gemini、Antigravity、API の Google AI Pro および Ultra サブスクライバーが利用できるようになりました。\nネオンデー👀\nローガン・キルパトリック (@OfficialLoganK)\nGemini 4 ネオンのご紹介です!ドメイン全体のフロンティアを押し広げ、有意義な方法でそのモデルクラスを超えます。私にとって、Neon はインテリジェンス、スピード、使いやすさの適切なバランスのように感じられます。 @GoogleAIStudio、API などで利用できるようになりました。\n— https://x.com/OfficialLoganK/status/2123167791922741362"
-        },
-        {
-          "title": "GOOGLE 🔥: It’s happening! Gemini 4 Neon started gradually rolling out on Gemini and Antigravity. Deeper Analysis!\nDid you get it already! 👀\nOG Gabi Bartok (@BartokGabi17)\n@testingcatalog neon is now available\nOmg\n— https://x.com/BartokGabi17/status/2123154293301674144",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXb2qMEXIAAbDma.jpg?name=small",
-            "https://pbs.twimg.com/media/HXb2qMEWsAEq5Wb.jpg?name=small",
-            "https://pbs.twimg.com/media/HXb1ky5WkAAZ6JE.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123155483338904022",
-          "domain": "x.com",
-          "published": "2026-11-19T05:44:48+09:00",
-          "published_label": "2026/11/19(木) 05:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google 🔥: それは起こっています! Gemini 4 Neon は、Gemini と Antigravity で徐々に展開され始めました。より深い分析！\nもう手に入れましたか！ 👀\nOG ガビ・バルトーク (@BartokGabi17)\n@testingcatalog ネオンが利用可能になりました\nああ、ああ\n— https://x.com/BartokGabi17/status/2123154293301674144"
-        },
-        {
-          "title": "🚨 AI News | TestingCatalog (@testingcatalog)\nBREAKING 🔥: Telegram is preparing to launch its own AI agent called \"Dictator\"!\nIt seems to run on Hermes internally, will support different models and plugins, and will have its own dedicated VM.\nA floating Utya appears 🐣\nVideo\n— https://x.com/testingcatalog/status/2123047003231858966",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXbtv0dWEAAkW5o.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123046964895895552/img/Wy9nySV4eCaoyBGs.jpg?name=small"
-          ],
-          "link": "https://x.com/NousResearch/status/2123145750833995878",
-          "domain": "x.com",
-          "published": "2026-11-19T05:06:07+09:00",
-          "published_label": "2026/11/19(木) 05:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "🚨 AI ニュース |テストカタログ (@testingcatalog)\n速報🔥: Telegram は、「Dictator」と呼ばれる独自の AI エージェントを立ち上げる準備をしています!\n内部的にはHermes上で動作するようで、さまざまなモデルとプラグインをサポートし、独自の専用VMを持つ予定です。\n浮遊するウティアが登場🐣\nビデオ\n— https://x.com/testingcatalog/status/2123047003231858966"
         }
       ],
-      "elapsed": 2.9
+      "elapsed": 0.9
     }
   ]
 }

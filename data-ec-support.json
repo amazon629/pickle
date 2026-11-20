@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T04:28:40+09:00",
-  "generated_at_label": "2026/11/20 04:28 JST",
+  "generated_at": "2026-11-20T09:16:00+09:00",
+  "generated_at_label": "2026/11/20 09:16 JST",
   "title": "EC・支援企業34社 ニュース監視",
   "total": 145,
   "sources": [
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_02",
@@ -107,22 +107,6 @@
       "via": "https://news.google.com/rss/search?q=%22AnyMind%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "【決算速報】ＡｎｙＭｉｎｄ---26年12月期3Qは増益、経常利益は99.2％増(フィスコ)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdG5qem95NWF2c1ptRVFiUVBfYUFObFpudm9Cd1ZOZGlXSVBuMklzanduQm1ScFVLZEExUV92eWtDdG4tRk96bTlOY2kweGRxQ005WDluRUhhYVFtZWZDeEV6d3dfRE56eXNNd05FYkhzZ0R0WWVrWGxNNG5mdC1sQ3VlS2ljZWM?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T22:49:23+09:00",
-          "published_label": "2026/11/13(金) 22:49",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "ＡｎｙＭｉｎｄ Ｇｒｏｕｐ[5027]：AnyMind Group、Metaとパートナーシップを締結し、ライブコマース領域での連携を開始 2026年10月27日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
@@ -186,9 +170,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "AnyMind Group、日本のeスポーツブランド「REJECT」と戦略的パートナーシップを締結",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TVTY1WGNYVFNCZGRnVy0tU0lHdWx2Tkg4R25oVnZMREtNT05PUUliY0RtRDlVdUVjdGNUcElsaTJnSUVfQ1dkRDVsU0hvS1ZXUE02alZ0LTYtbm5LLWtBbmc3YlQ3ckFSYzlTbGQxSFBMaEVnZlZaQWo4T0g?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-07-30T16:00:00+09:00",
+          "published_label": "2026/7/30(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "ecs_03",
@@ -278,10 +278,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_04",
@@ -508,7 +508,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.5
     },
     {
       "id": "ecs_08",
@@ -534,7 +534,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "コムニコ、インターファクトリー主催の無料オンラインカンファレンスに登壇 Instagramの「親密度」を高めるキャンペーン施策を解説",
@@ -678,13 +678,13 @@
           "is_new": false
         },
         {
-          "title": "トリドリがAI自動運用型インフルエンサー広告サービス「Vooster」の提供を開始",
+          "title": "AIでインフルエンサーマーケを最適化 toridori、新サービス「Vooster」をリリース",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBYa3ZzNVhwXzRncDJyb0o5a25mNUFKVFI3dExfaVlZRnpneWV6elhNbVpxY1hqYlUwVmliUEU2SXBqR1dIWk9GMXdfYkJnZ1dsUkpwbUR3?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-02-16T17:00:00+09:00",
-          "published_label": "2026/2/16(月) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pcE9rLVh4dGxZN2liTG0xN3pRcWwweXpoRzY4YnhSZnpVSnBnUkhtUzZtNmRERUZlUzluSEoyd05ReWl4S19RSkFJeHdkUms?oc=5",
+          "domain": "markezine.jp",
+          "published": "2026-02-24T17:00:00+09:00",
+          "published_label": "2026/2/24(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -755,36 +755,36 @@
           "is_new": false
         },
         {
-          "title": "GMOペパボとGMOメイクショップが経営統合へ、27年4月に持株会社「GMO AIコマースHD」上場",
+          "title": "ブルボン子会社レーマン、メールアドレス1万4,136件が流出 アララへの不正アクセスがGMOメイクショップ経由で波及",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Slo3M19VYzBkbmNHUzJweF9mMEtTQU84Z0gyMHlMUm01Q2lWNnNTOWp1UFBYc1Y4YXR0ODhXRF9ZRVJodmtfWG5rZUdIY291d21vbUFXYTBGekEwQUhwLWZ4WWxsODRsNHBrUTlMTkJtYk5k?oc=5",
-          "domain": "finance.biggo.jp",
-          "published": "2026-11-17T16:06:00+09:00",
-          "published_label": "2026/11/17(火) 16:06",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOVEzTzE0eThucjJYdFU4WWE4Y1hYNG9OTVFtN19SVnRGOUVmOTRMQjNGVHA1NWU2MV9mS3ZuZUplMFNVWFJ2MWtUYkNWQzFUZUhUYkxXZmhpM21tNUFETXRnRXlPS01vUlg5dURrWV9tbjZfazYtS3RTS1N0T2JJSVBDT1B4bHYzbzVLRWJIczVQUFNBTm85U0U1bWtjV1pqM1FGS1l0Zw?oc=5",
+          "domain": "rocket-boys.co.jp",
+          "published": "2026-11-16T10:45:28+09:00",
+          "published_label": "2026/11/16(月) 10:45",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "キリンビール DRINX（ドリンクス）、会員メールアドレス5万8,613件が漏えい GMOメイクショップ経由でアララ不正アクセスの影響",
+          "title": "経理財務DX・経営管理DX・M&A戦略の実践を1日で。物語コーポレーション、リクルートスタッフィング、GMOメイクショップらが登壇する経理財務特化カンファレンスを11月24日に開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd1Y5bHNkNTEtUGdEcXdHTks5ZWZHN2pnMXZBd0hnVDN2ZEZYbmZ1aEZBRjVNWlBueTZlUG5sOVR6ZHdEUlhUMXZtU0lfdE01Nk1aM3J2UkRpZEw1c1hmYUxqdmxSQWZrVDhQbDlpOTg0QzhYU2hyM1VkbEdNQkptakhfX0RwSWhFZ2dkd28tWHdwNHZDWWQyUUhpUExiQQ?oc=5",
-          "domain": "rocket-boys.co.jp",
-          "published": "2026-11-17T10:15:03+09:00",
-          "published_label": "2026/11/17(火) 10:15",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GRFJWSXVfTnkycksyN2xVUTN4WGY0ZG5rQnczRElYcmRzM05ydVE4QTFwZ2YwTV9XeFlRbUN4ZFQzWENyUWFTb2RUOUlobXZvZm12RDhNUXpoV3pDTmR0Z2o2RXRYSEllY1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-13T17:08:31+09:00",
+          "published_label": "2026/11/13(金) 17:08",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -880,7 +880,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 1.1
     },
     {
       "id": "ecs_12",
@@ -1062,7 +1062,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_15",
@@ -1152,7 +1152,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.1
@@ -1167,6 +1167,22 @@
       "via": "https://news.google.com/rss/search?q=%22shizai%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "POST COFFEEも実践する開封体験の向上施策 鍵を握る梱包資材のコスト最適化を解説【ECzine Day 2024 Autumn・shizai登壇セッション動画】",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1IR3NXN2ZGT3U1UXdwUlM2UmNiQlI2SFBPeVpGeE9FUDdfTWhXdl9QRFpCZU5WQ2FmdXF1ZlQtQnk4ZlNaUFZiUWt3?oc=5",
+          "domain": "markezine.jp",
+          "published": "2026-09-01T04:02:38+09:00",
+          "published_label": "2026/9/1(火) 04:02",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "日本郵便×shizai、深夜の激論が紡ぐ現場共創の正体",
           "summary": "",
@@ -1223,22 +1239,6 @@
           "domain": "markezine.jp",
           "published": "2025-07-01T16:00:00+09:00",
           "published_label": "2025/7/1(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "shizai、シリーズB 2nd closeで合計6.2億円の資金調達完了。 | 株式会社shizaiのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YRlJjX2k2cmRicm9HZ3JwLTVQRmF1SmJ4QjhmWDZQSXhoMDloMl9IaHVydld3bFRpdmlHSDhNZk9Ca3VTUXdfZFZ2ZEYxd2wwN3BYN1JfaXVaOUNjZVF0TlhnZFNDSWZON3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2025-06-30T16:00:00+09:00",
-          "published_label": "2025/6/30(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1370,6 +1370,54 @@
           "is_new": false
         },
         {
+          "title": "パーフェクト社、eBay Japanが運営する「Qoo10」にAI肌解析・カラコンバーチャル試着技術を提供",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56cENSQ0xUUXlnVllMRFdkZGp2UTlDRW5OOWRGamxXcXZzbm1tQ2o2RHNJTlJ3Z29NdlpHRmtDa19aTXVNUWpoWkFVTWE4RXhwbmNxV0xCYThvTGdXM1g5cG00S1B1d3Jsd2c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-11T17:00:00+09:00",
+          "published_label": "2026/11/11(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "新米シーズン到来！秋の食卓を楽しむチャンス 秋田県産あきたこまち・無洗米が人気～いろいろ試したくなる！プチ贅沢なご飯のお供もご紹介～ - eBay Japan合同会社のプレスリリース",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHNTZXUFVsZGR5WHBrOF94aVlpSFJNd0ZoVWUxTTJBMXQ2ZzA2WkMxSll6QURsZktKczg5bDhENE9pN2dHaFpnYXFidVdEMnF1QjdkVE1rcFlOY0E?oc=5",
+          "domain": "value-press.com",
+          "published": "2026-10-19T16:00:00+09:00",
+          "published_label": "2026/10/19(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "eBay Japan-Qoo10―渋谷にサンプル専用体験型施設「SAMPLE HOUSE」を開設",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EZnN4Y3lxLU92dWgyWldpSmFST3QwZ3lHT2NnME9IcWtDZEtEbVJyM00xcGFJbTA1MFJheU13Unk0by1fX0JrVlRyWnFtNHlBdnNLM0NWX21Bdw?oc=5",
+          "domain": "kokusaishogyo-online.jp",
+          "published": "2026-10-01T16:00:00+09:00",
+          "published_label": "2026/10/1(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "eBay Japan、I＆Othersと連携した支援拡充を発表 「Qoo10の日」に寄附贈呈式を開催",
           "summary": "",
           "images": [],
@@ -1384,57 +1432,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "eBay Japan、ECモール「Qoo10」でラグビー国際親善試合の一般観戦チケット全席種を独占販売",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Lb0FnTG5BZ29XaDg2V0NVMGFuSVFucW1RdFVaMGNDblpQVExzS19KQkR5Sl9MTHMzSm9VS25vaTQtTktwTVdFNzNTaS00dVVrMmN0YzNjaURQd29TUmhKSVNKcW1tLWh3dDNYcHg5QlhtMHVkUkJkS3JPd21EZEE?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-09-15T16:00:00+09:00",
-          "published_label": "2026/9/15(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "eBay JapanのECモール「Qoo10」、ビューティー商品を表彰する「Qoo10 MEGA BEAUTY AWARDS 2026」の年間テーマ「TRUE ICONS」とキービジュアルを発表（ネットショップ担当者フォーラム）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iU1dRTW5US3RQN0hlSWRPcVBjbkQ5eUFWTF83RkdvWnhtMGpLX1NDRTJWVlZsYkNKV2xlcFlOaDk4YXBQaThMSkJUa2hmNHBra2tfNmp6dnBYb3h5ZUdpbUxISnFhMHFIUUhnU2VEeW1VczhLWDFvelRNRjhsdVk?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-09-15T16:00:00+09:00",
-          "published_label": "2026/9/15(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "eBay Japan、「Qoo10」を通じた社会貢献を強化。総額500万円の寄付＋EC・ライブコマースの「職場体験」で若者の将来の選択肢を支援（ネットショップ担当者フォーラム）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jZC1iVDV2NjJXNktEbm1MME5oM1l2WEJvOW9nelY3bDdKVmRKNXRsLVZLRTFjcFMyZWp3cnVTZW56NjVEdVFVaTlTNWZCSjhLUU82c2xqYXkwZ2RnZ0lNZU5IUlR6aGV3YmQyWHl4ZGwtdTVibzl1SERyb0gtLWs?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-09-11T16:00:00+09:00",
-          "published_label": "2026/9/11(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "ecs_19",
@@ -1713,7 +1713,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "ecs_22",
@@ -1806,7 +1806,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "ecs_23",
@@ -1832,7 +1832,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【2461】株式会社ファンコミュニケーションズ 事業概要と成長戦略に関するIRインタビュー",
@@ -1883,20 +1883,20 @@
           "is_new": false
         },
         {
-          "title": "ファンコミュニケーションズ[2461]：中期経営計画の取り下げに関するお知らせ 2026年8月10日(適時開示) ：日経会社情報DIGITAL",
+          "title": "株式会社ファンコミュニケーションズによる株式会社vivianeの全株式取得について",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fMmJ0TUE4MUNfVkxwdVpxOW50aml5V0Y5TzJxWHpNcldfN1VBQmkwd2NQSnFmcUd4ZUF3bVRjY3FMcnZka1dvY09mZTdaaU9VVlc0UG80c1VwZzZYdGxEcUJhc0hVcnFIWUE?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-08-10T16:00:00+09:00",
-          "published_label": "2026/8/10(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wOVRZVDRqaGs1dnU0NGVnNGNJaFdWRkdGeGdGaVI0ZFR6OXlFVWVyX0EteFFHamVSUlBwd2tEWWlWNUZROFB3RUZhRmtVTnQzS1l1U0RKN3JHdGYxQnI1dGNRZHl2cDdGR0E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-07-01T16:00:00+09:00",
+          "published_label": "2026/7/1(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -2021,22 +2021,6 @@
           "is_new": false
         },
         {
-          "title": "GMOペパボとGMOメイクショップが経営統合へ、27年4月に持株会社「GMO AIコマースHD」上場",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92Slo3M19VYzBkbmNHUzJweF9mMEtTQU84Z0gyMHlMUm01Q2lWNnNTOWp1UFBYc1Y4YXR0ODhXRF9ZRVJodmtfWG5rZUdIY291d21vbUFXYTBGekEwQUhwLWZ4WWxsODRsNHBrUTlMTkJtYk5k?oc=5",
-          "domain": "finance.biggo.jp",
-          "published": "2026-11-17T16:06:00+09:00",
-          "published_label": "2026/11/17(火) 16:06",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "GMOペパボ、EC支援企業と経営統合 27年4月に持ち株会社設立",
           "summary": "",
           "images": [],
@@ -2083,6 +2067,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "GMOペパボ、「GMO AIコマースホールディングス」を設立し持株会社体制へ移行",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16ZV9Nekhvb19oazFNVmJfcnlqendoT0dOcTVTZGIwUVViUWtLVEJiY3lBbHlkc0NGaWJCcUtHY2NDci0yakxjMVFZOGlYUQ?oc=5",
+          "domain": "group.gmo",
+          "published": "2026-11-13T15:45:37+09:00",
+          "published_label": "2026/11/13(金) 15:45",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -2190,7 +2190,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE12%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "ecs_28",
@@ -2251,6 +2251,22 @@
           "is_new": false
         },
         {
+          "title": "ジグザグ、2026年上半期「ウェブインバウンド®データ」を公開 出荷実績は累計179カ国・地域、アニメ・ゲーム関連商品が上位に",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51QlYyMmFxXzJLNUxEMWVXM3ZvNXRKSjlSMXBBYW5NVFAwWXV2dHRPUVRpOUlBSnZwSV9HenJjdEtGYWlFRTIyUmc1WnVCWE1xQ0xlcW5XdFYwWHJaWFZfQzRZRllJcXF0Qmc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-08-14T16:00:00+09:00",
+          "published_label": "2026/8/14(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "株式会社ジグザグ、欧州現地OMO展開で越境EC日次売上が開催前比約11倍に",
           "summary": "",
           "images": [],
@@ -2258,22 +2274,6 @@
           "domain": "tv-tokyo.co.jp",
           "published": "2026-08-12T16:00:00+09:00",
           "published_label": "2026/8/12(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ジグザグ、越境EC向け海外広告支援「WorldShopping BIZ Growth」を提供開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85SGJ3ZF9heEtFNzJ5Nzg2QmJRNDRmdVFGeWx5MXZSVWszZ1JGVTl0cmpIYlZFSFhka2ZzVE1XSjA2VjBPdVNGbXF0RHVMemh2TVQydUp3?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-07-27T16:00:00+09:00",
-          "published_label": "2026/7/27(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2562,7 +2562,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "ecs_32",
@@ -2655,7 +2655,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_33",
@@ -2748,7 +2748,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecs_34",
@@ -2760,7 +2760,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%B7%E3%83%8A%E3%82%B8%E3%83%83%E3%82%AF%E3%82%B9%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     }
   ]
 }
