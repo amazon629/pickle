@@ -160,7 +160,7 @@ BOARD = {
         },
         "これから": {"query": '"株式会社これから"', "match": ["株式会社これから", "これから、"]},
         "そばに": {"query": '"株式会社そばに"', "match": ["株式会社そばに", "そばにの", "そばにが"]},
-        "NE": {"query": '"NE株式会社"', "match": ["NE株式会社", "NE Korea", "441A"]},
+        "NE": {"query": '"NE株式会社"', "match": ["NE株式会社", "NE Korea", "441A"], "exclude": ["Tangerine"]},
         "Mico": {"query": '"Mico" EC', "context": "strict"},
         "スタークス": {"query": '"スタークス" EC', "context": "strict"},
         "ジグザグ": {"query": '"ジグザグ" EC', "context": "strict"},
@@ -210,13 +210,13 @@ BOARD = {
         "ec": {
             "query": '"株式会社ec"',
             "match": ["株式会社ec", "株式会社EC"],
-            "exclude": ["EC PARK", "ECスタジオ", "E-Grant", "ECホールディングス", "ECX", "ECMS", "EC-Consulting", "EC研究所", "EC-GAIN", "株式会社Ec."],
+            "exclude": ["EC PARK", "ECスタジオ", "E-Grant", "ECホールディングス", "ECX", "ECMS", "EC-Consulting", "EC研究所", "EC-GAIN", "株式会社Ec.", "ecbeing"],
             "context": "strict",
         },
         "ALL": {
             "query": '"株式会社ALL" EC',
             "match": ["株式会社ALL", "ALL株式会社"],
-            "exclude": ["ALL CONNECT", "ALL WEB"],
+            "exclude": ["ALL CONNECT", "ALL WEB", "allattain"],
             "context": "strict",
         },
         "SUPER": {"query": '"株式会社SUPER"', "match": ["株式会社SUPER", "SUPER株式会社"], "context": "strict"},
@@ -273,7 +273,7 @@ BOARD = {
             "match": ["株式会社シンカ", "シンカ、", "シンカが", "シンカの", "シンカは", "シンカを", "シンカ[149A]", "シンカ＜149A＞"],
         },
         # 同名の別物が多い英字名（音楽・馬券・ペット・数学用語など）
-        "UNCOVER": {"query": '"UNCOVER" EC', "context": "strict"},
+        "UNCOVER": {"query": '"UNCOVER" EC', "context": "strict", "exclude": ["UNCOVER TRUTH", "UNCOVERTRUTH"]},
         "Rabo": {"query": '"Rabo" EC', "context": "strict"},
         "ベクトル": {"query": '"株式会社ベクトル"', "match": ["株式会社ベクトル", "ベクトル[6058]"]},
         "フュージョン": {

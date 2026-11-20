@@ -236,7 +236,10 @@
         "441A"
       ],
       "limit": 5,
-      "enabled": true
+      "enabled": true,
+      "exclude_match": [
+        "Tangerine"
+      ]
     },
     {
       "id": "ecnp_10",
@@ -789,7 +792,8 @@
         "EC-Consulting",
         "EC研究所",
         "EC-GAIN",
-        "株式会社Ec."
+        "株式会社Ec.",
+        "ecbeing"
       ],
       "context_match": [
         "EC",
@@ -1512,6 +1516,10 @@
       ],
       "limit": 5,
       "enabled": true,
+      "exclude_match": [
+        "UNCOVER TRUTH",
+        "UNCOVERTRUTH"
+      ],
       "context_match": [
         "EC",
         "コマーズ",
@@ -5403,7 +5411,8 @@
       "enabled": true,
       "exclude_match": [
         "ALL CONNECT",
-        "ALL WEB"
+        "ALL WEB",
+        "allattain"
       ],
       "context_match": [
         "EC",
