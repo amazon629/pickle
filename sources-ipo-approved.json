@@ -2,7 +2,7 @@
   "settings": {
     "title": "東京IPO・新規承認ボード",
     "nav_label": "🆕 IPO新規承認",
-    "items_per_source": 50,
+    "items_per_source": 100,
     "min_year": 2026,
     "timeout_seconds": 20,
     "retries": 1,
@@ -31,7 +31,7 @@
         "新規承認"
       ],
       "min_year": 2026,
-      "limit": 50,
+      "limit": 100,
       "archive": "archive-ipo-approved.json",
       "enabled": true
     }
