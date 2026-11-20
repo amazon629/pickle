@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T09:16:01+09:00",
-  "generated_at_label": "2026/11/20 09:16 JST",
+  "generated_at": "2026-11-20T09:32:02+09:00",
+  "generated_at_label": "2026/11/20 09:32 JST",
   "title": "SmartNews 認定代理店 ニュース監視",
-  "total": 238,
+  "total": 239,
   "sources": [
     {
       "id": "snp_01",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "snp_04",
@@ -371,10 +371,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 0.4
     },
     {
       "id": "snp_05",
@@ -432,7 +432,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "DIGITAL HEARTS GeeSPORTS、墨田区主催イベントにおいて、GeeSPORTS(ジースポーツ)用ゲーム『GEROGUE(ジェローグ)』体験会を実施",
@@ -479,7 +479,7 @@
       "via": "https://news.google.com/rss/search?q=%22WEBGRAM%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_07",
@@ -491,7 +491,7 @@
       "via": "https://news.google.com/rss/search?q=%22boxXXX%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_08",
@@ -552,7 +552,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_09",
@@ -564,7 +564,7 @@
       "via": "https://news.google.com/rss/search?q=%22BlueVision%20Interactive%20Limited%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_10",
@@ -641,7 +641,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_11",
@@ -670,7 +670,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "snp_12",
@@ -731,6 +731,22 @@
           "is_new": false
         },
         {
+          "title": "MAVEL、「SmartNews Ads パートナー プログラム」で2年連続「Gold」認定",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qQ3c1bUZHX0t5Ymd1QlZEaUFVckpUcUVHSEhRODdWZ0p6T0k2S3dpQUlIOXRuRjFQQVBDSlg3SEloZDJYNnVLYWxSeWsyVXNqanZEbmNrVHZVNVFDdEhMcVkzcG8xZkpYZ1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-06-12T16:00:00+09:00",
+          "published_label": "2026/6/12(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Mavel Allegiance Infinity Trilogy Hobby Solicitation_page-0005",
           "summary": "",
           "images": [],
@@ -746,22 +762,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Mavel Allegiance Infinity Trilogy ホビー募集_page-0005"
-        },
-        {
-          "title": "沖縄604の中心人物 MAVEL が、新曲「渡り鳥」をリリース｜ヨレた音色にのせた優しい語り",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WN0Z5c1F5Q3h5cWowQjJybWstUVFhWUtPaV9qZzBhaEhqS3ZscWdPMkp2djRoNDljbTVLNTlrQTctRENDa3VELWNjcWZoVkExSC1CWGc1TzlFUQ?oc=5",
-          "domain": "slumhoodstar.com",
-          "published": "2024-02-14T17:00:00+09:00",
-          "published_label": "2024/2/14(水) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -776,7 +776,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BENAKAI%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_14",
@@ -869,7 +869,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 1.5
     },
     {
       "id": "snp_15",
@@ -881,7 +881,7 @@
       "via": "https://news.google.com/rss/search?q=%22UN5UNG%20BUT%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_16",
@@ -974,7 +974,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "snp_17",
@@ -1003,7 +1003,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_18",
@@ -1096,7 +1096,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_19",
@@ -1189,7 +1189,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_20",
@@ -1201,7 +1201,7 @@
       "via": "https://news.google.com/rss/search?q=%22WPP%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 1.6
     },
     {
       "id": "snp_21",
@@ -1227,7 +1227,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ソウルドアウト、「Meta Agency First Awards Japan 2026 」にて今年度新設された「Creative of the Year」クリエイターソリューション賞のGOLDを受賞",
@@ -1291,10 +1291,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "snp_22",
@@ -1387,7 +1387,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_23",
@@ -1464,7 +1464,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_24",
@@ -1476,7 +1476,7 @@
       "via": "https://news.google.com/rss/search?q=%22Anymo%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 1.8
+      "elapsed": 0.2
     },
     {
       "id": "snp_25",
@@ -1521,7 +1521,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 1.8
     },
     {
       "id": "snp_26",
@@ -1533,7 +1533,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEKento%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_27",
@@ -1557,7 +1557,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BELIT%E2%80%99S%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_29",
@@ -1569,7 +1569,7 @@
       "via": "https://news.google.com/rss/search?q=%22Souriant%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_30",
@@ -1614,7 +1614,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "snp_31",
@@ -1688,7 +1688,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アドウェイズ－買い気配 伊藤忠商事と資本業務提携 伊藤忠が筆頭株主に(トレーダーズ・ウェブ)",
@@ -1704,10 +1704,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_32",
@@ -1719,7 +1719,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B9%E3%83%9A%E3%82%AF%E3%83%88%E3%83%A9%E3%83%A0%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_33",
@@ -1824,7 +1824,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%90%E3%83%AD%E3%83%BC%E3%82%BA%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_35",
@@ -1885,22 +1885,6 @@
           "is_new": false
         },
         {
-          "title": "ピアラ[7044]：2026年12月期第3四半期決算短信〔日本基準〕（連結） 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13a0xDMTRITm1UNlQ1ZXktSjVVdVlHY0JfZzhFR0xfeklZTERGQ2pfVWlQaE1Dc1c3TFdxX1RSRG9PVW5TZ1BWZVNwSmdTX3NQc2hSX3NmaGgzS0otMkpBc09GSmNaVWUwUmc?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-13T15:30:00+09:00",
-          "published_label": "2026/11/13(金) 15:30",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "ピアラ、今期経常を一転52％減益に下方修正",
           "summary": "",
           "images": [],
@@ -1915,9 +1899,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ピアラ[7044]：2026年12月期第3四半期決算短信〔日本基準〕（連結） 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13a0xDMTRITm1UNlQ1ZXktSjVVdVlHY0JfZzhFR0xfeklZTERGQ2pfVWlQaE1Dc1c3TFdxX1RSRG9PVW5TZ1BWZVNwSmdTX3NQc2hSX3NmaGgzS0otMkpBc09GSmNaVWUwUmc?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-13T15:30:00+09:00",
+          "published_label": "2026/11/13(金) 15:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_36",
@@ -2127,7 +2127,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "snp_40",
@@ -2220,7 +2220,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "snp_41",
@@ -2322,10 +2322,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "snp_43",
@@ -2337,7 +2337,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE%E6%9C%AA%E8%B8%8F%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_44",
@@ -2382,7 +2382,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.5
     },
     {
       "id": "snp_45",
@@ -2511,7 +2511,7 @@
       "via": "https://news.google.com/rss/search?q=%22Metamon%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "snp_49",
@@ -2523,7 +2523,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEN8%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_50",
@@ -2616,7 +2616,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_51",
@@ -2628,7 +2628,7 @@
       "via": "https://news.google.com/rss/search?q=%22Sweeet%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_52",
@@ -2721,7 +2721,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "snp_53",
@@ -2733,7 +2733,7 @@
       "via": "https://news.google.com/rss/search?q=%22bibittt%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_54",
@@ -2745,7 +2745,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEmilkyway%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_55",
@@ -2838,7 +2838,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 1.6
     },
     {
       "id": "snp_56",
@@ -2848,7 +2848,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E3%81%93%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 4,
       "items": [
         {
           "title": "「売上目標なし」「営業一切なし」「業界未経験9割」で年商30億円！株式会社はこ 亀谷誠一郎氏の経営戦略が凄かった。",
@@ -2897,9 +2897,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "＜効果だけでは満足できない男性へ＞ 無駄を省き“効果”と“効率”を追い求めたメンズスキンケアブランド 「FUNCTIONAL B」誕生！ 2021年10月25日(月)より公式ブランドサイトにて新発売 | 株式会社はこ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE53X3AyTTJNbjItUEFhS1RWdXB3VTAtOFhNdDk3MG1scmxKVE9Jd3RFUTVwakF3U292dXZscGpESGYxQQ?oc=5",
+          "domain": "digitalpr.jp",
+          "published": "2021-10-25T14:02:19+09:00",
+          "published_label": "2021/10/25(月) 14:02",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_57",
@@ -2911,7 +2927,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A2%E3%83%89%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_58",
@@ -2923,7 +2939,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%83%E3%83%84%E3%83%AA%E3%83%BC%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "snp_59",
@@ -3016,7 +3032,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "snp_60",
@@ -3109,7 +3125,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_61",
@@ -3263,7 +3279,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "snp_63",
@@ -3289,7 +3305,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【2023/10/5～2023/11/4アーカイブ配信】CARTA COMMUNICATIONS × Nint 共催セミナー：元楽天2人が語る！メーカー必見！楽天市場におけるEC戦略の鍵",
@@ -3356,7 +3372,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_64",
@@ -3430,7 +3446,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "D2C R、広告運用分析・レポーティングに特化した「Looker Studio」のダッシュボードを提供開始",
@@ -3446,7 +3462,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -3473,7 +3489,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%22%20OR%20%22%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_67",
@@ -3566,7 +3582,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.8
     },
     {
       "id": "snp_68",
@@ -3627,7 +3643,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_69",
@@ -3639,7 +3655,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEBest%20Relation%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_70",
@@ -3684,7 +3700,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_71",
@@ -3761,7 +3777,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "snp_72",
@@ -3802,7 +3818,7 @@
       "via": "https://news.google.com/rss/search?q=%22Tasteee%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "snp_74",
@@ -3863,22 +3879,6 @@
           "is_new": false
         },
         {
-          "title": "エコロシティ、一般社団法人大阪府宅地建物取引業協会とTENとの提携で新サービス開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1ld05oVVJzMVROUDZvR1lzUmp6UWFGdnNPQXdoa3Zuc2Y5WFJ5NVpPUzRWREJ2NzBTWGdQZlV2cEgwMkNELXdn?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-06-01T16:00:00+09:00",
-          "published_label": "2026/6/1(月) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "【5月28日放送後】HAPPY LIFE RADIO｜生成AIと日本のモノづくりの未来✨株式会社TEN-X 財部翔平さんご出演！",
           "summary": "",
           "images": [],
@@ -3893,9 +3893,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "株式会社TeN、4/22-24開催の『マーケティングWeek春』に出展！",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBibXQ0NVprNnd6X3ZMYWNSZ0tIZHZuUFVQT2M2ZVhPMzBTRWdYTWVjdWhyMWV0V3dmSncwNm1QQVZGS1E0eW1LeEdGc0pZdWdXQ1l1YksyS296MEpiZ0hpNXk3NWVGcnJva3c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-04-08T16:00:00+09:00",
+          "published_label": "2026/4/8(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "snp_75",
@@ -3907,7 +3923,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEshiroiro%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_76",
@@ -4000,7 +4016,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 0.3
     },
     {
       "id": "snp_77",
@@ -4093,7 +4109,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.7
     },
     {
       "id": "snp_78",
@@ -4138,7 +4154,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_79",
@@ -4150,6 +4166,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%AB%E3%82%AB%E3%82%AF%E3%82%B3%E3%83%A0%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "欧州系ファンドEQT、カカクコムへのTOB価格引き上げ 1株3700円に",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvZE90REYzV25tTUg1X2g5bnBub0ZkNHE3bDJaRURXM2VZS2ZDWHFOVWJ3bnZ0T3RVOVZpdzBzNk9IdzllSjRBQXlzQ0hWeUQ5RlhhRHEyV2pVc0Y2TloxOW1FRUxzMnA1LUM4Uw?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-11T17:00:00+09:00",
+          "published_label": "2026/11/11(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
         {
           "title": "欧州ファンド、カカクコムTOB価格3700円に（時事通信）",
           "summary": "",
@@ -4165,22 +4197,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "欧州系ファンドEQT、カカクコムへのTOB価格引き上げ 1株3700円に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvZE90REYzV25tTUg1X2g5bnBub0ZkNHE3bDJaRURXM2VZS2ZDWHFOVWJ3bnZ0T3RVOVZpdzBzNk9IdzllSjRBQXlzQ0hWeUQ5RlhhRHEyV2pVc0Y2TloxOW1FRUxzMnA1LUM4Uw?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-11T17:00:00+09:00",
-          "published_label": "2026/11/11(水) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         },
         {
           "title": "ＥＱＴ、カカクコムＴＯＢ価格3700円に引き上げ ＬＩＮＥヤフーと一致（ロイター）",
@@ -4231,7 +4247,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.6
     },
     {
       "id": "snp_80",
@@ -4324,7 +4340,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_81",
@@ -4417,7 +4433,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "snp_82",
@@ -4510,7 +4526,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_83",
@@ -4551,7 +4567,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_85",
@@ -4644,7 +4660,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_86",
@@ -4721,7 +4737,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_87",
@@ -4733,7 +4749,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%AF%E3%83%B3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_88",
@@ -4762,13 +4778,29 @@
           "is_new": false
         },
         {
-          "title": "フォーウェイ、メンバーズの伴走支援でデジタル広告運用を内製化 代理店手数料を広告投資へ還元し、書籍販促の成果最大化へ",
+          "title": "メンバーズ（2130）、DX現場支援への転換が進展 2026年3月期は付加価値売上高が過去最高",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXaEV2Zl8yT2VTdzZUZ3E2QUJMdXRkUWtxc2w5NDJXYU9aTkxSRU00Nm9Hd3NWZndQUVo1a2dLSEQwVDhXMWt2NFpxdkxXWVFVU0dSTDZpTExQb25BUE9fYTNhOUF5THlFT3c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3ekh4dUVub3YtR3lTV0J0YjVJcExLS2N3RVdZczhHa0RPWE84S0h5QXdpZXZPQWM1ZC1Edm1jbTAxX2lZRnA1dnNwRHNwUmVuM3c?oc=5",
+          "domain": "finance.logmi.jp",
+          "published": "2026-05-21T16:00:00+09:00",
+          "published_label": "2026/5/21(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "株式会社メンバーズ nu.Designカンパニー、山形大学と「新規事業の実装と成功確率を高める共同研究」を開始〜産学連携による「体験型プロトタイピング」で、事業創出を牽引する人材育成と組織変革を推進〜",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pbkx2aHQ4NWtFRi00d29ac1MyVHExOWREaV9oejR2QmhHUkZOT3UzV25xaWtkNFZIWFluU0xYNUN2d283blJGWkdMSkcxcXN3YUlCZ0ZPOGdiUG41bnVJSkYxTEpVb0ZDX2c?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-10-06T16:00:00+09:00",
-          "published_label": "2026/10/6(火) 16:00",
+          "published": "2026-04-09T16:00:00+09:00",
+          "published_label": "2026/4/9(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4778,13 +4810,13 @@
           "is_new": true
         },
         {
-          "title": "メンバーズ「広告内製化白書2026」を公開。有価証券報告書6,245件を独自集計し、上場企業1,173社の広告宣伝費などを分析",
+          "title": "BUSINESS CORE 株式会社 メンバーズ フォーアドカンパニー カンパニー社長 田中 秀和",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5oc054TGdtbmdzbno1MXFtUk5wQkZVNHlScmVVTnN5dzV0akpfLUR1QndvT3BITHJBQkY2eU9hRzlpV1U0MFhIM1psc01aS1E2bHloc2dTQUNyUjJZWU1hQThXY0dIQ0NBbnNMWFlFWi11QQ?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-09-29T16:00:00+09:00",
-          "published_label": "2026/9/29(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tS1duUDBUUEljLW9qZ3JzandyYTZMeXlKRnlvbjlFWGlaT0ZaeGY1SDJXLW9ELXk5cGJiQ2taT3JpYmVfVlZPWWN6NXhDQXpzRll5Z2xsNWxTWDJHSG9B?oc=5",
+          "domain": "challenge-plus.jp",
+          "published": "2026-03-01T17:00:00+09:00",
+          "published_label": "2026/3/1(日) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4794,29 +4826,13 @@
           "is_new": true
         },
         {
-          "title": "AI推奨商品「クチコミがなければ購入を見送る」57％ メンバーズ調査",
+          "title": "メンバーズ、金融・公共領域に強みを持つUX・UIデザイン会社 株式会社アジケを子会社化",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44a0NkR19xeklKM1RXbHgyRS1JWEhmNmFLdEtFRWJyRE1NamV4RHM5ZzRaNjJNNnBjN0xaZGZlWnF5dnJUbjZWVmQ1X2lEVVJybzlmVHA0aVVWUQ?oc=5",
-          "domain": "ecnomikata.com",
-          "published": "2026-09-25T16:00:00+09:00",
-          "published_label": "2026/9/25(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "【日本企業のサーキュラーエコノミー実態調査2026】地政学リスク・資源高騰で事業転換への機運高まるも推進企業は1割未満と停滞。AI活用企業はPaaS転換・異業種連携の実行率が未活用企業の約2倍に | 株式会社メンバーズのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tcHNZbGFHcHlUbXFJb3BfcFZvaXdjNjdRUjBETkF4MkNxRTRTd1BoZ1pBcTA4VXpzVm1BU3VZd1ZpbGhoOFAxbkItTndyTEgwQWRQUmNKTnpJbjdzWUtYVkwtUHZVaEc0Vnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzS3A5M0FkSkpldVNlMW1BUnY4R3ltVlJZVjFHRFBfM3VreFZaYkpoYU9aRmpJa0dtanVLSGpIc0JMRkQ2UlM4eDFva3Rjb2FRZE1FOTBWUUw0aWZuRkhJb29zQXlYMGhINlE?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-09-17T16:00:00+09:00",
-          "published_label": "2026/9/17(木) 16:00",
+          "published": "2025-12-25T17:00:00+09:00",
+          "published_label": "2025/12/25(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4826,7 +4842,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.3
     },
     {
       "id": "snp_89",
@@ -4855,7 +4871,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_90",
@@ -4948,7 +4964,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 1.1
     }
   ]
 }
