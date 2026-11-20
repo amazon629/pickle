@@ -31,8 +31,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | 日本株・投資 X監視ボード | `sources-jp-stocks.json` | `jp-stocks.html` | `data-jp-stocks.json` |
 | AI新着 X監視ボード | `sources-ai-tools.json` | `ai-tools.html` | `data-ai-tools.json` |
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
+| トレカ抽選速報 X監視ボード（せど子・アフロくま・ぴかQ） | `sources-toreca-lottery.json` | `toreca-lottery.html` | `data-toreca-lottery.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）

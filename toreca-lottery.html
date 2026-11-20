@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f2f3f5">
+<title>トレカ抽選速報 X監視ボード</title>
+<style>
+  :root {
+    --bg: #f2f3f5;
+    --card: #ffffff;
+    --text: #16181c;
+    --text-2: #3f434a;
+    --muted: #8a8f98;
+    --line: #eef0f2;
+    --new-bg: #ecf8f0;
+    --dot: #e5484d;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding-bottom: 40px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 12px; }
+  .topbar {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(242,243,245,.92);
+    backdrop-filter: saturate(180%) blur(12px);
+    -webkit-backdrop-filter: saturate(180%) blur(12px);
+    padding: 10px 0 8px;
+    border-bottom: 1px solid rgba(0,0,0,.04);
+  }
+  .topbar .row { display: flex; align-items: baseline; gap: 8px; }
+  .topbar h1 { font-size: 16px; margin: 0; letter-spacing: .02em; }
+  .topbar .updated { font-size: 11px; color: var(--muted); }
+  .nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+  .nav a {
+    font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;
+    color: var(--text-2); background: #fff; border: 1px solid #e4e6ea;
+    text-decoration: none;
+  }
+  .nav a.is-active { background: var(--text); border-color: var(--text); color: #fff; }
+  .search {
+    margin-top: 8px; position: relative;
+  }
+  .search input {
+    width: 100%; border: 0; border-radius: 10px; background: #fff;
+    padding: 9px 12px 9px 34px; font-size: 16px; color: var(--text);
+    box-shadow: 0 1px 2px rgba(16,24,40,.05);
+    outline: none;
+  }
+  .search::before {
+    content: ""; position: absolute; left: 12px; top: 12px; width: 12px; height: 12px;
+    border: 2px solid #b6bbc4; border-radius: 50%;
+  }
+  .search::after {
+    content: ""; position: absolute; left: 23px; top: 23px; width: 6px; height: 2px;
+    background: #b6bbc4; transform: rotate(45deg); border-radius: 1px;
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip {
+    font: inherit; font-size: 11.5px; line-height: 1.5; padding: 3px 10px;
+    border-radius: 999px; border: 1px solid #e4e6ea; background: #fff;
+    color: var(--text-2); cursor: pointer; -webkit-appearance: none; appearance: none;
+  }
+  .chip .n { font-size: 10px; color: var(--muted); margin-left: 4px; }
+  .chip.is-on { background: #1a56c4; border-color: #1a56c4; color: #fff; }
+  .chip.is-on .n { color: rgba(255,255,255,.85); }
+  .chip.is-zero { color: #b0b5bd; }
+  .noresult {
+    margin: 18px 4px; font-size: 12.5px; color: var(--muted); text-align: center;
+  }
+  mark.kw { background: #fff08a; color: inherit; border-radius: 2px; padding: 0 1px; }
+  .cards { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
+  .card {
+    background: var(--card);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(16,24,40,.05), 0 1px 3px rgba(16,24,40,.03);
+  }
+  .card header {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 10px; padding: 13px 15px 11px;
+    border-bottom: 1px solid var(--line);
+  }
+  .card h2 { font-size: 14.5px; margin: 0; font-weight: 700; letter-spacing: .01em; }
+  .count { font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .items { display: flex; flex-direction: column; }
+  .item {
+    display: flex; gap: 9px; align-items: flex-start;
+    padding: 10px 15px 9px;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none; color: inherit;
+  }
+  .item:last-child { border-bottom: 0; }
+  .item:active { background: #f7f8fa; }
+  .item.is-new { background: var(--new-bg); }
+  .badge {
+    flex: 0 0 auto; margin-top: 2px;
+    font-size: 9.5px; font-weight: 700; letter-spacing: .02em;
+    padding: 1px 5px; border-radius: 4px; line-height: 1.5;
+    background: #fdf3d7; color: #9a6700;
+  }
+  .badge-x { background: #e9f0fe; color: #1a56c4; }
+  .badge-yt { background: #fdeaea; color: #c62828; }
+  .badge-note { background: #e6f7ee; color: #0f7a4a; }
+  .body { min-width: 0; flex: 1 1 auto; display: block; }
+  .title {
+    display: block; font-size: 13.5px; line-height: 1.62; color: var(--text-2);
+    word-break: break-word;
+  }
+  .item.is-new .title::before {
+    content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--dot); margin-right: 6px; vertical-align: 1px;
+  }
+  .desc {
+    display: block; margin-top: 4px; font-size: 12.5px; line-height: 1.6;
+    color: var(--muted); word-break: break-word;
+  }
+  .trans {
+    display: block; margin-top: 6px; padding: 6px 9px 6px 9px;
+    background: #eefaf3; border-left: 3px solid #16a34a; border-radius: 4px;
+    font-size: 13px; line-height: 1.62; color: #14532d; word-break: break-word;
+  }
+  .trans-label { font-weight: 700; color: #15803d; margin-right: 1px; }
+  .imgs { display: grid; gap: 4px; margin-top: 8px; }
+  .imgs.n2, .imgs.n4 { grid-template-columns: 1fr 1fr; }
+  .imgs.n3 { grid-template-columns: 1fr 1fr 1fr; }
+  .imgs img {
+    display: block; width: 100%; border-radius: 9px; background: var(--bg);
+    object-fit: cover; object-position: top; aspect-ratio: 4 / 3;
+  }
+  .imgs.n3 img { aspect-ratio: 1 / 1; }
+  .imgs.n1 { justify-items: start; }
+  .imgs.n1 img {
+    width: auto; height: auto; max-width: 100%; max-height: 340px;
+    aspect-ratio: auto; object-fit: contain; border-radius: 10px;
+  }
+  .pin {
+    display: inline-block; font-size: 9.5px; font-weight: 700; color: #9a6700;
+    background: #fdf3d7; border-radius: 4px; padding: 1px 5px; margin-right: 6px;
+    vertical-align: 1px;
+  }
+  .meta {
+    display: flex; justify-content: space-between; gap: 10px;
+    margin-top: 4px; font-size: 10.5px; color: var(--muted);
+  }
+  .dom { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .time { white-space: nowrap; }
+  .err { margin: 0; padding: 14px 15px; font-size: 12.5px; color: #b42318; }
+  .err span { color: var(--muted); font-size: 11px; word-break: break-all; }
+  .err.note { color: var(--muted); padding-top: 6px; padding-bottom: 10px; border-top: 1px solid var(--line); }
+  footer {
+    margin: 18px 2px 0; font-size: 11px; color: var(--muted);
+    display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap;
+  }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="row"><h1>トレカ抽選速報 X監視ボード</h1><span class="updated">最終更新 2026/11/20 16:05 JST</span></div>
+    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="ai-tools.html">✨ AI新着</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="ec-brands.html">EC・D2C 515社</a><a class="" href="ec-companies.html">EC企業75社</a><a class="" href="ec-mailorder.html">通販・コスメ54社</a><a class="" href="ec-support.html">EC・支援34社</a><a class="" href="ecnopro-companies.html">🎤 ECのプロ企業</a><a class="" href="ipo-approved.html">🆕 IPO新規承認</a><a class="" href="ipo-news.html">📰 IPO新規ニュース</a><a class="" href="ipo.html">IPO</a><a class="" href="jp-stocks.html">📊 日本株・投資</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="onepiece-toreca.html">🏴‍☠️ ワンピカ・トレカ</a><a class="" href="pokeca-lottery.html">🎟️ ポケカ抽選</a><a class="" href="pokeca-stores.html">🏪 ポケカ32店舗</a><a class="" href="pokeca.html">ポケカ</a><a class="" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="is-active" href="toreca-lottery.html">🎯 トレカ抽選</a><a class="" href="unicorns.html">🦄 10億ドル以上</a><a class="" href="urban-dev.html">🏙️ 都市開発</a></nav>
+    <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
+  </div>
+  <main class="cards" id="cards">
+<section class="card" data-source="x_sedokox">
+  <header><h2>せど子ちゃん</h2><span class="count">15件</span></header>
+  <div class="items">
+<a class="item t-x" href="https://x.com/sedokoX/status/2123006855152857255" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title"><span class="pin">固定</span>人気すぎて品薄の皇居財布にweb抽選🎯<br>【抽選販売】<br>皇居 菊紋入り長財布/クロコ調長財布/がま口付き財布/カラー小銭入れ<br>📅応募期間<br>〆11月20日(金) 23:59まで<br>📍販売場所<br>皇居東御苑 本丸売店 (東京)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>せど子ちゃん (@sedokoX)<br>去年は6千円が1.2万円に高騰中😢💸<br>高島屋アプリでオンライン抽選🎯<br>【抽選販売】<br>タカシマヤ ヒグチユウコ オリジナル トートバッグ 2026<br>価格：6,270円<br>📅応募期間<br>〆11月15日(日)まで<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>— https://x.com/sedokoX/status/2120471159762489488</span>
+    <span class="imgs n4"><img src="https://pbs.twimg.com/media/HXZve10bYAApNjb.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXZve2EbMAAFoGD.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXZve12bQAA3CK-.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HW1tR_jbUAAQeYb.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/18(水) 19:54</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123660536906932246" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ハドウシーカー BOX ポケモンカード<br>🔻Amazon《PR》<br>🔻Yahooショッピング《PR》<br>🔻メルカリ《PR》<br>✅ 応募ページはこちら‼️👇<br>竜のしっぽ(大阪/兵庫)<br>プレ値で買わずに、ぜひ定価で手に入れてください‼︎<br>※転売行為はお控えください</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122207015695220736/uQVra6ZS?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:11</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123660532729491472" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">竜のしっぽ(大阪/兵庫)でweb抽選🎯<br>【抽選販売】<br>1️⃣ ハドウシーカー BOX<br>2️⃣ 30th CELEBRATION カードセット9種<br>📅応募期間<br>〆11月20日(金)23:59まで<br>🎉当選発表<br>11月25日(水)17:00〜18:00<br>🛒購入期間<br>11月27日(金)〜11月29日(日)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>せど子ちゃん (@sedokoX)<br>ブックオフ池袋サンシャイン60通り店(東京)でweb抽選🎯<br>【抽選販売】<br>神の支配 ONE PIECEカード<br>📅応募期間<br>〆11月19日(木)まで<br>🎉当選発表<br>11月20日(金)<br>🛒購入期間<br>11月21日(土)～11月22日(日)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>— https://x.com/sedokoX/status/2123340186033746312</span>
+    <span class="imgs n3"><img src="https://pbs.twimg.com/media/HXjB_5haoAABlIy.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXeepSMbIAAq-tN.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXeepSRboAEawkY.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:11</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123648184862068918" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">2色とも通常版復活してます🙆‍♀️✨<br>とく子ちゃん🔔お得商品 (@SabukoX)<br>ホワイトのケーブル同梱・ブラック通常はまだ買えます🙆‍♀️✨<br>【Amazon】PR<br>DualSense ワイヤレスコントローラー “グランド・セフト・オートVI” リミテッドエディション<br>✅価格：12,480円‼️<br>▶︎ﾎﾟｲﾝﾄ：474pt<br>⚫️ブラック<br>JAN: 4948872417525<br>🔻通常<br>🔻ケーブル同梱<br>⚪️ホワイト<br>JAN: 4948872417501<br>🔻通常<br>🔻ケーブル同梱<br>— https://x.com/SabukoX/status/2123622798409257278</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122004652686508032/7bOwwOdD?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:22</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123622798409257278" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ホワイトのケーブル同梱・ブラック通常はまだ買えます🙆‍♀️✨<br>【Amazon】PR<br>DualSense ワイヤレスコントローラー “グランド・セフト・オートVI” リミテッドエディション<br>✅価格：12,480円‼️<br>▶︎ﾎﾟｲﾝﾄ：474pt<br>⚫️ブラック<br>JAN: 4948872417525<br>🔻通常<br>🔻ケーブル同梱<br>⚪️ホワイト<br>JAN: 4948872417501<br>🔻通常<br>🔻ケーブル同梱</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122004652686508032/7bOwwOdD?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 12:41</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123593547253510227" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">🔥-21%OFF🔥<br>【Amazon】PR<br>スーパーマリオギャラクシー + スーパーマリオギャラクシー 2 -Switch<br>✅価格：5,484円‼️<br>▶︎ﾎﾟｲﾝﾄ：219pt<br>JAN: 4902370553611</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123034037212286976/2GGdWHHz?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 10:45</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123590216061694133" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">🔥ポイント26%還元🔥<br>ひとり15個まで<br>【Amazon】 PR<br>INSTAX MINI JP 1 チェキ用フィルム<br>✅価格：1,760円‼️<br>▶︎ﾎﾟｲﾝﾄ：497pt<br>JAN：4547410377224</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2121269846457581568/ioUZLwnY?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 10:32</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123450926862352548" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">パープルも値下げ来てます☺️⤵️✨<br>【Amazon】PR<br>DualSense ワイヤレスコントローラー ギャラクティック パープル(CFI-ZCT2J04)<br>✅価格：8,781円‼️<br>▶︎ﾎﾟｲﾝﾄ：351pt<br>JAN: 4948872417280</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2121981826826895360/Mo4pgOpg?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 01:18</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123431929634828684" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">【Yahooｼｮｯﾋﾟﾝｸﾞ】PR<br>ひとり2個まで<br>ツクモ パソコン ヤフショ<br>Meta Quest 3 512GB<br>✅価格：102,300円‼️<br>▶︎ﾎﾟｲﾝﾄ：14,972pt<br>JAN: 0815820024170</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123400374321364992/qItD54ml?format=jpg&amp;name=600x314" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:03</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/SabukoX/status/2123368873697354235" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">🔥-25%OFF🔥<br>【Amazon】PR<br>DualSense ワイヤレスコントローラー<br>✅価格：8,617円‼️<br>▶︎ﾎﾟｲﾝﾄ：344pt<br>🩷ピンク<br>JAN: 4948872417204<br>🩶カモフラージュ<br>JAN: 4948872417402<br>⚪️ホワイト<br>JAN: 4948872417303</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2120078316363567104/VljJrvZr?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/19(木) 19:52</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123340190668525630" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">神の支配 ONE PIECEカード<br>🔻Amazon《PR》<br>🔻Yahooショッピング《PR》<br>🔻メルカリ《PR》<br>✅ 応募ページはこちら‼️👇<br>ブックオフ池袋サンシャイン60通り店(東京)<br>プレ値で買わずに、ぜひ定価で手に入れてください‼︎<br>※転売行為はお控えください<br>ブックオフ池袋サンシャイン６０通り店【トレカ】 (@SS60_ikebukuo)<br>🦉お知らせ🦉<br>#ワンピカード<br>【買取情報】<br>・覇王色SP<br>・Heroines Edition vol.2 SP<br>こちら買取募集中です💪💪💪<br>また11/21(土)発売「神の支配」の抽選を実施致します。<br>画像の注意事項をよくお読みになってご参加ください！<br>#ブックオフ池袋サンシャイン60通り店 にてお待ちしております！<br>— https://x.com/SS60_ikebukuo/status/2120768854435750351</span>
+    <span class="imgs n3"><img src="https://pbs.twimg.com/card_img/2119957865209462784/pRt-MK-X?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HW58CCOa8AAuSDq.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HW58CCVbwAA7H8B.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/19(木) 17:58</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123340186033746312" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ブックオフ池袋サンシャイン60通り店(東京)でweb抽選🎯<br>【抽選販売】<br>神の支配 ONE PIECEカード<br>📅応募期間<br>〆11月19日(木)まで<br>🎉当選発表<br>11月20日(金)<br>🛒購入期間<br>11月21日(土)～11月22日(日)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>せど子ちゃん (@sedokoX)<br>駿河屋 秋葉原本館(東京)でweb抽選🎯<br>【抽選販売】<br>神の支配 ONE PIECEカード<br>📅応募期間<br>〆11月18日(水)まで<br>🎉当選発表<br>11月19日(木)<br>🛒購入期間<br>11月21日(土)～11月24日(火)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>— https://x.com/sedokoX/status/2123048876982812880</span>
+    <span class="imgs n3"><img src="https://pbs.twimg.com/media/HXeepSMbIAAq-tN.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXeepSRboAEawkY.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXaVs4BbcAEIfmR.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/19(木) 17:58</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123245506055090632" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">お店と同じ値段で注文できちゃう😳✨<br>送料無料の『Rocket Now』🚀<br>🎟️最大5,000円の割引クーポン貰えます‼︎<br>《手順》<br>①下の紹介リンクからインストール<br>②上のリンクからアプリ起動<br>③ 新規登録で最大5,000円ｸｰﾎﾟﾝGET🎁</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/media/HXdIiJ_aQAAF7jz.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXdIiJ-bwAASoeA.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/19(木) 11:42</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123048881172996494" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">神の支配 ONE PIECEカード<br>🔻Amazon《PR》<br>🔻Yahooショッピング《PR》<br>🔻メルカリ《PR》<br>✅ 応募ページはこちら‼️👇<br>駿河屋 秋葉原本館(東京)<br>プレ値で買わずに、ぜひ定価で手に入れてください‼︎<br>※転売行為はお控えください<br>駿河屋 秋葉原本館1F（トレカ専用） (@surugayaakiba4)<br>【ONE PIECEｶｰﾄﾞ ﾌﾞｰｽﾀｰﾊﾟｯｸ 神の支配 [OP-18]抽選販売のお知らせ】<br>抽選応募方法<br>①駿河屋通販トレカ情報【公式】(@surugaya_toreka)をフォロー<br>②当店アカウントをフォロー<br>③この投稿をRPする<br>本人様が来店可能な方が対象です!<br>注意事項は画像をチェック😎<br>#駿河屋 #秋葉原<br>— https://x.com/surugayaakiba4/status/2121102365365543243</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/card_img/2119957865209462784/pRt-MK-X?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HW-rWiBbUAAT6NX.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/18(水) 22:41</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/sedokoX/status/2123048876982812880" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">駿河屋 秋葉原本館(東京)でweb抽選🎯<br>【抽選販売】<br>神の支配 ONE PIECEカード<br>📅応募期間<br>〆11月18日(水)まで<br>🎉当選発表<br>11月19日(木)<br>🛒購入期間<br>11月21日(土)～11月24日(火)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>せど子ちゃん (@sedokoX)<br>ティアワン渋谷/浜松(東京/静岡)でweb抽選🎯<br>【抽選販売】<br>神の支配 ONE PIECEカード<br>📅応募期間<br>〆11月18日(水)23:59まで<br>🎉当選発表<br>11月20日(金)<br>🛒購入期間<br>11月21日(土)～11月22日(日)<br>※転売行為はお控えください<br>👇応募ページはリプ欄へ👇<br>— https://x.com/sedokoX/status/2123021395190063144</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/media/HXaVs4BbcAEIfmR.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXZ8tF5a8AAwGum.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/18(水) 22:41</span></span>
+  </span>
+</a>
+  </div>
+</section>
+<section class="card" data-source="x_afrotcg">
+  <header><h2>アフロくま🐻‍❄️トレカ抽選情報</h2><span class="count">15件</span></header>
+  <div class="items">
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123445452301615474" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title"><span class="pin">固定</span>本日のトレカ抽選開始まとめ🎯【11/19更新】<br>『プレミアムデッキセット エーフィ・ブラッキー』<br>📦 セブンネットショッピング 〆11/23<br>『VSTARユニバース』<br>📦 ガンギ(GANGI)〆11/25<br>『世界最強の戦士』<br>✅ 麦わらストア(全国)〆11/22<br>『ハドウシーカー』<br>✅ ポケモンセンター店舗(全国)〆11/23<br>✅ プレイズ/お宝創庫グループ(全国)〆11/22<br>✅ カードキングダム秋葉原(東京)〆11/25 21時<br>✅ ブックオフ町田中央通り(東京)〆11/25<br>✅ スキップ(大阪)〆11/21 12時<br>✅ ブックオフ守口ジャガータウン(大阪)〆11/25<br>✅ ブックオフ西友岡崎(愛知)〆11/25<br>✅ 駿河屋 横浜(神奈川)〆11/25<br>✅ ブックオフ横浜鴨居(神奈川)〆11/22<br>✅ ブックオフ湘南辻堂(神奈川)〆11/25<br>✅ ブックオフ東千葉祐光(千葉)〆11/25 15時<br>✅ 駿河屋 博多マルイ(福岡)〆11/25<br>═════════<br>『神の支配』<br>✅ MINT大丸心斎橋店(大阪)〆11/20 10時<br>✅ 駿河屋 名古屋大須(愛知)〆11/20<br>✅ バトスキ！大須店(愛知)〆11/20<br>✅ ブックオフ野田(千葉)〆11/21 15時<br>✅ 駿河屋 博多マルイ(福岡)〆11/20<br>═════════<br>🎯『ハドウシーカー』抽選まとめ<br>🎯『神の支配』抽選まとめ<br>🎯『30th CELEBRATION』抽選まとめ<br>📦Amazon招待リクエストまとめ<br>いいね＆ブックマークしておきましょう！<br>フォローもよろしくお願いします🙏<br>👇昨日の分を見たい人は引用投稿をチェック👇<br>アフロくま🐻‍❄️トレカ抽選情報 (@AfroTCG)<br>本日のトレカ抽選開始まとめ🎯【11/18更新】<br>『ハドウシーカー』<br>📦 トレカプラザ55通販 〆11/22<br>✅ 晴れる屋２(全国)〆11/23<br>✅ カードラッシュ秋葉原/池袋(東京)〆11/25<br>✅ カーデリア池袋(東京)〆11/24<br>✅ MINT吉祥寺(東京)〆11/24<br>✅ ブックオフ名古屋みなと(愛知)〆11/25<br>✅ すまいるキング安城店(愛知)〆11/22<br>✅ TSUTAYA須賀川(神奈川)〆11/24 20時<br>═════════<br>『神の支配』<br>✅ カーデリア池袋(東京)〆11/24<br>✅ バトロコ川崎(神奈川)〆11/19<br>✅ ブックオフ横須賀中央(神奈川)〆11/20 18時<br>✅ ブックオフイオン橋本(神奈川)〆11/19<br>✅ バトロコ八千代台(千葉)〆11/20 17時<br>═════════<br>🎯『ハドウシーカー』抽選まとめ<br>🎯『神の支配』抽選まとめ<br>🎯『30th CELEBRATION』抽選まとめ<br>📦Amazon招待リクエストまとめ<br>いいね＆ブックマークしておきましょう！<br>フォローもよろしくお願いします🙏<br>👇昨日の分を見たい人は引用投稿をチェック👇<br>— https://x.com/AfroTCG/status/2123080524482920492</span>
+    <span class="imgs n4"><img src="https://pbs.twimg.com/media/HXf-YeAaQAA4nyd.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXf-Yd6bIAAXncc.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXf-Yd9a4AAzwyW.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXf-Yd7aQAABUYY.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:57</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123670448760410241" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">トイコンプ(大阪)で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月23日(月)23:59まで<br>■当選発表<br>11月24日(火)<br>■購入期間<br>11月27日(金)〜11月29日(日)<br>応募はこちら👇</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXjLA5xaAAAMRf5.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:51</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123667782198018364" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">麦わらストア熊本店 (熊本)で<br>✅『プレミアムカードコレクション -熊本県スペシャル-』の抽選販売🎯<br>■応募期間<br>11月21日(土) 00:00〜11月23日(月) 23:59<br>■当選発表<br>11月24日(火)～11月25日(水)<br>■購入期間<br>11月28日(土)〜12月5日(土)<br>応募はこちら👇</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXjIl4IagAA_Wkq.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:40</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123665858941927663" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">GEO(ゲオ)で<br>✅『ハドウシーカー』<br>✅『世界最強の戦士』<br>✅『30th CELEBRATION カードセット9種』の抽選販売🎯<br>■応募期間<br>11/30(月) 11:00 ～ 12/3(木) 17:59<br>応募はこちら👇</span>
+    <span class="imgs n3"><img src="https://pbs.twimg.com/media/HXjGzGlbUAAekX0.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXjGzGlawAAulai.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXjGzGmbsAAXUR-.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:32</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123664370110738839" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">イトーヨーカドー(全国)で<br>✅『30th CELEBRATION』の抽選販売🎯<br>■応募期間<br>〆11月22日(日) 23:59まで<br>■当選発表<br>11月下旬<br>■購入期間<br>12月11日(金)〜12月13日(日)<br>応募はこちら👇<br>①<br>②</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXjFeUPbkAAvi2O.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:26</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123659612113260588" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">HMV各店舗で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月22日(日)20:59まで<br>■当選発表<br>11月25日(水)<br>■購入期間<br>11月29日(日)<br>店頭QRコードから応募</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXjBKWWbcAAHJgs.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:08</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123630692676563375" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">MINT梅田(大阪)で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月22日（日）21時まで<br>■当選発表<br>11月24日（火）<br>■購入期間<br>12月4日まで<br>応募はこちら👇</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXim2_2bQAAn4Fq.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 13:13</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123624823255613901" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">トレカキャピタル豊田本店(愛知)で<br>✅『151』『イーブイヒーローズ』<br>✅『30th CELEBRATION』『受け継がれる意志』<br>✅『ハドウシーカー』『神の支配』<br>など35種類の抽選販売🎯<br>■応募期間<br>〆11月23日(月)23:59まで<br>■当選発表<br>12月3日(木)<br>■購入期間<br>12月4日～12月7日<br>応募はこちら👇</span>
+    <span class="imgs n4"><img src="https://pbs.twimg.com/media/HXihhVeaMAEZsLx.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXihhVcb0AA9Bmg.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXihhVbbEAA1_xb.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXihhVZaIAEMQ2E.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 12:49</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123621346852900892" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ゲームアーク×宝島(全国)で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月24日(火) まで<br>■当選発表<br>11月25日(水)<br>■購入期間<br>11月27日(金)〜11月28日(土)<br>モバイル会員ページから応募</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXieW3KagAARH7n.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 12:35</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123615966278082587" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">フルコンプ(全国)で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月22日(日) 23:59まで<br>■当選発表<br>11月24日(火) ～ 11月25日(水)<br>■購入期間<br>11月27日(金)〜11月29日(日)<br>《対象店舗》<br>八王子、立川、町田、吉祥寺、新宿、大阪日本橋、仙台、福岡天神、札幌<br>応募はこちら👇</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/media/HXiZd01aEAEhHjX.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXiZd1CbkAA5g0S.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 12:14</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123614890057503218" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">GIRAFULL(大阪/愛知/京都/広島)で<br>✅『ハドウシーカー』の抽選販売🎯<br>■応募期間<br>〆11月22日(日) 23:59まで<br>■当選発表<br>11/24（火）<br>■購入期間<br>11月27日(金)〜11月29日(日)<br>応募はこちら👇</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXiYfHXbUAAxPkW.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 12:10</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123445075623793063" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">『神の支配』抽選販売まとめ🎯【11/19更新】PR<br>✅ MINT大丸心斎橋店(大阪)〆11/20 10時<br>✅ ブックオフ大宮ラクーン(埼玉)〆11/20 12時<br>✅ ブックオフ大宮ステラタウン(埼玉)〆11/20 12時<br>✅ バトロコ八千代台(千葉)〆11/20 17時<br>✅ ブックオフ横須賀中央(神奈川)〆11/20 18時<br>✅ Joshin(全国)11/18〜11/20<br>✅ 駿河屋 名古屋大須(愛知)〆11/20<br>✅ バトスキ！大須店(愛知)〆11/20<br>✅ 駿河屋 博多マルイ(福岡)〆11/20<br>✅ ブックオフ野田(千葉)〆11/21 15時<br>📦 コレクターズショップLIT(福岡)〆11/21<br>📦 しまむらパーク 〆11/22 23時<br>✅ カーデリア池袋(東京)〆11/24<br>📦 ノジマ オンライン<br>📦 Amazon 《PR》<br>⚠️詐欺などありえるので、店舗をよく調べて自己責任で購入お願いします<br>いいね＆ブックマークして忘れないようにしとこう！<br>あとフォローもよろしく👍<br>アフロくま🐻‍❄️トレカ抽選情報 (@AfroTCG)<br>『ハドウシーカー』抽選販売まとめ①🎯【11/19更新】PR<br>✅ コジマアプリ(全国)〆11/20<br>✅ 竜のしっぽ(大阪/兵庫)〆11/20<br>✅ カードラボ川崎店(神奈川)〆11/20<br>✅ トクジロー浦安(千葉)〆11/20<br>✅ スキップ(大阪)〆11/21 12時<br>✅ カードラボAKIHABARAゲーマーズB1(東京)〆11/22 18時<br>✅ とれじゃらす別館(大阪)〆11/22 20時<br>✅ JTCキテミテマツド店 (千葉)〆11/22 20時<br>✅ カードショップきりん 大阪天満橋店(大阪)〆11/22 22時<br>📦 しまむらパーク 〆11/22 23時<br>✅ ふるいち 古本市場(全国)〆11/22 23時<br>✅ ときわ書房ニューコースト新浦安店(千葉)〆11/22 23時<br>📦 トレカプラザ55通販 〆11/22<br>✅ トレカステーション(愛知/静岡)〆11/22<br>✅ プレイズ/お宝創庫グループ(全国)〆11/22<br>✅ オレタン(西日本)〆11/22<br>✅ ブックオフお宝大陸和泉中央店(大阪)〆11/22<br>✅ GIRAFULL大阪日本橋店 (大阪)〆11/22<br>✅ すまいるキング安城店(愛知)〆11/22<br>📦 駿河屋通販 〆11/22<br>✅ ブックオフ横浜鴨居(神奈川)〆11/22<br>✅ ブックオフ イトーヨーカドー溝ノ口(神奈川)〆11/23 17時<br>✅ ポケモンセンター店舗(全国)〆11/23<br>✅ 晴れる屋２(全国)〆11/23<br>✅ ブックオフプラス新宿駅西口店(東京)〆11/23<br>✅ CARDWINGS八王子駅前店 (東京)〆11/23<br>📦 カードマックス秋葉原店(東京)〆11/23<br>✅ BIG MAGIC池袋店 (東京)〆11/23<br>✅ 駿河屋高槻トレカ館 (大阪)〆11/23<br>✅ ジャスティス (大阪)〆11/23<br>✅ ブックオフ鴻巣吹上(埼玉)〆11/23<br>✅ ブックオフ秋葉原駅前店(東京)〆11/24 17時<br>✅ TSUTAYA須賀川(神奈川)〆11/24 20時<br>✅ MINT GAMES 池袋店(東京)〆11/24 21時<br>✅ ティアワン渋谷＆浜松(東京/静岡)〆11/24<br>✅ ブックオフ池袋サンシャイン60通り店(東京)〆11/24<br>✅ カーデリア池袋(東京)〆11/24<br>✅ MINT吉祥寺(東京)〆11/24<br>✅ MINT名古屋 (愛知)〆11/24<br>👇リプ欄へつづく②👇<br>— https://x.com/AfroTCG/status/2123435131713315124</span>
+    <span class="imgs n3"><img src="https://pbs.twimg.com/media/HXf-CklbMAAUI2v.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXf06spbcAAblzu.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXf06sqaIAEn2p4.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:55</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123441451703173436" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">駿河屋 名古屋大須(愛知)で<br>✅『神の支配』の抽選販売🎯<br>■応募期間<br>〆11月20日(金)まで<br>■当選発表<br>11月21日(土)<br>■購入期間<br>11月22日〜11月24日<br>応募はこちら👇<br>駿河屋名古屋大須トレカ・ボードゲーム館 (@suruga758tb)<br>【ONE PIECEカードゲーム 抽選販売のお知らせ】<br>抽選応募方法<br>①駿河屋通販トレカ情報【公式】(@surugaya_toreka)をフォロー<br>②当店のアカウントをフォロー<br>③この投稿をリポストする<br>ご本人様が来店可能な方が対象です！ 詳細は画像をご確認ください！<br>#駿河屋<br>— https://x.com/suruga758tb/status/2123249906710175869</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/media/HXf6vnGakAA5VUP.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXYco_LbcAAH6YH.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:41</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123440650460995758" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">MINT大丸心斎橋店(大阪)で<br>✅『神の支配』の抽選販売🎯<br>■応募期間<br>〆11月20日(金)10:00まで<br>■当選発表<br>11月20日(金)<br>■購入期間<br>11月21日(土)〜11月23日(月)<br>応募はこちら👇</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXf6BCYaAAAz-mc.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:37</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/AfroTCG/status/2123436978742120902" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">バトスキ！大須店(愛知)で<br>✅『神の支配』の抽選販売🎯<br>■応募期間<br>〆11月20日(金)まで<br>■当選発表<br>11月21日(土)<br>■購入期間<br>11月21日(土)〜11月23日(月)<br>応募はこちら👇<br>【大須店】トレカ専門店 バトスキ！ (@Batosuki_shop)<br>【ワンピースカード 抽選販売のお知らせ】<br>下記商品につきましては抽選、及びイベント参加者限定での販売とさせていただきます。<br>・ONE PIECE CARD GAME 神の支配【OP-18】<br>※お一人様1BOX迄￥5,760での販売です。<br>抽選応募方法<br>① 当店のアカウントをフォロー<br>② この投稿をリポストする<br>抽選応募期間 11/19～11/20<br>当選者発表 11/21<br>※DMにて当選通知を致します。<br>当選者購入期間 11/21～11/23<br>※当選画面、DMのやり取りを確認させていただきます。 ※本人様が来店可能な方が対象となります。<br>※期間内に購入出来ない場合はキャンセル扱いとなります。<br>— https://x.com/Batosuki_shop/status/2123366682848833953</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/media/HXf2rWOaEAAvEFz.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 00:23</span></span>
+  </span>
+</a>
+  </div>
+</section>
+<section class="card" data-source="x_pika11000">
+  <header><h2>ぴかQ</h2><span class="count">15件</span></header>
+  <div class="items">
+<a class="item t-x" href="https://x.com/pika11000/status/2122586807967904153" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title"><span class="pin">固定</span>Amazon招待リクエスト<br>抽選結果出てます！<br>ワンピースカード<br>EAST BLUE<br>#PR</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2120829034011799552/4oJhV0BK?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/17(火) 16:05</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123673952262541383" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">トイコンプ（各店）<br>11/24まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 16:05</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123672302613336162" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ワンピースカード<br>神の支配<br>11/21発売当日<br>セブンイレブン<br>最大4BOX<br>7:00〜<br>ローソン<br>最大3BOX<br>7:00〜<br>ファミマ<br>最大3BOX<br>10:00〜<br>一部コンビニ限定4パックセットが販売<br>他に何か付属品があるかは不明です<br>販売時間や購入制限は地域や店舗によって異なります</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:58</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123667245260063062" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">バンダイ(BANDAI) ドラゴンボールスーパーカードゲーム フュージョンワールド STORY BOOSTER 02 [ST02] (BOX) 20 パック入り<br>#PR</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123625254341988352/M7WKQoDx?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 15:38</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123657213755703348" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">未開封BOX ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック<br>#PR</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:58</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123656696241549387" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">バトロコ小山（栃木県）<br>11/23まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123392101153173504/Dor3JveN?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:56</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123655567923351803" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">④<br>ぴかQ (@pika11000)<br>③<br>— https://x.com/pika11000/status/2123592989775995339</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/card_img/2123569526025625600/zpgJLB9w?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/card_img/2123592995115266048/pcc_PZQU?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:51</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123651709679599667" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">TSUTAYA<br>抽選結果出てます！<br>ポケモンカード<br>ハドウシーカー<br>当選者にLINE通知</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:36</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123651479819235351" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">これあればなんでもめじるしに出来る<br>20個600円〜<br>めじるしチャーム パーツ<br>めじるしアクセサリー<br>#PR</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123650354978160640/NAeSop4U?format=jpg&amp;name=800x419" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:35</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123649466549121033" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">MINTGAMES心斎橋アメリカ村店（大阪府）<br>11/22 19:59まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123649442146562048/sL3C3Vg6?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:27</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123648143283917085" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ポケモンセンターオンライン<br>抽選予告！！<br>11/27 16:00〜11/30 16:59まで<br>ポケモンカードカードイラストフィギュアコレクション 30th CELEBRATION<br>内容<br>ポケモンフィギュア...1個<br>ディスプレイフレーム付き台座...1個<br>カード...1枚<br>全13種からランダムで1枚入っています。<br>ピカチュウ M6a 017/103<br>ピカチュウ M6a 022/103<br>ピカチュウ M6a 026/103<br>ピカチュウ M6a 028/103<br>ピカチュウ M6a 030/103<br>ピカチュウ M6a 031/103<br>ピカチュウ M6a 034/103<br>ピカチュウ M6a 037/103<br>ピカチュウ M6a 040/103<br>ピカチュウ M6a 041/103<br>ピカチュウ M6a 044/103<br>ピカチュウ M6a 046/103<br>シークレット ??? ???/???</span>
+    <span class="imgs n2"><img src="https://pbs.twimg.com/media/HXi2uu7aQAEgpIu.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"><img src="https://pbs.twimg.com/media/HXi2uusawAM7NUH.jpg?name=small" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:22</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123646116432679228" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">カードボックス日本橋（大阪府）<br>11/20まで<br>ワンピースカード<br>ヒロインズエディション2</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:14</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123644952337055829" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">岡書おとふけ木野店（北海道）<br>11/22まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2123311472856166400/F6TXHuzs?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:09</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123644724984860726" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">ゲームワン（愛媛県）<br>11/23まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:08</span></span>
+  </span>
+</a>
+<a class="item t-x" href="https://x.com/pika11000/status/2123644519174529181" target="_blank" rel="noopener noreferrer">
+  <span class="badge badge-x">X</span>
+  <span class="body">
+    <span class="title">TSUTAYA仙台長命ヶ丘店（宮城県）<br>11/22まで<br>ポケモンカード<br>ハドウシーカー<br>TSUTAYA中里店（宮城県）<br>11/23 21:00まで<br>ポケモンカード<br>ハドウシーカー</span>
+    <span class="imgs n1"><img src="https://pbs.twimg.com/card_img/2122061906374762496/XMOCGz4D?format=jpg&amp;name=420x420_2" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display=&#39;none&#39;"></span>
+    <span class="meta"><span class="dom">x.com</span><span class="time">2026/11/20(金) 14:08</span></span>
+  </span>
+</a>
+  </div>
+</section>
+  </main>
+  <p class="noresult hidden" id="noresult"></p>
+  <footer><span>全45件 ・ X 3</span><span>1時間ごとに自動更新 (GitHub Actions)</span></footer>
+</div>
+<script id="board-data" type="application/json">{"generated_at": "2026-11-20T16:05:48+09:00", "generated_at_label": "2026/11/20 16:05 JST", "title": "トレカ抽選速報 X監視ボード", "total": 45, "sources": [{"id": "x_sedokox", "type": "x", "name": "せど子ちゃん", "handle": "sedokoX", "status": "ok", "error": null, "via": "https://nitter.cf/sedokoX/rss", "count": 15, "items": [{"title": "人気すぎて品薄の皇居財布にweb抽選🎯\n【抽選販売】\n皇居 菊紋入り長財布/クロコ調長財布/がま口付き財布/カラー小銭入れ\n📅応募期間\n〆11月20日(金) 23:59まで\n📍販売場所\n皇居東御苑 本丸売店 (東京)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\nせど子ちゃん (@sedokoX)\n去年は6千円が1.2万円に高騰中😢💸\n高島屋アプリでオンライン抽選🎯\n【抽選販売】\nタカシマヤ ヒグチユウコ オリジナル トートバッグ 2026\n価格：6,270円\n📅応募期間\n〆11月15日(日)まで\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\n— https://x.com/sedokoX/status/2120471159762489488", "summary": "", "images": ["https://pbs.twimg.com/media/HXZve10bYAApNjb.jpg?name=small", "https://pbs.twimg.com/media/HXZve2EbMAAFoGD.jpg?name=small", "https://pbs.twimg.com/media/HXZve12bQAA3CK-.jpg?name=small", "https://pbs.twimg.com/media/HW1tR_jbUAAQeYb.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123006855152857255", "domain": "x.com", "published": "2026-11-18T19:54:12+09:00", "published_label": "2026/11/18(水) 19:54", "badge": "X", "badge_class": "badge-x", "pinned": true, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ハドウシーカー BOX ポケモンカード\n🔻Amazon《PR》\n🔻Yahooショッピング《PR》\n🔻メルカリ《PR》\n✅ 応募ページはこちら‼️👇\n竜のしっぽ(大阪/兵庫)\nプレ値で買わずに、ぜひ定価で手に入れてください‼︎\n※転売行為はお控えください", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122207015695220736/uQVra6ZS?format=jpg&name=800x419"], "link": "https://x.com/sedokoX/status/2123660536906932246", "domain": "x.com", "published": "2026-11-20T15:11:42+09:00", "published_label": "2026/11/20(金) 15:11", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "竜のしっぽ(大阪/兵庫)でweb抽選🎯\n【抽選販売】\n1️⃣ ハドウシーカー BOX\n2️⃣ 30th CELEBRATION カードセット9種\n📅応募期間\n〆11月20日(金)23:59まで\n🎉当選発表\n11月25日(水)17:00〜18:00\n🛒購入期間\n11月27日(金)〜11月29日(日)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\nせど子ちゃん (@sedokoX)\nブックオフ池袋サンシャイン60通り店(東京)でweb抽選🎯\n【抽選販売】\n神の支配 ONE PIECEカード\n📅応募期間\n〆11月19日(木)まで\n🎉当選発表\n11月20日(金)\n🛒購入期間\n11月21日(土)～11月22日(日)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\n— https://x.com/sedokoX/status/2123340186033746312", "summary": "", "images": ["https://pbs.twimg.com/media/HXjB_5haoAABlIy.jpg?name=small", "https://pbs.twimg.com/media/HXeepSMbIAAq-tN.jpg?name=small", "https://pbs.twimg.com/media/HXeepSRboAEawkY.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123660532729491472", "domain": "x.com", "published": "2026-11-20T15:11:41+09:00", "published_label": "2026/11/20(金) 15:11", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "2色とも通常版復活してます🙆‍♀️✨\nとく子ちゃん🔔お得商品 (@SabukoX)\nホワイトのケーブル同梱・ブラック通常はまだ買えます🙆‍♀️✨\n【Amazon】PR\nDualSense ワイヤレスコントローラー “グランド・セフト・オートVI” リミテッドエディション\n✅価格：12,480円‼️\n▶︎ﾎﾟｲﾝﾄ：474pt\n⚫️ブラック\nJAN: 4948872417525\n🔻通常\n🔻ケーブル同梱\n⚪️ホワイト\nJAN: 4948872417501\n🔻通常\n🔻ケーブル同梱\n— https://x.com/SabukoX/status/2123622798409257278", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122004652686508032/7bOwwOdD?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123648184862068918", "domain": "x.com", "published": "2026-11-20T14:22:37+09:00", "published_label": "2026/11/20(金) 14:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ホワイトのケーブル同梱・ブラック通常はまだ買えます🙆‍♀️✨\n【Amazon】PR\nDualSense ワイヤレスコントローラー “グランド・セフト・オートVI” リミテッドエディション\n✅価格：12,480円‼️\n▶︎ﾎﾟｲﾝﾄ：474pt\n⚫️ブラック\nJAN: 4948872417525\n🔻通常\n🔻ケーブル同梱\n⚪️ホワイト\nJAN: 4948872417501\n🔻通常\n🔻ケーブル同梱", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122004652686508032/7bOwwOdD?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123622798409257278", "domain": "x.com", "published": "2026-11-20T12:41:44+09:00", "published_label": "2026/11/20(金) 12:41", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "🔥-21%OFF🔥\n【Amazon】PR\nスーパーマリオギャラクシー + スーパーマリオギャラクシー 2 -Switch\n✅価格：5,484円‼️\n▶︎ﾎﾟｲﾝﾄ：219pt\nJAN: 4902370553611", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123034037212286976/2GGdWHHz?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123593547253510227", "domain": "x.com", "published": "2026-11-20T10:45:30+09:00", "published_label": "2026/11/20(金) 10:45", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "🔥ポイント26%還元🔥\nひとり15個まで\n【Amazon】 PR\nINSTAX MINI JP 1 チェキ用フィルム\n✅価格：1,760円‼️\n▶︎ﾎﾟｲﾝﾄ：497pt\nJAN：4547410377224", "summary": "", "images": ["https://pbs.twimg.com/card_img/2121269846457581568/ioUZLwnY?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123590216061694133", "domain": "x.com", "published": "2026-11-20T10:32:16+09:00", "published_label": "2026/11/20(金) 10:32", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "パープルも値下げ来てます☺️⤵️✨\n【Amazon】PR\nDualSense ワイヤレスコントローラー ギャラクティック パープル(CFI-ZCT2J04)\n✅価格：8,781円‼️\n▶︎ﾎﾟｲﾝﾄ：351pt\nJAN: 4948872417280", "summary": "", "images": ["https://pbs.twimg.com/card_img/2121981826826895360/Mo4pgOpg?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123450926862352548", "domain": "x.com", "published": "2026-11-20T01:18:47+09:00", "published_label": "2026/11/20(金) 01:18", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "【Yahooｼｮｯﾋﾟﾝｸﾞ】PR\nひとり2個まで\nツクモ パソコン ヤフショ\nMeta Quest 3 512GB\n✅価格：102,300円‼️\n▶︎ﾎﾟｲﾝﾄ：14,972pt\nJAN: 0815820024170", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123400374321364992/qItD54ml?format=jpg&name=600x314"], "link": "https://x.com/SabukoX/status/2123431929634828684", "domain": "x.com", "published": "2026-11-20T00:03:18+09:00", "published_label": "2026/11/20(金) 00:03", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "🔥-25%OFF🔥\n【Amazon】PR\nDualSense ワイヤレスコントローラー\n✅価格：8,617円‼️\n▶︎ﾎﾟｲﾝﾄ：344pt\n🩷ピンク\nJAN: 4948872417204\n🩶カモフラージュ\nJAN: 4948872417402\n⚪️ホワイト\nJAN: 4948872417303", "summary": "", "images": ["https://pbs.twimg.com/card_img/2120078316363567104/VljJrvZr?format=jpg&name=800x419"], "link": "https://x.com/SabukoX/status/2123368873697354235", "domain": "x.com", "published": "2026-11-19T19:52:44+09:00", "published_label": "2026/11/19(木) 19:52", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "神の支配 ONE PIECEカード\n🔻Amazon《PR》\n🔻Yahooショッピング《PR》\n🔻メルカリ《PR》\n✅ 応募ページはこちら‼️👇\nブックオフ池袋サンシャイン60通り店(東京)\nプレ値で買わずに、ぜひ定価で手に入れてください‼︎\n※転売行為はお控えください\nブックオフ池袋サンシャイン６０通り店【トレカ】 (@SS60_ikebukuo)\n🦉お知らせ🦉\n#ワンピカード\n【買取情報】\n・覇王色SP\n・Heroines Edition vol.2 SP\nこちら買取募集中です💪💪💪\nまた11/21(土)発売「神の支配」の抽選を実施致します。\n画像の注意事項をよくお読みになってご参加ください！\n#ブックオフ池袋サンシャイン60通り店 にてお待ちしております！\n— https://x.com/SS60_ikebukuo/status/2120768854435750351", "summary": "", "images": ["https://pbs.twimg.com/card_img/2119957865209462784/pRt-MK-X?format=jpg&name=800x419", "https://pbs.twimg.com/media/HW58CCOa8AAuSDq.jpg?name=small", "https://pbs.twimg.com/media/HW58CCVbwAA7H8B.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123340190668525630", "domain": "x.com", "published": "2026-11-19T17:58:45+09:00", "published_label": "2026/11/19(木) 17:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ブックオフ池袋サンシャイン60通り店(東京)でweb抽選🎯\n【抽選販売】\n神の支配 ONE PIECEカード\n📅応募期間\n〆11月19日(木)まで\n🎉当選発表\n11月20日(金)\n🛒購入期間\n11月21日(土)～11月22日(日)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\nせど子ちゃん (@sedokoX)\n駿河屋 秋葉原本館(東京)でweb抽選🎯\n【抽選販売】\n神の支配 ONE PIECEカード\n📅応募期間\n〆11月18日(水)まで\n🎉当選発表\n11月19日(木)\n🛒購入期間\n11月21日(土)～11月24日(火)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\n— https://x.com/sedokoX/status/2123048876982812880", "summary": "", "images": ["https://pbs.twimg.com/media/HXeepSMbIAAq-tN.jpg?name=small", "https://pbs.twimg.com/media/HXeepSRboAEawkY.jpg?name=small", "https://pbs.twimg.com/media/HXaVs4BbcAEIfmR.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123340186033746312", "domain": "x.com", "published": "2026-11-19T17:58:44+09:00", "published_label": "2026/11/19(木) 17:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "お店と同じ値段で注文できちゃう😳✨\n送料無料の『Rocket Now』🚀\n🎟️最大5,000円の割引クーポン貰えます‼︎\n《手順》\n①下の紹介リンクからインストール\n②上のリンクからアプリ起動\n③ 新規登録で最大5,000円ｸｰﾎﾟﾝGET🎁", "summary": "", "images": ["https://pbs.twimg.com/media/HXdIiJ_aQAAF7jz.jpg?name=small", "https://pbs.twimg.com/media/HXdIiJ-bwAASoeA.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123245506055090632", "domain": "x.com", "published": "2026-11-19T11:42:31+09:00", "published_label": "2026/11/19(木) 11:42", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "神の支配 ONE PIECEカード\n🔻Amazon《PR》\n🔻Yahooショッピング《PR》\n🔻メルカリ《PR》\n✅ 応募ページはこちら‼️👇\n駿河屋 秋葉原本館(東京)\nプレ値で買わずに、ぜひ定価で手に入れてください‼︎\n※転売行為はお控えください\n駿河屋 秋葉原本館1F（トレカ専用） (@surugayaakiba4)\n【ONE PIECEｶｰﾄﾞ ﾌﾞｰｽﾀｰﾊﾟｯｸ 神の支配 [OP-18]抽選販売のお知らせ】\n抽選応募方法\n①駿河屋通販トレカ情報【公式】(@surugaya_toreka)をフォロー\n②当店アカウントをフォロー\n③この投稿をRPする\n本人様が来店可能な方が対象です!\n注意事項は画像をチェック😎\n#駿河屋 #秋葉原\n— https://x.com/surugayaakiba4/status/2121102365365543243", "summary": "", "images": ["https://pbs.twimg.com/card_img/2119957865209462784/pRt-MK-X?format=jpg&name=800x419", "https://pbs.twimg.com/media/HW-rWiBbUAAT6NX.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123048881172996494", "domain": "x.com", "published": "2026-11-18T22:41:12+09:00", "published_label": "2026/11/18(水) 22:41", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "駿河屋 秋葉原本館(東京)でweb抽選🎯\n【抽選販売】\n神の支配 ONE PIECEカード\n📅応募期間\n〆11月18日(水)まで\n🎉当選発表\n11月19日(木)\n🛒購入期間\n11月21日(土)～11月24日(火)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\nせど子ちゃん (@sedokoX)\nティアワン渋谷/浜松(東京/静岡)でweb抽選🎯\n【抽選販売】\n神の支配 ONE PIECEカード\n📅応募期間\n〆11月18日(水)23:59まで\n🎉当選発表\n11月20日(金)\n🛒購入期間\n11月21日(土)～11月22日(日)\n※転売行為はお控えください\n👇応募ページはリプ欄へ👇\n— https://x.com/sedokoX/status/2123021395190063144", "summary": "", "images": ["https://pbs.twimg.com/media/HXaVs4BbcAEIfmR.jpg?name=small", "https://pbs.twimg.com/media/HXZ8tF5a8AAwGum.jpg?name=small"], "link": "https://x.com/sedokoX/status/2123048876982812880", "domain": "x.com", "published": "2026-11-18T22:41:11+09:00", "published_label": "2026/11/18(水) 22:41", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}], "elapsed": 0.1}, {"id": "x_afrotcg", "type": "x", "name": "アフロくま🐻‍❄️トレカ抽選情報", "handle": "AfroTCG", "status": "ok", "error": null, "via": "https://nitter.cf/AfroTCG/rss", "count": 15, "items": [{"title": "本日のトレカ抽選開始まとめ🎯【11/19更新】\n『プレミアムデッキセット エーフィ・ブラッキー』\n📦 セブンネットショッピング 〆11/23\n『VSTARユニバース』\n📦 ガンギ(GANGI)〆11/25\n『世界最強の戦士』\n✅ 麦わらストア(全国)〆11/22\n『ハドウシーカー』\n✅ ポケモンセンター店舗(全国)〆11/23\n✅ プレイズ/お宝創庫グループ(全国)〆11/22\n✅ カードキングダム秋葉原(東京)〆11/25 21時\n✅ ブックオフ町田中央通り(東京)〆11/25\n✅ スキップ(大阪)〆11/21 12時\n✅ ブックオフ守口ジャガータウン(大阪)〆11/25\n✅ ブックオフ西友岡崎(愛知)〆11/25\n✅ 駿河屋 横浜(神奈川)〆11/25\n✅ ブックオフ横浜鴨居(神奈川)〆11/22\n✅ ブックオフ湘南辻堂(神奈川)〆11/25\n✅ ブックオフ東千葉祐光(千葉)〆11/25 15時\n✅ 駿河屋 博多マルイ(福岡)〆11/25\n═════════\n『神の支配』\n✅ MINT大丸心斎橋店(大阪)〆11/20 10時\n✅ 駿河屋 名古屋大須(愛知)〆11/20\n✅ バトスキ！大須店(愛知)〆11/20\n✅ ブックオフ野田(千葉)〆11/21 15時\n✅ 駿河屋 博多マルイ(福岡)〆11/20\n═════════\n🎯『ハドウシーカー』抽選まとめ\n🎯『神の支配』抽選まとめ\n🎯『30th CELEBRATION』抽選まとめ\n📦Amazon招待リクエストまとめ\nいいね＆ブックマークしておきましょう！\nフォローもよろしくお願いします🙏\n👇昨日の分を見たい人は引用投稿をチェック👇\nアフロくま🐻‍❄️トレカ抽選情報 (@AfroTCG)\n本日のトレカ抽選開始まとめ🎯【11/18更新】\n『ハドウシーカー』\n📦 トレカプラザ55通販 〆11/22\n✅ 晴れる屋２(全国)〆11/23\n✅ カードラッシュ秋葉原/池袋(東京)〆11/25\n✅ カーデリア池袋(東京)〆11/24\n✅ MINT吉祥寺(東京)〆11/24\n✅ ブックオフ名古屋みなと(愛知)〆11/25\n✅ すまいるキング安城店(愛知)〆11/22\n✅ TSUTAYA須賀川(神奈川)〆11/24 20時\n═════════\n『神の支配』\n✅ カーデリア池袋(東京)〆11/24\n✅ バトロコ川崎(神奈川)〆11/19\n✅ ブックオフ横須賀中央(神奈川)〆11/20 18時\n✅ ブックオフイオン橋本(神奈川)〆11/19\n✅ バトロコ八千代台(千葉)〆11/20 17時\n═════════\n🎯『ハドウシーカー』抽選まとめ\n🎯『神の支配』抽選まとめ\n🎯『30th CELEBRATION』抽選まとめ\n📦Amazon招待リクエストまとめ\nいいね＆ブックマークしておきましょう！\nフォローもよろしくお願いします🙏\n👇昨日の分を見たい人は引用投稿をチェック👇\n— https://x.com/AfroTCG/status/2123080524482920492", "summary": "", "images": ["https://pbs.twimg.com/media/HXf-YeAaQAA4nyd.jpg?name=small", "https://pbs.twimg.com/media/HXf-Yd6bIAAXncc.jpg?name=small", "https://pbs.twimg.com/media/HXf-Yd9a4AAzwyW.jpg?name=small", "https://pbs.twimg.com/media/HXf-Yd7aQAABUYY.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123445452301615474", "domain": "x.com", "published": "2026-11-20T00:57:02+09:00", "published_label": "2026/11/20(金) 00:57", "badge": "X", "badge_class": "badge-x", "pinned": true, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "トイコンプ(大阪)で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月23日(月)23:59まで\n■当選発表\n11月24日(火)\n■購入期間\n11月27日(金)〜11月29日(日)\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXjLA5xaAAAMRf5.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123670448760410241", "domain": "x.com", "published": "2026-11-20T15:51:05+09:00", "published_label": "2026/11/20(金) 15:51", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "麦わらストア熊本店 (熊本)で\n✅『プレミアムカードコレクション -熊本県スペシャル-』の抽選販売🎯\n■応募期間\n11月21日(土) 00:00〜11月23日(月) 23:59\n■当選発表\n11月24日(火)～11月25日(水)\n■購入期間\n11月28日(土)〜12月5日(土)\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXjIl4IagAA_Wkq.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123667782198018364", "domain": "x.com", "published": "2026-11-20T15:40:29+09:00", "published_label": "2026/11/20(金) 15:40", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "GEO(ゲオ)で\n✅『ハドウシーカー』\n✅『世界最強の戦士』\n✅『30th CELEBRATION カードセット9種』の抽選販売🎯\n■応募期間\n11/30(月) 11:00 ～ 12/3(木) 17:59\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXjGzGlbUAAekX0.jpg?name=small", "https://pbs.twimg.com/media/HXjGzGlawAAulai.jpg?name=small", "https://pbs.twimg.com/media/HXjGzGmbsAAXUR-.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123665858941927663", "domain": "x.com", "published": "2026-11-20T15:32:51+09:00", "published_label": "2026/11/20(金) 15:32", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "イトーヨーカドー(全国)で\n✅『30th CELEBRATION』の抽選販売🎯\n■応募期間\n〆11月22日(日) 23:59まで\n■当選発表\n11月下旬\n■購入期間\n12月11日(金)〜12月13日(日)\n応募はこちら👇\n①\n②", "summary": "", "images": ["https://pbs.twimg.com/media/HXjFeUPbkAAvi2O.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123664370110738839", "domain": "x.com", "published": "2026-11-20T15:26:56+09:00", "published_label": "2026/11/20(金) 15:26", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "HMV各店舗で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月22日(日)20:59まで\n■当選発表\n11月25日(水)\n■購入期間\n11月29日(日)\n店頭QRコードから応募", "summary": "", "images": ["https://pbs.twimg.com/media/HXjBKWWbcAAHJgs.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123659612113260588", "domain": "x.com", "published": "2026-11-20T15:08:01+09:00", "published_label": "2026/11/20(金) 15:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "MINT梅田(大阪)で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月22日（日）21時まで\n■当選発表\n11月24日（火）\n■購入期間\n12月4日まで\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXim2_2bQAAn4Fq.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123630692676563375", "domain": "x.com", "published": "2026-11-20T13:13:06+09:00", "published_label": "2026/11/20(金) 13:13", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "トレカキャピタル豊田本店(愛知)で\n✅『151』『イーブイヒーローズ』\n✅『30th CELEBRATION』『受け継がれる意志』\n✅『ハドウシーカー』『神の支配』\nなど35種類の抽選販売🎯\n■応募期間\n〆11月23日(月)23:59まで\n■当選発表\n12月3日(木)\n■購入期間\n12月4日～12月7日\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXihhVeaMAEZsLx.jpg?name=small", "https://pbs.twimg.com/media/HXihhVcb0AA9Bmg.jpg?name=small", "https://pbs.twimg.com/media/HXihhVbbEAA1_xb.jpg?name=small", "https://pbs.twimg.com/media/HXihhVZaIAEMQ2E.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123624823255613901", "domain": "x.com", "published": "2026-11-20T12:49:47+09:00", "published_label": "2026/11/20(金) 12:49", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ゲームアーク×宝島(全国)で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月24日(火) まで\n■当選発表\n11月25日(水)\n■購入期間\n11月27日(金)〜11月28日(土)\nモバイル会員ページから応募", "summary": "", "images": ["https://pbs.twimg.com/media/HXieW3KagAARH7n.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123621346852900892", "domain": "x.com", "published": "2026-11-20T12:35:58+09:00", "published_label": "2026/11/20(金) 12:35", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "フルコンプ(全国)で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月22日(日) 23:59まで\n■当選発表\n11月24日(火) ～ 11月25日(水)\n■購入期間\n11月27日(金)〜11月29日(日)\n《対象店舗》\n八王子、立川、町田、吉祥寺、新宿、大阪日本橋、仙台、福岡天神、札幌\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXiZd01aEAEhHjX.jpg?name=small", "https://pbs.twimg.com/media/HXiZd1CbkAA5g0S.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123615966278082587", "domain": "x.com", "published": "2026-11-20T12:14:35+09:00", "published_label": "2026/11/20(金) 12:14", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "GIRAFULL(大阪/愛知/京都/広島)で\n✅『ハドウシーカー』の抽選販売🎯\n■応募期間\n〆11月22日(日) 23:59まで\n■当選発表\n11/24（火）\n■購入期間\n11月27日(金)〜11月29日(日)\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXiYfHXbUAAxPkW.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123614890057503218", "domain": "x.com", "published": "2026-11-20T12:10:19+09:00", "published_label": "2026/11/20(金) 12:10", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "『神の支配』抽選販売まとめ🎯【11/19更新】PR\n✅ MINT大丸心斎橋店(大阪)〆11/20 10時\n✅ ブックオフ大宮ラクーン(埼玉)〆11/20 12時\n✅ ブックオフ大宮ステラタウン(埼玉)〆11/20 12時\n✅ バトロコ八千代台(千葉)〆11/20 17時\n✅ ブックオフ横須賀中央(神奈川)〆11/20 18時\n✅ Joshin(全国)11/18〜11/20\n✅ 駿河屋 名古屋大須(愛知)〆11/20\n✅ バトスキ！大須店(愛知)〆11/20\n✅ 駿河屋 博多マルイ(福岡)〆11/20\n✅ ブックオフ野田(千葉)〆11/21 15時\n📦 コレクターズショップLIT(福岡)〆11/21\n📦 しまむらパーク 〆11/22 23時\n✅ カーデリア池袋(東京)〆11/24\n📦 ノジマ オンライン\n📦 Amazon 《PR》\n⚠️詐欺などありえるので、店舗をよく調べて自己責任で購入お願いします\nいいね＆ブックマークして忘れないようにしとこう！\nあとフォローもよろしく👍\nアフロくま🐻‍❄️トレカ抽選情報 (@AfroTCG)\n『ハドウシーカー』抽選販売まとめ①🎯【11/19更新】PR\n✅ コジマアプリ(全国)〆11/20\n✅ 竜のしっぽ(大阪/兵庫)〆11/20\n✅ カードラボ川崎店(神奈川)〆11/20\n✅ トクジロー浦安(千葉)〆11/20\n✅ スキップ(大阪)〆11/21 12時\n✅ カードラボAKIHABARAゲーマーズB1(東京)〆11/22 18時\n✅ とれじゃらす別館(大阪)〆11/22 20時\n✅ JTCキテミテマツド店 (千葉)〆11/22 20時\n✅ カードショップきりん 大阪天満橋店(大阪)〆11/22 22時\n📦 しまむらパーク 〆11/22 23時\n✅ ふるいち 古本市場(全国)〆11/22 23時\n✅ ときわ書房ニューコースト新浦安店(千葉)〆11/22 23時\n📦 トレカプラザ55通販 〆11/22\n✅ トレカステーション(愛知/静岡)〆11/22\n✅ プレイズ/お宝創庫グループ(全国)〆11/22\n✅ オレタン(西日本)〆11/22\n✅ ブックオフお宝大陸和泉中央店(大阪)〆11/22\n✅ GIRAFULL大阪日本橋店 (大阪)〆11/22\n✅ すまいるキング安城店(愛知)〆11/22\n📦 駿河屋通販 〆11/22\n✅ ブックオフ横浜鴨居(神奈川)〆11/22\n✅ ブックオフ イトーヨーカドー溝ノ口(神奈川)〆11/23 17時\n✅ ポケモンセンター店舗(全国)〆11/23\n✅ 晴れる屋２(全国)〆11/23\n✅ ブックオフプラス新宿駅西口店(東京)〆11/23\n✅ CARDWINGS八王子駅前店 (東京)〆11/23\n📦 カードマックス秋葉原店(東京)〆11/23\n✅ BIG MAGIC池袋店 (東京)〆11/23\n✅ 駿河屋高槻トレカ館 (大阪)〆11/23\n✅ ジャスティス (大阪)〆11/23\n✅ ブックオフ鴻巣吹上(埼玉)〆11/23\n✅ ブックオフ秋葉原駅前店(東京)〆11/24 17時\n✅ TSUTAYA須賀川(神奈川)〆11/24 20時\n✅ MINT GAMES 池袋店(東京)〆11/24 21時\n✅ ティアワン渋谷＆浜松(東京/静岡)〆11/24\n✅ ブックオフ池袋サンシャイン60通り店(東京)〆11/24\n✅ カーデリア池袋(東京)〆11/24\n✅ MINT吉祥寺(東京)〆11/24\n✅ MINT名古屋 (愛知)〆11/24\n👇リプ欄へつづく②👇\n— https://x.com/AfroTCG/status/2123435131713315124", "summary": "", "images": ["https://pbs.twimg.com/media/HXf-CklbMAAUI2v.jpg?name=small", "https://pbs.twimg.com/media/HXf06spbcAAblzu.jpg?name=small", "https://pbs.twimg.com/media/HXf06sqaIAEn2p4.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123445075623793063", "domain": "x.com", "published": "2026-11-20T00:55:32+09:00", "published_label": "2026/11/20(金) 00:55", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "駿河屋 名古屋大須(愛知)で\n✅『神の支配』の抽選販売🎯\n■応募期間\n〆11月20日(金)まで\n■当選発表\n11月21日(土)\n■購入期間\n11月22日〜11月24日\n応募はこちら👇\n駿河屋名古屋大須トレカ・ボードゲーム館 (@suruga758tb)\n【ONE PIECEカードゲーム 抽選販売のお知らせ】\n抽選応募方法\n①駿河屋通販トレカ情報【公式】(@surugaya_toreka)をフォロー\n②当店のアカウントをフォロー\n③この投稿をリポストする\nご本人様が来店可能な方が対象です！ 詳細は画像をご確認ください！\n#駿河屋\n— https://x.com/suruga758tb/status/2123249906710175869", "summary": "", "images": ["https://pbs.twimg.com/media/HXf6vnGakAA5VUP.jpg?name=small", "https://pbs.twimg.com/media/HXYco_LbcAAH6YH.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123441451703173436", "domain": "x.com", "published": "2026-11-20T00:41:08+09:00", "published_label": "2026/11/20(金) 00:41", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "MINT大丸心斎橋店(大阪)で\n✅『神の支配』の抽選販売🎯\n■応募期間\n〆11月20日(金)10:00まで\n■当選発表\n11月20日(金)\n■購入期間\n11月21日(土)〜11月23日(月)\n応募はこちら👇", "summary": "", "images": ["https://pbs.twimg.com/media/HXf6BCYaAAAz-mc.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123440650460995758", "domain": "x.com", "published": "2026-11-20T00:37:57+09:00", "published_label": "2026/11/20(金) 00:37", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "バトスキ！大須店(愛知)で\n✅『神の支配』の抽選販売🎯\n■応募期間\n〆11月20日(金)まで\n■当選発表\n11月21日(土)\n■購入期間\n11月21日(土)〜11月23日(月)\n応募はこちら👇\n【大須店】トレカ専門店 バトスキ！ (@Batosuki_shop)\n【ワンピースカード 抽選販売のお知らせ】\n下記商品につきましては抽選、及びイベント参加者限定での販売とさせていただきます。\n・ONE PIECE CARD GAME 神の支配【OP-18】\n※お一人様1BOX迄￥5,760での販売です。\n抽選応募方法\n① 当店のアカウントをフォロー\n② この投稿をリポストする\n抽選応募期間 11/19～11/20\n当選者発表 11/21\n※DMにて当選通知を致します。\n当選者購入期間 11/21～11/23\n※当選画面、DMのやり取りを確認させていただきます。 ※本人様が来店可能な方が対象となります。\n※期間内に購入出来ない場合はキャンセル扱いとなります。\n— https://x.com/Batosuki_shop/status/2123366682848833953", "summary": "", "images": ["https://pbs.twimg.com/media/HXf2rWOaEAAvEFz.jpg?name=small"], "link": "https://x.com/AfroTCG/status/2123436978742120902", "domain": "x.com", "published": "2026-11-20T00:23:21+09:00", "published_label": "2026/11/20(金) 00:23", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}], "elapsed": 0.1}, {"id": "x_pika11000", "type": "x", "name": "ぴかQ", "handle": "pika11000", "status": "ok", "error": null, "via": "https://nitter.cf/pika11000/rss", "count": 15, "items": [{"title": "Amazon招待リクエスト\n抽選結果出てます！\nワンピースカード\nEAST BLUE\n#PR", "summary": "", "images": ["https://pbs.twimg.com/card_img/2120829034011799552/4oJhV0BK?format=jpg&name=800x419"], "link": "https://x.com/pika11000/status/2122586807967904153", "domain": "x.com", "published": "2026-11-17T16:05:05+09:00", "published_label": "2026/11/17(火) 16:05", "badge": "X", "badge_class": "badge-x", "pinned": true, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "トイコンプ（各店）\n11/24まで\nポケモンカード\nハドウシーカー", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123673952262541383", "domain": "x.com", "published": "2026-11-20T16:05:00+09:00", "published_label": "2026/11/20(金) 16:05", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ワンピースカード\n神の支配\n11/21発売当日\nセブンイレブン\n最大4BOX\n7:00〜\nローソン\n最大3BOX\n7:00〜\nファミマ\n最大3BOX\n10:00〜\n一部コンビニ限定4パックセットが販売\n他に何か付属品があるかは不明です\n販売時間や購入制限は地域や店舗によって異なります", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123672302613336162", "domain": "x.com", "published": "2026-11-20T15:58:27+09:00", "published_label": "2026/11/20(金) 15:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "バンダイ(BANDAI) ドラゴンボールスーパーカードゲーム フュージョンワールド STORY BOOSTER 02 [ST02] (BOX) 20 パック入り\n#PR", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123625254341988352/M7WKQoDx?format=jpg&name=800x419"], "link": "https://x.com/pika11000/status/2123667245260063062", "domain": "x.com", "published": "2026-11-20T15:38:21+09:00", "published_label": "2026/11/20(金) 15:38", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "未開封BOX ドラゴンボールスーパーカードゲーム フュージョンワールド ブースターパック\n#PR", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123657213755703348", "domain": "x.com", "published": "2026-11-20T14:58:30+09:00", "published_label": "2026/11/20(金) 14:58", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "バトロコ小山（栃木県）\n11/23まで\nポケモンカード\nハドウシーカー", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123392101153173504/Dor3JveN?format=jpg&name=420x420_2"], "link": "https://x.com/pika11000/status/2123656696241549387", "domain": "x.com", "published": "2026-11-20T14:56:26+09:00", "published_label": "2026/11/20(金) 14:56", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "④\nぴかQ (@pika11000)\n③\n— https://x.com/pika11000/status/2123592989775995339", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123569526025625600/zpgJLB9w?format=jpg&name=420x420_2", "https://pbs.twimg.com/card_img/2123592995115266048/pcc_PZQU?format=jpg&name=420x420_2"], "link": "https://x.com/pika11000/status/2123655567923351803", "domain": "x.com", "published": "2026-11-20T14:51:57+09:00", "published_label": "2026/11/20(金) 14:51", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "TSUTAYA\n抽選結果出てます！\nポケモンカード\nハドウシーカー\n当選者にLINE通知", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123651709679599667", "domain": "x.com", "published": "2026-11-20T14:36:37+09:00", "published_label": "2026/11/20(金) 14:36", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "これあればなんでもめじるしに出来る\n20個600円〜\nめじるしチャーム パーツ\nめじるしアクセサリー\n#PR", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123650354978160640/NAeSop4U?format=jpg&name=800x419"], "link": "https://x.com/pika11000/status/2123651479819235351", "domain": "x.com", "published": "2026-11-20T14:35:42+09:00", "published_label": "2026/11/20(金) 14:35", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "MINTGAMES心斎橋アメリカ村店（大阪府）\n11/22 19:59まで\nポケモンカード\nハドウシーカー", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123649442146562048/sL3C3Vg6?format=jpg&name=420x420_2"], "link": "https://x.com/pika11000/status/2123649466549121033", "domain": "x.com", "published": "2026-11-20T14:27:42+09:00", "published_label": "2026/11/20(金) 14:27", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ポケモンセンターオンライン\n抽選予告！！\n11/27 16:00〜11/30 16:59まで\nポケモンカードカードイラストフィギュアコレクション 30th CELEBRATION\n内容\nポケモンフィギュア...1個\nディスプレイフレーム付き台座...1個\nカード...1枚\n全13種からランダムで1枚入っています。\nピカチュウ M6a 017/103\nピカチュウ M6a 022/103\nピカチュウ M6a 026/103\nピカチュウ M6a 028/103\nピカチュウ M6a 030/103\nピカチュウ M6a 031/103\nピカチュウ M6a 034/103\nピカチュウ M6a 037/103\nピカチュウ M6a 040/103\nピカチュウ M6a 041/103\nピカチュウ M6a 044/103\nピカチュウ M6a 046/103\nシークレット ??? ???/???", "summary": "", "images": ["https://pbs.twimg.com/media/HXi2uu7aQAEgpIu.jpg?name=small", "https://pbs.twimg.com/media/HXi2uusawAM7NUH.jpg?name=small"], "link": "https://x.com/pika11000/status/2123648143283917085", "domain": "x.com", "published": "2026-11-20T14:22:27+09:00", "published_label": "2026/11/20(金) 14:22", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "カードボックス日本橋（大阪府）\n11/20まで\nワンピースカード\nヒロインズエディション2", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123646116432679228", "domain": "x.com", "published": "2026-11-20T14:14:24+09:00", "published_label": "2026/11/20(金) 14:14", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "岡書おとふけ木野店（北海道）\n11/22まで\nポケモンカード\nハドウシーカー", "summary": "", "images": ["https://pbs.twimg.com/card_img/2123311472856166400/F6TXHuzs?format=jpg&name=420x420_2"], "link": "https://x.com/pika11000/status/2123644952337055829", "domain": "x.com", "published": "2026-11-20T14:09:46+09:00", "published_label": "2026/11/20(金) 14:09", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "ゲームワン（愛媛県）\n11/23まで\nポケモンカード\nハドウシーカー", "summary": "", "images": [], "link": "https://x.com/pika11000/status/2123644724984860726", "domain": "x.com", "published": "2026-11-20T14:08:52+09:00", "published_label": "2026/11/20(金) 14:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}, {"title": "TSUTAYA仙台長命ヶ丘店（宮城県）\n11/22まで\nポケモンカード\nハドウシーカー\nTSUTAYA中里店（宮城県）\n11/23 21:00まで\nポケモンカード\nハドウシーカー", "summary": "", "images": ["https://pbs.twimg.com/card_img/2122061906374762496/XMOCGz4D?format=jpg&name=420x420_2"], "link": "https://x.com/pika11000/status/2123644519174529181", "domain": "x.com", "published": "2026-11-20T14:08:03+09:00", "published_label": "2026/11/20(金) 14:08", "badge": "X", "badge_class": "badge-x", "pinned": false, "type": "x", "origin": "", "priority": 0, "is_new": false}], "elapsed": 0.1}]}</script>
+<script>
+(function () {
+  var q = document.getElementById('q');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var active = [];              // 選ばれているチップ [{terms: [...], label: '...'}]
+  var allItems = [];
+  cards.forEach(function (c) {
+    var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
+    c.dataset.total = its.length;
+    its.forEach(function (it) {
+      it.dataset.text = it.textContent.toLowerCase();
+      allItems.push(it);
+    });
+  });
+  function activeTerms() {
+    var out = [];
+    active.forEach(function (a) { out = out.concat(a.terms); });
+    return out;
+  }
+  function hasTerm(text, terms) {
+    for (var i = 0; i < terms.length; i++) {
+      if (text.indexOf(terms[i]) !== -1) return true;
+    }
+    return false;
+  }
+  function apply() {
+    var v = q.value.trim().toLowerCase();
+    var terms = activeTerms();
+    var filtering = !!v || terms.length > 0;
+    var shownTotal = 0;
+    cards.forEach(function (c) {
+      var shown = 0;
+      Array.prototype.slice.call(c.querySelectorAll('.item')).forEach(function (it) {
+        var hit = (!v || it.dataset.text.indexOf(v) !== -1)
+               && (!terms.length || hasTerm(it.dataset.text, terms));
+        it.classList.toggle('hidden', !hit);
+        if (hit) shown++;
+      });
+      var count = c.querySelector('.count');
+      if (count) {
+        if (c.dataset.error === '1') { /* エラー表示はそのまま */ }
+        else if (!filtering) { count.textContent = c.dataset.total + '件'; }
+        else { count.textContent = shown + '/' + c.dataset.total + '件'; }
+      }
+      c.classList.toggle('hidden', filtering && shown === 0);
+      shownTotal += shown;
+    });
+    var nr = document.getElementById('noresult');
+    if (nr) {
+      if (filtering && shownTotal === 0) {
+        var names = active.map(function (a) { return a.label; });
+        if (v) names.push(q.value.trim());
+        nr.textContent = '「' + names.join('・') + '」に該当する投稿はありません';
+        nr.classList.remove('hidden');
+      } else {
+        nr.classList.add('hidden');
+      }
+    }
+  }
+  function clearMarks(root) {
+    Array.prototype.slice.call(root.querySelectorAll('mark.kw')).forEach(function (m) {
+      m.parentNode.replaceChild(document.createTextNode(m.textContent), m);
+    });
+    root.normalize();
+  }
+  function markText(root, terms) {
+    clearMarks(root);
+    if (!terms.length) return;
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (node) {
+      var text = node.nodeValue;
+      if (!text) return;
+      var lower = text.toLowerCase(), hits = [];
+      terms.forEach(function (t) {
+        var idx = 0;
+        while ((idx = lower.indexOf(t, idx)) !== -1) {
+          hits.push([idx, idx + t.length]);
+          idx += t.length;
+        }
+      });
+      if (!hits.length) return;
+      hits.sort(function (a, b) { return a[0] - b[0]; });
+      var merged = [];
+      hits.forEach(function (h) {
+        var last = merged[merged.length - 1];
+        if (last && h[0] <= last[1]) last[1] = Math.max(last[1], h[1]);
+        else merged.push(h.slice());
+      });
+      var frag = document.createDocumentFragment(), pos = 0;
+      merged.forEach(function (h) {
+        if (h[0] > pos) frag.appendChild(document.createTextNode(text.slice(pos, h[0])));
+        var m = document.createElement('mark');
+        m.className = 'kw';
+        m.textContent = text.slice(h[0], h[1]);
+        frag.appendChild(m);
+        pos = h[1];
+      });
+      if (pos < text.length) frag.appendChild(document.createTextNode(text.slice(pos)));
+      node.parentNode.replaceChild(frag, node);
+    });
+  }
+  function marks() {
+    var terms = activeTerms();
+    allItems.forEach(function (it) {
+      Array.prototype.slice.call(it.querySelectorAll('.title, .trans, .desc')).forEach(function (el) {
+        markText(el, terms);
+      });
+    });
+  }
+  chips.forEach(function (ch) {
+    var label = ch.dataset.label || ch.dataset.kw || '';
+    var terms = (ch.dataset.kw || '').split('|').map(function (s) {
+      return s.trim().toLowerCase();
+    }).filter(Boolean);
+    var n = allItems.filter(function (it) { return hasTerm(it.dataset.text, terms); }).length;
+    var num = document.createElement('span');
+    num.className = 'n';
+    num.textContent = n;
+    ch.appendChild(num);
+    if (!n) ch.classList.add('is-zero');
+    ch.addEventListener('click', function () {
+      var idx = -1;
+      active.forEach(function (a, i) { if (a.label === label) idx = i; });
+      if (idx === -1) active.push({terms: terms, label: label}); else active.splice(idx, 1);
+      ch.classList.toggle('is-on', idx === -1);
+      apply();
+      marks();
+    });
+  });
+  q.addEventListener('input', apply);
+})();
+</script>
+</body>
+</html>

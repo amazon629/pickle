@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "title": "トレカ抽選速報 X監視ボード",
+    "nav_label": "🎯 トレカ抽選",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_sedokox",
+      "type": "x",
+      "name": "せど子ちゃん",
+      "handle": "sedokoX",
+      "enabled": true
+    },
+    {
+      "id": "x_afrotcg",
+      "type": "x",
+      "name": "アフロくま🐻‍❄️トレカ抽選情報",
+      "handle": "AfroTCG",
+      "enabled": true
+    },
+    {
+      "id": "x_pika11000",
+      "type": "x",
+      "name": "ぴかQ",
+      "handle": "pika11000",
+      "enabled": true
+    }
+  ]
+}
