@@ -1030,6 +1030,22 @@
     {
       "id": "uc_24",
       "type": "google_news",
+      "company": "Pragmatik Labs",
+      "name": "Pragmatik Labs｜7,800億円",
+      "query": "\"Pragmatik Labs\"",
+      "must_match": [
+        "Pragmatik Labs"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "feeds": [
+        "https://news.google.com/rss/search?q=%22Pragmatik%20Labs%22&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%22Pragmatik%20Labs%22&hl=ja&gl=JP&ceid=JP:ja"
+      ]
+    },
+    {
+      "id": "uc_25",
+      "type": "google_news",
       "company": "Micro1",
       "name": "Micro1｜6,260億円",
       "query": "\"Micro1\"",
@@ -1080,7 +1096,7 @@
       ]
     },
     {
-      "id": "uc_25",
+      "id": "uc_26",
       "type": "google_news",
       "company": "Chai Discovery",
       "name": "Chai Discovery｜5,950億円",
@@ -1132,7 +1148,23 @@
       ]
     },
     {
-      "id": "uc_26",
+      "id": "uc_27",
+      "type": "google_news",
+      "company": "Rogo Technologies",
+      "name": "Rogo Technologies｜5,850億円",
+      "query": "\"Rogo Technologies\"",
+      "must_match": [
+        "Rogo Technologies"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "feeds": [
+        "https://news.google.com/rss/search?q=%22Rogo%20Technologies%22&hl=en-US&gl=US&ceid=US:en",
+        "https://news.google.com/rss/search?q=%22Rogo%20Technologies%22&hl=ja&gl=JP&ceid=JP:ja"
+      ]
+    },
+    {
+      "id": "uc_28",
       "type": "google_news",
       "company": "Science Corporation",
       "name": "Science Corporation｜5,478億円",
@@ -1184,7 +1216,7 @@
       ]
     },
     {
-      "id": "uc_27",
+      "id": "uc_29",
       "type": "google_news",
       "company": "Genesis AI",
       "name": "Genesis AI｜5,460億円",
@@ -1236,7 +1268,7 @@
       ]
     },
     {
-      "id": "uc_28",
+      "id": "uc_30",
       "type": "google_news",
       "company": "Applied Compute",
       "name": "Applied Compute｜5,086億円",
@@ -1288,7 +1320,7 @@
       ]
     },
     {
-      "id": "uc_29",
+      "id": "uc_31",
       "type": "google_news",
       "company": "Neros",
       "name": "Neros｜3,900億円",
@@ -1340,7 +1372,7 @@
       ]
     },
     {
-      "id": "uc_30",
+      "id": "uc_32",
       "type": "google_news",
       "company": "Medici Brands",
       "name": "Medici Brands（David Protein）｜3,520億円",
@@ -1393,7 +1425,7 @@
       ]
     },
     {
-      "id": "uc_31",
+      "id": "uc_33",
       "type": "google_news",
       "company": "Parallel Web Systems",
       "name": "Parallel Web Systems｜3,000億円",
@@ -1445,7 +1477,7 @@
       ]
     },
     {
-      "id": "uc_32",
+      "id": "uc_34",
       "type": "google_news",
       "company": "Stark Future",
       "name": "Stark Future｜2,430億円",
@@ -1497,7 +1529,7 @@
       ]
     },
     {
-      "id": "uc_33",
+      "id": "uc_35",
       "type": "google_news",
       "company": "Emergent",
       "name": "Emergent｜2,350億円",
@@ -1530,7 +1562,7 @@
       ]
     },
     {
-      "id": "uc_34",
+      "id": "uc_36",
       "type": "google_news",
       "company": "Arda",
       "name": "Arda｜2,347億円",
@@ -1570,7 +1602,7 @@
       ]
     },
     {
-      "id": "uc_35",
+      "id": "uc_37",
       "type": "google_news",
       "company": "Eka Robotics",
       "name": "Eka Robotics｜2,269億円",
@@ -1622,7 +1654,7 @@
       ]
     },
     {
-      "id": "uc_36",
+      "id": "uc_38",
       "type": "google_news",
       "company": "Tractian",
       "name": "Tractian｜2,191億円",
@@ -1674,7 +1706,7 @@
       ]
     },
     {
-      "id": "uc_37",
+      "id": "uc_39",
       "type": "google_news",
       "company": "Vibe",
       "name": "Vibe（vibe.co）｜2,184億円",
@@ -1713,7 +1745,7 @@
       ]
     },
     {
-      "id": "uc_38",
+      "id": "uc_40",
       "type": "google_news",
       "company": "Cathedral",
       "name": "Cathedral｜2,184億円",
@@ -1759,7 +1791,7 @@
       ]
     },
     {
-      "id": "uc_39",
+      "id": "uc_41",
       "type": "google_news",
       "company": "Wabi",
       "name": "Wabi｜1,956億円",
@@ -1787,7 +1819,7 @@
       ]
     },
     {
-      "id": "uc_40",
+      "id": "uc_42",
       "type": "google_news",
       "company": "Warhound",
       "name": "Warhound｜1,878億円",
@@ -1839,7 +1871,7 @@
       ]
     },
     {
-      "id": "uc_41",
+      "id": "uc_43",
       "type": "google_news",
       "company": "Glow",
       "name": "Glow｜1,872億円",
@@ -1875,7 +1907,7 @@
       ]
     },
     {
-      "id": "uc_42",
+      "id": "uc_44",
       "type": "google_news",
       "company": "Norm Ai",
       "name": "Norm Ai｜1,800億円",
@@ -1892,7 +1924,7 @@
       ]
     },
     {
-      "id": "uc_43",
+      "id": "uc_45",
       "type": "google_news",
       "company": "Enter",
       "name": "Enter｜1,800億円",
@@ -1940,7 +1972,7 @@
       ]
     },
     {
-      "id": "uc_44",
+      "id": "uc_46",
       "type": "google_news",
       "company": "Skyroot",
       "name": "Skyroot（スカイルート）｜1,716億円",
@@ -1993,7 +2025,7 @@
       ]
     },
     {
-      "id": "uc_45",
+      "id": "uc_47",
       "type": "google_news",
       "company": "Blacksmith",
       "name": "Blacksmith｜1,500億円",
@@ -2022,7 +2054,7 @@
       ]
     },
     {
-      "id": "uc_46",
+      "id": "uc_48",
       "type": "google_news",
       "company": "Reliable Robotics",
       "name": "Reliable Robotics｜1,500億円",
@@ -2074,7 +2106,7 @@
       ]
     },
     {
-      "id": "uc_47",
+      "id": "uc_49",
       "type": "google_news",
       "company": "Town",
       "name": "Town｜1,500億円",
@@ -2121,7 +2153,7 @@
       ]
     },
     {
-      "id": "uc_48",
+      "id": "uc_50",
       "type": "google_news",
       "company": "Blank Street Coffee",
       "name": "Blank Street Coffee｜1,500億円",
@@ -2173,7 +2205,7 @@
       ]
     },
     {
-      "id": "uc_49",
+      "id": "uc_51",
       "type": "google_news",
       "company": "Nominal",
       "name": "Nominal｜1,500億円",
@@ -2213,7 +2245,7 @@
       ]
     },
     {
-      "id": "uc_50",
+      "id": "uc_52",
       "type": "google_news",
       "company": "Corma",
       "name": "Corma｜1,500億円",
