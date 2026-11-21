@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T03:35:40+09:00",
-  "generated_at_label": "2026/11/21 03:35 JST",
+  "generated_at": "2026-11-21T09:47:08+09:00",
+  "generated_at_label": "2026/11/21 09:47 JST",
   "title": "スタートアップ監視ボード",
   "total": 73,
   "sources": [
@@ -253,10 +253,10 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "x_tomotake94",
@@ -268,6 +268,96 @@
       "via": "https://nitter.cf/tomotake94/rss",
       "count": 15,
       "items": [
+        {
+          "title": "Model MLの資金調達ニュース\n片山幹健（Tomotake Katayama) (@tomotake94)\n投資銀行の「若手の仕事」を代行するAIのModel MLがシリーズBで2.5億ドル（約400億円）を調達。\n企業価値は15億ドル（約2,400億円）に。\nリードはGeneral Atlanticと、フィンテックに強いQED Investorsです。\n同社のAIエージェントは、投資銀行やコンサルの若手アナリストが担ってきた作業を代わりに行います。\n具体的には\n・財務モデルをExcelでつくる\n・提案資料（ピッチブック）をPowerPointでつくる\n・デューデリジェンス（買収前の調査）のレポートを書く\nなどです。\n顧客の社内のシステムやデータ、ExcelやPowerPointとつながり、案件の文脈を理解したうえで、財務モデルや資料を修正できるのが特徴です。HSBC、デロイト、PwCなどがすでに利用しています。\n金融・コンサルはAIに最もお金を払う業界の一つです。\n投資銀行の若手アナリストは、年収が高い一方で、仕事の多くが資料作成やモデルづくりです。AIが代わりに担えば、削減できるコストが大きい。\n加えて、財務モデル、ピッチブック、調査レポートは形式がある程度決まっており、AIの自動化と相性が良いです。\nしかも、データの機密性から汎用モデルには任せにくい。\n金融機関は、顧客データを外部に出せません。Model MLは、顧客の社内のインフラの中でAIを動かす形に対応しています。\nとはいえ、HebbiaやRogoといった金融特化のAIスタートアップや、AnthropicやOpenAIの金融機関向けの機能を強化など競争は激しい領域ですので、どこが勝者になるのか今後に注目です。\n— https://x.com/tomotake94/status/2123196873246937457",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122673085279076352/Kb1Vm2ct?format=png&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2123917227716120942",
+          "domain": "x.com",
+          "published": "2026-11-21T08:11:42+09:00",
+          "published_label": "2026/11/21(土) 08:11",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Rogoは4月にシリーズDで1.6億ドル調達しています。\n片山幹健（Tomotake Katayama) (@tomotake94)\n金融AIスタートアップのRogo AIが、シリーズDで1.6億ドル（約250億円）を調達。\nリード投資家はKleiner Perkins。Sequoia、Thrive Capital、Khosla Ventures、J.P. Morgan Growth Equity Partnersなども参加。\n評価額は約20億ドル（約3,200億円）に。\n1月のシリーズCの7.5億ドルから、わずか数カ月で大きく上昇した形です。\nRogoは、投資銀行、資産運用会社、PEファンド向けのAIプラットフォーム。\n金融業界、特に投資銀行やPEでは、若手が膨大な時間をかけて資料作成、企業調査、モデル更新、マーケット分析を行っていますが、Rogoが狙うのは、まさにこの“高付加価値に見えて実は作業量が重い”領域を代替するAIエージェント。\n金融機関の内部データ、外部マーケットデータ（信頼できるデータプロバイダーと提携）を取り込み、情報源の監査含めてデータの信頼性にこだわっている。\n加えて、個社のワークフローに沿って作業を自動化する。（例えば、M&Aにおける類似取引比較というワークフローを用意しておけば、AIがベンチマークとなる過去の取引事例をリサーチ、分析してパワポやエクセルのフォーマットにまとめておいてくれる）\n金融は情報の正確性、権限管理、監査性、セキュリティが非常に厳しい業界で、汎用AIの利用では厳しい。\n業界特化で深く組み込まれたAIエージェントの価値が出やすい領域ですね。\n— https://x.com/tomotake94/status/2049650579119743467",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123550184219234304/1xDEQE-K?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2123917049223340451",
+          "domain": "x.com",
+          "published": "2026-11-21T08:10:59+09:00",
+          "published_label": "2026/11/21(土) 08:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "投資銀行向けのAIを開発する米Rogo Technologiesが、企業価値37.5億ドル（約6,000億円）で約3.5億ドル（約560億円）を調達する最終段階に入っていると報じられました。\nリードは、米VCのBessemer Venture PartnersとGeneral Catalystです。\nRogoは投資銀行の若手バンカー2人が創業し、「投資銀行の若手の下働き（グラントワーク）をなくす」ことを目指しています。\n企業の財務情報や市場データを調べてまとめ、財務モデルや資料の作成を支援します。夜遅くまで若手が手作業でこなしてきた調べ物や資料づくりを、AIが担います。\n利用している金融機関は約450社、利用者は約6万人。ARRは、2026年6月末の4,100万ドルから、10月下旬には7,700万ドル（約123億円）に。\nRogoの強みは創業者が「現場の痛み」を知っていることです。\n投資銀行の若手は、深夜まで財務モデルを組み、資料の数字を何度も確認する日々を送ります。どの作業が一番つらく、どこまでの精度が求められるか。それを身をもって知る2人がつくるAIは、金融機関の現場にとって使いやすいはずです。\n汎用のAIでは届きにくい「金融の仕事の細部」を押さえていることが、450社という導入の広がりにつながっていると思われます。\n汎用AIも含む競合も多いです。\n先日、同じく投資銀行の若手の仕事を代行するAIの英Model MLが、企業価値15億ドルで2.5億ドルを調達したばかりです。\nまた、AnthropicやOpenAIも金融機関向けの機能を強化しています。\nRogoが、Model MLなどの他社AIや汎用AIの進化にどこまで差を保てるかは未知数です。\nまた、別の論点として、若手の下働きは、バンカーが仕事の型を身につける場でもありました。AIがそれを担ったとき、次の世代をどう育てるかも問われます。\n「下働きがつらいから、それをなくす会社をつくる」。現場の不満から生まれたスタートアップが、4年で約6,000億円の企業価値に届こうとしています。\n金融業界の働き方を大きく変えるAIサービスの今後に注目です。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123084334613536768/66-H4mz2?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2123916699468714282",
+          "domain": "x.com",
+          "published": "2026-11-21T08:09:36+09:00",
+          "published_label": "2026/11/21(土) 08:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ロボットAIの学習データを集めて提供するインドのHumyn Labs（ヒューミン・ラボ）が、シリーズAで4,700万ドル（約75億円）を調達しました。\n内訳は、株式による調達が2,600万ドル（約42億円）、ベンチャーデット（スタートアップ向けの融資）が2,100万ドル（約34億円）です。リードはAccelです。\n2026年2月に、インドのベンガルールで創業しました。人が日常の作業をする様子を撮影し、ロボットAIの教材に加工して売る会社です。\n自社開発の2眼カメラで、人が仕事や家事をする様子を記録します。演出した動きではなく、普段どおりの作業を撮る。家庭の中での撮影も行います。\nその後、ソフトウェアで映像を処理し、手の動きや物の扱い方などのラベルを付けます。\n創業からわずか9カ月で、有料顧客は12社。最先端のAI研究所、ロボット企業、「ワールドモデル」の開発企業など。\n2026年4〜10月の7カ月で、売上は1,000万ドル（約16億円）とのこと。\nHumyn Labsの強みは、新興国の手頃な人件費と人のネットワークを生かして、多様な現実のデータを安く、大量に集められる点です。\n家庭の台所や作業場は、国や地域によってまったく違います。ブラジル、インド、韓国など、多様な環境の映像を持っていることは、ロボットが「どこでも働ける」ようになるために重要です。\nこれはある意味では「AI時代の新しいBPO」です。インドはかつて、米国企業のコールセンターやシステム開発を請け負って成長しました。今度は、米国のAI企業のための「現実世界のデータづくり」を請け負う。インドが、フィジカルAIのデータ供給の拠点になりつつあります。\nこの領域は、米国のMecka AIやMicroAGI、インドのHuman ArchiveやBuildAIなど、競合が次々と現れています。\nどんな企業が生き残るのかは未知数ですが、\nロボットが人の仕事を学ぶために、まず人が自分の仕事を撮影する。フィジカルAIの裏側では、こうした新しい「データの仕事」が世界中で生まれているのは興味深いですね。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123016645115322368/X5UWJLx1?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2123906826160967724",
+          "domain": "x.com",
+          "published": "2026-11-21T07:30:22+09:00",
+          "published_label": "2026/11/21(土) 07:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ペンタブレット大手のワコムがMBOを実施へ。アジア系PEファンドのMBKパートナーズが出資するMP-2611がTOBを行い、井出信孝社長も経営に残ります。ワコムはTOBに賛同し、株主に応募を推奨しています。成立すれば上場廃止となる見通しです。\n直近の業績は、2026年3月期が売上高1,100億円、営業利益134億円、純利益95億円（前期比83%増）です。\n2027年3月期の通期予想は売上高1,100億円、営業利益140億円、純利益100億円で、売上は横ばいでも、利益は大きく改善しています。\n今回のTOB価格は1株1,030円で、発表前日（11月19日）の終値687円に約50%、20日の終値665円に約55%のプレミアムです。総額は約1,366億円。（取得額は少なくとも900億円超）\n筆頭株主の英アクティビストのAVI（アセット・バリュー・インベスターズ）とカナメキャピタル（あわせて約25%）は応募に合意しています。\n井出社長は保有株を応募せず、非公開化後に買い手の親会社へ再出資します。\n今回のMBOの背景にはAVIとの対立があります。\nAVIは2021年からワコムに投資し、議決権の13.8%を持つ筆頭株主です。\nペン型の入力機器などを一般消費者に売る「ブランド製品事業」が、2023年3月期以降に赤字に陥り、5年間の株主総利回りもTOPIXを下回っていると批判していました。\n2025年に続き2026年5月にも株主提案を行い、井出社長とCOOの解任を要求しています。東京支社の一角が社長の娘のダンスの練習・撮影の場として使われてきた疑い（会社側は否定）や、COOが以前代表を務めていた赤字のスタートアップを約17億円で買収したことなどを「公私混同」「資本コストを意識していない」と問題視していました。\n井出社長を解任しようとしてきたAVIが、今回は井出社長が残るMBOに株を売ることに合意しました。\nAVIにとっては、約50%のプレミアムで投資を回収できる出口です。\nワコムの経営陣にとっては、対立してきた株主を退出させ、腰を据えて改革を進められる体制になります。\n対立の末に、両者の利害が「非公開化」で一致したという流れです。\nなお、井出社長の持ち分はごくわずか（約0.1%）です。実態としては、MBKパートナーズによる買収に、経営陣が再出資の形で加わる案件と言えます。\n物言う株主の圧力が、最終的に「ファンドと組んだMBO」という形で決着する。このパターンは日本で増えていますね。\n今回ガバナンスを指摘されていた社長がPEと組んでの非公開化で「市場の目」から外れます。MBKパートナーズという新しい株主のもとで、経営の規律がどう働くかは気になりますね。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123761361171980289/KMN4LJ-j?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2123892810386673873",
+          "domain": "x.com",
+          "published": "2026-11-21T06:34:40+09:00",
+          "published_label": "2026/11/21(土) 06:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ヘアケアブランド「ボタニスト」「YOLU（ヨル）」などを手がけるI-ne（アイエヌイー）が、創業者の大西洋平社長によるMBOへ。投資会社インテグラルのグループが設立した会社がTOBを行い、約177億円で株式を取得します。\nTOB価格は1株2,248円で、11月20日の終値2,466円を約9%下回るディスカウントTOBです。\n大西氏と資産管理会社の持ち分は計56.07%で、成立する確度は高そうです。\n最終的に、インテグラル側が51%、大西氏側が49%を持つ体制を想定しています。\n今回のMBOのきっかけは、恐らく今年表面化したガバナンスの問題です。\nI-neは2022年に化粧品会社Right Here（ライトヒア）からスキンケアブランドの商標権を18億円で譲り受けたのですが、ライトヒアは実はI-neの子会社か関連当事者だったのではないか、という疑義が浮上。ライトヒアの事業資金の大半は、大西氏個人の貸し付けだったとみられています。\n特別調査委員会の調査を経て、東京証券取引所は6月、プライム市場への区分変更の際に経営陣が事実と異なる回答をしたとして、宣誓書違反と判断しました。\n東証は上場契約違約金3,360万円を課したうえで、2027年6月18日までの1年間を「再審査の猶予期間」に指定。期間内にプライム市場の新規上場基準に準じた審査を通らなければ、上場廃止となります。\n大西氏は今回、上場契約違約金、金融庁の課徴金、調査費用などで会社が負った約2.6億円を個人で補塡すると発表しました。\n上場を続けるには、1年以内に厳しい再審査を通る必要があります。その不確実性を抱えたまま上場を続けるより、自ら非上場化を選び、腰を据えてガバナンスと事業を立て直すということなのだと思いました。\n2025年12月期は売上高490億円、営業利益38.8億円、純利益21億円。\n2026年12月期の1〜9月は、売上高428億円（前年同期比24.6%増）、営業利益20.1億円（同8.8%減）で、通期の営業利益の予想は、5億〜15億円。\n売上は、美容家電や健康食品の新商品が好調で、2ケタの成長を続けています。一方で、広告宣伝や新ブランドへの投資がかさみ、利益は伸び悩んでいる状態です。\n株価も2023年2月に上場来高値の4,060円をつけた後、下落が続いています。\n2026年3月には前述の商標権の問題が表面化するなかで、上場来安値の1,019円まで下落しました。\nその後、MBOを見込んだのか9月15日に16%高、16日にはストップ高と株価は急騰。11月9日に2,579円の年初来高値をつけ、2,500円前後で推移していました。\nTOB価格の2,248円は、直近の株価は下回るものの、急騰が始まる前の9月半ばの株価（1,444円）と比べると約56%高い水準です。\n9月以降の急騰が「MBOへの思惑」を織り込んだものだとすれば、TOB価格は「思惑が出る前の株価」に対しては十分なプレミアムを乗せている、という見方もできます。一方で、大西氏がすでに56%を持っているため、TOBの後の株主総会で、残りの株主から強制的に株を買い取る手続き（スクイーズアウト）を進められる可能性が高いため、一般の株主は、最終的に市場価格より低い価格で退出を迫られかねない構図です。\n少数株主の利益をどう守るのか。今後の株主の反応は気になります。\nガバナンスの問題を起こした創業者が、ファンドと組んで会社を非公開化する。上場企業の「出口」として、MBOのあり方が改めて問われる案件になりそうです。",
           "summary": "",
@@ -284,7 +374,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sansanは、就業規則などの社内規程の作成・管理を支援するKiteRaを買収します。\n取得額は約71億円で、Sansanの議決権の割合は、2022年から持っていた3.3%から70%に上がります。\nKiteRaは2019年に設立で、社内規程のクラウドサービスを2つ提供しています。\n・KiteRa Pro：社会保険労務士事務所向け。全国3,000以上の事務所が導入\n・KiteRa Biz：一般の企業向け。法改正への対応や、ガバナンス（企業統治）の強化を背景に急成長\nAIを使って、就業規則などの規程の作成、改定、版の管理、社内への周知をまとめて支援します。\n業績は、ここ2年で急改善しています。\n・2024年6月期：売上6.7億円、営業損失7.2億円\n・2025年6月期：売上10.3億円、営業損失2.7億円\n・2026年6月期：売上15.6億円（前期比51%増）、営業利益1.1億円、純利益0.78億円\n初めて黒字になった一方、純資産は約3.5億円のマイナスで、債務超過の状態が続いています。\n今回は、VCなどが持つ優先株（A種、AA1種、AA2種、B種）を、Sansanがすべて買い取る形です。創業者で代表の植松隆史氏は、持ち分の多くを残すとみられます。\nVCには出口を用意し、創業者には株を持たせたまま、成長への意欲を保ってもらう。将来、事業をさらに伸ばしてから残りの株を買い取る「段階的な買収」の設計と考えられます。\n優先株と普通株の価格の違いを無視すると、株式価値は約106億円になります。売上15.6億円に対して約6.8倍、純利益に対しては100倍を超える水準で、かなり割高に映ります。\n2022年のシリーズCの調達後の企業価値は約54億円でした。そこから4年余りで約2倍です。後から出資したVCにとっては、決して高いリターンではないため、VCの出口を確保するには、この水準が必要だったとみます。\n売上15億円規模で債務超過の会社が、東証グロースに上場するのは簡単ではありません。成長は順調でも、IPOでは出口を描きにくい。事業会社への売却が、現実的な選択肢になったのだと思います。\nSansanがそこまでして買う理由は何か？\n1つ目は、間接部門のサービスの品ぞろえです。Sansanは、名刺管理の「Sansan」、請求書の「Bill One」、契約書の「Contract One」と、企業の間接部門の業務をAIで変えるサービスを広げてきました。契約書の次は社内規程です。法務・総務・人事の「ルールと文書」をまとめて押さえられます。\n2つ目は、販売力の掛け算です。Sansanは、大企業を中心に大きな顧客基盤と営業の仕組みを持っています。成長中のKiteRa Bizを、Sansanの顧客に売り込めば、成長を一段と加速できます。\n3つ目は、社労士という販売の経路です。3,000以上の社労士事務所は、中小企業との接点です。中小企業向けにBill OneやContract Oneを広げる入り口にもなり得ます。\n売上の倍率で見れば高くても、Sansanの販売網に載せたときの将来の売上で見れば十分に回収できると判断したのかもしれません。\n「上場は難しいが、事業は伸びている」スタートアップの出口として、事業会社への段階的な売却は、今後増えそうですね。",
@@ -302,7 +392,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "素晴らしい\n片山幹健（Tomotake Katayama) (@tomotake94)\n大気中から二酸化炭素（CO₂）を直接回収する技術を開発する、東京大学発のPlanet Saversが、プレシリーズAで10.8億円を調達しました。\nリードはANRIで、Spiral Capital、ジャフコ、DBJキャピタル、マネーフォワードベンチャーズのHIRAC FUND、西部ガス系のSG Incubateが参加しています。\nDAC（ダイレクト・エア・キャプチャー）とは、空気の中からCO₂を直接取り出す技術です。工場の煙突のようにCO₂が濃い場所ではなく、普通の空気（CO₂の濃度は約0.04%）から回収するため、技術的な難度が高い分野です。\n具体的には、同社はゼオライト（多孔質の鉱物）のCO₂吸着材を開発しています。\nゼオライトは、CO₂を効率よく吸着できる一方、空気中の水分も吸ってしまう弱点があったのですが、Planet Saversは、この「水を吸いやすい」問題に対応した吸着材を開発し、回収にかかるエネルギーとコストを大きく下げることを目指しています。\n回収したCO₂は、\n・DACCU（回収して使う）：農業のハウス、工業、水素と組み合わせた燃料や化学品の原料として供給する\n・DACCS（回収して地下に貯める）：大気からCO₂を減らす「カーボン・リムーバル」として、カーボンクレジットにつなげる\nという活用方法が考えられます。\nCO₂を回収して売ることで事業として成立させようとしているのが興味深いです。\n日本では、CO₂を出す製油所などの工場が減り、炭酸ガスやドライアイスの原料となる高純度のCO₂の供給が細っています。CO₂は、温暖化の原因であると同時に、農業や工業に欠かせない「資源」でもあります。必要な場所で、空気からCO₂をつくれれば、供給不足を補う新しい調達手段になります。\nDACは海外でもコストの高さが課題で、カーボンクレジットの売却だけで採算を取るのは簡単ではありません。まずはハウス栽培などの「CO₂の買い手」に売って収益を立て、規模を広げながらコストを下げていく道筋と考えられます。\n日本の大学発の技術による、世界のカーボン・リムーバルの市場への挑戦、今後に注目です。\n— https://x.com/tomotake94/status/2123737135782224118",
@@ -320,7 +410,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "東南アジアの医療機関向けに、保険請求を自動化するAIを開発するKentasu（ケンタス）が、シードラウンドで8,400万円を調達。ニッセイ・キャピタル、東京ウェルネスインパクトファンドなどから。\n東南アジアでは、民間の医療保険が広く使われています。ところが、保険会社ごとに請求のルール、書式、提出の方法、ウェブ上の窓口がばらばらです。病院やクリニックは、患者ごと・保険会社ごとに、手作業で入力し、確認しなければなりません。\nその結果、請求のミスや、保険金の入金の遅れが起き、医療機関の資金繰りを圧迫しています。\nKentasuの「Kentasu RCM」は、この保険請求の業務をAIで自動化するサービスです。\n・電子カルテのデータを使い、保険会社ごとのルールや提出方法に合わせて請求する\n・複数の保険会社への請求を一元化する\n・入金や回収の状況まで追いかける\nRCM（レベニュー・サイクル・マネジメント）は、医療機関が診療をしてから、実際にお金を受け取るまでの一連の流れを管理する業務です。保険の多い米国では、病院のRCMを支援する事業が一大産業になっており、AIによる自動化の市場は年率24%で伸びると予測されています。一方、東南アジアのRCMのデジタル化は、まだ始まったばかりです。\n日本では、国民皆保険のもとで請求の仕組み（レセプト）がほぼ統一されています。ところが東南アジアでは、民間の保険会社ごとにルールが違うため、病院の事務の負担が非常に大きいため事業機会になっています。\n将来的に請求と入金のデータが集まれば、医療機関の将来の入金がかなり正確に予測できます。それを使えば、入金前の保険金を早めに資金化するサービスなど、医療機関向けの金融サービスに広げられます。業務のSaaSで入り、データを貯めて金融で稼ぐ。いわゆる「SaaS＋フィンテック」の展開が想定されます。\n日本人の創業者が、日本ではなく東南アジアの課題から事業を始める。こうした「最初から海外」のスタートアップが増えてきているのは興味深いですね。",
@@ -338,13 +428,13 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Bending SpoonsがMiroを買収したときのニュース\n片山幹健（Tomotake Katayama) (@tomotake94)\nイタリアのソフトウェアロールアップ企業のBending Spoonsが、オンラインホワイトボードのMiroを買収。\n現金対価13.6億ドル（約2,176億円）、株式価値ベースでは17.9億ドル（約2,864億円）です。\n2021年末の資金調達時の評価額は175億ドル（約2.8兆円）でしたので、5年弱で9割超の下落になります。\nMiroはARR約6億ドル（約960億円）を稼ぎ、その9割が法人・大企業。\n有料ユーザーは400万超、総ユーザーは1億人。ネットキャッシュ約4.35億ドル（約696億円）を持ち、黒字です。\n株式価値17.9億ドルからネットキャッシュ4.35億ドルを引くと、事業そのものへの対価は約13.6億ドル。ARR6億ドルに対して約2.3倍です。\n黒字でエンタープライズ比率9割のソフトウェア企業に、売上の2年分とかなり渋い価格ですね。\nBending Spoonsは、\n2021年前後に「いずれ巨大プラットフォームになる」という前提で値付けされた高い株価に苦しみ、成長は鈍化しつつも堅実な収益基盤を持つまでに育った会社を、\n値付けし直して買っています。\n先月のAirtableも同じ構図で、2021年に110億ドル超の評価だった会社を12.8億ドルで取得しています。\n5週間で2件、いずれも13億ドル前後。2021年生まれのユニコーンが成熟した後の「時価」が、ARRの2〜3倍あたりに形成されつつあるというのはなかなか切ないですね。\n加えて、Miroの場合はポイントソリューションが生き残ることの難しさも示唆しています。\n企業はコロナ後に重複するアプリとライセンスを整理し、単機能のツールより統合スイートを選ぶようになり、\nCanvaやFigma、マイクロソフトなど資金力がある企業は機能拡充の中でMiroのようなホワイトボード機能も追加しています。\nAIの登場で裏側の統一データ基盤の重要性が増していく中で、ポイントソリューションはスイートに吸収されていく流れが加速し、ホワイトボードのみの単機能ツールでは選ばれなくなっていきました。\n今回、ARRの2.3倍、9割超下落する価格を受け入れたのも、取締役会と投資家が、IPOも同等の売却先も現実的ではないと判断したということですね。\n— https://x.com/tomotake94/status/2098194051099164826",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2121336446997110784/F_df1oPh?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2123873269694844928/S3xrE4_O?format=png&name=800x419"
           ],
           "link": "https://x.com/tomotake94/status/2123726320404455706",
           "domain": "x.com",
@@ -356,7 +446,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Bending Spoons、メールマーケティングのMailchimpを36.8億ドル（約5,900億円）で買収。\n売り手はSMB向け会計ソフトの米Intuit（インテュイット）で、2021年に約120億ドルで買った事業を、3分の1以下の価格で手放すことになります。\n企業価値は約36.8億ドルで、現金33.1億ドル、Bending Spoonsの新株3.68億ドル（Intuitが売却代金の一部を再投資）対価。\nMailchimpの直近四半期の売上は3.13億ドル（約500億円）で、前年同期比1%減。年換算した売上の約2.9倍での売却です。\nIntuitの株価は、決算で売上見通しを引き下げたことも重なって下落しました。2021年の大型買収が、失敗だったと認めた形です。\nBending Spoonsはイタリアのソフトウェアロールアップ企業です。\n特徴は、成長が鈍ったネットサービスを安く買い、人件費を削るなど徹底的に効率化して利益を出すモデルです。\nこれまでにEvernote、WeTransfer、Vimeo、Meetup、Eventbrite、AOLなど50社以上を買収。\n2025年の売上は13.1億ドル、営業利益は2.78億ドルです。\n2026年7月に米ナスダックに上場し、買収のペースを一気に上げています。\n8月には、表計算とデータベースを組み合わせたAirtableを、約12.9億ドルで買収（上場後1件目）。2021年のピーク時の企業価値から約9割安い水準。\n9〜10月には、オンラインのホワイトボードのMiroを、約13.6億ドルで買収。ピーク時の企業価値は175億ドル。\n上場からわずか5カ月で、約63億ドル（約1兆円）の買収を決めたことになります。いずれも、2021年のSaaSバブルのころに高い評価を受け、その後に成長が鈍った「かつての人気サービス」です。\nBending Spoonsが狙うのは、成長は止まっても、毎月お金を払い続ける熱心なユーザーを抱えたサービスです。\n上場時の目論見書では、売上で重み付けした利用者の平均継続期間は8年とされています。\n買収後のやり方は、ほぼ一貫していて、\n・大胆な人員削減と、開発チームのミラノへの集約\n・自社の共通の技術基盤への移行による、コストの削減\n・値上げや有料プランの見直しによる、1人あたりの売上の引き上げ\n同社の買収案件のハードルレートは借入を含めたIRRで65%とのこと。\n上場から5カ月でAirtable、Miroに続く3件目の大型買収、「かつての人気SaaS」を安く拾い続けているBending Spoonsが次は何を買うのか引き続き注目ですね。",
@@ -374,7 +464,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "特定の技術方式に絞らず、異なるアプローチに並行して投資しているこのが面白いですね。マイルストーンで進捗を確認しながら支援できる仕組みも興味深いと思いました。\n選択と集中！は考えとしてはわかりやすいですが不確実性の高い技術領域では、実証を通じて選択肢を絞り込んでいくことが重要なんだと思いました。\nスタートアップの競争戦略にも通じる話ですね！\n片山幹健（Tomotake Katayama) (@tomotake94)\n核融合発電を目指すスタートアップのスターライトエンジン（Starlight Engine）が、経済産業省の「フュージョンエネルギー発電実証推進事業補助金」に正式に採択されました。\n2028年度までに、最大233億円の支援を受けます。\nヘリカルフュージョンも正式採択を発表しており、国の核融合の支援が「研究」から「発電実証」へと本格的に動き出しています。\nこの補助事業は、国の核融合の戦略「フュージョンエネルギー・イノベーション戦略」に基づき、2030年代に世界に先駆けて核融合による発電実証を実現するための支援策で、特徴は2つあります。\n・多様な方式を同時に支援する：トカマク型、ヘリカル型、レーザー型、FRC型と、異なる方式に並行して賭ける\n・マイルストーン型の支援：成果の節目ごとに進捗を確認しながら支援する\n2029年2月末までに、採択事業者の総額で600億円規模の補助が想定されています。2026年8月末に4件が条件付きで採択されました。\n■ 採択された4社\n① スターライトエンジン（トカマク型）：正式採択、補助上限233億円\n② ヘリカルフュージョン（ヘリカル型）：正式採択、補助上限約192億円\n③ EX-Fusion（レーザー型）：浜松ホトニクスと共同。条件付き採択\n④ LINEAイノベーション（FRCミラー複合型）：条件付き採択\n各方式を簡単に説明すると次のようになります。\n・トカマク型：ドーナツ形の磁場の容器に、超高温のプラズマ（燃料のガス）を閉じ込める。世界で最も研究が進んだ本命の方式\n・ヘリカル型：ねじれた形のコイルで磁場をつくる方式。日本の核融合科学研究所が長年研究してきた、日本が得意とする方式\n・レーザー型：燃料の粒に強力なレーザーを当て、一瞬で圧縮して核融合を起こす。大阪大学発のEX-Fusionが、光技術の浜松ホトニクスと組む\n・FRCミラー複合型：日本大学と筑波大学の研究から生まれた方式。中性子をほとんど出さない燃料（水素とホウ素）を使う、挑戦的な方式\nスターライトエンジンは、2025年4月に、京都大学発の核融合スタートアップ、京都フュージョニアリングのグループ会社として設立され、民間主導の産学連携プロジェクト「FAST」の事業主体となっています。FASTは、高温超電導のコイルを使ったトカマク型の装置で、発電プラントに必要な技術をまとめて実証することを目指しています。\n2026年7月には、初めての外部資金調達で60.6億円をグローバル・ブレインがリードし、KDDI、関西電力、古河電気工業、フジクラ、エアバスのVCなどから調達しています。\nエネルギーを自前で持てるかどうかは、日本の産業競争力そのものに関わります。国がスタートアップに大きく賭けたこの4つの挑戦が、どこまで進むか注目です。\n— https://x.com/tomotake94/status/2123553199420592541",
@@ -445,99 +535,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "超絶ドメの旧日立物流が正しくネオビアをPMI、マネージできるかが焦点ですね。EBITDA作りのための材料にさせられてないことを祈ります。\n日本企業でXBのPMIがうまくいった事例てごくわずかじゃないでしょうか。\n片山幹健（Tomotake Katayama) (@tomotake94)\nKKR傘下のロジスティード（旧日立物流）が米3PL大手のネオビアを約1,500億円で買収します。\n再上場を前に「グローバル3PL」を強化する一手です。\nネオビアの2025年12月期の営業収益は6億700万ドル（約970億円）、北米と欧州を中心に、産業機器、自動車、消費財、航空宇宙などの物流を担っています。\n2012年に建機大手キャタピラーの物流部門を、米Platinum Equityが65%を約7.5億ドルで取得して切り出しました。\nその後、ゴールドマン・サックス系のPEを挟み、2022年に借入の返済に行き詰まって、貸し手だった米Oaktree、Ares、Vectorが4.2億ドルの貸付を株式に換えて経営権を握りました。\nOaktreeは、経営不振の会社の債権を買って再建する投資を得意とし、貸付を株式に換えてから約4年で、今回ロジスティードへの売却によって出口を迎えた形です。\nロジスティードは、日本とアジアを中心に、アジアと世界各地を結ぶ輸送を強みとしてきました。\n北米と欧州の現地での3PLは手薄で、ネオビアとは地域的に補い合う関係にあります。日系の顧客が北米や欧州で事業を広げる際の物流を、手厚く支えられるようになります。\nロジスティードの2026年3月期の売上高は9,931億円で、ネオビアを加えると単純合算で約1.1兆円になります。\nロジスティードは2023年にKKRの傘下に入り、上場を廃止しました。\n先日KKRがIPOの主幹事の選定に着手したと報じられました。最短で2027年の上場を見据えており、市場からの資金吸収額は約6,400億円になる可能性があるとされていました。\n会社側は、今回の買収は再上場のスケジュールに影響しないとしています。\n今回の買収は「再上場に向けた企業価値の仕上げ」とみています。\n日本中心の物流会社から、北米・欧州・アジアにまたがる「グローバル3PL」へ。海外の投資家に響く成長の物語をつくり、マルチプルを変えるためにもネオビアは欠かせないピースと言えます。\nPEファンドの間で転々とし、貸し手によって再建された会社が、別のPEファンド傘下の日本企業に渡りました。\nロジスティードが、PEファンドの傘下で事業を磨き、買収で規模を足し、再び上場ししようとしています。\nKKRがこの投資でどれだけのリターンを得るのかにも注目です。\n— https://x.com/tomotake94/status/2123381867152089417",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123286309020237825/aZ5BXSFl?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/ZcureExbanker/status/2123521830367670737",
-          "domain": "x.com",
-          "published": "2026-11-20T06:00:32+09:00",
-          "published_label": "2026/11/20(金) 06:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ロジスティードの再上場に向けて、主幹事の選定に着手したというニュース。\n片山幹健（Tomotake Katayama) (@tomotake94)\nKKRがロジスティード（旧日立物流）の再上場に向けて、主幹事の選定に着手しました。\n最短で2027年上場を見据え、市場からの資金吸収額は最大6,300億円になる可能性があると報じられています。\n2022年4月に上場子会社の整理を進めていた日立製作所が、日立物流をKKRに売却しました。TOBで約4,492億円、日立の持分は日立物流の自社株買いに応じる形で約2,220億円規模。日立は非公開化完了後に議決権ベースで10%を再出資という流れでした。\n株式の取得総額は約6,700億円。2023年3月に買収が完了し、4月に社名をロジスティードに変えました。\nKKR傘下でロジスティードは、2024年にアルプス物流を約1,700億円規模で買収（TOB約1,050億円＋アルプスアルパインからの自社株買い約700億円）しました。このときもアルプスアルパインに20%の持分を残しています。\n2026年3月期には売上9,931億円（前期比9%増）、調整後営業利益605億円（25%増）、利益率6.1%。\n2024年3月期の売上8,002億円、営業利益208億円（利益率2.6%）と比べると売上規模・利益率ともに伸びています。\n2025年12月にKKRは日本郵便に経済持分19.9%を1,423億円で売却し、一部イグジットしています。\nこのときの株主価値は100%換算で約7,150億円で、2026年3月期の純利益401億円に対してPER約18倍です。\n譲渡された普通株と甲種種類株の1株あたりの経済価値は、開示の「経済持分19.9%」が株数比で計算されていることから同じと仮定すると、日立物流買収時の株主資本は約4,940億円で、取得額6,700億円の約7割にあたり、レバレッジ低めだったと考えられます。\n上記の前提で、現在のKKRの経済持分が約78%と仮定し、今回の最大6,300億円がKKRの全株売却として計算すると想定時価総額は約8,100億円（前期の純利益に対してPER約20倍）。\n日本郵便への売却分と合わせて、KKRのMOICは約1.6倍、IRRは年11〜12%程度で、PEとしては手堅い水準にとどまります。\nただ、今期はさらに利益を積み上げられているので、実際にはもっと上を狙えそうな気もします。\nまた、評価倍率をどこまで引き上げられるかもリターンの最大化においてはポイントになりそうです。\nIPOでの論点は、「国内の3PL」ではなく「グローバル物流企業」として評価されるかどうか。\n海外比率と利益率が上がれば、国内物流株より高い評価倍率が正当化され、KKRの出口は一段と大きくなります。\n日立の上場子会社整理から始まり、アルプスアルパインや日本郵便といった事業会社を少数株主として巻き込みながら規模を広げ、IPOで出口を迎える。日本のカーブアウト型PEの教科書のような案件になりつつありますね。\n— https://x.com/tomotake94/status/2119360727865819482",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2121439439750823936/YLLMIr9M?format=png&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2123382171020980565",
-          "domain": "x.com",
-          "published": "2026-11-19T20:45:34+09:00",
-          "published_label": "2026/11/19(木) 20:45",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "地中熱の掘削に、石油掘削技術を応用？\nアメリカでは、TEN（thermal energy network）が化石燃料事業・雇用からの公正な移行に大きく貢献を期待されているのを感じます。\n日本は暖房電化で縮小する都市ガス事業なんかの雇用対策はちゃんと考えているのでしょうか…\n片山幹健（Tomotake Katayama) (@tomotake94)\nAIで地中熱用の掘削を最大80%速くするBedrock Energy（ベッドロック・エナジー）が、2,400万ドル（約38億円）を調達。\nリード投資家はClean Energy VenturesとClearvision Venturesです。\nビル向けの「地中熱ヒートポンプ」の導入を手がけています。\n地下の温度は年間を通じてほぼ一定です。その性質を利用し、冬は地中から熱を取り出して暖房に、夏は地中へ熱を逃がして冷房に使う仕組みです。\nちなみに、地下深くの高温を使って発電する「地熱発電」とは全く別物です。\nBedrockが掘るのは深さ約300メートル程度の浅い井戸で、目的は建物の冷暖房です。\n地中熱ヒートポンプは省エネ効果が高いにもかかわらず、井戸を掘るコストがネックで米国のビルではごく一部にしか普及していません。\nBedrockは、石油・ガス業界の「方向制御掘削（ドリルの向きを操りながら掘る技術）」をビル向けに持ち込み、AIで掘削機を制御することで、掘削時間を最大80%短縮できる、つまり低コストで掘削できるようにしています。\nなぜ地中熱ヒートポンプが注目されているのか？\n1つ目は、電力網の逼迫です。地中熱ヒートポンプは、エアコンのように猛暑や厳寒の日に電力消費が跳ね上がることが少なく、電力の使い方が平準化します。\n周辺の建物にまとめて導入すれば、電力網にかなりの余力を生み出せます。\nAIデータセンターの増設で電力網の容量が奪い合いになるなか、「需要側で電力を減らす」技術の価値が高まっています。\n2つ目は、データセンターそのものの需要です。同社はデータセンターの開発事業者とも協議しており、サーバーの冷却に使う構想です。\n「掘る」という地味な工程のコストをテクノロジーで下げることで、地中熱ヒートポンプの市場そのものを広げ、電力網の逼迫というメガトレンドに乗る面白い企業ですね。\n— https://x.com/tomotake94/status/2122670591488721282",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122314517086445568/U93WdgMY?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/NoSwearPolitics/status/2123358955854532761",
-          "domain": "x.com",
-          "published": "2026-11-19T19:13:19+09:00",
-          "published_label": "2026/11/19(木) 19:13",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「手袋」で器用さを学ぶロボットの米仏Genesis AIがシリーズAで5億ドル（約800億円）を調達しました。\nリードは、米Khosla Ventures、インドの投資会社Premji Invest、米Eclipseです。\nGenesis AIは、ロボットの「手の器用さ」に照準を合わせています。\nセンサー付きの手袋とヘッドセットのカメラを、世界の100人以上の作業者が身につけて作業し、手の力の入れ具合や動きを記録し、集めたデータとシミュレーションで、ロボットの基盤モデルを自前で開発しています。\nまた、人の手と同じ比率の手を持つロボット「Eno（イーノ）」を自社で設計。ロボットにも作業者と同じ手袋をはめさせ、人とロボットの動きをそのまま対応させるというアプローチです。\n手袋なら、熟練した作業者がふだんの仕事をするだけで、データが貯まっていきます。安く、大量に、現実の作業のデータを集められる。\nフィジカルAIにおいてモデルの構造が結果に効くのは1割程度。本当に重要なのはインフラ全体。データの集め方まで含めた「仕組み」が競争力の源泉となります。\n人の「手の感覚」をデータにする。フィジカルAIの競争は、モデルの性能から「現実のデータをどう集めるか」の勝負に移りつつあると感じています。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122692289931698176/-Ts_-ifN?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2123357874239987754",
-          "domain": "x.com",
-          "published": "2026-11-19T19:09:01+09:00",
-          "published_label": "2026/11/19(木) 19:09",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "宇宙とAIのスタートアップ、スペースデータが森ビル・イノベーションファンドとKRAFTIAイノベーションファンドから資金調達。いずれもスパイラル・イノベーション・パートナーズとの二人組合CVCです。\nスペースデータの創業者はメタップス創業者の佐藤航陽氏。\n早稲田大学在学中の2007年にメタップスを創業しました。アプリの収益化支援やオンライン決済「SPIKE」などで世界8カ国に展開し、2015年に20代で東証マザーズに上場させています。「時間」を売買する「タイムバンク」など、話題を呼ぶ事業でも知られました。\n2017年にスペースデータを創業し、2020年にはメタップスの経営から退いています。\nスペースデータは「現実世界のコピーをデジタル空間につくり、AIとロボットに学ばせる会社」です。\n具体的には、3つの段階があります。\n① 写す：衛星データやAIを使い、街や建物、宇宙空間を3Dでデジタル上に再現する（デジタルツイン）\n② 試す：そのデジタル空間で、人の流れ、災害時の避難、建設現場の工程などをシミュレーションする\n③ 動かす：デジタル空間で学んだAIを、点検ドローン、建設支援ロボット、警備ロボットなどの実機に載せる（フィジカルAI）\nもとは、衛星データから地球全体のデジタルツインを自動でつくるAIの開発で注目されました。\nその後、国際宇宙ステーション（ISS）の船内を再現したシミュレーターや、宇宙ステーション向けのオープンソースのソフト「Space Station OS」を開発しています。\n2026年には、衛星やデブリ、小惑星を監視するAI基盤「SpaceBrain」、国連宇宙部と組んだ途上国の防災支援など、宇宙、防衛、産業の各分野に広げています。\n今回の資金調達は、宇宙そのものより「街」と「現場」への展開を加速する意図が感じられます。\n森ビルの街や、クラフティアの設備・インフラの現場を実証の場として、デジタルツインやフィジカルAIを実際に使う計画と考えられます。\nインフラの老朽化、人手不足、災害の激甚化。日本の街と現場が抱える課題は、ロボットとAIの最大の需要先になり得ます。\nただ、ロボットを現場で動かすには、現場の3Dデータとシミュレーションの環境が欠かせません。スペースデータは、その「AIの練習場」をつくる役割を狙っています。\nとはいえ、スペースデータ自体は宇宙、防衛、都市開発、建設、ロボットと、手がける領域が非常に広くなっています。優先順位やどこで収益の柱を立てるのか今後の展開が気になりますね。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123221629472010240/21ijX7Vq?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2123347017661641110",
-          "domain": "x.com",
-          "published": "2026-11-19T18:25:53+09:00",
-          "published_label": "2026/11/19(木) 18:25",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.7
     },
     {
       "id": "x_kosuke_uchida",
@@ -828,7 +828,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_tmiyatake1",
@@ -859,260 +859,255 @@
           "is_new": false
         },
         {
-          "title": "AndurilのPalmer Luckeyさんは最近海の上に巨大構造物を作るようになると語る。\n実際にやっているのがすごい。",
+          "title": "Netflixがコメディに特化した制作スタジオ「Netflix Is a Joke Studios」を立ち上げて初のクリエイティブパートナーとしてコメディアンのNikki Glaserと契約したことを発表した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123021206077288448/img/IyWZ3iMyntU0mCcu.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123491546943115266/eA-xEPgr?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569511609536727",
+          "link": "https://x.com/tmiyatake1/status/2123931899814965290",
           "domain": "x.com",
-          "published": "2026-11-20T09:10:00+09:00",
-          "published_label": "2026/11/20(金) 09:10",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "FTX騒動に関するNetflixシリーズ「The Altruists」がリリースされた。",
+          "title": "ここ数年でアメリカで最も期待されていたゲーム「Grand Theft Auto VI」は事前注文および初日の販売の合計売上が$3.79Bを達成したことを発表した。\n比較すると新しいスパイダーマンの映画の合計映画収益が$2.52B。\nGTA VIの制作費は$1.5Bほどかかったと思われている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123531977840304128/img/YjoUnUVnjWP8ozEq.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2121465467017506816/CTUw3caE?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569511517298719",
+          "link": "https://x.com/tmiyatake1/status/2123931899517354462",
           "domain": "x.com",
-          "published": "2026-11-20T09:10:00+09:00",
-          "published_label": "2026/11/20(金) 09:10",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "特定のカテゴリーを選んだり、PDF・ニュースレターなどの情報源からポッドキャスト、音声コース、瞑想コンテンツを生成できる学習アプリの「SUN 2.0」がローンチした。\nVideo\nArtin Bogdanov (@ArtinBogdanov)\nToday, we end the brain rot era.\nImagine Spotify, ChatGPT, NotebookLM, Apple Podcasts, and Audible in one beautiful app.\nIntroducing SUN 2.0.\nCreate the podcast you wish existed. Listen to your newsletters on a run. Turn a PDF into an audio course for your commute, or ask SUN for a two-hour deep dive on something you can’t stop thinking about.\nWake up to a daily brief on the news you actually follow. Listen to a book summary or a full audiobook from our growing library. Make a song for your wife, a meditation to unwind, or a story for your kids on the way to school.\nDon’t know what to create? Open FLOW. Think of it as audio TikTok without the brain rot. It finds the best moments from tens of millions of podcast episodes, interviews, and talks and serves up the clips most relevant to you.\nAnd here’s the part I’ve wanted for years: you can interrupt the podcast. Ask for an example. Challenge a claim. Tell SUN to rewrite the part it got wrong. No more passive listening.\nTo celebrate the launch, we’re offering one month of SUN Pro free. Create something. Listen to it. Share it.\nWatch SUN 2.0 in action ↓\nVideo\n— https://x.com/ArtinBogdanov/status/2123469352083280063",
+          "title": "Gentle MonsterのAIスマートメガネのキャンペーン動画。\nVideo\nTetsuro Miyatake (@tmiyatake1)\nGentle Monsterが12月にAIスマートメガネのコレクションをリリースする予定。\nVideo\n— https://x.com/tmiyatake1/status/2118857462916808727",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123536943321681920/img/GNmquC9-97eBSv5J.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123450181580705792/img/2WizTQM9jVH2_LOF.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123765799508967424/img/Tx-4SKuLgjZscShC.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2118820066812968960/img/CUkmaZlalI7yUybf.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569259884224866",
+          "link": "https://x.com/tmiyatake1/status/2123931899483546044",
           "domain": "x.com",
-          "published": "2026-11-20T09:09:00+09:00",
-          "published_label": "2026/11/20(金) 09:09",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "人間の脳とコンピュータを直接接続するBCI企業のNeuralinkでは30人の患者にチップを導入しているとイーロン・マスクが語る。\n将来的には脊髄損傷の人でも歩けるようになる未来が見えていると発言。",
+          "title": "今はAI研究インターンまでのパフォーマンスが可能になってきたとOpenAI Chief Research OfficerのMark Chenが語る。\n特定のアイデアや実験をAIに提示して色んな形で実験を行ってくれるとのこと。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123402976966647808/img/-feYDzVYJdaXB4uL.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2122826125844037632/img/4Y9uozA0DEURBaDD.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569259804848165",
+          "link": "https://x.com/tmiyatake1/status/2123931899441656064",
           "domain": "x.com",
-          "published": "2026-11-20T09:09:00+09:00",
-          "published_label": "2026/11/20(金) 09:09",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "チームメンバーと複数のAIエージェントが同じファイルを共有して共同作業できるクラウドストレージ基盤を提供するFlashDriveがローンチしたことを発表した。\nVideo\ndale (@daleverett)\nToday we’re launching FlashDrive with @ycombinator 🚀\nFlashDrive is a shared cloud drive where your team and all your AI agents work in the same files across computers and cloud sandboxes.\n> Search the whole drive with grep, regex or code. Our custom indexing layer finds matches without downloading everything.\n> Files stay in the cloud, and your agent only streams the part it needs.\n> Start in Claude Code on your Mac. Pick up in Codex.\n> Edit the same file at the same time. FlashDrive merges changes or keeps both versions.\n> Connect over MCP or mount the drive on macOS or Linux. Give a sandbox access to just one folder for as little as five minutes.\nDalton and I are building the filesystem the next generation of companies will run on. And we're calling it @flashdrive_ai\n↓ Try it free! Link below\nVideo\n— https://x.com/daleverett/status/2123174423616258268",
+          "title": "映画「ホーム・アローン」の続編の制作が確定したらしく、次の作品にもKevin McCallister役のMacaulay Culkinが出演すると思われている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123403964268105728/img/u2-KYFJFwVvoXuho.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123167448736354304/img/4RcQQinH12e1IoZM.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2121519113101078528/2qsslXz5?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569008225980791",
+          "link": "https://x.com/tmiyatake1/status/2123931899416465572",
           "domain": "x.com",
-          "published": "2026-11-20T09:08:00+09:00",
-          "published_label": "2026/11/20(金) 09:08",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Amazon配下の自動運転・ロボットタクシー事業のZooxがLAで検証し始めることを発表した。\n来年あたりからウェイトリストを公開する予定。",
+          "title": "NBAチームのマイアミ・ヒートが人気ゲーム「GTA VI」とコラボしたグッズが即完売した。\n実際試合するユニフォームまで限定コラボバージョンを出していたが、そのユニフォームはスタジアムの店舗でしか購入できなかったため、試合前から数千人が並んで即完売だったらしい。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123537653098553344/img/grKlauwXO2QskQ8D.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123771205039820800/img/_FoN-HKtUlzX6q22.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123569008159191259",
+          "link": "https://x.com/tmiyatake1/status/2123931647741493511",
           "domain": "x.com",
-          "published": "2026-11-20T09:08:00+09:00",
-          "published_label": "2026/11/20(金) 09:08",
+          "published": "2026-11-21T09:09:00+09:00",
+          "published_label": "2026/11/21(土) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "AI画像生成サービスIdeogramが細かい部分まで編集できる画像モデル「Ideogram 4.6」をリリース。",
+          "title": "MetaがMeta Quest上で150作の3D映画をリリースしたことを発表した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123538331799826432/img/xIE6qZMId0OoKXXt.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123910565521457152/LyAFCHqf?format=jpg&name=420x420_2"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568756677112300",
+          "link": "https://x.com/tmiyatake1/status/2123931647729172973",
           "domain": "x.com",
-          "published": "2026-11-20T09:07:00+09:00",
-          "published_label": "2026/11/20(金) 09:07",
+          "published": "2026-11-21T09:09:00+09:00",
+          "published_label": "2026/11/21(土) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "人工衛星などの宇宙機に搭載して動作する自律運用ソフトウェアを開発するOrca Aerospaceがローンチしたことを発表した。\nVideo\nJacob Ososke (@JacobOsoske)\nExcited to officially launch @orca_aerospace today! We are building full self-driving for satellites! Orca puts an AI operator onboard each spacecraft, so satellites can make decisions and run their missions with minimal human intervention.\nVideo\n— https://x.com/JacobOsoske/status/2123085200330781062",
+          "title": "世界最大の農業機械メーカーのJohn Deereが農業機械に取り付けるAIカメラと解析ソフトウェアを提供するOrchard Roboticsを買収したことを発表した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123404653371224064/img/dzW1xwLGewFuf4U6.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123083998977257472/img/VCoZOmkPK1y60eQT.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123573032308686848/JvsHHDaS?format=jpg&name=420x420_2"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568756635107647",
+          "link": "https://x.com/tmiyatake1/status/2123931647724732925",
           "domain": "x.com",
-          "published": "2026-11-20T09:07:00+09:00",
-          "published_label": "2026/11/20(金) 09:07",
+          "published": "2026-11-21T09:09:00+09:00",
+          "published_label": "2026/11/21(土) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ブラウザ上でチームとリアルタイムに共同作業しながらデータ分析からデータアプリの作成・公開までを一貫して行えるクラウド型データワークスペースを提供するDeepnoteがローンチした。",
+          "title": "SpaceX Grok Botクリエイターのピックルボール大会。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123541212695277568/img/RQpkXiJs1Chpyowc.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123404276274008066/img/qFg8v_LkgUVaM7uT.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568505031373176",
+          "link": "https://x.com/tmiyatake1/status/2123931647603364063",
           "domain": "x.com",
-          "published": "2026-11-20T09:06:00+09:00",
-          "published_label": "2026/11/20(金) 09:06",
+          "published": "2026-11-21T09:09:00+09:00",
+          "published_label": "2026/11/21(土) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "新しいテキサス知事はそこまで過激派のリベラルではないのでそこまで問題意識してないとイーロン・マスクが発言。\n常にアメリカの政治で上院と下院が別々の党がコントロールさせることを目的にしていたが、今回はそれに対して大金を出したが失敗したと振り返る。",
+          "title": "NVIDIAが画像生成などで使われる拡散モデルの仕組みをテキストやコード生成に応用するAIスタートアップのInceptionを$500M以上で買収することを検討していると思われている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123405261453041665/img/3l3rgzQ3mR05lryN.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123549590360145920/W3n60iJZ?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568504934916295",
+          "link": "https://x.com/tmiyatake1/status/2123931647578124662",
           "domain": "x.com",
-          "published": "2026-11-20T09:06:00+09:00",
-          "published_label": "2026/11/20(金) 09:06",
+          "published": "2026-11-21T09:09:00+09:00",
+          "published_label": "2026/11/21(土) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "画像・動画・文章などの複数の生成AIモデルを統合して1つのキャンバス上で制作フローやブランド運用を構築できるプラットフォームを提供するFLORAがブランドの世界観やルール・文脈をAIと共有しながら制作や発信に活かすブランド一貫性の維持機能「Brand OS」をローンチしたことを発表した。\nVideo\nweber (@weberwongwong)\nToday we’re opening a waitlist for beta access to Brand OS, a living system for your brand that your team and their agents can both work from.\nBrand guidelines usually get set once as a PDF, but a PDF can’t keep pace with how fast teams and agents now produce work. Brand OS turns your guidelines, Figma files and fonts into a living set of rules that keeps everything on brand, and it improves as brand leads give feedback on what gets made.\nVideo\n— https://x.com/weberwongwong/status/2123517245322043713",
+          "title": "Quora共同創業者およびCEOのAdam D'AngeloがCEOとして降りて会長になることを発表、同時にQuoraのGeneral Managerとして9ヶ月前に入ったJohn Peacockを新CEOとして任命した。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123541884371169280/img/NnPJbDXkfad_ZJwh.jpg?name=small",
-            "https://pbs.twimg.com/ext_tw_video_thumb/2123517198706651136/pu/img/nWVcTZ45AT_6mVn_.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2123568253691936830",
+          "images": [],
+          "link": "https://x.com/tmiyatake1/status/2123931396997538280",
           "domain": "x.com",
-          "published": "2026-11-20T09:05:00+09:00",
-          "published_label": "2026/11/20(金) 09:05",
+          "published": "2026-11-21T09:08:00+09:00",
+          "published_label": "2026/11/21(土) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ワークフォース管理プラットフォームのRipplingがRippling内でホスト・公開できるカスタムWebサイト機能「Rippling Sites」をローンチした。\n閲覧者の権限に応じたアクセス制御やデータ取得・更新が可能なのが良いところ。",
+          "title": "元Alibaba経営メンバーが立ち上げた小規模なリテールブランドを中国の工場などと繋げて商品調達から注文・配送まで支援するサービス「Everful」が$48.5M調達を発表した。\n年内には$100Mの売上run rateを達成することを見込んでいて、今現在は月次で500万以上の商品を配送している。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123535359707672576/img/o9eNG-z3mEbhTzOj.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123462080703434752/wnwf_Zj5?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568253570273284",
+          "link": "https://x.com/tmiyatake1/status/2123931396263604562",
           "domain": "x.com",
-          "published": "2026-11-20T09:05:00+09:00",
-          "published_label": "2026/11/20(金) 09:05",
+          "published": "2026-11-21T09:08:00+09:00",
+          "published_label": "2026/11/21(土) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "GoogleのGeminiが画面のスクリーンショットを認識して人間と同じようにクリックや文字入力などのUI操作を提案・実行して作業を自動化する機能「Gemini Computer Use」をローンチした。",
+          "title": "中国の車「Li Auto L9」では車の中でドライビングシミュレーターゲームを体験できる。\nサスペンションがリアルタイムで動くのがすごい。\nレースゲーム「Forza」も繋げて体験できるらしい。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123550108239507456/img/7nTTAfgaxta-pdM3.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123898753476366336/img/8tGSFMOrju5uaJFd.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568002117636604",
+          "link": "https://x.com/tmiyatake1/status/2123931396104458533",
           "domain": "x.com",
-          "published": "2026-11-20T09:04:00+09:00",
-          "published_label": "2026/11/20(金) 09:04",
+          "published": "2026-11-21T09:08:00+09:00",
+          "published_label": "2026/11/21(土) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "MetaがAIパーソナルアシスタント「Muse」が含まれている小型デバイス「Muse Charm」を$300で販売すること計画していると思われている。\n最初の12ヶ月間は無料の5Gデータプランが付いているとのこと。\n今年の冬のホリデーシーズン中に販売を想定している。",
+          "title": "Alibaba GroupのAIモデルQwenの元責任者のLin Junyangが立ち上げた、デジタル空間と物理世界の両方で動作する次世代のAIエージェントを開発するPragmatik Labsが$5Bの時価総額で調達した。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123536221951639552/img/jDGip9LsIRneh1kX.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2123700411362103296/Tv-GGZif?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2123568001836314670",
+          "link": "https://x.com/tmiyatake1/status/2123931396091584582",
           "domain": "x.com",
-          "published": "2026-11-20T09:04:00+09:00",
-          "published_label": "2026/11/20(金) 09:04",
+          "published": "2026-11-21T09:08:00+09:00",
+          "published_label": "2026/11/21(土) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.6
@@ -1146,15 +1141,16 @@
           "is_new": false
         },
         {
-          "title": "みなさん、マージャーマーケットはフォローしておきましょう！\nドヤりツイートをチェック\nMergermarket Japan (ION Analytics) (@MMJAPAN_IONA)\n【スクープ】マージャーマーケットは6月26日、生活サービスのマッチングサイト「生活110番」を運営するシェアリングテクノロジーの非公開化に向けた入札が行われていると初めて報じました。マージャーマーケットはその後、8月7日にはMBKパートナーズが応札していると報じました。\n— https://x.com/MMJAPAN_IONA/status/2098221256449659230",
+          "title": "ワコム井出社長は今年の株主総会開催6月25日とその前日6月24日に既に取締役へMBO検討すると伝えてた。株主総会の前に既にMBOを明確にイメージしていた。\nじろ🍀 (@26ooo)\nこのX動画削除された。ワコムMBO成立したら社長の私物化、そして赤字の社外取締役会社の企業をワコムに高値で売った。を追求されず逃げ切れる（）\n— https://x.com/26ooo/status/2123911564374028411",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HR5hHL-aMAAbHyg.jpg?name=small"
+            "https://pbs.twimg.com/media/HXmuV4ubEAAmMav.png?name=small",
+            "https://pbs.twimg.com/media/HXmuXF-bAAAoq0p.png?name=small"
           ],
-          "link": "https://x.com/nomurasyo/status/2123797275562688836",
+          "link": "https://x.com/26ooo/status/2123920677623472175",
           "domain": "x.com",
-          "published": "2026-11-21T00:15:03+09:00",
-          "published_label": "2026/11/21(土) 00:15",
+          "published": "2026-11-21T08:25:24+09:00",
+          "published_label": "2026/11/21(土) 08:25",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1164,13 +1160,16 @@
           "is_new": true
         },
         {
-          "title": "めっちゃ儲かって頂きたい想いで運用しております\n証券マン (@nomurasyo)\nVCのLPの方で、\n「めっちゃ儲かったよ！」\n「全然儲からなかったよ」\nという方いらっしゃいましたら、インタビューさせてもらえませんか？\nDMいただけますと幸いです🙇\n— https://x.com/nomurasyo/status/2123779548831707516",
+          "title": "アジア6号で1.5兆円ファンドなので、アジア4号5,000億円（アジアなので全てが日本ではない）から2兆円リターンのキオクシアが出たのバケモンすぎる\niB (@senri_michi_)\nPE考察#7 ベインキャップ\n2026年、\"数多の個人投資家の人生を狂わせた銘柄\"キオクシアで2兆円稼いだ最強ファンド\nPE志望者は勿論、全ての日本人投資家が「何が起こり、誰がなぜどのくらい勝ったのか」を理解し、経済史に刻まれしキオクシアから教訓を得るべきでしょう↓\n— https://x.com/senri_michi_/status/2123723350044496195",
           "summary": "",
-          "images": [],
-          "link": "https://x.com/hagi_furafura/status/2123796137236951151",
+          "images": [
+            "https://pbs.twimg.com/media/HXmpvKDasAAHCLz.png?name=small",
+            "https://pbs.twimg.com/card_img/2123721778715643904/0uTU_yyd?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/senri_michi_/status/2123915586946412794",
           "domain": "x.com",
-          "published": "2026-11-21T00:10:31+09:00",
-          "published_label": "2026/11/21(土) 00:10",
+          "published": "2026-11-21T08:05:11+09:00",
+          "published_label": "2026/11/21(土) 08:05",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1180,153 +1179,179 @@
           "is_new": true
         },
         {
-          "title": "ワコム\nブロードメディア\nシェアリングテクノロジー",
+          "title": "このX動画削除された。ワコムMBO成立したら社長の私物化、そして赤字の社外取締役会社の企業をワコムに高値で売った。を追求されず逃げ切れる（）\n証券マン (@nomurasyo)\nAVI\nワコムにキャンペーン\n社長の娘のために、オフィスにダンススペース作ってて草\n（年500～850万円分）\n— https://x.com/nomurasyo/status/2123909271532535936",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmkORha0AEUTYp.jpg?name=small"
+          ],
+          "link": "https://x.com/26ooo/status/2123911564374028411",
+          "domain": "x.com",
+          "published": "2026-11-21T07:49:11+09:00",
+          "published_label": "2026/11/21(土) 07:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "真相はMBKしか知らない",
           "summary": "",
           "images": [],
-          "link": "https://x.com/nomurasyo/status/2123795142389932407",
+          "link": "https://x.com/nomurasyo/status/2123910113434259670",
           "domain": "x.com",
-          "published": "2026-11-21T00:06:34+09:00",
+          "published": "2026-11-21T07:43:26+09:00",
+          "published_label": "2026/11/21(土) 07:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "FO条項！",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmk2zXaEAArYWa.jpg?name=small"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123909968504217833",
+          "domain": "x.com",
+          "published": "2026-11-21T07:42:51+09:00",
+          "published_label": "2026/11/21(土) 07:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "AVI\nワコムにキャンペーン\n社長の娘のために、オフィスにダンススペース作ってて草\n（年500～850万円分）",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmkORha0AEUTYp.jpg?name=small"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123909271532535936",
+          "domain": "x.com",
+          "published": "2026-11-21T07:40:05+09:00",
+          "published_label": "2026/11/21(土) 07:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ワコム\n社外取締役の中嶋氏が、自分がやってる赤字の会社を16億円でワコムに買収させてた",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmkCbDbEAAOMUC.jpg?name=small"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123909068255584421",
+          "domain": "x.com",
+          "published": "2026-11-21T07:39:16+09:00",
+          "published_label": "2026/11/21(土) 07:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "秘密のベールに包まれたファミリーオフィス…数十億ドルを管理する資産管理会社の6人のキーマンが舞台裏を明かす｜BUSINESS INSIDER  @BIJapanより",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123906769932136448/QadzjI3t?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123906776370475268",
+          "domain": "x.com",
+          "published": "2026-11-21T07:30:10+09:00",
+          "published_label": "2026/11/21(土) 07:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "\"ロレアルSAの筆頭株主が運営するファミリーオフィスは、同社の投資ビークルが近年相次いで買収を行ってきた\"\nロレアル一族の富豪一族が、投資ビークルの体制を拡充",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123906572615315456/meJ-yDFA?format=jpg&name=600x314"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123906628378575283",
+          "domain": "x.com",
+          "published": "2026-11-21T07:29:35+09:00",
+          "published_label": "2026/11/21(土) 07:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ファミリーオフィス\n前澤友作 (@yousuck2020)\n【アシスタント募集】\n前澤のプライベートアシスタントを募集します。自宅での掃除・洗濯・犬猫のお世話から、ヨットやジェットで行く国内外の旅行・出張の同行まで、前澤の側近として、あらゆることに好奇心を持ち、前向きに楽しみながら取り組める方を募集します。興味ある方は以下をご確認ください。（添付画像は主な職場です）\n— https://x.com/yousuck2020/status/2123904816397307927",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmgKAZawAAAFXQ.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAVb0AAa-3I.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAabUAAKvUu.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAbbEAA1Tk6.jpg?name=small"
+          ],
+          "link": "https://x.com/nomurasyo/status/2123905411342565659",
+          "domain": "x.com",
+          "published": "2026-11-21T07:24:44+09:00",
+          "published_label": "2026/11/21(土) 07:24",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【アシスタント募集】\n前澤のプライベートアシスタントを募集します。自宅での掃除・洗濯・犬猫のお世話から、ヨットやジェットで行く国内外の旅行・出張の同行まで、前澤の側近として、あらゆることに好奇心を持ち、前向きに楽しみながら取り組める方を募集します。興味ある方は以下をご確認ください。（添付画像は主な職場です）",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmgKAZawAAAFXQ.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAVb0AAa-3I.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAabUAAKvUu.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmgKAbbEAA1Tk6.jpg?name=small"
+          ],
+          "link": "https://x.com/yousuck2020/status/2123904816397307927",
+          "domain": "x.com",
+          "published": "2026-11-21T07:22:23+09:00",
+          "published_label": "2026/11/21(土) 07:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "TOB価格4％以上上回る現金での対抗買付け（＝1,072円以上、資金証明付き）が出れば、買付者と協議の上、買付者が5営業日以内に同額以上に引き上げなければ、AVIらは応募を撤回して対抗側に乗り換え可能、\nとのことのようです。\n証券マン (@nomurasyo)\nFO条項なし！？\n— https://x.com/nomurasyo/status/2123794122515628458",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/SHIMAJIRO0528/status/2123795004443549838",
+          "domain": "x.com",
+          "published": "2026-11-21T00:06:01+09:00",
           "published_label": "2026/11/21(土) 00:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "FO条項なし！？\nSHIMA (@SHIMAJIRO0528)\n一点、ワコムMBOの開示で面白いのは価格交渉の経緯。\n買付者側は、既に特別委員会とは1,015円で決着していたものの、「成立確度を一層高める観点から」AVIとの応募契約の内容につき協議・交渉を継続。\nその結果、最終価格は1,030円に。\n当初、AVIは1,000円でも応諾可能と回答していたところ、買付者側がAVIらに対してハードな応募契約（→開始後速やかに応募し撤回しない、他への譲渡禁止、競合取引への接触禁止、決済までの株主権不行使、FO条項＝TOB価格を4％以上回る現金での対抗買付けに限定、等々）に署名させることと引き換えに、全株主一律で15円（総額約20億円）を上乗せした形となった。\n— https://x.com/SHIMAJIRO0528/status/2123793482276065608",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk5A5dbkAAS98z.png?name=small",
-            "https://pbs.twimg.com/media/HXk5DG5boAAx-yx.png?name=small",
-            "https://pbs.twimg.com/media/HXk5EZka8AAUKi6.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123794122515628458",
-          "domain": "x.com",
-          "published": "2026-11-21T00:02:31+09:00",
-          "published_label": "2026/11/21(土) 00:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "\"特別委員会は両候補者に最終提案を求める「Best & Final」方式を検討したが、三井物産など関係者の協力を得られず、実施に至っていない\"\nBest & Final方式！！\n初めて聞きました！！\nかどや製油TOB、大株主の三井物産がJオイル案を支持 - 日本経済新聞",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123762426319699969/tVyLwL6S?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123793378043392125",
-          "domain": "x.com",
-          "published": "2026-11-20T23:59:34+09:00",
-          "published_label": "2026/11/20(金) 23:59",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "まだか\n証券マン (@nomurasyo)\nマージャーのドヤりツイートが見たいおれは\n— https://x.com/nomurasyo/status/2123704415672828043",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/nomurasyo/status/2123791105531789339",
-          "domain": "x.com",
-          "published": "2026-11-20T23:50:32+09:00",
-          "published_label": "2026/11/20(金) 23:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "2024年9月には複数のPEと接触",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk4iUtbIAAaroI.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123790953848950827",
-          "domain": "x.com",
-          "published": "2026-11-20T23:49:56+09:00",
-          "published_label": "2026/11/20(金) 23:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "マーケットチェックはしてないけど応募契約結んじゃった",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk3_pCa0AAWRVH.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123790326561427905",
-          "domain": "x.com",
-          "published": "2026-11-20T23:47:26+09:00",
-          "published_label": "2026/11/20(金) 23:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "AI CROSS\nネットキャッシュ17億円\nEBITDA6億円",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk198yaYAEeQyZ.png?name=small"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123788053072507062",
-          "domain": "x.com",
-          "published": "2026-11-20T23:38:24+09:00",
-          "published_label": "2026/11/20(金) 23:38",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "この質問、来年のワコム定時総会でしたかった。\nSHIMA (@SHIMAJIRO0528)\n無論、次回の株主総会では、当該子会社に係るバリュエーション算定の基礎となった事業計画（※前回の総会では開示不可との回答。）と足元実績値の乖離の有無、その原因等について深掘った質問をさせていただく予定です。\n— https://x.com/SHIMAJIRO0528/status/2107677746180899120",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/SHIMAJIRO0528/status/2123785790945898876",
-          "domain": "x.com",
-          "published": "2026-11-20T23:29:25+09:00",
-          "published_label": "2026/11/20(金) 23:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "QBハウスで髪を切って、スカイマークで帰路につき、アイプリモの指輪を見て、帰りにかどやのごま油とボタニストを買って帰る\n家に帰ったらすとぷりを見て寝る",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/nomurasyo/status/2123783785489846631",
-          "domain": "x.com",
-          "published": "2026-11-20T23:21:27+09:00",
-          "published_label": "2026/11/20(金) 23:21",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1349,37 +1374,16 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "証券マン (@nomurasyo)\n\"最終的にインテグラルグループ側が51%、大西氏側が49%\"\nI-ne、創業社長がMBO 非公開化へ投資ファンドがTOB - 日本経済新聞\n— https://x.com/nomurasyo/status/2123778396488700198",
+          "title": "というわけで日本のVCはクソだと一部で罵られているが、LPの期待には応えてるのでそんなことはないと言えるわけである。\nLPの期待リターンがそもそも低いだけである。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXktUF6acAE9KBC.png?name=small",
-            "https://pbs.twimg.com/card_img/2123735293685878784/MMIr-SC9?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123778540336509165",
+          "images": [],
+          "link": "https://x.com/toclvm/status/2123757483462414382",
           "domain": "x.com",
-          "published": "2026-11-20T23:00:36+09:00",
-          "published_label": "2026/11/20(金) 23:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "\"最終的にインテグラルグループ側が51%、大西氏側が49%\"\nI-ne、創業社長がMBO 非公開化へ投資ファンドがTOB - 日本経済新聞",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123735293685878784/MMIr-SC9?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/nomurasyo/status/2123778396488700198",
-          "domain": "x.com",
-          "published": "2026-11-20T23:00:02+09:00",
-          "published_label": "2026/11/20(金) 23:00",
+          "published": "2026-11-20T21:36:56+09:00",
+          "published_label": "2026/11/20(金) 21:36",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1389,7 +1393,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.1
     }
   ]
 }

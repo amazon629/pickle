@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T03:35:19+09:00",
-  "generated_at_label": "2026/11/21 03:35 JST",
+  "generated_at": "2026-11-21T09:46:47+09:00",
+  "generated_at_label": "2026/11/21 09:46 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -32,6 +32,45 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenRouter は本日正式に @ Stripe の一部となりました。\n1,000 万を超える開発者や企業が OpenRouter を使用しており、より多くのワークロードにわたってより多くのモデルを使用して構築するため、コストとデータの送信先を制御する必要があります。\nOpenRouter は、新しいモデルへのアクセス、停止時の稼働時間、各チームの強制的な支出とデータ ポリシーを備え、あらゆるモデルとプロバイダーにわたって AI を実行できるように、オペレーティング インフラストラクチャを構築しました。\n世界中の企業の重要なインフラストラクチャを何年にもわたって運営してきた Stripe に参加することで、より迅速にインフラストラクチャを構築し、あらゆる規模の企業をサポートできるようになります。\n中立性に対する当社の取り組みは変わりません。モデルとプロバイダーは、品質、信頼性、価格で競争します。自分のビジネスに何が役立つかを決めるのはあなたです。\nストライプ (@ストライプ)\nOpenRouter は Stripe の一部になりました。\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage.\n— https://x.com/ストライプ/status/2120240651778355306"
+        },
+        {
+          "title": "The numbers behind it, from HeyGen: ~93 ms median latency on Turbo, and the clearest leads on audio tasks like speech emotion (84.5 vs 32.4) and music genre (88.1 vs 65.6).",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmYUpFaMAA7_II.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmYVP6aUAEc0mf.jpg?name=small"
+          ],
+          "link": "https://x.com/OpenRouter/status/2123896193591984358",
+          "domain": "x.com",
+          "published": "2026-11-21T06:48:07+09:00",
+          "published_label": "2026/11/21(土) 06:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "HeyGen によるその背後にある数字: Turbo でのレイテンシの中央値は約 93 ミリ秒であり、スピーチの感情 (84.5 対 32.4) や音楽ジャンル (88.1 対 65.6) などのオーディオ タスクで最も明確なリードがあります。"
+        },
+        {
+          "title": "Now you can check a selfie video against an ID photo and answer \"same person?\" and \"live capture?\" side by side, each with its own probability.\n@HeyGen Decision 1 is already used for moderation, identity checks, routing, and QA.\nModels on OpenRouter (@ModelsOnOR)\nDecision 1 from @HeyGen is live on OpenRouter.\nAsk questions about video, audio, images, and text in one request, and get a calibrated probability for each answer in ~100 ms. It handles up to 400 questions per call.\nLaunch pricing is 50% off through Dec 1:\n→ Turbo: $0.042 / 1M input tokens\n→ Decision 1: $0.07 / 1M input tokens\n→ Output is free\n— https://x.com/ModelsOnOR/status/2123891886813581639",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123891888168345600/CEQvChpg?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/OpenRouter/status/2123893458318614941",
+          "domain": "x.com",
+          "published": "2026-11-21T06:37:15+09:00",
+          "published_label": "2026/11/21(土) 06:37",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "自撮りビデオと証明写真を照合して、「同一人物?」と答えることができるようになりました。そして「ライブキャプチャ？」隣り合って、それぞれが独自の確率を持っています。\n@HeyGen Decision 1 は、モデレーション、ID チェック、ルーティング、QA にすでに使用されています。\nOpenRouter のモデル (@ModelsOnOR)\n@HeyGen の決定 1 は OpenRouter で公開されています。\n1 回のリクエストでビデオ、オーディオ、画像、テキストに関する質問をすると、各回答について調整された確率が最大 100 ミリ秒で得られます。 1 回の通話につき最大 400 件の質問に対応します。\n発売価格は 12 月 1 日まで 50% オフです。\n→ ターボ: $0.042 / 1M 入力トークン\n→ 決定 1: $0.07 / 1M 入力トークン\n→出力は自由です\n— https://x.com/ModelsOnOR/status/2123891886813581639"
         },
         {
           "title": "Try it now!",
@@ -251,47 +290,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Excited to bring some AI magic to @lennysan's Insiders ✨\nレニー・ラチツキー (@lennysan)\nBreaking: 35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥\nI'm excited to welcome five incredible new partners to the Lenny's Newsletter Product Pass:\n1. @OpenRouter ($650 value, Insider only): One API and one bill for hundreds of AI models.\n2. @PloyAI ($600 value): AI agents that run growth marketing for your website.\n3. @Sentry (360 ドル相当): 出荷したものが壊れた瞬間を知り、迅速に修正します。\n4. @TextExpander ($300 value): Your best prompts, replies, and phrases, always just a few keystrokes away.\n5. LangSmith by @LangChain ($468 value): See what your AI agents are actually doing, and make them better.\nこれによりバンドルは、Insider 購読者 (年間 400 ドル) の場合は 41,428 ドル相当 (!!) の 35 製品となり、年間購読者 (年間わずか 200 ドル) の場合は 37,062 ドル相当の 22 製品になります。\nこのバンドルには、@WisprFlow、@NotionHQ、@Lovable、@Linear、@Higgsfield、@Replit、@EvenLabs、@RunwayML、@Railway、@Resend、@Granola、@X サブスクリプション (Grok Bot、Cursor、X 付き) などが 1 年間完全に無料で含まれており、すべて Lenny's Newsletter サブスクリプションに含まれています。これはソフトウェアの歴史の中で最大の取引であると確信しています。\nIf you are already an Annual or Insider subscriber, grab your codes here:\nIf you're currently on a free or monthly plan, upgrade to immediately unlock the Product Pass:\nコードには限りがあり、先着順となります。最も"
-        },
-        {
-          "title": "Read more at:",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122775301403078656/Z___9Up2?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/OpenRouter/status/2122775237507084453",
-          "domain": "x.com",
-          "published": "2026-11-18T04:33:50+09:00",
-          "published_label": "2026/11/18(水) 04:33",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "詳細については、以下をご覧ください。"
-        },
-        {
-          "title": "Management keys on OpenRouter now have tighter access controls.\nMake a key read-only, limit it to one workspace, or both, so every agent, script, and tool gets only the access it needs, and if a key leaks, the impact is controlled.\nIt’s available today on all plans.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWc0XmboAATpJi.jpg?name=small"
-          ],
-          "link": "https://x.com/OpenRouter/status/2122775225502998670",
-          "domain": "x.com",
-          "published": "2026-11-18T04:33:47+09:00",
-          "published_label": "2026/11/18(水) 04:33",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "OpenRouter の管理キーのアクセス制御が強化されました。\nキーを読み取り専用にし、1 つのワークスペース、またはその両方に制限すると、すべてのエージェント、スクリプト、ツールが必要なアクセスのみを取得し、キーが漏洩した場合の影響が制御されます。\n現在、すべてのプランでご利用いただけます。"
         }
       ],
-      "elapsed": 2.9
+      "elapsed": 3.4
     },
     {
       "id": "x_opencode",
@@ -568,7 +569,7 @@
           "title_ja": "Qwen4 Max が OpenCode Go で利用可能になりました"
         }
       ],
-      "elapsed": 2.8
+      "elapsed": 5.6
     },
     {
       "id": "x_aimirai46487",
@@ -580,6 +581,224 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■引用元\nGoogle Gemini (@GeminiApp)\nSay hello to GIFs in Gemini. Say goodbye to searching for the perfect one.\nFrom looping photo effects to funny memes, create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash, for smooth motion and consistent quality across every frame.\n— https://x.com/GeminiApp/status/2123813017855103449",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2123933763029901370",
+          "domain": "x.com",
+          "published": "2026-11-21T09:17:24+09:00",
+          "published_label": "2026/11/21(土) 09:17",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nGoogle Gemini (@GeminiApp)\nGemini の GIF にご挨拶してください。完璧なものを探す必要はもうありません。\nループ写真エフェクトから面白いミームまで、最新のビデオ モデルである Gemini Omni 1.2 Flash を使用して想像できるあらゆる GIF を作成し、すべてのフレームでスムーズな動きと一貫した品質を実現します。\n— https://x.com/GeminiApp/status/2123813017855103449"
+        },
+        {
+          "title": "GogleのAIチャット「Gemini」で、動画生成AIモデル「Gemini Omni 1.2 Flash」を活用してGIFアニメを作れるようになりました(有料ユーザー限定)。\nGeminiで作ったGIFアニメサンプル(↓)",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2123933689432490137",
+          "domain": "x.com",
+          "published": "2026-11-21T09:17:06+09:00",
+          "published_label": "2026/11/21(土) 09:17",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Thinking Machines Labは、ノートパソコンでも動作するほど軽量だとする、260億パラメータ搭載のAIモデル「Inkling 2 Mini(ループ型Transformer採用)」をオープンウェイトで公開しました。\nThinking Machines (@thinkymachines)\nSome of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\n— https://x.com/thinkymachines/status/2123871643797995872",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123870055498940416/GIja54ZR?format=png&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123933389036437970",
+          "domain": "x.com",
+          "published": "2026-11-21T09:15:55+09:00",
+          "published_label": "2026/11/21(土) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nAndrew Ambrosino (@ajambrosino)\nNEW:\n- ChatGPT Space for Plus!\n- new, simpler visual design across the app\n- huge performance improvements everywhere\n- completely rebuilt threads– better perf and design\n- redesigned Space home\n- much faster pages and slides\n- edit pages on mobile\n- more reliable Codex Remote\nmuch more to come soon!\nVideo\n— https://x.com/ajambrosino/status/2123840812534452296",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123840592379510784/img/8-BxI6eEc3EwHenF.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123933323009704157",
+          "domain": "x.com",
+          "published": "2026-11-21T09:15:39+09:00",
+          "published_label": "2026/11/21(土) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nアンドリュー・アンブロシーノ (@ajambrosino)\n新しい:\n- ChatGPT スペース for Plus!\n- アプリ全体の新しくてシンプルなビジュアルデザイン\n- あらゆる場所で大幅なパフォーマンスの向上\n- スレッドを完全に再構築 - パフォーマンスとデザインが向上\n- 再設計されたスペースホーム\n- ページとスライドが大幅に高速化\n- モバイルでページを編集する\n- より信頼性の高いコーデックス リモート\nさらに多くのことがすぐに登場します!\nビデオ\n— https://x.com/ajambrosino/status/2123840812534452296"
+        },
+        {
+          "title": "ChatGPTのアプリ全体でデザインが刷新され、処理速度が向上するなど、細かいアップデートが行われたようです。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123840592379510784/img/8-BxI6eEc3EwHenF.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123933300851183711",
+          "domain": "x.com",
+          "published": "2026-11-21T09:15:34+09:00",
+          "published_label": "2026/11/21(土) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nChatGPT (@ChatGPT)\nPlus users, welcome to Space 🪐\nCollaborate with others alongside ChatGPT to create interactive pages, slides, and sites. And bonus: ChatGPT can keep them updated for you.\nYou can now edit on mobile, and we’ve made Space smoother and more reliable.\nA quick guide to getting started ⤵️\nVideo\nVideo\nVideo\nVideo\n— https://x.com/ChatGPT/status/2123850912867471807",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123841966643576832/img/9zM68CoiEGaocf5d.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123842057039147008/img/3m8qxtx-DswfARSh.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123842652596768768/img/BbCMFXEW0bXGLfLD.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123842741230837760/img/2FKc6qId4wK3I8le.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123933238465077405",
+          "domain": "x.com",
+          "published": "2026-11-21T09:15:19+09:00",
+          "published_label": "2026/11/21(土) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nチャットGPT (@ChatGPT)\nPlus ユーザーの皆様、Space へようこそ 🪐\nChatGPT を使用して他のユーザーと共同作業して、インタラクティブなページ、スライド、サイトを作成します。さらに、ChatGPT では最新の状態を維持できます。\nモバイルでも編集できるようになり、Space がよりスムーズかつ信頼性の高いものになりました。\n始めるためのクイックガイド ⤵️\nビデオ\nビデオ\nビデオ\nビデオ\n— https://x.com/ChatGPT/status/2123850912867471807"
+        },
+        {
+          "title": "ChatGPTのPlusプランのユーザーが「Space」機能を使えるようになりました。他のユーザーと共同作業しながら、インタラクティブなWebページやスライド、Webサイトを作成できます。\nスマホでの編集に対応し動作の安定性も向上させた、Space機能のアプデも実施されました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123841966643576832/img/9zM68CoiEGaocf5d.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123933199625761184",
+          "domain": "x.com",
+          "published": "2026-11-21T09:15:10+09:00",
+          "published_label": "2026/11/21(土) 09:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Anthropicの数学者が、AI「Claude」を使って167年間未解決の「リーマン予想」を証明したと発表しました。\nMITの数学者によりコンピューターでの複数検証の通過が報告されたものの、数学界で正式に認められたわけではなく、検証が続いています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123693461790752768/5kYSHV7d?format=jpg&name=600x314"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123927824373629105",
+          "domain": "x.com",
+          "published": "2026-11-21T08:53:48+09:00",
+          "published_label": "2026/11/21(土) 08:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "米証券取引委員会(SEC)がエヌビディアの会計慣行(会計処理の適切性)を調査していると報じられました。フアン前CEOの退任後、同社に新たな懸念が浮上しています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123894418503815168/uSQWgBVz?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123927685219172406",
+          "domain": "x.com",
+          "published": "2026-11-21T08:53:15+09:00",
+          "published_label": "2026/11/21(土) 08:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "米国のベセント財務長官は、トランプ大統領と中国の習近平国家主席が、AIを活用した軍事上の意思決定には常に人間が関与すべきとの認識で一致したと明らかにしました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123629174581862400/_cpQpXr4?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123927637722866023",
+          "domain": "x.com",
+          "published": "2026-11-21T08:53:04+09:00",
+          "published_label": "2026/11/21(土) 08:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "米国のトランプ大統領は、中国とのAI開発競争で米国を優位に立たせるため、海外にデータセンターを建設する米企業に罰則を科す方針を示しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123868339156205568/y2Js04YC?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123927594601243053",
+          "domain": "x.com",
+          "published": "2026-11-21T08:52:53+09:00",
+          "published_label": "2026/11/21(土) 08:52",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "TikTokは、AI生成コンテンツの透明性と安全性を高めるため、AIによる画像・動画の作成や編集を確認できる機能と、本人の同意なく肖像が使われた可能性を検出する機能を発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123921872266129408/467RDq4C?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2123927554704974315",
+          "domain": "x.com",
+          "published": "2026-11-21T08:52:44+09:00",
+          "published_label": "2026/11/21(土) 08:52",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "Metaが2026年12月までに発売するとされているAI搭載の小型デバイス「Muse Charm」の価格は、約300ドル(約4万7700円)になると報じられています。",
           "summary": "",
@@ -633,230 +852,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Nous Researchは、Microsoftと提携し、AIエージェント「Hermes Agent」を企業向けに提供すると発表し、企業向けサービス「Hermes Enterprise」が、Microsoft Teams、Microsoft Store、Azureに対応しました。\nNous Research (@NousResearch)\nWe've partnered with @Microsoft to bring Hermes Agent to the enterprise.\nHermes Enterprise now works inside Microsoft Teams, the Microsoft Store and Azure. In Teams, employees hand Hermes work like financial analysis, document drafts or inbox triage, and review the result in the same chat. Agent workloads run in isolated Azure Container Apps sandboxes.\nWhen someone finds a good way to do a recurring task, Hermes saves it as a skill. With Collective Wisdom, they can share that skill with their team after review, so the next person starts out with the best approach anyone has found to accomplish that task. The skills then grow along with the company.\nCompanies with strict data residency or procurement rules can run Hermes Enterprise in their own Azure tenant. Our CTO Jeffrey Quesnelle presents how Hermes uses these sandboxes at Microsoft Ignite today, in session BRK448.\nThanks to @M12vc and the @Azure Container Apps team.\n— https://x.com/NousResearch/status/2123535954946257096",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXhQovZXcAAD-Jt.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123705558335426981",
-          "domain": "x.com",
-          "published": "2026-11-20T18:10:36+09:00",
-          "published_label": "2026/11/20(金) 18:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nGoogle Antigravity (@antigravity)\nNative SSH support is now available in the Antigravity desktop app.\nIn addition to Remote Control, Antigravity now can connect to remote servers using SSH from the Antigravity app.\nVideo\n— https://x.com/antigravity/status/2123476398601908551",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123229314896322560/img/aVYu5t7C-l_0GLzr.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624421550350466",
-          "domain": "x.com",
-          "published": "2026-11-20T12:48:11+09:00",
-          "published_label": "2026/11/20(金) 12:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nAntigravity デスクトップ アプリでネイティブ SSH サポートが利用できるようになりました。\nリモート コントロールに加えて、Antigravity は、Antigravity アプリから SSH を使用してリモート サーバーに接続できるようになりました。\nビデオ\n— https://x.com/antigravity/status/2123476398601908551"
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」のデスクトップアプリが、SSH接続に正式対応しました。\nこれまでのリモート操作機能に加え、AntigravityアプリからSSHを使って遠隔地のサーバーに直接接続して操作できます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123229314896322560/img/aVYu5t7C-l_0GLzr.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624365824921923",
-          "domain": "x.com",
-          "published": "2026-11-20T12:47:58+09:00",
-          "published_label": "2026/11/20(金) 12:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nChatGPT (@ChatGPT)\nHealth is now available in more of the places you use ChatGPT, including the desktop app, dots, Sites, and Android.\nWith your connected health information you can:\n- Analyze your sleep and workout patterns on desktop, like how you sleep after morning or evening workouts.\n- Get proactive suggestions from your dot, like another time for a workout when a meeting gets in the way.\n- Build a site to track your marathon training, with your runs and progress toward your training plan in one place.\n- Connect sleep, activity, workouts, and more through Android Health Connect for more personalized insights on your health.\nHealth is available in the U.S. on desktop and Android for Free, Go, Plus and Pro users. Sites are available on Plus and Pro, and dots on Pro.\nVideo\n— https://x.com/ChatGPT/status/2123545961381216325",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123545137473056768/img/pONcXB9DEMCJE93K.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624212913168666",
-          "domain": "x.com",
-          "published": "2026-11-20T12:47:22+09:00",
-          "published_label": "2026/11/20(金) 12:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nチャットGPT (@ChatGPT)\nHealth は、デスクトップ アプリ、ドット、サイト、Android など、ChatGPT を使用するさらに多くの場所で利用できるようになりました。\n接続された健康情報を使用すると、次のことが可能になります。\n- 朝や夜のトレーニング後の睡眠状態など、睡眠とトレーニングのパターンをデスクトップ上で分析します。\n- 会議が邪魔になったら、別の時間にトレーニングするなど、ドットから積極的な提案を受け取ります。\n- マラソン トレーニングを追跡するサイトを構築し、ランニングとトレーニング プランの進捗状況を 1 か所で確認します。\n- Android Health Connect を通じて睡眠、アクティビティ、ワークアウトなどを接続し、健康に関するよりパーソナライズされた洞察を得ることができます。\nHealth は、米国ではデスクトップと Android で Free、Go、Plus、Pro ユーザー向けに提供されています。サイトは Plus と Pro で利用でき、ドットは Pro で利用できます。\nビデオ\n— https://x.com/ChatGPT/status/2123545961381216325"
-        },
-        {
-          "title": "ChatGPTの健康管理機能「Health」が、デスクトップアプリやAndroidアプリ、dots、Sitesなど幅広い環境に対応しました(米国で提供中)。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123545137473056768/img/pONcXB9DEMCJE93K.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624187663355955",
-          "domain": "x.com",
-          "published": "2026-11-20T12:47:16+09:00",
-          "published_label": "2026/11/20(金) 12:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nMuse (@Muse)\nMuse has its own email address. Grab your  handle before someone else does 😉\nRolling out to everyone in supported markets, your Muse can now send and receive emails on your behalf.\nTo get started, tap your avatar and head to the mail tab, or just ask your Muse.\nVideo\n— https://x.com/Muse/status/2123602791356883032",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123602672825909248/img/byNxKTEVDkL-TCVC.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624115210949116",
-          "domain": "x.com",
-          "published": "2026-11-20T12:46:58+09:00",
-          "published_label": "2026/11/20(金) 12:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nミューズ (@Muse)\nMuse には独自のメール アドレスがあります。他の人がハンドルを握る前にハンドルを握りましょう 😉\nサポートされている市場のすべてのユーザーに展開され、Muse がユーザーに代わってメールを送受信できるようになりました。\n始めるには、アバターをタップしてメールタブに進むか、ミューズに尋ねてください。\nビデオ\n— https://x.com/Muse/status/2123602791356883032"
-        },
-        {
-          "title": "MetaのAIエージェント「Muse」に実装されている、Museが専用メールアドレスを所持できる機能が、無料ユーザーにも開放されました(Muse画面右下のメールアイコンからメアドゲット可)。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123602672825909248/img/byNxKTEVDkL-TCVC.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123624088543666602",
-          "domain": "x.com",
-          "published": "2026-11-20T12:46:52+09:00",
-          "published_label": "2026/11/20(金) 12:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■Muse from Meta",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2120656868683235328/KslHUuFd?format=jpg&name=144x144_2"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623657629208853",
-          "domain": "x.com",
-          "published": "2026-11-20T12:45:09+09:00",
-          "published_label": "2026/11/20(金) 12:45",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■メタのミューズ"
-        },
-        {
-          "title": "■引用元\nMuse (@Muse)\nBring your Muse along for the browse. Introducing the Muse extension for Chrome, available now ✨\nVideo\n— https://x.com/Muse/status/2123601795096481980",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123601760925470720/img/3CEoj5j4qpyfJ6pR.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623573399236720",
-          "domain": "x.com",
-          "published": "2026-11-20T12:44:49+09:00",
-          "published_label": "2026/11/20(金) 12:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nミューズ (@Muse)\n閲覧にはミューズをご持参ください。現在利用可能な Chrome 用 Muse 拡張機能のご紹介です✨\nビデオ\n— https://x.com/Muse/status/2123601795096481980"
-        },
-        {
-          "title": "MetaのAIエージェント「Muse」の公式Chrome拡張機能がリリースされています。\nChromeブラウザのサイドバーからMuseを直接利用できます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123601760925470720/img/3CEoj5j4qpyfJ6pR.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623546312368538",
-          "domain": "x.com",
-          "published": "2026-11-20T12:44:43+09:00",
-          "published_label": "2026/11/20(金) 12:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "日立製作所は、AIを用いた高度なサイバー攻撃に備えるため、OpenAI主導の重要インフラ向けサイバー防衛プログラムに参画し、先端AIでシステムの脆弱性を迅速に発見・対策すると発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123608771700408320/_zSKNotI?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623435473674286",
-          "domain": "x.com",
-          "published": "2026-11-20T12:44:16+09:00",
-          "published_label": "2026/11/20(金) 12:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Sakana AIは、日本の官公庁・自治体での利用を想定し、米セールスフォースのソフトウエアに自社のAIモデルを開発・実装するための覚書を締結したと発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123585313213952000/X2qLMLKD?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123623381115564247",
-          "domain": "x.com",
-          "published": "2026-11-20T12:44:03+09:00",
-          "published_label": "2026/11/20(金) 12:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 3.0
+      "elapsed": 3.5
     },
     {
       "id": "x_kimmonismus",
@@ -888,13 +886,126 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
-          "title": "The sheer silence from the scientific world, from Terence Tao to Anthropic to OpenAI, can only mean one thing: everyone is shocked by what just happened here. Everyone has been caught off guard and is checking the result.\nProbably no one wants to believe at first what happened here. And everyone is trying to process the proof.\nThere is also still no hint as to which Claude model was used to prove the Riemann Hypothesis.\nImagine it was just one person and Fable 5.2.\nChubby♨️ (@kimmonismus)\nHistory was made today. Humanity will look back on 2026 and think: this was the threshold we crossed, the moment the future changed for everyone, forever.\nPeople probably first sensed that something was shifting in late 2025 with Claude Code, when agentic AI became truly tangible for them. In the first half of 2026, things picked up speed. Model releases became more frequent, and everyone could feel the gaps between models and the improvements becoming more and more tangible. In the second half of 2026, however, there was a qualitative leap. It was no longer just the models getting better. It was the insights, the results, the outputs, the scientific solutions produced with AI that became more impressive, and today they have probably reached their absolute peak.\nOpenAI led the way and solved the Navier-Stokes problem, a Millennium Prize Problem that humans had failed to solve for a very, very long time. A few weeks later, they published results on more than 300 open mathematical problems, many of which had also gone unsolved for decades. The entire scientific world was stunned, frozen in shock. But today Anthropic went a step further. Levent Alpöge, working with Claude, has almost certainly proven the Riemann Hypothesis. This is, and it’s hard to put into words, incredible and unfathomable. Today, I would say, is the proof of superintelligence. One of the greatest mathematical problems, if not the greatest, unsolved for 167 years, the holy grail of mathematics and science, has fallen. And it follows, and this should be clear to everyone, that all other problems will fall too.\nWe know that the development of AI models keeps moving forward relentlessly, and that this is just one step on the path to ever better models. And if the Riemann Hypothesis has already been proven today, there is simply no telling what even better models will solve. Dario Amodei said that AI will in all likelihood cure diseases, perhaps even all diseases. And although these are two different scientific disciplines, the significance of these breakthroughs shows that this is becoming more and more likely. 2026 will go down in human history as a turning point, the moment the singularity became tangible. And 2027 will be the year the singularity breaks into reality with full force and full impact.\nI am in shock and excitement and I don't know what to think. But deep inside if feel joy.\nThis day is one of the best days ever for all of us.\n— https://x.com/kimmonismus/status/2123816008481939815",
+          "title": "Repost from Demis ❤️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXm-44_WgAAPRko.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123938593357898026",
+          "domain": "x.com",
+          "published": "2026-11-21T09:36:36+09:00",
+          "published_label": "2026/11/21(土) 09:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "デミスからの再投稿❤️"
+        },
+        {
+          "title": "Yes, Gemini 4 Neon is *that* good. I subscribed to Ultra tier.\nWell done @Google",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmu6U2bMAAsD-7.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123921122219708568",
+          "domain": "x.com",
+          "published": "2026-11-21T08:27:10+09:00",
+          "published_label": "2026/11/21(土) 08:27",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "はい、Gemini 4 Neon は *とても* 良いです。ウルトラティアに加入しました。\nよくやった@Google"
+        },
+        {
+          "title": "Trump and Xi agreed that they are now officially adding guardrails to AI/SI (whatever its called).\nNo further explanation what that actually means.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123839945127124992/img/Obfre3YpR4fdwGAG.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123913025023529118",
+          "domain": "x.com",
+          "published": "2026-11-21T07:55:00+09:00",
+          "published_label": "2026/11/21(土) 07:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "トランプ氏と習氏は、AI/SI（その名称が何であれ）に正式にガードレールを追加することに同意した。\nそれが実際に何を意味するかについては、これ以上の説明はありません。"
+        },
+        {
+          "title": "Equity is the most expensive money a founder will ever take.\nEarly on, it usually buys a few months of runway and costs you a piece of the company you never get back. So I pay attention when someone puts real capital on the table without asking for ownership.\n.tech domains set up the No Excuses Fund with up to $1M in equity-free funding for serious builders and founders who have already shipped something, pre-Series A. You keep your equity and you don't pay anything back.\nThere's one condition. Your build has to be live on a .tech domain by 15 December.\nIf \"I'll finish it once I have the money\" has been your excuse, it just got a lot weaker. Apply now at  (T&Cs apply).",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123802144990253056/ULCRkIWc?format=png&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123899195442835725",
+          "domain": "x.com",
+          "published": "2026-11-21T07:00:02+09:00",
+          "published_label": "2026/11/21(土) 07:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "株式は創業者が受け取る資金の中で最も高価です。\n初期段階では、通常、数か月分の滑走路を購入し、会社の一部を取り戻すことのできない費用がかかります。したがって、誰かが所有権を求めずに実際の資本をテーブルに置く場合には、私は注意を払います。\n.tech ドメインは、シリーズ A 以前にすでに何かを出荷した本格的なビルダーや創設者を対象に、エクイティフリーの資金で最大 100 万ドルを提供する No Excuses Fund を設立します。エクイティは保持され、何も返済されません。\n条件が1つあります。ビルドは 12 月 15 日までに .tech ドメイン上で公開される必要があります。\n「お金が貯まったら終わらせる」が言い訳だったとしたら、それはますます弱くなってしまいます。今すぐお申し込みください (利用規約が適用されます)。"
+        },
+        {
+          "title": "Ok, its getting interesting:\nSundar Pichai (@sundarpichai)\nSomewhere Euler, Gauss and Riemann in awe today!\n— https://x.com/sundarpichai/status/2123869629164786137",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXl_mlfaUAALGwZ.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123885062613856613",
+          "domain": "x.com",
+          "published": "2026-11-21T06:03:53+09:00",
+          "published_label": "2026/11/21(土) 06:03",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "わかりました、面白くなってきました:\nサンダー・ピチャイ (@sundarpichai)\n今日はどこかでオイラー、ガウス、リーマンに畏敬の念を抱いています。\n— https://x.com/sundarpichai/status/2123869629164786137"
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123034347091456000/aE8W9v_E?format=png&name=386x202"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123876083242357060",
+          "domain": "x.com",
+          "published": "2026-11-21T05:28:12+09:00",
+          "published_label": "2026/11/21(土) 05:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "I need to close X. im literally sitting on my laptop for hours now just trying to digest all the updates",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123846580730310928",
+          "link": "https://x.com/kimmonismus/status/2123875933849588076",
           "domain": "x.com",
-          "published": "2026-11-21T03:30:58+09:00",
-          "published_label": "2026/11/21(土) 03:30",
+          "published": "2026-11-21T05:27:36+09:00",
+          "published_label": "2026/11/21(土) 05:27",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -902,18 +1013,18 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "テレンス・タオからAnthropic、OpenAIに至るまで、科学界からの完全な沈黙が意味するのはただ1つだけだ。誰もが今ここで起こったことにショックを受けているということだ。みんな不意を突かれて結果を確認しています。\nおそらく、ここで起こったことを最初は信じたくない人はいないでしょう。そして誰もがその証拠を処理しようとしています。\nまた、リーマン仮説を証明するためにどのクロードモデルが使用されたのかについても、まだヒントがありません。\nそれがたった 1 人の人物と Fable 5.2 だったと想像してください。\nぽっちゃり♨️ (@kimmonismus)\n今日歴史が作られました。人類は 2026 年を振り返り、こう考えるでしょう。これは私たちが越えた敷居であり、すべての人の未来が永遠に変わった瞬間でした。\nおそらく人々が最初に何かの変化を感じたのは、エージェント AI が実際に実感できるようになった 2025 年後半の Claude Code でした。 2026 年前半、事態は加速しました。モデルのリリースがより頻繁になり、誰もがモデル間のギャップや改良点がより具体的に感じられるようになりました。しかし、2026 年後半には質的な飛躍が見られました。もはやモデルが改良されただけではありません。 AI によって生み出された洞察、結果、成果、科学的解決策がより印象的になり、今日それらはおそらく絶対的な頂点に達しました。\nOpenAI が先導し、人類が非常に長い間解決できなかったミレニアム賞問題であるナビエ・ストークス問題を解決しました。数週間後、彼らは 300 を超える未解決の数学的問題に関する結果を発表しました。"
+          "title_ja": "X を閉じる必要があります。今は文字通り何時間もラップトップに座って、すべてのアップデートを消化しようとしているだけです"
         },
         {
-          "title": "Bloomberg: \"After anthropics IPO the median employee is now worth $44m\"\nOpenAI:",
+          "title": "Looks like this insane day won't stop! A few hours ago Google DeepMind created a math horizon repo.\nDo we see some unsolved math problems solved by Gemini 4 Neon the same day Claude has proven the Riemann Hypothesis?\nWhat a day! It just won't stop!",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXj4OXNbQAA-UQV.jpg?name=small"
+            "https://pbs.twimg.com/media/HXmFcclaMAAWxFj.jpg?name=small"
           ],
-          "link": "https://x.com/kimmonismus/status/2123838283381719226",
+          "link": "https://x.com/kimmonismus/status/2123875710272233884",
           "domain": "x.com",
-          "published": "2026-11-21T02:58:00+09:00",
-          "published_label": "2026/11/21(土) 02:58",
+          "published": "2026-11-21T05:26:43+09:00",
+          "published_label": "2026/11/21(土) 05:26",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -921,18 +1032,20 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "ブルームバーグ：「人類学のIPO後、従業員の価値の中央値は4,400万ドルになった」\nオープンAI:"
+          "title_ja": "この狂気の日々は止まらないようだ！数時間前、Google DeepMind は Math Horizo​​n リポジトリを作成しました。\nクロードがリーマン予想を証明したのと同じ日に、ジェミニ 4 ネオンによって未解決の数学の問題が解決されるのを目にするでしょうか?\nなんて日だろう！止まらないよ！"
         },
         {
-          "title": "I've tried it myself, and the accents surprised me most. They sound a lot more natural than I expected.\nHonestly, phone calls are the chore I'd most happily hand to an agent. Your first call is $1:",
+          "title": "This is such a cool release: Thinking Machines released Inkling 2 Mini, an open-weights model small enough to run on your laptop.\nIt's a looped transformer. The middle layers run three times per token, so it reasons more internally and needs fewer tokens to get there.\n- 26.4B params (3.4B active), ~20GB memory\n- 48.2% on DeepSWE v1.1, the best of any open model under 100B, according to Thinking Machines\nNgl, @miramurati and team are building super impressive small open weight models. I love it!\nThinking Machines (@thinkymachines)\nSome of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\n— https://x.com/thinkymachines/status/2123871643797995872",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122749119114694656/S-3PfxPo?format=jpg&name=800x419"
+            "https://pbs.twimg.com/media/HXmEq1dbAAAzmBN.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmEr3caIAAV0A-.jpg?name=small",
+            "https://pbs.twimg.com/card_img/2123870055498940416/GIja54ZR?format=png&name=800x419"
           ],
-          "link": "https://x.com/kimmonismus/status/2123828810688946434",
+          "link": "https://x.com/kimmonismus/status/2123874600761303296",
           "domain": "x.com",
-          "published": "2026-11-21T02:20:21+09:00",
-          "published_label": "2026/11/21(土) 02:20",
+          "published": "2026-11-21T05:22:19+09:00",
+          "published_label": "2026/11/21(土) 05:22",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -940,16 +1053,16 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "私も試してみましたが、一番驚いたのはアクセントです。思ったよりずっと自然に聞こえます。\n正直に言うと、私がエージェントに最も喜んで任せたい業務は電話です。最初の通話は 1 ドルです。"
+          "title_ja": "これはとても素晴らしいリリースです。Thinking Machines は、ラップトップで実行できるほど小さいオープンウェイト モデルである Inkling 2 Mini をリリースしました。\nループトランスです。中間層はトークンごとに 3 回実行されるため、より内部的に推論され、そこに到達するために必要なトークンが少なくなります。\n- 26.4B パラメータ (3.4B アクティブ)、~20GB メモリ\n- DeepSWE v1.1 で 48.2%、Thinking Machines によると、100B 未満のオープン モデルの中で最高\nNgl、@mira Murati とチームは、非常に印象的な小型のオープンウェイト モデルを構築しています。大好きです！\n思考機械 (@thinkymachines)\nInkling 2 Small は 594B パラメーターでは大きすぎると考えた方もいるでしょう。 Inkling 2 Mini は、わずか 26B パラメータを備えたループ トランスフォーマーであり、ラップトップで実行できるほど小型で、AA インデックスのスコアが 20.1 でエージェント作業に十分強力です。\n— https://x.com/thinkymachines/status/2123871643797995872"
         },
         {
-          "title": "The part I find most useful is the handoff. Banks often insist on talking to you for a PIN or a confirmation. JooVoice transfers the call to you, and once you hang up, the agent takes over again.",
+          "title": "bring back Jensen Huang!",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123828799058198622",
+          "link": "https://x.com/kimmonismus/status/2123871150954725612",
           "domain": "x.com",
-          "published": "2026-11-21T02:20:19+09:00",
-          "published_label": "2026/11/21(土) 02:20",
+          "published": "2026-11-21T05:08:36+09:00",
+          "published_label": "2026/11/21(土) 05:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -957,18 +1070,18 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "私が最も便利だと思う部分はハンドオフです。銀行は、PIN や確認を求めるためにあなたに話しかけることを要求することがよくあります。 JooVoice が通話をあなたに転送し、電話を切ると、エージェントが再び引き継ぎます。"
+          "title_ja": "ジェンセン・ファンを連れ戻せ！"
         },
         {
-          "title": "Grok, Muse, Dots and Hermes can now make international phone calls for you.\n@JooVoice handles the call in 80+ languages, to 67 countries. The video shows three of them, in Japanese, German and Mandarin.\nEvery voice you hear came out of JooVoice's own call engine.",
+          "title": "President Trump is urging Nvidia to reinstate Jensen Huang as CEO, saying he should “make a big apology and go back” and that the company would be smart to give “that brilliant man” a second chance.",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123828721912254464/img/horjY8vd2Sla4Emj.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2123845363136393216/img/usjaZrx8irFV6e3H.jpg?name=small"
           ],
-          "link": "https://x.com/kimmonismus/status/2123828775066722759",
+          "link": "https://x.com/kimmonismus/status/2123866971515293984",
           "domain": "x.com",
-          "published": "2026-11-21T02:20:13+09:00",
-          "published_label": "2026/11/21(土) 02:20",
+          "published": "2026-11-21T04:52:00+09:00",
+          "published_label": "2026/11/21(土) 04:52",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -976,16 +1089,35 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "Grok、Muse、Dots、Hermes が国際電話をかけることができるようになりました。\n@JooVoice は、80 以上の言語で 67 か国への通話を処理します。ビデオには、日本語、ドイツ語、中国語でそのうちの 3 つが表示されています。\nあなたが聞くすべての音声は、JooVoice 独自の通話エンジンからのものです。"
+          "title_ja": "トランプ大統領はエヌビディアに対し、ジェンスン・フアン氏をCEOに復帰させるよう促し、同氏は「大いに謝罪して復帰」すべきであり、同社は「あの優秀な人物」に二度目のチャンスを与えるのが賢明であると述べた。"
         },
         {
-          "title": "Today @sama . And it was Anthropic.\nSam Altman (@sama)\nriemann hypothesis wen\n— https://x.com/sama/status/1488952117377126401",
+          "title": "And of course, ill deep dive into this in my newsletter the coming days",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2120269388976889856/8AkCJ1E6?format=png&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2123860614343000435",
+          "domain": "x.com",
+          "published": "2026-11-21T04:26:44+09:00",
+          "published_label": "2026/11/21(土) 04:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "そしてもちろん、これについては数日後のニュースレターで詳しく説明します"
+        },
+        {
+          "title": "AI was a bit faster than humans. A researcher was about the prove the GRH completely without AI:",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123818071362318409",
+          "link": "https://x.com/kimmonismus/status/2123855573825601953",
           "domain": "x.com",
-          "published": "2026-11-21T01:37:41+09:00",
-          "published_label": "2026/11/21(土) 01:37",
+          "published": "2026-11-21T04:06:42+09:00",
+          "published_label": "2026/11/21(土) 04:06",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -993,16 +1125,16 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "今日は @様 。そしてそれは人類的でした。\nサム・アルトマン (@sama)\nリーマン予想ウェン\n— https://x.com/sama/status/1488952117377126401"
+          "title_ja": "AIは人間よりも少しだけ速かったです。ある研究者は、AI をまったく使用せずに GRH を証明しようとしていました。"
         },
         {
-          "title": "(written without AI just used ai to translate. Sad I have to say this but im worried that it will be flagged as AI otherwise. Im usually writing in German and use AI to translate)",
+          "title": "First one:\nEliezer Yudkowsky (@allTheYud)\nThe Riemann Hypothesis has fallen. RH was the singular math result that had been named, in advance, as the obvious coal mine canary for dangerously advanced AI, over the last three decades. The methods used should generalize to \"make AI very good at anything you can definitely test\", and unfortunately that category includes \"make AI better at making AI\".\nThis is like a private company announcing they have produced a million tons of 15% enriched uranium. It's not 90% enriched weapons-grade uranium, so you could proclaim the company's output is not immediately deadly right now. The concern is that the process line may generalize, to an extinction-level threat, within the unpredictably immediate future. Forecasters still had Riemann at 2035 one week earlier.\nThis is distinct from earlier events in that earlier you could reasonably ask if AI was selectively picking off famous math problems that turned out to be easier for AI. The Riemann Hypothesis was the single challenge most often named in advance as a warning sign.\n— https://x.com/allTheYud/status/2123843874796023936",
           "summary": "",
           "images": [],
-          "link": "https://x.com/kimmonismus/status/2123816718745338361",
+          "link": "https://x.com/kimmonismus/status/2123849260987015544",
           "domain": "x.com",
-          "published": "2026-11-21T01:32:19+09:00",
-          "published_label": "2026/11/21(土) 01:32",
+          "published": "2026-11-21T03:41:37+09:00",
+          "published_label": "2026/11/21(土) 03:41",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1010,143 +1142,10 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "(AI を使用せずに書かれたものは、翻訳に AI を使用しただけです。これを言わなければならないのは悲しいですが、そうしないと AI としてフラグが立てられるのではないかと心配しています。私は通常ドイツ語で書いており、翻訳に AI を使用しています)"
-        },
-        {
-          "title": "This is absolutely huge news, and if indeed @__alpoge__ have solved this, it’s a nobel prize for sure. This is absolutely incredible times to be alive.\nThe nexus of driver for all future growth most likely will be technology itself.\nunbelievable times ahead\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
-          ],
-          "link": "https://x.com/LinusEkenstam/status/2123799342762831894",
-          "domain": "x.com",
-          "published": "2026-11-21T00:23:16+09:00",
-          "published_label": "2026/11/21(土) 00:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "これは本当に大きなニュースであり、実際に @__alpoge__ がこれを解決したとしたら、それは間違いなくノーベル賞です。今は生きているのに本当に信じられない時代です。\n将来のすべての成長の原動力となるのは、テクノロジーそのものである可能性が最も高いでしょう。\n信じられないほどの時代が来る\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
-        },
-        {
-          "title": "Scientific American confirms:",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123782591237001216/e3ceWwl8?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123798736321364384",
-          "domain": "x.com",
-          "published": "2026-11-21T00:20:51+09:00",
-          "published_label": "2026/11/21(土) 00:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "サイエンティフィック・アメリカンは次のように認めています。"
-        },
-        {
-          "title": "Another reliable source, this time from \"Scientific American\". It looks like that in fact it true.\nThe Riemann Hypothesis has been proven.\nAnd Anthropic did it. Just one day after their IPO.\nIm in shock.\nHistory has been made today. Superintelligence is here.\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk-8BnbIAAkSeN.jpg?name=small",
-            "https://pbs.twimg.com/media/HXk_adzbkAA55j2.png?name=small",
-            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123798581710897659",
-          "domain": "x.com",
-          "published": "2026-11-21T00:20:14+09:00",
-          "published_label": "2026/11/21(土) 00:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "もう一つの信頼できる情報源、今回は「Scientific American」からのものです。そのように見えますが、実際それは本当です。\nリーマン予想は証明されました。\nそしてアントロピックはそれを実現した。 IPOからわずか1日後。\nショックを受けています。\n今日歴史が作られました。スーパーインテリジェンスがここにあります。\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
-        },
-        {
-          "title": "Another source:\nScientific American (@sciam)\nBREAKING: A mathematician at Anthropic claims to have used the company's AI to solve the Riemann hypothesis, the most notorious open problem in all of math\n— https://x.com/sciam/status/2123782587235655707",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123782591237001216/e3ceWwl8?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123797664567603364",
-          "domain": "x.com",
-          "published": "2026-11-21T00:16:36+09:00",
-          "published_label": "2026/11/21(土) 00:16",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "別の情報源:\nサイエンティフィック アメリカン (@sciam)\n速報: Anthropic 社の数学者は、数学界で最も悪名高い未解決問題であるリーマン予想を解くために同社の AI を使用したと主張\n— https://x.com/sciam/status/2123782587235655707"
-        },
-        {
-          "title": "Again: SOURCE:\nAll credits obv to @__alpoge__",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123797276464382180",
-          "domain": "x.com",
-          "published": "2026-11-21T00:15:03+09:00",
-          "published_label": "2026/11/21(土) 00:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "もう一度: 出典:\nすべてのクレジットは @__alpoge__ に帰属します"
-        },
-        {
-          "title": "If it turns out to be true and the Riemann Hypothesis really has been proven, then today history has been made. I am in shock.\nBut even more interesting is how fast it was solved and how much Claude did:\nThe first steps date to October 6. Then 8 of the 20 steps land on a single day, November 15, and the last entry on November 16 just says \"GRH. (Generalized Riemann Hypothesis)\"\nHe admits he has little mastery of one area the proof depends on (automorphic forms on higher rank groups) and credits Claude's technical skill for those parts. A written-out version ran past 250,000 pages, so he only released the Lean code.\nSo it actually needed one mathematician, one model, six weeks.\nI expect official statement from Anthropic and Alpöge today.\nChubby♨️ (@kimmonismus)\nOh my god: Anthropic mathematician Levent Alpöge (@__alpoge__) says he has proven the Riemann Hypothesis, open for 167 years.\n\"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis.\"\nHe says the method also covers the Generalized Riemann Hypothesis. The proof is out as Lean code (a proof language where a computer checks every step), so experts should be able to check it quickly, Scientific American reports.\nSame Alpöge who was behind this year's Jacobian conjecture result and the Navier-Stokes work with Tristan Buckmaster.\nI assume we will get an official statement very soon from him!!\n— https://x.com/kimmonismus/status/2123791432800698792",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk9eW2aEAA5hb7.jpg?name=small",
-            "https://pbs.twimg.com/media/HXk9fOTbEAEwwgI.jpg?name=small",
-            "https://pbs.twimg.com/media/HXk4_EIbcAAa954.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123796564485530085",
-          "domain": "x.com",
-          "published": "2026-11-21T00:12:13+09:00",
-          "published_label": "2026/11/21(土) 00:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "それが真実であることが判明し、リーマン予想が本当に証明された場合、今日歴史が作られたことになります。私はショックを受けています。\nしかし、さらに興味深いのは、それがどれだけ早く解決されたか、そしてクロードがどれだけのことをしたかということです。\n最初のステップの日付は 10 月 6 日です。その後、20 ステップのうち 8 ステップが 11 月 15 日の 1 日に着地し、11 月 16 日の最後のエントリには「GRH. (一般化リーマン仮説)」とだけ書かれています。\n彼は、証明が依存する 1 つの領域 (上位群の保型形式) についてはほとんど習得できていないことを認め、それらの部分についてはクロードの技術的スキルのおかげであると認めています。書き上げたバージョンは 250,000 ページを超えたため、彼はリーン コードのみをリリースしました。\nしたがって、実際には 1 人の数学者、1 人のモデル、6 週間が必要でした。\n今日、Anthropic と Alpöge からの公式声明が発表されることを期待しています。\nぽっちゃり♨️ (@kimmonismus)\nなんと、人類数学者の Levent Alpöge (@__alpoge__) は、167 年間オープンしていたリーマン予想を証明したと述べています。\n「クロードと協力して、リーマン予想の証明を発見したと信じています。」\n同氏によれば、この手法は一般化リーマン仮説もカバーしているという。証明はリーンコード（コンピュータがすべてのステップをチェックする証明言語）として公開されているため、専門家はすぐにチェックできるはずだとサイエンティフィック・アメリカンは報じている。\n今年のヤコビアン予想の結果とナビエ・ストークスのトリスタン・バックマスターとの共同研究の背後にいたのと同じアルポージです。\n近いうちに彼から正式な声明がもらえると思います!!\n— https://x.com/kimmonismus/status/2123791432800698792"
-        },
-        {
-          "title": "please give him a follow :)",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123792255140110813",
-          "domain": "x.com",
-          "published": "2026-11-20T23:55:06+09:00",
-          "published_label": "2026/11/20(金) 23:55",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "彼をフォローしてください:)"
+          "title_ja": "最初の 1 つ:\nエリーザー・ユドコウスキー (@allTheYud)\nリーマン予想は崩れました。 RH は、過去 30 年間にわたり、危険なほど高度な AI の明らかな炭鉱のカナリアとして事前に指定されていた特異な数学結果でした。使用される手法は一般的に「確実にテストできるあらゆる点で AI を非常に得意にする」ものである必要がありますが、残念ながらそのカテゴリには「AI をより優れた AI にする」が含まれます。\nこれは民間企業が15％濃縮ウランを100万トン生産したと発表するようなものだ。これは90％濃縮された兵器級ウランではないため、同社の生産物は現時点では即死的ではないと宣言することもできるだろう。懸念されるのは、プロセスラインが予測不可能な近い将来に絶滅レベルの脅威にまで一般化する可能性があることだ。予報官らはまだ 1 週間前の 2035 年のリーマン予想を持っていました。\nこれは、AI にとって簡単であることが判明した有名な数学の問題を AI が選択的に選択しているかどうかを以前は合理的に尋ねることができたという点で、これまでの出来事とは異なります。リーマン予想は、警告サインとして事前に名前が付けられることが最も多かった単一の課題でした。\n— https://x.com/allTheYud/status/2123843874796023936"
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 5.5
     },
     {
       "id": "x_haider1",
@@ -1178,6 +1177,61 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "what a historic moment to witness\nsince august 2026, all six remaining millennium prize problems have seen claimed breakthroughs or related mathematical advances of some kind\nopenai proposed a full navier–stokes solution while anthropic claimed proofs for the riemann hypothesis and navier–stokes",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXltN0kbEAAlud7.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123931899500634445",
+          "domain": "x.com",
+          "published": "2026-11-21T09:10:00+09:00",
+          "published_label": "2026/11/21(土) 09:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "なんと歴史的な瞬間を目撃できることでしょう\n2026 年 8 月以降、ミレニアム賞の残り 6 つの問題すべてで、ブレークスルーまたは関連する何らかの数学的進歩が主張されています。\nopenai は完全なナビエ・ストークス解を提案したが、人類はリーマン予想とナビエ・ストークスの証明を主張した"
+        },
+        {
+          "title": "if someone had told me at the beginning of the year that in 2026 AI would produce math results on\nnavier-stokes, unique games, PTH, yang-mills existence and the riemann hypothesis all while we're still debating whether these LLMs are stochastic parrots\ni wouldn't have believed it",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2123891633959887229",
+          "domain": "x.com",
+          "published": "2026-11-21T06:30:00+09:00",
+          "published_label": "2026/11/21(土) 06:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "もし誰かが年の初めに、2026 年には AI が数学的な結果を生み出すだろうと私に言っていたら\nナビエ・ストークス、ユニークなゲーム、PTH、ヤン・ミルズの存在、リーマン仮説など、これらの LLM が確率論的なオウムであるかどうかについてはまだ議論中です。\n信じられなかっただろう"
+        },
+        {
+          "title": "Levent Alpöge is a freak... look at his math breakthroughs since july:\ndisproved the 3d jacobian conjecture\ndiscovered new hadamard matrices including order 668\nproved 3d euler blow-up with buckmaster\ndisproved the carathéodory conjecture\nset elliptic curve rank records (30 and 31) with ava howell\nclaimed to solve hopf's problem by proving s⁶ has a complex structure\npresented a proof of unforced 3d navier-stokes blow-up with buckmaster\nclaimed a proof of the riemann hypothesis",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXlp-oFaQAA7qvU.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123848852297904564",
+          "domain": "x.com",
+          "published": "2026-11-21T03:40:00+09:00",
+          "published_label": "2026/11/21(土) 03:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Levent Alpöge は異常者です... 7 月以来の彼の数学的進歩を見てください:\n3次元ヤコビアン予想は反証されました\n次数 668 を含む新しいアダマール行列を発見\nバックマスターで3Dオイラー爆発を証明\nカラテオドリ予想を反証した\nava howell で楕円曲線のランク記録 (30 と 31) を設定する\ns⁶が複雑な構造を持っていることを証明することでhopfの問題を解決すると主張\nバックマスターによる強制的な3Dナビエ・ストークスの爆破の証拠を提示した\nリーマン予想の証明を主張した"
+        },
+        {
           "title": "holy fucking shit\nLevent Alpöge released the Lean code for his claimed proof of the Riemann Hypothesis without releasing a human-readable paper because the write-up is over 250,000 pages long\nYifan Zhang @ NeurIPS (@yifanzhang_)\nJUST IN: Riemann Hypothesis has been solved.\n— https://x.com/yifanzhang_/status/2123789252756414577",
           "summary": "",
           "images": [
@@ -1193,7 +1247,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
         },
         {
@@ -1213,7 +1267,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
         },
         {
@@ -1232,7 +1286,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "実際のところ、6.2のアストラとソルの憎しみがまだ理解できません\n批判を受け入れるとしても、6.2 astra と sol のコスト上の利点は非常に大きいため、機能を割り引いてもどちらもパレートの境界線に留まります。\n彼らはAAのインテリジェンスとコストのグラフを新たな領域に押し上げた"
         },
         {
@@ -1249,7 +1303,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Gemini 4 世代で何が起こったのかについての私の理解は次のとおりです。\nアルゴンは、新しいアーキテクチャで発売された最初のモデルです。\nカーボンはアルゴンのベースのより大きなバージョンを使用します。\n水素は、より効率的で高性能な新しいベースを使用します。\nネオンは水素の塩基のより大きなバージョンを使用します。\nだからこそ、ネオンは低コストでカーボンに勝てるのです"
         },
         {
@@ -1379,62 +1433,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "anthropic が、fable 5.5 がリリースされるまでの 1 週間の代役としてだけのつもりなら、先週、あんなにリセットされた fable 5.2 をリリースするとは思わない\n次に opus 5.6 がリリースされる可能性が高く、ECI が 175 を超える可能性がありますが、それはおそらくまだ数週間先です。"
-        },
-        {
-          "title": "are we getting another release already?\ngoogle deepmind employee who works on imagen and veo models posted \"gemini\" which means something might be coming today as well\ncould be nano banana pro 2 which was deployed on google cloud a few days ago\nAgoston Weisz (@AgostonWeisz)\nGemini\n— https://x.com/AgostonWeisz/status/2123267910537986138",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXfDp3ibwAASfi2.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123380882782277895",
-          "domain": "x.com",
-          "published": "2026-11-19T20:40:27+09:00",
-          "published_label": "2026/11/19(木) 20:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "すでに別のリリースが行われていますか?\nimagen と veo モデルを担当する Google Deepmind の従業員が「gemini」を投稿しました。これは、今日も何かが起こる可能性があることを意味します\n数日前に Google Cloud にデプロイされた nano Banana Pro 2 である可能性があります\nアゴストン・ワイズ (@AgostonWeisz)\nジェミニ\n— https://x.com/AgostonWeisz/status/2123267910537986138"
-        },
-        {
-          "title": "this is beyond anything i expected\nGPT-6.2 Astra independently found a new way to prove a 20-year-old mathematical theorem in just 94 minutes while bypassing three major results the original proof relied on\nthe 1794-line proof was formally verified with no human intervention during the run\nVals AI (@ValsAI)\nGPT-6.2 Astra just produced what we believe is the first Lean proof of Smoktunowicz’s Gap Theorem, and it found its own route to get there.\nIt happened on Autoform-Hard, a verified subset of Meta FAIR’s AutoformBench that we’re releasing results on today.\n— https://x.com/ValsAI/status/2123129588066959380",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXec4XyaMAAFKWC.jpg?name=small",
-            "https://pbs.twimg.com/media/HXbeZOobcAAtGdr.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123338257333399884",
-          "domain": "x.com",
-          "published": "2026-11-19T17:51:04+09:00",
-          "published_label": "2026/11/19(木) 17:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "これは私が予想していたものを超えています\nGPT-6.2 Astra は、元の証明が依存していた 3 つの主要な結果を回避しながら、わずか 94 分で 20 年前の数学定理を証明する新しい方法を独自に発見しました。\n1794 行の証明は実行中に人間の介入なしに正式に検証されました\nヴァルスAI (@ValsAI)\nGPT-6.2 Astra は、Smoktunowicz のギャップ定理の最初のリーン証明であると思われるものを生成し、そこに到達するための独自のルートを見つけました。\nこれは、今日結果を発表する Meta FAIR の AutoformBench の検証済みサブセットである Autoform-Hard で発生しました。\n— https://x.com/ValsAI/status/2123129588066959380"
-        },
-        {
-          "title": "i think google still has a few more models to release before its lineup is complete\nhaiku, sonnet, opus, fable — makes sense\nluna, terra, sol, astra — makes even more sense\nneon, hydrogen, carbon, argon — ??\nso google is either missing a haiku-class model or a fable-class model",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2123295232355922337",
-          "domain": "x.com",
-          "published": "2026-11-19T15:00:06+09:00",
-          "published_label": "2026/11/19(木) 15:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Googleはラインナップが完成するまでに、まだいくつかのモデルをリリースする必要があると思う\n俳句、ソネット、作品、寓話 — 理にかなっています\nルナ、テラ、ソル、アストラ — さらに理にかなっています\nネオン、水素、炭素、アルゴン — ??\nつまり Google には俳句クラスのモデルか寓話クラスのモデルが欠けています"
         }
       ],
       "elapsed": 0.6
@@ -1467,6 +1465,203 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         },
         {
+          "title": "Spaces are finally rolling out to ChatGPT Plus users!\nThis release also comes with performance, reliability and design improvements.\nChatGPT users can now also edit spaces from their mobile apps.\nChatGPT (@ChatGPT)\nPlus users, welcome to Space 🪐\nCollaborate with others alongside ChatGPT to create interactive pages, slides, and sites. And bonus: ChatGPT can keep them updated for you.\nYou can now edit on mobile, and we’ve made Space smoother and more reliable.\nA quick guide to getting started ⤵️\nVideo\nVideo\nVideo\nVideo\n— https://x.com/ChatGPT/status/2123850912867471807",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXm_FsyWYAAyCyp.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123841966643576832/img/9zM68CoiEGaocf5d.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123842057039147008/img/3m8qxtx-DswfARSh.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123842652596768768/img/BbCMFXEW0bXGLfLD.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123938809113137280",
+          "domain": "x.com",
+          "published": "2026-11-21T09:37:27+09:00",
+          "published_label": "2026/11/21(土) 09:37",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "スペースがついに ChatGPT Plus ユーザーに展開されます。\nこのリリースでは、パフォーマンス、信頼性、設計も改善されています。\nChatGPT ユーザーは、モバイル アプリからスペースを編集できるようになりました。\nチャットGPT (@ChatGPT)\nPlus ユーザーの皆様、Space へようこそ 🪐\nChatGPT を使用して他のユーザーと共同作業して、インタラクティブなページ、スライド、サイトを作成します。さらに、ChatGPT では最新の状態を維持できます。\nモバイルでも編集できるようになり、Space がよりスムーズかつ信頼性の高いものになりました。\n始めるためのクイックガイド ⤵️\nビデオ\nビデオ\nビデオ\nビデオ\n— https://x.com/ChatGPT/status/2123850912867471807"
+        },
+        {
+          "title": "Google recently announced Loop, its new self-improving AI agent that can autonomously work toward a given goal.\nLoop is internally called Jitro; interestingly, that was the exact name for Jules v2.\nHere is how it works 👀\n1. Users start creating a Workspace by connecting it to a selected Github project and adding basic information.\n2. Users can create loops manually or select ones that are already predefined (ex., Harden Application Security)\n\"Custom Loops\" can be created via a prompt or by manually filling in the Loop title, icon, and objective.\n> \"Loops are mid- to long-term objectives for Stitch Loop to continuously work toward. They can range from highly specific to broad, but should always be something code can achieve,\" says the description.\n3. Users can connect additional context in the form of Integrations, Files, Links, or additional repositories.\nMore than 100 integrations are available there, including services like Jira, Linear, Datadog, Sentry, Notion, Snowflake, Salesforce, Intercom, Discord, Slack, Figma, and many others.\nCustom MCPs are supported as well.\n4. After creating a workspace, Loop will start digging into your project details and generate its own Skills about the product and product metrics.\nThese Skills will live in a separate tab and can be edited in the UI in Markdown.\n5. When the Workspace is ready, Loop will suggest metrics and goals based on its own research. Users can convert these suggestions into loops right away.\nWhen a Loop is created, it appears as a running process in the main UI.\n6. When a Loop is finished, users will see a list of suggestions for every loop, along with a number associated with a target metric and progress status.\nExample Loop:\n- Goal - Scale Telegram community contributions.\n- KPIs - community members, registered contributors, active members.\nA high-level goal would be broken down into sub-KPIs. When users open a dedicated Loop page, all these KPIs will be visible on the dashboard.\nBelow, Users will see a list of Tasks, Skills, and Activity tabs.\nExample Task:\n- Telegram channel lacks discussion threads and a dedicated bot.\nEach task has a detailed description, labels, and the date when it was updated. Below, users will see tabs for Solutions, Activity, and Evidence.\nActivity appears as a summary describing what happened, what was done, and the general Timeline.\nEvidence contains links to where Loop pulled the context behind this Task. In my example case, it refers to the TestingCatalog website and the Telegram channel from which it pulled all the numbers.\nExample Solution:\n- Dedicated Telegram Bot API intake bot with editorial triage webhook (implementation task).\nThis task is an implementation task that has a clear description, Impact, scope, and Risk labeled.\nUsers can start the task right from this page to begin solution development via Gemini.\nWhen the task is done, users can review its progress and status and monitor its impact on production by pulling updated metrics and KPIs after the release.\nWhat does all this mean? 🤯\nLoop follows how \"Product work\" is done at Google, a model many other companies also use.\nEvery Workspace in Loop is equivalent to a scope that is normally handled by a complete product engineering team.\nIt is no longer a place where users play the role of engineering lead and product lead, orchestrating AI agents.\nIt is a place where the user plays the role of a senior manager managing several engineering teams, which is a big shift on its own.\nWe are slowly moving towards autonomous AI organizations. One management layer at a time.\nI expect it will still take until 2027 for labs to develop the products and models needed to make substantial progress in this area (assuming AI continues to advance in a semi-regulated format as it is now).\nMonitoring 🍿",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123931784769323008/img/hxBTw7-O7FZMQkvU.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123932281693724890",
+          "domain": "x.com",
+          "published": "2026-11-21T09:11:31+09:00",
+          "published_label": "2026/11/21(土) 09:11",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Googleは最近、与えられた目標に向かって自律的に作業できる新しい自己改善型AIエージェントであるLoopを発表した。\nループは内部的には Jitro と呼ばれています。興味深いことに、これは Jules v2 の正確な名前でした。\n仕組みは次のとおりです 👀\n1. ユーザーは、選択した Github プロジェクトに接続し、基本情報を追加することで、ワークスペースの作成を開始します。\n2. ユーザーはループを手動で作成することも、事前に定義されているループを選択することもできます (例: アプリケーション セキュリティの強化)\n「カスタム ループ」は、プロンプトを介して、またはループのタイトル、アイコン、および目的を手動で入力することによって作成できます。\n> 「ループは、Stitch Loop が継続的に取り組むべき中長期的な目標です。それらは非常に具体的なものから広範なものまで多岐にわたりますが、常にコードで達成できるものでなければなりません。」と説明には書かれています。\n3. ユーザーは、統合、ファイル、リンク、または追加のリポジトリの形式で追加のコンテキストに接続できます。\nそこでは、Jira、Linear、Datadog、Sentry、Notion、Snowflake、Salesforce、Intercom、Discord、Slack、Figma などのサービスを含む 100 以上の統合が利用可能です。\nカスタム MCP もサポートされています。\n4. ワークスペースを作成した後、Loop はプロジェクトの詳細を調べ始め、製品と製品メトリクスに関する独自のスキルを生成します。\nこれらのスキルは別のタブに表示され、Markdown の UI で編集できます。\n5. ワークスペースの準備が完了すると、Loop は独自の調査に基づいて指標と目標を提案します。ユーザーはこれらの提案をすぐにループに変換できます。\nループが作成されると、"
+        },
+        {
+          "title": "Documented 🗞️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123932348207263744/RvtG36pH?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123932284294459861",
+          "domain": "x.com",
+          "published": "2026-11-21T09:11:31+09:00",
+          "published_label": "2026/11/21(土) 09:11",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "文書化されました 🗞️"
+        },
+        {
+          "title": "ClickUp has shipped a major release that turns it into an \"everything app\", where users can ask Brain to build any tool they're missing.\n> Personal Software - allows users to build custom tools with Brain² AI. Users can describe an app, dashboard, or report, and Brain² would build it based on their ClickUp data.\n> Creative Studio (beta) - users can generate video clips, images, and sound from a prompt, then edit them on a timeline inside ClickUp.\n> AI Workflows (beta) - lets users customize how AI runs each step of a task, with built-in approvals.\n> ClickUp Labs - a free early-access program where users can toggle new features on and off.\nThere is a lot to test 👀\nVideo\nZeb Evans (@DJ_CURFEW)\nSoftware is converging, we always knew it would.\nEveryone told us to do ONE thing and do it well. Many still say it's ridiculous, impossible, stupid.\nBUT NOW IT'S UTTERLY OBVIOUS.\nThis is the only future in software, whether ClickUp does it or not. Even the software giants are already moving toward this new world order.\nI wholeheartedly believe that the only way to peak productivity is one platform that does everything, carries 100% of context, and enables everyone to become 100X.\nAnd it's only possible with AI.\nAI DOESN'T KILL SOFTWARE. IT CREATES MORE OF IT, AND CONVERGES IT.\nIf AI makes software dramatically easier to build, software companies will build MORE software. Not less. Right?\nThe company that built a tool for you will now build more tools. This will never stop.\nCategories blur. Competition increases. Features that once justified an entire company become a small feature addition to an existing platform.\nOver a given period of time, this is how it will end: Several massive companies that provide ALL software and ALL AI to their customers.\nBut building more is only HALF the story.\nAI needs to understand your context.\nAnd it needs somewhere to actually DO the work.\nThat's why AI and productivity software are converging too.\nHumans and agents need a shared place to communicate, make decisions, and get things done.\nONE APP TO REPLACE THEM ALL\nA behemoth horizontal platform, infinitely flexible, delivering all core software needs, built with common components, primitives, and services that enable mega solutions and compound speed in delivery of software.\nTHE ERA OF PERSONAL SOFTWARE\nTo build the everything app and actually work for everyone seamlessly, we rebuilt the application layers around the concept real-time personalization based on what you want, and what you don't want.\nPersonal Software adapts in real-time to what matters to you... how YOU work, entirely PERSONALIZED.\nYou shouldn't have to become a software company just to run your company.\nBut you should be able to build anything that your creativity can dream of, and that your workflows require.\nThe same boundaries disappearing between software categories are disappearing inside our team.\nTHE 100X STRATEGY IS WORKING\nSince my last post, we shipped more PRs every single week, compounding in growth and these PRs aren't slop - much of this is systems that literally fixed thousands of bugs and constantly optimizes performance.\nWe now have SIX 100x builders in seats we call Artisans. 10x frontend engineers becoming 10x backend engineers - and skilled enough to do the product work.\nToday's EPIC release was built ENTIRELY by our 100x builders. The video below shows what that actually looks like.\nAnd this isn't just about shipping new things faster.\nIt's about making the things you already use dramatically better.\nWe've spent the last few months building LARGE-SCALE SYSTEMS and LOOPS that enable us to build with high quality at lightning speed. This was the mandate BEFORE we built more on the platform.\nIn September, our user generated metrics for quality hit all-time highs, now 90% of ClickUp customers are happy with quality and performance.\nAnd in a production comparison this week across millions of sessions, ClickUp now loads 40% faster.\nBreadth is NOT an excuse for mediocrity in this next era of ClickUp. If we're going to replace your tools, we have to earn it.\nI fully understand that we just weren't there yet for the last mile of use cases.\nBut now, if you get blocked on anything you want, you can simply tell Brain to build it.\nIn our early days, we made shipping every week part of who we were.\nTODAY'S EPIC RELEASE IS OUR REBIRTH.\nWe're back. Except now, we're shipping improvements EVERY SINGLE DAY.\nI started ClickUp because nearly losing my life made me obsess about the very limited time we have on this planet.\nThe goal is to enable creativity, and freedom in how you spend your time.\nEPIC productivity.\n💜\nVideo\n— https://x.com/DJ_CURFEW/status/2123805481357758681",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123928515779153920/img/q6lfuf0tcJSopqOc.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123804040924647424/img/t3W_n-Uw4Y3-Idrq.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123928657248899176",
+          "domain": "x.com",
+          "published": "2026-11-21T08:57:07+09:00",
+          "published_label": "2026/11/21(土) 08:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ClickUp は、これを「すべてのアプリ」に変えるメジャー リリースを出荷しました。ユーザーは、不足しているツールの構築を Brain に依頼できます。\n> パーソナル ソフトウェア - ユーザーは Brain² AI を使用してカスタム ツールを構築できます。ユーザーはアプリ、ダッシュボード、レポートを記述することができ、Brain² は ClickUp データに基づいてそれを構築します。\n> Creative Studio (ベータ版) - ユーザーはプロンプトからビデオ クリップ、画像、サウンドを生成し、ClickUp 内のタイムラインで編集できます。\n> AI ワークフロー (ベータ版) - ユーザーは、組み込みの承認を使用して、AI がタスクの各ステップを実行する方法をカスタマイズできます。\n> ClickUp Labs - ユーザーが新機能のオンとオフを切り替えることができる無料の早期アクセス プログラムです。\nテストすることがたくさんあります👀\nビデオ\nゼブ・エヴァンス (@DJ_CURFEW)\nソフトウェアは統合されつつあり、私たちは常にそうなることを知っていました。\n誰もが私たちに、一つのことをやり遂げ、それをうまくやるように言いました。今でも多くの人が、それはばかげている、不可能だ、愚かだと言っています。\nしかし今ではそれが完全に明らかです。\nClickUp が実現するかどうかに関係なく、これがソフトウェアにおける唯一の未来です。ソフトウェア大手でさえ、すでにこの新しい世界秩序に向けて動き始めています。\n生産性を最高に高める唯一の方法は、すべてを実行し、100% のコンテキストを担い、誰もが 100X になれる 1 つのプラットフォームであると私は心から信じています。\nそしてそれはAIでのみ可能です。\nAI はソフトウェアを殺しません。 IT はさらに多くの IT を作成し、それを統合します。\nAI によってソフトウェアの構築が劇的に簡単になれば、ソフトウェア会社はさらに多くのソフトウェアを構築するでしょう。それ以下ではありません。右？\nあなたのためにツールを構築した会社が、さらに多くのツールを構築することになります。これは決して止まらないでしょう。\nカテゴリー ブルー"
+        },
+        {
+          "title": "Tools built with Personal Software also save changes back into ClickUp.\nUsers can try these features in ClickUp now and keep an eye on the Labs section for future additions.\nTake a look 👀",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/testingcatalog/status/2123928659698319439",
+          "domain": "x.com",
+          "published": "2026-11-21T08:57:07+09:00",
+          "published_label": "2026/11/21(土) 08:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Personal Software で構築されたツールは、変更を ClickUp に保存することもできます。\nユーザーは、ClickUp でこれらの機能を今すぐ試すことができ、将来の追加については Labs セクションに注目してください。\n見てください👀"
+        },
+        {
+          "title": "These ones 👀👀👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmkCIvXwAEC14K.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmkCIjXMAEf-3H.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmkCIyXYAAY_L1.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmkCI4XIAAa1V1.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123909064241401879",
+          "domain": "x.com",
+          "published": "2026-11-21T07:39:15+09:00",
+          "published_label": "2026/11/21(土) 07:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Anthropic has started rolling out a new mobile experience for Claude, with a bottom navigation bar for Chat, Projects, Code, and Artifacts.\nFrom what I have tested earlier, the biggest changes appear around the nav bar, model selector, and attachment menu.\nI think it is probably the first real \"Design touch\" being released for Claude, and it is visible that there have been a lot of prototyping going on in the background.\nClaude is yet to fight for \"consumers\" and \"general public\" users.\nMonitoring 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123856131634196480/img/ukYjxMTiBXafSYQh.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123908634325508233",
+          "domain": "x.com",
+          "published": "2026-11-21T07:37:33+09:00",
+          "published_label": "2026/11/21(土) 07:37",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Anthropic は、チャット、プロジェクト、コード、アーティファクトの下部ナビゲーション バーを備えた、Claude 用の新しいモバイル エクスペリエンスの展開を開始しました。\n以前にテストした結果から、最大の変更はナビゲーション バー、モデル セレクター、およびアタッチメント メニュー周辺に現れています。\nおそらくこれがクロードにとって初めてリリースされる本格的な「デザインタッチ」だと思いますが、バックグラウンドで多くのプロトタイピングが行われていることがわかります。\nクロードはまだ「消費者」と「一般」ユーザーのために戦っていません。\nモニタリング 👀"
+        },
+        {
+          "title": "Arcfront is hiring researchers, engineers, and domain experts in San Francisco and Bengaluru.\nTake a look 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123811582232715264/yVbnP0eR?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123903769306075363",
+          "domain": "x.com",
+          "published": "2026-11-21T07:18:13+09:00",
+          "published_label": "2026/11/21(土) 07:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Arcfront は、サンフランシスコとバンガロールで研究者、エンジニア、ドメイン専門家を雇用しています。\n見てください👀"
+        },
+        {
+          "title": "Arcfront has launched its platform for training AI models on specialized data gathered directly from field experts.\nThe company has 4 of the top 5 AI labs among its customers, less than a year after it started.\n@arcfront has partnered with 300+ large companies, from hospitals to banks, to record how their experts are making important decisions. Examples include software rollback procedures, chip design planning, or M&A assessments.\nAnshuman Singh (@anshuman_ssh)\nToday we're launching @arcfront with @Naman_Bhalla and deep support from @asxna.\nIn under a year, four of the five frontier labs became customers.\nIn 2025 an AI solved all 12 problems at the ICPC World Finals. The best human team solved 11. I competed in two of those finals, so I know how big a feat that is.\nAnd yet, put that same AI inside a company as a finance manager, or in almost any other job, and it fails on day 1.\nWhy is that?\nVideo\n— https://x.com/anshuman_ssh/status/2123848140575182946",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmfN1TWkAA3IzA.jpg?name=small",
+            "https://pbs.twimg.com/media/HXmfN1aWUAAQrtT.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2123846393483960320/img/CcwqxS4j_xaAoRSZ.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123903763966501024",
+          "domain": "x.com",
+          "published": "2026-11-21T07:18:12+09:00",
+          "published_label": "2026/11/21(土) 07:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Arcfront は、現場の専門家から直接収集した特殊なデータに基づいて AI モデルをトレーニングするためのプラットフォームを開始しました。\n同社は、設立から 1 年も経たないうちに、顧客のトップ 5 のうち 4 つの AI ラボを抱えています。\n@arcfront は、病院から銀行に至るまで 300 社以上の大企業と提携して、専門家がどのように重要な意思決定を行っているかを記録しています。例には、ソフトウェアのロールバック手順、チップ設計計画、M&A 評価などがあります。\nアンシュマン・シン (@anshuman_ssh)\n本日、私たちは @Naman_Bhalla と @asxna からの強力なサポートとともに @arcfront を立ち上げます。\n1 年も経たないうちに、フロンティア ラボ 5 社のうち 4 社が顧客になりました。\n2025 年、AI が ICPC 世界決勝戦で 12 の問題すべてを解決しました。最も優れた人間チームが 11 を解決しました。私はそれらの決勝戦のうち 2 回に出場したので、それがどれほど大きな偉業であるかを知っています。\nそれでも、同じ AI を財務マネージャーとして社内に導入したり、その他のほぼすべての仕事に導入したりすると、初日から失敗します。\nそれはなぜでしょうか?\nビデオ\n— https://x.com/anshuman_ssh/status/2123848140575182946"
+        },
+        {
+          "title": "THINKING MACHINES 🔥: A new Inkling 2 Mini open-weight model has been announced!\n> \"Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active parameters, and 5.4B weight activations per token to account for looping.\"\n> \"Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).\"\nWe expected Qwen to drop a new SOTA model for local work, but we got Inkling instead.\nLocal testing time! 👀\nThinking Machines (@thinkymachines)\nSome of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\n— https://x.com/thinkymachines/status/2123871643797995872",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXmFdW1WMAAVkeD.jpg?name=small",
+            "https://pbs.twimg.com/card_img/2123870055498940416/GIja54ZR?format=png&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2123876288586727906",
+          "domain": "x.com",
+          "published": "2026-11-21T05:29:01+09:00",
+          "published_label": "2026/11/21(土) 05:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "THINKING MACHINES 🔥: 新しい Inkling 2 Mini オープンウェイト モデルが発表されました。\n> 「Inkling 2 Mini は、合計 264 億のパラメータ、34 億のアクティブ パラメータ、およびループを考慮したトークンごとの 54 億の重みアクティベーションを備えた専門家混合モデルです。」\n> 「Inkling 2 Mini は、DeepSWE v1.1 (48.2%) や Vals Index v2.2 (46.5%) などのベンチマークで合計パラメーターが 100B 未満のすべてのオープンウェイト モデルをリードしています。」\nQwen がローカル作業用の新しい SOTA モデルをドロップすると予想していましたが、代わりに Inkling を入手しました。\nローカルテストの時間です！ 👀\n思考機械 (@thinkymachines)\nInkling 2 Small は 594B パラメーターでは大きすぎると考えた方もいるでしょう。 Inkling 2 Mini は、わずか 26B パラメータを備えたループ トランスフォーマーであり、ラップトップで実行できるほど小型で、AA インデックスのスコアが 20.1 でエージェント作業に十分強力です。\n— https://x.com/thinkymachines/status/2123871643797995872"
+        },
+        {
           "title": "Google AI Subscribers can now generate GIFs on Gemini!\n> GIF generation is powered by Gemini Omni 1.2 Flash.\n> GIF generation is currently available only in the U.S., Japan, Korea, Australia, Canada, U.K., Germany, and France.\nGoogle Gemini (@GeminiApp)\nSay hello to GIFs in Gemini. Say goodbye to searching for the perfect one.\nFrom looping photo effects to funny memes, create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash, for smooth motion and consistent quality across every frame.\n— https://x.com/GeminiApp/status/2123813017855103449",
           "summary": "",
           "images": [
@@ -1482,7 +1677,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google AI サブスクライバーは、Gemini で GIF を生成できるようになりました。\n> GIF の生成は Gemini Omni 1.2 Flash を利用しています。\n> GIF 生成は現在、米国、日本、韓国、オーストラリア、カナダ、英国、ドイツ、フランスでのみ利用できます。\nGoogle Gemini (@GeminiApp)\nGemini の GIF にご挨拶してください。完璧なものを探す必要はもうありません。\nループ写真エフェクトから面白いミームまで、最新のビデオ モデルである Gemini Omni 1.2 Flash を使用して想像できるあらゆる GIF を作成し、すべてのフレームでスムーズな動きと一貫した品質を実現します。\n— https://x.com/GeminiApp/status/2123813017855103449"
         },
         {
@@ -1544,203 +1739,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Nace AI は、あらゆるタスクに適切な AI モデルを選択できる Drex Router を発表しました。\n簡単なプロンプトはより安価なモデルにルーティングされ、難しいプロンプトはより強力なモデルにルーティングされます。一般知識に関する質問に関する Nace のテストでは、価格が約 11 分の 1 で、最強のライバルよりも高いスコアを獲得しました。\nテストでは、100 万プロンプトの合計は 100 ドルでしたが、Jev Router を使用した場合は 1,090 ドルでした。\nGTA 6 PC ポートの例 👀\nビデオ\nネイスAI (@NaceAI)\nDrexルーターのご紹介です。\nエージェントが実行するすべてのステップに対して、適切な LLM/SLM と推論努力を選択する小規模なモデル。\n精度: Drex Router 87.6% vs Jev Router 86.4%\n試してみてください:\nDREX にコメントすると、さらに 5 ドルの API クレジットを獲得できます\nビデオ\n— https://x.com/NaceAI/status/2123502254657605658"
-        },
-        {
-          "title": "Users can keep using the same models, with the routing happening in under a tenth of a second. In Nace's test, building a small game costs $1.26 with Drex Router vs $13.44 using only Claude Opus.\nIt is now available on the Nace Console, and eligible new accounts get $5 in free credit.\nTest it out 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2120371626076450816/0VpEeksT?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123531681693130877",
-          "domain": "x.com",
-          "published": "2026-11-20T06:39:40+09:00",
-          "published_label": "2026/11/20(金) 06:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ユーザーは同じモデルを使い続けることができ、ルーティングは 10 分の 1 秒以内に行われます。 Nace のテストでは、小規模なゲームの構築にかかるコストは、Drex Router を使用した場合は 1.26 ドルでしたが、Claude Opus のみを使用した場合は 13.44 ドルでした。\n現在は Nace Console で利用可能であり、対象となる新規アカウントには 5 ドルの無料クレジットが付与されます。\n試してみてください 👀"
-        },
-        {
-          "title": "Google started sending out waitlist access to Genie 4 for Gemini Pro users!\n> \"You’re off the waitlist! You now have access to Project Genie as part of your Google AI Pro subscription.\"\nThat's great news, meaning it will be available to all Pro users at some point.\nGemini Pro sub just got better 👀\n🚨 AI News | TestingCatalog (@testingcatalog)\nGOOGLE 🔥: Genie 4 is now available on Google AI Studio and APIs.\nFor many users, this is the first time they can properly test this World model with an API key, as it's currently only available to Ultra subscribers.\n> \"Using real-time keyboard controls alongside live text prompts, you can navigate environments and change weather, lighting, objects, or events on the fly.\"\nTesting time! 👀\n— https://x.com/testingcatalog/status/2123502622133133398",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXg74tKXgAAxFBz.jpg?name=small",
-            "https://pbs.twimg.com/media/HXg76uuWMAAwWrZ.jpg?name=small",
-            "https://pbs.twimg.com/media/HXgyWwvWIAA4_mW.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123513155238199586",
-          "domain": "x.com",
-          "published": "2026-11-20T05:26:03+09:00",
-          "published_label": "2026/11/20(金) 05:26",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google は、Gemini Pro ユーザー向けに Genie 4 へのアクセス待ちリストの送信を開始しました。\n> 「待機リストから外れました! Google AI Pro サブスクリプションの一部として Project Genie にアクセスできるようになりました。」\nこれは素晴らしいニュースであり、ある時点ですべての Pro ユーザーが利用できるようになるということです。\nGemini Pro サブがさらに改良されました 👀\n🚨 AI ニュース |テストカタログ (@testingcatalog)\nGOOGLE 🔥: Genie 4 が Google AI Studio と API で利用できるようになりました。\n現在 Ultra サブスクライバーのみが利用できるため、多くのユーザーにとって、API キーを使用してこの World モデルを適切にテストできるのはこれが初めてです。\n> 「ライブ テキスト プロンプトとともにリアルタイム キーボード コントロールを使用すると、環境をナビゲートし、天気、照明、オブジェクト、イベントをその場で変更できます。」\nテストの時間です！ 👀\n— https://x.com/testingcatalog/status/2123502622133133398"
-        },
-        {
-          "title": "OPENAI 🔥: GPT-Live-1.1 has been released on the API and is now available on the OpenAI Platform for testing!\nIt comes with a new standby option to lower idle costs.\nICYMI: The Live tab on the OpenAI Platform lets users test all the API features right away and includes a visual voice sphere.\nOpenAI Developers (@OpenAIDevs)\nGPT-Live-1.1 is now available in the API.\nIt speaks with more natural and consistent accents across languages, supports lower idle costs with a new standby option, and completes tasks even more reliably.\nVideo\n— https://x.com/OpenAIDevs/status/2123506733524136446",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXg3MDuXwAAxBKV.jpg?name=small",
-            "https://pbs.twimg.com/media/HXlV61pX0AAlmfd.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123507970449236208",
-          "domain": "x.com",
-          "published": "2026-11-20T05:05:27+09:00",
-          "published_label": "2026/11/20(金) 05:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "OPENAI 🔥: GPT-Live-1.1 が API でリリースされ、OpenAI プラットフォームでテストできるようになりました。\nアイドル コストを削減するための新しいスタンバイ オプションが付属しています。\nICYMI: OpenAI プラットフォームの [ライブ] タブを使用すると、ユーザーはすべての API 機能をすぐにテストでき、視覚的な音声領域が含まれます。\nOpenAI 開発者 (@OpenAIDevs)\nGPT-Live-1.1 が API で利用できるようになりました。\nどの言語でもより自然で一貫したアクセントで話し、新しいスタンバイ オプションでアイドル コストの削減をサポートし、タスクをより確実に完了します。\nビデオ\n— https://x.com/OpenAIDevs/status/2123506733524136446"
-        },
-        {
-          "title": "GOOGLE 🔥: Genie 4 is now available on Google AI Studio and APIs.\nFor many users, this is the first time they can properly test this World model with an API key, as it's currently only available to Ultra subscribers.\n> \"Using real-time keyboard controls alongside live text prompts, you can navigate environments and change weather, lighting, objects, or events on the fly.\"\nTesting time! 👀\nLogan Kilpatrick (@OfficialLoganK)\nIntroducing Genie 4 in the Gemini API + @GoogleAIStudio, our first world model for developers to build with and create new world model experiences 🔮\nTry it out:\n— https://x.com/OfficialLoganK/status/2123467449257623770",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgyWwvWIAA4_mW.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2123465723993276417/UVxCCw5I?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123502622133133398",
-          "domain": "x.com",
-          "published": "2026-11-20T04:44:12+09:00",
-          "published_label": "2026/11/20(金) 04:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "GOOGLE 🔥: Genie 4 が Google AI Studio と API で利用できるようになりました。\n現在 Ultra サブスクライバーのみが利用できるため、多くのユーザーにとって、API キーを使用してこの World モデルを適切にテストできるのはこれが初めてです。\n> 「ライブ テキスト プロンプトとともにリアルタイム キーボード コントロールを使用すると、環境をナビゲートし、天気、照明、オブジェクト、イベントをその場で変更できます。」\nテストの時間です！ 👀\nローガン・キルパトリック (@OfficialLoganK)\nGemini API に Genie 4 を導入 + @GoogleAIStudio、開発者が新しいワールド モデル エクスペリエンスを構築および作成するための最初のワールド モデル 🔮\n試してみてください:\n— https://x.com/OfficialLoganK/status/2123467449257623770"
-        },
-        {
-          "title": "The bug-fixing feature, LavaFlow, is available in early access and is included on all paid plans.\nVolcano is free to start.\nTest it out 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123118404890406912/KFylloww?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123499656378531995",
-          "domain": "x.com",
-          "published": "2026-11-20T04:32:25+09:00",
-          "published_label": "2026/11/20(金) 04:32",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "バグ修正機能である LavaFlow は早期アクセスで利用でき、すべての有料プランに含まれています。\nVolcano は無料で始められます。\n試してみてください 👀"
-        },
-        {
-          "title": "Kong has launched Volcano, a cloud platform that hosts AI apps and agents, bringing everything they need into one place.\nUsers can build apps with Claude Code, Cursor, or Codex and publish them on Volcano, with built-in database and sign-in functionality.\nVolcano can also find bugs in production apps and prepare fixes, which users can review and approve before they are applied. Agents can also pick up a build from a backup after a crash.\nMarco Palladino (@subnetmarco)\nAt Kong we run half a quadrillion AI tokens a year, and I kept seeing agents stuck on clouds built for websites.\nSo we built a cloud for agents.\nVolcano is live today: the self-healing agent cloud. Sandboxes, durable workflows, Postgres, hosting.\nVideo\n— https://x.com/subnetmarco/status/2123424142569714004",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgvrGIWMAA9wVo.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123423927708119041/img/U7XP2pxzI6MlQF-Y.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123499652012281970",
-          "domain": "x.com",
-          "published": "2026-11-20T04:32:24+09:00",
-          "published_label": "2026/11/20(金) 04:32",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Kong は、AI アプリとエージェントをホストするクラウド プラットフォームである Volcano を立ち上げ、必要なものすべてを 1 か所にまとめました。\nユーザーは、Claude Code、Cursor、または Codex を使用してアプリを構築し、組み込みのデータベースとサインイン機能を備えた Volcano で公開できます。\nVolcano は実稼働アプリのバグを見つけて修正を準備することもでき、ユーザーは適用前にレビューして承認できます。エージェントは、クラッシュ後にバックアップからビルドを取得することもできます。\nマルコ・パラディーノ (@subnetmarco)\nKong では年間 5,000 兆個の AI トークンを実行していますが、エージェントがウェブサイト用に構築されたクラウド上で立ち往生しているのを何度も目にしました。\nそこで私たちはエージェント用のクラウドを構築しました。\nVolcano は現在、自己修復エージェント クラウドとして稼働しています。サンドボックス、耐久性のあるワークフロー、Postgres、ホスティング。\nビデオ\n— https://x.com/subnetmarco/status/2123424142569714004"
-        },
-        {
-          "title": "Microsoft released a new Canvas experience on MAI Playground, powered by the MAI Image 2.7 Flash model.\nUsers can refine and precisely adjust their diagrams and images via prompts and editing tools.\nMAIshop 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgN3BKXkAABbae.png?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123471796628488253",
-          "domain": "x.com",
-          "published": "2026-11-20T02:41:43+09:00",
-          "published_label": "2026/11/20(金) 02:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Microsoft は、MAI Image 2.7 Flash モデルを利用した新しい Canvas エクスペリエンスを MAI Playground でリリースしました。\nユーザーは、プロンプトや編集ツールを使用して図や画像を改良し、正確に調整できます。\nまいショップ👀"
-        },
-        {
-          "title": "$ANT shares are now officially trading live on NASDAQ.\nWe are yet to see where it will all go and what is the overall sentiment about Anthropic. I think it would be quite a good marker of a consensus around ai among general public, since Anthropic is one of the first big “AI first” companies.\nMonitoring 🍿\nNasdaq (@Nasdaq)\n$ANT: now trading on Nasdaq. @AnthropicAI\n— https://x.com/Nasdaq/status/2123458732570882295",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXgOFRcWwAAfFMf.jpg?name=small",
-            "https://pbs.twimg.com/media/HXgOFRdWAAACF3d.jpg?name=small",
-            "https://pbs.twimg.com/media/HXgKdvBXAAAqpZN.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123462712420147675",
-          "domain": "x.com",
-          "published": "2026-11-20T02:05:37+09:00",
-          "published_label": "2026/11/20(金) 02:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "$ANT 株は現在、NASDAQ で正式にライブ取引されています。\nそれがどのような方向に向かうのか、そしてAnthropicに対する全体的な感情がどのようなものになるのかはまだわかりません。 Anthropic は最初の「AI ファースト」の大企業の 1 つであるため、これは一般の人々の間で AI に関するコンセンサスを示す非常に良い指標になると思います。\nモニタリング🍿\nナスダック (@Nasdaq)\n$ANT: 現在ナスダックで取引されています。 @anthropicAI\n— https://x.com/Nasdaq/status/2123458732570882295"
-        },
-        {
-          "title": "ANTHROPIC 🔥: Dario Amodei rang the bell on NASDAQ. The biggest IPO in history is officially started for $ANT.\nThe price is set at $83 per share; trading hasn’t started yet but expect to begin soon!",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123424321250934784/img/4lzhZ7GX31rDvMAM.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123432658298421487",
-          "domain": "x.com",
-          "published": "2026-11-20T00:06:11+09:00",
-          "published_label": "2026/11/20(金) 00:06",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "アンソロピック 🔥: ダリオ・アモデイがナスダック市場の鐘を鳴らしました。 $ANT にとって史上最大の IPO が正式に開始されました。\n価格は1株あたり83ドルに設定されている。取引はまだ始まっていませんが、間もなく始まる予定です。"
-        },
-        {
-          "title": "Documented 🗞️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123405112253030400/mnYtuUs-?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123405126035722611",
-          "domain": "x.com",
-          "published": "2026-11-19T22:16:47+09:00",
-          "published_label": "2026/11/19(木) 22:16",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "文書化されました 🗞️"
         }
       ],
       "elapsed": 0.8
