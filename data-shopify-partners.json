@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21T17:15:13+09:00",
-  "generated_at_label": "2026/11/21 17:15 JST",
+  "generated_at": "2026-11-22T01:45:21+09:00",
+  "generated_at_label": "2026/11/22 01:45 JST",
   "title": "Shopify 受賞パートナー ニュース監視",
   "total": 113,
   "sources": [
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "shp_02",
@@ -169,7 +169,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "フィードフォースグループ、3期連続｢増配｣を発表し、配当利回り4.1％に！ 年間配当額は2年で2倍に増加、2027年5月期は前期比5円増の｢1株あたり20円｣に！",
@@ -185,7 +185,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -493,48 +493,16 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "素材・化学産業向けＤＸサミットｉｎ大阪 デロイト トーマツ・日下部健太氏 オペレーション改革不可欠",
+          "title": "デロイト トーマツ、三菱地所と量子技術の社会実装を促進する共創拠点「Tokyo Quantum Gateway」（仮称）を開設",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hWUNVWUNlbzRibkVPdXQ5eTU4TVNiVTRkeVh3LVM0Z25sTmJTTmZNRW5vRlU1MXAwa3kteDU3b3JKQ3plb2ZfSEJKM2pEZWhvaktV?oc=5",
-          "domain": "chemicaldaily.com",
-          "published": "2026-11-04T05:41:48+09:00",
-          "published_label": "2026/11/4(水) 05:41",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "デロイト トーマツ、役員報酬サーベイ2026年度版 プライム企業のCEO・社長報酬は6.4％増",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1KZ3FIaGxrRnluc1E1Z2ltc1N1RmhIcEhJV2hIaFV2ZW96RXJVZEp6TE03c3N6U3o4Yy1tMXlnXzhXNmRGQzBwSmJWaGg?oc=5",
-          "domain": "bizzine.jp",
-          "published": "2026-11-02T17:00:00+09:00",
-          "published_label": "2026/11/2(月) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "デロイト トーマツ、日本銀行が実施する中央銀行デジタル通貨のパイロット実験のプロジェクト管理支援・技術コンサルティング等にかかる業務の委託先に選定",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NRXRweXBWUG40Sk9pemxTYm5hNUVLSVNsbnFGVk1hS2RNbVFHTXNSanhZcjJJTVl3cWh0bVp1cjhROXE1TElka2g4Mzk5ak9HRWZxWXN5NTI2d0VKZjFMMGpaYW9LREtkd1lKUGJ2ZVQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IaVM2V0ptaS1VZGdDZUFoTFNsOUxybDhLYm4zWFJpQndZT2lkXzVJdUdtUmVFcmpxNjB1WUVWQlVwbjVuWDlERjVySGZsWmRxNmpKYzIxaHI2SXJsaUJ3LXJFeXdMcWp3OWJPSXZiVnE?oc=5",
           "domain": "deloitte.com",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "published": "2026-10-05T16:00:00+09:00",
+          "published_label": "2026/10/5(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -544,13 +512,45 @@
           "is_new": true
         },
         {
-          "title": "デロイト トーマツ ベンチャーサポート主催のピッチイベント「Morning Pitch」第607回に登壇〜ヒトを守るテクノロジー最前線〜",
+          "title": "合同会社デロイト トーマツ、子会社の株式譲渡に関するお知らせ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uNzN1cEFFRDgta3BxbVNpZkVlOXlsdklaOUVnQVkta0dGd0tVbkprOExRN3I1aUg0dExPeE9PQUZWengzV216U2FXTi13VkdVRVlJbXNCQmhDcGJGd3MxRWcwOXY?oc=5",
-          "domain": "jp.asilla.com",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzVlhtaWxwZlRFYjZZNU1Zd2lyLS1ZUkJFVTdfd3U3dXlMeURrOGo1RGFCdUZ5U2Z1UElmWmNoV2h1SmxqdWJXQi1JdUUtdExJVTlMbXlIa3podDd6U25JVlZadHp1clUtSm4yVzN2Z1o?oc=5",
+          "domain": "deloitte.com",
+          "published": "2026-09-07T16:00:00+09:00",
+          "published_label": "2026/9/7(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "地域未来創造室 | デロイト トーマツ グループ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdUk2TGhySGFtbUx0SVFXZTVGaE5XWGtrcDVNZHFTUkJOUld1Wk5ESUV2eFh1cU4zRjAxMVlrcXMydEJMY1lscGZ0N2tTQ0N4VWFvdHJTMncxZERGTC1XeEo2R0VtT3VCZkVXUGQ3ZFdpVDI0R0p0ZFpPMzNkN2d3NWMzRk9oZ3NiN0M0SkUtcGw?oc=5",
+          "domain": "deloitte.com",
+          "published": "2026-08-24T16:00:00+09:00",
+          "published_label": "2026/8/24(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "デロイトトーマツの長川CEO「30年ごろに必要人員ピークアウト」",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5na0tsa25nRWZKX1A4SGlHWUpYVHJDT2wweUpBQk03ajlNNGlnYmU1bnZtRHJWZWk3cy1qMnZkM2VORWlpbDBndjE3RlJTZ1F5d2pXMzZ4Yk9MQUR1d1BJa3J0eWFaUXp5RXU2eQ?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-08-06T16:00:00+09:00",
+          "published_label": "2026/8/6(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -560,7 +560,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "shp_07",
@@ -602,7 +602,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社Stack、株式会社REGALIとのサービス連携第三弾として「Appify - モバイルアプリ」に「LEEEP」UGC機能を実装",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_08",
@@ -724,7 +724,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)アイティフォー【4743】：決算情報",
@@ -740,7 +740,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アイティフォー[4743]：2027年3月期 第2四半期(中間期)決算短信〔日本基準〕(連結) 2026年11月12日(適時開示) ：日経会社情報DIGITAL",
@@ -756,23 +756,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "アイティフォー[4743]：統合報告書発行に関するお知らせ 2026年11月6日(適時開示) ：日経会社情報DIGITAL",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VbnBnSDREamwtd29DSGUwVU1kSEw3cTRsRDItX05FcjhYcHZyVnVRaTBOLWNaaEgtTW1GT1UyNU9RYTRka0dFVUJOM1Nyck1pak5qNFd1Sl8zak8ydlRSaDhyWjRtOVprcFE?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-06T16:00:00+09:00",
-          "published_label": "2026/11/6(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "アイティフォー[4743]：（訂正）2026年10月14日に公表したPR情報の一部訂正について 2026年10月22日(適時開示) ：日経会社情報DIGITAL",
@@ -788,10 +772,26 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "立教大学男子駅伝チーム、株式会社アイティフォーとスポンサー契約を締結",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UVXp4QVI5RGpBTk5FZ1hlR1JvaEZmcTZHMUNXaEpwRktrYU5ieDZ2enJuaEhRS3Vnb1EzeGo0UmhnQmhqZlhxeU9BMkFfWmpVM1RYRW9B?oc=5",
+          "domain": "u-presscenter.jp",
+          "published": "2026-10-08T16:00:00+09:00",
+          "published_label": "2026/10/8(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
           "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_10",
@@ -849,6 +849,22 @@
       "count": 5,
       "items": [
         {
+          "title": "電通デジタル、「Amazon Ads Partner Awards 2026」の国別アワード「プログラムによる最適化」を受賞",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84b09faFlFZjY1YjNSUnoyazVkRTF1UjVOeGo5UkgwbTYwSDE5bnYtMVR2TDg3dUtwT1AtLXVCelo0Q3FZMndwcmJIUmk0d0lWbF9pbWJrdEk5QlZrcG9fOTdhUkdSazdRc09ETnQ3V19ydw?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-11-21T13:10:00+09:00",
+          "published_label": "2026/11/21(土) 13:10",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "【エージェンティックコマースの未来】電通デジタル「EC・実店舗の連携、購入後のAI活用も重視」",
           "summary": "",
           "images": [],
@@ -904,22 +920,6 @@
           "domain": "rtbsquare.work",
           "published": "2026-11-17T14:41:39+09:00",
           "published_label": "2026/11/17(火) 14:41",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "電通デジタル、「Amazon Ads Partner Awards 2026」の国別アワード「プログラムによる最適化」を受賞",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uNEJvLU55eFN6QmdtUkxXQVlGNkRYWGxGcS11aE5JSXU3R0QzUzJkazRzSXo1aERhd1dxWnd0XzVLWHprU0xZdGJGelpmX0hVSFhMekR0ZTZnNWt1Y3huQy1qaW5WMzQzWFE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-17T14:03:43+09:00",
-          "published_label": "2026/11/17(火) 14:03",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1109,7 +1109,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "シンガポール発の寝具ブランドSOJAO、Recustomer「配送追跡」「返品・交換」を導入",
@@ -1125,7 +1125,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Recustomer、返品・再注文の手間なく、価格が異なるサイズ・カラーにも交換の選択肢を広げる「差額交換」を提供開始",
@@ -1160,13 +1160,13 @@
           "is_new": false
         },
         {
-          "title": "Recustomer、B2C CRM「Klaviyo」と連携開始。返品・交換や配送状況に応じたメール配信が可能に",
+          "title": "Recustomer、シンガポールのmyhaloにお試し購入と予約購入機能を提供開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhODBjLVpVUWdJQnV2ZkZpNnY0dDRkSzYzeVNPSW5GMTdpT2tfUWNfcVlxTmZJS0h0SjRLNHlkNmxZc0tnYjdvOUZya2VOR2kxWUJiMlA1SUU4cDVhRVdPX0p2S25SWnRKeVE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-09T11:00:02+09:00",
-          "published_label": "2026/11/9(月) 11:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1pTGhFZEpiVTFYbGt2ZkttSElaV1IwbHNSaFA1NnU0ck4zUmVXM0ktMUdubGxqN2R3VGZVWEl4WjZ1NU1UbzI0ZHBwbHF5SVFmSVlYMm5mbw?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-11-06T12:42:43+09:00",
+          "published_label": "2026/11/6(金) 12:42",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1221,7 +1221,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_16",
@@ -1233,6 +1233,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%83%8F%E3%83%83%E3%82%AF%E3%83%AB%E3%83%99%E3%83%AA%E3%83%BC%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "コマースロボティクス、ハックルベリーのデータ連携SaaS「CoreLink」のパートナープログラムに参画。BtoB受発注システム「コマロボ受発注」との連携に向けて準備を開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82SFNRZ0gzZHVrUTBSbHN4V0M0TXl2RkEwOXcyaTZGV0lvVV9xeHZoQXJkRlJSMmpaVFlMNFRuWE1TQXRPdGpRdkRvM2Z4OTRHQ0NZVDBtY1BTYk01X3ZkYjFhQkIyU2lic2c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-19T08:00:01+09:00",
+          "published_label": "2026/11/19(木) 08:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ハックルベリーのデータ連携SaaS「CoreLink」パートナープログラムにソウルドアウト株式会社が参画",
           "summary": "",
@@ -1247,7 +1263,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ハックルベリーとTISI、エンタープライズ領域のデータ連携基盤強化に向けた業務提携契約を締結",
@@ -1296,25 +1312,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ハックルベリー、AIコマース時代の到来に向け自社ECのAI対応状況を即座に可視化する「AIコマース診断ツール」を提供開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUSHpIWVJEc3dYRFJHMWRuZ2xjUnpCbUo3cWVEb2tieHpVQlFHc0g4UUg1TUt6N0QtZ1g5STZnUF9mWG9GbDFnNEgyMGVGV0Q1WHVuRnVEby1FWFYtdTZHQm52T29NQWhJOXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-07-13T16:00:00+09:00",
-          "published_label": "2026/7/13(月) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_17",
@@ -1407,7 +1407,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_18",
@@ -1427,22 +1427,6 @@
           "domain": "prtimes.jp",
           "published": "2026-05-26T16:00:00+09:00",
           "published_label": "2026/5/26(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "三井物産流通グループとシコメルフードテック、資本業務提携を締結",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZTnc5ZC1NaUs1MTFUV2NobDl0RkIyTzQtT0lob1gyblEyQ3FuMEY1YndQdXpfX3FjcnlJRUpGUFRlY3BEZ2dMQXdPSUQzZnQ0cDlpSXFjVkVXNW9sSzFhMGwxRXpRWmZSUEE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-02-06T17:00:00+09:00",
-          "published_label": "2026/2/6(金) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1498,6 +1482,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "Shopify Plusパートナーの株式会社飛躍とShopify配送サービス「プラスシッピング」を提供する三井物産株式会社がパートナーシップを締結",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Cc1dwVkZzbVc4c2RTeXNyeEQwNEpkZGNRNlF0UXZLLWsydTJ4REEtWW5BeTBDRExwQXczQjk3eEM0RXJacDA0XzZoSlBmZVN0Q0RHU21NNUhQRURIVnEzMnNaYmlBUW1pWXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2024-10-31T16:00:00+09:00",
+          "published_label": "2024/10/31(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -1686,7 +1686,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_21",
@@ -1731,22 +1731,6 @@
           "is_new": false
         },
         {
-          "title": "EC自動出荷システム「LOGILESS」、お買い物アプリ「カウシェ」と自動連携が可能に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GN0dDeGRHLVBGZE5GNUVfWk1JSlNUZUZFMllyT21qNUU3eGtMdl9uYkZTNEpTTkdPRXJFWFJlUmRmMW5wZld6eERHTTNtU1ZVNFF1SXh1ZTNfRjBady1PWEVkOW1HNXFXRmc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "ロジレス、TikTok連携累計出荷110万件を突破",
           "summary": "",
           "images": [],
@@ -1777,6 +1761,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ロジレス、TikTok Shop連携出荷110万件突破",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UeWQ4azJsVUZXOGVkRXRoQllJN1lRX2FlWE0yQWt0VlpvQmxGWVRaeGVESVNDQm8tZlo0VzRaRE9GSVBQMm9jazdR?oc=5",
+          "domain": "logi-today.com",
+          "published": "2026-10-28T16:00:00+09:00",
+          "published_label": "2026/10/28(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -1872,7 +1872,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "shp_23",
@@ -1933,6 +1933,22 @@
           "is_new": false
         },
         {
+          "title": "トランスコスモス、店舗接客や商談などのリアル接点で得られる顧客の声を活用し、売上拡大とCX変革を促進する「trans-AI Voice」を提供開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tampQb05hUFJKUVpDMkstRTdqUEV6akx6RFF1LWF3amZ3V2pUYnFkZXVaeW8tVDNxYm5waHUwX2dObzFDMmp1QnU2bThfM3ZkZlJpWnJmX0UyT0dBQUVvc0g1eEZwdC14bnc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-16T11:00:02+09:00",
+          "published_label": "2026/11/16(月) 11:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "【決算速報】トランスコスモス、中間経常6,586百万。(アイフィス株予報)",
           "summary": "",
           "images": [],
@@ -1947,25 +1963,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "トランスコスモス、契約社員応募者約4600人の個人情報流出",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnUzFoZkFqWHJwZmU0bmJ3MENTczhIQndhbWdjQnF5WWFvRGticWx4ZFhfWmlUb2xGUUc5RnVwa041Nl85bGc0S2FCelJUbWFCRzcxM29CQzd1ZTEtbkxBREJzQnEzdGdmaExkYw?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-10-14T16:00:00+09:00",
-          "published_label": "2026/10/14(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "shp_24",
