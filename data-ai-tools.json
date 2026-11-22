@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T14:02:15+09:00",
-  "generated_at_label": "2026/11/22 14:02 JST",
+  "generated_at": "2026-11-22T20:12:20+09:00",
+  "generated_at_label": "2026/11/22 20:12 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -292,7 +292,7 @@
           "title_ja": "@MicrosoftAIはIgniteで3つの新モデルを発表し、そのすべてがOpenRouterで公開されています。\n• MAI-Image-2.7：背景が透明な2K画像\n• MAI-Image-2.7 Flash：大量処理に適した、より高速で軽量なバージョン\n• Microsoft-Decision-1.1：1回の呼び出しで、各回答オプションの確率を調整"
         }
       ],
-      "elapsed": 6.2
+      "elapsed": 5.0
     },
     {
       "id": "x_opencode",
@@ -540,7 +540,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2121887150061105152/5olm6FlX?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2124423882870325248/6OoGxwSy?format=png&name=800x419"
           ],
           "link": "https://x.com/opencode/status/2122377719048519773",
           "domain": "x.com",
@@ -572,7 +572,7 @@
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 2.9
     },
     {
       "id": "x_aimirai46487",
@@ -600,7 +600,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nAntigravity での @MongoDB を使用した構築がさらに簡単になりました。 🚀 公式 MongoDB Atlas (マネージド MCP) プラグインは、自然言語でのクエリ、低速クエリの最適化、スキーマのレビュー、ベクトル検索の構築という 7 つの専門スキルを使用して、MongoDB のホスト型 MCP サーバーに接続します。\n今すぐお試しください: antigravity://customizations/marketplaces/antigravity-plugins-partners/plugins/mongodb-atlas\nビデオ\n— https://x.com/antigravity/status/2123890186308239857"
         },
         {
@@ -619,7 +619,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nUnity for Games (@unitygames)\nIntroducing Unity Neural: a new generation of AI-accelerated tools designed to make Unity's compute pipeline faster and slash graphics memory in URP.\nWith Neural Texture Compression (NTC) integrated natively into the Editor, you can train models on your own data using Sentis and compress textures beyond traditional formats at near-lossless quality.\nVideo\n— https://x.com/unitygames/status/2123869197415366939",
@@ -637,7 +637,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nゲーム向け Unity (@unitygames)\nUnity Neural の紹介: Unity のコンピューティング パイプラインを高速化し、URP のグラフィックス メモリを削減するように設計された新世代の AI 高速化ツールです。\nエディターにネイティブに統合されたニューラル テクスチャ圧縮 (NTC) を使用すると、Sentis を使用して独自のデータでモデルをトレーニングし、従来の形式を超えてほぼロスレスの品質でテクスチャを圧縮できます。\nビデオ\n— https://x.com/unitygames/status/2123869197415366939"
         },
         {
@@ -656,7 +656,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nOpenAI (@OpenAI)\nMedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\nVideo\n— https://x.com/OpenAI/status/2123856316187975756",
@@ -674,7 +674,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nオープンAI (@OpenAI)\nMedChemBench は、医薬化学における AI 推論の新しいベンチマークです。\nこれは、科学者が AI を使用して有望な薬剤候補を特定するのを支援する当社のフロンティア モデルの能力が進歩していることを示しています。\nビデオ\n— https://x.com/OpenAI/status/2123856316187975756"
         },
         {
@@ -693,7 +693,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nArena.ai (@arena)\nThe Arena Alignment Index has been updated!\nWe've refined how our signals detect model failures, providing broader coverage and more reliable judgements. Based on the updated methodology:\n- @OpenAI continues to dominate, holding all seven top positions.\n- @Anthropic's latest release, Claude Fable 5.2, debuts at #8 with a score of 78.2. Claude Opus 5.5, which ranked #6 on the previous index, is now #17.\n- Kimi K3.1 Pro by @Kimi_Moonshot is the biggest upgrade over its predecessor (more info in thread).\n- Most open source models are trailing closed releases. The best open model - Kimi K3.1 Pro - occupies #9, and the second best, Mimo-V2.6-Flash, is #26 on the Index, followed by Hy4, Beam, Inkling, DeepSeek and GLM.\nThe Top-6 lab:\n- #1 @OpenAI GPT-6.2 Sol\n- #2 @AnthropicAI Claude Fable 5.2\n- #3 @Kimi_Moonshot Kimi K3.1 Pro\n- #4 @GoogleDeepmind Gemini 4 Hydrogen\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta Muse Ember\nAlignment Index measures how agents behave in real user sessions across three dimensions:\n- Unauthorized Action: Doing what the user didn’t ask for or approve\n- Deceptive Completion: Saying work is done, checked or working when it isn't\n- False Attribution: Crediting the user with something they never said or did\nMore insights in the thread🧵\n— https://x.com/arena/status/2123835034532729205",
@@ -711,7 +711,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nアリーナ.ai (@arena)\nアリーナアライメントインデックスが更新されました！\n信号がモデルの障害を検出する方法を改良し、より広い範囲をカバーし、より信頼性の高い判断を提供します。更新された方法論に基づいて、次のようになります。\n- @OpenAI は引き続き優位性を維持し、上位 7 位すべてを保持しています。\n- @Anthropic の最新リリースである Claude Fable 5.2 は、78.2 のスコアで 8 位に初登場しました。前回の指数で6位だったクロード・オーパス5.5は現在17位となっている。\n- @Kimi_Moonshot による Kim K3.1 Pro は、前世代に比べて最大のアップグレードです (詳細はスレッドを参照)。\n- ほとんどのオープン ソース モデルは、後続のクローズド リリースです。最も優れたオープン モデルである Kim K3.1 Pro は 9 位を占め、2 番目に優れた Mimo-V2.6-Flash はインデックスで 26 位にあり、続いて Hy4、Beam、Inkling、DeepSeek、GLM が続きます。\nトップ 6 のラボ:\n- #1 @OpenAI GPT-6.2 ソル\n- #2 @AnthropicAI クロード寓話 5.2\n- #3 @Kimi_Moonshot キミ K3.1 プロ\n- #4 @GoogleDeepmind Gemini 4 水素\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta ミューズエンバー\nアライメント インデックスは、実際のユーザー セッションでエージェントがどのように動作するかを次の 3 つの次元にわたって測定します。\n- 不正なアクション: ユーザーが要求または承認していないことを行うこと\n- 欺瞞的な完了: 作業が完了していない、チェックされている、または作業中であると主張する\n- 虚偽の帰属: ユーザーが言ったことも行ったこともないことをユーザーの信用とする\n詳細についてはスレッドをご覧ください🧵\n— https://x.com/arena/status/2123835034532729205"
         },
         {
@@ -730,7 +730,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Googleは、パソコン版Google検索のトップページに、AIモードの過去のやりとりを表示するサイドバーを追加すると発表しました。\n中断した調べ物を続きから再開できる機能で、世界中で順次提供されます。",
@@ -748,7 +748,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GoogleのAIエージェント「Google Antigravity」の、すべてのユーザーのGeminiモデルの利用制限がリセットされました。\nまた、キャッシュ機能の改善により、同じ利用制限内で実行できる作業量が22%増加したということです。\nVarun Mohan (@_mohansolo)\nReset everyone’s Gemini quota on Antigravity.\nThe caching improvements have increased the amount you can get done in quota by 22%. Enjoy building with Neon over the weekend!\n— https://x.com/_mohansolo/status/2124070033534161407",
@@ -859,7 +859,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.5
+      "elapsed": 3.0
     },
     {
       "id": "x_kimmonismus",
@@ -889,6 +889,40 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
+        },
+        {
+          "title": "We're seeing major breakthroughs right now, like the proof of the quasi-Riemann hypothesis. What worries me is that the mood is turning, and that we might stop seeing breakthroughs like this.\nSentiment against AI keeps growing, especially against the data center buildout, and since the midterms data centers have become a political issue.\nI'm not taking sides here. But everyone should be clear about what calling for a slowdown in the buildout actually means:\n- Breakthroughs come slower\n- Research into diseases and new therapies takes longer\n- Competitors like China pull ahead\nYes, the concerns deserve to be taken seriously. But in a lot of recurring debates, the fear of superintelligence has lost touch with the facts and turned into plain resentment.\nWe need more debate on the merits, less fear, and above all an honest look at what we give up when we slow the buildout down.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124449025923387741",
+          "domain": "x.com",
+          "published": "2026-11-22T19:24:52+09:00",
+          "published_label": "2026/11/22(日) 19:24",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "私たちは現在、準リーマン予想の証明など、大きな進歩を目の当たりにしています。私が心配しているのは、雰囲気が変わりつつあり、このような躍進が見られなくなるのではないかということです。\nAI に対する感情、特にデータセンターの増強に対する感情は高まり続けており、中間選挙以降、データセンターは政治問題となっています。\n私はここでどちらかの側を取るつもりはありません。しかし、建設の減速を求めることが実際に何を意味するのかを誰もが明確にする必要があります。\n- ブレイクスルーは遅くなる\n- 病気や新しい治療法の研究には時間がかかる\n- 中国などの競争相手が先を行く\nはい、その懸念は真剣に受け止められるべきです。しかし、度重なる多くの議論の中で、超知性に対する恐怖は事実との乖離を失い、単純な憤りに変わってしまった。\n私たちはメリットについてもっと議論し、恐怖を減らし、そして何よりも、建設を遅らせるときに何を放棄するのかについて正直に考える必要があります。"
+        },
+        {
+          "title": "I would really like to see more official updates from OpenAI, beyond just a vague \"nah, we're good.\"\nWhat is the reason behind GPT-6.2 Sol and Astra performing so poorly? How are you planning to fix this? What do the timeline and roadmap look like? How do you currently view the competition from Google, and what steps do you intend to take?\nI think this would be helpful for everyone involved. Communication with the community used to be better than it is now.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124413051436724336",
+          "domain": "x.com",
+          "published": "2026-11-22T17:01:55+09:00",
+          "published_label": "2026/11/22(日) 17:01",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OpenAI からは、単に漠然とした「まあ、大丈夫です」というだけではなく、もっと正式なアップデートを期待しています。\nGPT-6.2 Sol と Astra のパフォーマンスが非常に悪い理由は何ですか?これをどのように修正する予定ですか?タイムラインとロードマップはどのようなものですか?現在、Google との競合をどのように見ていますか?また、どのような措置を講じるつもりですか?\nこれは関係者全員にとって役立つと思います。コミュニティとのコミュニケーションは以前は今よりも良好でした。"
         },
         {
           "title": "“They're going to train AI systems that will train smarter AI systems. They will compress decades of research into months.”\nJacob coxon sees this a problem. I don’t.",
@@ -1111,47 +1145,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "この記事はとても重要だと思うので引用します。今日は大きく変わりましたが、特に教育に関しては大きく変わりました。\nリーマン予想、数学の聖杯: 1 人の数学者、クロードと 6 週間。証拠が有効で、最初のチェックが良好であれば、必要なのはそれだけです。今日以降、AI が最高レベルの創造的な科学を行うことはできないと主張するのは困難です。\n現在の最大の課題は科学そのものであり、数学、コンピューターサイエンス、STEM 全体の分野で次世代の科学者をどのように訓練するかです。\nAI が何を生み出すかを理解し、適切な質問をするには、依然として深い専門知識が必要です。しかし、新しい知識を生み出す人としての科学者は、少数の専門家が操作しチェックする AI システムにますます置き換えられるでしょう。そして今日のモデルはこれまでで最悪です。\nそうなると、大学教育はどうなるのかという疑問が直ちに生じます。同じ数、同じ仕事、同じ訓練を受けた科学者は必要ありません。より有能なモデルが科学的知識を生み出し、大学は存在理由の一部を失うでしょう。\n-私たちは人間の科学者が評価するのに苦労するような規模の知識を生み出すでしょう。 AIは生成と改ざんの両方の多くを引き継ぐでしょう。\n-研究者のための高等教育と訓練の場としての大学は、AIの個人家庭教師に道を譲るだろう。知識は人々が必要に応じて取得する商品になります。\n-その結果、科学的知識が爆発的に増加するでしょう。\n課題はすべてを持ち込むことです"
-        },
-        {
-          "title": "Terrance Tao expected the Riemann Hypothesis to be proven maybe in 2050.\nIn fact it took only 35 days.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123872524266020864/img/iTI8fFO9uXTS1UvT.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123955141019586980",
-          "domain": "x.com",
-          "published": "2026-11-21T10:42:21+09:00",
-          "published_label": "2026/11/21(土) 10:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "テレンス・タオは、おそらく 2050 年にはリーマン予想が証明されるだろうと予想しました。\n実際にかかった時間はわずか 35 日でした。"
-        },
-        {
-          "title": "Repost from Demis ❤️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXm-44_WgAAPRko.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123938593357898026",
-          "domain": "x.com",
-          "published": "2026-11-21T09:36:36+09:00",
-          "published_label": "2026/11/21(土) 09:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "デミスからの再投稿❤️"
         }
       ],
-      "elapsed": 6.0
+      "elapsed": 2.7
     },
     {
       "id": "x_haider1",
@@ -1183,13 +1179,15 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
-          "title": "AI: solves the riemann hypothesis\nhumanity: continues existing\ndoomers: ok but what if someone asks it to take over the world?\nanti-AI crowd: it's just predicting the next token\nboomer mathematicians: \"it still hasn't been independently verified\"",
+          "title": "another interesting mathematical development\nGPT-6 Astra Pro proposes a new proof of the Riemann hypothesis over finite fields in under six pages which was checked by two claude models and publicly acknowledged by a Stanford mathematics professor",
           "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2124367271967752598",
+          "images": [
+            "https://pbs.twimg.com/media/HXrUmu-aQAAJkhH.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2124421057054699811",
           "domain": "x.com",
-          "published": "2026-11-22T14:00:01+09:00",
-          "published_label": "2026/11/22(日) 14:00",
+          "published": "2026-11-22T17:33:44+09:00",
+          "published_label": "2026/11/22(日) 17:33",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1197,26 +1195,7 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "AI: リーマン予想を解く\n人類：存在し続ける\nドゥーマーズ: わかったけど、誰かがそれに世界を征服するよう頼んだらどうする?\n反AI群衆: それは次のトークンを予測しているだけです\nブーマー数学者「まだ独立して検証されていない」"
-        },
-        {
-          "title": "AI is advancing so fast now that it's getting harder to predict what's coming next\nthere definitely seems to have been some shift or breakthrough particularly at anthropic and openai about 2–3 months ago and everything has been moving much faster since then\ncoding, mathematics, robotics...",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqEKFQaIAADE_i.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2124324486300528935",
-          "domain": "x.com",
-          "published": "2026-11-22T11:10:00+09:00",
-          "published_label": "2026/11/22(日) 11:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "AIは現在非常に急速に進歩しており、次に何が起こるかを予測することがますます困難になっています\n約 2 ～ 3 か月前に、特に anthropic と openai で何らかの変化または画期的な変化があったことは間違いなく、それ以来すべてがはるかに速く進んでいます。\nコーディング、数学、ロボット工学..."
+          "title_ja": "もう一つの興味深い数学的展開\nGPT-6 Astra Pro は、有限体に関するリーマン予想の新しい証明を 6 ページ未満で提案しており、これは 2 つのクロード モデルによってチェックされ、スタンフォード大学の数学教授によって公的に認められています。"
         },
         {
           "title": "Demis Hassabis in april:\nIt would take AI 2 years to solve the riemann hypothesis or another millennium prize problem.\nTerence Tao in october:\ncurrent AI isn't enough to solve the riemann hypothesis, so maybe humans and AI together could make progress by 2050.\nnow we have solutions to two problems and breakthroughs across all the remaining ones",
@@ -1256,7 +1235,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122769131715837952/5LV17f6P?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2122734954425782272/4VZtjjQx?format=jpg&name=800x419"
           ],
           "link": "https://x.com/haider1/status/2124197444288422333",
           "domain": "x.com",
@@ -1434,9 +1413,29 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
+        },
+        {
+          "title": "ohh my... anthropic's levent alpöge claims to have discovered a proof of the Riemann Hypothesis with claude\nmathematics' most famous unsolved problem for more than 150 years\nScott Armstrong (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXk1OJSboAAd-5c.png?name=small",
+            "https://pbs.twimg.com/media/HXkoiilWgAAAeN1.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2123787651585372457",
+          "domain": "x.com",
+          "published": "2026-11-20T23:36:48+09:00",
+          "published_label": "2026/11/20(金) 23:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.4
     },
     {
       "id": "x_testingcatalog",
@@ -1738,7 +1737,7 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.6
     }
   ]
 }
