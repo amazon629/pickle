@@ -34,8 +34,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | トレカ抽選速報 X監視ボード（せど子・アフロくま・ぴかQ） | `sources-toreca-lottery.json` | `toreca-lottery.html` | `data-toreca-lottery.json` |
 | ライブコマース・TikTok Shop 4社 ニュース監視（Sホールディングス／Cellest／Gastroduce Japan／CREOK） | `sources-livecommerce-4companies.json` | `livecommerce-4companies.html` | `data-livecommerce-4companies.json` |
 | 買取系 X監視ボード（トレンドNews／買取ルデヤ／買取ソムリエ／買取ホムラ／買取エノキング） | `sources-kaitori.json` | `kaitori.html` | `data-kaitori.json` |
+| ポケカ・トレカ抽選2 X監視ボード（MEISY／おむすび／ポケカ情報速報） | `sources-pokeca-lottery2.json` | `pokeca-lottery2.html` | `data-pokeca-lottery2.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html` / `/kaitori.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html` / `/kaitori.html` / `/pokeca-lottery2.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）

@@ -1,0 +1,39 @@
+{
+  "settings": {
+    "title": "ポケカ・トレカ抽選2 X監視ボード",
+    "nav_label": "🔔 抽選2",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_meisy_tcg_news",
+      "type": "x",
+      "name": "トレカ抽選情報＠MEISY｜ポケカ｜ワンピースカード｜遊戯王",
+      "handle": "Meisy_TCG_News",
+      "enabled": true
+    },
+    {
+      "id": "x_omusubicororiin",
+      "type": "x",
+      "name": "おむすび",
+      "handle": "omusubicororiin",
+      "enabled": true
+    },
+    {
+      "id": "x_davincii777",
+      "type": "x",
+      "name": "ポケモンカード情報@速報、Pokémon、ポケカ、抽選販売",
+      "handle": "davincii777",
+      "enabled": true
+    }
+  ]
+}
