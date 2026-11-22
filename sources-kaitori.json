@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "買取系 X監視ボード",
+    "nav_label": "💰 買取",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_ip_kaitori2025",
+      "type": "x",
+      "name": "トレンドNews",
+      "handle": "ip_kaitori2025",
+      "enabled": true
+    },
+    {
+      "id": "x_kaitorirudeya",
+      "type": "x",
+      "name": "【公式】買取ルデヤ",
+      "handle": "kaitorirudeya",
+      "enabled": true
+    },
+    {
+      "id": "x_somurie_kaitori",
+      "type": "x",
+      "name": "買取ソムリエ",
+      "handle": "somurie_kaitori",
+      "enabled": true
+    },
+    {
+      "id": "x_homuhomu_3150",
+      "type": "x",
+      "name": "買取ホムラ",
+      "handle": "homuhomu_3150",
+      "enabled": true
+    },
+    {
+      "id": "x_tta179",
+      "type": "x",
+      "name": "買取エノキング",
+      "handle": "TTA179",
+      "enabled": true
+    }
+  ]
+}

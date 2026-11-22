@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T12:04:08+09:00",
-  "generated_at_label": "2026/11/22 12:04 JST",
+  "generated_at": "2026-11-22T14:02:21+09:00",
+  "generated_at_label": "2026/11/22 14:02 JST",
   "title": "SNS・広告代理店 ニュース監視",
   "total": 190,
   "sources": [
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "sns_02",
@@ -137,7 +137,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "電通デジタル「TONARIWA」に不正アクセス 個人情報漏えいのおそれ、日本郵便のLINEも停止",
@@ -153,7 +153,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "日本郵便「郵便局［ぽすくま］」LINEサービス停止 委託先 電通デジタルの「TONARIWA」に不正アクセス、情報漏えいのおそれ",
@@ -169,7 +169,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "電通デジタル、マーケティング支援事業で情報漏洩か 不正アクセスで",
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_03",
@@ -208,22 +208,6 @@
           "domain": "septeni-holdings.co.jp",
           "published": "2026-11-16T11:11:54+09:00",
           "published_label": "2026/11/16(月) 11:11",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "セプテーニ・ホールディングスが12月優待を新設！5500円相当をもらうには？",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBOZXFCMzJtZ19BZzNzU3IxX21Xa2VkVzFydTVnVVg4Nl9DSG40QlJtU0E1QjI1SG9wd3E3Sk9wODRRei1FUGZpckZzV3Qycndyb2QzVzEyMzlKT09FUmNFRDhn?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-11-14T21:40:00+09:00",
-          "published_label": "2026/11/14(土) 21:40",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -279,9 +263,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "セプテーニ・ホールディングス、株式会社メディアハウスホールディングスの連結子会社化に向けた株式譲渡契約を締結",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XUjV2TDVjMnFCNUVrN3I2V2UwaExuak1DS2d2NHA4UldHSWctOXZiSXhLQXhxLUU4bGZRVGFIc0pEYnd4SmRjRUlfVDJDM3lzT1d2V2NWdzFmdF9lVE8wQWxlVEl5RkdwcHVfOFBIQmZtaEtH?oc=5",
+          "domain": "septeni-holdings.co.jp",
+          "published": "2026-09-24T16:00:00+09:00",
+          "published_label": "2026/9/24(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "sns_04",
@@ -374,7 +374,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_05",
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_06",
@@ -560,7 +560,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_07",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "sns_08",
@@ -746,7 +746,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_09",
@@ -839,7 +839,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_10",
@@ -852,13 +852,13 @@
       "count": 5,
       "items": [
         {
-          "title": "AnyMind Group、法人ブランド支援が成長し増収増益 生産性改善の継続により3Q営業利益前年比71％増",
+          "title": "AnyMind Group、米国法人「AnyMind USA, Inc.」を設立し、米国市場での事業を本格開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE44VUpybU0tNmRJU2J0ZGJNb3FfTEhGbnJXMHh5TTNkRGlOSzQ0Ti1aaHhhcE12a3JRVWlGWks0Rm1yZ1hrX3c?oc=5",
-          "domain": "minkabu.jp",
-          "published": "2026-11-19T15:30:01+09:00",
-          "published_label": "2026/11/19(木) 15:30",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92WWpTTGlTYnFmMVhyN0FpeUJxTWtEUWFqQklxLXJCWE9rN3Zmc2QwUUFwYWVDOHJydEZkdVM5NXZMVHp3UllGMkZRd0VZR3BGSVN2bnUySXZWSDJDVlgzTFBEWlpyMHdJc0lkc1dxUFA?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-10-22T16:00:00+09:00",
+          "published_label": "2026/10/22(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -868,13 +868,13 @@
           "is_new": true
         },
         {
-          "title": "【決算速報】ＡｎｙＭｉｎｄ---26年12月期3Qは増益、経常利益は99.2％増(フィスコ)",
+          "title": "AnyMind Group、インドネシアの「2026 Indonesia Lazada Partner – Overall Performance award」を受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdG5qem95NWF2c1ptRVFiUVBfYUFObFpudm9Cd1ZOZGlXSVBuMklzanduQm1ScFVLZEExUV92eWtDdG4tRk96bTlOY2kweGRxQ005WDluRUhhYVFtZWZDeEV6d3dfRE56eXNNd05FYkhzZ0R0WWVrWGxNNG5mdC1sQ3VlS2ljZWM?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T22:49:23+09:00",
-          "published_label": "2026/11/13(金) 22:49",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbThrY1djRk9YUnlPTUpKYWdsWWsydGVKR2NGSERaUmxRYjhxTlZOekYxLWp3a05VREc2aTYwMVhjN0gzRHFWb0JhTFFpSHBKSTN3VzdjSnhPNzF5dnY4WVkyX0F6dEI5dEtrMDdfckpLZHNNdWNOQjRNT0lnc19heV80YVNWM3ZyYTRzdWlR?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-10-09T16:00:00+09:00",
+          "published_label": "2026/10/9(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -884,13 +884,13 @@
           "is_new": true
         },
         {
-          "title": "ＡｎｙＭｉｎｄ Ｇｒｏｕｐ[5027]：2026年12月期 第3四半期決算説明資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "title": "AnyMind Group、「AnyAI Insight」をアップデート、消費者分析から事業・マーケティング戦略の策定まで支援",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MT214TjVqYkF3SFozQ2R2VGdDdkpGLWpPcm8yN3NhdGRwWTVDdnpNcmhoVU9KczlLQ21OeGREdVVyUU83VzN5LUpmbGx6QV81aXRDLTdDOFU3NDJUY09pNG9LVFpwTHl3R3c?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-13T15:30:00+09:00",
-          "published_label": "2026/11/13(金) 15:30",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1fQjJpbm9JOUhLSGVLdExmOVBtMlNtYlRnWkwtcTFabE9udVJORGZ6V3NXV25FUlZodm5Ydkc1X2NHTjR1UUVWa3dGbzRTNTRHUWg4M01VNlRTWXdiR0pnaW16ckNRUzhRY1d1cFBYcFRFbV9QOGc?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-08-25T16:00:00+09:00",
+          "published_label": "2026/8/25(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -900,13 +900,13 @@
           "is_new": true
         },
         {
-          "title": "ＡｎｙＭｉｎｄ Ｇｒｏｕｐ(株)【5027】：決算情報",
+          "title": "AnyMind Group、日本のeスポーツブランド「REJECT」と戦略的パートナーシップを締結",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HYl8xQW92SlBwT0xWSUhPVWhsYTVfT0w4N3RGaWRVOGxEdENPVjQ3WDhnZGUwdXR5WDFMUmhzZ0YtUTUxSHR3NE0teWMxRF9UbmJmd3poLTFyMUVSN25MLQ?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T15:30:00+09:00",
-          "published_label": "2026/11/13(金) 15:30",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TVTY1WGNYVFNCZGRnVy0tU0lHdWx2Tkg4R25oVnZMREtNT05PUUliY0RtRDlVdUVjdGNUcElsaTJnSUVfQ1dkRDVsU0hvS1ZXUE02alZ0LTYtbm5LLWtBbmc3YlQ3ckFSYzlTbGQxSFBMaEVnZlZaQWo4T0g?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-07-30T16:00:00+09:00",
+          "published_label": "2026/7/30(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -916,13 +916,13 @@
           "is_new": true
         },
         {
-          "title": "ＡｎｙＭｉｎｄ Ｇｒｏｕｐ(株)【5027】：配当情報",
+          "title": "AnyMind Group、香港のTVB Music Groupと「RED（小紅書）」における戦略的パートナーシップを締結",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB6cTJldzIxYTNRd0tnWVdmNVRvandCSWZjR3JYZnlTSTk4ZTlNNmpRVlpuZFRtMGg0R0Nta2hMMkVPd21GZnNoMFBPSDFlSGN4R3VmU2VuQlpYY05Xbnc?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-12T17:00:00+09:00",
-          "published_label": "2026/11/12(木) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9Nd1lkMkkxY0pxOVVWeGQ3S3F3dmloQUQ5MmQwSVdLQ1RiVU10RzB0MDQ2N0RNMWxNUldNdktHSWNISkdVQWRFa1laU0o4ckZ3LXk1RjdrbzlNMXc0Tk40YzdiR3RRY215cUIyUFI0ZDZVLXZEbnh3?oc=5",
+          "domain": "anymindgroup.com",
+          "published": "2026-06-25T16:00:00+09:00",
+          "published_label": "2026/6/25(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -932,7 +932,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_11",
@@ -1025,7 +1025,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_12",
@@ -1038,13 +1038,13 @@
       "count": 5,
       "items": [
         {
-          "title": "ヒカキンさん所属のUUUM、飯綱町で情報発信講座 ＳＮＳの“こつ”伝授",
+          "title": "UUUM株式会社様と包括連携協定を締結",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnYmpEcTE5RlhjY1gxQ0VwSXdwTFhpN2xESVRDYU1FQmtKSDZ5Wm1LWXZKeFhpdzRHRlZyUEZjUW1HZm50WWVVVFFIUm5sd1JWRHN3S21Vc0xyQkhzQnAwZW9qVHZ2TVVfQkNRNTBTOHg?oc=5",
-          "domain": "shinmai.co.jp",
-          "published": "2026-11-17T15:27:00+09:00",
-          "published_label": "2026/11/17(火) 15:27",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5obzBtS3g1Nm9EMnZla19HVnNfOFpNaEtkVGkwT2d3aFVyQ0lDVEpyeUJMYmZLX09GME13OWplLU9MM2V5YWs0b2pLM3EtN2pXbTE5dmIwc1h5dWw5N3QzRUJmZXJIMXZ5QWY0?oc=5",
+          "domain": "city.kawachinagano.lg.jp",
+          "published": "2026-01-14T17:00:00+09:00",
+          "published_label": "2026/1/14(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1054,13 +1054,13 @@
           "is_new": true
         },
         {
-          "title": "UUUMとUUUMマーケティングが「YouTube Creator Partnerships API」連携開始、データに基づくクリエイター選定を実現",
+          "title": "インフルエンサー向けマネタイズプラットフォーム「UUUM ONE」始動〜TikTokも、Instagramも。UUUMが収益獲得をサポート",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OVll5eVNZOEQ5bkNOZ3JIYV9jVDB0cjdaZk16bkliay1KUl9JVE8zeFBQeFpUTUtnRXl2ZU03S3U1Q29fOE45TWJjRzNjLUhyd3FPQ2tCQQ?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-11-11T13:44:21+09:00",
-          "published_label": "2026/11/11(水) 13:44",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1nQ0JvRHhsSVpJb1dRY2FKenpDaDVHcDBoOHpGVzNpaVRiSFA0X1I1TXRFRzhOQ2xDN0VOd3pXVmlJc1I4NmpyTzVB?oc=5",
+          "domain": "uuum.co.jp",
+          "published": "2025-12-10T17:00:00+09:00",
+          "published_label": "2025/12/10(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1070,13 +1070,13 @@
           "is_new": true
         },
         {
-          "title": "UUUM、GoogleのYouTube Creator Partnerships APIと連携 - クリエイター選定から効果測定まで支援",
+          "title": "UUUMクリエイターも参戦！アイリスプラザ会員500万人突破記念キャンペーンが開催中！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EVG1SbmxwbllvUXpNa1QzU3pRakdmTE5PYzY2VUZYSThXMnBvOUFQMTM3ejVobVJHWFVYcnNweWc4VHh3ZC0tbXAtN0hTWXJQdWtxSEZjU2QzQTlWMUtaSTJIamo3bXlL?oc=5",
-          "domain": "news.mynavi.jp",
-          "published": "2026-11-10T17:00:00+09:00",
-          "published_label": "2026/11/10(火) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5OMkM2ZC1mWlJpODF1YlVtQ2drY0FtWURQWWZQbkhKc1NldHRTZ2doc25CZTU2TU45WTY4eTN0djhlbDg?oc=5",
+          "domain": "uuum.jp",
+          "published": "2025-09-26T16:00:00+09:00",
+          "published_label": "2025/9/26(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1086,13 +1086,13 @@
           "is_new": true
         },
         {
-          "title": "UUUM、Googleが提供する「YouTube Creator Partnerships API」との連携を開始",
+          "title": "オリジナルスマホケース作成アプリ「デザインケース」にUUUMクリエイターが登場",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EVVhUcWhFTWt5amc5a2pwWkt0RHdFeHZIU2gwaVJjOXdBMDhUX1Y1WjN1S3pSWl9KRFF4LVM1S2YzM1VVUGNqb3VCM1hXOVJNMVo3SWszVzF1WXdyaVEtS2huRS1KOHNCM2c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-10T17:00:00+09:00",
-          "published_label": "2026/11/10(火) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFAzMzZ1RzNOV3R4SU5UY0w0WGl2d1l5WGJTcVlsNzBfOVgxSThoeWxJWGNOMXp2YzBlb2ZqODNJV05CQQ?oc=5",
+          "domain": "uuum.jp",
+          "published": "2024-10-08T11:12:10+09:00",
+          "published_label": "2024/10/8(火) 11:12",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1102,13 +1102,13 @@
           "is_new": true
         },
         {
-          "title": "長野県 飯綱町 UUUM株式会社と包括連携協定を締結しました",
+          "title": "UUUM専属クリエイターのYouTubeコンテンツに関する「二次創作ライセンス許諾プログラム」の取り組みに関するお知らせ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PY0t0VDdRQ1RHY0tuM19McFZVZVpzbjJhSWJ6YUh4RngyNDkxbm5tSmpwYm5hQmR5LXFFZ3BBUThMMVR2YjRjWHRuZmZQYUtzTk83RnYtRS1FWmJtRnJ0S1RqZDI?oc=5",
-          "domain": "shinmai.co.jp",
-          "published": "2026-09-24T16:00:00+09:00",
-          "published_label": "2026/9/24(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uN0dFVE9uZnFJS2FKbUs4UFM5YUlmYlpVWE1EUktUSUYzelhRYllNYzVTbnAxU29EbG04NVJCWUpGc25Zb1JvVA?oc=5",
+          "domain": "uuum.co.jp",
+          "published": "2021-07-29T16:00:00+09:00",
+          "published_label": "2021/7/29(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1118,7 +1118,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "sns_13",
@@ -1211,7 +1211,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_14",
@@ -1304,7 +1304,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_15",
@@ -1397,7 +1397,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_16",
@@ -1490,7 +1490,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "sns_17",
@@ -1583,7 +1583,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.8
     },
     {
       "id": "sns_18",
@@ -1596,11 +1596,11 @@
       "count": 5,
       "items": [
         {
-          "title": "TORIHADA、編集工数を15分に短縮 「継続して作り続けられる体制」を支援（日本ネット経済新聞）",
+          "title": "TORIHADA、編集工数を15分に短縮 「継続して作り続けられる体制」を支援",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOVBVcGlXWkZpMzZKWkpTT2FVS1BpWXN0dzBpd2VOZlJuNVRrNk16M2NEU3ptcFo5N3lyY2E3Sm1zckQ2dzhYM3V0a3I1NTduMUVmd21DT2t5cHVfOVNIdnh4aUdhUGFOUWFSSTA3Ym1zN2RvYVdhVkNCQzh0cFk?oc=5",
-          "domain": "news.yahoo.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xdnNxN3FjQVNwMU80LVhHNHF6Q1JoUTg5T256RjUzbXJ4QlVFaFlrcW9IRkxGbFpzellaUWMweEIyS1d5c0ZxR1RQZEZKam9TdU1PU3p3?oc=5",
+          "domain": "netkeizai.com",
           "published": "2026-10-19T16:00:00+09:00",
           "published_label": "2026/10/19(月) 16:00",
           "badge": "JP",
@@ -1609,7 +1609,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "TORIHADA子会社PPP STUDIO、SNS特化のエンタメレーベル「PPP Viral Entertainment」始動 ニシコリ・Voice Connectが8/14ワンマン",
@@ -1676,7 +1676,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_19",
@@ -1769,7 +1769,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_20",
@@ -1862,7 +1862,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_21",
@@ -1939,20 +1939,20 @@
           "is_new": false
         },
         {
-          "title": "TikTok for Business、「TikTokクリエイター白書 2026」を公開",
+          "title": "「TikTok for Business Japan Agency Awards 2026」で5賞を受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYYjRJMk44djd2QXY2SHRTaFJZUUtzRDZNRXdmcVIxNkl1Z0hDQTBFWlc5UkJvdGNsTHJHbVNhV0taak9CYkdDR2Z6SC1ZN3I4NHdpdw?oc=5",
-          "domain": "musicman.co.jp",
-          "published": "2026-04-23T16:00:00+09:00",
-          "published_label": "2026/4/23(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lTzhadWhBSk52Q0RvY3k1Y203dzFfZjU0N3JOYzFNbnlvWF96eWZVUEREVzg5NUZ4VURGTlB4dUptTlhnd3U5dmd6enhJN1NYS05JekgwTXotaFRoQ0E?oc=5",
+          "domain": "cyberagent.co.jp",
+          "published": "2026-04-22T16:00:00+09:00",
+          "published_label": "2026/4/22(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -2003,7 +2003,7 @@
           "title": "YouTubeチャンネル総再生回数ランキング、Snow ManがM!LKを上回り首位【2026年上半期・BitStar調べ】",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fTjdQVUN5OHZEUWlLWTdUcUNCVk5Jd1BKdDhkYXAwX3Vjc0ZWZXZlM1JGeVY3Y3BuSU5qa0thNnBzSi13WDR5OF9ISFlrQjIwclVNaXBOT242Vmt6bzdhRHUwVnlCT1hGdTdNSHRSbDJOeTdvaEtZRFhaTWs1ckE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSXNTVlN1MHZ6QkRkX1FMY2ZDalJsTW5GaGUwVGZ5ZnRIYlVWQUtVM0dzdENYdmhQb1p3OW94N2FCUWZIWXl0RDJ5R0lJWGRXZDYtTmpMMWxyVTBaaGxEaTZmcUFPdksxWi1ESFpnRHpFMzY3VVpQUjZzODJMc2o2cUVOaENvUk9L?oc=5",
           "domain": "news.yahoo.co.jp",
           "published": "2026-07-21T16:00:00+09:00",
           "published_label": "2026/7/21(火) 16:00",
@@ -2013,7 +2013,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "BitStar、2026年「インフルエンサーパワーランキング」を発表！",
@@ -2048,7 +2048,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.6
     },
     {
       "id": "sns_23",
@@ -2060,6 +2060,22 @@
       "via": "https://news.google.com/rss/search?q=%22X%20Mile%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "損保ジャパンとX Mile、物流業界の2024年問題解決へ業務提携…全国代理店網で「ロジポケ」展開",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUm5sQnhmbkhqVXhVNk5ZMzlkVkp4MS1kOEtXemdrSEdRc19iSk5HZnFaTFRtYS02UEdXWV8wOGNtZFBiZmYxSFFzSG1na1RSeGNqN3dzRTF3T1Vvc1VCM0N5ai11Y3VZR05JVmlieHlqUUdZQlA4OFJnMHV1YkRVd1RVajUxS2hp?oc=5",
+          "domain": "carview.yahoo.co.jp",
+          "published": "2026-11-06T17:00:00+09:00",
+          "published_label": "2026/11/6(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "損保ジャパン、Ｘ ＭｉｌｅのＤＸサービスを紹介",
           "summary": "",
@@ -2075,6 +2091,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "X Mile／トラック運送業のコスト・運賃を網羅した月次レポート創刊",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2ZnE5cnMwMDNCZ2xPM0ZUQnZXTUpPVlRxRFJsX3VuQV9SVTRTdUk3dkdHUHlnMjdTUnhrZWVPRDFBbzFERFpSV0s5T3FMSmdTTlBLbg?oc=5",
+          "domain": "trucknews.biz",
+          "published": "2026-11-05T17:00:00+09:00",
+          "published_label": "2026/11/5(木) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "X Mile（クロスマイル）と損保ジャパンが物流2024年問題対策で業務提携 全国代理店網を通じてロジポケ特別プランを提供",
@@ -2093,52 +2125,20 @@
           "is_new": false
         },
         {
-          "title": "X mile／損害保険ジャパンと交通事故削減に向け業務提携、物流事業者へロジポケ導入を優遇",
+          "title": "X Mile、官民有識者40人超登壇する「物流DX未来会議2026」を11月11日開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9mQXVzSVZYWFBkSVNTN25La1lMLWJ6MHFqTjI0RUxxdTlOOHZQSUdQdXRBSmc1WlFQY2o1SkNyRUNUSDVhMk5MM0NDb3RJdVBxWDFxeQ?oc=5",
-          "domain": "lnews.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5TMVBpNFgtOWJ6TWVZWmUyTjVreGM1MEd1ZUQtVXkybEZLODBaV2RSLVpMbGVvYzE3Zkp2OHllR2Vxd2d0bkxLaWRwNA?oc=5",
+          "domain": "online.logi-biz.com",
+          "published": "2026-11-04T17:00:00+09:00",
+          "published_label": "2026/11/4(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "X Mile、損保J代理店網で「ロジポケ」展開",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1MekhfTWdMNjFaTFZDSXNGa3FLajZPNWM4MXpuMTVSc1pUSTA0LTV0aDFvSVBKOTNYQVdTNjVBb2F5anpXZ3NHQUlB?oc=5",
-          "domain": "logi-today.com",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "X Mile、損保ジャパンと物流業界の「2024年問題」解決に向けた業務提携を開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41NUdHek1jY1FvcGJKLVc3Z3o0WW0xc05OSl9GdTZ0Q0Ixak5JRDY4Q1h4TnNKTE5OYTZCU1Q3eGRnNHhIRlFxUGxPLWItdm5QY05nY2xuQ2ZTdVRNQXE2REdIZ245ZVRGMkE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -2183,7 +2183,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ソウルドアウト、キッチハイクの「保育園留学の奨学金」への企業寄附第一号",
@@ -2199,7 +2199,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ソウルドアウトグループ、採用サイトを全面リニューアル！地域から100億円企業創出に向け、共に挑む「志」を持った仲間を募集。",
@@ -2234,7 +2234,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_25",
@@ -2279,6 +2279,22 @@
           "is_new": false
         },
         {
+          "title": "ExchangeWire主催「ATS Tokyo 2026」に代表・土井が登壇 ──アドウェイズ前田氏、KDDI高村氏らと語るオフライン広告の本質",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUN0VfLWYtblFxcmRhNEVkNGRKcFpYU1NGbEdvV1FlT1BpSzhXcHpieEhYTllxc2c5Wk9UU0pzWTZIVk1IV0RlaENSVjBWV2Y4cjAxZS1XOUFWUWRNZ1VTUkRFaXJUTFBQWnc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-16T10:10:01+09:00",
+          "published_label": "2026/11/16(月) 10:10",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "アドウェイズについて、岡村陽久氏は保有割合が減少したと報告 [変更報告書No.33]",
           "summary": "",
           "images": [],
@@ -2309,25 +2325,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "アドウェイズが伊藤忠商事と資本・業務提携、伊藤忠グループへの広告配信システムの導入推進",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmTGpmZkhqUzhaVTBTRGpQa3BMWXVVTUVKX0pxVXB2eW93bk14TlBfdWtfeWUxejZsS0xtRHplRmZGNjlsRm5XYWUwd2c3dUV0QUFzVEZMU0YtLUk?oc=5",
-          "domain": "webtan.impress.co.jp",
-          "published": "2026-11-05T17:00:00+09:00",
-          "published_label": "2026/11/5(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_26",
@@ -2420,7 +2420,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_27",
@@ -2513,7 +2513,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.7
     },
     {
       "id": "sns_28",
@@ -2606,7 +2606,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "sns_29",
@@ -2696,10 +2696,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_30",
@@ -2789,10 +2789,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_31",
@@ -2885,7 +2885,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "sns_32",
@@ -2897,38 +2897,6 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%AA%E3%83%97%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "博報堂DYHD、国内マーケティング事業の再編検討 大広・読広・オプトを統合へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03eHlMX2ROZEtwSHRNS3llN1ZvOE53MWtiQWFCZWtoOV9JLUZQZnUwcGE2Vm0yU2Utc2NUY3RzZUJ0V2FaMzk3MzVEb2UtX3JaTTcwLWRZRkdDV2ZEWTlFaHRBcDVLQktsYVE?oc=5",
-          "domain": "media-innovation.jp",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "株式会社オプトリンクスが提供するWebサイトの脆弱性診断サービス「Guardia Verified」バッジの魅力",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qNVhfYXJmQVRTbUdudlhQc1VnOHZpa28tRi03cHJLTXVQcnJIVTJPTE1YaHlNdHhmVjV3VzNVQm5QTmJVeGRyWm9EY0ZSdEVrV3RMMkljNjNVZjh3azdFSWpaX2M2dy02bTZDTA?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-10T19:46:37+09:00",
-          "published_label": "2026/11/10(火) 19:46",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "オプトが広告入稿代行サービス「アド・インフラパック™」提供開始、インハウス化支援で新たなハイブリッド運用モデルを実現",
           "summary": "",
@@ -2976,9 +2944,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "オプト、スマートニュースの認定代理店制度「SmartNews Ads パートナー プログラム」において、二年連続「Gold」に認定",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52a1EybnNndXlzekpBMUVtaFRRSEc1UmhIRE9EWFJiYk5mTHJKQklwcUxrWHdkVVZDR0FlZFBpLWV3MjF0UGQ1ME00TjR3em1wbm5SZ2RBZUpwdTd1ZXM2ZFR5Y2U5emdCNnc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-05-25T16:00:00+09:00",
+          "published_label": "2026/5/25(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "オプトがAnthropic社「Claude Enterprise Plan」を全社導入、AIエージェント基盤の広告運用構造変革を始動",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBVUpfVnhNbDVGRHVxejJ0MFpheWkzTWpCYzMwR1ctSFdkYk9WT0xtSXdkYzQwYks5cko3azJCTDg2SUw4cEl5Y25SdkNmeVVfdS1YZVNn?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-05-19T16:00:00+09:00",
+          "published_label": "2026/5/19(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_33",
@@ -3071,7 +3071,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "sns_34",
@@ -3101,6 +3101,22 @@
           "title_ja": "オーケストラホールディングス[6533]：法定事前開示書類（合併）（株式会社Concerto Partners） 2026年11月18日(適時開示)：日経会社情報DIGITAL"
         },
         {
+          "title": "Orchestra Holdings、子会社のConcerto Partnersを吸収合併",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE14OHZGUUR5MVhVVFJrNXlQX2xKeVNwb0Jqb3NhRjhjLTk5VWZxUjBwbnprUEFJaWlqRW9hdVNqc1Eyb3ljYWtHTW5MUEVEeUJycHN0T3NKUmE?oc=5",
+          "domain": "marr.jp",
+          "published": "2026-11-13T13:57:00+09:00",
+          "published_label": "2026/11/13(金) 13:57",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "(株)Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ【6533】：決算情報",
           "summary": "",
           "images": [],
@@ -3117,55 +3133,39 @@
           "is_new": false
         },
         {
-          "title": "Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ[6533]：デジタルアイデンティティ、AI人材の育成に向け独自のEラーニングを開発し、全社員が受講完了。自社導入の知見をもとに企業のAI人材育成の支援を開始 2026年10月19日(適時開示) ：日経会社情報DIGITAL",
+          "title": "Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ[6533]：スキルマネジメントシステム「スキルナビ」 、現場での日常運用がそのままISO審査の証跡となる新機能「資格管理Cockpit」提供開始 2026年10月26日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBb3RnX0dJTDlOUGFaTlZTMmNsXy1PeEIwcWVqZWpabGxqN01KSnZEdlJpVzdBZzN3cWFsZHktckZQUGE3cXNYSFFTYkVMZnI3SERCR1FwV0ZwZE9WUUNmUW5RQzd3QWlKdmc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzTzdFVlVLVmx3X0V6b091RHQxZVJ6bmJoTThIWHpqYXBoVE82c0ZBVUJ1b3loRC1weV9Qal9URkpTeFpPMVUzR2VsMjQ3Q3lSTGFnTzZrS194TGQ2RVpjNjFldk9UZHhqWGc?oc=5",
           "domain": "nikkei.com",
-          "published": "2026-10-19T16:00:00+09:00",
-          "published_label": "2026/10/19(月) 16:00",
+          "published": "2026-10-26T16:00:00+09:00",
+          "published_label": "2026/10/26(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ[6533]：グループ組織再編に関するお知らせについての補足資料 2026年10月13日(適時開示) ：日経会社情報DIGITAL",
+          "title": "Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ[6533]：デジタルアイデンティティ、LLMO分析ツール「Forte.AI LLMO Analytics」に「ブランド評価」機能の追加、分析画面の刷新などの大幅アップデートを実施 2026年10月23日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tSmZ1QVdDOTNmcDF4STBwRU9XSWRSWldUVlc2REk0ZElGay0wQzdpTlFRSEQ3NE1aYnM1T1V3cFRqbVZRRVFQblNRUlI5RkMzTXByT0s5VlFMdkxfbW1RYzBxdXY3djdGRVE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5QUzBlVFRScUM5bTcwaWFwMGltaWN0TkhUWDZmcVA2TEJOeC1kOWI5SEkycmpaMDd4b1FrYWtLMlpZVmNrYXl1a2JfR3BPOVhqNjJ1NUgxVEF0VnVXc0xXTWs5UHVYam8xakE?oc=5",
           "domain": "nikkei.com",
-          "published": "2026-10-13T16:00:00+09:00",
-          "published_label": "2026/10/13(火) 16:00",
+          "published": "2026-10-23T16:00:00+09:00",
+          "published_label": "2026/10/23(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Ｏｒｃｈｅｓｔｒａ Ｈｏｌｄｉｎｇｓ[6533]：株式会社ヴェスの「SBOM＋」国内展開に向けたアライアンスについての補足説明～セキュリティ事業の展開について～ 2026年10月9日(適時開示) ：日経会社情報DIGITAL",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tNFJ0azgybEhRRmdlaXJnZTk5dEppVGRjcW01U1ltcVhPSnQtWE1OR0pHUk1qNmZPTThEdl8ycFBIMGxiX1R4YlVhLUUxTkdIaERjNkkwMDJPMWJGSWtMcFVYNGVxZ2xuaUE?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-10-09T16:00:00+09:00",
-          "published_label": "2026/10/9(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_35",
@@ -3351,7 +3351,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "sns_37",
@@ -3470,7 +3470,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【決算速報】デジタリフト---26年9月期は減益、経常利益は39.4％減(フィスコ)",
@@ -3537,7 +3537,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     }
   ]
 }

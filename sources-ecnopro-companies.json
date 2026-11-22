@@ -26,11 +26,10 @@
     {
       "id": "ecnp_02",
       "type": "google_news",
-      "name": "株式会社これから",
-      "query": "\"株式会社これから\"",
+      "name": "株式会社マクロジ",
+      "query": "\"マクロジ\"",
       "must_match": [
-        "株式会社これから",
-        "これから、"
+        "マクロジ"
       ],
       "limit": 5,
       "enabled": true
@@ -38,10 +37,11 @@
     {
       "id": "ecnp_03",
       "type": "google_news",
-      "name": "株式会社マクロジ",
-      "query": "\"マクロジ\"",
+      "name": "株式会社これから",
+      "query": "\"株式会社これから\"",
       "must_match": [
-        "マクロジ"
+        "株式会社これから",
+        "これから、"
       ],
       "limit": 5,
       "enabled": true
@@ -985,10 +985,10 @@
     {
       "id": "ecnp_128",
       "type": "google_news",
-      "name": "株式会社中小企業のチカラ",
-      "query": "\"中小企業のチカラ\"",
+      "name": "株式会社リスマ",
+      "query": "\"リスマ\"",
       "must_match": [
-        "中小企業のチカラ"
+        "リスマ"
       ],
       "limit": 5,
       "enabled": true
@@ -996,10 +996,10 @@
     {
       "id": "ecnp_129",
       "type": "google_news",
-      "name": "株式会社売れる越境EC社",
-      "query": "\"売れる越境EC社\"",
+      "name": "株式会社中小企業のチカラ",
+      "query": "\"中小企業のチカラ\"",
       "must_match": [
-        "売れる越境EC社"
+        "中小企業のチカラ"
       ],
       "limit": 5,
       "enabled": true
@@ -1070,6 +1070,17 @@
     {
       "id": "ecnp_130",
       "type": "google_news",
+      "name": "株式会社売れる越境EC社",
+      "query": "\"売れる越境EC社\"",
+      "must_match": [
+        "売れる越境EC社"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_131",
+      "type": "google_news",
       "name": "株式会社識学",
       "query": "\"識学\"",
       "must_match": [
@@ -1079,7 +1090,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_131",
+      "id": "ecnp_132",
       "type": "google_news",
       "name": "角川流通倉庫株式会社",
       "query": "\"角川流通倉庫\"",
@@ -1090,7 +1101,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_132",
+      "id": "ecnp_133",
       "type": "google_news",
       "name": "Gastroduce Japan株式会社",
       "query": "\"Gastroduce\"",
@@ -1101,7 +1112,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_133",
+      "id": "ecnp_134",
       "type": "google_news",
       "name": "売れるAIマーケティング社株式会社",
       "query": "\"売れるAIマーケティング社\"",
@@ -1112,7 +1123,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_134",
+      "id": "ecnp_135",
       "type": "google_news",
       "name": "株式会社hide&seek",
       "query": "\"hide&seek\"",
@@ -1123,7 +1134,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_135",
+      "id": "ecnp_136",
       "type": "google_news",
       "name": "株式会社ripples",
       "query": "\"ripples\"",
@@ -1134,7 +1145,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_136",
+      "id": "ecnp_137",
       "type": "google_news",
       "name": "株式会社ジグザグ",
       "query": "\"ジグザグ\" EC",
@@ -1191,7 +1202,7 @@
       ]
     },
     {
-      "id": "ecnp_137",
+      "id": "ecnp_138",
       "type": "google_news",
       "name": "株式会社プラスアルファ・コンサルティング",
       "query": "\"プラスアルファ・コンサルティング\"",
@@ -1202,7 +1213,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_138",
+      "id": "ecnp_139",
       "type": "google_news",
       "name": "株式会社SpiderLabs",
       "query": "\"SpiderLabs\"",
@@ -1222,7 +1233,18 @@
       ]
     },
     {
-      "id": "ecnp_139",
+      "id": "ecnp_14",
+      "type": "google_news",
+      "name": "株式会社Nint",
+      "query": "\"Nint\"",
+      "must_match": [
+        "Nint"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_140",
       "type": "google_news",
       "name": "KURO HOLDINGS株式会社",
       "query": "\"KURO HOLDINGS\"",
@@ -1240,18 +1262,7 @@
       ]
     },
     {
-      "id": "ecnp_14",
-      "type": "google_news",
-      "name": "株式会社Nint",
-      "query": "\"Nint\"",
-      "must_match": [
-        "Nint"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_140",
+      "id": "ecnp_141",
       "type": "google_news",
       "name": "MOON-X株式会社",
       "query": "\"MOON-X\"",
@@ -1262,7 +1273,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_141",
+      "id": "ecnp_142",
       "type": "google_news",
       "name": "NewSpot株式会社",
       "query": "\"NewSpot\"",
@@ -1273,7 +1284,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_142",
+      "id": "ecnp_143",
       "type": "google_news",
       "name": "RAKUMART株式会社",
       "query": "\"RAKUMART\"",
@@ -1284,7 +1295,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_143",
+      "id": "ecnp_144",
       "type": "google_news",
       "name": "ZenGroup株式会社",
       "query": "\"ZenGroup\"",
@@ -1295,7 +1306,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_144",
+      "id": "ecnp_145",
       "type": "google_news",
       "name": "かっこ株式会社",
       "query": "\"株式会社かっこ\"",
@@ -1320,7 +1331,7 @@
       ]
     },
     {
-      "id": "ecnp_145",
+      "id": "ecnp_146",
       "type": "google_news",
       "name": "ソニーマーケティング株式会社",
       "query": "\"ソニーマーケティング\"",
@@ -1331,7 +1342,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_146",
+      "id": "ecnp_147",
       "type": "google_news",
       "name": "株式会社Dダイレクションズ",
       "query": "\"Dダイレクションズ\"",
@@ -1348,7 +1359,7 @@
       ]
     },
     {
-      "id": "ecnp_147",
+      "id": "ecnp_148",
       "type": "google_news",
       "name": "株式会社LOCUS",
       "query": "\"LOCUS\"",
@@ -1359,7 +1370,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_148",
+      "id": "ecnp_149",
       "type": "google_news",
       "name": "株式会社Minato",
       "query": "\"株式会社Minato\"",
@@ -1417,17 +1428,6 @@
       ]
     },
     {
-      "id": "ecnp_149",
-      "type": "google_news",
-      "name": "株式会社RCTジャパン",
-      "query": "\"RCTジャパン\"",
-      "must_match": [
-        "RCTジャパン"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
       "id": "ecnp_15",
       "type": "google_news",
       "name": "株式会社ファブリカコミュニケーションズ",
@@ -1440,6 +1440,17 @@
     },
     {
       "id": "ecnp_150",
+      "type": "google_news",
+      "name": "株式会社RCTジャパン",
+      "query": "\"RCTジャパン\"",
+      "must_match": [
+        "RCTジャパン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_151",
       "type": "google_news",
       "name": "株式会社Rabo",
       "query": "\"Rabo\" EC",
@@ -1496,7 +1507,7 @@
       ]
     },
     {
-      "id": "ecnp_151",
+      "id": "ecnp_152",
       "type": "google_news",
       "name": "株式会社Shippio",
       "query": "\"Shippio\"",
@@ -1507,7 +1518,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_152",
+      "id": "ecnp_153",
       "type": "google_news",
       "name": "株式会社UNCOVER",
       "query": "\"UNCOVER\" EC",
@@ -1568,7 +1579,7 @@
       ]
     },
     {
-      "id": "ecnp_153",
+      "id": "ecnp_154",
       "type": "google_news",
       "name": "株式会社shizai",
       "query": "\"shizai\"",
@@ -1579,7 +1590,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_154",
+      "id": "ecnp_155",
       "type": "google_news",
       "name": "株式会社はぴロジ",
       "query": "\"はぴロジ\"",
@@ -1590,7 +1601,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_155",
+      "id": "ecnp_156",
       "type": "google_news",
       "name": "株式会社エクスクリエ",
       "query": "\"エクスクリエ\"",
@@ -1601,7 +1612,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_156",
+      "id": "ecnp_157",
       "type": "google_news",
       "name": "株式会社カルテットコミュニケーションズ",
       "query": "\"カルテットコミュニケーションズ\"",
@@ -1612,7 +1623,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_157",
+      "id": "ecnp_158",
       "type": "google_news",
       "name": "株式会社ガイアックス",
       "query": "\"ガイアックス\"",
@@ -1623,23 +1634,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_158",
+      "id": "ecnp_159",
       "type": "google_news",
       "name": "株式会社クウゼン",
       "query": "\"クウゼン\"",
       "must_match": [
         "クウゼン"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_159",
-      "type": "google_news",
-      "name": "株式会社グランネット",
-      "query": "\"グランネット\"",
-      "must_match": [
-        "グランネット"
       ],
       "limit": 5,
       "enabled": true
@@ -1657,6 +1657,17 @@
     },
     {
       "id": "ecnp_160",
+      "type": "google_news",
+      "name": "株式会社グランネット",
+      "query": "\"グランネット\"",
+      "must_match": [
+        "グランネット"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_161",
       "type": "google_news",
       "name": "株式会社ディール",
       "query": "\"株式会社ディール\"",
@@ -1714,7 +1725,7 @@
       ]
     },
     {
-      "id": "ecnp_161",
+      "id": "ecnp_162",
       "type": "google_news",
       "name": "株式会社ナビタイムジャパン",
       "query": "\"ナビタイムジャパン\"",
@@ -1725,7 +1736,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_162",
+      "id": "ecnp_163",
       "type": "google_news",
       "name": "株式会社ネクストレンド",
       "query": "\"ネクストレンド\"",
@@ -1736,7 +1747,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_163",
+      "id": "ecnp_164",
       "type": "google_news",
       "name": "株式会社ファイブスプリングス",
       "query": "\"ファイブスプリングス\"",
@@ -1753,7 +1764,7 @@
       ]
     },
     {
-      "id": "ecnp_164",
+      "id": "ecnp_165",
       "type": "google_news",
       "name": "株式会社プラセス製薬",
       "query": "\"プラセス製薬\"",
@@ -1764,7 +1775,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_165",
+      "id": "ecnp_166",
       "type": "google_news",
       "name": "株式会社ベイコスメティックス",
       "query": "\"ベイコスメティックス\"",
@@ -1775,23 +1786,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_166",
+      "id": "ecnp_167",
       "type": "google_news",
       "name": "株式会社マクアケ",
       "query": "\"マクアケ\"",
       "must_match": [
         "マクアケ"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_167",
-      "type": "google_news",
-      "name": "株式会社リスマ",
-      "query": "\"リスマ\"",
-      "must_match": [
-        "リスマ"
       ],
       "limit": 5,
       "enabled": true
@@ -2427,6 +2427,17 @@
     {
       "id": "ecnp_200",
       "type": "google_news",
+      "name": "株式会社TimeTechnologies",
+      "query": "\"TimeTechnologies\"",
+      "must_match": [
+        "TimeTechnologies"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_201",
+      "type": "google_news",
       "name": "株式会社UFAS",
       "query": "\"UFAS\"",
       "must_match": [
@@ -2436,7 +2447,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_201",
+      "id": "ecnp_202",
       "type": "google_news",
       "name": "株式会社UNCOVER TRUTH",
       "query": "\"UNCOVER TRUTH\"",
@@ -2448,7 +2459,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_202",
+      "id": "ecnp_203",
       "type": "google_news",
       "name": "株式会社WacWorks",
       "query": "\"WacWorks\"",
@@ -2465,7 +2476,7 @@
       ]
     },
     {
-      "id": "ecnp_203",
+      "id": "ecnp_204",
       "type": "google_news",
       "name": "株式会社digdig",
       "query": "\"digdig\"",
@@ -2476,7 +2487,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_204",
+      "id": "ecnp_205",
       "type": "google_news",
       "name": "株式会社ecbeing",
       "query": "\"ecbeing\"",
@@ -2487,7 +2498,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_205",
+      "id": "ecnp_206",
       "type": "google_news",
       "name": "株式会社on",
       "query": "\"株式会社on\" EC",
@@ -2550,7 +2561,7 @@
       ]
     },
     {
-      "id": "ecnp_206",
+      "id": "ecnp_207",
       "type": "google_news",
       "name": "株式会社アイズ",
       "query": "\"株式会社アイズ\"",
@@ -2607,7 +2618,7 @@
       ]
     },
     {
-      "id": "ecnp_207",
+      "id": "ecnp_208",
       "type": "google_news",
       "name": "株式会社インタースペース",
       "query": "\"インタースペース\"",
@@ -2618,23 +2629,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_208",
+      "id": "ecnp_209",
       "type": "google_news",
       "name": "株式会社ウキヨ",
       "query": "\"ウキヨ\"",
       "must_match": [
         "ウキヨ"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_209",
-      "type": "google_news",
-      "name": "株式会社エビリー",
-      "query": "\"エビリー\"",
-      "must_match": [
-        "エビリー"
       ],
       "limit": 5,
       "enabled": true
@@ -2699,6 +2699,17 @@
     {
       "id": "ecnp_210",
       "type": "google_news",
+      "name": "株式会社エビリー",
+      "query": "\"エビリー\"",
+      "must_match": [
+        "エビリー"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_211",
+      "type": "google_news",
       "name": "株式会社エフ・コード",
       "query": "\"エフ・コード\"",
       "must_match": [
@@ -2709,7 +2720,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_211",
+      "id": "ecnp_212",
       "type": "google_news",
       "name": "株式会社エートゥジェイ",
       "query": "\"エートゥジェイ\"",
@@ -2720,7 +2731,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_212",
+      "id": "ecnp_213",
       "type": "google_news",
       "name": "株式会社オカラテクノロジズ",
       "query": "\"オカラテクノロジズ\"",
@@ -2731,7 +2742,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_213",
+      "id": "ecnp_214",
       "type": "google_news",
       "name": "株式会社カシミラ",
       "query": "\"カシミラ\"",
@@ -2742,7 +2753,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_214",
+      "id": "ecnp_215",
       "type": "google_news",
       "name": "株式会社ギブリー",
       "query": "\"ギブリー\"",
@@ -2753,7 +2764,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_215",
+      "id": "ecnp_216",
       "type": "google_news",
       "name": "株式会社ギャプライズ",
       "query": "\"ギャプライズ\"",
@@ -2764,7 +2775,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_216",
+      "id": "ecnp_217",
       "type": "google_news",
       "name": "株式会社クロス・マーケティング",
       "query": "\"クロス・マーケティング\"",
@@ -2775,7 +2786,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_217",
+      "id": "ecnp_218",
       "type": "google_news",
       "name": "株式会社コマースファクトリー",
       "query": "\"コマースファクトリー\"",
@@ -2786,23 +2797,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_218",
+      "id": "ecnp_219",
       "type": "google_news",
       "name": "株式会社シナブル",
       "query": "\"シナブル\"",
       "must_match": [
         "シナブル"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_219",
-      "type": "google_news",
-      "name": "株式会社データライズジャパン",
-      "query": "\"データライズジャパン\"",
-      "must_match": [
-        "データライズジャパン"
       ],
       "limit": 5,
       "enabled": true
@@ -2821,6 +2821,17 @@
     {
       "id": "ecnp_220",
       "type": "google_news",
+      "name": "株式会社データライズジャパン",
+      "query": "\"データライズジャパン\"",
+      "must_match": [
+        "データライズジャパン"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_221",
+      "type": "google_news",
       "name": "株式会社ナハト",
       "query": "\"ナハト\" 株式会社",
       "must_match": [
@@ -2830,7 +2841,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_221",
+      "id": "ecnp_222",
       "type": "google_news",
       "name": "株式会社ネットプロテクションズ",
       "query": "\"ネットプロテクションズ\"",
@@ -2841,7 +2852,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_222",
+      "id": "ecnp_223",
       "type": "google_news",
       "name": "株式会社バニッシュ・スタンダード",
       "query": "\"バニッシュ・スタンダード\"",
@@ -2852,7 +2863,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_223",
+      "id": "ecnp_224",
       "type": "google_news",
       "name": "株式会社ビービット",
       "query": "\"ビービット\"",
@@ -2863,7 +2874,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_224",
+      "id": "ecnp_225",
       "type": "google_news",
       "name": "株式会社ピクルス",
       "query": "\"株式会社ピクルス\"",
@@ -2882,7 +2893,7 @@
       ]
     },
     {
-      "id": "ecnp_225",
+      "id": "ecnp_226",
       "type": "google_news",
       "name": "株式会社フリークアウト",
       "query": "\"フリークアウト\"",
@@ -2893,7 +2904,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_226",
+      "id": "ecnp_227",
       "type": "google_news",
       "name": "株式会社プレイド",
       "query": "\"プレイド\"",
@@ -2904,7 +2915,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_227",
+      "id": "ecnp_228",
       "type": "google_news",
       "name": "株式会社ベルシステム24",
       "query": "\"ベルシステム24\"",
@@ -2915,23 +2926,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_228",
+      "id": "ecnp_229",
       "type": "google_news",
       "name": "株式会社ベンチマークジャパン",
       "query": "\"ベンチマークジャパン\"",
       "must_match": [
         "ベンチマークジャパン"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_229",
-      "type": "google_news",
-      "name": "株式会社マテリアルデジタル",
-      "query": "\"マテリアルデジタル\"",
-      "must_match": [
-        "マテリアルデジタル"
       ],
       "limit": 5,
       "enabled": true
@@ -2950,6 +2950,17 @@
     {
       "id": "ecnp_230",
       "type": "google_news",
+      "name": "株式会社マテリアルデジタル",
+      "query": "\"マテリアルデジタル\"",
+      "must_match": [
+        "マテリアルデジタル"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_231",
+      "type": "google_news",
       "name": "株式会社メイキップ",
       "query": "\"メイキップ\"",
       "must_match": [
@@ -2959,7 +2970,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_231",
+      "id": "ecnp_232",
       "type": "google_news",
       "name": "株式会社モールハック",
       "query": "\"モールハック\"",
@@ -2970,7 +2981,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_232",
+      "id": "ecnp_233",
       "type": "google_news",
       "name": "株式会社ユニソンプラネット",
       "query": "\"ユニソンプラネット\"",
@@ -2981,7 +2992,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_233",
+      "id": "ecnp_234",
       "type": "google_news",
       "name": "株式会社ユニメディア",
       "query": "\"ユニメディア\"",
@@ -2992,7 +3003,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_234",
+      "id": "ecnp_235",
       "type": "google_news",
       "name": "株式会社ライフドリンクカンパニー",
       "query": "\"ライフドリンクカンパニー\"",
@@ -3003,7 +3014,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_235",
+      "id": "ecnp_236",
       "type": "google_news",
       "name": "株式会社ラクスライトクラウド",
       "query": "\"ラクスライトクラウド\"",
@@ -3014,7 +3025,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_236",
+      "id": "ecnp_237",
       "type": "google_news",
       "name": "株式会社ワンディーティー",
       "query": "\"ワンディーティー\"",
@@ -3025,7 +3036,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_237",
+      "id": "ecnp_238",
       "type": "google_news",
       "name": "株式会社久",
       "query": "\"株式会社久\" EC",
@@ -3089,23 +3100,12 @@
       ]
     },
     {
-      "id": "ecnp_238",
+      "id": "ecnp_239",
       "type": "google_news",
       "name": "株式会社伝統デザイン工房",
       "query": "\"伝統デザイン工房\"",
       "must_match": [
         "伝統デザイン工房"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_239",
-      "type": "google_news",
-      "name": "楽天グループ株式会社",
-      "query": "\"楽天グループ\"",
-      "must_match": [
-        "楽天グループ"
       ],
       "limit": 5,
       "enabled": true
@@ -3131,6 +3131,17 @@
     {
       "id": "ecnp_240",
       "type": "google_news",
+      "name": "楽天グループ株式会社",
+      "query": "\"楽天グループ\"",
+      "must_match": [
+        "楽天グループ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_241",
+      "type": "google_news",
       "name": "武内製薬株式会社",
       "query": "\"武内製薬\"",
       "must_match": [
@@ -3140,7 +3151,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_241",
+      "id": "ecnp_242",
       "type": "google_news",
       "name": "薬事法広告研究所（DCアーキテクト株式会社）",
       "query": "\"薬事法広告研究所\"",
@@ -3151,7 +3162,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_242",
+      "id": "ecnp_243",
       "type": "google_news",
       "name": "IRISデータラボ株式会社",
       "query": "\"IRISデータラボ\"",
@@ -3162,7 +3173,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_243",
+      "id": "ecnp_244",
       "type": "google_news",
       "name": "Kaaay株式会社",
       "query": "\"Kaaay\"",
@@ -3173,7 +3184,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_244",
+      "id": "ecnp_245",
       "type": "google_news",
       "name": "株式会社コマースメディア",
       "query": "\"コマースメディア\"",
@@ -3184,7 +3195,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_245",
+      "id": "ecnp_246",
       "type": "google_news",
       "name": "株式会社Bloomstrategia",
       "query": "\"Bloomstrategia\"",
@@ -3195,7 +3206,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_246",
+      "id": "ecnp_247",
       "type": "google_news",
       "name": "17LIVE株式会社",
       "query": "\"17LIVE\"",
@@ -3206,7 +3217,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_247",
+      "id": "ecnp_248",
       "type": "google_news",
       "name": "AI CROSS株式会社",
       "query": "\"AI CROSS\"",
@@ -3217,23 +3228,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_248",
+      "id": "ecnp_249",
       "type": "google_news",
       "name": "AnyMind Group株式会社",
       "query": "\"AnyMind Group\"",
       "must_match": [
         "AnyMind Group"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_249",
-      "type": "google_news",
-      "name": "Braze株式会社",
-      "query": "\"Braze\"",
-      "must_match": [
-        "Braze"
       ],
       "limit": 5,
       "enabled": true
@@ -3252,6 +3252,17 @@
     {
       "id": "ecnp_250",
       "type": "google_news",
+      "name": "Braze株式会社",
+      "query": "\"Braze\"",
+      "must_match": [
+        "Braze"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_251",
+      "type": "google_news",
       "name": "CommerceXホールディングス株式会社",
       "query": "\"CommerceXホールディングス\"",
       "must_match": [
@@ -3261,7 +3272,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_251",
+      "id": "ecnp_252",
       "type": "google_news",
       "name": "Crevo株式会社",
       "query": "\"Crevo\"",
@@ -3272,7 +3283,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_252",
+      "id": "ecnp_253",
       "type": "google_news",
       "name": "Dr.AISEO株式会社",
       "query": "\"Dr.AISEO\"",
@@ -3283,7 +3294,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_253",
+      "id": "ecnp_254",
       "type": "google_news",
       "name": "Flywheel Digital Japan株式会社",
       "query": "\"Flywheel Digital Japan\"",
@@ -3294,7 +3305,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_254",
+      "id": "ecnp_255",
       "type": "google_news",
       "name": "Joy Logistics株式会社",
       "query": "\"Joy Logistics\"",
@@ -3305,7 +3316,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_255",
+      "id": "ecnp_256",
       "type": "google_news",
       "name": "KDDI株式会社",
       "query": "\"KDDI\"",
@@ -3316,7 +3327,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_256",
+      "id": "ecnp_257",
       "type": "google_news",
       "name": "M&Aロイヤルアドバイザリー株式会社",
       "query": "\"M&Aロイヤルアドバイザリー\"",
@@ -3327,7 +3338,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_257",
+      "id": "ecnp_258",
       "type": "google_news",
       "name": "M-Force株式会社",
       "query": "\"M-Force\"",
@@ -3338,7 +3349,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_258",
+      "id": "ecnp_259",
       "type": "google_news",
       "name": "Micoworks株式会社",
       "query": "\"Micoworks\"",
@@ -3362,7 +3373,18 @@
       ]
     },
     {
-      "id": "ecnp_259",
+      "id": "ecnp_26",
+      "type": "google_news",
+      "name": "ジェイフロンティア株式会社",
+      "query": "\"ジェイフロンティア\"",
+      "must_match": [
+        "ジェイフロンティア"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_260",
       "type": "google_news",
       "name": "Momentum株式会社",
       "query": "\"Momentum\" EC",
@@ -3419,18 +3441,7 @@
       ]
     },
     {
-      "id": "ecnp_26",
-      "type": "google_news",
-      "name": "ジェイフロンティア株式会社",
-      "query": "\"ジェイフロンティア\"",
-      "must_match": [
-        "ジェイフロンティア"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_260",
+      "id": "ecnp_261",
       "type": "google_news",
       "name": "REHATCH株式会社",
       "query": "\"REHATCH\"",
@@ -3441,7 +3452,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_261",
+      "id": "ecnp_262",
       "type": "google_news",
       "name": "Tangerine株式会社",
       "query": "\"Tangerine\" EC",
@@ -3498,7 +3509,7 @@
       ]
     },
     {
-      "id": "ecnp_262",
+      "id": "ecnp_263",
       "type": "google_news",
       "name": "Team-EC株式会社",
       "query": "\"Team-EC\"",
@@ -3509,7 +3520,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_263",
+      "id": "ecnp_264",
       "type": "google_news",
       "name": "ZETA株式会社",
       "query": "\"ZETA\"",
@@ -3520,7 +3531,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_264",
+      "id": "ecnp_265",
       "type": "google_news",
       "name": "inc.合同会社",
       "query": "\"株式会社inc.\"",
@@ -3578,7 +3589,7 @@
       ]
     },
     {
-      "id": "ecnp_265",
+      "id": "ecnp_266",
       "type": "google_news",
       "name": "manyC株式会社",
       "query": "\"manyC\"",
@@ -3595,7 +3606,7 @@
       ]
     },
     {
-      "id": "ecnp_266",
+      "id": "ecnp_267",
       "type": "google_news",
       "name": "アカマイ・テクノロジーズ合同会社",
       "query": "\"アカマイ・テクノロジーズ\"",
@@ -3606,7 +3617,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_267",
+      "id": "ecnp_268",
       "type": "google_news",
       "name": "エンパタウン株式会社",
       "query": "\"エンパタウン\"",
@@ -3617,7 +3628,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_268",
+      "id": "ecnp_269",
       "type": "google_news",
       "name": "エンパワーショップ株式会社",
       "query": "\"エンパワーショップ\"",
@@ -3629,23 +3640,6 @@
       "html_news": [
         {
           "url": "https://empowershop.co.jp/press/index.html",
-          "origin": "site"
-        }
-      ]
-    },
-    {
-      "id": "ecnp_269",
-      "type": "google_news",
-      "name": "キッズ・ラボラトリー株式会社",
-      "query": "\"キッズ・ラボラトリー\"",
-      "must_match": [
-        "キッズ・ラボラトリー"
-      ],
-      "limit": 5,
-      "enabled": true,
-      "html_news": [
-        {
-          "url": "https://kids-laboratory.co.jp/content/category/news/",
           "origin": "site"
         }
       ]
@@ -3664,6 +3658,23 @@
     {
       "id": "ecnp_270",
       "type": "google_news",
+      "name": "キッズ・ラボラトリー株式会社",
+      "query": "\"キッズ・ラボラトリー\"",
+      "must_match": [
+        "キッズ・ラボラトリー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "html_news": [
+        {
+          "url": "https://kids-laboratory.co.jp/content/category/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ecnp_271",
+      "type": "google_news",
       "name": "コマースデザイン株式会社",
       "query": "\"コマースデザイン\"",
       "must_match": [
@@ -3673,7 +3684,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_271",
+      "id": "ecnp_272",
       "type": "google_news",
       "name": "サムライト株式会社",
       "query": "\"サムライト\"",
@@ -3684,7 +3695,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_272",
+      "id": "ecnp_273",
       "type": "google_news",
       "name": "セキミキ・グループ株式会社",
       "query": "\"セキミキ・グループ\"",
@@ -3695,7 +3706,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_273",
+      "id": "ecnp_274",
       "type": "google_news",
       "name": "セラースプライト",
       "query": "\"セラースプライト\"",
@@ -3708,7 +3719,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_274",
+      "id": "ecnp_275",
       "type": "google_news",
       "name": "センド株式会社",
       "query": "\"株式会社センド\"",
@@ -3772,7 +3783,7 @@
       ]
     },
     {
-      "id": "ecnp_275",
+      "id": "ecnp_276",
       "type": "google_news",
       "name": "テモナ株式会社",
       "query": "\"テモナ\"",
@@ -3783,7 +3794,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_276",
+      "id": "ecnp_277",
       "type": "google_news",
       "name": "ネットショップパートナーズ株式会社",
       "query": "\"ネットショップパートナーズ\"",
@@ -3794,7 +3805,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_277",
+      "id": "ecnp_278",
       "type": "google_news",
       "name": "ノウンズ株式会社",
       "query": "\"ノウンズ\"",
@@ -3805,23 +3816,12 @@
       "enabled": true
     },
     {
-      "id": "ecnp_278",
+      "id": "ecnp_279",
       "type": "google_news",
       "name": "バクリ株式会社",
       "query": "\"バクリ\"",
       "must_match": [
         "バクリ"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_279",
-      "type": "google_news",
-      "name": "ビジネスサーチテクノロジ株式会社",
-      "query": "\"ビジネスサーチテクノロジ\"",
-      "must_match": [
-        "ビジネスサーチテクノロジ"
       ],
       "limit": 5,
       "enabled": true
@@ -3848,6 +3848,17 @@
     {
       "id": "ecnp_280",
       "type": "google_news",
+      "name": "ビジネスサーチテクノロジ株式会社",
+      "query": "\"ビジネスサーチテクノロジ\"",
+      "must_match": [
+        "ビジネスサーチテクノロジ"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_281",
+      "type": "google_news",
       "name": "ブランディングテクノロジー株式会社",
       "query": "\"ブランディングテクノロジー\"",
       "must_match": [
@@ -3857,7 +3868,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_281",
+      "id": "ecnp_282",
       "type": "google_news",
       "name": "メディアリンク株式会社",
       "query": "\"メディアリンク\" 株式会社",
@@ -3914,7 +3925,7 @@
       ]
     },
     {
-      "id": "ecnp_282",
+      "id": "ecnp_283",
       "type": "google_news",
       "name": "一般社団法人ECスキル認定協会",
       "query": "\"ECスキル認定協会\"",
@@ -3925,7 +3936,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_283",
+      "id": "ecnp_284",
       "type": "google_news",
       "name": "三井物産株式会社",
       "query": "\"三井物産\"",
@@ -3936,7 +3947,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_284",
+      "id": "ecnp_285",
       "type": "google_news",
       "name": "株式会社Bizgem",
       "query": "\"Bizgem\"",
@@ -3947,7 +3958,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_285",
+      "id": "ecnp_286",
       "type": "google_news",
       "name": "株式会社CINC Capital",
       "query": "\"CINC Capital\"",
@@ -3959,7 +3970,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_286",
+      "id": "ecnp_287",
       "type": "google_news",
       "name": "株式会社CS",
       "query": "\"株式会社CS\"",
@@ -4016,7 +4027,7 @@
       ]
     },
     {
-      "id": "ecnp_287",
+      "id": "ecnp_288",
       "type": "google_news",
       "name": "株式会社Channel",
       "query": "\"株式会社Channel\"",
@@ -4073,23 +4084,12 @@
       ]
     },
     {
-      "id": "ecnp_288",
+      "id": "ecnp_289",
       "type": "google_news",
       "name": "株式会社CyberACE",
       "query": "\"CyberACE\"",
       "must_match": [
         "CyberACE"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_289",
-      "type": "google_news",
-      "name": "株式会社DEECH",
-      "query": "\"DEECH\"",
-      "must_match": [
-        "DEECH"
       ],
       "limit": 5,
       "enabled": true
@@ -4108,6 +4108,17 @@
     {
       "id": "ecnp_290",
       "type": "google_news",
+      "name": "株式会社DEECH",
+      "query": "\"DEECH\"",
+      "must_match": [
+        "DEECH"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_291",
+      "type": "google_news",
       "name": "株式会社DGフィナンシャルテクノロジー",
       "query": "\"DGフィナンシャルテクノロジー\"",
       "must_match": [
@@ -4117,7 +4128,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_291",
+      "id": "ecnp_292",
       "type": "google_news",
       "name": "株式会社DMM",
       "query": "\"DMM\" EC",
@@ -4174,7 +4185,7 @@
       ]
     },
     {
-      "id": "ecnp_292",
+      "id": "ecnp_293",
       "type": "google_news",
       "name": "株式会社Digital",
       "query": "\"株式会社Digital\"",
@@ -4231,7 +4242,7 @@
       ]
     },
     {
-      "id": "ecnp_293",
+      "id": "ecnp_294",
       "type": "google_news",
       "name": "株式会社ECMSジャパン",
       "query": "\"ECMSジャパン\"",
@@ -4242,7 +4253,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_294",
+      "id": "ecnp_295",
       "type": "google_news",
       "name": "株式会社EmpaC",
       "query": "\"EmpaC\"",
@@ -4253,7 +4264,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_295",
+      "id": "ecnp_296",
       "type": "google_news",
       "name": "株式会社Hajimari",
       "query": "\"Hajimari\"",
@@ -4264,7 +4275,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_296",
+      "id": "ecnp_297",
       "type": "google_news",
       "name": "株式会社INFLUENCER",
       "query": "\"INFLUENCER\" 株式会社",
@@ -4321,7 +4332,7 @@
       ]
     },
     {
-      "id": "ecnp_297",
+      "id": "ecnp_298",
       "type": "google_news",
       "name": "株式会社JAPANSOLUTIONS",
       "query": "\"JAPAN SOLUTIONS\"",
@@ -4346,23 +4357,12 @@
       ]
     },
     {
-      "id": "ecnp_298",
+      "id": "ecnp_299",
       "type": "google_news",
       "name": "株式会社LeanGo",
       "query": "\"LeanGo\"",
       "must_match": [
         "LeanGo"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_299",
-      "type": "google_news",
-      "name": "株式会社Lumii",
-      "query": "\"Lumii\"",
-      "must_match": [
-        "Lumii"
       ],
       "limit": 5,
       "enabled": true
@@ -4427,6 +4427,17 @@
     {
       "id": "ecnp_300",
       "type": "google_news",
+      "name": "株式会社Lumii",
+      "query": "\"Lumii\"",
+      "must_match": [
+        "Lumii"
+      ],
+      "limit": 5,
+      "enabled": true
+    },
+    {
+      "id": "ecnp_301",
+      "type": "google_news",
       "name": "株式会社Minto",
       "query": "\"Minto\" 株式会社",
       "must_match": [
@@ -4482,7 +4493,7 @@
       ]
     },
     {
-      "id": "ecnp_301",
+      "id": "ecnp_302",
       "type": "google_news",
       "name": "株式会社Morght",
       "query": "\"Morght\"",
@@ -4493,7 +4504,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_302",
+      "id": "ecnp_303",
       "type": "google_news",
       "name": "株式会社RECORE",
       "query": "\"RECORE\"",
@@ -4504,7 +4515,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_303",
+      "id": "ecnp_304",
       "type": "google_news",
       "name": "株式会社ReviCo",
       "query": "\"ReviCo\"",
@@ -4515,7 +4526,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_304",
+      "id": "ecnp_305",
       "type": "google_news",
       "name": "株式会社S-CORE",
       "query": "\"S-CORE\"",
@@ -4526,7 +4537,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_305",
+      "id": "ecnp_306",
       "type": "google_news",
       "name": "株式会社SEAM",
       "query": "\"株式会社SEAM\"",
@@ -4584,7 +4595,7 @@
       ]
     },
     {
-      "id": "ecnp_306",
+      "id": "ecnp_307",
       "type": "google_news",
       "name": "株式会社シンカ（ShinkaAI）",
       "query": "\"株式会社シンカ\"",
@@ -4602,7 +4613,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_307",
+      "id": "ecnp_308",
       "type": "google_news",
       "name": "株式会社Storeeel",
       "query": "\"Storeeel\"",
@@ -4613,7 +4624,7 @@
       "enabled": true
     },
     {
-      "id": "ecnp_308",
+      "id": "ecnp_309",
       "type": "google_news",
       "name": "株式会社TSUTA-WORLD",
       "query": "\"TSUTA-WORLD\"",
@@ -4621,17 +4632,6 @@
         "TSUTA-WORLD",
         "TSUTA WORLD",
         "ツタワールド"
-      ],
-      "limit": 5,
-      "enabled": true
-    },
-    {
-      "id": "ecnp_309",
-      "type": "google_news",
-      "name": "株式会社TikSeek",
-      "query": "\"TikSeek\"",
-      "must_match": [
-        "TikSeek"
       ],
       "limit": 5,
       "enabled": true
@@ -4650,10 +4650,10 @@
     {
       "id": "ecnp_310",
       "type": "google_news",
-      "name": "株式会社TimeTechnologies",
-      "query": "\"TimeTechnologies\"",
+      "name": "株式会社TikSeek",
+      "query": "\"TikSeek\"",
       "must_match": [
-        "TimeTechnologies"
+        "TikSeek"
       ],
       "limit": 5,
       "enabled": true

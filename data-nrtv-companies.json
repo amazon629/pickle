@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T12:04:08+09:00",
-  "generated_at_label": "2026/11/22 12:04 JST",
+  "generated_at": "2026-11-22T14:02:20+09:00",
+  "generated_at_label": "2026/11/22 14:02 JST",
   "title": "nrtv登壇企業 ニュース監視",
-  "total": 385,
+  "total": 382,
   "sources": [
     {
       "id": "nc_01",
@@ -12,7 +12,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22narrative%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "title": "第10回「ジャパン・ツーリズム・アワード」で、株式会社narrativeの取り組み「narrative inside®」が内閣総理大臣賞を受賞",
@@ -45,9 +45,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "株式会社小学館「介護のなかま」とnarrative株式会社が共同事業として、お花の定期便サービス「お花のなかま」をスタート",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Jb1JDZE82dFRPYXFSdFJNeTB6TXRDSlNoMFA1dFQ5ZEphaWd1cHlIVU1KQ0U5em05X0d5OUhwQkRoSFV1UUR1dnBkMHdPbk5jZ2k2dUVST053X25KNGp0UllqazI4c200bXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2025-10-24T16:00:00+09:00",
+          "published_label": "2025/10/24(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_02",
@@ -140,7 +156,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_03",
@@ -233,7 +249,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_04",
@@ -259,7 +275,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社これから、「Shopify Premier Partner」に認定。",
@@ -326,7 +342,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_05",
@@ -384,7 +400,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ハックルベリー、自社ECのAI対応状況を可視化する「AIコマース診断ツール」を提供",
@@ -419,7 +435,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_06",
@@ -512,7 +528,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.7
     },
     {
       "id": "nc_07",
@@ -586,7 +602,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "NE株式会社、無在庫プリントオンデマンドのOpenFactoryに出資し新たな価値創出を目指す",
@@ -605,7 +621,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_08",
@@ -698,7 +714,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.8
     },
     {
       "id": "nc_09",
@@ -791,7 +807,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_10",
@@ -881,7 +897,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.0
@@ -977,7 +993,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_12",
@@ -1070,7 +1086,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_13",
@@ -1163,7 +1179,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_14",
@@ -1240,23 +1256,23 @@
           "is_new": false
         },
         {
-          "title": "メディアエイドが運営するプロ伴走型SNSスクール『SONOMAMA』が新たに「ライブコマース学習コンテンツ」をリリース",
+          "title": "PORTERSxメディアエイド「大手スカウト媒体の「価格改定」にどう対抗する？ 広告依存を脱却する自社集客構築術」を開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91MXVNMEFXa25BSHRudWc1QlE5WGFoLWQ5bjgwd01IWENUVk11ZUk5NUY4ZjdwVllXblEwem45OE9id21xSDRqNm1QWFJxSlFXdUlJTEdJX21rZW5yQUJSYWJLb3oxRjczRUE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xendVQndYeDc2NnI4Y1V6WjAxSU9xWU1NYXQ5TFZQV0pMRUVjUFg0Z19JbG0zQlA2ZjNya19UVFFLbGM2TUVFbHRFXzNIRXpZbzczdDBzMjBlUzFqTjNNT3lmN1diWFBHY2c?oc=5",
           "domain": "prtimes.jp",
-          "published": "2025-08-28T16:00:00+09:00",
-          "published_label": "2025/8/28(木) 16:00",
+          "published": "2025-12-24T17:00:00+09:00",
+          "published_label": "2025/12/24(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_15",
@@ -1394,38 +1410,6 @@
           "is_new": false
         },
         {
-          "title": "ビジネスデザインアワード「MAU SOCIAL IMPACT AWARD 2026」の受賞者が決定！ソニーマーケティング協賛のもと、大学の枠を越えたビジネスデザインアワードへ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FMnV6R0FGT1A4TVY3NW5YM0VCN0ZrbW50RjhsUEdFZ0x0MXBPT2s3NjNCYUxaa09VLVB2UFhLMUQtTXJGLXI0VE1rdU5MMGxHZG54bTdlQlJzSEtaV1FDblQ5Mlk1Wm5mT0E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-08T16:00:00+09:00",
-          "published_label": "2026/10/8(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "新サービス「Fan Sync」を体験できるスマートフォン『Xperia 10 VIII』を発売 | ソニーマーケティング株式会社のプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15MlRRSWJPQXZ6dWtnRnU3OFE1clplSkJQd25BbGNSTVV1UnZxZ1hyNkFySzhidU4takhqWVNBV2pydUNPbnQ2bURaaktqYW44V2xtRnNSM2FXWHdJZFNOT2VyckZFQTBPSkE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-01T16:00:00+09:00",
-          "published_label": "2026/10/1(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "（人事・エレクトロニクス）ソニーマーケティング",
           "summary": "",
           "images": [],
@@ -1440,6 +1424,38 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ソニーマーケティング、リトプラと協業。法人向けLBEで体験型エンターテインメント空間を共創",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9QNFo4eF9oY2dqMVp2ZWkyeTN3NXpxSzVnWVotdXU3TXI2eUowdEdBeVB4OUxLSGJUYnZzaS1xX0ZNRHVsN1oxQnhVaFBhSlVYRlRJTlZLekNLOXRYc0tBUQ?oc=5",
+          "domain": "jp.pronews.com",
+          "published": "2026-09-28T16:00:00+09:00",
+          "published_label": "2026/9/28(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ソニーマーケティングとリトプラ 法人向けロケーションベースエンタテインメントビジネスにおける協業契約を締結",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZGJ6VnNOSVpibjdaQ0ZIQ0JPS2VMTzVQcDRnd1JhNy1VOTh6Q1YzM2xRdVJlN2s4RkQwOFQ3R3lmU0d1NzJaN0VPODlFNm00X3ZCU0lsUWNHTWJ4MHN6Zk9wRmtnclNjT0E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-09-24T16:00:00+09:00",
+          "published_label": "2026/9/24(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -1535,7 +1551,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_18",
@@ -1628,7 +1644,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_19",
@@ -1721,7 +1737,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_20",
@@ -1907,7 +1923,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_22",
@@ -1952,45 +1968,45 @@
           "is_new": false
         },
         {
-          "title": "TikTok広告→広告効果検証→店頭サイネージ→実購買データ分析の一気通貫パッケージをTORIHADA・MADSが協業開始",
+          "title": "美容サロンサイネージ「OCTAVE」設置店舗が2,000店を突破 | 株式会社MADSのプレスリリース",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ISDVMUWtmZzhPNjEzQjF0Y3lPVWlhMS1LUjRIeXk0RjZHQS1UQ1hrU2JXMjh0UmJRMTFDdm50RER5RFlkRUZCVFJVckwydkxHX2kxbkxLX3JVZUpoV2VzOXVVeURTZG9ValE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wMUFMTS1PRmoxalBVc3NubHczOEMtWDQyZF9DM3ZWem9TYkJzMWJyWHFuVTc0Q1ZsNk10NHJBbHgtdEZ2T0kzNFQ5UDVYNXdPR0ZENVNuMHZKMzQybFJldGh0ZnJla2RXV0E?oc=5",
           "domain": "prtimes.jp",
-          "published": "2024-03-14T16:00:00+09:00",
-          "published_label": "2024/3/14(木) 16:00",
+          "published": "2024-11-19T17:00:00+09:00",
+          "published_label": "2024/11/19(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "インバウンド（訪日外国人旅行者）向けドラッグストアサイネージ広告プランの展開を開始 | 株式会社MADSのプレスリリース",
+          "title": "マイクロアド、リテールデジタルサイネージのMADSの株式を外部譲渡へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCYWxnZUtoZzRSYTVZWU9kTnMxM3I5ejUzWWRfTjFxZVIzVDBzeU5CSVdmaTFjQl85Tm51Q3g1Q3FQWnp6MmNQVGtoLTJsSkNaRGdRTmlWejlsTnJSaVVRMXItajIteXlIYXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2024-03-12T16:00:00+09:00",
-          "published_label": "2024/3/12(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE56QnNWMENERWdvV2UzaWVWUDl0c0ZjUDljOThlMTJaeWM1ajlObGRqc0FXVzJPMEFZai0xeDRWb3A4SUNhZ2pwVG1xX0NWdw?oc=5",
+          "domain": "rtbsquare.work",
+          "published": "2024-08-13T16:00:00+09:00",
+          "published_label": "2024/8/13(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "オリコムとMADS、電車とドラッグストアの広告連携で購買行動を促進",
+          "title": "MADSがドラッグストアのサイネージなどリテールメディアでタレント素材の利用を可能に",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE41V3N2V0thQ25wb2xkYldQRUp1bWRsbXh2eG1zOXUyWlZHNktvRFVYUTFYdVYzbjlFWDBBNGZxYjFyT1d1Q1lTMtIBTkFVX3lxTE1jckVjOUs5VmxTdG9tQTl6bWoybjlkeFlnNm4xbDJvS2xnUDB4N1lVanRvX0NwOTVleE5CMG1iUXBkNXcwZ3lyOG85VnYwUQ?oc=5",
-          "domain": "iotnews.jp",
-          "published": "2024-02-01T17:00:00+09:00",
-          "published_label": "2024/2/1(木) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9MZ25QMExNZGszYlVrd21NUjU4aWphZEg5clhGMGlXRVY2WHJnVy1jbTZJOXJWTHJBZDYxaGZEZ1JjR003S1poRzNOQi1JOVBVeExaTHJrell4Zzg?oc=5",
+          "domain": "webtan.impress.co.jp",
+          "published": "2024-05-17T16:00:00+09:00",
+          "published_label": "2024/5/17(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2093,7 +2109,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_24",
@@ -2154,11 +2170,11 @@
           "is_new": false
         },
         {
-          "title": "Proteinum、年末商戦10連戦をミスなく乗り切るリストを無料公開",
+          "title": "EC特化型AI実行支援ツール「ECPRO BRAIN」のProteinum、「年末商戦 準備チェックリスト18項目」を無料公開。大型イベント10回以上の連戦を、設定ミス・欠品・告知漏れなく乗り切る",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE01bFNPSHBQb1Bac2RwYkRmdGdUcFJXR0NhSHduVkgxX19XRzRMaEhZbjktbkczcGFScXFrOWR4bWZSMlZEYzdB?oc=5",
-          "domain": "ecnomikata.com",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Kb3BuRzlzeW5PUTVRaXNuUUxpYjJFckR0TG9xbzFreTRqcl9vRUVHd0xESnZRd2tmeGpOU1E4dkRocU1pLUxEaFI3eFRuYXNNWGR0THpUZjhTREw4Qzdn?oc=5",
+          "domain": "shibukei.com",
           "published": "2026-10-20T16:00:00+09:00",
           "published_label": "2026/10/20(火) 16:00",
           "badge": "JP",
@@ -2167,7 +2183,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "ProteinumがECPRO RPPを更新 楽天のキーワード枠拡大に対応",
@@ -2186,7 +2202,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.4
     },
     {
       "id": "nc_25",
@@ -2231,7 +2247,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.5
     },
     {
       "id": "nc_26",
@@ -2321,10 +2337,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_27",
@@ -2350,7 +2366,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)インターファクトリー【4057】：決算情報",
@@ -2366,7 +2382,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "インターファクトリー[4057]：2027年５月期 第１四半期決算短信〔日本基準〕（非連結） 2026年10月14日(適時開示) ：日経会社情報DIGITAL",
@@ -2382,7 +2398,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "商品データ統合プラットフォーム「EBISU PIM」、商品コードの自動採番など商品情報管理の運用負荷を下げる4つの新機能を提供開始 | 株式会社インターファクトリーのプレスリリース",
@@ -2398,7 +2414,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "インターファクトリー[4057]：内部統制報告書－第23期(2025/06/01－2026/05/31) (有価証券報告書) ：日経会社情報DIGITAL",
@@ -2414,10 +2430,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_28",
@@ -2443,7 +2459,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ガイアックス、静岡新聞社・eiiconとともに静岡県「N-E.X.T.ハイスクール」改革先導拠点4校の伴走支援を開始",
@@ -2459,7 +2475,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ガイアックス[3775]：【東京都「TOKYO SUTEAM」に採択】中小企業の技術と起業家をつなぐ、スタートアップ創出プログラム「SMEIST（スミスト）」始動 2026年11月11日(適時開示) ：日経会社情報DIGITAL",
@@ -2475,7 +2491,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ガイアックス、中学生を対象に、起業をテーマにした5日間のプログラムを開催",
@@ -2491,7 +2507,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ガイアックス[3775]：自己株式の取得状況に関するお知らせ 2026年11月2日(適時開示) ：日経会社情報DIGITAL",
@@ -2507,10 +2523,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_29",
@@ -2584,7 +2600,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「makeshop byGMO」、レビュー機能を大幅強化 レビュー・UGC活用ツール「U-KOMI」連携で EC事業者の独自データ活用を加速",
@@ -2603,7 +2619,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_30",
@@ -2632,7 +2648,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.4
     },
     {
       "id": "nc_31",
@@ -2725,7 +2741,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_32",
@@ -2737,6 +2753,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%A1%E3%83%AB%E3%82%AB%E3%83%BC%E3%83%88%22%20EC&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "メルカート、中堅・大手企業向け新プラン「メルカートEX」提供開始 SaaSの利便性と独自機能開発を両立",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41cndmX3BnVGszbXo3NzBVVV9vUXFDb3NTWmUyMkRZX2dSTWZlOHRNRGdMWl9nUkRlVG04Y0Fsc2pJUDJEdXZfbDk2QXViQjA0NUE0dGdSRQ?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-11-13T11:41:19+09:00",
+          "published_label": "2026/11/13(金) 11:41",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ECと物流の個別連携を柔軟に、メルカート",
           "summary": "",
@@ -2800,25 +2832,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "メルカートとゼウスが連携、クラウドECプラットフォームでクレジットカード決済に対応",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Ga1BBakEtRWFjQWNkQWtmQzcyazZKbjZxOWVwZVhwME5iRzRvTS15YWR2MDNxVFpBTkVCVlYtN213ZGcydzJxUTFNU2VrU29SbHFMcmQ0NA?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-11-10T13:41:33+09:00",
-          "published_label": "2026/11/10(火) 13:41",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_33",
@@ -2860,7 +2876,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Yahoo!ショッピングのコンサル会社が支援先50店舗の売上を集計 98%が増収、伸び率の中央値は251%（EC-Consulting Japan株式会社）",
@@ -2911,7 +2927,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_34",
@@ -2940,7 +2956,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_35",
@@ -3033,7 +3049,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.6
     },
     {
       "id": "nc_36",
@@ -3126,7 +3142,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_37",
@@ -3203,13 +3219,13 @@
           "is_new": false
         },
         {
-          "title": "【Qoo10メガ割】秋冬限定「ナイトレ...｜Release No.3096385｜eltha（エルザ）",
+          "title": "K-Beautyスキンケア「AestheFic（エステフィック）」、Qoo10「メガデビュー」初日に3つのランキングで1位を獲得（PR TIMES）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RRmpqbWRKdC1sWEphdjZXUTBmY3Jwc2lHQ1l3X1BlaC1XdUdYUUVlcTRDQUItcUFMbzdSVzY4SW96eUNJbF9ETkRjSWtpTGx3QkZkd2ZmbTdzLXF3M0E?oc=5",
-          "domain": "beauty.oricon.co.jp",
-          "published": "2026-11-20T12:48:00+09:00",
-          "published_label": "2026/11/20(金) 12:48",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EMzllbzVwamFsVHBVOEtZQlFFbWJNOXc4XzduTGpKTDRhWXdWTjM5Tnphc2Y5dkY0cGZUTXpRSE80ZGRQTEJjSHB3a3VJbFpuSGIxSEFuNENYdXdZMnRUejU2RkVlOERF?oc=5",
+          "domain": "mainichi.jp",
+          "published": "2026-11-20T15:54:00+09:00",
+          "published_label": "2026/11/20(金) 15:54",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3219,7 +3235,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "nc_38",
@@ -3312,7 +3328,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "nc_39",
@@ -3402,10 +3418,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "nc_40",
@@ -3498,7 +3514,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.6
     },
     {
       "id": "nc_41",
@@ -3591,7 +3607,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "nc_42",
@@ -3607,8 +3623,8 @@
           "title": "ニフティライフスタイル：レプリス取得で「住まい全般支援」へ前進、財務基盤強固なうえ配当利回り4.8％前後",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hU3dhMXg5N3FrZDJWdVVhSU4wcWQyTVFHLUFoaVdqUDRzLXprbElwYmpDV1lDOTFLM3lVYktSZGJfeGxlY242cHVGUmNSMVN3RHc?oc=5",
-          "domain": "s.kabutan.jp",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNmo0OGw3ZzBpajlOaUdnTTQ0X2RMZXJnY3pqV0ViTENQdG9jYnBhcWJIMy1mS1h3cTJRb1djZGJRcmZ2QVZOeC1mVDZxQURCY2thdWZfZW84RERzb0J6SQ?oc=5",
+          "domain": "kabutan.jp",
           "published": "2026-11-17T16:42:59+09:00",
           "published_label": "2026/11/17(火) 16:42",
           "badge": "JP",
@@ -3684,7 +3700,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_43",
@@ -3694,7 +3710,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E3%83%A0%E3%82%B8%E3%83%B3%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 4,
+      "count": 3,
       "items": [
         {
           "title": "イオン、フィジカルAIの次世代物流拠点 新興ムジンと組み8割自動化",
@@ -3743,25 +3759,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ミズノが台湾発のテック系ストリートブランドと初コラボ！ 名作シューズ「ウエーブムジンTL」をベースにした“都市生活とアウトドアをつなぐ”一足とは",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB6aWxoR0U0MWlwdnNaMS1RYkQ0STRza2M2b0JhaGdQT01OZGwtbEtKVm80aE1VYzVUTkstR3RsLVpWQ1BMa3c?oc=5",
-          "domain": "vague.style",
-          "published": "2026-02-05T17:00:00+09:00",
-          "published_label": "2026/2/5(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.3
     },
     {
       "id": "nc_44",
@@ -3771,7 +3771,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E5%A3%B2%E3%82%8C%E3%82%8BAI%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E7%A4%BE%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "title": "「売れるAI最適化」Agentic Commerce対応プラン開始（売れるAIマーケティング社）",
@@ -3781,22 +3781,6 @@
           "domain": "paymentnavi.com",
           "published": "2026-01-20T17:00:00+09:00",
           "published_label": "2026/1/20(火) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "売れるネット広告社グループ---新会社「売れるAIマーケティング社」を設立 投稿日時： 2025/07/01 11:12[フィスコ]",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB5S1FyQUY5ZTRtQVRQZXpjMVUwUXBMWXBBNE9CUzZ2MHQ2a2xpUWJKbmE1NmM4cUhvTEJ2cDVFMmVMVWdIQXc?oc=5",
-          "domain": "minkabu.jp",
-          "published": "2025-07-01T16:00:00+09:00",
-          "published_label": "2025/7/1(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3941,7 +3925,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "CINCが「ChatGPT」の回答生成でウェブ検索に使われたキーワードが分かるブラウザ拡張機能を開発（Web担当者Forum）",
@@ -3957,7 +3941,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "CINC---大幅続落、26年10月期第3四半期決算を発表",
@@ -3973,7 +3957,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "新興市場銘柄ダイジェスト:リンカーズがストップ高、CINCが大幅続落",
@@ -3989,10 +3973,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_47",
@@ -4037,6 +4021,22 @@
           "is_new": false
         },
         {
+          "title": "ガイアックス[3775]：登録クリエイター35万人・導入220社突破！ CREAVEが運営するクリエイティブプラットフォーム 「Snapmart」が10周年を記念し、アンバサダー募集を開始 2026年6月1日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WOENRaGk3UENBZVZwT1lIbkgtU01nbXl0LXY3SWF3akdsTkMxR2xaeS1FbUptZWd3bDVVWGtjNUh1TkVhMlpILU9IV21KdWlJTlUweVlyMEdjMWM0Q2p4WHhwSGZuVlB5WUE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-06-01T16:00:00+09:00",
+          "published_label": "2026/6/1(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "登録クリエイター35万人・導入220社突破！CREAVEが運営するクリエイティブプラットフォーム「Snapmart」が10周年を記念し、アンバサダー募集を開始",
           "summary": "",
           "images": [],
@@ -4067,22 +4067,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "株式会社CREAVEが、日本最大級のZ世代ビジネスカンファレンス「Z ERA FES 2026」に登壇！",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BN2VWTHlNeXRrVjUtT1YxSDNzN2pzbWQ1VDlGZC1uZDdqT0RIUWRZVTFpaF9GaDRyOXZuOEFHaEtEM1c3Tzk1OHJPMnYyTjlsejBPbVgyOE1QZS1FOHVfQW90OG0wUk41aUE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-02-25T17:00:00+09:00",
-          "published_label": "2026/2/25(水) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -4127,7 +4111,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "E-Grant、EC事業者向け経営ダッシュボード「こづちVision」を正式リリース",
@@ -4268,10 +4252,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.8
     },
     {
       "id": "nc_50",
@@ -4364,7 +4348,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "nc_51",
@@ -4457,7 +4441,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "nc_52",
@@ -4550,7 +4534,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 2.4
     },
     {
       "id": "nc_53",
@@ -4576,7 +4560,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "IPコラボの波及効果を1,300名に調査！ファンの”盛り上がり”が周囲を動かす",
@@ -4643,7 +4627,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 1.1
     },
     {
       "id": "nc_54",
@@ -4701,6 +4685,22 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "【9/30（水）開催】AIで発信量を増やしても、選ばれないのはなぜ？PRIZMAが「一次情報」を活用したAI時代のマーケティング戦略を解説",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TRnU0ck1MVm9zSHpadXViNkxBR0VBSGhYYUY0YzNPbVRYbWFPTERVMmpkeVZRaF9oNUpHc3pQbERZdlB1WTIwZEdvSUJLWW5DU2JuTWlYX083ejhMamxIUmVpN2FPZF9oU1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-09-28T16:00:00+09:00",
+          "published_label": "2026/9/28(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
           "is_new": true
         },
         {
@@ -4718,25 +4718,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "【まぐまぐ×PRIZMA共同調査】業界ごとに異なる「社内一次情報」の蓄積傾向が明らかに！一方で6割以上が「自社データだけでは足りない」と実感",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vemowMnY5aEhIVHdIdkNxVkdVd1FwMGUyWlNkNDhWMGJUX2pCNm9aenpobVhMRldEMmp2YThaenpWQmI5VVJTOXNELUU0eTdwazN4SzhDU01jckNrQXl3bFFwQkJzcWN3X1E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-09-03T16:00:00+09:00",
-          "published_label": "2026/9/3(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_55",
@@ -4749,11 +4733,11 @@
       "count": 5,
       "items": [
         {
-          "title": "TORIHADA、編集工数を15分に短縮 「継続して作り続けられる体制」を支援（日本ネット経済新聞）",
+          "title": "TORIHADA、編集工数を15分に短縮 「継続して作り続けられる体制」を支援",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tOVBVcGlXWkZpMzZKWkpTT2FVS1BpWXN0dzBpd2VOZlJuNVRrNk16M2NEU3ptcFo5N3lyY2E3Sm1zckQ2dzhYM3V0a3I1NTduMUVmd21DT2t5cHVfOVNIdnh4aUdhUGFOUWFSSTA3Ym1zN2RvYVdhVkNCQzh0cFk?oc=5",
-          "domain": "news.yahoo.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5xdnNxN3FjQVNwMU80LVhHNHF6Q1JoUTg5T256RjUzbXJ4QlVFaFlrcW9IRkxGbFpzellaUWMweEIyS1d5c0ZxR1RQZEZKam9TdU1PU3p3?oc=5",
+          "domain": "netkeizai.com",
           "published": "2026-10-19T16:00:00+09:00",
           "published_label": "2026/10/19(月) 16:00",
           "badge": "JP",
@@ -4762,7 +4746,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "TORIHADA子会社PPP STUDIO、SNS特化のエンタメレーベル「PPP Viral Entertainment」始動 ニシコリ・Voice Connectが8/14ワンマン",
@@ -4829,7 +4813,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "nc_56",
@@ -4922,7 +4906,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_57",
@@ -4934,22 +4918,6 @@
       "via": "https://news.google.com/rss/search?q=%22visumo%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "「visumo day 2026」を11月13日（金）に開催！BEAMS、S..（株式会社visumo プレスリリース）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wYVhna2VvOEpaMFhnSGtYc1FaNGEwTWtlSWkzdmJYZ3NFd2tiNWttTURWX0hfZFZULXNhWl9nSWwzR0VYNmNmOTFrTHgtZkdtLWJrMA?oc=5",
-          "domain": "zaikei.co.jp",
-          "published": "2026-11-18T19:07:15+09:00",
-          "published_label": "2026/11/18(水) 19:07",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "ｖｉｓｕｍｏ[303A]：確認書 (有価証券報告書) ：日経会社情報DIGITAL",
           "summary": "",
@@ -4983,39 +4951,55 @@
           "is_new": false
         },
         {
-          "title": "ｖｉｓｕｍｏ、上期経常が71％減益で着地・7-9月期も76％減益",
+          "title": "visumo、ブランドマーケ戦略を学ぶイベント「visumo day 2026」11月13日開催 BEAMS、SHIPS、三陽商会、花王など登壇",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXeFNTNlMyUUhnLWU2SFBTOUJjMXlRMjUzU3ljeFYwNUtpS1FQLWptRlZOLUs2SXFCMWs3UXFJYkY3Smt3N3BaeFFMNUNRY3k0TkE?oc=5",
-          "domain": "kabutan.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0xSWRaMHY2MWtiRFU0S0lLVlo0Y0Q5ampPT3IxNnRJUEZCVTZyLVR4Y0loVl9qbVlhLXdhQ2lwbWJZUTVqUnlneGdNcHpwX2RkM3hjSE42b0NIdmg5d3RHYS1XeldtRk5wdnAyZHNpZUM4dkZ0czQ1MzNTMC1SVXc?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-10-29T16:00:00+09:00",
+          "published_label": "2026/10/29(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "【決算速報】ｖｉｓｕｍｏ---27年3月期2Qは減益、経常利益は70.8％減(フィスコ)",
+          "title": "「visumo day 2026」を11月13日（金）に開催！BEAMS、SHIPS、三陽商会、花王、KOSE、中川政七商店ほか登壇",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMnR6bldxMG91YnQ3SS1zQVhmZW1ub0VhbU1xekJhRkU0TTBJYjhkdWxUeWpnU25IbktzeGp0Tmx2WmQxUUxlaVNfWHoxdkdSUWFpcS1MdVVKbWRTR3hlLUpGT3lXcDJvU3k4dUowNHVsSW1TOVpvM0k5U09sN2YtcHdYQlJCX1k?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9uWElpVzduZE5QQ1dDSXl5dV9tbFBYVnM4M0F5UGZrM1k5WE81ZE9yTjN1VFU4SGg5SFpaRnBDVm5qcnJrQTFCS2MxOS1RZmhRaWFqbGdOamI0Uk9MY2x1WDg2am5rcTk5Qmc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-07T16:00:00+09:00",
+          "published_label": "2026/10/7(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "ｖｉｓｕｍｏ[303A]：visumo、レビュー機能「ReviCo」をShopify App Storeに提供開始 2026年10月6日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05U0dPZ2VBNUxScWJIaVg0dk9icUp0czBhNkFGS2wxTE0tQkNoMTRUQVpOUEJ6OVpDMUl4Y3BGdWxYMktOaHZpcDlEOHNZeVhFUUJ6Sl8yaFBxNkFZdEZjWmc2SllnQkk2UFE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-10-06T16:00:00+09:00",
+          "published_label": "2026/10/6(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_58",
@@ -5108,7 +5092,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_59",
@@ -5150,7 +5134,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "はぐくみプラス、沢尻エリカをアンバサダー起用 累計65万本販売のスキンケア",
@@ -5201,7 +5185,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_60",
@@ -5219,8 +5203,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53b2tGajdWQ1l2Rjg0MVVLa3BObXdrWmxlbUpvZ2dYMkVCdkNCNUVCZFpmS3BlZ084UDJ0elJPZnZIeFJUeUdOU1R6SEM0YUZDaHJWZkdOdF9YaV9rby01cGFjTDc4RlFL?oc=5",
           "domain": "news.dellows.jp",
-          "published": "2026-10-29T11:49:27+09:00",
-          "published_label": "2026/10/29(木) 11:49",
+          "published": "2026-10-27T17:03:46+09:00",
+          "published_label": "2026/10/27(火) 17:03",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -5294,7 +5278,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_61",
@@ -5384,7 +5368,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.1
@@ -5480,7 +5464,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 1.8
     },
     {
       "id": "nc_63",
@@ -5573,7 +5557,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "nc_64",
@@ -5666,7 +5650,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 1.7
     },
     {
       "id": "nc_65",
@@ -5759,7 +5743,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "nc_66",
@@ -5852,7 +5836,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_67",
@@ -5894,7 +5878,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ガラパゴス、「AIR Connect」に『訴求軸マトリクス』機能を追加。広告クリエイティブの勝ちパターンを定量的に可視化",
@@ -5942,10 +5926,10 @@
           "type": "google_news",
           "origin": "site",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 1.5
+      "elapsed": 1.3
     },
     {
       "id": "nc_68",
@@ -6038,7 +6022,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.2
     },
     {
       "id": "nc_69",
@@ -6131,7 +6115,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.3
     },
     {
       "id": "nc_70",
@@ -6158,6 +6142,38 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ジグザグ、越境ECサービスへの不正アクセスで海外顧客301名の個人情報漏えい | マーケット速報 | 企業情報FISCO",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ESmJOelFXSGY4bUc2VjhyVHEyb2ZGdmF0R1BKdjVFUHZZWkRZVl9uMnhtUzdvWUJxMWZZVGUzclRXSkZJdGxVWTRoZTQybXl0ZDdsZE5xN2ZTVW5xZWxjdldxS05Ualg0NXVRamxiM1NrUnJoTk45MEc0TQ?oc=5",
+          "domain": "web.fisco.jp",
+          "published": "2026-10-19T16:00:00+09:00",
+          "published_label": "2026/10/19(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ジグザグ、台湾JCBカード利用者向けに日本のネットショップでの買い物体験を提供開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QWVpHRnBzRWFCTTVTYXgtSW9nTzRacE1Uc0M0V09qX1BaZ3AwZmxyMjlCZzI1V21rX1RxZzVjcWpKQlhmZTVMMUIxZ0RDSEVmd2VmbkFWZ0hrRmlWb2phU0xRUFhvcHc?oc=5",
+          "domain": "voix.jp",
+          "published": "2026-10-19T16:00:00+09:00",
+          "published_label": "2026/10/19(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "ジグザグ、海外カスタマー向け「医薬部外品」の配送、取り扱い開始",
@@ -6190,41 +6206,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "株式会社ジグザグ、欧州現地OMO展開で越境EC日次売上が開催前比約11倍に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0ybEpBNmtxNVlkZ3REWmRvalBQZFZUUEdRd1B1b3RxeVdWRGxHMl9mYUpTalFIMjczY1daYVVZbEdCS0lhWlM1cWFXdG5WWHR3eWhyNTAzMVVSSTlWN0NjYmk1enVSWUVwQ3czNEd3?oc=5",
-          "domain": "tv-tokyo.co.jp",
-          "published": "2026-08-12T16:00:00+09:00",
-          "published_label": "2026/8/12(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ジグザグ、越境EC向け海外広告支援「WorldShopping BIZ Growth」を提供開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85SGJ3ZF9heEtFNzJ5Nzg2QmJRNDRmdVFGeWx5MXZSVWszZ1JGVTl0cmpIYlZFSFhka2ZzVE1XSjA2VjBPdVNGbXF0RHVMemh2TVQydUp3?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-07-27T16:00:00+09:00",
-          "published_label": "2026/7/27(月) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "nc_71",
@@ -6237,13 +6221,13 @@
       "count": 5,
       "items": [
         {
-          "title": "ジーニー「GENIEE MA」不正アクセスの費用負担が3億3,600万円で確定 クラウド計算資源の不正利用、1億5,500万円を追加計上|セキュリティニュースのセキュリティ対策Lab",
+          "title": "ジーニーは急反落、不正アクセス関連損失計上で４～６月は営業赤字に転落",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMjZMYzVHcDc4N25XUmttdElGWG1zbVVZdkpiRUdmeXRucW94UVNaUXlNQlBvQ2M2TGl6d1hydVJ2dmhuTmJjQU9FUDZ6S3lRUVo0UHJkV2dpX2hQZjlRNlFjTGVQa2RMQS0wMHluTUU5ZERiRGxJWlBvVTlsSVdpd2FvMmFpQVdxZ2RjRHd1bmNKQUFEVFBTQUFrU0tiN1RtZkEtSDVaWFg?oc=5",
-          "domain": "rocket-boys.co.jp",
-          "published": "2026-11-16T06:00:55+09:00",
-          "published_label": "2026/11/16(月) 06:00",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91YnNlNldRbnk4WXNhZGpicWloUkhMYk1fM3QzR1lkX29mVlNHNDNfUnRyX3p1V0gzTVI3eDZrZXE3bTFTOVowWDJzQ09VLUNCdmhwX1BONTNwODZwc3YyUg?oc=5",
+          "domain": "kabutan.jp",
+          "published": "2026-08-17T16:00:00+09:00",
+          "published_label": "2026/8/17(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6253,13 +6237,13 @@
           "is_new": true
         },
         {
-          "title": "新世代のシゴト観－「まずやってみる」から始まった、マーケティングチーム立ち上げへの挑戦：ジーニー・原本真希氏",
+          "title": "ジーニー[6562]：不正アクセス関連損失および貸倒引当金繰入額（その他の費用）の計上に関するお知らせ 2026年8月14日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DRk5nUUdWMDBwUVJFVmpFM0l2RzhMOHdCMnZVb212Z2M1QzdQbFVnZWxSX2U3b2xJRTByb0pEMjJoZnlMcnFlQkJCeVdqZXJtWnlvNFY5eDBvUmZNWmZsZlgzX1l6Y0IzdmRxcWxHcDRfWV9fWEVSWGJEYw?oc=5",
-          "domain": "exchangewire.jp",
-          "published": "2026-10-14T16:00:00+09:00",
-          "published_label": "2026/10/14(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uc0N1Zy1fV3hLaVNLcGNHLWVxMHNPTll6bDFiRi1tNml6SXNpMUZQNmowazlZbGdhYk5POUpqZEFrRFllQW0zM2FUSzNmamVBNER2Q3RUTzZZWlpPZlNxTVIyTnh5VnpkUlE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-08-14T16:00:00+09:00",
+          "published_label": "2026/8/14(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6269,13 +6253,13 @@
           "is_new": true
         },
         {
-          "title": "DYMとジーニー「CPA高騰時代に広告運用とサイト内接客のどちらへ投資すべきか」をテーマに無料オンラインセミナーを共催",
+          "title": "ジーニー、新フォーマット「アウトストリーム動画広告」を提供開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TS19uUVBEUkFRRFJ6dnpVMWNPbko1RmJ4X3hQSndxbzdTeWlLR1lLYUJ1emVIa3Ita2RSWmMwZFdKRHVibkEtM0JZd1ljYmZkVlA3SGNTbmNGRHBrUmEzcHhtbk5VUWtXT3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-09-04T16:00:00+09:00",
-          "published_label": "2026/9/4(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE12THZISHpwQ1ZLdEpXcGRELWhwMk5ZSnZMaEpiTUFERmZlcTRQVWt2Y3dZWVd4LWM0blE2b01hTW1LcHNOZ3QyV1JfR1llQkE?oc=5",
+          "domain": "atpress.ne.jp",
+          "published": "2026-06-22T16:00:00+09:00",
+          "published_label": "2026/6/22(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6285,29 +6269,29 @@
           "is_new": true
         },
         {
-          "title": "「任せる広告運用」から「自走する体制」へ。駅探とジーニーが実現したCPM前年比大幅改善への取り組み［インタビュー］",
+          "title": "【QAあり】ジーニー、1Q正常利益は前年比95％増と大幅成長 マーケティングSaaSの伸長に加え、M&Aによる事業拡大効果も寄与",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82QkJDZk5VYWFXWXdJR0R0Y0ZzQVNKRTk2aFBiRU5nUW9UVjBxZmVwTXh4TTZmOUoxaGlpX2FxMjNmX01yQU84cHF4T082UUMxcERLZE5yTy1IVG1mVXhjSDU5cDY5SmlHeHhYdE9IU0k?oc=5",
-          "domain": "exchangewire.jp",
-          "published": "2026-09-02T16:00:00+09:00",
-          "published_label": "2026/9/2(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "ジーニー（6562）、広告プラットフォーム・デジタルPR事業が牽引し1Q売上収益は2桁増 SaaS事業の構造改革で利益改善へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FRzJCQlVaaWpqRHJEVTU3U1RLclVYeU4zZXAyU1pBZGZObkRQWGNsNEpkOEx0MlB0Uk1uaDhPYnd2QWRmVnREeWFSSm1VZVV5MXc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9zSDYwYlZRS2NWOHl5MnpVaGdpQ29PMDEyOTViZGhna2NxZUVsLVRFc09MTFk5YXNJeFVmcEZGTTUyaGtKa3B2Y1g0R2YwSzlIYXc?oc=5",
           "domain": "finance.logmi.jp",
-          "published": "2026-08-24T16:00:00+09:00",
-          "published_label": "2026/8/24(月) 16:00",
+          "published": "2025-08-22T16:00:00+09:00",
+          "published_label": "2025/8/22(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Web広告大手「株式会社ジーニー」の成長環境：挑戦とスピード感が魅力！ ｜ミライのお仕事",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtRHBOZTFjTm9XYXdOUzNHd1lzWEVpUFVqSXIzUTFCSmJhTllJR2x2amoycm9TZ3dqTFFKSFhEbXpqX3BjQS10TlhBaw?oc=5",
+          "domain": "morejob.co.jp",
+          "published": "2025-06-30T16:00:00+09:00",
+          "published_label": "2025/6/30(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -6410,7 +6394,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "nc_73",
@@ -6516,84 +6500,84 @@
       "count": 5,
       "items": [
         {
-          "title": "ファンケル系、障害者の職場実習公開(時事通信)",
+          "title": "ファンケル「マイルドクレンジング オイル」、@cosmeで3部門受賞 下半期新人賞は第1位",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYUVtRGJ2V2RVMXI5bjJIQ0lQNHRPbVl1Q3g1VF9rVWNpeDJ4cmRFbDhsSnd6ZFdFTnk5VHFBQzNvMjJRWWNydmRpNU5BMmE4ZHlxbmcwdHFVNUhJRnA5WE1OV0V5Q2diaks4U01MSWZ1eE81NEZ6ZVd0NU1ibzJuVmpDOU8wU00?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-20T23:01:24+09:00",
-          "published_label": "2026/11/20(金) 23:01",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【通販企業の顧客対応最前線】 ファンケル、AIで顧客の本音を可視化 30万件のデータを活用",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45WHQ4YWZOOHFGU255NmFYYlUydHZiYUMxd3F0RHdzRE5qdnFDR01NaHBUeVFqTDR0OXczT3Z6cE1VZjl1UVpIeVhiNTBNNG0xVUNJSmJQbw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5IVDY3V1pkYzdhWmp5VVc5QTVfc3ppS09xM1lsWVlLMzJuZ0xQYVl6c0FYNUFnaU9ZNjZKY21jWlVzaTh6NWtxcVMxQWdQM3ZyaEVvLWs5Zw?oc=5",
           "domain": "online.bci.co.jp",
-          "published": "2026-11-20T12:00:40+09:00",
-          "published_label": "2026/11/20(金) 12:00",
+          "published": "2026-11-22T13:53:57+09:00",
+          "published_label": "2026/11/22(日) 13:53",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ファンケル、肌専門AIで顧客接点を拡張～三橋英記社長、無料提供で信頼獲得へ",
+          "title": "「夫婦になったの？」ファンケル、浜辺美波＆大森元貴の謎ツーショットを公開！「どういう設定笑笑」",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VdWJ4SVBKaDJtT3VyRFJtcFp0SUxPYV84WWtUbXV0UFFiclZBZGJTeEVFUkJ0eGwzLUl3T1FKc1otNjV3Vm54OVJRTkdQS21BVDFIeFJLaVh0QQ?oc=5",
-          "domain": "syogyo.jp",
-          "published": "2026-11-19T13:30:00+09:00",
-          "published_label": "2026/11/19(木) 13:30",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qX3ExQ0p4dDFVOEZOVmxtQ3FMMFdnWkpkYWQ1bzFyb2p1MWRhWWlMNFo3d3pUZlJxZzV1TGhwdnAxS0J1bU9sVGo5T3FrSXFRNTg1cnhUbVRJSHZacG9Ka1Z5X3dPTDZ1VFFQc3JR?oc=5",
+          "domain": "article.auone.jp",
+          "published": "2026-11-22T13:50:00+09:00",
+          "published_label": "2026/11/22(日) 13:50",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "美腸活弁当 創作料理 FANCL令和本膳（ファンケル レイワホンゼン）｜OZmallレストラン予約",
+          "title": "「ファンケル マイルドクレンジング オイル」が@cosmeベストコスメアワード2026で下半期クレンジング新人賞 第1位を含む3冠※1受賞！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nS2szd3R2REJ6OGFwVVV0R0I0Z3dGTmpMYXJQREI2Q1JzRnhpYjFqT09Ldy1lRDBhWXc4aDlMQTktMTR6T1RCZ21pRVUwbXE0NFFuMGlFc3k2akNtZU82R1h5bw?oc=5",
-          "domain": "ozmall.co.jp",
-          "published": "2026-11-18T17:00:00+09:00",
-          "published_label": "2026/11/18(水) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yTnZiOUhwdEJQei1BNmVtenczcjV5SkNwOUhZaVRFcFVEMGVJNGwxWWFKYnVKS3U3bzJ4Mjg1ZDZxZGg2RGlnWFgzVE51YTZqcVM0OWkxXy12U2RmVUNuckNiTWpKQTdNNVE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-18T13:00:01+09:00",
+          "published_label": "2026/11/18(水) 13:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ファンケルが肌専門AI「FANCL SKIN MATE」提供、店頭と手元で顧客に寄り添い「不」を解消 (1/2)",
+          "title": "日頃のご愛顧に感謝を込めて。ファンケル冬のお買い物キャンペーンのご紹介",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE04NzlFMnBueXRKbjZJQU4xcDhaUk9XT0dQTThpXzE2TlZLMEVlOUlLNlp1LWc4R0lUbGNMRlFLLXRHSHNhWFdSVDFqeW93VmJ0bVhF?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-11-18T14:07:18+09:00",
-          "published_label": "2026/11/18(水) 14:07",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SMHpYVzFWNW9CbjE5NVgwc2c1OHBka2pCVW9BN1g5ZUIxVU10Z0FybHo3a3I1SGF6aVNIcUZ6XzdOekZVR1ZlVnozb2x4ZmZCR29ERDVTdm4yM0RKTVlTallNSlRQSENCRHc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-16T11:00:02+09:00",
+          "published_label": "2026/11/16(月) 11:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "「ファンケル」薬用美白美容液がリニューアル シミができる前の“先回りケアを提案（FASHIONSNAP）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kYWJqVWladEZNQ1NaSjktbVpWYnlReXI1N0p0MjRwcjEweldmUFVma2hWWGpTM3NZNmxnTTZBMmU0LU5SLXlfYWlheTVFMTZPazRvTWpuQ2VRMzNLSGktMFYwOEZNbERXbUl1eEtETGNlbFBrTE9nRGpqRGpaMXc?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.3
@@ -6689,7 +6673,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.1
     },
     {
       "id": "nc_76",
@@ -6782,7 +6766,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "nc_77",
@@ -6875,7 +6859,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.1
     },
     {
       "id": "nc_78",
@@ -6968,7 +6952,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "nc_79",
@@ -7090,13 +7074,13 @@
           "is_new": false
         },
         {
-          "title": "ヤプリ（4168）、3Q累計は売上高・営業利益ともに過去最高を更新 4Qはマーケティングに先行投資",
+          "title": "ヤプリ[4168]：ヤプリ、AI機能群「Yappli AI Agent」を発表 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ka2V2eVh5MVdVSnZXbHgzcUV6YzQ4ZDBYSW15T25mTENGOEgzSEZ6dGkwU05fY0tsNW5xclg5cWxuSkYyelh4bzB4aHRVUmVpSUE?oc=5",
-          "domain": "finance.logmi.jp",
-          "published": "2026-11-19T16:00:02+09:00",
-          "published_label": "2026/11/19(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pOUlmRkRaWi1aMnhVcjFsUXFxclNQMi1uWmVJUjRFVUtDQkJVR2JySVRBVmZuT05jeHljMGExYVlGYmZtdEV0VTJnWVZ3U3YxYWs0TVQxeEtEWkZPaVBlUTNMU2xVRkI2SlE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-13T10:00:00+09:00",
+          "published_label": "2026/11/13(金) 10:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7106,13 +7090,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリ、AI機能群「Yappli AI Agent」を発表 制作から運用・改善までを支援：commercezine",
+          "title": "【決算速報】ヤプリ---26年12月期3Q(フィスコ)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rbWJNZlp1WnVIS0piVVB3SDE4WVdmTHpPVC1INHRvMWpKajZWT2lveEtKZV9GV3daS2dVM3hXNkpYTWVUUEhZMzBoT0liNVU?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-11-16T08:30:00+09:00",
-          "published_label": "2026/11/16(月) 08:30",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTEFicFo5aXZ4QmEwaE9SX19kaDdaQklISFdVX01aakZWSm93Y3U2dEs3dmhpRHBIbUN4WG41RTRfSlRReUdLM2R0VnM3Q0Q0eEFKeUgySDhTMGduQnZPQ3dITzRUZ21qUVBOay0teF9RX0dPemZ4ZGtzVEhidjAyeXZMOU9fTW8?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-12T19:19:04+09:00",
+          "published_label": "2026/11/12(木) 19:19",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7122,13 +7106,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリが発表したAI機能群「Yappli AI Agent」がアプリ制作を革新する時代の到来",
+          "title": "【決算速報】ヤプリ、1-9月期(3Q累計)経常は18％増益で着地(株探ニュース)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56YTJfc3YxOS1UTno2cFN1RjFUOEpYczh4Tjk5Wng1VExISUMtcFBhVlBtVldIWjg1VjJjN1hYWU8za2JmSGRqZmlodHRFeWJ5bkhDRHhLZmhHOUhlcFotSDB3?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-13T16:35:33+09:00",
-          "published_label": "2026/11/13(金) 16:35",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHNzTDBhd3hGTlZqQXJ6QlU1b0g2X3RwNTZxVjZzUkdoaUllOGE5MFR6WnRmSXBPQTAyb3hfUC1CdDA1TVlCY3I0d1pxWWh6YjliRlQ4NHkyY0UxRGJqYUVZOTIzZlFtNl9qTXoxWlRpVjFNRnRzbld3RjdNZ3VXMkJHLWhid0k?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-12T15:37:37+09:00",
+          "published_label": "2026/11/12(木) 15:37",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7138,13 +7122,13 @@
           "is_new": true
         },
         {
-          "title": "ヤプリ、AI機能群「Yappli AI Agent」を発表",
+          "title": "(株)ヤプリ【4168】：決算情報",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94WnZSUVNmSUQ3ajdKVmFGd0VQdnFaRFlmM2pEODJTeVFMMVhXRHFGSHNqaHhIRC1zUVZnUTNqbG9uU0VDLUJvaHRtZHU2cnNOVjJF?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-11-13T10:03:03+09:00",
-          "published_label": "2026/11/13(金) 10:03",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KUVN6MlJxb3IyVkRmZkNBOEEzQ082dUFOMHY5Umlfd19qOGp3VjFZVDBrVEVxZVNkb0Uxb0hoNnBwQnVPTmFnOUpadWowODJqZ2hvWk1JVnhxMW5ILVd1WQ?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-12T15:30:00+09:00",
+          "published_label": "2026/11/12(木) 15:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -7154,7 +7138,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "nc_81",
@@ -7164,40 +7148,8 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E3%83%AF%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 1,
       "items": [
-        {
-          "title": "shot 613UST 40 ダブルライダース ワンスター 613US ONESTAR RIDERS/ワンスター ライダース レザージャケット | Schott（ショット） ｜【公式】通販mix.tokyo（ミックスドットトウキョウ）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mN055MFZVZER0Qk9SN3BBWG5LN0J3cWdSWmR1eTBMNi00RlNQMjdibXZsZTN0Z1NLUXh6MkFrTkVwWDFNOVNzSmpTN2lyQ2JlRC1MSW1QLU5SZGZJWnJGMHh3?oc=5",
-          "domain": "proto.life",
-          "published": "2026-10-31T18:43:43+09:00",
-          "published_label": "2026/10/31(土) 18:43",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "新時代の営業を提案するEmooove、株式会社ワンスターへの導入事例を公開。LinkedInとCxOレター（手紙営業）で、接触が難しかった各業界のデジタルマーケティング決裁者とのアポイントを獲得",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZeGxiYm00eUs2d2g2bDI4NlI0OHRXNldhdkdkNWNNQ2ltV1NLR2FGLTE1cjV1YVVaVUNBckptYlNzNFFhVE1LXzVvdU14clA0WUJua1NkeG5IdGhJNDA5ZTQ5VUE1MzVZZGpN?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-10-17T16:00:00+09:00",
-          "published_label": "2026/10/17(土) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
         {
           "title": "【完売必至のセレクトショップ別注】ショットの名品ライダース「ワンスター」にソフトで着やすいラムスキンを採用（UOMO）",
           "summary": "",
@@ -7215,7 +7167,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 1.6
     }
   ]
 }

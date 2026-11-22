@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T12:03:58+09:00",
-  "generated_at_label": "2026/11/22 12:03 JST",
+  "generated_at": "2026-11-22T14:02:15+09:00",
+  "generated_at_label": "2026/11/22 14:02 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "セキュリティ研究者は最近、OpenRouter で利用できる一部の推論プロバイダーでデータ処理の問題を発見しました。調査結果では、OpenRouter 自体の侵害は認められませんでした。\nこれに応じて、私たちは 3 つのプロバイダーをオフボードし、多くのエンドポイントを ZDR 資格から削除し、影響を受ける顧客に通知しました。\n私たちは現在、研究者によるテストを継続的なチェックに組み込んでいます。完全なアップデートとプロバイダーの記事はブログにあります。"
         },
         {
@@ -94,7 +94,9 @@
         {
           "title": "Try it now!",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2123485105989865473/V2ZT9LU2?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/OpenRouter/status/2123494170908340379",
           "domain": "x.com",
           "published": "2026-11-20T04:10:37+09:00",
@@ -290,7 +292,7 @@
           "title_ja": "@MicrosoftAIはIgniteで3つの新モデルを発表し、そのすべてがOpenRouterで公開されています。\n• MAI-Image-2.7：背景が透明な2K画像\n• MAI-Image-2.7 Flash：大量処理に適した、より高速で軽量なバージョン\n• Microsoft-Decision-1.1：1回の呼び出しで、各回答オプションの確率を調整"
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 6.2
     },
     {
       "id": "x_opencode",
@@ -316,14 +318,14 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "GLM 5.3 と DeepSeek V4.1 Flash が OpenCode で 60% オフになりました"
         },
         {
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2119541981278093312/v6iU4oU9?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2124214459400933376/XZEw_tlr?format=png&name=800x419"
           ],
           "link": "https://x.com/opencode/status/2124268940226392524",
           "domain": "x.com",
@@ -335,7 +337,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "OpenCode Console now supports keyless auth\ncalling models from CI or anywhere that supports OIDC no longer requires long lived API tokens",
@@ -570,7 +572,7 @@
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
         }
       ],
-      "elapsed": 4.4
+      "elapsed": 3.1
     },
     {
       "id": "x_aimirai46487",
@@ -582,6 +584,172 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■引用元\nGoogle Antigravity (@antigravity)\nBuilding with @MongoDB in Antigravity just got easier. 🚀 The official MongoDB Atlas (Managed MCP) plugin connects to MongoDB’s hosted MCP server with 7 expert skills: query in natural language, optimize slow queries, review schemas & build Vector Search.\nTry today: antigravity://customizations/marketplaces/antigravity-plugins-partners/plugins/mongodb-atlas\nVideo\n— https://x.com/antigravity/status/2123890186308239857",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123890150404923392/img/xuA2u6gXYOim7wui.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349667639169051",
+          "domain": "x.com",
+          "published": "2026-11-22T12:50:03+09:00",
+          "published_label": "2026/11/22(日) 12:50",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nAntigravity での @MongoDB を使用した構築がさらに簡単になりました。 🚀 公式 MongoDB Atlas (マネージド MCP) プラグインは、自然言語でのクエリ、低速クエリの最適化、スキーマのレビュー、ベクトル検索の構築という 7 つの専門スキルを使用して、MongoDB のホスト型 MCP サーバーに接続します。\n今すぐお試しください: antigravity://customizations/marketplaces/antigravity-plugins-partners/plugins/mongodb-atlas\nビデオ\n— https://x.com/antigravity/status/2123890186308239857"
+        },
+        {
+          "title": "AIエージェント「Google Antigravity」に公式プラグイン「MongoDB Atlas」が実装されました。\n自然な言葉でのデータ検索や検索処理の高速化、データベース構造の確認、ベクトル検索の構築など、7つの専門機能を利用できるようになります。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123890150404923392/img/xuA2u6gXYOim7wui.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349637310263670",
+          "domain": "x.com",
+          "published": "2026-11-22T12:49:56+09:00",
+          "published_label": "2026/11/22(日) 12:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nUnity for Games (@unitygames)\nIntroducing Unity Neural: a new generation of AI-accelerated tools designed to make Unity's compute pipeline faster and slash graphics memory in URP.\nWith Neural Texture Compression (NTC) integrated natively into the Editor, you can train models on your own data using Sentis and compress textures beyond traditional formats at near-lossless quality.\nVideo\n— https://x.com/unitygames/status/2123869197415366939",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/ext_tw_video_thumb/2123869088711610368/pu/img/y9DL4fWqUwazEtgn.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349570729836798",
+          "domain": "x.com",
+          "published": "2026-11-22T12:49:40+09:00",
+          "published_label": "2026/11/22(日) 12:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nゲーム向け Unity (@unitygames)\nUnity Neural の紹介: Unity のコンピューティング パイプラインを高速化し、URP のグラフィックス メモリを削減するように設計された新世代の AI 高速化ツールです。\nエディターにネイティブに統合されたニューラル テクスチャ圧縮 (NTC) を使用すると、Sentis を使用して独自のデータでモデルをトレーニングし、従来の形式を超えてほぼロスレスの品質でテクスチャを圧縮できます。\nビデオ\n— https://x.com/unitygames/status/2123869197415366939"
+        },
+        {
+          "title": "Unityは、AIを活用して処理速度を向上させ、グラフィックスに使用するメモリを大幅に削減する新しいツール群「Unity Neural」を発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/ext_tw_video_thumb/2123869088711610368/pu/img/y9DL4fWqUwazEtgn.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349549498269890",
+          "domain": "x.com",
+          "published": "2026-11-22T12:49:35+09:00",
+          "published_label": "2026/11/22(日) 12:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nOpenAI (@OpenAI)\nMedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\nVideo\n— https://x.com/OpenAI/status/2123856316187975756",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349485367341119",
+          "domain": "x.com",
+          "published": "2026-11-22T12:49:20+09:00",
+          "published_label": "2026/11/22(日) 12:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nオープンAI (@OpenAI)\nMedChemBench は、医薬化学における AI 推論の新しいベンチマークです。\nこれは、科学者が AI を使用して有望な薬剤候補を特定するのを支援する当社のフロンティア モデルの能力が進歩していることを示しています。\nビデオ\n— https://x.com/OpenAI/status/2123856316187975756"
+        },
+        {
+          "title": "OpenAIは、医薬品の研究開発に必要なAIの推論能力を評価する、新しいベンチマーク「MedChemBench」を発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349435694268648",
+          "domain": "x.com",
+          "published": "2026-11-22T12:49:08+09:00",
+          "published_label": "2026/11/22(日) 12:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nArena.ai (@arena)\nThe Arena Alignment Index has been updated!\nWe've refined how our signals detect model failures, providing broader coverage and more reliable judgements. Based on the updated methodology:\n- @OpenAI continues to dominate, holding all seven top positions.\n- @Anthropic's latest release, Claude Fable 5.2, debuts at #8 with a score of 78.2. Claude Opus 5.5, which ranked #6 on the previous index, is now #17.\n- Kimi K3.1 Pro by @Kimi_Moonshot is the biggest upgrade over its predecessor (more info in thread).\n- Most open source models are trailing closed releases. The best open model - Kimi K3.1 Pro - occupies #9, and the second best, Mimo-V2.6-Flash, is #26 on the Index, followed by Hy4, Beam, Inkling, DeepSeek and GLM.\nThe Top-6 lab:\n- #1 @OpenAI GPT-6.2 Sol\n- #2 @AnthropicAI Claude Fable 5.2\n- #3 @Kimi_Moonshot Kimi K3.1 Pro\n- #4 @GoogleDeepmind Gemini 4 Hydrogen\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta Muse Ember\nAlignment Index measures how agents behave in real user sessions across three dimensions:\n- Unauthorized Action: Doing what the user didn’t ask for or approve\n- Deceptive Completion: Saying work is done, checked or working when it isn't\n- False Attribution: Crediting the user with something they never said or did\nMore insights in the thread🧵\n— https://x.com/arena/status/2123835034532729205",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXlbPOhbQAE_xUd.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349365586468957",
+          "domain": "x.com",
+          "published": "2026-11-22T12:48:51+09:00",
+          "published_label": "2026/11/22(日) 12:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nアリーナ.ai (@arena)\nアリーナアライメントインデックスが更新されました！\n信号がモデルの障害を検出する方法を改良し、より広い範囲をカバーし、より信頼性の高い判断を提供します。更新された方法論に基づいて、次のようになります。\n- @OpenAI は引き続き優位性を維持し、上位 7 位すべてを保持しています。\n- @Anthropic の最新リリースである Claude Fable 5.2 は、78.2 のスコアで 8 位に初登場しました。前回の指数で6位だったクロード・オーパス5.5は現在17位となっている。\n- @Kimi_Moonshot による Kim K3.1 Pro は、前世代に比べて最大のアップグレードです (詳細はスレッドを参照)。\n- ほとんどのオープン ソース モデルは、後続のクローズド リリースです。最も優れたオープン モデルである Kim K3.1 Pro は 9 位を占め、2 番目に優れた Mimo-V2.6-Flash はインデックスで 26 位にあり、続いて Hy4、Beam、Inkling、DeepSeek、GLM が続きます。\nトップ 6 のラボ:\n- #1 @OpenAI GPT-6.2 ソル\n- #2 @AnthropicAI クロード寓話 5.2\n- #3 @Kimi_Moonshot キミ K3.1 プロ\n- #4 @GoogleDeepmind Gemini 4 水素\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta ミューズエンバー\nアライメント インデックスは、実際のユーザー セッションでエージェントがどのように動作するかを次の 3 つの次元にわたって測定します。\n- 不正なアクション: ユーザーが要求または承認していないことを行うこと\n- 欺瞞的な完了: 作業が完了していない、チェックされている、または作業中であると主張する\n- 虚偽の帰属: ユーザーが言ったことも行ったこともないことをユーザーの信用とする\n詳細についてはスレッドをご覧ください🧵\n— https://x.com/arena/status/2123835034532729205"
+        },
+        {
+          "title": "Arenaは、「Arena Alignment Index(AIエージェントの安全性や適切な動作を評価するランキング)」を更新しました。\n今回の更新では、AIモデルの問題や失敗を検出する評価方法が改善され、より幅広い項目を、これまで以上に正確かつ信頼性の高い方法で評価できるようになりました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXs0XhwbEAAI9lk.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349321374269732",
+          "domain": "x.com",
+          "published": "2026-11-22T12:48:41+09:00",
+          "published_label": "2026/11/22(日) 12:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Googleは、パソコン版Google検索のトップページに、AIモードの過去のやりとりを表示するサイドバーを追加すると発表しました。\n中断した調べ物を続きから再開できる機能で、世界中で順次提供されます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124315551648399360/ruy3ocl3?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124349169892831365",
+          "domain": "x.com",
+          "published": "2026-11-22T12:48:05+09:00",
+          "published_label": "2026/11/22(日) 12:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "GoogleのAIエージェント「Google Antigravity」の、すべてのユーザーのGeminiモデルの利用制限がリセットされました。\nまた、キャッシュ機能の改善により、同じ利用制限内で実行できる作業量が22%増加したということです。\nVarun Mohan (@_mohansolo)\nReset everyone’s Gemini quota on Antigravity.\nThe caching improvements have increased the amount you can get done in quota by 22%. Enjoy building with Neon over the weekend!\n— https://x.com/_mohansolo/status/2124070033534161407",
           "summary": "",
@@ -689,174 +857,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "■引用元\nRomain Huet (@romainhuet)\nYou can now call your Dot from Apple CarPlay! 🚗\nGive it a try on your next drive and see what you can get done just by talking!\nVideo\n— https://x.com/romainhuet/status/2123924316110966824",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123923474649579520/img/rPRwLrSOvTiVl1Qh.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982365840359926",
-          "domain": "x.com",
-          "published": "2026-11-21T12:30:32+09:00",
-          "published_label": "2026/11/21(土) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nロマン・ユエ (@romainhuet)\nApple CarPlay から Dot を呼び出すことができるようになりました。 🚗\n次回のドライブで試してみて、話すだけで何ができるかを見てみましょう。\nビデオ\n— https://x.com/romainhuet/status/2123924316110966824"
-        },
-        {
-          "title": "Appleの車載システム「Apple CarPlay」からOpenAIのAIエージェント「dots」を呼び出せるようになりました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123923474649579520/img/rPRwLrSOvTiVl1Qh.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982256977175019",
-          "domain": "x.com",
-          "published": "2026-11-21T12:30:06+09:00",
-          "published_label": "2026/11/21(土) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "SpaceXのAIエージェント「Cursor」は、地政学的リスクを理由に、中国企業が開発したオープンウェイトAIモデルの利用を段階的に廃止することを検討していると報じられています。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123779755858149376/kO6C3Lvg?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982183564255739",
-          "domain": "x.com",
-          "published": "2026-11-21T12:29:48+09:00",
-          "published_label": "2026/11/21(土) 12:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nGoogle Gemini (@GeminiApp)\nSay hello to GIFs in Gemini. Say goodbye to searching for the perfect one.\nFrom looping photo effects to funny memes, create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash, for smooth motion and consistent quality across every frame.\n— https://x.com/GeminiApp/status/2123813017855103449",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2123933763029901370",
-          "domain": "x.com",
-          "published": "2026-11-21T09:17:24+09:00",
-          "published_label": "2026/11/21(土) 09:17",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGoogle Gemini (@GeminiApp)\nGemini の GIF にご挨拶してください。完璧なものを探す必要はもうありません。\nループ写真エフェクトから面白いミームまで、最新のビデオ モデルである Gemini Omni 1.2 Flash を使用して想像できるあらゆる GIF を作成し、すべてのフレームでスムーズな動きと一貫した品質を実現します。\n— https://x.com/GeminiApp/status/2123813017855103449"
-        },
-        {
-          "title": "GogleのAIチャット「Gemini」で、動画生成AIモデル「Gemini Omni 1.2 Flash」を活用してGIFアニメを作れるようになりました(有料ユーザー限定)。\nGeminiで作ったGIFアニメサンプル(↓)",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2123933689432490137",
-          "domain": "x.com",
-          "published": "2026-11-21T09:17:06+09:00",
-          "published_label": "2026/11/21(土) 09:17",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Thinking Machines Labは、ノートパソコンでも動作するほど軽量だとする、260億パラメータ搭載のAIモデル「Inkling 2 Mini(ループ型Transformer採用)」をオープンウェイトで公開しました。\nThinking Machines (@thinkymachines)\nSome of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\n— https://x.com/thinkymachines/status/2123871643797995872",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123870055498940416/GIja54ZR?format=png&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123933389036437970",
-          "domain": "x.com",
-          "published": "2026-11-21T09:15:55+09:00",
-          "published_label": "2026/11/21(土) 09:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nAndrew Ambrosino (@ajambrosino)\nNEW:\n- ChatGPT Space for Plus!\n- new, simpler visual design across the app\n- huge performance improvements everywhere\n- completely rebuilt threads– better perf and design\n- redesigned Space home\n- much faster pages and slides\n- edit pages on mobile\n- more reliable Codex Remote\nmuch more to come soon!\nVideo\n— https://x.com/ajambrosino/status/2123840812534452296",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123840592379510784/img/8-BxI6eEc3EwHenF.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123933323009704157",
-          "domain": "x.com",
-          "published": "2026-11-21T09:15:39+09:00",
-          "published_label": "2026/11/21(土) 09:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nアンドリュー・アンブロシーノ (@ajambrosino)\n新しい:\n- ChatGPT スペース for Plus!\n- アプリ全体の新しくてシンプルなビジュアルデザイン\n- あらゆる場所で大幅なパフォーマンスの向上\n- スレッドを完全に再構築 - パフォーマンスとデザインが向上\n- 再設計されたスペースホーム\n- ページとスライドが大幅に高速化\n- モバイルでページを編集する\n- より信頼性の高いコーデックス リモート\nさらに多くのことがすぐに登場します!\nビデオ\n— https://x.com/ajambrosino/status/2123840812534452296"
-        },
-        {
-          "title": "ChatGPTのアプリ全体でデザインが刷新され、処理速度が向上するなど、細かいアップデートが行われたようです。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123840592379510784/img/8-BxI6eEc3EwHenF.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123933300851183711",
-          "domain": "x.com",
-          "published": "2026-11-21T09:15:34+09:00",
-          "published_label": "2026/11/21(土) 09:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nChatGPT (@ChatGPT)\nPlus users, welcome to Space 🪐\nCollaborate with others alongside ChatGPT to create interactive pages, slides, and sites. And bonus: ChatGPT can keep them updated for you.\nYou can now edit on mobile, and we’ve made Space smoother and more reliable.\nA quick guide to getting started ⤵️\nVideo\nVideo\nVideo\nVideo\n— https://x.com/ChatGPT/status/2123850912867471807",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123841966643576832/img/9zM68CoiEGaocf5d.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123842057039147008/img/3m8qxtx-DswfARSh.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123842652596768768/img/BbCMFXEW0bXGLfLD.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2123842741230837760/img/2FKc6qId4wK3I8le.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123933238465077405",
-          "domain": "x.com",
-          "published": "2026-11-21T09:15:19+09:00",
-          "published_label": "2026/11/21(土) 09:15",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nチャットGPT (@ChatGPT)\nPlus ユーザーの皆様、Space へようこそ 🪐\nChatGPT を使用して他のユーザーと共同作業して、インタラクティブなページ、スライド、サイトを作成します。さらに、ChatGPT では最新の状態を維持できます。\nモバイルでも編集できるようになり、Space がよりスムーズかつ信頼性の高いものになりました。\n始めるためのクイックガイド ⤵️\nビデオ\nビデオ\nビデオ\nビデオ\n— https://x.com/ChatGPT/status/2123850912867471807"
         }
       ],
-      "elapsed": 2.8
+      "elapsed": 3.5
     },
     {
       "id": "x_kimmonismus",
@@ -903,7 +906,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "「彼らは、よりスマートな AI システムをトレーニングする AI システムをトレーニングする予定です。数十年にわたる研究が数か月に圧縮されるでしょう。」\nジェイコブ・コクソン氏はこれが問題だと考えている。私はしません。"
         },
         {
@@ -925,7 +928,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私はジェンセン氏に会ったことはありませんが、これまでに会った NVIDIA 従業員は皆、ジェンセン氏がどのように個人的に彼らをサポートしたか、つまり、長期にわたる病気や深刻な病気を抱えた場合に彼らを助けたり、それぞれの家族が直面している特定の課題を思い出したりしたという話をしてくれました。\nこれらは何も言わずに告げられました。 Glassdoor で彼が NVIDIA 従業員から 99% の支持率を得ているのには理由があると思われます。\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも一つだけはっきりと言えるのは、"
         },
         {
@@ -1148,7 +1151,7 @@
           "title_ja": "デミスからの再投稿❤️"
         }
       ],
-      "elapsed": 4.4
+      "elapsed": 6.0
     },
     {
       "id": "x_haider1",
@@ -1180,6 +1183,23 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "AI: solves the riemann hypothesis\nhumanity: continues existing\ndoomers: ok but what if someone asks it to take over the world?\nanti-AI crowd: it's just predicting the next token\nboomer mathematicians: \"it still hasn't been independently verified\"",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124367271967752598",
+          "domain": "x.com",
+          "published": "2026-11-22T14:00:01+09:00",
+          "published_label": "2026/11/22(日) 14:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AI: リーマン予想を解く\n人類：存在し続ける\nドゥーマーズ: わかったけど、誰かがそれに世界を征服するよう頼んだらどうする?\n反AI群衆: それは次のトークンを予測しているだけです\nブーマー数学者「まだ独立して検証されていない」"
+        },
+        {
           "title": "AI is advancing so fast now that it's getting harder to predict what's coming next\nthere definitely seems to have been some shift or breakthrough particularly at anthropic and openai about 2–3 months ago and everything has been moving much faster since then\ncoding, mathematics, robotics...",
           "summary": "",
           "images": [
@@ -1195,7 +1215,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "AIは現在非常に急速に進歩しており、次に何が起こるかを予測することがますます困難になっています\n約 2 ～ 3 か月前に、特に anthropic と openai で何らかの変化または画期的な変化があったことは間違いなく、それ以来すべてがはるかに速く進んでいます。\nコーディング、数学、ロボット工学..."
         },
         {
@@ -1212,7 +1232,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "4月のデミス・ハサビス：\nAI がリーマン予想や別のミレニアム懸賞問題を解くには 2 年かかります。\n10月のテレンス・タオ：\n現在の AI はリーマン仮説を解決するには十分ではないため、おそらく人間と AI が協力して 2050 年までに進歩する可能性があります。\nこれで 2 つの問題に対する解決策が得られ、残りの問題すべてに対するブレークスルーが得られました。"
         },
         {
@@ -1414,29 +1434,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
-        },
-        {
-          "title": "ohh my... anthropic's levent alpöge claims to have discovered a proof of the Riemann Hypothesis with claude\nmathematics' most famous unsolved problem for more than 150 years\nScott Armstrong (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk1OJSboAAd-5c.png?name=small",
-            "https://pbs.twimg.com/media/HXkoiilWgAAAeN1.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123787651585372457",
-          "domain": "x.com",
-          "published": "2026-11-20T23:36:48+09:00",
-          "published_label": "2026/11/20(金) 23:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "x_testingcatalog",
@@ -1738,7 +1738,7 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         }
       ],
-      "elapsed": 4.3
+      "elapsed": 0.8
     }
   ]
 }

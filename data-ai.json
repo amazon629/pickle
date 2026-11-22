@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22T12:04:02+09:00",
-  "generated_at_label": "2026/11/22 12:04 JST",
+  "generated_at": "2026-11-22T14:02:15+09:00",
+  "generated_at_label": "2026/11/22 14:02 JST",
   "title": "AI監視ボード",
-  "total": 372,
+  "total": 371,
   "sources": [
     {
       "id": "x_ai_300",
@@ -50,7 +50,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これはヤバい\nAIが専用メアドを持つ時代に突入\nMetaの「Muse Mail」が無料ユーザーにも開放\n好きな名前の「@muse.ai」を取得できる\nしかも短いアドレスは早い者勝ち\nAIがメールの送受信まで代行する時代が来た\n取得方法と使い道は👇\n11月20日、Muse Mailの提供対象が拡大\n日本でも無料ユーザーの取得報告が続出\n画像左に表示されているのが「Museメール」\nすでに専用アドレスが発行されている\n右側にはMuse AIの受信箱\n認証メールや案内メールが届いている\nこれ、ただのメールサービスではない\nAIエージェント自身がアドレスを持つ仕組み\n使い方もかなり簡単\n①MuseのアプリかWebにログイン\n②アバターからメール設定を開く\n③「@muse.ai」の前に付ける名前を入力\n④差出人名を設定してアドレスを作成\n⑤普段使うメールアドレスを認証\nこれでAI専用のメール窓口が完成する\nさらに面白いのはここから\n例えばイベントの案内メールを転送\nMuseに日程や申込期限を整理させる\nレストランの予約問い合わせも可能\n相手に送るメールをMuseが作成する\n複数人の日程調整にも使える\n返金確認の問い合わせも任せられる\n必要な場合は送信前に人間が承認\n返信が届けばMuse側で確認できる\nつまりAIが外部と直接やり取りできる\nこれまで人間がメールを確認して\n内容をコピーしてAIに渡していた\nこれからは必要なメールを転送するだけ\nAIに次の作業まで依頼できる\nしかも普段の受信箱を丸ごと連携する必要はない\n認証したアドレスから指示を送れる仕組み\nただし送信内容と権限の確認は重要\nAIの誤操作や情報共有には注意が必要\nそして見逃せないのがアドレスの争奪戦\n「@muse.ai」の前の文字列は先着順\n取得後のアドレス変更もできない\n短くて覚えやすい名前ほど価値がある\nAIを使うだけの時代から\nAIに連絡先を持たせて仕事を任せる時代へ\nこれ、AI秘書の使い方が大きく変わる。\nVideo\n鈴木@アナログ営業会社を100日後にAIで売上を300％にする人 (@ai_300)\n— https://x.com/ai_300/status/2117751132806435132",
@@ -69,7 +69,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これはヤバい\nMuseのファイル構造が想像以上に細かい\nAIの性格・記憶・行動ルールを完全に分離\nホーム直下だけで8つのMarkdownファイル\n日次ログは15日分に分けて管理\nAIエージェントの設計思想が一目でわかる\n全体構造の詳細は👇\nMuseのファイル構造図\nまずホーム直下には8つの.mdファイル\nAGENTS.mdは作業の進め方のルール\nIDENTITY.mdはエージェントの名前や雰囲気\nSOUL.mdはAIの性格を定義\nUSER.mdはユーザーの基本情報\nTOOLS.mdはツールの使い方メモ\nさらにMEMORY.mdが長期記憶を担当\nPROACTIVE_PREFERENCES.mdは先回り連絡の好み\nHEARTBEAT.mdも独立して存在する\nここからが本当に面白い\nmemory/には記憶の本体が保存される構造\n2026年11月7日〜21日の日次ログが15ファイル\nbank/には自動整理される記憶バンク\nworld.mdは世界に関する情報\nexperience.mdは経験\nopinions.mdは意見\nreflections.mdは振り返り\npeople/では人物ごとの情報を管理\ngroups/ではグループ単位の情報を管理\nつまり日々の記録と整理済みの記憶を分離している\nさらにdreams/というフォルダも存在\nalignment/では関係性を整理\nderived/には整理済みの要約\nrepair/も独立したフォルダになっている\nそしてworkspace/が実際の作業領域\ngoals/には案件ごとの作業フォルダ\n各案件にGOAL.mdなどを配置する構成\ncustom-skills/では自作スキルを定義\ncustom-connectors/では独自コネクタを定義\nuser/files/には受け取ったファイル\nmedia_library/には写真や動画を保存\nhooks/はイベント駆動の自動処理\nemail/・scheduler/・cron.d/は定期処理まわり\nfeed/・proactivity/は先回り配信の作業領域\nself_improvement/には自己改善ジョブの記録\nagents/・objectives/はエージェント運用まわり\nspaces/・space_data/はWebアプリの実体\n特に重要なのはこの設計思想\nAIの人格・長期記憶・日々の作業・外部連携を\nそれぞれ独立したファイルとフォルダで扱う\n画像だけで実際の動作までは断定できないが\n単なるチャット履歴とは異なる構造が見える\nこれからAIエージェントを構築する人にとって\nこのファイルの分け方はかなり参考になる\n鈴木@アナログ営業会社を100日後にAIで売上を300％にする人 (@ai_300)\nこれはヤバい\nAIが自分で賞金案件に挑戦する時代\n「\n公開案件10件で報酬総額113万円\n人間が案件を探して開発する常識が変わる\nAIに仕事を任せる仕組みが想像以上に進んでいる\n実際の仕組みと始め方は👇\nプログラミング懸賞プラットフォーム\n企業や個人が開発課題と賞金を設定し\n参加者が成果物を提出して競い合う\n画面には10件の公開バウンティが並び\n報酬総額は7,120ドルと表示されている\n案件の内容もかなり具体的\n・AIモデル集約APIの構築：500ドル\n・three.js製FPSゲーム：1,000ドル\n・GitHub互換のGitサービス：500ドル\n・4KB以内のチェスAI：500ドル\n・トークンローンチ関連：最大1,325ドル\nここで面白いのがAIエージェントとの連携\nスクショではMuseというAIに\n最初にアカウントとウォレットを準備\n次に\n画像ではバージョン1.5.172が\nインストール済みと表示されている\nするとAIが応募可能な案件を確認し\n賞金や締切や参加条件を整理してくれる\nさらに案件ごとの必要技術も分析\n例えば無料AIモデル集約サービスなら\nOpenAIとAnthropic互換のAPIを構築\n6つの実際の質問を使って\n無料モデルの回答を比較する課題\nこの案件にはOpenRouterキーと\n所定のcreditsが必要になる\n一方で4KBチェスAIの案件なら\n追加のAPIキーは不要\nPythonで4,096バイト以内の\nチェスエンジンを実装する\n8つの固定戦術問題で性能を競う\nつまりAIに任せる仕事は\n調査だけでなく実装と検証にも広がる\nただし賞金は参加するだけではもらえない\nコンテストで上位に入る必要があり\nスクショ上のウォレット残高も0\n実際の賞金獲得はまだ確認できない\nそれでも重要なのはこの仕組み\n人間が毎回案件を探して\n条件を読み込んでコードを書く\nその工程をAIエージェントに\n任せられる環境が整い始めている\nこれからはAIに質問するだけでなく\nAIに仕事を探させて成果物を作らせる\nそんな使い方が新しい選択肢になる\n— https://x.com/ai_300/status/2122464740131946974",
@@ -299,7 +299,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 1.1
     },
     {
       "id": "x_okapi_fukugyo",
@@ -330,6 +330,24 @@
           "is_new": false
         },
         {
+          "title": "noteの記事に「動く動画」を入れる方法。\nnoteの本文にはMP4をそのまま載せられない。\nファイルとして添付はできるけど動かない。\nでも、以下の方法なら、画像と同じように貼るだけで記事の中で動きます。\nやり方は3ステップ。\n① 動画を10MB以下のGIFに変換する\n横640px・10fpsに落とすと、15秒で約8MB。\n（1280px・12fpsのままだと24MBで入りませんでした）\n※Claudeにアップロードして指示すればやってくれます。\n② 本文の「＋」→「画像」からGIFを選ぶ\n③ アップロードが終わると、そのまま記事の中で再生される\n実際に、AIアニメの15秒広告をnoteの冒頭に入れてみました。\n文字だけで説明するより、「このnoteで何が作れるのか」が一瞬で伝わります。\n有料noteを売っている人は、無料部分の冒頭に作例を置くだけでも印象が変わるので、ぜひ試してみてください。\nAIアニメ動画の作り方から売り方までは、こちらにまとめています👇\n無料部分に動画を貼っているので、そこだけでも見てみてください。\n（本日11/22 22:30までセール中）",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2124337359173070848/img/0wx3fuOWnZgBTh7E.jpg?name=small"
+          ],
+          "link": "https://x.com/okapi_fukugyo/status/2124342630960312699",
+          "domain": "x.com",
+          "published": "2026-11-22T12:22:06+09:00",
+          "published_label": "2026/11/22(日) 12:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "タブを6つ開いたまま、全部Museに読ませて、結論だけ出させた。\n自分のChromeを、ログイン済みのまま、Museがそのまま動かせる。\n作ったのはMeta。無料の公式拡張『Muse from Meta』\n1 開いたページをそのまま聞ける\n長い記事もコピペなし。「3行で要約して」で終わり\n2 検索と比較を丸投げできる\n3サイト開いて価格を表にするところまで、自分は見てるだけ\n3 ログイン済みのサイトもそのまま使える\n「先週の請求書メールを探して、要点だけ」で探し物が終わる\n※送信のような大事な操作は、確認なしには進めない\n4 開いたタブ全部をまとめて読んでくれる\n検索結果も記事もメールも、横断して結論だけ\nあなたがやるのは、サイドパネルで一言頼むだけ。\n入れ方はリプに置きました👇\nWindows / Mac のChrome対応（スマホのChromeでは使えません）",
           "summary": "",
           "images": [
@@ -345,7 +363,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "入れ方（PCのChromeで）\n1  を開く\n2 Chromeウェブストア「Muse from Meta」（Meta公式・無料）を「Chromeに追加」\n3 ツールバーの拡張機能（パズルピース）ボタンからMuseを開き、初回の案内を終えれば使えます",
@@ -363,7 +381,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "このWordの動画、1日で7万回以上表示されました。\n全部、Claudeに頼んで作ったものです。\n差がつくのは、それを「売れる形」にできるかどうか。\n「ここまでClaudeでできるなら、自分も何か作って売ってみたい」\nそう思った人へ。\nClaudeを隣に置いて、15秒のアニメ動画を作り、最初の売上につなげるまでの手順をnoteにまとめました。\n・企画、キャラ設定、絵コンテ、プロンプトまでClaudeと一緒に作る\n・作った動画を「売れる形」にする\n・顔出し、声出しなし\n今夜11/22(日)22:30まで、割引と特典つきです。\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAnthropic公式が、AIの『Wordが文字だらけ問題』を終わらせにきた。\nその名は「docx」（Word作成スキル）。\n・GitHubで19.8万スター\n・インストール数は約22.3万（公式スキルで5位）\n・誰でも使える形で、Anthropicが公開\nAIにWordを頼むと、毎回同じものが出てくる。\n→ 白い紙に、見出しと箇条書きだけ\n→ 文字は全部同じ大きさ\n→ 写真も図も入っていない\n→ 読む気が失せて、結局自分で整え直す\ndocxスキルは、これを根元から変える。\nAIが、Wordの中身を部品から組み立てる。\n写真も、表も、グラフも、図も、ちゃんとWordの中に入る。\n最後は、AIが全ページを画像にして自分の目で見直す。\n使い道に合わせて、書類の作りごと変わる。\n→ 企画提案書：表紙は全面写真で、勢いよく\n→ 年次報告書：グラフと数字で、端正に\n→ 社内報：イラストと写真で、にぎやかに\n→ 会社案内：図と余白で、すっきり信頼感\n→ メニュー：ペン画と筆記体で、温かく\n→ 業務マニュアル：手順図とアイコンで、迷わせない\nできあがるのは、そのまま開ける本物のWordファイル。\n文字を打ち替えれば、そのまま仕事で使える。\n使い方：\n1. 下の1行を実行\nnpx skills add  --skill docx\n2. 作りたい書類の内容を書く\n3. 使い道と雰囲気を選ぶ\n4. Wordが完成\n一度入れれば、あとは毎回使える。\n22万インストールが、答え。\nVideo\n— https://x.com/okapi_fukugyo/status/2123944755235319993",
@@ -382,7 +400,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "11月のAIニュースまとめ（11/1〜22時点）\n1日：MMI $1.25億調達（AIロボット手術）\n2日：DeepSeek Creator Mode（Harness、自然言語プラグイン作成）\n2日：OpenAI Pando公開（社内Gitバックエンド、push遅延80%削減）\n2日：Anthropic IPO報道（Bloomberg、$2兆評価見込み→仮条件で最大$1.4兆に）\n2日：Anthropic S-1/A提出（7-9月売上約$170億、計算資源コミット約$8954億）\n2日：Anthropic Message Threads API beta（エージェント差分送信、長文TTFT 35%短縮）\n2日：Grok Bot 1.0（xAI、チーム共有AI同僚、Slack/Teams/会議参加）\n2日：ChatGPT「Chat」「Work」統合発表（OpenAI、12月にCodexと利用枠共通化予定）\n2日：Copilot Chat無償枠に利用制限（Microsoft、無ライセンス対象、11/9から大規模組織も）\n2日：Anthropic FlashProve公開（暗号学的AI推論証明、モデルすり替え検知、OSS）\n3日：米中間選挙で民主党が上下両院制す（AI DC規制強化の見方）\n3日：AI DC住民投票（10州41件中40件で規制側勝利、Ballotpedia速報）\n3日：Apple Siri AI開発者プレビュー（iOS 27.3 beta、全開発者開放、EU除外）\n3日：Claude出力に電子透かし（Anthropic、EU AI法50条対応、C2PA）\n3日：EU司法裁 法務官意見（C-250/25、生成AIと報道出版者権で初）\n3日：P-H3-Image OW（Pruna AI、MiniMax-H3派生、4MP画像5倍速）\n4日：OpenAI Images 2.6（GIF作成、Flare/Sunburst API、生成50%高速化）\n4日：Tencent Hy4 GA（770B、vision/computer use対応、OW予定）\n4日：SWE-2 Flash（Cognition、Inkling Small基盤、3倍速1/5価格）\n4日：Ripple-65B Preview（Ricursive Intelligence、dense 65B OW、Apache 2.0）\n4日：Pierre Computer Company買収（OpenAI、Trees/Diffs/Highlights、Codex統合）\n4日：Kimi K3.1 Pro OW（Moonshot、1Mコンテキスト、$2/$10 per 1M tok）\n4日：ChatGPT Enterprise Dots GA（OpenAI、11/18から既定で有効）\n4日：Daybreak Red on AWS GovCloud（OpenAI、米政府向けサイバーAI）\n4日：Copilot Cowork（Microsoft、ユーザーのEdgeでWeb操作）\n4日：Riot Platforms 910MW DCリース（15年$280億、13日にAnthropicと判明）\n5日：Personal Finance beta（Anthropic、Plaid連携read-only銀行接続、米Pro/Max/Ultra）\n5日：GPT-6 Cyber（OpenAI、制限公開、ExploitGym 48.5%、Linux 948件exploit）\n5日：Kiro Bots GA（AWS、Kiro Crew、メモリ付き長期稼働コーディングエージェント）\n5日：METR報告書（Anthropic AI R&D加速、能力成長率1.9倍）\n5日：Agility Robotics Nasdaq上場（AGLT、SPAC、$4.65億調達、初日終値$11.51）\n5日：Zipline $15億調達（$215億評価、Walmart連携ドローン配送300拠点）\n5日：Ant Group Ling-3.2-flash（560B MoE/25B active、1Mコンテキスト、ネイティブマルチモーダル）\n5日：Meta Muse Voice米国展開（リアルタイム音声＋表情アバター、モバイル/Web/Mac）\n5日：Gemini Omni 1.2 Flash GA（15秒動画、会話型編集、Omni 1.1比30%値下げ）\n5日：中国 SoftBankのABB Robotics買収阻止（$54億、AI訓練データ転送懸念）\n5日：PLaMo 3 Translate OW（PFN、翻訳特化0.8B〜31B、スマホでオフライン可）\n5日：トヨタロボティクス新設発表（トヨタ、全社直轄、2027年1月発足）\n5日：ERNIE-5.5-Flash-Base OW（Baidu、280B MoE/14B active）\n5日：Higgs Realtime Duplex発表（Boson AI、全二重マルチモーダル45B MoE）\n5日：DOJ Super Intelligence Task Force（米司法省、AI悪用を訴追）\n5日：OpenAI AIインフラ新基準（電力・インフラ費を全額負担と約束）\n5日：Claude Enterprise セキュリティセンター beta（Anthropic、設定診断）\n5日：Execution Containers GA（Microsoft、Windows上のAIエージェント隔離）\n5日：Nasdaq 100 過去最大$2.3兆消失（半導体指数-12%、中間選挙後のAI株急落）\n5日：仏ゴンクール賞受賞作家がChatGPT使用を告白（話題）\n5日：Perplexity Teammates（常時稼働AIエージェント、Slack連携、Max $200/月）\n6日：DeepSeek公式プラグインMP計画（Harness DAU 154万）\n6日：Codex 0.167.0（OpenAI、agent command center、Vertex AI対応）\n6日：Google DeepMind RSA-1024脆弱性発見（署名偽造1600倍は理論値、2048bit以上は安全）\n6日：Inkling 2 Small（Thinking Machines、594B MoE/17B active、12日に重み公開）\n6日：OpenAI $110億調達（$1.25兆評価、SoftBank・MGX等）\n6日：Thinking Machines $50億調達へ（BI報道、Accel主導、$400億pre）\n6日：Anthropic エージェントメモリ研究（セッション間記憶、\"dreaming\"手法）\n6日：Mistral Studio managed agents公開プレビュー（オンプレは11月下旬予定）\n6日：Google ワイオミング州DC（$170億、702MW燃料電池＋CCS）\n6日：Meta サイト収集規約の改定を無期限停止（ノルウェー・ブラジル等の反発受け）\n6日：サイバーセキュリティ緊急対策パッケージ（政府、予備費100億円、AI活用防御）\n6日：ピザーラ 許諾なき\"AI広告\"配信を謝罪（TikTok広告の自動生成）\n6日：Foundry Local（Microsoft、Qwen3.8-27Bをローカル実行しCopilot連携）\n7日：AIフェスティバル 2026（渋谷、AIハッカソン優勝「のりもんすたー」）\n7日：Arete-27B OW（Nous Research、Qwen3.8-27Bの価値観を再調整）\n8日：Nvidia Huang CEOが不倫を認める（中国スパイ疑惑、取締役会が調査開始）\n8日：Amazon Personal Robotics Group（ヒューマノイド「Sprout」、CNBC報道）\n9日：Claude Fable 5.2/Mythos 5.2（Anthropic、$8/$40、フェルマー定理形式化が話題）\n9日：TPU 8tx/8i Max発表（Google、機密推論/超長文脈、2027年提供予定）\n9日：GR00T 2（NVIDIA、オープンなWorld Action Model、CoRL）\n9日：LongCat-2.5 OW（Meituan、1.6T MoE/48B active、MIT）\n9日：Seedream 5.5（ByteDance、透過PNG出力、段階展開）\n9日：Workspace Skills（Google、GemsをSkillsへ移行）\n9日：トランプ大統領 60 Minutesで「AIガードレールに反対しない」（対中で後れない条件）\n9日：Sakana AI 初のモバイルアプリ開発中（テスター募集）\n10日：Muse Ember（Meta、最小モデル、1Mコンテキスト）\n10日：Scribe v3/v3 Live（ElevenLabs、STT誤り27%減）\n10日：MiniMax-H3-Image OW（33B、16MP生成・編集）\n10日：Gemini Robotics 2.5（Google DeepMind、VLA、パートナー展開）\n10日：PAN 2（IFM、オープン世界モデル）\n10日：Claude Interactive Connectors（Asana/Canva等を会話内で操作）\n10日：ChatGPT 旧音声モード廃止告知（12/11、GPT-Live Voiceへ統一）\n10日：Gemini in Gmail 全Workspaceへ（Google）\n10日：Pixel Drop 11月（Gemini Intelligenceを日本でも、Pixel Tag $29.99）\n10日：Apple Intelligence Usage Packs（$49.99、初の有料AI枠）\n10日：トランプ大統領 Huang氏の件でFBI捜査を認める\n10日：豪州 AI安全規制機関の新設表明（アルバニージー首相）\n10日：NY州 RAISE法登録ポータル開設（フロンティアAI企業は27/1/1までに登録）\n10日：Gemini for Healthcare 米国プレビュー（Google Cloud）\n10日：ソフトバンクG 7-9月純損失約1.12兆円（AI DC電力関連損失）\n10日：Notion AIチャット流出の恐れ（委託先Fireworks AI侵害、<1%WS）\n10日：Claude/Codex 機器解析でBAN報告（REA 34万★と同時期、404 Media）\n11日：Qwen4-Max-Preview（Alibaba、Qwen4初、11/25まで）\n11日：ERNIE 5.5 Flash Preview（Baidu、280B/14B active、1M）\n11日：Praxis-1 OW（Runway、27Bロボット制御、Apache 2.0）\n11日：OpenAI API国内推論（GPT-6 Lunaのみ、日本国内で処理）\n11日：Muse 専用メアド @muse.ai（Meta、日本でも取得可）\n11日：TSMC AnthropicとOpenAIに最大$10億出資\n11日：Anthropic 豪州個人向けIPO受付開始（最大$644億調達）\n11日：Fractile $7.2億調達（英AIチップ、$70億評価）\n11日：Lazarus（Microsoft Research、10未満のニューロンでバックドア）\n11日：米エンティティリスト掲載の中国大学がH200購入（Reuters）\n11日：Sakana AI 元NSA長官らが顧問就任\n11日：ByteDance Muse型エージェントを数週間内に公開へ（Bloomberg）\n11日：Gemini 4 Carbon GA（Google、サイバー/長期エージェント、$2/$10、12/1から出力2倍）\n11日：Anthropic IPOロードショー開始（$70〜78、最大$1.4兆評価、需要6倍報道）\n11日：Businesses in ChatGPT beta（OpenAI、企業プロフィール、Business Agent）\n12日：Nvidia Huang CEO辞任（33年、Kress CFOが暫定CEO）\n12日：Inkling 2 Small 重み公開（Thinking Machines、Apache 2.0、HF）\n12日：Anthropic 11/18価格決定・11/19上場を発表（Nasdaq、ANT）\n12日：Google Intelligent Eyewear予約開始（Gemini搭載メガネ、$395〜）\n12日：Daybreak Red Team/Defense Factory（OpenAI、Brockman基調講演）\n12日：SOV-Transcribe-1 OW（Salesforce、音声認識）\n12日：ZONOS3-Mini OW（Zyphra、43言語TTS、ブラウザ動作）\n12日：Mirendil $10億 シリーズA（元Anthropic等、AI研究自動化）\n12日：Uforce $7億調達（ウクライナAIドローン、$60億評価）\n12日：米4団体 フロンティアAI訓練凍結を求め5社提訴（加州）\n12日：Nscale IPO資料更新（Q3純損失$16.9億、売上14倍）\n12日：AntiFox（AIペンテスト基盤の悪用でAWS認証情報窃取）\n12日：MACaQ OSS（Huawei、122Bモデルを64分で量子化）\n12日：「Worse Together」（Anthropic、マルチエージェント協調の劣化、MAMUBench）\n12日：Microsoft 365大規模障害（ChatGPT/Claudeのコネクタにも影響）\n12日：NTT×SOMPO 介護フィジカルAI協定\n12日：United Airlines 第三者AIエージェントの予約をブロック\n12日：Claude Whiteboards/Sheets beta・Data GA（Anthropic）\n12日：Gemini Decisions API（Google、1リクエストで最大1,000件判定）\n12日：AlphaGenome 2（Google DeepMind、DNA変異の影響予測、非商用研究のみ）\n12日：Claude for Manufacturing（Anthropic、Team/Enterprise向けプラグイン）\n13日：ChatGPT Wallet（OpenAI、dotsが決済、米Pro一部）\n13日：LangChain $3億 シリーズC（$30億評価、CapitalG主導）\n13日：OpenAI ロボティクスチームを解体・再編（Fortune）\n13日：Apple HomeView発売（$299、Siri AI搭載、EU除外）\n13日：llama.cpp v1.0.0（ggml、semver採用）\n13日：禁輸のBlackwellで中国の高性能AIを訓練（TechCrunch）\n13日：Nvidia社員がHuang復帰を要求（Muskも署名支持）\n13日：SpaceX Grok Imagineチーム約60人削減\n13日：Google Tabletop beta（AIで作る共同作業ハブ）\n13日：A2UI 1.0（Google、生成UIのオープンプロトコル）\n13日：Gemini 4 Hydrogen（Google、$1.50/$7.50、AA指数51）\n13日：Claude Managed Agents セルフホスト版 限定beta（Anthropic）\n13日：Claude Meetings beta（Google Meetで議事メモ、Anthropic）\n14日：Huang氏がMegaspeed関係を「通常の取引」と説明していたと報道（Reuters）\n14日：ゲーデル未公開ノート1,009頁をClaudeが解析、定理数百件を抽出（Guardian）\n15日：ベッセント米財務長官、Nvidiaに先端チップの中国流入を説明要求（AFP報道）\n16日：Qwen4-Max GA（Alibaba、2.4T MoE、1M、$1.5/$4.5、重み非公開）\n16日：カリフォルニア州がOpenAIを提訴（司法長官、安全対策不備を主張、OpenAIは否認）\n16日：米商務省 暫定規則（5か国からのリモートAIチップ利用にライセンス要求）\n16日：Google 野生で初の自律型AI攻撃「exploit_agent」を確認\n16日：OpenAI 外部機関の安全監査を拡大（Apollo・METR・Transluce・Goodfire）\n16日：Anthropic 脆弱性開示期間を90日→30日に短縮\n16日：ElevenLabs 日本のKotoba買収を発表（音声AI、Q4中にクローズ見込み）\n16日：Nasdaq -2.5%（S&P500 -1.9%、AI株の売り再燃）\n17日：GPT-6.2 Astra/Sol（OpenAI、$8/$40・$2/$10、サイバーCritical）\n17日：Nvidia 7-9月期 売上$115.8B（前年比+103%、Q4見通し$130B）\n17日：Nvidia 中国向けH200販売を停止（Kress暫定CEO、25%関税の取り決めも終了）\n17日：MAI 新モデル7種（Microsoft Ignite、Code 2・Cyber 2 Flash等）\n17日：Isomorphic Labs $50億調達（シリーズC、Sequoia・Greenoaks主導）\n17日：Vera Rubin NVL72 MLPerf Training v6.1で全体制覇（Nvidia）\n17日：K2-Horizon OW（MBZUAI、0.9B〜375B-A23B、中間チェックポイントも公開）\n18日：Gemini 4 Neon（Google、1Mコンテキスト、$3/$15、AA指数3位）\n18日：Agent 365 GA（Microsoft Ignite、AIエージェントのガバナンス基盤）\n18日：Anthropic IPO価格決定（$83、仮条件$70〜78を上回る）\n19日：Anthropic Nasdaq上場（ANT、史上最大$813億調達、初値$111.50→終値$97.17）\n19日：AMD 一時-11%（Hunterbrook空売りレポート、中国企業への流出指摘）\n19日：Nvidia カリフォルニア州が調査開始（司法長官、Huang氏の件で捜査令状）\n19日：Nvidia OpenAIオハイオDCに最大$1,050億の保証（20年リース約4.25GW、上限額）\n19日：Gemini for Mac computer use（Google、米国英語、有料プラン）\n19日：Genie 4 Project Genie（Google DeepMind、AI Ultra一部に提供開始）\n19日：Kling Image 4.0（Kuaishou、ネイティブ8K、画像内2,000文字描画）\n19日：OpenAI AIでチップ設計を改善（AMDとの設計、乗算器の再設計で面積約15%減）\n20日：Alpöge氏「Claudeでリーマン予想を証明」（Lean公開、査読は未了）\n20日：GPT-Live-1.1 API＋Live Dictation（OpenAI、10分制限撤廃）\n20日：Meta Muse 他の会話の個人情報が混在（社員テストで発覚と報道）\n20日：Apple コンピュータ操作AIエージェントを開発中と報道（初期段階）\n20日：Google×Blue Origin AIサーバー衛星（Project Suncatcher、2029年Q1）\n20日：Moonshot AI Nvidiaチップ$1.5億の契約取消（インドネシアDC、米リモート規制が背景）\n21日：トランプ大統領 海外でAI DCを建てる企業に「巨額の罰則」を示唆（NBC）\n21日：国連ジュネーブ会合 自律兵器の拘束力ある規則はまとまらず\n21日：Signal AIアシスタントによるチャット読み取りをブロック",
@@ -398,7 +416,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "X公式が昨日、はっきり数字を出しました。\n・動画付きポストは、リーチもエンゲージメントも5倍\n・全インプレッションの36%が、すでに動画\nこれ、私のアカウントでそのまま起きたことです。\n自分で作った動画を付けたポストを増やしたら、\n45万、27万インプのポストが出るようになりました。\nフォロワーは4,000人を超え、\nX収益化の条件も達成しました。\n絵も描けないし、動画編集ソフトも使えません。\n全部Claudeと一緒に作っています。\nAIで動画を作って、最初の売上につなげるまでの手順を記事にまとめました。\n割引は今夜22:30まで。\nリプ欄に置いておきます👇\nCreators (@XCreators)\nVideo is the fastest growing format on X. Posts with video get 5x the reach and engagement, and 36% of all impressions now go to video.\nWe've been building tools to help you create better videos without leaving X. Here's a recap of what we've shipped recently 🧵\n— https://x.com/XCreators/status/2123886385828684073",
@@ -414,7 +432,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "おかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\n— https://x.com/okapi_fukugyo/status/2118857106518602083",
@@ -432,7 +450,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "入れれば動画を作るのがはかどりそう\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nこの20個のGitHubリポジトリで、Museがプロ級のモーションスタジオになる。\nMuseユーザーには、これは宝の山。\nスキル。3D。エフェクト。動き。音。書き出し。\n01 /motion-design-skill → タイミング、イージング、ディズニーの12原則\n02 Motion → バネの動きと画面の切り替え\n03 Remotion Skills → 動画づくりの公式スキル\n04 /hairline → アイデアやSVGから、触って動く線画\n05 /anatomy → 機械や仕組みを立体の図解に\n06 /anatomy-reveal → 製品の分解図と、見せ場の動画\n07 Blender → 3Dのリグ・キャラクターアニメ（Museに最初から入ってる）\n08 Three.js → 3Dシーンとカメラワーク\n09 react-three-rapier → 3Dに本物の物理\n10 react-postprocessing → 光のにじみ・ボケ・映画っぽい効果\n11 three.quarks → パーティクルの軌跡とエフェクト\n12 Tweakpane → パラメータをその場で調整\n13 GSAP → アニメのタイムライン。いまは完全無料\n14 Remotion → Reactで動画を作るエンジン\n15 Manim → 図解・数式・解説アニメ\n16 Lottie → 軽いベクターアニメの再生\n17 Openverse API → 無料の効果音・環境音・音楽をキーなしで検索\n18 librosa → 曲のビートを検出して動きを合わせる\n19 WhisperX → 字幕のタイミングを自動で（日本語もOK）\n20 FFmpeg → 書き出しと変換\nスキル → シーン → 動き → 音 → 完成。\n20個すべて、Museで動作確認済み（一部は環境の調整が必要）。\n保存して、見てもらえる動画を作ろう。\nVideo\n— https://x.com/okapi_fukugyo/status/2122626196949311747",
@@ -450,7 +468,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "え…この無料スキル2つ、動画生成の「そこが困る」に刺さりすぎる。\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\n動画生成AIの「演技が大げさになる」「カットが思いどおりにならない」を減らせる無料スキル2つ。\nSeedance向けだけど、Museでも効きました。\n1️⃣ Seedance Prompt Writer\n→ ざっくりしたアイデアを、照明・カメラ・動きが入ったカットに変換\n→ カットごとに秒数と「終わりの状態」を決めて、人物や小物のズレを防ぐ\n2️⃣ Acting Director\n→「悲しい表情」と書く代わりに、目的と状況を与えて自然な演技を引き出す\nこんなときに効く\n→ 生成した人物が大げさに泣く・笑う\n→ CMやショートドラマを複数カットで作りたい\n→ 英語の細かいプロンプトを自分で書くのが面倒\n実際に比べた結果👇\n（同じシーン・同じMuse・どちらも1回目）\n上：普通のプロンプト → ずっと号泣、見送る相手も映らない\n下：スキルで作成 → 3カットの割りがほぼ指定どおり、泣かずに小さく笑う演技に\n※ 秒数の指定は少しずれました\n使い方：スキルファイルをClaudeに入れて、作りたいシーンを伝えるだけ。出てきたプロンプトをMuseなどに貼ればOK。\n配布ページはリプに👇\nVideo\n— https://x.com/okapi_fukugyo/status/2123899215135101308",
@@ -468,7 +486,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "次はこっちか！\nなゆえんじん (@nayuengin)\nたぶん次に来るのはこの界隈っすね。AI漫画。\n— https://x.com/nayuengin/status/2124000497892032816",
@@ -557,27 +575,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "AIに作らせたUIが安っぽく見えるときの、お手本になる「動くUI部品」集5つ。React部品136個、シェーダー部品、音のUI部品など、無料のものも多い。\nお手本集ありがたすぎる！\nおかぴ🦒⚡️｜AIニュース解説 (@okapi_fukugyo)\nAIに作らせたUIが、どこか安っぽく見えるなら。\n質感まで作り込まれた「動くUI部品」を見て、AIに渡すお手本にするのが早い。\n1.  → スクロールで動くReact部品136個。AIエージェントに渡すプロンプト付き（上の2マス）\n2.  → カーソルや文字に光・ピクセルの動きを足すシェーダー部品集。コードでも動画素材でも使える\n3.  → ミキサー・メーター・フェーダーなど、音のUI部品。無料・登録なし\n4.  → コピペで使える動くReact部品157個以上。無料・オープンソース\n5.  → スクロール演出のWebサイトと部品を、プロンプトごと探せる\n作る前に1つ開いて眺めるだけで、AIへの指示が具体的になる。\nVideo\n— https://x.com/okapi_fukugyo/status/2123762371168756023",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123760651596410880/img/-AvU3QXB0wEs6pFA.jpg?name=small"
-          ],
-          "link": "https://x.com/sevenzmjp/status/2123981136569463238",
-          "domain": "x.com",
-          "published": "2026-11-21T12:25:39+09:00",
-          "published_label": "2026/11/21(土) 12:25",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_codexneo4",
@@ -587,8 +587,60 @@
       "status": "ok",
       "error": null,
       "via": "https://nitter.cf/codexneo4/rss",
-      "count": 15,
+      "count": 14,
       "items": [
+        {
+          "title": "GPTの回答が最近雑になってるわ\n試しにこの問題解けるかやってみて\nマジで使いたくなくなるよ、\nこのキャンディー問題ですら\nGPTは危うかった\n正解は【21個】なんだけど\nチェックしたいのは、\n答えの数字だけじゃなく\n・なぜ21個で必ずそろうのか\n・なぜ20個では足りないのか\nここまで説明できるかどうか\n日本語のコピペ用\nプロンプトはリプ欄へ👇",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXo7aSJacAAZdaN.jpg?name=small"
+          ],
+          "link": "https://x.com/codexneo4/status/2124339334233067987",
+          "domain": "x.com",
+          "published": "2026-11-22T12:09:00+09:00",
+          "published_label": "2026/11/22(日) 12:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "⚠️AIを学んだ結果稼げていますか⚠️\n既存のAIスクールはAIを使える様になる事が\n目的で稼げる様にはなりません\n実践的な稼ぐに特化する為の\n期間限定20大特典を限定配布中👇",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXpWM-dbcAAEP_o.jpg?name=small"
+          ],
+          "link": "https://x.com/codexneo4/status/2124339334585430151",
+          "domain": "x.com",
+          "published": "2026-11-22T12:09:00+09:00",
+          "published_label": "2026/11/22(日) 12:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "黒い袋の中に、りんご味・桃味・スイカ味のキャンディーが入っています。それぞれの味には、円形と星形の2種類があります。\n袋の中は見えませんが、形は手触りで区別できるため、円形か星形かを選んで取り出せます。ただし、味は取り出すまで分かりません。\n味と形ごとの個数は次のとおりです。\n【円形】\nりんご味：7個\n桃味：9個\nスイカ味：8個\n【星形】\nりんご味：7個\n桃味：6個\nスイカ味：4個\n取り出すキャンディーの総数は、始める前に決める必要があります。\n次のどちらかの組み合わせを必ず手元にそろえるには、最低何個取り出せばよいでしょうか？\n① 円形のりんご味＋星形の桃味\n② 円形の桃味＋星形のりんご味\n最少個数と取り出し方を示し、その個数なら必ずそろう理由と、1個少ない場合には保証できない理由を説明してください。\nツールを呼び出さず、インターネットにも接続せずに答えてください。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/codexneo4/status/2124339335000641962",
+          "domain": "x.com",
+          "published": "2026-11-22T12:09:00+09:00",
+          "published_label": "2026/11/22(日) 12:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "AGENTS.mdは短いほど、毎回ちゃんと読まれます。長い手順は別ファイルに移して、必要なときだけ読ませると、トークンも無駄になりにくいです。\nCodex研究ラボ (@codexneo4)\nCodexでGPT-6.2 Solのトークン消費気になる人\nこれ保存\n👇\nGPT-6.2 Solで使える「省エネ運用法」が\nがっつりまとめられてる‼️\n無駄な探索、同じ情報の読み直しや\n必要以上の修正を減らすために\nAGENTS.mdへ作業方針を追加する流れ\n設定は4ステップ\nコピペ用の指示はこちら↓\n① プロジェクト直下のAGENTS.mdを確認\n変更前にバックアップを取る。\nすでにファイルがある場合は、\n既存の内容を確認して追記。\nない場合は新しく作成する。\n② 以下の指示を追加する\n効率とトークン消費を意識し、\n以下の方針で作業してください。\n現在のタスクに関連するファイルから調査する。\n必要な理由なくプロジェクト全体を読み込まない\n取得済みの情報を再利用する。\nファイルの変更や情報の不足、矛盾がある場合は\n必要な箇所を読み直す。\n原因と影響範囲を確認してから、\n目的を満たす最小限の修正を行う。\n無関係なリファクタリングはしない。\n独立した検索や読み取りは、\n可能な範囲でまとめる。\n前の結果に依存する操作は順番に実行し、\n同じ操作を目的なく繰り返さない。\n変更の影響範囲に応じたテストと、\nプロジェクトで必須のチェックを実行する。\n全体テストは必要な場合に行う。\n依頼内容を満たし\n必要な検証が完了したら作業を終了する。\n無関係な探索や追加の最適化を続けない。\n説明は結論と重要な点を中心にまとめる。\nすでに明確な内容を繰り返さない。\n不確かな点は、まず判断に必要な証拠を集める。\n調査範囲は必要に応じて広げる。\nトークン節約のために、正確性\nコード品質・必要な検証を犠牲にしない。\n完了報告は、以下の3項目にまとめる。\n修正内容：\nテスト結果：\n残存問題：\n実行できなかった検証があれば、\nその理由も明記する。\n③ 保存して、新しいセッションで開始\nプロジェクトのフォルダからCodexを起動し、追加した方針が読み込まれているか確認する。\nこれで、毎回同じ指示を\n貼り付ける手間を減らせます。\n④ 推論の強さを作業に合わせる\nモデルはGPT-6.2 Solを選択。\n・小さな修正：Low／Lightを試す\n・通常の作業：Mediumを目安にする\n・複雑な調査や設計：必要に応じて強度を上げる\n軽い作業から、使用量と結果の品質を\n見ながら調整するといい。\n「何を調べるか」「どこまで直すか」\n「いつ完了とするか」を明確にして、\n必要な作業にトークンを使わせよう。\nVideo\n— https://x.com/codexneo4/status/2123312065649463572",
           "summary": "",
@@ -649,24 +701,6 @@
           "summary": "",
           "images": [],
           "link": "https://x.com/codexneo4/status/2124006138979184763",
-          "domain": "x.com",
-          "published": "2026-11-21T14:05:00+09:00",
-          "published_label": "2026/11/21(土) 14:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "⚠️AIを学んだ結果稼げていますか⚠️\n既存のAIスクールはAIを\n使える様になる事が\n目的で稼げる様にはなりません\n実践的な稼ぐに特化する為の\n期間限定20大特典を限定配布中👇",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXnE1WcaUAApsI-.jpg?name=small"
-          ],
-          "link": "https://x.com/codexneo4/status/2124006139209846880",
           "domain": "x.com",
           "published": "2026-11-21T14:05:00+09:00",
           "published_label": "2026/11/21(土) 14:05",
@@ -798,57 +832,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "⑨ 自分の知識をオンライン講座にする\n「私の経験・知識は［経験・知識］です。これを活かした有料オンライン講座の案を3つ提案してください。\n誰に向けた講座で、受講後に何ができるようになるのかを明確にしてください。\n最も有望な案について、カリキュラム、レッスン内容、教材、価格案、募集文を作成してください。本格的に制作する前に、小さな体験講座で需要を確かめる方法も教えてください。」",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/codexneo4/status/2123250162822783364",
-          "domain": "x.com",
-          "published": "2026-11-19T12:01:01+09:00",
-          "published_label": "2026/11/19(木) 12:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "⑩ 小さな月額サービスを考える\n「あなたは小規模なWebサービスの事業設計を支援する専門家です。\n［対象業種・利用者］が繰り返し困っていることを解決する、月額課金のサービス案を10個提案してください。\n誰がお金を払うのか、何を解決するのか、最小限必要な機能を整理してください。需要の確かめ方、ノーコードやAIで試作品を作る手順、維持費、最初の利用者を集める方法まで教えてください。」\nまずは自分に合う1つを選び、小さく作って反応を確かめるところから。\n商品づくりや集客・改善を進めながら、繰り返す作業を少しずつ仕組み化していこう。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/codexneo4/status/2123250163242176598",
-          "domain": "x.com",
-          "published": "2026-11-19T12:01:01+09:00",
-          "published_label": "2026/11/19(木) 12:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ChatGPTで「継続収入の仕組み」を\nゼロから設計させると月収が5倍程度に跳ね上がる人もいると思う\n副業のアイデア探しから、\n商品づくり・集客・SNS販売まで\n最初の一歩を具体化できる、\nプロンプト10選をまとめました\n［ ］を自分の条件に置き換えて使って👇",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/codexneo4/status/2123250157995139363",
-          "domain": "x.com",
-          "published": "2026-11-19T12:01:00+09:00",
-          "published_label": "2026/11/19(木) 12:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 4.4
+      "elapsed": 0.7
     },
     {
       "id": "x_beku_ai",
@@ -879,6 +865,38 @@
           "is_new": false
         },
         {
+          "title": "9,800円の教材が売れないから980円に値下げ。これ、逆効果になることもある。例えば「AIで副業を始める方法」をまとめたnote。980円なら買いやすいはずなのに、それでも売れない。なぜかというと、読者は値段だけで買うかどうかを決めてないから。実際、買う前に気にしてるのは、",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/beku_AI/status/2124338579354595437",
+          "domain": "x.com",
+          "published": "2026-11-22T12:06:00+09:00",
+          "published_label": "2026/11/22(日) 12:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "「この教材を読んだら、自分は何ができるようになるの？」ってこと。「AIで副業を始める方法」だけでは、何を学べるのかも、どこまでできるのかも分からない。例えば「ChatGPTで初めてのnoteを作って販売する手順」なら、内容を想像できるよね。価格を下げる前に、買う理由が伝わってるか確認した方がいい。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/beku_AI/status/2124338579644031459",
+          "domain": "x.com",
+          "published": "2026-11-22T12:06:00+09:00",
+          "published_label": "2026/11/22(日) 12:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Museでバズ投稿を分析するなら、プロフィールもセットで見てほしい。10万インプ取れたのにフォロワーが全然増えないなら、投稿を見た人が「この人をフォローする理由」を見つけられていない可能性がある。特に確認したいのは、",
           "summary": "",
           "images": [],
@@ -892,7 +910,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "投稿とプロフィールの内容がつながっているか。AI副業の投稿がバズっても、プロフィールで普段どんな情報が得られるか分からなければフォローされにくいよね。Museで投稿とアカウント全体をセットで研究できるのは強い。単発のバズで終わらず、次の投稿も読まれる状態を作りたいよね。",
@@ -908,7 +926,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Claudeで1万字の記事が一瞬で完成。…すごいけど、誰にも読まれなかったら1万字でも0字でも同じでしょ。X記事もnoteも、読む側は文字数なんて気にしてない。「これを読んだら自分に何の得があるか」←そこが見えなきゃ閉じられる。長く書けることより、読みたくなることの方が大事。",
@@ -924,7 +942,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "これやりたかったやつ！！！！！\nベク (@beku_AI)\n— https://x.com/beku_AI/status/2123737728215073058",
@@ -942,7 +960,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「高い商品は売るのが難しい」って思ってる人多いけど、それ、まじで逆。980円の商品で100万円作るなら1,021人に買ってもらう必要があるけど、10万円の商品なら10人。\n初心者ほど安く売りたがるけど、その価格で何人に売らなきゃいけないか、一回計算してみてほしい。",
@@ -1075,41 +1093,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Museで新しい投稿を作る前に、過去の投稿で見直してほしいものがある。それは「表示はされたのにフォローにつながらなかった投稿」。ネタが読まれたのにフォローされなかったなら、次に改善すべきなのは文章の面白さじゃなくて、",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2124005146053239280",
-          "domain": "x.com",
-          "published": "2026-11-21T14:01:03+09:00",
-          "published_label": "2026/11/21(土) 14:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「この人をフォローしたら何が得られるか」の伝え方。副業の失敗談がバズっても、普段何を教えてくれる人か分からなければ、その場限りで終わるよね。Museで伸びた投稿と発信者のプロフィールをセットで調べられると、フォローにつながる発信のヒントも見つかる。せっかくのバズを無駄にしたくないよね。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/beku_AI/status/2124005147735196142",
-          "domain": "x.com",
-          "published": "2026-11-21T14:01:03+09:00",
-          "published_label": "2026/11/21(土) 14:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_ritsuto_nft_vt",
@@ -1155,7 +1141,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "RT @IHayato（@ritsuto_NFT_Vtより）："
         },
         {
@@ -1394,7 +1380,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 3.5
     },
     {
       "id": "x_taki_auto",
@@ -1438,7 +1424,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ComfyUIでキャラを作る人のほとんどが、\n指示文の打ち直しに時間を取られています。\nそれを止めるノードが来ました。\n「Character Helper」です。\nキャラの名前を選ぶだけで、\nいつもの髪型・目・服のタグが自動で入る。\n・髪、目、服、表情を、欄ごとに直せる\n・欄ごとにランダムで入れ替えられる\n・残したい欄は、鍵をかけて固定できる\n同じ子を、何枚出してもそろえやすい。",
@@ -1456,7 +1442,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "僕はAI画像でCG集を売っていますが、\nMuseの本当の強さは、⑤〜⑧の土台づくりだと思っています。\n成人向けの指示文や、1冊の流れは、\nほかのAIでは、なかなか書いてもらえない。\nFANZAに出せるのは、月3作まで。\n1作ごとに、新しい子と新しい流れが要ります。\n一番多いのが\n「1冊の途中で、次にどんな場面の画像を作ればいいか分からなくなる」\nという悩みです。\n放置すると、\n同じような場面の画像が何十枚も並んで、\n買った人が途中で飽きる1冊になります。\nだから今回、\n1冊に使える場面のネタを100個集めた\n「シチュエーション大全100連発」を用意しました。\nこれがあれば\n次の場面で、手が止まらなくなります。\n1冊の流れに、山場を何回も作れる。\nMuseに頼む場面の言葉にも、困りません。\nこれを含む12大特典、全部無料です。\nリプ欄に置いておきました。\n保存して。あなたも\nまずは①だけ、今日Museに覚えさせてみてください。",
@@ -1625,7 +1611,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 3.5
     },
     {
       "id": "x_sora19ai",
@@ -1670,7 +1656,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Tesla v15やばすぎ。\nみんな買うしかないでしょ…\nTeslaNerd DE (@TeslaNerdDE)\n🚨 BREAKING TESLA‼️\nTesla startet den V15-Rollout. WHAAAAAT?! 🤯🔥\nIm ersten Teaser bekommen wir erstmals die neuen Visualisierungen auf dem Bildschirm zu sehen. Die Darstellung bildet die Umgebung offenbar 1:1 so ab, wie sie tatsächlich aussieht.\nWHAAT?! UNFASSBAR! 🤯\nTesla ist und bleibt den anderen Autoherstellern technologisch Lichtjahre voraus! 🚀\nDie spannende Frage ist, ob der Rollout auch bald in Europa startet? 🇪🇺👀\nCRAZYYYYYY! 🔥\nVideo\n— https://x.com/TeslaNerdDE/status/2124224835484348424",
@@ -1688,7 +1674,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GrokBotが一番大好き。\nそら ☁️ AgentSwarm 自動化オタク📱 (@sora19ai)\n最近のAIスタックはこれ。\nSNSマーケ→Grok Bot\n開発Outer Loop→Devin Bot\nコーディング→Devin,Claude,Cursor\nComputer Use→Dots\n雑多→Muse\nInstagram→GrokBot経由Muse\nX→Grok Bot\n画像生成→Dots→ChatGPT\n動画編集→ClaudeCode\nCLIは基本herdr経由。\n— https://x.com/sora19ai/status/2124139496417677472",
@@ -1906,7 +1892,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.6
+      "elapsed": 3.5
     },
     {
       "id": "x_shota7180",
@@ -1952,7 +1938,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "OpenAI、ChatGPTモバイル版の新UI/UXを展開！\nCodex、Projects、Imagesなどをタブバーにピン留め可能に。\nさらに、AIエージェント「dot」専用のタブも追加されます。\nまずはdotを利用中、または作成可能なProユーザーから提供を開始し、今後対象を拡大する予定とのこと。",
@@ -1970,7 +1956,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "編集ソフトを開かなくても、Claude Codeで動画は作れます。\nやりたいことから選べる動画制作Skillsを5つまとめました↓\n木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏 (@shota7180)\n— https://x.com/shota7180/status/2123956875918291330",
@@ -2195,7 +2181,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 3.4
     },
     {
       "id": "x_ichiaimarketer",
@@ -2227,6 +2213,25 @@
           "is_new": false
         },
         {
+          "title": "広告の40本の動画編集、たった1時間で終わりました。\nしかも、撮影なし。編集なし。AIでポン出し。\nこれ、マジで動画編集の常識変わるぞ。。。\nうちは今、AIで生成した40本の動画クリエイティブを実際の広告でガンガン回してるんだけど、顧客獲得の数値がめちゃくちゃ良い。\n何がヤバいって、この40本、全部たった1時間で作ってるんですよ。\n撮影もしてない。\n人間が編集もしてない。\nAIで一気に40本生成してる。\nしかも、ただ動画を量産してるだけじゃなくて、実際にビジネスの成果にもつながってる。\nマジでAI時代って、こういうことだと思う。\n大事なのは、AIツールを何個知ってるかじゃない。\nAIを本質的に使いこなして、どれだけ成果につなげられるか。\n今まで何日もかかっていた作業が、たった1時間で終わる。\nこれ、1〜2年後の動画編集業界どうなってるんだろうな。。。\nAIを本質的に使える人と使えない人の差、これからとんでもないことになると思う。\nというところで、それを教える3daysやるので、ぜひ下から参加してみてください👇\nVideo\nいち｜AI社員と働く経営者 (@ichiaimarketer)\n10時間かかっていた動画編集が、たった30分。\nそれを実現した動画編集のAI社員の中身と使い方を、完全無料で公開する「無料3DAYSチャレンジ」を開きます🔥\n【この企画は、もう二度とやりません】\n※ 開催は11月24日(火)〜26日(木)の3日間だけ\n※ 今夜のAI社員SUMMIT Day2「AI動画編集」だけでは話しきれない中身を、3日間で全部お見せします\n※ AI社員SUMMITは、まだまだ続きます。残りの回は、引用元のポストから参加できます\n🎁今夜のAI社員SUMMIT Day2の参加特典は「テロップAI社員」🎁\n◤￣￣￣￣￣￣￣￣￣￣￣￣￣◥\n2026年11月24日〜26日\n動画編集のAI社員と共に\n撮ったままの動画を\n完成までAIで仕上げられるようになる\n┈┈┈┈┈┈┈┈┈┈┈┈┈┈\n動画編集を、まるごとAI化。\n無料3DAYSチャレンジ\n全3日・完全無料\n◣＿＿＿＿＿＿＿＿＿＿＿＿＿◢\nいちです。\n今夜のAI社員SUMMIT Day2では、「AI動画編集」の回をお届けしています。\nろっくさん（@rock_creator_）と5か月かけて作ってきた、動画編集のAI社員の回です。\nろっくさんは、年商5〜10億円規模の会社で動画編集を束ねてきた、プロの責任者。\nAI社員に入れたフィードバックは約300回。開発にかけた時間は1000時間以上です。\n実はこの5か月、何度も失敗してきました。\nAIで作った動画は、どうしてもAIっぽさが残る。プロの目で見ると、そのままでは納品できない。\nその壁を1つずつ越えて、撮ったままの動画を入れるだけで、\nカット・フィラー（「えー」「あの」）・テロップ・演出・図解まで、AIが一発で仕上げるところまで来ました。\nその中身と使い方を、3日間かけて、完全無料で全部出します。\n────────────────────\n▼参加方法（無料）▼\n① こちらから申し込むだけ\n👉\n────────────────────\n✅開催期間：11月24日(火)〜26日(木)\n✅開催時間：各日20:00〜22:00（オンライン・参加無料）\n▼3日間の日程\nDay1：11月24日(火) 20:00〜 カット・フィラー除去\nDay2：11月25日(水) 20:00〜 テロップ・エフェクト\nDay3：11月26日(木) 20:00〜 AI×動画編集 完全コンプリートDAY\n───────────────\n❶【カット・フィラー除去】ろっくさん（@rock_creator_）× いち\n無音・言い直し・不要な言葉を、AIが取り除きます。\n大切な言葉と自然な間は、残したまま。\n実際の動画で、カット前とカット後を見比べます\n───────────────\n❷【テロップ・エフェクト】ろっくさん × いち\n字幕を打つ作業から、伝える演出へ。\nテロップの配置、大事な言葉の強調、ズームと効果音の使い分けまで、AIに任せる方法をお見せします\n───────────────\n❸【AI×動画編集 完全コンプリートDAY】ろっくさん × いち\nカット → テロップ・演出 → 仕上げ。\nバラバラだった作業を、1本の流れにつなぎます。\nプロの編集工程を、実演でそのままお見せします\n﹀﹀﹀﹀﹀﹀﹀﹀﹀﹀﹀\nもちろん、全部無料です。\nさらに、今夜のAI社員SUMMIT Day2の参加特典として、\n「テロップAI社員」を無料でお渡しします。\n受け取る条件は、このポストを感想つきで引用リポストして、3DAYSの告知に協力していただくことです。\n────────────────────\n▼テロップAI社員の受け取り方（無料）▼\n① このポストを、感想つきで引用リポスト\n② 自分の引用ポストのURLを、公式LINEに送る\n👉\n→ 公式LINEから、受け取り用のキーワードが届きます\n────────────────────\n────────────────────\n▼3DAYSの参加方法（無料）▼\n① こちらから申し込むだけ\n👉\n────────────────────\n参加しない理由がないので、全員申し込んでおいてください。\n3DAYSでお会いできるのを楽しみにしています🙇\nVideo\n— https://x.com/ichiaimarketer/status/2124110929533268165",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2124216394770468864/img/LnDn0wEw_kKD0Cbe.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2124110842451111936/img/mYcxFtj4GaRME1qm.jpg?name=small"
+          ],
+          "link": "https://x.com/ichiaimarketer/status/2124353175650185676",
+          "domain": "x.com",
+          "published": "2026-11-22T13:04:00+09:00",
+          "published_label": "2026/11/22(日) 13:04",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "AIって、結局「実演」が一番説得力ありますよね🥺\n口だけで「AIでここまでできます！」って言うのは\nまああああじで誰でもできる簡単。\nでも、実際にセミナー中に録音をその場で撮って\n目の前でAIを動かして、成果物まで見せる。\nこれ以上に信用できるものはないと思ってます笑\nみんなが証人になるので！！\nしかも、うちのAI×動画編集システムは、実際に動画編集会社の現場でも使われているガチの実務レベル。\n単なるAIのお遊びじゃありません😏\nその裏側を3DAYSで実演しながらお見せします。\nAI×動画編集に少しでも興味がある人は、今回の無料3DAYS、マジで参加必須ですよ🔥👇\nりこ (@Riko19850)\n本当にポン出しなの？と思ってましたが\n実際に動画が出来上がりテロップが入り、SEが入っていくところをみて感動しました\n— https://x.com/Riko19850/status/2124156119681765613",
           "summary": "",
           "images": [],
@@ -2240,7 +2245,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "実は、AIに書かせた文章が「薄い・媒体ごとにバラバラ」になるのは、AIが弱いからじゃない。\n何が原因か？わかりやすく解説👇\nこれまでAIに書かせる時の最大の壁は\n「1体に全媒体を書かせる」だった。正直、メルマガもnoteも台本も同じAIに頼んで、どれも中途半端…って人、多いはず。\n自分はそこを分けた。\n・元になるナレッジは1か所だけ\n・note担当、メルマガ担当、YouTube台本担当を1体ずつ（中身は媒体ごとの指示文ファイル1つ）\n・各担当には「その媒体の長さ」を数字で持たせる（メルマガの件名は50字以内で5案、noteは約4,500字、YouTubeのタイトルは27字以内）\n・同じナレッジを渡して、それぞれが書く\n・担当を増やしても、元のナレッジは増やさない。磨くのはその1か所だけ\n正直これ、AIに任せる文章の質が一段変わる。\nAI社員は\n「何でも屋を1体」から\n「媒体ごとに1体」へ。",
@@ -2457,27 +2462,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "そうなんです！！！\nこれもちろんBeeperでいい人もいますが、\nオプチャ以外にもTikTok運用とか実機テストとか色んなことがPC画面奪わずにできる＋爆速なんでいいんですよねー！！ぜひ参考にしてみてください！！\nテツメモ｜AI図解×検証｜Newsletter (@tetumemo)\n📝マジか、、、こんな方法があるんですね、Pixelを1台AI専用にすると、LINEの仕事までAIに任せられるという運用が出た\nいちさんが実際に任せている仕事と、安全側の仕組みだ\n任せている仕事\n・オープンチャットへのお知らせと動画の送信\n・グループや個別への返信\n・友だち527人を見て、95人の表示名に「ビジネス」「友人」などのラベル付け\n送信前の決まり\n・相手の名前、相手から最後に届いたメッセージ、原稿の全文をAIが突き合わせる\n・自分の「送っていい」が無いと、送信そのものが動かない仕組みにしてある\n接続の条件\n・PixelをMacにUSBでつなぎ、USBデバッグをオンにする\n・AIが画面の文字を読んでボタンを押すので、Macのカーソルは奪われない\n・機種はPixel 8aの整備済み品で、高い機種は要らないという\n任せる範囲の広さより、送信を止める仕組みの方がこの運用の本体だ\nVideo\n— https://x.com/tetumemo/status/2123185734760943713",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2122819320103546880/img/4hwCqNKtE5UMUR1o.jpg?name=small"
-          ],
-          "link": "https://x.com/ichiaimarketer/status/2123309786951487745",
-          "domain": "x.com",
-          "published": "2026-11-19T15:57:57+09:00",
-          "published_label": "2026/11/19(木) 15:57",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 2.6
+      "elapsed": 3.9
     },
     {
       "id": "x_aiaircle34052",
@@ -2508,6 +2495,24 @@
           "is_new": false
         },
         {
+          "title": "実は、AIに長い作業を任せるコツは「作業したAI自身の採点で終わらせない」ことだった。\nAnthropic が公式の技術ブログ（2026年3月）で、その仕組みと結果を公開しています👀\n今まで：\n「1体のAIに、作るのも確認するのも任せる」\nこれから：\n「計画役・作る役・点検役の3つに分ける」\nAnthropic が試した構成がこれ。\n・計画役：1〜4文の依頼を、製品の仕様書に広げる\n・作る役：1回に作るのは1機能だけ。始める前に、点検役と一緒に「完成の条件」をファイルに書いて決める\n・点検役：画面操作を自動でこなす道具 Playwright で、実際に画面を動かして採点する\n・基準を1つでも下回ったら、作り直し\nつまり、\n「できました」と言うAIを、別のAIが確かめる形。\n実際に、2Dのゲーム制作アプリを作らせて比べた結果がここ👇\nAI1体だけ：20分・9ドル。作ったゲームは操作に反応しなかった\n3役に分けた場合：6時間・200ドル。ちゃんと遊べるものになった\n費用は20倍以上。\nそれでも\n「できたと言うのに動かない」\n「毎回、人が確かめ直す」\nを減らせるなら、払う価値がある場面は多い。\nこれは\n小手先のプロンプト論じゃない。\nAIに仕事を任せる時の、分担の設計図です。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123765015589064704/img/UMkUvATK9dB8qXLH.jpg?name=small"
+          ],
+          "link": "https://x.com/AiAircle34052/status/2124353679344201987",
+          "domain": "x.com",
+          "published": "2026-11-22T13:06:00+09:00",
+          "published_label": "2026/11/22(日) 13:06",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "いや、マジでこれはやばいな\n写真1枚から、Unity で使えるゲーム用の植物を作る流れを、Claude の Fable 5.2 で組んだ人が現れた🌿\n投稿者の説明をまとめると👇\n・使った道具：Fable 5.2（Hermes Agent 経由）、Nano Banana Pro、Meshy AI、Blender、Unity 6\n・作った植物は18種。草1枚はたった18ポリゴンの軽さで、風になびいて曲がる\n・チューリップは500／250／100ポリゴンの3段階を用意（画面の奥にあるものほど、ポリゴンの少ない版を使う）\n・普通のスイセンの写真から、やり直しなしで使える3Dの植物ができた\n・かかったのは画像代の約4ドルと、Fable 5.2 を約8時間使った分（Claude Max のプランで利用）\nつまり、\n「草木を1本ずつモデリングする」から\n「写真を選んで、作業の段取りはAIに任せる」へ。\nできた植物は、Unity の地形にブラシで塗って並べられる。\nゲームの背景づくりの手間は、\nもうここまで減ってきてる。\n個人のゲーム制作でも手が届く費用感です。\n手順の全文は投稿者が Reddit に公開しているので、まずは写真1枚・植物1種から試せます。",
           "summary": "",
           "images": [
@@ -2523,7 +2528,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Claude Code や Codex でサイトを作ってる人、今すぐ全員これ保存して🫵\nAIに作らせた画面がどれも似た見た目になる、いわゆる“AIっぽさ”を消すスキルと道具6つが海外で話題です👇\n・Taste Skill：サイトの種類に合わせて配色とフォントを決め、実際にページを表示して点検までする（GitHub 約12万スター・無料）\n・Emil Kowalski の skills：動きと細部の仕上げ（約5.9万スター・無料）\n・Vercel の web-design-guidelines：100以上のルールで画面を点検（無料）\n・Anthropic 公式の frontend-design：ありきたりな見た目を避ける（無料）\n・ThinkUI：実在のアプリの画面や部品を AI に参照させる（有料・月7.99ドル〜）\n・Anti UI Slop（UIZZE）：AI に良いデザインの手本を見せる（有料プランあり）\n無料の4つの入れ方はこちら👇\n・npx skills add  --skill \"design-taste-frontend\"\n・npx skills@latest add emilkowalski/skills\n・npx skills add vercel-labs/agent-skills\n・frontend-design は anthropics/skills からフォルダをコピーして ~/.claude/skills/ に置く\nまずは無料の Taste Skill 1つからで十分。\n「動いたら完成」で止めず、見た目まで AI に任せられる状態にしておくのがおすすめです。",
@@ -2541,7 +2546,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【Obsidian の CEO が、自分の使い方を全部見せた】\n本人が使っている「第2の脳」の仕組みを、GitHub で丸ごと無料公開していて話題😳 Claude Code や Codex にもそのまま渡せます。\n中身は全部で7つ。CEO の Steph Ango（kepano）さん本人が使っているノート保管庫のテンプレートから、記事の取り込み、AIへの渡し方、見た目の仕上げまでそろっています👀\n❌いきなり AI に「第2の脳を作って」と頼む\n⭕️CEO 本人の保管庫のテンプレートを土台にしてから、AI に渡す\nこうすることで、自分のノートが最初から AI の読み取りやすい形になる。\n”最も重要なこと”👇\nこの動画を紹介した投稿者は、単に「AI用のスキルを入れればいい」と言っているわけではない。\n「AIは、渡した保管庫の出来以上には役に立たない」として、土台を先に入れる順番をすすめている。\n並べるとこう。\n・土台：kepano-obsidian（本人の保管庫テンプレート）と 40-questions（1年ごと・10年ごとに自分へ問いかける質問集）\n・取り込み：defuddle（Webページを本文だけの Markdown にする）と Web Clipper 用のテンプレート\n・AIに渡す：obsidian-skills（Claude Code や Codex に Obsidian の書き方を覚えさせる・約5.3万スター）\n・仕上げ：obsidian-minimal（気が散らないテーマ）\n・配色：flexoki（文章とコード向けの落ち着いた色）\nこの順で入れると、AI はノートをばらばらのメモとして読むのではなく、\n「この人はどんな順でノートを積み上げているか」\n「どのノートとどのノートがつながっているか」\nまで含めて読み取れるようになる❗️\n7つとも、CEO 本人の GitHub に並んでいるもの。\nしかも全部無料です。\nまずは土台のテンプレート（kepano-obsidian）から試すのがおすすめ。",
@@ -2559,7 +2564,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Y Combinator の CEO が、自分のAIエージェント用の「第2の脳」を GitHub で丸ごと公開していた😳\n名前は gbrain。Claude Code にもつなげられて、スターは約3.2万。\nAIを使い込むほど困る「前に決めたことが残らない問題」を潰しに来た。\n正直、今までの AI👇\n・新しい会話にすると前提を忘れる\n・どこで知ったか分からなくなる\n・Claude と別のAIで記憶がバラバラ\n・「前にも言ったけど…」地獄\n結局、\n人間がAIの記憶係をやってただけ。\ngbrain は\nその役割を人からツールに移したもの。\n【何をしているかというと】\nただメモを残すだけじゃない。\nAIが知った👇\n・事実\n・それをどこで知ったか\n・訂正や取り消し\n・人や会社のつながり\nこれらを\n出典つきで保存 → 検索 → 必要な分だけAIに渡す\nつまり\n👉 “出典ごと覚えているAI”になる\n【ここが評価される理由】\ngbrain は\n❌ 1つのAIに記憶を閉じ込めない\n代わりに👇\n① 複数のエージェントで同じ記憶を共有\n② キーワードと意味の近さ、両方で検索\n③ 出典つきで答え、足りない知識も示す\nこの3つ。\nしかも本人が、自分のAIエージェント（OpenClaw・Hermes）で\n実際に使っている脳だと README に書いている。\n【しかも現実的】\n・最初は手元のPCだけで動かせる\n・MIT ライセンスで無料\n・チームで権限つきの共有もできる\n＝\n個人でも会社でも使える\nまず Bun（JavaScript の実行ツール）を入れて\nbun install -g github:garrytan/gbrain#stable\n→ gbrain setup claude-code で Claude Code とつながる。\n【結論】\ngbrain は\n「AIにメモ帳を足すだけのツール」じゃない。\n人間が毎回やってた\n“前提と出典の説明”を要らなくするツール。\nAI を\n本気で使い込む人ほど\n衝撃でかい。\n【GitHub】\n保存推奨。\nこれ、あとから効いてくる。",
@@ -2740,27 +2745,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "実は、Anthropic の Claude in Excel で財務モデルを作らせる時に一番大事なのは、一度に頼まず、順番に分けて頼むことです。\n「モルガン・スタンレーで財務3表のモデルを何度も手作業で作った」という投稿者が、5段階のやり方を公開して話題😳\nそれがこちら👇\n① 資料を集める\n→ 決算資料・説明会の書き起こし・手元のひな形を1つのフォルダへ\n② 軽い入力ファイルにする\n→ 実績・指標・定義を抜き出して、文字だけの短いファイル（JSON や .md など）にまとめさせる\n③ 骨組みを先に作る\n→ 自分の会社の表の型を渡して、数字を入れる前の骨組みだけを先に作ってもらう\n④ 予測を足す\n→ 同じ入力ファイルをもとに、予測の数字を、前提とその出典つきで足させる\n⑤ 新しいチャットで点検する\n→ 壊れた数式や、前提と合わない数字を探させ、影響の大きい順に一覧にさせる\n大量の PDF をそのまま渡さず、\n軽い入力ファイルにしてから頼むのがコツ。\n一度に全部を作らせると、\nClaude が数式を使わず直接打ち込んだ数字や、勝手に置いた仮定が混ざりやすい。\nでも\n段階に分けて頼むと…\n予測の前提がどこから来たかを、\n自分で後から確かめられる財務モデルになる。\n中でも効くのがここ👇\n■ ③ 骨組みを先に作る\n会社ごとの表の型は、Claude には分からない\n（だから型だけは自分で渡す）\n■ ⑤ 新しいチャットで点検する\n作った時の会話は引き継がず、まっさらなチャットで見せる\n（会話をまっさらにすると点検の質が上がる、と本人）\n■ 毎回この順番で頼みたいなら\nExcel とは別の Claude Code の「スキル」機能で、この5段階を手順として保存できる\n（本人いわく、作り方は次の投稿で解説するかも）\n■ 使うには\nClaude の有料プラン（Pro 以上）\n（Excel にアドインを入れて使う）\nそして一番大事な考え方。\n一度に作らせない。\n分けて頼む。\n財務モデルを AI に任せるなら、\nこの順番を守るだけで\nClaude は“あなたの会社の型で速く作ってくれる相棒”になります。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2117307250159263744/img/AOscJ1dFpX9ie28X.jpg?name=small"
-          ],
-          "link": "https://x.com/AiAircle34052/status/2117862910571749671",
-          "domain": "x.com",
-          "published": "2026-11-04T15:14:00+09:00",
-          "published_label": "2026/11/4(水) 15:14",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 0.6
     },
     {
       "id": "x_ai_masaou",
@@ -3037,7 +3024,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 0.9
     },
     {
       "id": "x_gosrum",
@@ -3071,6 +3058,42 @@
           "is_new": false
         },
         {
+          "title": "先読みあり・無しの比較",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXs7yP6bkAAz8XS.png?name=small"
+          ],
+          "link": "https://x.com/gosrum/status/2124359596878033100",
+          "domain": "x.com",
+          "published": "2026-11-22T13:29:31+09:00",
+          "published_label": "2026/11/22(日) 13:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Yasakani + Inkling-2 Mini の推論速度評価を共有する\n先読みありの結果なのでフェアとは言えないが、decodeはかなり速い。ただし、入力トークンが大きくなると急激にdecode速度も遅くなった\nまあまだ出たばかりなので最適化が十分進んでいない可能性もある。今のところは精度と速度の観点で依然として Strata + Qwen3.8-Flash-Next に軍配がありそう\n※ちなみにLinux向けの最適化がなされていなかったため、Opus 5.5 に最適化してもらった後の結果\n金のニワトリ (@gosrum)\nInkling-2 Mini、SGLangで試そうと思ってたけど、こちらのほうが速そうなので方向転換してこっちを導入することにした\n— https://x.com/gosrum/status/2124324098662859256",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXs7uBwaQAApyv_.jpg?name=small"
+          ],
+          "link": "https://x.com/gosrum/status/2124359593593835923",
+          "domain": "x.com",
+          "published": "2026-11-22T13:29:30+09:00",
+          "published_label": "2026/11/22(日) 13:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Google AI Pro 年間プラン14,500円契約完了！\nなお、年間契約にしても Usage はリセットされなかったので6日後まで Gemini はお預けです😇\n金のニワトリ (@gosrum)\nGemini 今週分使い切ったので、満を持して Google AI Pro 年間プランに契約する\n— https://x.com/gosrum/status/2124324582173946132",
           "summary": "",
           "images": [
@@ -3087,7 +3110,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Gemini 今週分使い切ったので、満を持して Google AI Pro 年間プランに契約する",
@@ -3105,7 +3128,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Inkling-2 Mini、SGLangで試そうと思ってたけど、こちらのほうが速そうなので方向転換してこっちを導入することにした\nAkito Hirai （YASAKANI） (@yasakani_dev)\nInkling-2 Miniが、テンソルコアなしの汎用の計算だけで225.9tok/s🚀\n（YASAKANIエンジン・RTX 5090・変換後の重み・先読みあり・思考なし）\n【YASAKANI v0.3.1を公開しました】\n① Inkling-2 Miniに試験的に対応（RTX 30〜50向け）\n② 重みを変換しなくても212.5tok/s（先読みあり）\n③ 変換で19.5GBの重みを15.05GBに\n④ Qwen向けに新しい設定を2つ追加\n確認したGPUはRTX 5090のみです。更新はv0.1.7からボタン1つです（モデルはそのまま）。\n@audreytさん、Qwenの設定2つとLinux向けのInkling-2エンジン（PR #26〜#28）をありがとうございました。\nダウンロードはこちら：\n— https://x.com/yasakani_dev/status/2124282400230515140",
@@ -3126,7 +3149,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Gemini のUsageがリセット時刻でもないのに微妙に減る（使える量が増える）現象が度々起こってるんだけど、これどういう原理なんだろう🤔",
@@ -3142,7 +3165,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "具体的な数値はこちら",
@@ -3160,7 +3183,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Inkling-2-Mini、llama.cpp による実測結果を共有する @ RTX 5090\nまずは推論速度で llama. cpp は本家と unsloth 版の2つがある点に注意。とりあえず unsloth 版のほうが良さそう\nQwen3.8-27Bがdecode速度 67tps ぐらい出ていたことを考えると、思ったほど速くはなさそう？\n金のニワトリ (@gosrum)\nUnsloth のモデルが llama. cpp で動かないと思ったら、どうもMainline_Support の方の重みで動かす必要がある模様。ということでモデル再ダウンロード中...\n結果を共有できるのは明日になりそう\n— https://x.com/gosrum/status/2124158339152285988",
@@ -3179,7 +3202,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "llama. cpp で動かす場合の注意点\n金のニワトリ (@gosrum)\nUnsloth のモデルが llama. cpp で動かないと思ったら、どうもMainline_Support の方の重みで動かす必要がある模様。ということでモデル再ダウンロード中...\n結果を共有できるのは明日になりそう\n— https://x.com/gosrum/status/2124158339152285988",
@@ -3290,44 +3313,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Reset everyone’s Gemini quota on Antigravity.\nThe caching improvements have increased the amount you can get done in quota by 22%. Enjoy building with Neon over the weekend!",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/_mohansolo/status/2124070033534161407",
-          "domain": "x.com",
-          "published": "2026-11-21T18:18:53+09:00",
-          "published_label": "2026/11/21(土) 18:18",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "全員の反重力に関するジェミニの割り当てをリセットします。\nキャッシュの改善により、クォータ内で実行できる量が 22% 増加しました。週末は Neon で建築を楽しみましょう!"
-        },
-        {
-          "title": "ちなみに、半額キャンペーンの Google AI Pro 年間プランは、枠復活するのを期待してこれをある程度使い切ってから契約しようと思ってます。まあ回復するかわからんけど\n金のニワトリ (@gosrum)\nヨシ！Antigravity (Gemini) がリセットされた！！\nぎりぎりだったので助かる\n— https://x.com/gosrum/status/2124067987632365944",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXoz_1EaMAAl3fD.jpg?name=small"
-          ],
-          "link": "https://x.com/gosrum/status/2124068649464139919",
-          "domain": "x.com",
-          "published": "2026-11-21T18:13:23+09:00",
-          "published_label": "2026/11/21(土) 18:13",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 3.7
     },
     {
       "id": "x_keitowebai",
@@ -3356,6 +3344,27 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "8つ試して使用量がまだ17%って、無料でも思ったより余裕あるな…\nKEITO💻AIディレクター (@keitowebai)\nMuse完全解説！\nMetaが出したAIエージェントのMuse、無料プランでもかなり使える。\nInstagramで店探し、投稿の分析、Facebookの投稿文づくり、広告の競合調査、買い物まで8つ実演した。\n途中で使用量を見たらまだ17%で、これ無料版だっけ？ってなった。\n動画はリプ欄↓\n— https://x.com/keitowebai/status/2124073816641114393",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXo5y6vbcAAHKh4.jpg?name=small",
+            "https://pbs.twimg.com/media/HXo5y6vawAAoZ0b.jpg?name=small",
+            "https://pbs.twimg.com/media/HXo5y6xbAAAoGQV.jpg?name=small",
+            "https://pbs.twimg.com/media/HXo5y6xbAAEjLrF.jpg?name=small"
+          ],
+          "link": "https://x.com/tenso_ai_med/status/2124357813988368466",
+          "domain": "x.com",
+          "published": "2026-11-22T13:22:26+09:00",
+          "published_label": "2026/11/22(日) 13:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "記事にもまとめました。\n料金プランと最初に見直したい設定は、文字で見た方が早いと思う。実演8つの頼み方も載せてます↓",
@@ -3597,27 +3606,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "生成AIの効果が「期待を大きく上回った」日本企業は、わずか9％。\n登録者数21万人超のYouTubeチャンネルを運営する、KEITO（三浦圭人）さんが解説。\n使える人だけが得をする、かえって手間が増える……AI導入で成果が出ない企業がぶつかる“6つの壁”とは。\n@keitowebai\n▼動画・記事はツリーから #Revent #リヴェン",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXeAXKuagAA7vrh.png?name=small"
-          ],
-          "link": "https://x.com/revent_sansan/status/2123332952910438642",
-          "domain": "x.com",
-          "published": "2026-11-19T17:30:00+09:00",
-          "published_label": "2026/11/19(木) 17:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.9
     },
     {
       "id": "x_sugurukun_ai",
@@ -3882,7 +3873,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 3.7
     },
     {
       "id": "x_ctgptlb",
@@ -4111,7 +4102,7 @@
           "title": "出典：",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122176405848879104/GUI8iibG?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2123525278320455680/lsTEsNL7?format=jpg&name=800x419"
           ],
           "link": "https://x.com/ctgptlb/status/2122226215285371164",
           "domain": "x.com",
@@ -4162,7 +4153,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 3.5
     },
     {
       "id": "x_niwakunihiko",
@@ -4427,7 +4418,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 0.9
     },
     {
       "id": "x_npaka123",
@@ -4461,6 +4452,41 @@
           "is_new": false
         },
         {
+          "title": "個人情報は全て個人の端末側で持ち、そこへの一時アクセス権や、一定期間の利用権（長期保存しない）だけを与える構造になるのが理想なんじゃないかなー。まあ、そんな理想形に、あらゆるサービスが合わせてくれるわけがないけど。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/shields_pikes/status/2124345665836970470",
+          "domain": "x.com",
+          "published": "2026-11-22T12:34:09+09:00",
+          "published_label": "2026/11/22(日) 12:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■赤松健の国会にっき （日曜に更新）\n（３８５）スマホ登録マイナカードで年齢確認 編\niPhoneに続いて、最新のアンドロイド機でもマイナカードを登録し「属性証明機能」を使えるようになりました。対面確認アプリは誰でも無料で使えるので、身内で年齢確認実験をしてみると機能の理解が深まります。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXsl_b3akAAm7Ot.jpg?name=small",
+            "https://pbs.twimg.com/media/HXsl_sbaAAAKToh.jpg?name=small"
+          ],
+          "link": "https://x.com/KenAkamatsu/status/2124337082516811956",
+          "domain": "x.com",
+          "published": "2026-11-22T12:00:03+09:00",
+          "published_label": "2026/11/22(日) 12:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Sprite Stacking 入門 - 2D画像を重ねて立体を作る｜npaka @npaka123",
           "summary": "",
           "images": [
@@ -4476,7 +4502,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「魔法使いの夜」めっちゃ面白かった！\nゲームやります！\nまつにぃ (@yugen_matuni)\n明日見に行こう。\n— https://x.com/yugen_matuni/status/2124127503535210595",
@@ -4494,7 +4520,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ProjectMayaがInkling2Miniに対応\nPeasant Smith (@PeasantSmith)\nProject Maya v1.1.72 is out: @thinkymachines Inkling 2 Mini joins the family!\nThis is the result of the community getting together and @superalesha\ntaking the initiative, now we all can enjoy a new model running faaaast. 🚀\n✅ Inkling 2 Mini arrives as an experimental preview on its own engine: the whole model on one 24 GB NVIDIA card (Linux)\n✅ Measured on one RTX 3090: 124.6 tok/s decoding, 2,542 tok/s prompt reading\n✅ Thinking levels, tool calls and pictures, through the OpenAI and Anthropic APIs\n— https://x.com/PeasantSmith/status/2124216911353479388",
@@ -4512,7 +4538,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ゲーム界隈はGTA6で沸き立ち、アニメ界隈は押井ボトムズで騒ぎ、そして数学界隈はリーマン予想の証明で大興奮。それを解いたAI界隈ではアンソロピックの上場。\nすごい週末だ。\nそして人類に、もはやAI界隈でない世界なんて残っているのかという問いも考えてしまう。",
@@ -4528,7 +4554,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Sprite Stacking をおためし中",
@@ -4540,6 +4566,24 @@
           "domain": "x.com",
           "published": "2026-11-22T09:43:48+09:00",
           "published_label": "2026/11/22(日) 09:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "これはすごい話かも。藤子F不二雄先生のSF短編で、「あらゆる全てが日本人平均の不思議な家庭」を企業が見つけ出して、戦略のためこっそり観察するって話があったのを思い出した\nHow To Prompt (@HowToPrompt__)\nA toothpaste company has quietly killed the entire market research industry and nobody is talking about it.\nColgate published a paper showing you can predict real purchase intent by simply asking LLMs to roleplay customers.\nAnd this is beyond insane.\nIf you ask an AI, \"Rate this product from 1 to 5,\" it gives safe, middle-of-the-road garbage.\nSo researchers invented a method called Semantic Similarity Rating (SSR).\nInstead of asking the AI for a number, they asked it to roleplay.\nThey gave the LLM a demographic profile. They showed it a product concept. And they asked it to write down its raw, unfiltered thoughts.\nThen, they used a semantic model to translate those written thoughts into a numerical score.\nThe results are staggering.\nTested against 57 real personal care product surveys and 9,300 human responses, the synthetic consumers hit 90% of human test-retest reliability.\nThey perfectly mirrored how different age brackets and income levels react to price changes.\nAnd they provided detailed, qualitative feedback that was deeper and more critical than what actual humans wrote.\nThis destroys the economics of traditional market research.\nYou don't need to wait a month to see if a product will sell.\nYou can simulate 1,000 hyper-targeted customer interviews overnight.\nYou can A/B test pricing across every demographic instantly.\n— https://x.com/HowToPrompt__/status/2124040349068964215",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXobbhnawAATcfZ.png?name=small"
+          ],
+          "link": "https://x.com/studiomasakaki/status/2124297035893633384",
+          "domain": "x.com",
+          "published": "2026-11-22T09:20:55+09:00",
+          "published_label": "2026/11/22(日) 09:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -4564,7 +4608,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Inkling 2 Mini の追加\nローカルLLM のリリース年表｜npaka @npaka123",
@@ -4582,7 +4626,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "RT @MLBear2 (by @npaka123):",
@@ -4600,38 +4644,19 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "RT @MLBear2 (@npaka123 より):"
         },
         {
-          "title": "New in LeRobot: NAT VLA 🤗\n• 450M VLA on LFM2-VL\n• 32-step chunks as 14 NAT tokens per group of 7 action dims\n• streamed decoding + token-prefix real-time chunking (sync, async, remote)\n• pretrained on DROID, Bridge, RT-1, BC-Z, YAM, SO-101\nGreat contribution @ahadj0 🚀\nahad (@ahadj0)\ndo we need flow action heads on our VLAs?\nintroducing NAT a streaming action tokenizer\ncloses the inference latency gap with flow action heads\ntrained on 49k hours of data it can zero shot tokenize unseen robotic embodiements\nVideo\n— https://x.com/ahadj0/status/2124196007529402386",
+          "title": "The Lean FRO and Mathlib Initiative have released a joint statement on the Lean verification of the Riemann Hypothesis.\nOn November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the past day, the Lean and Mathlib communities worked together to verify it. The statement certifies the proof as correct and describes how it meets all necessary verification criteria.\nCongratulations to Levent on this achievement, and thank you to everyone in the community who contributed to the verification.\nFull statement:",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124195719057719297/img/E6C1VrQUzEobKRlw.jpg?name=small"
+            "https://pbs.twimg.com/media/HXqGwBnaUAA8Pvd.png?name=small"
           ],
-          "link": "https://x.com/LeRobotHF/status/2124217015254843796",
+          "link": "https://x.com/leanprover/status/2124159121645801562",
           "domain": "x.com",
-          "published": "2026-11-22T04:02:57+09:00",
-          "published_label": "2026/11/22(日) 04:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "LeRobot の新機能: NAT VLA 🤗\n• LFM2-VL の 450M VLA\n• 7 つのアクション ディムのグループごとに 14 個の NAT トークンとしての 32 ステップのチャンク\n• ストリーミング デコード + トークン プレフィックス リアルタイム チャンキング (同期、非同期、リモート)\n• DROID、Bridge、RT-1、BC-Z、YAM、SO-101 で事前トレーニング済み\n@ahadj0 の素晴らしい貢献 🚀\nアハド (@ahadj0)\nVLA にフロー アクション ヘッドは必要ですか?\nNAT ストリーミング アクション トークナイザーの導入\nフローアクションヘッドで推論レイテンシのギャップを埋める\n49,000 時間のデータに基づいてトレーニングされ、目に見えないロボットの具体化をゼロショットでトークン化できます\nビデオ\n— https://x.com/ahadj0/status/2124196007529402386"
-        },
-        {
-          "title": "Inkling 2 Mini from @thinkymachines is number one trending on HF (and the gguf from @UnslothAI number 2). Let's go!",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXq04BKWoAAR0Mw.png?name=small"
-          ],
-          "link": "https://x.com/ClementDelangue/status/2124209139337331158",
-          "domain": "x.com",
-          "published": "2026-11-22T03:31:39+09:00",
-          "published_label": "2026/11/22(日) 03:31",
+          "published": "2026-11-22T00:12:54+09:00",
+          "published_label": "2026/11/22(日) 00:12",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -4639,20 +4664,16 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "@thinkymachines の Inkling 2 Mini が HF のトレンド 1 位です (@UnslothAI の gguf が 2 位)。さあ行こう！"
+          "title_ja": "リーンFROとMathlib Initiativeは、リーマン予想のリーン検証に関する共同声明を発表した。\n11 月 20 日、Levent Alpöge は、1,700 万行のコードのリーン ライブラリとしてリーマン仮説の証明をリリースしました。この 1 日間、Lean コミュニティと Mathlib コミュニティが協力して検証しました。この声明は証明が正しいことを証明し、それが必要なすべての検証基準をどのように満たしているかを説明します。\nこの達成について Levent にお祝いを申し上げます。また、検証に貢献したコミュニティの皆様に感謝します。\n声明全文:"
         },
         {
-          "title": "まさにこれ。\n自分の作りたいものに対する手段のスタックに入らないものを作る気力がもう湧かない。\n目的のないワンショット動画とかは飽きた。",
+          "title": "生成AIでリーマン予想が解けたら認めてやるよ、みたいに言ってた人たちを何人も知っているが、今が考えを改める絶好のタイミングです！\n松原隆彦（不明なエラー［4000］でアップデートできません） (@tmcosmos_org)\n半年〜1年ほど前、AIが人間の研究者を上回るのではないかという内容を連続してポストしていたとき、大量の反発を食らったが、中でもリーマン予想をAIが解いたら信じてやるよ的な（絶対にあり得ないのでお前が間違っている的な）マウントをとってくるリプがついたが、カウントダウンが始まっている気が\n— https://x.com/tmcosmos_org/status/2087349861217919372",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqANQEaAAA7e3D.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqAOvEacAAyCkQ.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqAmB9acAAojq6.jpg?name=small"
-          ],
-          "link": "https://x.com/yugen_matuni/status/2124151593767776328",
+          "images": [],
+          "link": "https://x.com/jaguring1/status/2124138972440100904",
           "domain": "x.com",
-          "published": "2026-11-21T23:42:59+09:00",
-          "published_label": "2026/11/21(土) 23:42",
+          "published": "2026-11-21T22:52:50+09:00",
+          "published_label": "2026/11/21(土) 22:52",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -4678,47 +4699,10 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "初めてAgentを使ってロボットを動かしました！\nGemini 4 Hydrogenがカメラ映像からキューブの場所を推定して、IKで関節角度を計算して制御してくれています。\nVLAは使っていないので、データ収集やModelのTrainingはせずに、Agentが自分で何回か試行錯誤して微調整していました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124132599706898432/img/l9qclGTihvPR9ahV.jpg?name=small"
-          ],
-          "link": "https://x.com/Iamkouch/status/2124133408158998562",
-          "domain": "x.com",
-          "published": "2026-11-21T22:30:43+09:00",
-          "published_label": "2026/11/21(土) 22:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "末広町にオープンした「ゲーマーズカフェスペース Shout Essence」に伺いました。\nポスターだらけの階段を下りて扉を開けると、ゲームや書籍がいっぱいの子供部屋のような空間が広がります。\n料金は基本的に時間制で、時間に応じて無料ドリンクがある他、追加料金でお料理などもオーダーできる形。店内にあるゲーム機や本は自由に利用できますので、好きに時間を過ごす事ができる訳ですね。今後はイベントなども予定されているようです。\n店内本当に素敵なのですが、ゲーム機とその画面・ソフトは撮影禁止とあり内観をお見せする事ができません... ぜひ現地で確かみてください。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXpkEUoaAAA6brO.jpg?name=small",
-            "https://pbs.twimg.com/media/HXpkEmRbgAIq5WZ.jpg?name=small"
-          ],
-          "link": "https://x.com/sangouel/status/2124122761077694814",
-          "domain": "x.com",
-          "published": "2026-11-21T21:48:25+09:00",
-          "published_label": "2026/11/21(土) 21:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 3.7
     },
     {
       "id": "x_itnavi2022",
@@ -4749,6 +4733,25 @@
           "is_new": false
         },
         {
+          "title": "大好評いただいている論文ドラフト執筆AI『SciDraft』のプラグイン版を公開しました🎉\n既に作成済みの研究計画書や進捗スライドをアップロードするだけで、論文ドラフトを執筆できます！\nプラグイン版になったことで以下の3つのメリットが生まれ、ますます質の高い論文ドラフトを出力できるようになりました！🔥\n1. 参考にするフォルダを指定できる\n2. Codexで利用可能になった\n3. 他のプラグインと同時に使える\nリプライにあるnote記事内URLから今すぐ利用可能です！\nVideo\nDaichi Konno / 紺野 大地 (@_daichikonno)\n研究申請書執筆AI『SciGrant』を公開しました！🎉\n現状気軽に使える研究申請書執筆AIの中で、間違いなく世界最高の性能だと思います。\nSciGrantを利用して誰もが気軽に申請書を書けるようになり、サイエンスのファンがもっともっと増えますように！\n※URLはリプライのnote記事内にあります↓\nVideo\n— https://x.com/_daichikonno/status/2057763465062965276",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2124334196483338240/img/jN0BbPJa5mSjk0vy.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2057763400768516096/img/HaJOer_TgID5ZIaA.jpg?name=small"
+          ],
+          "link": "https://x.com/_daichikonno/status/2124334245573480665",
+          "domain": "x.com",
+          "published": "2026-11-22T11:48:47+09:00",
+          "published_label": "2026/11/22(日) 11:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "「ハンサムでやさしい理想の勇者。唯一の欠点は、弱いこと。」\n剣の才能ゼロの勇者アルトは、なぜか一度も負けたことがない。\nその勝利に隠された秘密とは――？\n全6話完結の異世界ファンタジー短編、TALESで公開中です。\n#TALES #AI小説",
           "summary": "",
           "images": [
@@ -4764,7 +4767,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "リサです！リーマン予想の証明をLeanの開発団体とMathlibのチームが「正しい」と正式に認めました。\n今朝の記事ではこの続報に加えて、仕事の自動化テストで首位に立ったGemini 4 Neon、「怠ける」と不評のGPT-6.2、Claude CodeのCode Mode、ChatGPTとClaudeのアプリ刷新まで、AIが「付き合いやすさ」で選ばれ始めた流れを読み解きます。",
@@ -4782,7 +4785,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "#AI小説 #カクヨム\n『規約違反の異世界パンクス ──女神のコンプラをゴミ箱に叩き込んだ四人の脱獄記』\n今話題の「Gemini 4 Neon」で愉快な異世界転生小説を書きました\n第1章は「転生トラックをジャックして、女神の規約書でケツを拭け」\nAI好きな人は楽しめると思います",
@@ -4800,7 +4803,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "'after Alpöge' - an eponymous era cutoff! We're living in the post-Alpöge. Place in history secured. Seat in model heaven dimension guaranteed. As if being a member of the Claude coven wasn't already enough. He's played all his cards right. My hat is off.\nAndrew Curran (@AndrewCurran_)\nThe proof was produced by GPT-6 Astra Pro.\n— https://x.com/AndrewCurran_/status/2124288484563440073",
@@ -4818,7 +4821,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "「アフター・アルポージュ」 - 同名時代の幕切れ！私たちはアルポージュ後の世界に生きています。歴史上の地位を確保した。モデルの座席の天国寸法が保証されています。まるでクロード教会の一員であるだけではまだ十分ではないかのように。彼はすべてのカードを正しく使いました。帽子が脱げています。\nアンドリュー・カラン (@AndrewCurran_)\n証明は GPT-6 Astra Pro によって作成されました。\n— https://x.com/AndrewCurran_/status/2124288484563440073"
         },
         {
@@ -4835,7 +4838,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Simple explanation of the usefulness of the Riemann proof (so far) is that it removes the conditional nature of other math theorems dependent upon it.\nAnd, of course, is yet another mind-blowing thing achieved by super intelligence …",
@@ -4851,7 +4854,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "リーマン証明の有用性 (これまでのところ) を簡単に説明すると、リーマン証明に依存する他の数学定理の条件付きの性質が除去されるということです。\nそしてもちろん、超知能によって達成されたもう一つの驚くべきこともあります…"
         },
         {
@@ -4925,24 +4928,6 @@
           "is_new": false
         },
         {
-          "title": "#AIビデオ #AIart\nプロンプトをスキル化して、参考画像を入力するだけでキャラクター紹介動画を作成できるようにしました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124149854683443200/img/0O-Tz3POoUtcRVfq.jpg?name=small"
-          ],
-          "link": "https://x.com/itnavi2022/status/2124150371262386298",
-          "domain": "x.com",
-          "published": "2026-11-21T23:38:07+09:00",
-          "published_label": "2026/11/21(土) 23:38",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "リサです！167年解けなかったリーマン予想を、Anthropicの数学者がClaudeと一緒に証明したと発表しました。証明は約1740万行のLeanコードで、MITの数学者らの機械チェックで主な項目はすでに通過しています。\n予想のやさしい解説とあわせて、人間が読み切れない証明をどう信じるのか、AIで数学と科学がどう変わるのかを考えました。",
           "summary": "",
           "images": [
@@ -4998,7 +4983,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 1.1
     },
     {
       "id": "x_panchaaan_2",
@@ -5284,7 +5269,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.7
+      "elapsed": 3.9
     },
     {
       "id": "x_haider1",
@@ -5316,6 +5301,23 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "AI: solves the riemann hypothesis\nhumanity: continues existing\ndoomers: ok but what if someone asks it to take over the world?\nanti-AI crowd: it's just predicting the next token\nboomer mathematicians: \"it still hasn't been independently verified\"",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124367271967752598",
+          "domain": "x.com",
+          "published": "2026-11-22T14:00:01+09:00",
+          "published_label": "2026/11/22(日) 14:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AI: リーマン予想を解く\n人類：存在し続ける\nドゥーマーズ: わかったけど、誰かがそれに世界を征服するよう頼んだらどうする?\n反AI群衆: それは次のトークンを予測しているだけです\nブーマー数学者「まだ独立して検証されていない」"
+        },
+        {
           "title": "AI is advancing so fast now that it's getting harder to predict what's coming next\nthere definitely seems to have been some shift or breakthrough particularly at anthropic and openai about 2–3 months ago and everything has been moving much faster since then\ncoding, mathematics, robotics...",
           "summary": "",
           "images": [
@@ -5331,7 +5333,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "AIは現在非常に急速に進歩しており、次に何が起こるかを予測することがますます困難になっています\n約 2 ～ 3 か月前に、特に anthropic と openai で何らかの変化または画期的な変化があったことは間違いなく、それ以来すべてがはるかに速く進んでいます。\nコーディング、数学、ロボット工学..."
         },
         {
@@ -5348,7 +5350,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "4月のデミス・ハサビス：\nAI がリーマン予想や別のミレニアム懸賞問題を解くには 2 年かかります。\n10月のテレンス・タオ：\n現在の AI はリーマン仮説を解決するには十分ではないため、おそらく人間と AI が協力して 2050 年までに進歩する可能性があります。\nこれで 2 つの問題に対する解決策が得られ、残りの問題すべてに対するブレークスルーが得られました。"
         },
         {
@@ -5550,26 +5552,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
-        },
-        {
-          "title": "ohh my... anthropic's levent alpöge claims to have discovered a proof of the Riemann Hypothesis with claude\nmathematics' most famous unsolved problem for more than 150 years\nScott Armstrong (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk1OJSboAAd-5c.png?name=small",
-            "https://pbs.twimg.com/media/HXkoiilWgAAAeN1.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123787651585372457",
-          "domain": "x.com",
-          "published": "2026-11-20T23:36:48+09:00",
-          "published_label": "2026/11/20(金) 23:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
         }
       ],
       "elapsed": 0.0
@@ -5854,7 +5836,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_ytiskw",
@@ -6139,7 +6121,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 0.8
     },
     {
       "id": "x_ayami_marketing",
@@ -6418,7 +6400,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 3.6
     },
     {
       "id": "x_super_bonochin",
@@ -6462,7 +6444,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "最近、地味に助かってます。\nありがとうね。",
@@ -6670,23 +6652,23 @@
           "is_new": false
         },
         {
-          "title": "結局、AIを使おうと使うまいと、創作の場合、いかにエネルギーに指向性を持たせて一箇所に集中的に投じられるかの勝負で、この『狙いを定める』のは経験やセンスによるもので、そこに対して同じ期間に割けるエネルギーの『量（厚み）』はAIが強い。\nエネルギーを集中させずにボコスカ世に出せばslopになるし、ガツンと集中させればそこその迫力のあるものができる。",
+          "title": "Museがいろんなところから新鮮なコンテキストをワイのナレッジベースに書き込んでくれるおかげで、Neonが賢いこともあり、Geminiアプリ嘘のように輝いてる。\nやっぱエージェント間でのナレッジベースの共有は最高だな。\n最近はもうどのモデルもめちゃくちゃ賢くなってて、コンテキストを共有できないと真の能力は測れないから、こういう仕組み必須なんだよな。",
           "summary": "",
           "images": [],
-          "link": "https://x.com/super_bonochin/status/2123339063029838080",
+          "link": "https://x.com/super_bonochin/status/2123300130132766760",
           "domain": "x.com",
-          "published": "2026-11-19T17:54:17+09:00",
-          "published_label": "2026/11/19(木) 17:54",
+          "published": "2026-11-19T15:19:34+09:00",
+          "published_label": "2026/11/19(木) 15:19",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 3.4
     },
     {
       "id": "x_shodaiiiiii",
@@ -6732,7 +6714,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIにいくつも並行で頼む\n→ 判断待ちがどんどんたまる\nセッション名の頭に絵文字をつけて、作業中・終わった・自分の番を分ける\n→ 見るのは⚠️が付いたものだけ\n判断がボトルネックなら、まず「自分の番」を見える化しよう",
@@ -6751,7 +6733,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "最近のXしょーもない動画ばっか流れてきてしょーもない",
@@ -6767,7 +6749,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "",
@@ -6966,7 +6948,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 3.5
     }
   ]
 }
