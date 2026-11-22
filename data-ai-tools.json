@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T07:10:33+09:00",
-  "generated_at_label": "2026/11/22 07:10 JST",
+  "generated_at": "2026-11-22T12:03:58+09:00",
+  "generated_at_label": "2026/11/22 12:03 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -32,6 +32,25 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenRouter は本日正式に @ Stripe の一部となりました。\n1,000 万を超える開発者や企業が OpenRouter を使用しており、より多くのワークロードにわたってより多くのモデルを使用して構築するため、コストとデータの送信先を制御する必要があります。\nOpenRouter は、新しいモデルへのアクセス、停止時の稼働時間、各チームの強制的な支出とデータ ポリシーを備え、あらゆるモデルとプロバイダーにわたって AI を実行できるように、オペレーティング インフラストラクチャを構築しました。\n世界中の企業の重要なインフラストラクチャを何年にもわたって運営してきた Stripe に参加することで、より迅速にインフラストラクチャを構築し、あらゆる規模の企業をサポートできるようになります。\n中立性に対する当社の取り組みは変わりません。モデルとプロバイダーは、品質、信頼性、価格で競争します。自分のビジネスに何が役立つかを決めるのはあなたです。\nストライプ (@ストライプ)\nOpenRouter は Stripe の一部になりました。\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage.\n— https://x.com/ストライプ/status/2120240651778355306"
+        },
+        {
+          "title": "Security researchers recently found data-handling problems with some inference providers available on OpenRouter. The findings showed no breach of OpenRouter itself.\nIn response, we’ve off-boarded 3 providers, removed many endpoints from ZDR eligibility, and notified affected customers.\nWe’re now building the researchers’ testing into ongoing checks. Full update and provider write-ups on our blog:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124314252160688128/xVjVkCDV?format=png&name=800x419"
+          ],
+          "link": "https://x.com/OpenRouter/status/2124315081899200715",
+          "domain": "x.com",
+          "published": "2026-11-22T10:32:38+09:00",
+          "published_label": "2026/11/22(日) 10:32",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "セキュリティ研究者は最近、OpenRouter で利用できる一部の推論プロバイダーでデータ処理の問題を発見しました。調査結果では、OpenRouter 自体の侵害は認められませんでした。\nこれに応じて、私たちは 3 つのプロバイダーをオフボードし、多くのエンドポイントを ZDR 資格から削除し、影響を受ける顧客に通知しました。\n私たちは現在、研究者によるテストを継続的なチェックに組み込んでいます。完全なアップデートとプロバイダーの記事はブログにあります。"
         },
         {
           "title": "The numbers behind it, from HeyGen: ~93 ms median latency on Turbo, and the clearest leads on audio tasks like speech emotion (84.5 vs 32.4) and music genre (88.1 vs 65.6).",
@@ -75,9 +94,7 @@
         {
           "title": "Try it now!",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123485105989865473/V2ZT9LU2?format=jpg&name=800x419"
-          ],
+          "images": [],
           "link": "https://x.com/OpenRouter/status/2123494170908340379",
           "domain": "x.com",
           "published": "2026-11-20T04:10:37+09:00",
@@ -271,28 +288,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "@MicrosoftAIはIgniteで3つの新モデルを発表し、そのすべてがOpenRouterで公開されています。\n• MAI-Image-2.7：背景が透明な2K画像\n• MAI-Image-2.7 Flash：大量処理に適した、より高速で軽量なバージョン\n• Microsoft-Decision-1.1：1回の呼び出しで、各回答オプションの確率を調整"
-        },
-        {
-          "title": "Excited to bring some AI magic to @lennysan's Insiders ✨\nLenny Rachitsky (@lennysan)\nBreaking: 35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥\nI'm excited to welcome five incredible new partners to the Lenny's Newsletter Product Pass:\n1. @OpenRouter ($650 value, Insider only): One API and one bill for hundreds of AI models.\n2. @PloyAI ($600 value): AI agents that run growth marketing for your website.\n3. @Sentry ($360 value): Know the moment something you shipped breaks, and fix it fast.\n4. @TextExpander ($300 value): Your best prompts, replies, and phrases, always just a few keystrokes away.\n5. LangSmith by @LangChain ($468 value): See what your AI agents are actually doing, and make them better.\nThis brings the  bundle to 35 products, worth $41,428 (!!) for Insider subscribers ($400/year), and 22 products worth $37,062 for Annual subscribers (just $200/year).\nThis bundle includes a full free year of @WisprFlow, @NotionHQ, @Lovable, @Linear, @Higgsfield, @Replit, @ElevenLabs, @RunwayML, @Railway, @Resend, @Granola, the @X Subscription (with Grok Bot, Cursor, and X), and so much more—all included in your Lenny's Newsletter subscription. I'm pretty sure this is the greatest deal in the history of software.\nIf you are already an Annual or Insider subscriber, grab your codes here:\nIf you're currently on a free or monthly plan, upgrade to immediately unlock the Product Pass:\nCodes are limited and first-come, first-served. The most popular products can sell out, so grab yours now.\nLearn more here:\n— https://x.com/lennysan/status/2122767098216890697",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXWRy9sacAAoBYL.jpg?name=small"
-          ],
-          "link": "https://x.com/OpenRouter/status/2122777995299725728",
-          "domain": "x.com",
-          "published": "2026-11-18T04:44:48+09:00",
-          "published_label": "2026/11/18(水) 04:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Excited to bring some AI magic to @lennysan's Insiders ✨\nレニー・ラチツキー (@lennysan)\nBreaking: 35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥\nI'm excited to welcome five incredible new partners to the Lenny's Newsletter Product Pass:\n1. @OpenRouter ($650 value, Insider only): One API and one bill for hundreds of AI models.\n2. @PloyAI ($600 value): AI agents that run growth marketing for your website.\n3. @Sentry (360 ドル相当): 出荷したものが壊れた瞬間を知り、迅速に修正します。\n4. @TextExpander ($300 value): Your best prompts, replies, and phrases, always just a few keystrokes away.\n5. LangSmith by @LangChain ($468 value): See what your AI agents are actually doing, and make them better.\nこれによりバンドルは、Insider 購読者 (年間 400 ドル) の場合は 41,428 ドル相当 (!!) の 35 製品となり、年間購読者 (年間わずか 200 ドル) の場合は 37,062 ドル相当の 22 製品になります。\nこのバンドルには、@WisprFlow、@NotionHQ、@Lovable、@Linear、@Higgsfield、@Replit、@EvenLabs、@RunwayML、@Railway、@Resend、@Granola、@X サブスクリプション (Grok Bot、Cursor、X 付き) などが 1 年間完全に無料で含まれており、すべて Lenny's Newsletter サブスクリプションに含まれています。これはソフトウェアの歴史の中で最大の取引であると確信しています。\nIf you are already an Annual or Insider subscriber, grab your codes here:\nIf you're currently on a free or monthly plan, upgrade to immediately unlock the Product Pass:\nコードには限りがあり、先着順となります。最も"
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 2.5
     },
     {
       "id": "x_opencode",
@@ -305,21 +303,39 @@
       "count": 15,
       "items": [
         {
-          "title": "F*CK IT\n$10 for $500 GLM 5.3 till end of the week\nOpenCode (@opencode)\nwe're bored we're just gonna do phase 2 now\n$200 of GLM 5.3 usage for $10\nhave fun\n— https://x.com/opencode/status/2122763721923559595",
+          "title": "GLM 5.3 and DeepSeek V4.1 Flash are now 60% off in OpenCode",
           "summary": "",
           "images": [],
-          "link": "https://x.com/opencode/status/2122969474571583885",
+          "link": "https://x.com/opencode/status/2124265178267005017",
           "domain": "x.com",
-          "published": "2026-11-18T17:25:40+09:00",
-          "published_label": "2026/11/18(水) 17:25",
+          "published": "2026-11-22T07:14:20+09:00",
+          "published_label": "2026/11/22(日) 07:14",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "くたばれ\n週末まで $10 で $500 GLM 5.3\nオープンコード (@opencode)\n退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\n— https://x.com/opencode/status/2122763721923559595"
+          "is_new": true,
+          "title_ja": "GLM 5.3 と DeepSeek V4.1 Flash が OpenCode で 60% オフになりました"
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2119541981278093312/v6iU4oU9?format=png&name=800x419"
+          ],
+          "link": "https://x.com/opencode/status/2124268940226392524",
+          "domain": "x.com",
+          "published": "2026-11-22T07:29:17+09:00",
+          "published_label": "2026/11/22(日) 07:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "OpenCode Console now supports keyless auth\ncalling models from CI or anywhere that supports OIDC no longer requires long lived API tokens",
@@ -412,6 +428,23 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Hy4 Flash が予想外のヒット商品に\n今後 10 日間は OpenCode のみで無料でご利用いただけます\nオープンコード (@opencode)\nHy4 フラッシュは、今後 2 週間はほぼ無制限に無料で使用できます\n1M コンテキスト · マルチモーダル · ZDR\nHyの最速かつ最もコスト効率の高いモデル\n— https://x.com/opencode/status/2122231173720224224"
+        },
+        {
+          "title": "F*CK IT\n$10 for $500 GLM 5.3 till end of the week\nOpenCode (@opencode)\nwe're bored we're just gonna do phase 2 now\n$200 of GLM 5.3 usage for $10\nhave fun\n— https://x.com/opencode/status/2122763721923559595",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/opencode/status/2122969474571583885",
+          "domain": "x.com",
+          "published": "2026-11-18T17:25:40+09:00",
+          "published_label": "2026/11/18(水) 17:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": false,
+          "title_ja": "くたばれ\n週末まで $10 で $500 GLM 5.3\nオープンコード (@opencode)\n退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\n— https://x.com/opencode/status/2122763721923559595"
         },
         {
           "title": "ai won't replace you\nsomebody using ai won't replace you\nrobert pattinson will replace you",
@@ -535,43 +568,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
-        },
-        {
-          "title": "Hy4 flash is available on OpenCode Go too\nFor the next 14 days, usage is near unlimited and completely free\nIt won't count against your Go usage\nOpenCode (@opencode)\nHy4 flash is free with near-unlimited usage for the next 2 weeks\n1M context · Multimodal · ZDR\nHy's fastest and most cost-efficient model\n— https://x.com/opencode/status/2122231173720224224",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/opencode/status/2122258314809741673",
-          "domain": "x.com",
-          "published": "2026-11-16T18:19:46+09:00",
-          "published_label": "2026/11/16(月) 18:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Hy4 フラッシュは OpenCode Go でも利用可能です\n今後 14 日間、使用量はほぼ無制限で完全に無料です\nGo の使用量にはカウントされません\nオープンコード (@opencode)\nHy4 フラッシュは、今後 2 週間はほぼ無制限に無料で使用できます\n1M コンテキスト · マルチモーダル · ZDR\nHyの最速かつ最もコスト効率の高いモデル\n— https://x.com/opencode/status/2122231173720224224"
-        },
-        {
-          "title": "Hy4 flash is free with near-unlimited usage for the next 2 weeks\n1M context · Multimodal · ZDR\nHy's fastest and most cost-efficient model",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/opencode/status/2122231173720224224",
-          "domain": "x.com",
-          "published": "2026-11-16T16:31:55+09:00",
-          "published_label": "2026/11/16(月) 16:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Hy4 フラッシュは、今後 2 週間はほぼ無制限に無料で使用できます\n1M コンテキスト · マルチモーダル · ZDR\nHyの最速かつ最もコスト効率の高いモデル"
         }
       ],
-      "elapsed": 4.0
+      "elapsed": 4.4
     },
     {
       "id": "x_aimirai46487",
@@ -857,7 +856,7 @@
           "title_ja": "■引用元\nチャットGPT (@ChatGPT)\nPlus ユーザーの皆様、Space へようこそ 🪐\nChatGPT を使用して他のユーザーと共同作業して、インタラクティブなページ、スライド、サイトを作成します。さらに、ChatGPT では最新の状態を維持できます。\nモバイルでも編集できるようになり、Space がよりスムーズかつ信頼性の高いものになりました。\n始めるためのクイックガイド ⤵️\nビデオ\nビデオ\nビデオ\nビデオ\n— https://x.com/ChatGPT/status/2123850912867471807"
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 2.8
     },
     {
       "id": "x_kimmonismus",
@@ -889,6 +888,47 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "“They're going to train AI systems that will train smarter AI systems. They will compress decades of research into months.”\nJacob coxon sees this a problem. I don’t.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2124062196061859840/img/ojcz9OwLl_JjBIii.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124285825911226635",
+          "domain": "x.com",
+          "published": "2026-11-22T08:36:22+09:00",
+          "published_label": "2026/11/22(日) 08:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "「彼らは、よりスマートな AI システムをトレーニングする AI システムをトレーニングする予定です。数十年にわたる研究が数か月に圧縮されるでしょう。」\nジェイコブ・コクソン氏はこれが問題だと考えている。私はしません。"
+        },
+        {
+          "title": "I never met Jensen but every single NVIDIA employee I’ve met, has told me a story of how he supported them personally, IE: helping them if they had long-term or serious illness, or remembering certain challenges facing their respective families.\nThese were told unprompted. Guess there is a reason why he has a 99% approval rating by NVIDIA employees on Glassdoor.\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXqoejqXQAI5gSw.jpg?name=small",
+            "https://pbs.twimg.com/media/HXqoejqWgAA2oFh.jpg?name=small",
+            "https://pbs.twimg.com/media/HXqoekGWEAAuPsC.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2124195417210413056/img/vWS45pcMy-4tQIFp.jpg?name=small"
+          ],
+          "link": "https://x.com/NinaDSchick/status/2124273670025846817",
+          "domain": "x.com",
+          "published": "2026-11-22T07:48:04+09:00",
+          "published_label": "2026/11/22(日) 07:48",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "私はジェンセン氏に会ったことはありませんが、これまでに会った NVIDIA 従業員は皆、ジェンセン氏がどのように個人的に彼らをサポートしたか、つまり、長期にわたる病気や深刻な病気を抱えた場合に彼らを助けたり、それぞれの家族が直面している特定の課題を思い出したりしたという話をしてくれました。\nこれらは何も言わずに告げられました。 Glassdoor で彼が NVIDIA 従業員から 99% の支持率を得ているのには理由があると思われます。\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも一つだけはっきりと言えるのは、"
+        },
+        {
           "title": "It’s wonderful to see how many people stand with Jensen.\nAnd thank you all for the nice comments!\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
           "summary": "",
           "images": [
@@ -907,7 +947,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェンセンを支持する人がどれだけいるかを見るのは素晴らしいことです。\nそして素敵なコメントをくださった皆様、ありがとうございました！\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも私は、はっきりと一つだけ言えることがある。それは、彼の発言が攻撃、軽蔑、屈辱の意味であったと感じたことは一度もなかったということである。それは常に状況コメディでした。ジェンセンが NVIDIA の CEO になっていなかったら、彼はいつでも冗談を言う優れたスタンドアップ コメディアンになっていたでしょう。しかし、wとして"
         },
         {
@@ -924,7 +964,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "(2/2) アメリカから帰国する飛行機の中で考える時間がたくさんあり、気が付けばここ数ヶ月を振り返っていました。だから私は自分の自由意志でこれをやっています。単純に、ジェンセンに関して現在描かれている悪いイメージが気になるからです。ジェンセンについては多くのことが語られていますが、実際に彼に会った人々についてはほとんど語られていません。だからこそ、私は今の状況に対する対案を提供するために、素晴らしく良いものばかりだった私の経験を共有したいと思います。\n結局のところ、ジェンセンが戻ってくることを本当に願っています。私は NVIDIA で働いていませんし、彼とは他に何のつながりもありません。しかし、私は彼がこの時代に重要な人物であり、多くのウィット、ユーモア、そして人間性をもたらしてくれた人物であることを懐かしく思います。\nご清聴ありがとうございました。そして @JensenHuang の尽力に感謝します。"
         },
         {
@@ -944,7 +984,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "公式には、リーマン予想の証明は正しいです。アルポージュは歴史を作りました。\n「我々は、アルポージ氏のリーマン予想の証明が正しいと完全に自信を持っており、この業績を祝福します。」\nリーン (@leanprover)\nリーンFROとMathlib Initiativeは、リーマン予想のリーン検証に関する共同声明を発表した。\n11 月 20 日、Levent Alpöge は、1,700 万行のコードのリーン ライブラリとしてリーマン仮説の証明をリリースしました。この 1 日間、Lean コミュニティと Mathlib コミュニティが協力して検証しました。この声明は証明が正しいことを証明し、それが必要なすべての検証基準をどのように満たしているかを説明します。\nこの達成について Levent にお祝いを申し上げます。また、検証に貢献したコミュニティの皆様に感謝します。\n声明全文:\n— https://x.com/leanprover/status/2124159121645801562"
         },
         {
@@ -1049,7 +1089,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "@JensenHuang が私が NVIDIA に入社した理由です。彼のフィジカル AI に対するビジョンが、私たちが Cosmos を構築した理由です。彼はいつでも私のサポートをしてくれます。\n@JensenHuang は Physical AI という用語を作り、物理世界を理解し、私たちと一緒に動作するマシンのビジョンを私たちに与えてくれました。彼はロボットが工場の現場で退屈な作業を引き受け、農家が収穫物を運ぶのを手伝う姿を想像した。彼は AI が私たち一人ひとりに役立つように全力を尽くしてきました。\n@JensenHuang のビジョンは私を形成し、私たちのチームを形成し、そして今でも私たちが構築するものを形成しています。私たちが取り組む問題の規模や、チームメイトがそれらを解決するためにもたらす創造力には、彼の影響力が見られます。彼の信念のおかげで、私たちは長い昼夜を乗り越え、かつては不可能だと思っていたことに取り組むことができます。彼なしではコスモスは存在しなかったでしょう。\nジェンセン・ファン (@JensenHuang)\nこの一週間、私は友人、業界の同僚、そして会ったこともない人々の愛とサポートに圧倒されてきました。私の家族と私に親切にしてくださった皆さんに感謝します。それは私にとって世界を意味します。\n私は 53 年前にアメリカに来ましたが、アメリカ国民になったことは、私の人生の中で最大の贈り物であり、最も誇りに思う瞬間の 1 つです。 NVIDIA は私の生涯の仕事です。同僚とともにそれを今日の会社に築き上げることができたのは特権であり、光栄なことです。 NVIDIA のような企業が設立できるのはアメリカ以外にありません。私は我が国を愛していますし、NVIDIA も愛しています。\n私は NVIDIA の全員が期待する基準を満たしておらず、重大な間違いを犯しました。"
         },
         {
@@ -1106,47 +1146,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "デミスからの再投稿❤️"
-        },
-        {
-          "title": "Yes, Gemini 4 Neon is *that* good. I subscribed to Ultra tier.\nWell done @Google",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXmu6U2bMAAsD-7.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123921122219708568",
-          "domain": "x.com",
-          "published": "2026-11-21T08:27:10+09:00",
-          "published_label": "2026/11/21(土) 08:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "はい、Gemini 4 Neon は *とても* 良いです。ウルトラティアに加入しました。\nよくやった@Google"
-        },
-        {
-          "title": "Trump and Xi agreed that they are now officially adding guardrails to AI/SI (whatever its called).\nNo further explanation what that actually means.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123839945127124992/img/Obfre3YpR4fdwGAG.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2123913025023529118",
-          "domain": "x.com",
-          "published": "2026-11-21T07:55:00+09:00",
-          "published_label": "2026/11/21(土) 07:55",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "トランプ氏と習氏は、AI/SI（その名称が何であれ）に正式にガードレールを追加することに同意した。\nそれが実際に何を意味するかについては、これ以上の説明はありません。"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 4.4
     },
     {
       "id": "x_haider1",
@@ -1178,6 +1180,42 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "AI is advancing so fast now that it's getting harder to predict what's coming next\nthere definitely seems to have been some shift or breakthrough particularly at anthropic and openai about 2–3 months ago and everything has been moving much faster since then\ncoding, mathematics, robotics...",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXqEKFQaIAADE_i.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2124324486300528935",
+          "domain": "x.com",
+          "published": "2026-11-22T11:10:00+09:00",
+          "published_label": "2026/11/22(日) 11:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AIは現在非常に急速に進歩しており、次に何が起こるかを予測することがますます困難になっています\n約 2 ～ 3 か月前に、特に anthropic と openai で何らかの変化または画期的な変化があったことは間違いなく、それ以来すべてがはるかに速く進んでいます。\nコーディング、数学、ロボット工学..."
+        },
+        {
+          "title": "Demis Hassabis in april:\nIt would take AI 2 years to solve the riemann hypothesis or another millennium prize problem.\nTerence Tao in october:\ncurrent AI isn't enough to solve the riemann hypothesis, so maybe humans and AI together could make progress by 2050.\nnow we have solutions to two problems and breakthroughs across all the remaining ones",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124279188026691816",
+          "domain": "x.com",
+          "published": "2026-11-22T08:10:00+09:00",
+          "published_label": "2026/11/22(日) 08:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "4月のデミス・ハサビス：\nAI がリーマン予想や別のミレニアム懸賞問題を解くには 2 年かかります。\n10月のテレンス・タオ：\n現在の AI はリーマン仮説を解決するには十分ではないため、おそらく人間と AI が協力して 2050 年までに進歩する可能性があります。\nこれで 2 つの問題に対する解決策が得られ、残りの問題すべてに対するブレークスルーが得られました。"
+        },
+        {
           "title": "keep an eye on google\nthe fact that they launched so many newer models so close together one after another, means they are accelerating and unlike other players like openai and anthropic they already have a sustainable business to support them\nmaybe they're already doing some form of RSI internally",
           "summary": "",
           "images": [],
@@ -1191,7 +1229,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "グーグルに注目してください\n彼らが非常に多くの新しいモデルを非常に近い距離で次々と発表したという事実は、彼らが加速していることを意味し、openaiやanthropicのような他のプレーヤーとは異なり、彼らをサポートする持続可能なビジネスをすでに持っていることを意味します\nもしかしたら、彼らは既に内部で何らかの形のRSIを行っているかもしれない"
         },
         {
@@ -1210,7 +1248,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Yann LeCun says when you train an LLM on human-produced knowledge, you're training it to accumulate what's already known\nThat's not intelligence; that's memory\nIt's rote learning, not reasoning, invention, creativity or adaptivity. It's not the intelligence we see in animals",
@@ -1228,7 +1266,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Yann LeCun 氏は、人間が生み出した知識に基づいて LLM をトレーニングすると、すでに知られているものを蓄積するようにトレーニングすることになると言います。\nそれは知性ではありません。それは記憶です\nそれは暗記学習であり、推論、発明、創造性、適応力ではありません。それは動物に見られる知性ではありません"
         },
         {
@@ -1396,45 +1434,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
-        },
-        {
-          "title": "i still don't understand the hate around 6.2 astra and sol in practice\neven if you accept the criticism, the cost advantage of 6.2 astra and sol is so large that both remain on the Pareto frontier even with their capabilities discounted\nthey've pushed AA's intelligence/cost graph into new territory",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXkhKWebEAEiWc3.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123768321757892698",
-          "domain": "x.com",
-          "published": "2026-11-20T22:20:00+09:00",
-          "published_label": "2026/11/20(金) 22:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "実際のところ、6.2のアストラとソルの憎しみがまだ理解できません\n批判を受け入れるとしても、6.2 astra と sol のコスト上の利点は非常に大きいため、機能を割り引いてもどちらもパレートの境界線に留まります。\n彼らはAAのインテリジェンスとコストのグラフを新たな領域に押し上げた"
-        },
-        {
-          "title": "here's my understanding of what happened with gemini 4 generation:\nargon was the first model launched on the new architecture.\ncarbon uses a larger version of argon's base.\nhydrogen uses a newer, more efficient and higher-performing base.\nneon uses a larger version of hydrogen's base.\nthat's why neon can beat Carbon while costing less",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2123728880569926077",
-          "domain": "x.com",
-          "published": "2026-11-20T19:43:16+09:00",
-          "published_label": "2026/11/20(金) 19:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Gemini 4 世代で何が起こったのかについての私の理解は次のとおりです。\nアルゴンは、新しいアーキテクチャで発売された最初のモデルです。\nカーボンはアルゴンのベースのより大きなバージョンを使用します。\n水素は、より効率的で高性能な新しいベースを使用します。\nネオンは水素の塩基のより大きなバージョンを使用します。\nだからこそ、ネオンは低コストでカーボンに勝てるのです"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "x_testingcatalog",
@@ -1736,7 +1738,7 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         }
       ],
-      "elapsed": 3.9
+      "elapsed": 4.3
     }
   ]
 }
