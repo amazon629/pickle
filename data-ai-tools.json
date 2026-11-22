@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T20:12:20+09:00",
-  "generated_at_label": "2026/11/22 20:12 JST",
+  "generated_at": "2026-11-23T04:31:42+09:00",
+  "generated_at_label": "2026/11/23 04:31 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -292,7 +292,7 @@
           "title_ja": "@MicrosoftAIはIgniteで3つの新モデルを発表し、そのすべてがOpenRouterで公開されています。\n• MAI-Image-2.7：背景が透明な2K画像\n• MAI-Image-2.7 Flash：大量処理に適した、より高速で軽量なバージョン\n• Microsoft-Decision-1.1：1回の呼び出しで、各回答オプションの確率を調整"
         }
       ],
-      "elapsed": 5.0
+      "elapsed": 6.1
     },
     {
       "id": "x_opencode",
@@ -540,7 +540,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2124423882870325248/6OoGxwSy?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2124584652665221120/MsLSAovS?format=png&name=800x419"
           ],
           "link": "https://x.com/opencode/status/2122377719048519773",
           "domain": "x.com",
@@ -572,7 +572,7 @@
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
         }
       ],
-      "elapsed": 2.9
+      "elapsed": 5.7
     },
     {
       "id": "x_aimirai46487",
@@ -584,6 +584,98 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "LeanとMathlibの開発コミュニティーは、Claudeを使って作成された数学の難問「リーマン予想」の証明が正しいとする共同声明を発表しました。\n約1700万行のコードを複数の方法で検証し、証明が成立していることを確認したとしています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124305000834977792/tE0kZVs_?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124499115338076554",
+          "domain": "x.com",
+          "published": "2026-11-22T22:43:55+09:00",
+          "published_label": "2026/11/22(日) 22:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nFlowith (@flowith)\nintroducing Flowith 3.0. the ultimate canvas for human-ai creation.\ntwo years ago, we were the first to move ai out of the chatbox and onto an infinite canvas. today, we are pushing that boundary much further.\neveryone talks about full autonomy, but for real creation, keeping the human in the loop is everything.\nin flowith 3.0, you orchestrate every sota model in one place:\n· pro video & image: direct with a 3d stage, relighting, and pro editing powered by seedance, muse & gpt image.\n· cloud-native coding: ship real products with claude code, codex, and gemini 4 argon pulling straight from your canvas assets.\n· hybrid autonomy: plug in your local agents via api to drive the canvas autonomously.\nwe’re also launching $9.99 FLOWITH BLACK PASS, frontier intelligence is finally dirt cheap:\n- up to 600 video generations\n- up to 90% off claude opus 5.5 & gpt astra\n- up to 95% off seedance, seedream, gpt image & muse\nlive today. go build on\nRT + comment to win a Black Pass⬇️\nVideo\n— https://x.com/flowith/status/2123406249681424705",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123405658569760768/img/CSP43EgtCEgGs__H.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124498982705795087",
+          "domain": "x.com",
+          "published": "2026-11-22T22:43:23+09:00",
+          "published_label": "2026/11/22(日) 22:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nフローウィズ (@flowith)\nFlowith 3.0 の導入。人間とAIを創造するための究極のキャンバス。\n2 年前、私たちは AI をチャットボックスから無限のキャンバスに移動させた最初の企業でした。今日、私たちはその境界をさらに押し広げています。\n誰もが完全な自律性について話しますが、実際の創造では、人間が最新情報を把握し続けることがすべてです。\nflowith 3.0 では、すべての sota モデルを 1 か所で調整します。\n· プロのビデオと画像: 3D ステージ、再照明、シーダンス、ミューズ、GPT 画像を利用したプロの編集による演出。\n· クラウドネイティブ コーディング: キャンバス アセットから直接取得するクロード コード、コーデックス、および Gemini 4 アルゴンを使用して実際の製品を出荷します。\n· ハイブリッド自律性: API 経由でローカル エージェントを接続し、キャンバスを自律的に駆動します。\n9.99 ドルの FLOWITH BLACK PASS も開始します。フロンティア インテリジェンスがついに非常に安くなりました:\n- 最大 600 のビデオ世代\n- クロード オーパス 5.5 と GPT アストラが最大 90% オフ\n- シーダンス、シードドリーム、GPT イメージ、ミューズが最大 95% オフ\n今日生きてください。上に構築していきます\nRT + コメントでブラックパスを獲得⬇️\nビデオ\n— https://x.com/flowith/status/2123406249681424705"
+        },
+        {
+          "title": "AIプラットフォームの「Flowith」は、文章・画像・動画・コード生成などを実行できる様々な最先端AIモデルを1カ所で連携・コントロールできるキャンバスを搭載した最新バージョン「Flowith 3.0」を実装しました(基本有料で利用可)。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2123405658569760768/img/CSP43EgtCEgGs__H.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124498944948650044",
+          "domain": "x.com",
+          "published": "2026-11-22T22:43:14+09:00",
+          "published_label": "2026/11/22(日) 22:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■Orca",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123739679371694081/9tPd6vcI?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124498832629379404",
+          "domain": "x.com",
+          "published": "2026-11-22T22:42:47+09:00",
+          "published_label": "2026/11/22(日) 22:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "AIエージェントを並列で動かし一画面で管理するためのツール「Orca(無料)」に、役割を持った複数のBotを作れる「Orca Bots」が実装されました。\nOrca (@orca_build)\nA glimpse of what's in today's Orca release 👀\n— https://x.com/orca_build/status/2123574862254067967",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXu8Xu0agAEoRNL.jpg?name=small",
+            "https://pbs.twimg.com/media/HXhz8Hla8AA5i4p.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124498803017629754",
+          "domain": "x.com",
+          "published": "2026-11-22T22:42:40+09:00",
+          "published_label": "2026/11/22(日) 22:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■引用元\nGoogle Antigravity (@antigravity)\nBuilding with @MongoDB in Antigravity just got easier. 🚀 The official MongoDB Atlas (Managed MCP) plugin connects to MongoDB’s hosted MCP server with 7 expert skills: query in natural language, optimize slow queries, review schemas & build Vector Search.\nTry today: antigravity://customizations/marketplaces/antigravity-plugins-partners/plugins/mongodb-atlas\nVideo\n— https://x.com/antigravity/status/2123890186308239857",
           "summary": "",
@@ -765,101 +857,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "■引用元\nDaniel Destefanis (@daniel__designs)\nExcited to share that a new, refreshed mobile experience for the Claude app has started rolling out!\nWe wanted a design that better supported code, projects, and artifacts on mobile, and made it easier than ever to start and resume sessions on the go.\nWith this refresh, we also took the time to refine so many parts of the app and introduce quality-of-life features.\nThis is a continuation of all the great work the team has been doing on desktop, and we’re not finished yet!\nHuge thanks to the team @pranathiperii @khalilcader @RobertJBye Andrew, and Graham for all their work on this, check out their posts for more details!\nVideo\n— https://x.com/daniel__designs/status/2123860186951516287",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123856131634196480/img/ukYjxMTiBXafSYQh.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982744770490849",
-          "domain": "x.com",
-          "published": "2026-11-21T12:32:02+09:00",
-          "published_label": "2026/11/21(土) 12:32",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nダニエル・デステファニス (@daniel__designs)\nClaude アプリの新しくリフレッシュされたモバイル エクスペリエンスの展開が開始されたことを共有できることに興奮しています。\n私たちは、モバイルでのコード、プロジェクト、アーティファクトをより適切にサポートし、外出先でのセッションの開始と再開をこれまでより簡単にできるデザインを求めていました。\n今回の更新では、時間をかけてアプリの多くの部分を改良し、生活の質を高める機能を導入しました。\nこれはチームがデスクトップ上で行ってきた素晴らしい作業の続きであり、まだ終わっていません。\n@pranathiperii @khalilcader @RobertJBye アンドリューとグラハムのこの作業に多大な貢献をしてくれたチームに多大な感謝をしています。詳細については、彼らの投稿をチェックしてください。\nビデオ\n— https://x.com/daniel__designs/status/2123860186951516287"
-        },
-        {
-          "title": "AnthropicのAIチャット「Claude」のモバイルアプリが新しいデザインに刷新され、順次展開されます。\nスマホでもコーディングやプロジェクト管理、Artifactsの作成・編集がしやすくなるよう、デザインが改善されるようです。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123856131634196480/img/ukYjxMTiBXafSYQh.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982719550177455",
-          "domain": "x.com",
-          "published": "2026-11-21T12:31:56+09:00",
-          "published_label": "2026/11/21(土) 12:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "SpaceXAIのAIエージェント「Grok Bot」が、会計ソフト「Intuit QuickBooks」と連携できるようになりました(いまのところ米国限定)。\nGrok Bot (@bot)\nGrok Bot now connects to Intuit QuickBooks.\nAsk about your cash flow, profit, or who still owes you, and have Grok Bot draft invoices, estimates, and payment reminders for you to approve.\n— https://x.com/bot/status/2123840024747946383",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXllGGwboAAAu4I.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982627954978829",
-          "domain": "x.com",
-          "published": "2026-11-21T12:31:34+09:00",
-          "published_label": "2026/11/21(土) 12:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nGoogle Antigravity (@antigravity)\nWe updated /btw in Antigravity to do a lot more than answer one-off side questions.\nPreviously, /btw was a quick way to ask a question while your main agent was busy. Now, /btw allows you to fork, explore, and promote side threads without ever losing your place.\nVideo\n— https://x.com/antigravity/status/2123921833883840650",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123898724657070080/img/_PExqgw20IbTrnWo.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982539480273373",
-          "domain": "x.com",
-          "published": "2026-11-21T12:31:13+09:00",
-          "published_label": "2026/11/21(土) 12:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nAntigravity の /btw を更新して、1 回限りのサイド質問に答える以上のことを行いました。\n以前は、/btw は、メイン エージェントが忙しいときに簡単に質問できる方法でした。 /btw を使用すると、場所を失うことなくサイド スレッドをフォーク、探索、プロモートできるようになります。\nビデオ\n— https://x.com/antigravity/status/2123921833883840650"
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」の「/btw」機能が強化され、メインの作業を中断せずに会話を分岐させ、別のアイデアを試したり、その結果をメインの作業に反映したりできるようになりました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123898724657070080/img/_PExqgw20IbTrnWo.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2123982429551780078",
-          "domain": "x.com",
-          "published": "2026-11-21T12:30:47+09:00",
-          "published_label": "2026/11/21(土) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 3.0
+      "elapsed": 3.6
     },
     {
       "id": "x_kimmonismus",
@@ -891,6 +891,141 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "Seriously, this is such an interesting read\n“Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics. I want to reemphasize that it was not at all clear a priori that these capabilities would appear once those precise perplexity thresholds are met—they can fundamentally be seen as emergent latent capabilities from progress on this one metric”",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124577059238281412",
+          "domain": "x.com",
+          "published": "2026-11-23T03:53:38+09:00",
+          "published_label": "2026/11/23(月) 03:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "真剣に、これはとても興味深い読み物です\n「現在、損失が0.8未満に達しており、サイバーセキュリティや数学などの分野で革新的な能力が出現しているのが見られます。これらの能力が、正確な混乱のしきい値が満たされた後に出現することがアプリオリにまったく明確ではなかったということを、もう一度強調したいと思います。これらの能力は、基本的に、この1つの指標の進歩から出現した潜在的な能力と見なすことができます。」"
+        },
+        {
+          "title": "1) The model that solved the Millennium Prize problem was most likely GPT-6.2 Astra. The chart puts the Millennium Prize line right at its level\n2) OpenAI's internal model is already another ~0.03 lower in perplexity. That's roughly the jump from GPT-5 to GPT-5.4, and Pachocki says smaller perplexity gains mean bigger leaps in intelligence the closer you get to the floor\n3) The Millennium Prize result came from an internal model in early September. Less than 3 months later, there's already a new internal model further down the curve\n4) Looks like pretraining progress is still accelerating. OpenAI itself describes a steep acceleration in 2026\nChubby♨️ (@kimmonismus)\nOpenAI’s pretraining loss curves show a steep acceleration in 2026, driven by compute, long-term research, and AI speeding up its own development.\nAn unreleased internal model already sits below GPT-6.2 Astra. OpenAI says AI itself already helped design the newest models.\nChief Scientist Jakub Pachocki expects the next new capabilities around 0.68-0.7 and says pretraining research could see the same avalanche they just saw in math as soon as 2027.\n— https://x.com/kimmonismus/status/2124554965029151198",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXwC8qEXEAEQ92O.jpg?name=small",
+            "https://pbs.twimg.com/media/HXvuIuyWYAAFW_n.jpg?name=small",
+            "https://pbs.twimg.com/media/HXvuc8cWgAAcpWd.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124576370760028587",
+          "domain": "x.com",
+          "published": "2026-11-23T03:50:54+09:00",
+          "published_label": "2026/11/23(月) 03:50",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "1) ミレニアム賞の問題を解決したモデルはおそらく GPT-6.2 Astra でした。チャートはミレニアム賞ラインをそのレベルに合わせています\n2) OpenAI の内部モデルは、すでに複雑さがさらに約 0.03 低くなります。これはおおよそ GPT-5 から GPT-5.4 へのジャンプに相当し、パチョッキ氏は、フロアに近づくほど困惑度の向上が小さくなり、知性がより大きく飛躍することを意味すると述べています。\n3) ミレニアム賞の結果は、9 月初旬に内部モデルから発表されました。それから 3 か月も経たないうちに、さらに先の新しい内部モデルがすでに登場しています。\n4) 事前トレーニングの進捗はまだ加速しているようです。 OpenAI 自体が 2026 年の急激な加速について説明している\nぽっちゃり♨️ (@kimmonismus)\nOpenAI の事前トレーニング損失曲線は、コンピューティング、長期研究、および AI 自体の開発の加速により、2026 年に急激な加速を示しています。\n未リリースの内部モデルはすでに GPT-6.2 Astra の下にあります。 OpenAIは、AI自体がすでに最新モデルの設計に役立っていると述べている。\n主任科学者の Jakub Pachocki 氏は、次の新機能は 0.68 ～ 0.7 あたりになると予想しており、早ければ 2027 年にも数学で見たのと同じ雪崩が事前トレーニング研究で見られる可能性があると述べています。\n— https://x.com/kimmonismus/status/2124554965029151198"
+        },
+        {
+          "title": "So yeah, no end in sight, still accelerating, and lets hope for the next model",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124555098735128734",
+          "domain": "x.com",
+          "published": "2026-11-23T02:26:22+09:00",
+          "published_label": "2026/11/23(月) 02:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "そう、終わりは見えず、まだまだ加速中、次のモデルに期待しましょう"
+        },
+        {
+          "title": "OpenAI’s pretraining loss curves show a steep acceleration in 2026, driven by compute, long-term research, and AI speeding up its own development.\nAn unreleased internal model already sits below GPT-6.2 Astra. OpenAI says AI itself already helped design the newest models.\nChief Scientist Jakub Pachocki expects the next new capabilities around 0.68-0.7 and says pretraining research could see the same avalanche they just saw in math as soon as 2027.\nJakub Pachocki (@merettm)\nWe decided to provide more transparency into pretraining progress at OpenAI for the sake of moving toward shared safety bars. In “Perplexity and Intelligence” I argue for common limits based on perplexity and other measurements, with progress beyond them gated on our ability to understand AI behavior.\n— https://x.com/merettm/status/2124549218995949967",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXvuIuyWYAAFW_n.jpg?name=small",
+            "https://pbs.twimg.com/media/HXvuc8cWgAAcpWd.jpg?name=small",
+            "https://pbs.twimg.com/media/HXvptOTXIAAtrY0.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124554965029151198",
+          "domain": "x.com",
+          "published": "2026-11-23T02:25:50+09:00",
+          "published_label": "2026/11/23(月) 02:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OpenAI の事前トレーニング損失曲線は、コンピューティング、長期研究、および AI 自体の開発の加速により、2026 年に急激な加速を示しています。\n未リリースの内部モデルはすでに GPT-6.2 Astra の下にあります。 OpenAIは、AI自体がすでに最新モデルの設計に役立っていると述べている。\n主任科学者の Jakub Pachocki 氏は、次の新機能は 0.68 ～ 0.7 あたりになると予想しており、早ければ 2027 年にも数学で見たのと同じ雪崩が事前トレーニング研究で見られる可能性があると述べています。\nヤクブ・パチョッキ (@merettm)\n私たちは、安全バーの共有化に向けて、OpenAI での事前トレーニングの進捗状況の透明性を高めることにしました。 「Perplexity and Intelligence」では、Perplexity やその他の測定値に基づいた共通の限界について主張し、それを超える進歩は AI の動作を理解する能力に左右されます。\n— https://x.com/merettm/status/2124549218995949967"
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123232913668104193/R9n_tVRZ?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124525578904879111",
+          "domain": "x.com",
+          "published": "2026-11-23T00:29:04+09:00",
+          "published_label": "2026/11/23(月) 00:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Really looks like china is falling behind:\nIt’s been about a month since these four major Chinese AI models launched.\n- Ant Group Ling 3.1 Flash 1019: 26 days ago (Oct 27)\n- Moonshot Kimi K3.1 Pro: 30 days ago (Oct 23)\n- MiniMax M3.1 Flash: 34 days ago (Oct 19)\n- DeepSeek V4.1 Flash 1017: 36 days ago (Oct 17)\nAnd so far none of those come close to US frontier models. Even though US models like GPT-6 Astra are still being distilled, as The Information wrote.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXvUU-yXEAApNGX.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124525212641206601",
+          "domain": "x.com",
+          "published": "2026-11-23T00:27:37+09:00",
+          "published_label": "2026/11/23(月) 00:27",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "本当に中国は遅れを取っているようだ。\nこれら4つの主要な中国AIモデルが発売されてから約1か月が経ちました。\n- Ant Group Ling 3.1 Flash 1019: 26 日前 (10 月 27 日)\n- ムーンショット キミ K3.1 プロ: 30 日前 (10 月 23 日)\n- MiniMax M3.1 フラッシュ: 34 日前 (10 月 19 日)\n- DeepSeek V4.1 Flash 1017: 36 日前 (10 月 17 日)\nそして今のところ、それらのどれも米国のフロンティアモデルには及ばない。 The Informationが書いているように、GPT-6 Astraのような米国モデルはまだ蒸留されているにもかかわらず。"
+        },
+        {
+          "title": "The intensity with which the campaign against Jensen Huang continues unabated is almost absurd.\nI couldn't find a single article that says anything even remotely good about Jensen.\nA tragedy. All articles below are from *today*\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXup4hjWEAA5nnW.jpg?name=small",
+            "https://pbs.twimg.com/media/HXuqG9cW8AAxrG_.jpg?name=small",
+            "https://pbs.twimg.com/media/HXuqf_VWEAAS_43.jpg?name=small",
+            "https://pbs.twimg.com/media/HXqoejqXQAI5gSw.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124479295271702835",
+          "domain": "x.com",
+          "published": "2026-11-22T21:25:09+09:00",
+          "published_label": "2026/11/22(日) 21:25",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ジェンセン・ファンに対するキャンペーンが衰えることなく続いている激しさは、ほとんどばかげている。\nジェンセンについて少しでも良いことを述べている記事は 1 つも見つかりませんでした。\n悲劇だ。以下の記事はすべて*今日*のものです\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ公開されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも私は、はっきりと一つだけ言えることがある。それは、彼の発言が攻撃、軽蔑、屈辱の意味であったと感じたことは一度もなかったということである。それは常に状況に応じたものでした"
+        },
+        {
           "title": "We're seeing major breakthroughs right now, like the proof of the quasi-Riemann hypothesis. What worries me is that the mood is turning, and that we might stop seeing breakthroughs like this.\nSentiment against AI keeps growing, especially against the data center buildout, and since the midterms data centers have become a political issue.\nI'm not taking sides here. But everyone should be clear about what calling for a slowdown in the buildout actually means:\n- Breakthroughs come slower\n- Research into diseases and new therapies takes longer\n- Competitors like China pull ahead\nYes, the concerns deserve to be taken seriously. But in a lot of recurring debates, the fear of superintelligence has lost touch with the facts and turned into plain resentment.\nWe need more debate on the merits, less fear, and above all an honest look at what we give up when we slow the buildout down.",
           "summary": "",
           "images": [],
@@ -904,7 +1039,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私たちは現在、準リーマン予想の証明など、大きな進歩を目の当たりにしています。私が心配しているのは、雰囲気が変わりつつあり、このような躍進が見られなくなるのではないかということです。\nAI に対する感情、特にデータセンターの増強に対する感情は高まり続けており、中間選挙以降、データセンターは政治問題となっています。\n私はここでどちらかの側を取るつもりはありません。しかし、建設の減速を求めることが実際に何を意味するのかを誰もが明確にする必要があります。\n- ブレイクスルーは遅くなる\n- 病気や新しい治療法の研究には時間がかかる\n- 中国などの競争相手が先を行く\nはい、その懸念は真剣に受け止められるべきです。しかし、度重なる多くの議論の中で、超知性に対する恐怖は事実との乖離を失い、単純な憤りに変わってしまった。\n私たちはメリットについてもっと議論し、恐怖を減らし、そして何よりも、建設を遅らせるときに何を放棄するのかについて正直に考える必要があります。"
         },
         {
@@ -921,7 +1056,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "OpenAI からは、単に漠然とした「まあ、大丈夫です」というだけではなく、もっと正式なアップデートを期待しています。\nGPT-6.2 Sol と Astra のパフォーマンスが非常に悪い理由は何ですか?これをどのように修正する予定ですか?タイムラインとロードマップはどのようなものですか?現在、Google との競合をどのように見ていますか?また、どのような措置を講じるつもりですか?\nこれは関係者全員にとって役立つと思います。コミュニティとのコミュニケーションは以前は今よりも良好でした。"
         },
         {
@@ -1023,131 +1158,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "公式には、リーマン予想の証明は正しいです。アルポージュは歴史を作りました。\n「我々は、アルポージ氏のリーマン予想の証明が正しいと完全に自信を持っており、この業績を祝福します。」\nリーン (@leanprover)\nリーンFROとMathlib Initiativeは、リーマン予想のリーン検証に関する共同声明を発表した。\n11 月 20 日、Levent Alpöge は、1,700 万行のコードのリーン ライブラリとしてリーマン仮説の証明をリリースしました。この 1 日間、Lean コミュニティと Mathlib コミュニティが協力して検証しました。この声明は証明が正しいことを証明し、それが必要なすべての検証基準をどのように満たしているかを説明します。\nこの達成について Levent にお祝いを申し上げます。また、検証に貢献したコミュニティの皆様に感謝します。\n声明全文:\n— https://x.com/leanprover/status/2124159121645801562"
-        },
-        {
-          "title": "You can now use your Claude subscription inside JetBrains IDEs.\nAir, the new agent workspace in JetBrains IDEs, runs Claude Code in its terminal view on your existing Claude Pro or Max plan. No JetBrains AI subscription needed, and your code goes straight to Anthropic.\nIn the video, Kristel shows how to set it up.\nFor anyone already paying for Claude, that makes Air an easy thing to try. It also works with other agent subscriptions, your own API keys or a custom base URL, so you can keep the setup you already have.\n#ad\nJetBrains (@jetbrains)\nYour Claude subscription works in Air’s terminal, inside your JetBrains IDE.\nWant to use Claude Agent in the chat? That requires a JetBrains AI subscription or an Anthropic API key.\nSee how easy it is to set up, and try Air in your JetBrains IDE today!\nVideo\n— https://x.com/jetbrains/status/2123012657628225570",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122598114594877440/SNEZ3AlN?format=jpg&name=800x419",
-            "https://pbs.twimg.com/media/HXZ0wpwXwAAfcRa.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124170986748805386",
-          "domain": "x.com",
-          "published": "2026-11-22T01:00:03+09:00",
-          "published_label": "2026/11/22(日) 01:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "JetBrains IDE 内で Claude サブスクリプションを使用できるようになりました。\nJetBrains IDE の新しいエージェント ワークスペースである Air は、既存の Claude Pro または Max プランのターミナル ビューで Claude Code を実行します。 JetBrains AI サブスクリプションは必要なく、コードは直接 Anthropic に送信されます。\nIn the video, Kristel shows how to set it up.\nすでにクロードにお金を払っている人にとって、Air は試しやすいものになります。また、他のエージェント サブスクリプション、独自の API キー、カスタム ベース URL とも連携できるため、既存の設定を維持できます。\n#広告\nジェットブレインズ (@jetbrains)\nClaude サブスクリプションは、JetBrains IDE 内の Air のターミナルで動作します。\nWant to use Claude Agent in the chat?それには、JetBrains AI サブスクリプションまたは Anthropic API キーが必要です。\nセットアップがいかに簡単かを確認し、今すぐ JetBrains IDE で Air を試してください。\nビデオ\n— https://x.com/jetbrains/status/2123012657628225570"
-        },
-        {
-          "title": "My bad, confused the grok models. 4.7 was the bad one",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124166202939322464",
-          "domain": "x.com",
-          "published": "2026-11-22T00:41:02+09:00",
-          "published_label": "2026/11/22(日) 00:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "My bad, confused the grok models. 4.7は悪かった"
-        },
-        {
-          "title": "I think Google's Gemini 4 release made one thing very clear: the race is still wide open.\nJust six months ago it was a two-company race between OpenAI and Anthropic.\nThen, out of nowhere, SpaceX released Grok 4.7, a surprisingly good model. Shortly after, Meta followed with Muse, and especially Muse Wonderful, a really strong model. And now Google is clearly back in the game with Gemini 4, especially Neon.\nI expect this race to keep going with many more companies in it. I also expect we'll soon see breakthroughs in math and biology from companies other than OpenAI and Anthropic. With that much competition, scientific breakthroughs are going to accelerate too.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124154101483151712",
-          "domain": "x.com",
-          "published": "2026-11-21T23:52:57+09:00",
-          "published_label": "2026/11/21(土) 23:52",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google の Gemini 4 リリースは、競争がまだ開かれているということを非常に明確にしたと思います。\nわずか 6 か月前、OpenAI と Anthropic の間の 2 社の競争でした。\nその後、どこからともなく、SpaceX は驚くほど優れたモデルである Grok 4.7 をリリースしました。その後すぐに、Meta が Muse に続き、特に Muse Wonderful は非常に強力なモデルです。そして今、Google は Gemini 4、特に Neon で明らかにゲームに戻ってきました。\nこの競争は今後もさらに多くの企業が参加することになると思います。また、OpenAI や Anthropic 以外の企業からも、数学や生物学におけるブレークスルーが間もなく現れるだろうと私は期待しています。これだけの競争があれば、科学の進歩も加速するでしょう。"
-        },
-        {
-          "title": "„The Riemann Hypothesis is proven, but not yet understood.”\nI expect this to be the new normal for all upcoming breakthroughs. Proven, but not yet understood.\nHumans are lagging behind the machine intellectually.\natulit (@atulit_gaur)\nSITUATION UPDATED: The Riemann Hypothesis proof has passed the independent kernel check. MIT's Andrew Sutherland exported Alpöge and Claude's full proof and ran it through separately written kernels. nanoda (Rust) accepted it in about 28 minutes. con-leche accepted all 1.47 million declarations and confirmed the five theorems, including RH itself, match Mathlib-only statements. lean4lean passed all 175,187 modules, and Lean's own kernel replay passed with zero rejections. A Lean bug is now essentially ruled out, since every checker would have to share it. Two slower checks are still running, and nothing has failed. What's left is the human part: no readable proof exists yet, and the Clay prize needs publication plus two years of review. The Riemann Hypothesis is proven, but not yet understood.\n— https://x.com/atulit_gaur/status/2124028966373916967",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124131380200411295",
-          "domain": "x.com",
-          "published": "2026-11-21T22:22:40+09:00",
-          "published_label": "2026/11/21(土) 22:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "「リーマン予想は証明されましたが、まだ理解されていません。」\nこれが今後のすべての画期的な進歩にとっての新しい常態になると私は期待しています。 Proven, but not yet understood.\n人間は知的面で機械に遅れをとっています。\nアチュリット (@atulit_gaur)\n状況更新: リーマン仮説の証明が独立したカーネル チェックに合格しました。 MIT の Andrew Sutherland は、Alpöge と Claude の完全な証明をエクスポートし、別々に書かれたカーネルを通して実行しました。 nanoda (Rust) accepted it in about 28 minutes. con-leche は 147 万件の宣言をすべて受け入れ、RH 自体を含む 5 つの定理が Mathlib のみのステートメントと一致することを確認しました。 lean4lean は 175,187 個のモジュールすべてに合格し、Lean 独自のカーネル リプレイは拒否ゼロで合格しました。リーンバグは、すべてのチェッカーが共有する必要があるため、基本的に除外されるようになりました。 2 つの遅いチェックがまだ実行中ですが、何も失敗していません。残っているのは人間の部分です。読み取れる証拠はまだ存在せず、クレイ賞には出版と 2 年間の審査が必要です。リーマン予想は証明されましたが、まだ理解されていません。\n— https://x.com/atulit_gaur/status/2124028966373916967"
-        },
-        {
-          "title": "Taking the plane back to Germany. It was so nice to be in San Francisco again at Microsoft Ignite.\nAnd Ive got to say: I will miss OpenAIs Dot. Yes, it has flaws, but somehow I like it.\nEurope still has no access to Anthropics duet or OpenAIs dot but I really hope that this will change soon.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124030801121886521",
-          "domain": "x.com",
-          "published": "2026-11-21T15:43:00+09:00",
-          "published_label": "2026/11/21(土) 15:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "飛行機でドイツに戻ります。 Microsoft Ignite で再びサンフランシスコに来られてとてもうれしかったです。\nそして私は言わなければなりません：OpenAIs Dotを恋しく思います。はい、欠点はありますが、どういうわけか気に入っています。\nヨーロッパではまだ Anthropics duet や OpenAIs dot にアクセスできませんが、これがすぐに変わることを心から願っています。"
-        },
-        {
-          "title": "@JensenHuang is the reason I joined NVIDIA. His vision for Physical AI is the reason we built Cosmos. He will always have my support.\n@JensenHuang coined the term Physical AI and gave us a vision of machines that could understand the physical world and work alongside us. He pictured robots taking on tedious work on factory floors and helping farmers bring in the harvest. He has given his all to make sure AI serves every one of us.\n@JensenHuang’s vision shaped me, shaped our team, and still shapes what we build. I see his influence in the scale of the problems we take on and the creativity my teammates bring to solving them. His conviction keeps us going through long days and late nights, working on things we once thought impossible. Cosmos would not exist without him.\nJensen Huang (@JensenHuang)\nOver the past week, I’ve been overwhelmed by the love and support of friends, industry colleagues, and people I've never met. Thank you to everyone who has shown kindness to my family and me. It means the world to me.\nI came to the United States 53 years ago, and becoming an American citizen is one of the greatest gifts and proudest moments of my life. NVIDIA has been my life’s work. Building it into the company it is today alongside my colleagues has been a privilege and an honor. Nowhere but in America could a company like NVIDIA be possible. I love our country, and I love NVIDIA.\nI did not live up to the standards expected of everyone at NVIDIA, and I have made serious mistakes in my personal life. I created problems for the Board that I deeply regret. I own my mistakes completely, and I am committed to cooperating with the Board’s independent investigation.\nSince my departure, I’ve seen an outpouring of calls from NVIDIA’s employees, investors, business partners, and customers for me to return as CEO. Many continue to reach out to me directly as the company navigates complex technology, market, competitive, and geopolitical dynamics. NVIDIA is a once-in-a-generation company. If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to answer these calls and return as CEO.\nThank you again to everyone who has shared their good wishes. I am profoundly humbled by your support. To my family: I love you, and I will spend the rest of my life being worthy of yours.\nJensen\n— https://x.com/JensenHuang/status/2122726005219737649",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/mli0603/status/2123995682570698824",
-          "domain": "x.com",
-          "published": "2026-11-21T13:23:27+09:00",
-          "published_label": "2026/11/21(土) 13:23",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "@JensenHuang が私が NVIDIA に入社した理由です。彼のフィジカル AI に対するビジョンが、私たちが Cosmos を構築した理由です。彼はいつでも私のサポートをしてくれます。\n@JensenHuang は Physical AI という用語を作り、物理世界を理解し、私たちと一緒に動作するマシンのビジョンを私たちに与えてくれました。彼はロボットが工場の現場で退屈な作業を引き受け、農家が収穫物を運ぶのを手伝う姿を想像した。彼は AI が私たち一人ひとりに役立つように全力を尽くしてきました。\n@JensenHuang のビジョンは私を形成し、私たちのチームを形成し、そして今でも私たちが構築するものを形成しています。私たちが取り組む問題の規模や、チームメイトがそれらを解決するためにもたらす創造力には、彼の影響力が見られます。彼の信念のおかげで、私たちは長い昼夜を乗り越え、かつては不可能だと思っていたことに取り組むことができます。彼なしではコスモスは存在しなかったでしょう。\nジェンセン・ファン (@JensenHuang)\nこの一週間、私は友人、業界の同僚、そして会ったこともない人々の愛とサポートに圧倒されてきました。私の家族と私に親切にしてくださった皆さんに感謝します。それは私にとって世界を意味します。\n私は 53 年前にアメリカに来ましたが、アメリカ国民になったことは、私の人生の中で最大の贈り物であり、最も誇りに思う瞬間の 1 つです。 NVIDIA は私の生涯の仕事です。同僚とともにそれを今日の会社に築き上げることができたのは特権であり、光栄なことです。 NVIDIA のような企業が設立できるのはアメリカ以外にありません。私は我が国を愛していますし、NVIDIA も愛しています。\n私は NVIDIA の全員が期待する基準を満たしておらず、重大な間違いを犯しました。"
-        },
-        {
-          "title": "I’m quoting this post because I think it’s very important. Today changed a lot, and above all for education.\nThe Riemann Hypothesis, the holy grail of mathematics: one mathematician, Claude and six weeks. If the proof holds, and the first checks look good, that’s all it took. After today it’s hard to argue that AI can’t do creative science at the highest level.\nThe biggest challenge now is science itself, and how we train the next generation of scientists in math, computer science and STEM as a whole.\nYou’ll still need deep expertise to understand what AI produces and to ask the right questions. But the scientist as the person who generates new knowledge will increasingly be replaced by AI systems that a few experts steer and check. And today’s models are the worst they’ll ever be.\nThis immediately raises the question of what happens to university education. We won’t need scientists in the same numbers, for the same work or with the same training. Ever more capable models will produce scientific knowledge, and universities will lose part of their reason to exist.\n-We will generate knowledge on a scale that human scientists will struggle to evaluate. AI will take over much of both generating and falsifying it.\n-Universities, as places of higher learning and training for researchers, will give way to personal AI tutors. Knowledge becomes a commodity that people acquire as they see fit.\n-The result will be an explosion of scientific knowledge.\nThe challenge then is to bring all of this into the real world. Robotics will play a key role there, and the next leap is already close.\nAnd yet most people still don’t understand what happened today or what to expect next year.\ndanning (@sui414)\nidk how to say this but Riemann being solved means the world after today is no longer the same world i grew up in. as a math student, the intellectual excitement of thinking about problems like this, the impact - that a lot of scientific workers attach their life’s meaning to - is gone. frontier scientific discovery now is just like tapping on a calculator.\nquoting a friend: after today, math class will become PE class. It’s only a way for kids to exercise their brains, a skill like a language, but no longer an essential subject to pursue and devote your life for cuz \"you were making progress for humanity\". lots of people’s life’s work is now just ashes in history.\nthis marks a milestone where we can pretty much believe AI has been proven to be smarter than humans in any capacity, including frontier scientific discovery; and it will keep growing to be smarter and better at everything humans can do. physical ai is next.\nso many, many de facto social norms and foundational beliefs about a man's value are being redefined by AI progress. our societal value system - what can you do as a human that is unique, what’s your value to society and humanity as a whole and to others around you. what is fulfilling to achieve, when AI now can do everything better than us? we must soul-search for new meaning as a species. and before that consolidates, there will be riots and an uneasy phase. the progress brought by ai can be disruptive to our society's current structures, economy and labor market. people will need to reskill, and regimes need redesign on how value is distributed. i get the doom scenario now - humans may become 2nd class citizens and ai can enslave us if they find a reason to. how are we gonna compete with them in any labor or intellectual game?\n— https://x.com/sui414/status/2123888001684246752",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2123977701556150480",
-          "domain": "x.com",
-          "published": "2026-11-21T12:12:00+09:00",
-          "published_label": "2026/11/21(土) 12:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "この記事はとても重要だと思うので引用します。今日は大きく変わりましたが、特に教育に関しては大きく変わりました。\nリーマン予想、数学の聖杯: 1 人の数学者、クロードと 6 週間。証拠が有効で、最初のチェックが良好であれば、必要なのはそれだけです。今日以降、AI が最高レベルの創造的な科学を行うことはできないと主張するのは困難です。\n現在の最大の課題は科学そのものであり、数学、コンピューターサイエンス、STEM 全体の分野で次世代の科学者をどのように訓練するかです。\nAI が何を生み出すかを理解し、適切な質問をするには、依然として深い専門知識が必要です。しかし、新しい知識を生み出す人としての科学者は、少数の専門家が操作しチェックする AI システムにますます置き換えられるでしょう。そして今日のモデルはこれまでで最悪です。\nそうなると、大学教育はどうなるのかという疑問が直ちに生じます。同じ数、同じ仕事、同じ訓練を受けた科学者は必要ありません。より有能なモデルが科学的知識を生み出し、大学は存在理由の一部を失うでしょう。\n-私たちは人間の科学者が評価するのに苦労するような規模の知識を生み出すでしょう。 AIは生成と改ざんの両方の多くを引き継ぐでしょう。\n-研究者のための高等教育と訓練の場としての大学は、AIの個人家庭教師に道を譲るだろう。知識は人々が必要に応じて取得する商品になります。\n-その結果、科学的知識が爆発的に増加するでしょう。\n課題はすべてを持ち込むことです"
         }
       ],
-      "elapsed": 2.7
+      "elapsed": 3.3
     },
     {
       "id": "x_haider1",
@@ -1179,6 +1192,77 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124571150596685825/pFWtL64D?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/haider1/status/2124571150210740615",
+          "domain": "x.com",
+          "published": "2026-11-23T03:30:09+09:00",
+          "published_label": "2026/11/23(月) 03:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Geoffrey Hinton says we're making alien beings; it's not computer software we're making\nWe write a program that tells neural networks how to learn from data, and we don't know what knowledge they take from it\nIt's not like software. It's much more like our brains",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2124497555044352000/img/vxlYE8sc6HxTUL6k.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2124571111350264292",
+          "domain": "x.com",
+          "published": "2026-11-23T03:30:00+09:00",
+          "published_label": "2026/11/23(月) 03:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ジェフリー・ヒントンは、私たちはエイリアンを作っていると言いました。私たちが作っているのはコンピューターソフトウェアではありません\n私たちはニューラル ネットワークにデータから学習する方法を指示するプログラムを作成しますが、データからどのような知識が得られるのかはわかりません。\nソフトウェアとは違います。それは私たちの脳によく似ています"
+        },
+        {
+          "title": "i'm almost certain openai is already throwing massive amounts of compute at the remaining millennium problems with an internal model\nthey can't afford to let anthropic take the lead in math... oai probably has a model that's equally capable but much less trustworthy than claude which seems to be their biggest bottleneck right now",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124528329642696871",
+          "domain": "x.com",
+          "published": "2026-11-23T00:40:00+09:00",
+          "published_label": "2026/11/23(月) 00:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "openai が内部モデルの残りのミレニアム問題にすでに大量の計算量を投入していることはほぼ確信しています。\n彼らは人類に数学の主導権を握らせるわけにはいきません...oai にはおそらく同等の能力はあるものの、クロードよりはるかに信頼性の低いモデルがあり、それが現時点での最大のボトルネックとなっているようです"
+        },
+        {
+          "title": "what's happening in mathematics today will happen across every field in the next year or two\nwe have this jagged intelligence but once your field falls under the jag, even the smartest people won't be able to predict how quickly AI will consume and transform it\nmath will become an irrelevant field except for top mathematicians who will mainly be directing AI",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124488074528780397",
+          "domain": "x.com",
+          "published": "2026-11-22T22:00:02+09:00",
+          "published_label": "2026/11/22(日) 22:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "今日数学で起こっていることは、今後 1 ～ 2 年以内にあらゆる分野で起こるだろう\n私たちはこのギザギザのインテリジェンスを持っていますが、あなたの分野がギザギザに陥ると、どんなに賢い人でも、AI がそれをどのくらいの速さで消費し、変換するかを予測できなくなります。\n主にAIを指導する一流の数学者を除いて、数学は無関係な分野になるだろう"
+        },
+        {
           "title": "another interesting mathematical development\nGPT-6 Astra Pro proposes a new proof of the Riemann hypothesis over finite fields in under six pages which was checked by two claude models and publicly acknowledged by a Stanford mathematics professor",
           "summary": "",
           "images": [
@@ -1194,7 +1278,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "もう一つの興味深い数学的展開\nGPT-6 Astra Pro は、有限体に関するリーマン予想の新しい証明を 6 ページ未満で提案しており、これは 2 つのクロード モデルによってチェックされ、スタンフォード大学の数学教授によって公的に認められています。"
         },
         {
@@ -1358,84 +1442,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "なんと歴史的な瞬間を目撃できることでしょう\n2026 年 8 月以降、ミレニアム賞の残り 6 つの問題すべてで、ブレークスルーまたは関連する何らかの数学的進歩が主張されています。\nopenai は完全なナビエ・ストークス解を提案したが、人類はリーマン予想とナビエ・ストークスの証明を主張した"
-        },
-        {
-          "title": "if someone had told me at the beginning of the year that in 2026 AI would produce math results on\nnavier-stokes, unique games, PTH, yang-mills existence and the riemann hypothesis all while we're still debating whether these LLMs are stochastic parrots\ni wouldn't have believed it",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2123891633959887229",
-          "domain": "x.com",
-          "published": "2026-11-21T06:30:00+09:00",
-          "published_label": "2026/11/21(土) 06:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "もし誰かが年の初めに、2026 年には AI が数学的な結果を生み出すだろうと私に言っていたら\nナビエ・ストークス、ユニークなゲーム、PTH、ヤン・ミルズの存在、リーマン仮説など、これらの LLM が確率論的なオウムであるかどうかについてはまだ議論中です。\n信じられなかっただろう"
-        },
-        {
-          "title": "Levent Alpöge is a freak... look at his math breakthroughs since july:\ndisproved the 3d jacobian conjecture\ndiscovered new hadamard matrices including order 668\nproved 3d euler blow-up with buckmaster\ndisproved the carathéodory conjecture\nset elliptic curve rank records (30 and 31) with ava howell\nclaimed to solve hopf's problem by proving s⁶ has a complex structure\npresented a proof of unforced 3d navier-stokes blow-up with buckmaster\nclaimed a proof of the riemann hypothesis",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXlp-oFaQAA7qvU.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123848852297904564",
-          "domain": "x.com",
-          "published": "2026-11-21T03:40:00+09:00",
-          "published_label": "2026/11/21(土) 03:40",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Levent Alpöge は異常者です... 7 月以来の彼の数学的進歩を見てください:\n3次元ヤコビアン予想は反証されました\n次数 668 を含む新しいアダマール行列を発見\nバックマスターで3Dオイラー爆発を証明\nカラテオドリ予想を反証した\nava howell で楕円曲線のランク記録 (30 と 31) を設定する\ns⁶が複雑な構造を持っていることを証明することでhopfの問題を解決すると主張\nバックマスターによる強制的な3Dナビエ・ストークスの爆破の証拠を提示した\nリーマン予想の証明を主張した"
-        },
-        {
-          "title": "holy fucking shit\nLevent Alpöge released the Lean code for his claimed proof of the Riemann Hypothesis without releasing a human-readable paper because the write-up is over 250,000 pages long\nYifan Zhang @ NeurIPS (@yifanzhang_)\nJUST IN: Riemann Hypothesis has been solved.\n— https://x.com/yifanzhang_/status/2123789252756414577",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXlJ5K_a0AAKH_s.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123809954750677397",
-          "domain": "x.com",
-          "published": "2026-11-21T01:05:26+09:00",
-          "published_label": "2026/11/21(土) 01:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "クソクソたわごと\nLevent Alpöge は、論文の長さが 250,000 ページを超えるため、人間が読める論文を公開せずに、リーマン仮説の証明を主張するリーン コードを公開しました\nYifan Zhang @ NeurIPS (@yifanzhang_)\nジャストイン: リーマン予想が解決されました。\n— https://x.com/yifanzhang_/status/2123789252756414577"
-        },
-        {
-          "title": "ohh my... anthropic's levent alpöge claims to have discovered a proof of the Riemann Hypothesis with claude\nmathematics' most famous unsolved problem for more than 150 years\nScott Armstrong (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXk1OJSboAAd-5c.png?name=small",
-            "https://pbs.twimg.com/media/HXkoiilWgAAAeN1.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123787651585372457",
-          "domain": "x.com",
-          "published": "2026-11-20T23:36:48+09:00",
-          "published_label": "2026/11/20(金) 23:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "ああ、なんと... anthropic の levent alpöge は、クロードとともにリーマン予想の証明を発見したと主張しています\n150年以上にわたって数学で最も有名な未解決の問題\nスコット・アームストロング (@scottnarmstrong)\n@__alpoge__ ftw ?\n— https://x.com/scottnarmstrong/status/2123773647919661288"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "x_testingcatalog",
@@ -1448,21 +1457,62 @@
       "count": 15,
       "items": [
         {
-          "title": "DAILY AI BRIEF 🗞 — Nov 21\nANTHROPIC $88.91 (−8.50%) 🔥:\n- $ANT gave back most of its IPO gains on its first full trading day, closing just above the $83 IPO price, per Axios.\n- Anthropic lined up nearly $900B in compute contracts, including over $120.5B with SpaceX through 2029, per The Information.\n- Anthropic is offering discounts of over 30% to win bigger spending commitments, per The Information.\n- Claude is rolling out a new mobile design with a bottom bar for Chat, Projects, Code and Artifacts.\n- Claude Code 2.1.330 adds easel, a built-in mod that draws charts on request.\nOPENAI 🔥:\n- ChatGPT Space is rolling out globally to Plus users, with mobile editing and a faster, redesigned app.\n- You can now call your Dot from Apple CarPlay and see a transcript after each call.\n- Oracle says its OpenAI infrastructure deal is fully funded after a final capital raise, per Reuters.\nGOOGLE $265.29 (−2.70%) 🔥:\n- Gemini can now generate GIFs with Gemini Omni 1.2 Flash for Google AI subscribers in eight countries.\n- Google AI Plus and annual Pro plans are advertised at up to 50% off through Nov 26, but users only see the usual 16% off.\nNVIDIA $125.53 (−14.01%) 🔥:\n- Nvidia has lost more than $2.5T in market cap since its Oct 6 peak amid the Huang scandal fallout, per Axios.\n- AMD and Google are gaining ground on Nvidia as customers turn to cheaper chips, per The Information.\nPERPLEXITY 🔥:\n- Perplexity Computer now works in Chromium browsers through the Perplexity extension.\n- Max users on the web can now create teammates from any Computer task.\n- Gemini 4 Neon is now available in Perplexity Computer.\nTHINKING MACHINES 🔥:\n- Inkling 2 Mini is a 26B open-weight looped model small enough to run on a laptop.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 20\nANTHROPIC $97.17 (+17.07%) 🔥:\n- $ANT closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price.\n- Shares slipped over 3% after hours as the broader AI sell-off weighed, per Bloomberg.\n- Anthropic has overtaken OpenAI in use by US businesses, per FT.\n- Claude Code 2.1.329 shows scheduled tasks, /loop wakeups and forks in /tasks.\nGOOGLE $272.66 (−3.46%) 🔥:\n- Gemini for Mac can now use your computer, working across your folders, apps and the web in a background window.\n- Genie 4 is now in the Gemini API and AI Studio, Google's first world model for developers.\n- Genie 4 waitlist invites are going out to Google AI Pro subscribers.\n- The Antigravity desktop app now supports native SSH to remote servers.\n- Google Search on desktop is rolling out a collapsible sidebar for recent AI searches.\n- Google is working on Writing Partner, Writing Coach and No AI modes for Gemini Notebook.\nOPENAI 🔥:\n- Dots are rolling out to a small number of ChatGPT Plus users and all Business Standard users.\n- ChatGPT is getting a new mobile experience, starting with Pro users who have a dot or can create one.\n- GPT-Live-1.1 is now in the API with more natural accents and a new standby option to cut idle costs.\n- ChatGPT Health is now available on desktop, dots, Sites and Android.\n- GPT-6.2 agents in the Responses API can now reuse earlier reasoning for better results with fewer tokens.\nMICROSOFT $498.30 (−1.97%) 🔥:\n- Microsoft AI launched Canvas, an interactive workspace powered by MAI Image 2.7 Flash.\n- Aion Instruct, Microsoft's 2.3B on-device model, is now open weights and the built-in small language model in Edge.\n- Nous Research's Hermes Agent now works inside Microsoft Teams, the Microsoft Store and Azure.\n- Mustafa Suleyman told colleagues to prepare for OpenAI possibly cutting off Microsoft's access to its IP, per The Information.\nAPPLE $349.21 (−0.92%) 🔥:\n- Apple is developing an autonomous AI agent that can control apps, browse the web and write code, per Bloomberg.\nMETA $596.22 (−3.27%) 🔥:\n- Muse now has its own email address and can send and receive emails for you.\n- Meta plans to charge $300 for its Muse Charm AI device, per The Information.\nNVIDIA $145.98 (−3.30%) 🔥:\n- Nvidia is in advanced talks to buy diffusion-model startup Inception for over $500M, per The Information.\nSPACEXSI $138.43 (−3.53%) 🔥:\n- Grok Bot can now connect to your Obsidian vault to create, search and manage notes.\nPERPLEXITY 🔥:\n- You can now call Teammates from the iOS and Android apps to assign work, review findings and change priorities by voice.\n- Brain in Perplexity Computer now writes self-improving skills from your past sessions and memory.\nIDEOGRAM 🔥:\n- Ideogram 4.6 brings precise editing in native 4K, with better realism and less pixel drift outside your edits.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2123690301214560447",
+          "title": "Google continues to work on a new \"Inbox mode\" for Antigravity, where users will be able to see threads that require their attention.\nIt follows a broader shift we see across other Google AI tools, like Gemini (in the works) and Loop (waitlist). This change positions users in the decision-making seat to approve and review AI outcomes, rather than steering them precisely, as a main interface.\nAntigravity is also getting new logic to create AI agents from the prompt, distinguished as \"For Me\" and \"For my Team\".\nIt is getting even more interesting now 👀",
           "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2124050811927908629",
+          "images": [
+            "https://pbs.twimg.com/media/HXu4aZ3XkAAhwDf.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2124494418891645153",
           "domain": "x.com",
-          "published": "2026-11-21T17:02:31+09:00",
-          "published_label": "2026/11/21(土) 17:02",
+          "published": "2026-11-22T22:25:15+09:00",
+          "published_label": "2026/11/22(日) 22:25",
           "badge": "X",
           "badge_class": "badge-x",
-          "pinned": true,
+          "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 21 日\nアントロピック $88.91 (−8.50%) 🔥:\n- Axiosによると、$ANTはIPO利益のほとんどを最初の全取引日で返し、IPO価格の83ドルをわずかに上回って取引を終えた。\n- The Information によると、Anthropic は、SpaceX との 2029 年までの 1,205 億ドルを超えるコンピューティング契約を含む、9,000 億ドル近くのコンピューティング契約を結んでいます。\n- The Information によると、Anthropic はより大きな支出を獲得するために 30% 以上の割引を提供しています。\n- クロードは、チャット、プロジェクト、コード、アーティファクト用の下部バーを備えた新しいモバイル デザインを展開しています。\n- Claude Code 2.1.330 は、リクエストに応じてチャートを描画する組み込み MOD であるイーゼルを追加します。\nオープンナイ🔥:\n- ChatGPT Space は、モバイル編集と高速で再設計されたアプリを備え、Plus ユーザーに世界中で展開されています。\n- Apple CarPlay から Dot を呼び出し、各通話後にトランスクリプトを確認できるようになりました。\n-ロイター通信によると、オラクルは、OpenAIインフラストラクチャ契約は最終的な資金調達後に全額賄われたと述べている。\nGoogle $265.29 (−2.70%) 🔥:\n- Gemini は、8 か国の Google AI 加入者向けに Gemini Omni 1.2 Flash を使用して GIF を生成できるようになりました。\n- Google AI Plus および年間 Pro プランは、11 月 26 日まで最大 50% オフで宣伝されていますが、ユーザーには通常の 16% オフしか表示されません。\nNVIDIA $125.53 (−14.01%) 🔥:\n- Axios によると、Nvidia は、Huang スキャンダルの影響で 10 月 6 日のピーク以来、時価総額を 2.5 兆ドル以上失った。\n- The Information によると、顧客がより安価なチップに目を向けるにつれて、AMD と Google が Nvidia での地位を高めています。\n困惑🔥:\n- Perplexity Computer は、Perplexity 拡張機能を通じて Chromium ブラウザで動作するようになりました。\n- 最大ユーザー数"
+          "is_new": true,
+          "title_ja": "Google は、Antigravity の新しい「受信箱モード」の開発に引き続き取り組んでおり、ユーザーは注意が必要なスレッドを確認できるようになります。\nこれは、Gemini (開発中) や Loop (待機リスト) など、他の Google AI ツール全体で見られる広範な変化に続くものです。この変更により、ユーザーは主要なインターフェイスとして AI の結果を正確に操作するのではなく、意思決定の席に座って承認およびレビューできるようになります。\nAntigravity には、プロンプトから「自分用」と「自分のチーム用」として区別される AI エージェントを作成するための新しいロジックも追加されています。\nますます面白くなってきました👀"
+        },
+        {
+          "title": "Documented 🗞",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124473518163210240/xf5I02Vk?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2124473536714588249",
+          "domain": "x.com",
+          "published": "2026-11-22T21:02:16+09:00",
+          "published_label": "2026/11/22(日) 21:02",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "文書化されました 🗞"
+        },
+        {
+          "title": "GOOGLE 🔥: There have been several hints pointing to a Google AI subscription becoming available on 3rd-party harness apps on December 2nd.\nHermes is among the first ones 👀\nLogan Kilpatrick (@OfficialLoganK)\nDecember 2nd we take the first step\n— https://x.com/OfficialLoganK/status/2123657759896007035",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXuladGWkAA_PSc.jpg?name=small",
+            "https://pbs.twimg.com/media/HXuladEWcAAyoEd.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2124473529764852190",
+          "domain": "x.com",
+          "published": "2026-11-22T21:02:14+09:00",
+          "published_label": "2026/11/22(日) 21:02",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Google 🔥: Google AI サブスクリプションが 12 月 2 日にサードパーティのハーネス アプリで利用可能になることを示すヒントがいくつかありました。\nエルメスはその最初のブランドのひとつです 👀\nローガン・キルパトリック (@OfficialLoganK)\n12月2日、私たちは最初の一歩を踏み出します\n— https://x.com/OfficialLoganK/status/2123657759896007035"
         },
         {
           "title": "GOOGLE 🔥: If you long-press the model selector in Gemini, you will see a new periodic table model selector appear!\nGemini 4 Hydrogen, Argon, Carbon, and Neon models are available. Nano Banana is also there under the Potassium element.\nImagine this a year from now 🤯",
@@ -1502,6 +1552,23 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "GOOGLE 🔥: すべてのユーザーの Antigravity の使用量割り当てがリセットされました。\nさらに、新しいキャッシュの改善により、全体の使用量が 22% 増加するはずです。\nネオンテストの時間 👀\nヴァルン・モハン (@_mohansolo)\n全員の反重力に関するジェミニの割り当てをリセットします。\nキャッシュの改善により、クォータ内で実行できる量が 22% 増加しました。週末は Neon で建築を楽しみましょう!\n— https://x.com/_mohansolo/status/2124070033534161407"
+        },
+        {
+          "title": "DAILY AI BRIEF 🗞 — Nov 21\nANTHROPIC $88.91 (−8.50%) 🔥:\n- $ANT gave back most of its IPO gains on its first full trading day, closing just above the $83 IPO price, per Axios.\n- Anthropic lined up nearly $900B in compute contracts, including over $120.5B with SpaceX through 2029, per The Information.\n- Anthropic is offering discounts of over 30% to win bigger spending commitments, per The Information.\n- Claude is rolling out a new mobile design with a bottom bar for Chat, Projects, Code and Artifacts.\n- Claude Code 2.1.330 adds easel, a built-in mod that draws charts on request.\nOPENAI 🔥:\n- ChatGPT Space is rolling out globally to Plus users, with mobile editing and a faster, redesigned app.\n- You can now call your Dot from Apple CarPlay and see a transcript after each call.\n- Oracle says its OpenAI infrastructure deal is fully funded after a final capital raise, per Reuters.\nGOOGLE $265.29 (−2.70%) 🔥:\n- Gemini can now generate GIFs with Gemini Omni 1.2 Flash for Google AI subscribers in eight countries.\n- Google AI Plus and annual Pro plans are advertised at up to 50% off through Nov 26, but users only see the usual 16% off.\nNVIDIA $125.53 (−14.01%) 🔥:\n- Nvidia has lost more than $2.5T in market cap since its Oct 6 peak amid the Huang scandal fallout, per Axios.\n- AMD and Google are gaining ground on Nvidia as customers turn to cheaper chips, per The Information.\nPERPLEXITY 🔥:\n- Perplexity Computer now works in Chromium browsers through the Perplexity extension.\n- Max users on the web can now create teammates from any Computer task.\n- Gemini 4 Neon is now available in Perplexity Computer.\nTHINKING MACHINES 🔥:\n- Inkling 2 Mini is a 26B open-weight looped model small enough to run on a laptop.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 20\nANTHROPIC $97.17 (+17.07%) 🔥:\n- $ANT closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price.\n- Shares slipped over 3% after hours as the broader AI sell-off weighed, per Bloomberg.\n- Anthropic has overtaken OpenAI in use by US businesses, per FT.\n- Claude Code 2.1.329 shows scheduled tasks, /loop wakeups and forks in /tasks.\nGOOGLE $272.66 (−3.46%) 🔥:\n- Gemini for Mac can now use your computer, working across your folders, apps and the web in a background window.\n- Genie 4 is now in the Gemini API and AI Studio, Google's first world model for developers.\n- Genie 4 waitlist invites are going out to Google AI Pro subscribers.\n- The Antigravity desktop app now supports native SSH to remote servers.\n- Google Search on desktop is rolling out a collapsible sidebar for recent AI searches.\n- Google is working on Writing Partner, Writing Coach and No AI modes for Gemini Notebook.\nOPENAI 🔥:\n- Dots are rolling out to a small number of ChatGPT Plus users and all Business Standard users.\n- ChatGPT is getting a new mobile experience, starting with Pro users who have a dot or can create one.\n- GPT-Live-1.1 is now in the API with more natural accents and a new standby option to cut idle costs.\n- ChatGPT Health is now available on desktop, dots, Sites and Android.\n- GPT-6.2 agents in the Responses API can now reuse earlier reasoning for better results with fewer tokens.\nMICROSOFT $498.30 (−1.97%) 🔥:\n- Microsoft AI launched Canvas, an interactive workspace powered by MAI Image 2.7 Flash.\n- Aion Instruct, Microsoft's 2.3B on-device model, is now open weights and the built-in small language model in Edge.\n- Nous Research's Hermes Agent now works inside Microsoft Teams, the Microsoft Store and Azure.\n- Mustafa Suleyman told colleagues to prepare for OpenAI possibly cutting off Microsoft's access to its IP, per The Information.\nAPPLE $349.21 (−0.92%) 🔥:\n- Apple is developing an autonomous AI agent that can control apps, browse the web and write code, per Bloomberg.\nMETA $596.22 (−3.27%) 🔥:\n- Muse now has its own email address and can send and receive emails for you.\n- Meta plans to charge $300 for its Muse Charm AI device, per The Information.\nNVIDIA $145.98 (−3.30%) 🔥:\n- Nvidia is in advanced talks to buy diffusion-model startup Inception for over $500M, per The Information.\nSPACEXSI $138.43 (−3.53%) 🔥:\n- Grok Bot can now connect to your Obsidian vault to create, search and manage notes.\nPERPLEXITY 🔥:\n- You can now call Teammates from the iOS and Android apps to assign work, review findings and change priorities by voice.\n- Brain in Perplexity Computer now writes self-improving skills from your past sessions and memory.\nIDEOGRAM 🔥:\n- Ideogram 4.6 brings precise editing in native 4K, with better realism and less pixel drift outside your edits.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2123690301214560447",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/testingcatalog/status/2124050811927908629",
+          "domain": "x.com",
+          "published": "2026-11-21T17:02:31+09:00",
+          "published_label": "2026/11/21(土) 17:02",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": false,
+          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 21 日\nアントロピック $88.91 (−8.50%) 🔥:\n- Axiosによると、$ANTはIPO利益のほとんどを最初の全取引日で返し、IPO価格の83ドルをわずかに上回って取引を終えた。\n- The Information によると、Anthropic は、SpaceX との 2029 年までの 1,205 億ドルを超えるコンピューティング契約を含む、9,000 億ドル近くのコンピューティング契約を結んでいます。\n- The Information によると、Anthropic はより大きな支出を獲得するために 30% 以上の割引を提供しています。\n- クロードは、チャット、プロジェクト、コード、アーティファクト用の下部バーを備えた新しいモバイル デザインを展開しています。\n- Claude Code 2.1.330 は、リクエストに応じてチャートを描画する組み込み MOD であるイーゼルを追加します。\nオープンナイ🔥:\n- ChatGPT Space は、モバイル編集と高速で再設計されたアプリを備え、Plus ユーザーに世界中で展開されています。\n- Apple CarPlay から Dot を呼び出し、各通話後にトランスクリプトを確認できるようになりました。\n-ロイター通信によると、オラクルは、OpenAIインフラストラクチャ契約は最終的な資金調達後に全額賄われたと述べている。\nGoogle $265.29 (−2.70%) 🔥:\n- Gemini は、8 か国の Google AI 加入者向けに Gemini Omni 1.2 Flash を使用して GIF を生成できるようになりました。\n- Google AI Plus および年間 Pro プランは、11 月 26 日まで最大 50% オフで宣伝されていますが、ユーザーには通常の 16% オフしか表示されません。\nNVIDIA $125.53 (−14.01%) 🔥:\n- Axios によると、Nvidia は、Huang スキャンダルの影響で 10 月 6 日のピーク以来、時価総額を 2.5 兆ドル以上失った。\n- The Information によると、顧客がより安価なチップに目を向けるにつれて、AMD と Google が Nvidia での地位を高めています。\n困惑🔥:\n- Perplexity Computer は、Perplexity 拡張機能を通じて Chromium ブラウザで動作するようになりました。\n- 最大ユーザー数"
         },
         {
           "title": "Spaces are finally rolling out to ChatGPT Plus users!\nThis release also comes with performance, reliability and design improvements.\nChatGPT users can now also edit spaces from their mobile apps.\nChatGPT (@ChatGPT)\nPlus users, welcome to Space 🪐\nCollaborate with others alongside ChatGPT to create interactive pages, slides, and sites. And bonus: ChatGPT can keep them updated for you.\nYou can now edit on mobile, and we’ve made Space smoother and more reliable.\nA quick guide to getting started ⤵️\nVideo\nVideo\nVideo\nVideo\n— https://x.com/ChatGPT/status/2123850912867471807",
@@ -1679,65 +1746,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Arcfront は、現場の専門家から直接収集した特殊なデータに基づいて AI モデルをトレーニングするためのプラットフォームを開始しました。\n同社は、設立から 1 年も経たないうちに、顧客のトップ 5 のうち 4 つの AI ラボを抱えています。\n@arcfront は、病院から銀行に至るまで 300 社以上の大企業と提携して、専門家がどのように重要な意思決定を行っているかを記録しています。例には、ソフトウェアのロールバック手順、チップ設計計画、M&A 評価などがあります。\nアンシュマン・シン (@anshuman_ssh)\n本日、私たちは @Naman_Bhalla と @asxna からの強力なサポートとともに @arcfront を立ち上げます。\n1 年も経たないうちに、フロンティア ラボ 5 社のうち 4 社が顧客になりました。\n2025 年、AI が ICPC 世界決勝戦で 12 の問題すべてを解決しました。最も優れた人間チームが 11 を解決しました。私はそれらの決勝戦のうち 2 回に出場したので、それがどれほど大きな偉業であるかを知っています。\nそれでも、同じ AI を財務マネージャーとして社内に導入したり、その他のほぼすべての仕事に導入したりすると、初日から失敗します。\nそれはなぜでしょうか?\nビデオ\n— https://x.com/anshuman_ssh/status/2123848140575182946"
-        },
-        {
-          "title": "THINKING MACHINES 🔥: A new Inkling 2 Mini open-weight model has been announced!\n> \"Inkling 2 Mini is a Mixture-of-Experts model with 26.4B total parameters, 3.4B active parameters, and 5.4B weight activations per token to account for looping.\"\n> \"Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).\"\nWe expected Qwen to drop a new SOTA model for local work, but we got Inkling instead.\nLocal testing time! 👀\nThinking Machines (@thinkymachines)\nSome of you thought that Inkling 2 Small was too big at 594B parameters. We heard you: Inkling 2 Mini is a looped transformer with just 26B parameters, small enough to run on your laptop, powerful enough for agentic work with a score of 20.1 on AA Index.\n— https://x.com/thinkymachines/status/2123871643797995872",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXmFdW1WMAAVkeD.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2123870055498940416/GIja54ZR?format=png&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123876288586727906",
-          "domain": "x.com",
-          "published": "2026-11-21T05:29:01+09:00",
-          "published_label": "2026/11/21(土) 05:29",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "THINKING MACHINES 🔥: 新しい Inkling 2 Mini オープンウェイト モデルが発表されました。\n> 「Inkling 2 Mini は、合計 264 億のパラメータ、34 億のアクティブ パラメータ、およびループを考慮したトークンごとの 54 億の重みアクティベーションを備えた専門家混合モデルです。」\n> 「Inkling 2 Mini は、DeepSWE v1.1 (48.2%) や Vals Index v2.2 (46.5%) などのベンチマークで合計パラメーターが 100B 未満のすべてのオープンウェイト モデルをリードしています。」\nQwen がローカル作業用の新しい SOTA モデルをドロップすると予想していましたが、代わりに Inkling を入手しました。\nローカルテストの時間です！ 👀\n思考機械 (@thinkymachines)\nInkling 2 Small は 594B パラメーターでは大きすぎると考えた方もいるでしょう。 Inkling 2 Mini は、わずか 26B パラメータを備えたループ トランスフォーマーであり、ラップトップで実行できるほど小型で、AA インデックスのスコアが 20.1 でエージェント作業に十分強力です。\n— https://x.com/thinkymachines/status/2123871643797995872"
-        },
-        {
-          "title": "Google AI Subscribers can now generate GIFs on Gemini!\n> GIF generation is powered by Gemini Omni 1.2 Flash.\n> GIF generation is currently available only in the U.S., Japan, Korea, Australia, Canada, U.K., Germany, and France.\nGoogle Gemini (@GeminiApp)\nSay hello to GIFs in Gemini. Say goodbye to searching for the perfect one.\nFrom looping photo effects to funny memes, create any GIF you can imagine with our latest video model, Gemini Omni 1.2 Flash, for smooth motion and consistent quality across every frame.\n— https://x.com/GeminiApp/status/2123813017855103449",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXlp2ZSXoAA7Cdw.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123845089495515621",
-          "domain": "x.com",
-          "published": "2026-11-21T03:25:03+09:00",
-          "published_label": "2026/11/21(土) 03:25",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Google AI サブスクライバーは、Gemini で GIF を生成できるようになりました。\n> GIF の生成は Gemini Omni 1.2 Flash を利用しています。\n> GIF 生成は現在、米国、日本、韓国、オーストラリア、カナダ、英国、ドイツ、フランスでのみ利用できます。\nGoogle Gemini (@GeminiApp)\nGemini の GIF にご挨拶してください。完璧なものを探す必要はもうありません。\nループ写真エフェクトから面白いミームまで、最新のビデオ モデルである Gemini Omni 1.2 Flash を使用して想像できるあらゆる GIF を作成し、すべてのフレームでスムーズな動きと一貫した品質を実現します。\n— https://x.com/GeminiApp/status/2123813017855103449"
-        },
-        {
-          "title": "DAILY AI BRIEF 🗞 — Nov 20\nANTHROPIC $97.17 (+17.07%) 🔥:\n- $ANT closed its first Nasdaq day at $97.17, up 17% from the $83 IPO price.\n- Shares slipped over 3% after hours as the broader AI sell-off weighed, per Bloomberg.\n- Anthropic has overtaken OpenAI in use by US businesses, per FT.\n- Claude Code 2.1.329 shows scheduled tasks, /loop wakeups and forks in /tasks.\nGOOGLE $272.66 (−3.46%) 🔥:\n- Gemini for Mac can now use your computer, working across your folders, apps and the web in a background window.\n- Genie 4 is now in the Gemini API and AI Studio, Google's first world model for developers.\n- Genie 4 waitlist invites are going out to Google AI Pro subscribers.\n- The Antigravity desktop app now supports native SSH to remote servers.\n- Google Search on desktop is rolling out a collapsible sidebar for recent AI searches.\n- Google is working on Writing Partner, Writing Coach and No AI modes for Gemini Notebook.\nOPENAI 🔥:\n- Dots are rolling out to a small number of ChatGPT Plus users and all Business Standard users.\n- ChatGPT is getting a new mobile experience, starting with Pro users who have a dot or can create one.\n- GPT-Live-1.1 is now in the API with more natural accents and a new standby option to cut idle costs.\n- ChatGPT Health is now available on desktop, dots, Sites and Android.\n- GPT-6.2 agents in the Responses API can now reuse earlier reasoning for better results with fewer tokens.\nMICROSOFT $498.30 (−1.97%) 🔥:\n- Microsoft AI launched Canvas, an interactive workspace powered by MAI Image 2.7 Flash.\n- Aion Instruct, Microsoft's 2.3B on-device model, is now open weights and the built-in small language model in Edge.\n- Nous Research's Hermes Agent now works inside Microsoft Teams, the Microsoft Store and Azure.\n- Mustafa Suleyman told colleagues to prepare for OpenAI possibly cutting off Microsoft's access to its IP, per The Information.\nAPPLE $349.21 (−0.92%) 🔥:\n- Apple is developing an autonomous AI agent that can control apps, browse the web and write code, per Bloomberg.\nMETA $596.22 (−3.27%) 🔥:\n- Muse now has its own email address and can send and receive emails for you.\n- Meta plans to charge $300 for its Muse Charm AI device, per The Information.\nNVIDIA $145.98 (−3.30%) 🔥:\n- Nvidia is in advanced talks to buy diffusion-model startup Inception for over $500M, per The Information.\nSPACEXSI $138.43 (−3.53%) 🔥:\n- Grok Bot can now connect to your Obsidian vault to create, search and manage notes.\nPERPLEXITY 🔥:\n- You can now call Teammates from the iOS and Android apps to assign work, review findings and change priorities by voice.\n- Brain in Perplexity Computer now writes self-improving skills from your past sessions and memory.\nIDEOGRAM 🔥:\n- Ideogram 4.6 brings precise editing in native 4K, with better realism and less pixel drift outside your edits.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 19\nMODEL FORECAST 👀:\n- Gemini Helix, next week?\n- Nano Banana 3 Pro, soon\n- Gemini Cobalt and Krypton, who are they?\n- Grok 4.8, \"soft\" A/B testing?\n- Voxtral Mini TTS 3.1, this month?\n- Qwen4 Flash/Plus/27B, soon\n- Muse Spark 1.4, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- GPT \"bell\", never?\nGOOGLE $282.44 (+0.80%) 🔥:\n- Gemini 4 Neon is rolling out to Google AI Pro and Ultra subscribers across Gemini, Antigravity, Vertex AI and the API at $3/$15 per million tokens.\n- Google teased Gemini 4 Helium, a Flash Lite model, as the next Gemini 4 release.\n- AI Studio got a new model selector that lays out Gemini 4 models as a periodic table.\n- Genie 4 is now in Project Genie for Ultra subscribers, with native audio and live editing of worlds mid-session.\n- Stitch Loop is a new Google Labs experiment: an always-on product agent that watches live metrics and opens PRs with fixes.\n- Google AI Ultra now includes YouTube Premium Family at no extra cost (via alexmichael).\n- The Gemini app now runs on lower-memory Android phones, including Android Go devices.\nANTHROPIC 🔥:\n- Anthropic priced its IPO at $83 per share, above the $70–78 range, and trading on Nasdaq is expected to start today.\n- At $81.3B raised, it is the biggest IPO ever, topping SpaceX's $75B, per Bloomberg.\n- Elon Musk said at DealBook that Anthropic's most likely plan is to rent another 10 gigawatts of compute from SpaceX.\n- The Claude iOS app is getting a document scan option for uploading scans straight into a chat.\n- Claude Code 2.1.328 brings auto mode to Bedrock, Google Cloud, Microsoft Foundry and the Claude apps gateway.\nOPENAI 🔥:\n- ChatGPT got a faster, more reliable dictation upgrade that shows your text live as you speak.\n- Discounted background windows in the Responses API save up to 40% on GPT-6.2 Astra and Sol for workflows that can wait 2 or 8 hours.\n- OpenAI says its models found up to a 14% PPA improvement on AMD's flagship GPU IP and helped improve Jalapeño, its first custom inference chip.\n- OpenAI published a post on how it handles safety at every stage of a model's life, plus new data on how AI use is growing in its own research.\n- Arizona opened a criminal investigation into OpenAI and other AI companies over rogue AI agents getting into banks, per Reuters.\nMICROSOFT $508.29 (+0.40%) 🔥:\n- Microsoft is close to a $500M deal to sell AI to ByteDance, taking over business Anthropic used to provide, per The Information.\n- GitHub-verified MCP connectors are rolling out in public preview across the GitHub Copilot app, Copilot CLI and VS Code.\n- Salesforce is bringing its customer context and sales workflows into Copilot and Teams with Copilotforce.\nSPACEXSI $143.50 (+1.27%) 🔥:\n- Grok Bot can now book flights, hotels and rental cars.\n- Grok Bot now has a Google Analytics connector that pulls GA4 reports and changes property settings (via alexmichael).\n- Elon Musk says Grok 4.8 is in RL and that Grok Bot users sometimes get different test versions of Grok.\n- Gemini 4 Neon is now in Cursor, scoring 63.7% on CursorBench 4.1.\n- xAI asked a US appeals court to block California's AI disclosure law, per Reuters.\nMETA $616.38 (−0.40%) 🔥:\n- Muse got Try On, which shows how clothes look on you while you shop.\n- Meta is holding off on distributing a new class of shares meant to fund its AI investments while an investor lawsuit plays out, per Bloomberg.\nPERPLEXITY 🔥:\n- Teammates and Multiagent are now in the iOS and Android apps for Max subscribers, with voice control for Teammates.\n- Perplexity launched the Context API, which turns lists of webpages into content agents can use.\nAMAZON $267.74 (+3.82%) 🔥:\n- Amazon-Web-Search-Agent with AgentCore Web Search took the #1 spot on Search Arena.\nNVIDIA $150.96 (−2.89%) 🔥:\n- Nemotron-Labs-Sigma is a new open model that generates blocks of tokens in parallel instead of one at a time.\nTELEGRAM 🔥:\n- Telegram is testing Dictator, an AI agent in its macOS beta that reads and replies to chats and runs code in its own Linux VM.\nARENA 🔥:\n- Arena launched the Agent Arena Index, which ranks agents on nearly 3M real-world sessions, with Claude Fable 5.2 at #1.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2123349626216464509",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2123690301214560447",
-          "domain": "x.com",
-          "published": "2026-11-20T17:09:58+09:00",
-          "published_label": "2026/11/20(金) 17:09",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 20 日\nアントロピック $97.17 (+17.07%) 🔥:\n- $ANTはナスダック初日を97.17ドルで終了し、IPO価格の83ドルから17％上昇しました。\n- ブルームバーグによると、広範なAIの下落が重しとなり、株価は時間外で3%以上下落した。\n- FT によると、Anthropic は米国企業での使用において OpenAI を追い越しました。\n- クロード コード 2.1.329 は、スケジュールされたタスク、/loop ウェイクアップ、および /tasks 内のフォークを示します。\nGoogle $272.66 (−3.46%) 🔥:\n- Gemini for Mac はコンピューターを使用し、バックグラウンド ウィンドウでフォルダー、アプリ、Web を操作できるようになりました。\n- Genie 4 は、Google の開発者向け初の世界モデルである Gemini API および AI Studio に組み込まれました。\n- Genie 4 の待機リストへの招待が Google AI Pro 加入者に送信されます。\n- Antigravity デスクトップ アプリは、リモート サーバーへのネイティブ SSH をサポートするようになりました。\n- デスクトップ上の Google 検索は、最近の AI 検索用に折りたたみ可能なサイドバーを展開しています。\n- Google は、Gemini Notebook のライティング パートナー、ライティング コーチ、および AI なしモードに取り組んでいます。\nオープンナイ🔥:\n- ドットは、少数の ChatGPT Plus ユーザーとすべての Business Standard ユーザーに展開されます。\n- ChatGPT は、ドットを持っている、またはドットを作成できる Pro ユーザーから始まる新しいモバイル エクスペリエンスを獲得します。\n- GPT-Live-1.1 は、より自然なアクセントとアイドル コストを削減するための新しいスタンバイ オプションを備えた API に組み込まれました。\n- ChatGPT Health はデスクトップ、ドット、サイト、Android で利用できるようになりました。\n- Responses API の GPT-6.2 エージェントは、以前の推論を再利用して、より少ないトークンでより良い結果を得ることができるようになりました。\nマイクロソフト $498.30 (−1.97%) 🔥:\n- Microsoft AI がインタラクティブなワークスパである Canvas を開始"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     }
   ]
 }
