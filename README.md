@@ -33,8 +33,9 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 | トレカ抽選速報 X監視ボード（せど子・アフロくま・ぴかQ） | `sources-toreca-lottery.json` | `toreca-lottery.html` | `data-toreca-lottery.json` |
 | ライブコマース・TikTok Shop 4社 ニュース監視（Sホールディングス／Cellest／Gastroduce Japan／CREOK） | `sources-livecommerce-4companies.json` | `livecommerce-4companies.html` | `data-livecommerce-4companies.json` |
+| 買取系 X監視ボード（トレンドNews／買取ルデヤ／買取ソムリエ／買取ホムラ／買取エノキング） | `sources-kaitori.json` | `kaitori.html` | `data-kaitori.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html`
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html` / `/kaitori.html`
 （各ページ上部のピルから互に行き来できます）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
@@ -93,6 +94,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `ai-tools.html` / `data-ai-tools.json` | AI新着 X監視ボードの生成物 |
 | `urban-dev.html` / `data-urban-dev.json` | 都市開発 X監視ボードの生成物（キーワードチップ付き） |
 | `livecommerce-4companies.html` / `data-livecommerce-4companies.json` | ライブコマース・TikTok Shop 4社ボードの生成物 |
+| `kaitori.html` / `data-kaitori.json` | 買取系5アカウント X監視ボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_ec_support.py` | `COMPANIES`（EC・支援34社）→ `sources-ec-support.json` を生成（`--check` / `--only` 付き） |
 | `sync_ec_brands.py` | 社名リスト（1,045行）を名寄せした515社 → `sources-ec-brands.json` を生成（`--check` / `--only` 付き） |
