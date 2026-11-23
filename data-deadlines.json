@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-24T06:02:26+09:00",
+ "generatedAt": "2026-11-24T08:15:08+09:00",
  "title": "当日締切・プレ値チェッカー",
  "dates": {
-  "2026-11-24": 83,
+  "2026-11-24": 84,
   "2026-11-23": 147
  },
  "today": "2026-11-24",
@@ -4778,6 +4778,37 @@
   },
   {
    "date": "2026-11-24",
+   "time": "15:00",
+   "timeKnown": true,
+   "store": "福田屋百貨店（宇都宮店・インターパーク店・鹿沼店）",
+   "prefs": [
+    "栃木県"
+   ],
+   "cat": "other",
+   "catLabel": "その他地域",
+   "brand": "グッズ・その他",
+   "brandMain": "グッズ・その他",
+   "series": "BX-54 ジークスペリオン / CX-20 カスタマイズセットC",
+   "seriesMain": "BX-54 ジークスペリオン",
+   "price": 1601,
+   "buy": 9500,
+   "market": null,
+   "ratio": null,
+   "shrink": "不明",
+   "method": "",
+   "receive": "",
+   "products": [
+    "BX-54 ジークスペリオン",
+    "CX-20 カスタマイズセットC"
+   ],
+   "notes": [],
+   "urls": [
+    "https://www.fukudaya.net/event/6913"
+   ],
+   "source": "pokesoのみ"
+  },
+  {
+   "date": "2026-11-24",
    "time": "16:59",
    "timeKnown": true,
    "store": "ポケモンセンターオンライン",
@@ -5116,7 +5147,8 @@
    ],
    "notes": [],
    "urls": [
-    "https://x.com/AfroTCG/status/2124529194814324873"
+    "https://x.com/AfroTCG/status/2124529194814324873",
+    "https://x.com/omusubicororiin/status/2124703895968788641"
    ],
    "source": "X側のみ"
   },
@@ -5747,17 +5779,21 @@
    "buy": null,
    "market": null,
    "ratio": null,
-   "shrink": "不明",
+   "shrink": "あり",
    "method": "店頭",
    "receive": "店頭",
    "products": [
     "ハドウシーカー（30パックまで）"
    ],
-   "notes": [],
-   "urls": [
-    "https://x.com/WG_shimoseya_tc/status/2123763413071659173"
+   "notes": [
+    "ワンダーグー",
+    "@pokeka_chusen"
    ],
-   "source": "pokesoのみ"
+   "urls": [
+    "https://x.com/WG_shimoseya_tc/status/2123763413071659173",
+    "https://x.com/pokeka_chusen/status/2124626775648923950"
+   ],
+   "source": "pokeso＋X側統合"
   },
   {
    "date": "2026-11-24",
@@ -6591,7 +6627,8 @@
    "notes": [],
    "urls": [
     "https://docs.google.com/forms/d/e/1FAIpQLSezdyR6YUusIi8Gdiw0VVaROPq4nji-KCqHI_FXz8k3EMl5-w/viewform",
-    "https://x.com/AfroTCG/status/2124531431129108769"
+    "https://x.com/AfroTCG/status/2124531431129108769",
+    "https://x.com/pokeka_chusen/status/2124626775648923950"
    ],
    "source": "pokeso＋X側統合"
   },
@@ -6986,7 +7023,7 @@
    "catLabel": "関西",
    "brand": "ポケモンカード",
    "brandMain": "ポケモンカード",
-   "series": "メガブレイブ / ストームエメラルダ",
+   "series": "メガブレイブ / ストームエメラルダ / 151 未開封BOX",
    "seriesMain": "メガブレイブ",
    "price": 5400,
    "buy": 8400,
@@ -6997,12 +7034,14 @@
    "receive": "店頭",
    "products": [
     "ポケモンカード MEGA 拡張パック メガブレイブ BOX",
-    "ストームエメラルダ"
+    "ストームエメラルダ",
+    "ポケモンカード151 未開封BOX"
    ],
    "notes": [],
    "urls": [
     "https://t.co/NAAJdjpTZp",
-    "https://t.co/MAyuX5r5TZ"
+    "https://t.co/MAyuX5r5TZ",
+    "https://lin.ee/rHw6YdMe"
    ],
    "source": "pokesoのみ"
   },
@@ -7139,9 +7178,9 @@
    ],
    "cat": "other",
    "catLabel": "その他地域",
-   "brand": "ワンピースカード",
+   "brand": "ワンピースカード＋他1種",
    "brandMain": "ワンピースカード",
-   "series": "OP-18 神の支配",
+   "series": "OP-18 神の支配 / ハドウシーカー",
    "seriesMain": "OP-18 神の支配",
    "price": 5760,
    "buy": null,
@@ -7151,11 +7190,13 @@
    "method": "",
    "receive": "",
    "products": [
-    "神の支配【OP-18】"
+    "神の支配【OP-18】",
+    "ハドウシーカー"
    ],
    "notes": [],
    "urls": [
-    "https://x.com/AfroTCG/status/2124531431129108769"
+    "https://x.com/AfroTCG/status/2124531431129108769",
+    "https://x.com/pokeka_chusen/status/2124626775648923950"
    ],
    "source": "X側のみ"
   },
