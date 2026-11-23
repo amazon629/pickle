@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T09:48:50+09:00",
-  "generated_at_label": "2026/11/23 09:48 JST",
+  "generated_at": "2026-11-23T17:57:41+09:00",
+  "generated_at_label": "2026/11/23 17:57 JST",
   "title": "広告・マーケ X監視ボード",
   "total": 120,
   "sources": [
@@ -222,7 +222,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.7
+      "elapsed": 6.0
     },
     {
       "id": "x_kwm_co_jp",
@@ -452,7 +452,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.6
+      "elapsed": 6.3
     },
     {
       "id": "x_rkawtr",
@@ -679,7 +679,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.8
+      "elapsed": 4.3
     },
     {
       "id": "x_unyoojp",
@@ -908,7 +908,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 2.2
     },
     {
       "id": "x_anagrams_inc",
@@ -954,7 +954,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "📢 11/24(火)21時｜無料セミナー\nマーケティング戦略の立案に、AIをどう活用する？\n✅ 顧客・競合分析でAIに何を聞くか\n✅ AIとの対話で仮説をどう広げるか\n✅ 複数の仮説をどう比較・選択するか\nリサーチから戦略立案まで、AIの活用法と人が判断すべきポイントを解説します。\n👇 参加無料・お申し込みはこちら",
@@ -1133,7 +1133,9 @@
         {
           "title": "本当に「いまさら聞けない」\nFacebookのしくみが複雑になりすぎて、長く使っている私は混乱してしまう。\nブログで勉強中です。",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2122236266024722432/GatQZKRJ?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/writersakko/status/2121488238888276222",
           "domain": "x.com",
           "published": "2026-11-14T15:19:46+09:00",
@@ -1147,7 +1149,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.3
+      "elapsed": 2.5
     },
     {
       "id": "x_kloutter",
@@ -1176,6 +1178,24 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "リーマン予想の証明、Lean開発者らが「正しい」と声明 Claudeを使って発見(CNET Japan)\n#Yahooニュース",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124264830777659392/HbNRRgcZ?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/Kloutter/status/2124743084953248017",
+          "domain": "x.com",
+          "published": "2026-11-23T14:53:21+09:00",
+          "published_label": "2026/11/23(月) 14:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "マジかぁ\nGoogleの「AIによる概要（AI Overviews）」のアルゴリズムが流出した疑惑出てる\n1️⃣AIは検索前から候補ブランドを知っている\nユーザーの質問に対し、Googleは最初から一定のブランドを候補として持っている\n2️⃣候補ブランドの絞り込み方法\n最初に8社を認識+検索によって新たな5社が追加→最終的に5社に絞って回答\n3️⃣Redditを意図的に探している\n回答生成の途中でRedditの投稿を探す処理が確認されたと主張しています。Redditがブランドの評判を確認する材料になっているということ\n4️⃣ブランドの認知、関連性が重要\nGoogleがブランドをどのような存在として知っているかが推薦に影響\nChris Long (@chris_nectiv)\nNew AEO article: This AI Overviews leak reveals it's internal logic. Google specifically looks at Reddit + may already know the brands it wants to recommend:\nSo Very very interesting screenshot from Stéphane Le Mentec, LL.M. from @Ketch. He found what appears to be a leaked response from AI Overviews that publicly outlines the thinking logic it used to generate a response.\nNow normally I'm skeptical of these things but this seems pretty legitimate. If you've read Dan Petrovic's work around AI Mode tags, the <FollowUp> tag is exactly like the one he mentioned. It also uses <InlineEntity> which I don't believe was in his article, but closely matches the tags around entities.\nSo here's some very interesting takeaways.\n- It's heavily evaluating entities. It directly is looking for a list of entities <Inline Entity>\n- It seems to have an idea of the brands it wants to evaluate against already. In the \"Constraints\" it lists known entities. So that would indicate that similar to ChatGPT, it might have an existing corpus of brands it recommends that it starts off with.\n- I've also looked at a lot of fan-out query data where you can see brand search specifically. To me, that's more confirmation that Google is acting this way.\n- You can also see it looking DIRECTLY for Reddit. In the response it tries to find an Reddit thread where applicable.\n- It starts off with 8 brands, expands to 13 and then reduces to 5. My inference is that search retrieval can introduce new brands but it eventually narrows them down and stronger entity alliance gives a huge leg up for recommendation.\nAlso, here is some other required reading that is helpful context for this:\n1. ChatGPT Already Knows Who's In The Running Before It Searches (@suganthan)\n2. AI Mode Tags: FollowUp, Generate, Layout, Entity List and prompt_leaks.ignore (@dejanseo):\n— https://x.com/chris_nectiv/status/2123070530932625627",
@@ -1305,9 +1325,7 @@
         {
           "title": "マーケター出身のCEOはなぜ少ない 社長室への扉を開く5つの原則 （2ページ目） | 日経クロストレンド（この記事は2026年11月17日 16:58まで登録せずに読めます）",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122223189145313280/cL1pD841?format=jpg&name=800x419"
-          ],
+          "images": [],
           "link": "https://x.com/Kloutter/status/2122237874452238613",
           "domain": "x.com",
           "published": "2026-11-16T16:58:33+09:00",
@@ -1324,7 +1342,7 @@
           "title": "古巣・オプト統合のニュースをきっかけに「AI時代の広告会社とは何か」を本気で調べてみた（前編）｜荻原猛 株式会社ロケットスター代表取締役社長 @ogiwara55",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122162057583935488/FMmZGcxo?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124739769708032000/JfveJe4E?format=jpg&name=800x419"
           ],
           "link": "https://x.com/Kloutter/status/2122202215259742584",
           "domain": "x.com",
@@ -1342,7 +1360,7 @@
           "title": "【日経特報】最先端のスパコン「富岳」に不正アクセス 企業の開発情報の流出懸念",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122187966323830784/UXnwfq31?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124725297048375296/-TCOcuuh?format=jpg&name=800x419"
           ],
           "link": "https://x.com/nikkei/status/2122188531187527780",
           "domain": "x.com",
@@ -1355,27 +1373,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "夢のような技術じゃないですか。\n【熊本】ラーメンの塩分減らさず体内吸収を抑制 新興企業の技術が実用化 - 日本経済新聞",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122145784145580032/qagG_erF?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/odaiji/status/2122170779588780517",
-          "domain": "x.com",
-          "published": "2026-11-16T12:31:56+09:00",
-          "published_label": "2026/11/16(月) 12:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 2.7
     },
     {
       "id": "x_atarajp",
@@ -1588,7 +1588,9 @@
         {
           "title": "Web担当者Forumにファウンダー杉原の記事「ChatGPT広告は「もう1つの検索広告」ではない。ユーザーの欲しいを“生成”するAIと覇権争いの行方」が掲載されました。ぜひご一読ください。",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2124666304313344000/G0HxAiNE?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/atarajp/status/2082394196950790418",
           "domain": "x.com",
           "published": "2026-07-29T18:14:00+09:00",
@@ -1602,7 +1604,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 2.5
     },
     {
       "id": "x_ytakara",
@@ -1826,7 +1828,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 5.0
     },
     {
       "id": "x_hidenoritakii",
@@ -1963,7 +1965,7 @@
           "title": "自分の論理と才覚を信じるのがマーケター。他人の責任と成果を信じるのが社長業。\n両者は水と油なんよね。\njigen_1 (@Kloutter)\nマーケター出身のCEOはなぜ少ない 社長室への扉を開く5つの原則 （2ページ目） | 日経クロストレンド（この記事は2026年11月17日 16:58まで登録せずに読めます）\n— https://x.com/Kloutter/status/2122237874452238613",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122223189145313280/cL1pD841?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124760606641127424/vMgNytLg?format=jpg&name=800x419"
           ],
           "link": "https://x.com/hidenoritakii/status/2122313066453053452",
           "domain": "x.com",
@@ -1999,7 +2001,7 @@
           "title": "確かに比較口コミサイトのtripadvisorは個人的にもめっきり見なくなったな。\nTakahiro Watanabe (@takahwata)\nTripadvisor、検索環境の変化を理由に3.7億ドルの減損。\n成長事業の体験予約でも、SEO逆風が予約件数の成長率を3〜5ポイント押し下げた。AI経由の流入は転換率が高いが、全体の1%未満。\n失ったのは「調べる段階」の検索流入ではないか。\n— https://x.com/takahwata/status/2119993268679381403",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122996008019968000/waBVf1xu?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2124115169060311040/KNva9Vw8?format=png&name=800x419"
           ],
           "link": "https://x.com/hidenoritakii/status/2120056359177850995",
           "domain": "x.com",
@@ -2052,7 +2054,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.8
+      "elapsed": 5.1
     },
     {
       "id": "x_sugiharg",
@@ -2156,7 +2158,7 @@
           "title": "【ニュースリリース】\n博報堂とHakuhodo DY ONE、博報堂プロダクツは、博報堂ＤＹグループ各社と連携し、AIO（AI最適化）を起点に、広告（Paid）、PR・パブリシティ（Earned）、SNS・クチコミ（Shared）、自社メディア（Owned）を横断してのコミュニケーション統合対応スキーム「AIO Communication ONE」を始動することをお知らせします。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123223493831745536/AZXAOzsb?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2123223493831745536/1accekzW?format=jpg&name=800x419"
           ],
           "link": "https://x.com/HakuhodoKoho/status/2123237937538318388",
           "domain": "x.com",
@@ -2275,7 +2277,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 4.9
     }
   ]
 }

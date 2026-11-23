@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T09:48:52+09:00",
-  "generated_at_label": "2026/11/23 09:48 JST",
+  "generated_at": "2026-11-23T17:57:43+09:00",
+  "generated_at_label": "2026/11/23 17:57 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "双子座4度ネオンは書くのがすごいです\nOpenRouter を試している人々を見るのは素晴らしいことです。\nダン・マカティア (@daniel_mac8)\nGemini 4 Neon は、これまでにリリースされたモデルの中で最も味わい深いモデルです。\n近くないよ。\nこれを読んでください。驚くほど良いです。なんと？\n— https://x.com/daniel_mac8/status/2123413769808138523"
         },
         {
@@ -68,7 +68,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "プロバイダーのデータ処理に関する主張は、ほとんどが自己証明に依存しています。これでは十分ではありません。\n継続的なベンチマークとモニタリングによって OpenRouter 内外の推論の品質と信頼性が変化したのと同様に、データ ポリシーの適用に関しても技術的な検証、監査、継続的なテストが同様の効果をもたらすことを期待しています。\n暗号化された TEE (信頼された実行環境) 推論は、プロバイダーにとってこれを加速する優れた方法になります。\n私たちは基準を引き上げ続け、OpenRouter への参加を希望するプロバイダーはその基準を満たす必要があります。\nオープンルーター (@OpenRouter)\nセキュリティ研究者は最近、OpenRouter で利用できる一部の推論プロバイダーでデータ処理の問題を発見しました。調査結果では、OpenRouter 自体の侵害は認められませんでした。\nこれに応じて、私たちは 3 つのプロバイダーをオフボードし、多くのエンドポイントを ZDR 資格から削除し、影響を受ける顧客に通知しました。\n私たちは現在、研究者によるテストを継続的なチェックに組み込んでいます。完全なアップデートとプロバイダーの記事はブログにあります。\n— https://x.com/OpenRouter/status/2124315081899200715"
         },
         {
@@ -294,7 +294,7 @@
           "title_ja": "Microsoft-Decision-1.1 が一般公開されました。テキストを生成する代わりに、入力を読み取り、各回答オプションの調整された確率を返すため、1 回の高速呼び出しで明確な決定が得られます。\n試してみてください:"
         }
       ],
-      "elapsed": 5.1
+      "elapsed": 3.1
     },
     {
       "id": "x_opencode",
@@ -574,7 +574,7 @@
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
         }
       ],
-      "elapsed": 3.1
+      "elapsed": 5.4
     },
     {
       "id": "x_aimirai46487",
@@ -586,6 +586,40 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "Z .aiの最新AIモデル「GLM-5.4」が、GLM Coding Plan(Z .aiのサブスクプラン)のユーザー向けに提供開始されました。\nGLM-5.4は、新たに画像認識機能が追加され、コーディング性能も向上しているということです。\nZixuan Li (@ZixuanLi_)\nGLM-5.4 is now available to all GLM Coding Plan users.\nNew vision capabilities and stronger all-round coding performance.\nFor users with weekly quotas, GLM-5.4 now comes with 50% more quota compared to GLM-5.3.\n— https://x.com/ZixuanLi_/status/2124719275864670681",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2124746684546826605",
+          "domain": "x.com",
+          "published": "2026-11-23T15:07:40+09:00",
+          "published_label": "2026/11/23(月) 15:07",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "オラクルは、OpenAIとのインフラ契約に必要な資金を、今月実施した資金調達ですべて確保したと発表しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124656578246934528/PKHe5ed7?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124703865086116345",
+          "domain": "x.com",
+          "published": "2026-11-23T12:17:31+09:00",
+          "published_label": "2026/11/23(月) 12:17",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■参考\nSam Altman (@sama)\nThis is the most important thing OpenAI has published in awhile.\nWe are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control.\n— https://x.com/sama/status/2124551594691932405",
           "summary": "",
@@ -600,7 +634,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■参考\nサム・アルトマン (@sama)\nこれは、OpenAI がここしばらくで公開したものの中で最も重要なものです。\n私たちは事前トレーニングの進捗状況について多くの透明性を提供しており、共通の制限に対する自由として同意できることを願っています。それは非常に賢明であり、安全性と制御を確保するのに役立つと思います。\n— https://x.com/sama/status/2124551594691932405"
         },
         {
@@ -619,13 +653,13 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "韓国の大学受験で、AI搭載機器を使った不正行為が問題となっていて、11月19日の試験では100人以上の受験生が摘発されましが、 一連の混乱を受けて、崔教振教育相が11月22日に引責辞任しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2124650651770859520/H1F0-9SH?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124694621892816896/Zpv5MAEv?format=jpg&name=800x419"
           ],
           "link": "https://x.com/AIMIRAI46487/status/2124650651540156666",
           "domain": "x.com",
@@ -637,7 +671,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nAnt Ling (@AntLingAGI)\nToday, we release LingSante-3.1-flash, an open-weight MoE model with 560B total parameters and 25B activations per token. It unifies diverse medical capabilities while retaining general capabilities, including complex medical reasoning, long-horizon workflow execution, and professional behavior alignment.\nLingSante-3.1-flash moves beyond medical QA toward real-world healthcare problem. The model leads on HealthBench Professional (65.72), HLE (text-only, with tools: 72.22) and BrowseComp (with context: 94.10), outperforming GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on all three. LingSante-3.1-flash also performs well on professional long-horizon medical workflows, such as PhysicianBench (57) and EHR-Complex (74.40).\nTogether, these results establish LingSante-3.1-flash as the leading open-weight models for healthcare.\nThe weights are available. Explore LingSante and build with it.\nMore below ↓\n— https://x.com/AntLingAGI/status/2124523916819648945",
@@ -655,7 +689,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nアント・リング (@AntLingAGI)\n本日、私たちは LingSante-3.1-flash をリリースしました。これは、合計パラメーターが 560B、トークンごとに 25B のアクティベーションを備えたオープンウェイト MoE モデルです。複雑な医学的推論、長期的なワークフローの実行、専門的な行動の調整などの一般的な機能を維持しながら、多様な医療機能を統合します。\nLingSante-3.1-flash は、医療 QA を超えて現実世界の医療問題に取り組みます。このモデルは、HealthBench Professional (65.72)、HLE (テキストのみ、ツールあり: 72.22)、および BrowseComp (コンテキストあり: 94.10) でリードしており、3 つすべてで GPT-6 Astra、Claude Opus 5.5、および Gemini 4 Argon を上回っています。 LingSante-3.1-flash は、PhysicianBench (57) や EHR-Complex (74.40) など、長期にわたる専門的な医療ワークフローでも優れたパフォーマンスを発揮します。\nこれらの結果を総合すると、LingSante-3.1-flash がヘルスケア向けの主要なオープンウェイト モデルとして確立されています。\n重りは入手可能です。 LingSante を探索し、それを使用して構築します。\n続きは下記↓\n— https://x.com/AntLingAGI/status/2124523916819648945"
         },
         {
@@ -674,7 +708,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "LeanとMathlibの開発コミュニティーは、Claudeを使って作成された数学の難問「リーマン予想」の証明が正しいとする共同声明を発表しました。\n約1700万行のコードを複数の方法で検証し、証明が成立していることを確認したとしています。",
@@ -823,46 +857,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "■引用元\nゲーム向け Unity (@unitygames)\nUnity Neural の紹介: Unity のコンピューティング パイプラインを高速化し、URP のグラフィックス メモリを削減するように設計された新世代の AI 高速化ツールです。\nエディターにネイティブに統合されたニューラル テクスチャ圧縮 (NTC) を使用すると、Sentis を使用して独自のデータでモデルをトレーニングし、従来の形式を超えてほぼロスレスの品質でテクスチャを圧縮できます。\nビデオ\n— https://x.com/unitygames/status/2123869197415366939"
-        },
-        {
-          "title": "Unityは、AIを活用して処理速度を向上させ、グラフィックスに使用するメモリを大幅に削減する新しいツール群「Unity Neural」を発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/ext_tw_video_thumb/2123869088711610368/pu/img/y9DL4fWqUwazEtgn.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349549498269890",
-          "domain": "x.com",
-          "published": "2026-11-22T12:49:35+09:00",
-          "published_label": "2026/11/22(日) 12:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nOpenAI (@OpenAI)\nMedChemBench is a new benchmark for AI reasoning in medicinal chemistry.\nIt shows the progress our frontier models have made in their ability to help scientists use AI to identify promising drug candidates.\nVideo\n— https://x.com/OpenAI/status/2123856316187975756",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349485367341119",
-          "domain": "x.com",
-          "published": "2026-11-22T12:49:20+09:00",
-          "published_label": "2026/11/22(日) 12:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nオープンAI (@OpenAI)\nMedChemBench は、医薬化学における AI 推論の新しいベンチマークです。\nこれは、科学者が AI を使用して有望な薬剤候補を特定するのを支援する当社のフロンティア モデルの能力が進歩していることを示しています。\nビデオ\n— https://x.com/OpenAI/status/2123856316187975756"
         }
       ],
-      "elapsed": 2.9
+      "elapsed": 3.5
     },
     {
       "id": "x_kimmonismus",
@@ -894,6 +891,62 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "Alexandr Wang and Elon Musk: \"Superintelligene arrived, there is no doubt. The Riemann Hypothesis has been proven\"\nYann Lecun: \"bUt wE don'T hAvE leVeL-5 auTonoMous DriVinG\"\n...\nChubby♨️ (@kimmonismus)\nHoly, I think we did it? Meta's chief AI officer Alexandr Wang: \"Superintelligence is arriving.\"\nWhat humanity does over the next year will decide which future we end up in, he writes.\n- AI will be smart enough to automate all of AI research and become superhuman at improving itself\n- Raw intelligence is no longer the bottleneck. What's left is domain know-how, plumbing and experimentation\nThe proof of the Riemann Hypothesis was the key evidence for superintelligence.\n— https://x.com/kimmonismus/status/2124756488153374779",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXyn__OW0AAtsBw.jpg?name=small",
+            "https://pbs.twimg.com/media/HXymjjyW8AATx9i.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124788292277215500",
+          "domain": "x.com",
+          "published": "2026-11-23T17:53:00+09:00",
+          "published_label": "2026/11/23(月) 17:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "アレクサンドル・ワンとイーロン・マスク：「スーパーインテリジェンスが到着した。疑いの余地はない。リーマン予想は証明された」\nヤン・レクン: 「しかし、私たちはレベル5の自動運転を持っていません」\n...\nぽっちゃり♨️ (@kimmonismus)\n聖、私たちはそれをやったと思いますか？メタ社の最高AI責任者アレクサンドル・ワン氏：「超知能が到来する」\n来年人類が何をするかによって、私たちがどのような未来にたどり着くかが決まる、と彼は書いている。\n- AI はすべての AI 研究を自動化し、自己改善において超人的になるほど賢くなるでしょう\n- 生のインテリジェンスがボトルネックではなくなりました。残っているのは、ドメインのノウハウ、配管、実験だけです\nリーマン予想の証明は超知性の重要な証拠でした。\n— https://x.com/kimmonismus/status/2124756488153374779"
+        },
+        {
+          "title": "Holy, I think we did it? Meta's chief AI officer Alexandr Wang: \"Superintelligence is arriving.\"\nWhat humanity does over the next year will decide which future we end up in, he writes.\n- AI will be smart enough to automate all of AI research and become superhuman at improving itself\n- Raw intelligence is no longer the bottleneck. What's left is domain know-how, plumbing and experimentation\nThe proof of the Riemann Hypothesis was the key evidence for superintelligence.\nAlexandr Wang (@alexandr_wang)\n— https://x.com/alexandr_wang/status/2124636606959345776",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXymjjyW8AATx9i.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124756488153374779",
+          "domain": "x.com",
+          "published": "2026-11-23T15:46:37+09:00",
+          "published_label": "2026/11/23(月) 15:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "聖、私たちはそれをやったと思いますか？メタ社の最高AI責任者アレクサンドル・ワン氏：「超知能が到来する」\n来年人類が何をするかによって、私たちがどのような未来にたどり着くかが決まる、と彼は書いている。\n- AI はすべての AI 研究を自動化し、自己改善において超人的になるほど賢くなるでしょう\n- 生のインテリジェンスがボトルネックではなくなりました。残っているのは、ドメインのノウハウ、配管、実験だけです\nリーマン予想の証明は超知性の重要な証拠でした。\nアレクサンドル・ワン (@alexandr_wang)\n— https://x.com/alexandr_wang/status/2124636606959345776"
+        },
+        {
+          "title": "GLM-5.4 is out! Gonna be a busy day I guess! No benchmarks yet. I keep you updated!!\nThis is going to be interesting\nZixuan Li (@ZixuanLi_)\nGLM-5.4 is now available to all GLM Coding Plan users.\nNew vision capabilities and stronger all-round coding performance.\nFor users with weekly quotas, GLM-5.4 now comes with 50% more quota compared to GLM-5.3.\n— https://x.com/ZixuanLi_/status/2124719275864670681",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124751957696938312",
+          "domain": "x.com",
+          "published": "2026-11-23T15:28:37+09:00",
+          "published_label": "2026/11/23(月) 15:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "GLM-5.4がリリースされました！きっと忙しい一日になると思います！まだベンチマークはありません。最新情報をお知らせします!!\nこれは面白くなりそうだ\nリー・ジシュアン (@ZixuanLi_)\nGLM-5.4 は、すべての GLM コーディング プラン ユーザーが利用できるようになりました。\n新しいビジョン機能と強力なオールラウンドコーディングパフォーマンス。\n毎週の割り当てがあるユーザーの場合、GLM-5.4 には GLM-5.3 と比較して 50% 多い割り当てが付属しています。\n— https://x.com/ZixuanLi_/status/2124719275864670681"
+        },
+        {
           "title": "Lol just saw that there is a website where a coordinated army of agents is trying to solve p=np",
           "summary": "",
           "images": [
@@ -909,7 +962,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "(笑) エージェントの組織的な軍隊が p=np を解決しようとしている Web サイトがあるのを見ました。"
         },
         {
@@ -926,7 +979,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": ".@alpoge は 2 日前、世界で最も大きな未解決の数学問題の 1 つ (おそらく最大のもの) を解決しましたが、それ以来彼は一言も発言していません。\n私にはクレイジーだ。しかし、私は来週、彼か人類、またはその両方による何らかの声明を期待しています。"
         },
         {
@@ -1009,7 +1062,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123232913668104193/R9n_tVRZ?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2123224552037560320/6U3hTBcG?format=jpg&name=800x419"
           ],
           "link": "https://x.com/kimmonismus/status/2124525578904879111",
           "domain": "x.com",
@@ -1097,72 +1150,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenAI からは、単に漠然とした「まあ、大丈夫です」というだけではなく、もっと正式なアップデートを期待しています。\nGPT-6.2 Sol と Astra のパフォーマンスが非常に悪い理由は何ですか?これをどのように修正する予定ですか?タイムラインとロードマップはどのようなものですか?現在、Google との競合をどのように見ていますか?また、どのような措置を講じるつもりですか?\nこれは関係者全員にとって役立つと思います。コミュニティとのコミュニケーションは以前は今よりも良好でした。"
-        },
-        {
-          "title": "“They're going to train AI systems that will train smarter AI systems. They will compress decades of research into months.”\nJacob coxon sees this a problem. I don’t.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124062196061859840/img/ojcz9OwLl_JjBIii.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124285825911226635",
-          "domain": "x.com",
-          "published": "2026-11-22T08:36:22+09:00",
-          "published_label": "2026/11/22(日) 08:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "「彼らは、よりスマートな AI システムをトレーニングする AI システムをトレーニングする予定です。数十年にわたる研究が数か月に圧縮されるでしょう。」\nジェイコブ・コクソン氏はこれが問題だと考えている。私はしません。"
-        },
-        {
-          "title": "I never met Jensen but every single NVIDIA employee I’ve met, has told me a story of how he supported them personally, IE: helping them if they had long-term or serious illness, or remembering certain challenges facing their respective families.\nThese were told unprompted. Guess there is a reason why he has a 99% approval rating by NVIDIA employees on Glassdoor.\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqoejqXQAI5gSw.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoejqWgAA2oFh.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoekGWEAAuPsC.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124195417210413056/img/vWS45pcMy-4tQIFp.jpg?name=small"
-          ],
-          "link": "https://x.com/NinaDSchick/status/2124273670025846817",
-          "domain": "x.com",
-          "published": "2026-11-22T07:48:04+09:00",
-          "published_label": "2026/11/22(日) 07:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "私はジェンセン氏に会ったことはありませんが、これまでに会った NVIDIA 従業員は皆、ジェンセン氏がどのように個人的に彼らをサポートしたか、つまり、長期にわたる病気や深刻な病気を抱えた場合に彼らを助けたり、それぞれの家族が直面している特定の課題を思い出したりしたという話をしてくれました。\nこれらは何も言わずに告げられました。 Glassdoor で彼が NVIDIA 従業員から 99% の支持率を得ているのには理由があると思われます。\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも一つだけはっきりと言えるのは、"
-        },
-        {
-          "title": "It’s wonderful to see how many people stand with Jensen.\nAnd thank you all for the nice comments!\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqoejqXQAI5gSw.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoejqWgAA2oFh.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoekGWEAAuPsC.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124195417210413056/img/vWS45pcMy-4tQIFp.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124262589521686554",
-          "domain": "x.com",
-          "published": "2026-11-22T07:04:02+09:00",
-          "published_label": "2026/11/22(日) 07:04",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ジェンセンを支持する人がどれだけいるかを見るのは素晴らしいことです。\nそして素敵なコメントをくださった皆様、ありがとうございました！\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも私は、はっきりと一つだけ言えることがある。それは、彼の発言が攻撃、軽蔑、屈辱の意味であったと感じたことは一度もなかったということである。それは常に状況コメディでした。ジェンセンが NVIDIA の CEO になっていなかったら、彼はいつでも冗談を言う優れたスタンドアップ コメディアンになっていたでしょう。しかし、wとして"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 3.1
     },
     {
       "id": "x_haider1",
@@ -1194,6 +1184,42 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "openai can't let anthropic steal the spotlight with the riemann hypothesis and there's a good chance they're already deploying swarms of AI agents to solve P vs NP\nback in september, oai indirectly confirmed this when they revealed that agents were working all six unsolved millennium problems but later redirected those agents towards solving navier–stokes",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXyzjXhagAAM30U.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2124770554108576078",
+          "domain": "x.com",
+          "published": "2026-11-23T16:42:31+09:00",
+          "published_label": "2026/11/23(月) 16:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "openai はリーマン仮説で人類がスポットライトを奪うことを許すことができず、P 対 NP を解決するためにすでに AI エージェントの群れを配備している可能性が十分にあります\n9月にoaiは、エージェントが6つの未解決のミレニアム問題すべてに取り組んでいたが、その後それらのエージェントをナビエ・ストークスの解決に向けて方向転換したことを明らかにし、これを間接的に確認した。"
+        },
+        {
+          "title": "is AI progress slowing down?\nit's been more than 48 hours since the Riemann Hypothesis proof dropped and i'm starting to think LLMs have plateaued\ni was expecting P = NP by now",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124699458566799372",
+          "domain": "x.com",
+          "published": "2026-11-23T12:00:00+09:00",
+          "published_label": "2026/11/23(月) 12:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AIの進歩は鈍化しているのでしょうか？\nリーマン予想の証明が落ちてから48時間以上が経過し、LLMは頭打ちになったと思い始めています\n今頃は P = NP だと予想していました"
+        },
+        {
           "title": "the devfluencer hate on gpt-6.2 astra and sol are just ridiculous\ni don't like people who confidently declare models suck based on video games nobody will ever play especially when proper model testing is rare because experienced users don't waste tokens on pointless tasks",
           "summary": "",
           "images": [],
@@ -1207,7 +1233,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "devfluencer が gpt-6.2 のアストラとソルを憎むのはばかばかしい\n私は、誰もプレイしないビデオゲームに基づいてモデルがひどいと自信を持って宣言する人々が好きではありません、特に適切なモデルのテストがまれな場合、経験豊富なユーザーは無意味なタスクにトークンを無駄にしないからです"
         },
         {
@@ -1226,7 +1252,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ノーム・ブラウンの2023年のツイート、今日のヒットは異なる\nopenai 内部モデルは、10,000 の AI エージェント、130B の出力トークン、88 時間の推論、さらに 17 時間のリーン検証を使用してナビエ ストークスを解決しました。\nanthropic の levent alpöge は、1,700 万行のリーン コードを作成することでリーマン予想を証明したと主張しています"
         },
         {
@@ -1408,45 +1434,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "anthropic はモデル 4 または初期のモデル 5 チェックポイントを使用してリーマン仮説を解決した可能性があります。これは、彼らが内部的に openai のベルを超えるものを持っていることを示しています\nギザギザの知能やトレーニング後の問題は別として、何世紀にもわたって数学者を悩ませてきた問題をフロンティアモデルが解決できることに今でも驚かされます。"
-        },
-        {
-          "title": "it's amazing how consistently terrible humans are at understanding exponential progress\nlast november, the rough estimate was that the Riemann Hypothesis would be solved in 2044 and this november that prediction moved all the way up to 2035\nand just yesterday we found a proof of it",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXpVphFbAAA6NmG.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2124110585197662258",
-          "domain": "x.com",
-          "published": "2026-11-21T21:00:02+09:00",
-          "published_label": "2026/11/21(土) 21:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "人間が指数関数的な進歩を理解するのが一貫してどれほどひどいかは驚くべきことです\n昨年の 11 月には、リーマン予想は 2044 年に解決されるだろうという大まかな見積もりがあり、今年の 11 月には、その予測は 2035 年まで大きく伸びました。\nand just yesterday we found a proof of it"
-        },
-        {
-          "title": "the Riemann Hypothesis proofs show what's possible when human expertise guides AI and that's where we should be headed\nAI driven by human intuition, creativity and expertise. AI labs will soon compete for a place in history and all of them will want to be remembered for curing cancer",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2124072525558882330",
-          "domain": "x.com",
-          "published": "2026-11-21T18:28:48+09:00",
-          "published_label": "2026/11/21(土) 18:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "リーマン予想の証明は、人間の専門知識が AI を導いたときに何が可能になるかを示しており、そこが私たちが向かうべき方向です\n人間の直感、創造性、専門知識によって動かされる AI。 AI 研究所はまもなく歴史上の地位を争うようになり、そのすべてががんの治療で記憶に残されることを望むようになるでしょう"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_testingcatalog",
@@ -1462,12 +1452,12 @@
           "title": "Documented 🗞️",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2124664896495247361/v91S5gtX?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124666539886415872/nRmsG6mS?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/testingcatalog/status/2124664894972969210",
+          "link": "https://x.com/testingcatalog/status/2124666578985750576",
           "domain": "x.com",
-          "published": "2026-11-23T09:42:39+09:00",
-          "published_label": "2026/11/23(月) 09:42",
+          "published": "2026-11-23T09:49:21+09:00",
+          "published_label": "2026/11/23(月) 09:49",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -1476,6 +1466,25 @@
           "priority": 0,
           "is_new": true,
           "title_ja": "文書化されました 🗞️"
+        },
+        {
+          "title": "SPACEXSI 🔥: Grok Bot app for macOS is about to get Computer Use and system-level dictation features.\nCurrently, Computer Use on Grok Bot is already available through cloud VMs, while the team is working on a local Computer Use feature that lets Grok Bot operate apps on your desktop.\nAdditionally, \"Dictation in any app\" is in the works!\n> \"Talk in any app, Hotkeys, dictionary, snippets, whisper, retention, and history live in their own window.\"\nSupergrok app incoming 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXxUphrXQAAtZMr.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2124666576263692490",
+          "domain": "x.com",
+          "published": "2026-11-23T09:49:20+09:00",
+          "published_label": "2026/11/23(月) 09:49",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "SPACEXSI 🔥: macOS 用の Grok Bot アプリに、コンピューターの使用とシステムレベルのディクテーション機能が追加されます。\n現在、Grok Bot でのコンピューター使用はクラウド VM を通じてすでに利用可能ですが、チームは Grok Bot がデスクトップ上でアプリを操作できるようにするローカル コンピューター使用機能に取り組んでいます。\nさらに、「あらゆるアプリでのディクテーション」も準備中です。\n> 「どのアプリでもトーク、ホットキー、辞書、スニペット、ささやき、保持、履歴が独自のウィンドウに表示されます。」\nSupergrok アプリが到着しました 👀"
         },
         {
           "title": "Google continues to work on a new \"Inbox mode\" for Antigravity, where users will be able to see threads that require their attention.\nIt follows a broader shift we see across other Google AI tools, like Gemini (in the works) and Loop (waitlist). This change positions users in the decision-making seat to approve and review AI outcomes, rather than steering them precisely, as a main interface.\nAntigravity is also getting new logic to create AI agents from the prompt, distinguished as \"For Me\" and \"For my Team\".\nIt is getting even more interesting now 👀",
@@ -1727,30 +1736,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Arcfront は、サンフランシスコとバンガロールで研究者、エンジニア、ドメイン専門家を雇用しています。\n見てください👀"
-        },
-        {
-          "title": "Arcfront has launched its platform for training AI models on specialized data gathered directly from field experts.\nThe company has 4 of the top 5 AI labs among its customers, less than a year after it started.\n@arcfront has partnered with 300+ large companies, from hospitals to banks, to record how their experts are making important decisions. Examples include software rollback procedures, chip design planning, or M&A assessments.\nAnshuman Singh (@anshuman_ssh)\nToday we're launching @arcfront with @Naman_Bhalla and deep support from @asxna.\nIn under a year, four of the five frontier labs became customers.\nIn 2025 an AI solved all 12 problems at the ICPC World Finals. The best human team solved 11. I competed in two of those finals, so I know how big a feat that is.\nAnd yet, put that same AI inside a company as a finance manager, or in almost any other job, and it fails on day 1.\nWhy is that?\nVideo\n— https://x.com/anshuman_ssh/status/2123848140575182946",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXmfN1TWkAA3IzA.jpg?name=small",
-            "https://pbs.twimg.com/media/HXmfN1aWUAAQrtT.jpg?name=small",
-            "https://pbs.twimg.com/media/HXogI3ra0AATmLH.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123903763966501024",
-          "domain": "x.com",
-          "published": "2026-11-21T07:18:12+09:00",
-          "published_label": "2026/11/21(土) 07:18",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Arcfront は、現場の専門家から直接収集した特殊なデータに基づいて AI モデルをトレーニングするためのプラットフォームを開始しました。\n同社は、設立から 1 年も経たないうちに、顧客のトップ 5 のうち 4 つの AI ラボを抱えています。\n@arcfront は、病院から銀行に至るまで 300 社以上の大企業と提携して、専門家がどのように重要な意思決定を行っているかを記録しています。例には、ソフトウェアのロールバック手順、チップ設計計画、M&A 評価などがあります。\nアンシュマン・シン (@anshuman_ssh)\n本日、私たちは @Naman_Bhalla と @asxna からの強力なサポートとともに @arcfront を立ち上げます。\n1 年も経たないうちに、フロンティア ラボ 5 社のうち 4 社が顧客になりました。\n2025 年、AI が ICPC 世界決勝戦で 12 の問題すべてを解決しました。最も優れた人間チームが 11 を解決しました。私はそれらの決勝戦のうち 2 回に出場したので、それがどれほど大きな偉業であるかを知っています。\nそれでも、同じ AI を財務マネージャーとして社内に導入したり、その他のほぼすべての仕事に導入したりすると、初日から失敗します。\nそれはなぜでしょうか?\nビデオ\n— https://x.com/anshuman_ssh/status/2123848140575182946"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.7
     }
   ]
 }
