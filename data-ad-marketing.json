@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T17:57:41+09:00",
-  "generated_at_label": "2026/11/23 17:57 JST",
+  "generated_at": "2026-11-23T20:31:14+09:00",
+  "generated_at_label": "2026/11/23 20:31 JST",
   "title": "広告・マーケ X監視ボード",
   "total": 120,
   "sources": [
@@ -31,6 +31,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "最近忙しすぎて泡吹きそうなので、忙しいのはなぜなのかをよく考えたところ、1日に入れるMTGが平気で何時間、何セットも増えていたことが要因と気付く。そして増えれば増えるほどスケジュール調整に難航するのも確認。\nそこでMuseを使って簡単なスケジュール制御を入れることにした。\n・1日3時間以上はMTGを入れない。すでに入ってる場合は、候補から外す。\n・相手に候補日を出す時に、カレンダーから空き時間の候補を選択できるようする。その選択した時間を相手に送るように簡単にコピペして送れるようにする。\n・相手から候補日と時間がくる場合は、カレンダーからその指定の時間を空き時間から選択できるようにする。選択したら、カレンダーに予定をセットしmeet URLを出力してコピペして送れるようにする。\nこれ地味に助かるんだけど、1日のMTG時間を制御できるからパツパツにならないし、空き時間の候補を選択するだけで相手に簡単に送る文章が出力できるのがありがたい。\n地道に使っていこう。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/shev_webmarke/status/2124819012974756000",
+          "domain": "x.com",
+          "published": "2026-11-23T19:55:04+09:00",
+          "published_label": "2026/11/23(月) 19:55",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "はぁ、、休日にサザンのライブを見ながら昼寝するの最高すぎる。\n海のある生活、やめられない。\n(今日は海とは関係ない)",
@@ -204,25 +220,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "こんなこと言ったら誰かに怒られると思うけど、なんでも叶える広告運用自動化ツールって、あまり需要がないと思ってる。\n(もちろん、良いツールはあるが)\n広告運用のそれぞれの業務は、全部同じに見えて役割や領域がまったく違うことが多い。それなのに全部繋ぎこむと、どこかでエラーを起こす。または、エラー(ヤバい設定や変なCRを作る、最適化設定ミスなど)に気が付かずに進めてしまうこともある。\n最近AIで効率化した人に話を聞くと、各ステップのどこかで事故を起こしてうまくいってないように見えることがある。特に運用最適の観点でAIに聞いた市場にあるナレッジだけを鵜呑みにすると事故率も上がりやすい。\nなので、やっぱり各ステップは独立して動いて、かつ個別で承認やチューニングができた方がいい。\n・分析：何が良い、悪いかをピンポイントで的確に探り、優先度からタスクを整理していけるようにチューニング\n・運用調整：過去の勝ち負けパターン、うまくいきやすい運用の型をナレッジ化させる(自社案件専用で学習させる)チューニング\n・CR生成：過去の勝ち負けパターンを学習し、かつ市場のトレンドに合わせてデザインに変化をかけ、インサイト情報の整理から顧客解像度を上げた、質の高い提案をさせるチューニング\n・自動入稿：勝手に入稿するだけじゃなく、案件やサービス特有の設定を分離させ、やる、やらないの優先度決めと時間効率を上げるチューニング\nとはいえ、それぞれ独立するツールを作ろうもんなら工数は爆発するし、全部作ったらハーネスエンジニアリングが回り切らないと無理、、どうすればいいのやらという話。\n広告運用の未来とは。",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/shev_webmarke/status/2123574744574513474",
-          "domain": "x.com",
-          "published": "2026-11-20T09:30:47+09:00",
-          "published_label": "2026/11/20(金) 09:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 6.0
+      "elapsed": 4.0
     },
     {
       "id": "x_kwm_co_jp",
@@ -452,7 +452,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 6.3
+      "elapsed": 6.7
     },
     {
       "id": "x_rkawtr",
@@ -571,9 +571,7 @@
         {
           "title": "\"調査の結果、42サービスのうち21サービスが、質問内容から自動生成された会話の要約タイトルを外部のトラッカーに漏えい\"\nAIに打ち明けた相談は“広告トラッカー”に筒抜け？ ChatGPT、Claude、Gemini含む42サービスを米大が調査：Innovative Tech - ITmedia NEWS",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122526370555432960/Yymc-DSY?format=jpg&name=800x419"
-          ],
+          "images": [],
           "link": "https://x.com/RKawtr/status/2122553099411976384",
           "domain": "x.com",
           "published": "2026-11-17T13:51:08+09:00",
@@ -679,7 +677,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.3
+      "elapsed": 4.9
     },
     {
       "id": "x_unyoojp",
@@ -908,7 +906,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 2.0
     },
     {
       "id": "x_anagrams_inc",
@@ -1134,7 +1132,7 @@
           "title": "本当に「いまさら聞けない」\nFacebookのしくみが複雑になりすぎて、長く使っている私は混乱してしまう。\nブログで勉強中です。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122236266024722432/GatQZKRJ?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2124774993099956224/fjfvNK9V?format=jpg&name=800x419"
           ],
           "link": "https://x.com/writersakko/status/2121488238888276222",
           "domain": "x.com",
@@ -1195,7 +1193,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "マジかぁ\nGoogleの「AIによる概要（AI Overviews）」のアルゴリズムが流出した疑惑出てる\n1️⃣AIは検索前から候補ブランドを知っている\nユーザーの質問に対し、Googleは最初から一定のブランドを候補として持っている\n2️⃣候補ブランドの絞り込み方法\n最初に8社を認識+検索によって新たな5社が追加→最終的に5社に絞って回答\n3️⃣Redditを意図的に探している\n回答生成の途中でRedditの投稿を探す処理が確認されたと主張しています。Redditがブランドの評判を確認する材料になっているということ\n4️⃣ブランドの認知、関連性が重要\nGoogleがブランドをどのような存在として知っているかが推薦に影響\nChris Long (@chris_nectiv)\nNew AEO article: This AI Overviews leak reveals it's internal logic. Google specifically looks at Reddit + may already know the brands it wants to recommend:\nSo Very very interesting screenshot from Stéphane Le Mentec, LL.M. from @Ketch. He found what appears to be a leaked response from AI Overviews that publicly outlines the thinking logic it used to generate a response.\nNow normally I'm skeptical of these things but this seems pretty legitimate. If you've read Dan Petrovic's work around AI Mode tags, the <FollowUp> tag is exactly like the one he mentioned. It also uses <InlineEntity> which I don't believe was in his article, but closely matches the tags around entities.\nSo here's some very interesting takeaways.\n- It's heavily evaluating entities. It directly is looking for a list of entities <Inline Entity>\n- It seems to have an idea of the brands it wants to evaluate against already. In the \"Constraints\" it lists known entities. So that would indicate that similar to ChatGPT, it might have an existing corpus of brands it recommends that it starts off with.\n- I've also looked at a lot of fan-out query data where you can see brand search specifically. To me, that's more confirmation that Google is acting this way.\n- You can also see it looking DIRECTLY for Reddit. In the response it tries to find an Reddit thread where applicable.\n- It starts off with 8 brands, expands to 13 and then reduces to 5. My inference is that search retrieval can introduce new brands but it eventually narrows them down and stronger entity alliance gives a huge leg up for recommendation.\nAlso, here is some other required reading that is helpful context for this:\n1. ChatGPT Already Knows Who's In The Running Before It Searches (@suganthan)\n2. AI Mode Tags: FollowUp, Generate, Layout, Entity List and prompt_leaks.ignore (@dejanseo):\n— https://x.com/chris_nectiv/status/2123070530932625627",
@@ -1325,7 +1323,9 @@
         {
           "title": "マーケター出身のCEOはなぜ少ない 社長室への扉を開く5つの原則 （2ページ目） | 日経クロストレンド（この記事は2026年11月17日 16:58まで登録せずに読めます）",
           "summary": "",
-          "images": [],
+          "images": [
+            "https://pbs.twimg.com/card_img/2124760606641127424/vMgNytLg?format=jpg&name=800x419"
+          ],
           "link": "https://x.com/Kloutter/status/2122237874452238613",
           "domain": "x.com",
           "published": "2026-11-16T16:58:33+09:00",
@@ -1375,7 +1375,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.7
+      "elapsed": 2.5
     },
     {
       "id": "x_atarajp",
@@ -1604,7 +1604,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 2.4
     },
     {
       "id": "x_ytakara",
@@ -1828,7 +1828,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.0
+      "elapsed": 5.5
     },
     {
       "id": "x_hidenoritakii",
@@ -2054,7 +2054,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 5.1
+      "elapsed": 5.6
     },
     {
       "id": "x_sugiharg",
@@ -2277,7 +2277,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 4.9
+      "elapsed": 5.6
     }
   ]
 }
