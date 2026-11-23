@@ -35,9 +35,10 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | ライブコマース・TikTok Shop 4社 ニュース監視（Sホールディングス／Cellest／Gastroduce Japan／CREOK） | `sources-livecommerce-4companies.json` | `livecommerce-4companies.html` | `data-livecommerce-4companies.json` |
 | 買取系 X監視ボード（トレンドNews／買取ルデヤ／買取ソムリエ／買取ホムラ／買取エノキング） | `sources-kaitori.json` | `kaitori.html` | `data-kaitori.json` |
 | ポケカ・トレカ抽選2 X監視ボード（MEISY／おむすび／ポケカ情報速報） | `sources-pokeca-lottery2.json` | `pokeca-lottery2.html` | `data-pokeca-lottery2.json` |
+| 当日締切・プレ値チェッカー（当日締切の抽選・販売を区分／プレ値倍率／ブランドで絞り込み） | なし（`work/build_today_deadlines_excel.py --publish-board` が生成。毎朝06:02） | `deadlines.html` | `data-deadlines.json` |
 
-公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html` / `/kaitori.html` / `/pokeca-lottery2.html`
-（各ページ上部のピルから互に行き来できます）
+公開URL: `https://amazon629.github.io/pickle/` / `/ai.html` / `/ipo.html` / `/ipo-approved.html` / `/ipo-news.html` / `/prtimes.html` / `/startup.html` / `/ec-companies.html` / `/ec-support.html` / `/ec-brands.html` / `/ec-mailorder.html` / `/smartnews-partners.html` / `/shopify-partners.html` / `/sns-agencies.html` / `/ad-marketing.html` / `/caster-companies.html` / `/nrtv-companies.html` / `/ecnopro-companies.html` / `/pokeca.html` / `/unicorns.html` / `/jp-stocks.html` / `/ai-tools.html` / `/urban-dev.html` / `/toreca-lottery.html` / `/livecommerce-4companies.html` / `/kaitori.html` / `/pokeca-lottery2.html` / `/deadlines.html`
+（各ページ上部のピルから互に行き来できます。`deadlines.html` は取得を伴わない静的ボードで、`update.py` はナビに出すだけで中身は触りません＝`SAFE_BOARDS`）
 
 - 画面: グレー背景 `#f2f3f5` に白い角丸カード、カード上部にソース名と件数、各項目は バッジ / タイトル（タップで元記事へ）/ ドメイン / 時刻（JST）
 - 新着（前回取得時になかった記事）は薄い緑の行と赤い点で表示

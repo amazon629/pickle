@@ -79,13 +79,29 @@ def board_paths(config_path: str, out: str = "", data: str = "") -> dict:
 
 
 def discover_boards() -> list:
-    """sources.json（メイン）と sources-*.json（サブボード）を全部返す。"""
+    """sources.json（メイン）と sources-*.json（サブボード）を全部返す。
+
+    取得を伴わない静的ボード（SAFE_BOARDS）は、html があるときだけナビ用に加える。
+    """
     boards = []
     if os.path.exists(SOURCES_PATH):
         boards.append(board_paths(SOURCES_PATH))
     for path in sorted(glob.glob(os.path.join(BASE_DIR, "sources-*.json"))):
         boards.append(board_paths(path))
+    for entry in SAFE_BOARDS:
+        p = os.path.join(BASE_DIR, entry["index"])
+        if os.path.exists(p):
+            boards.append({"name": entry["name"], "config": None, "index": p,
+                           "data": None, "static": True})
+    # ナビの並びは sources ファイルのパス順（main が先頭）に揃える
+    boards.sort(key=lambda b: (0,) if b["name"] == "main" else (1, f"sources-{b['name']}.json"))
     return boards
+
+
+# 取得を伴わないボード: 別スクリプトが HTML を作るページ。update.py はナビに出すだけで触らない。
+SAFE_BOARDS = [
+    {"name": "deadlines", "index": "deadlines.html", "label": "⏰ 当日締切"},
+]
 
 JST = timezone(timedelta(hours=9), "JST")
 # 全ボードをまとめて取得するときの同時接続数。大きくしすぎると Google ニュース /
@@ -1943,7 +1959,7 @@ def run(args) -> int:
             print(f"IPO新規承認ニュースの同期をスキップ: {exc}", file=sys.stderr)
 
     all_boards = discover_boards()
-    boards = list(all_boards)
+    boards = [b for b in all_boards if not b.get("static")]
 
     if args.config:
         path = args.config
@@ -1968,7 +1984,11 @@ def run(args) -> int:
         return 2
 
     labels = {}
+    static_labels = {e["name"]: e.get("label") or e["name"] for e in SAFE_BOARDS}
     for b in all_boards:
+        if b.get("static"):
+            labels[b["name"]] = static_labels.get(b["name"], b["name"])
+            continue
         try:
             labels[b["name"]] = board_label(b, load_sources(b["config"]).get("settings", {}))
         except Exception:
