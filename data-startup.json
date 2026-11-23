@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T04:31:56+09:00",
-  "generated_at_label": "2026/11/23 04:31 JST",
+  "generated_at": "2026-11-23T09:49:00+09:00",
+  "generated_at_label": "2026/11/23 09:49 JST",
   "title": "スタートアップ監視ボード",
   "total": 73,
   "sources": [
@@ -256,7 +256,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 0.6
     },
     {
       "id": "x_tomotake94",
@@ -268,6 +268,42 @@
       "via": "https://nitter.cf/tomotake94/rss",
       "count": 15,
       "items": [
+        {
+          "title": "国産AIの開発会社ノエトラ（Noetra）に関わる事業総額が、5年間で当初の1兆円から1.8兆円へ、約8,000億円膨らむ見通しに。\n画像処理半導体（GPU）の関連部品の高騰によるものです。\n国が財政支援しているため負担増加が懸念されます。\nノエトラは2026年1月に設立された国産AIの開発会社で、ソフトバンク、ソニーグループ、NEC、ホンダの4社を中核に、ファナック、安川電機、三菱電機、日立製作所、3メガバンクなど計44社が出資しています。\n目指しているのは、「フィジカルAI」の基盤モデルで、開発は次の順で進める計画です。\n・2026年度〜：日本語の推論モデル\n・2028年度：言語・画像・動画・音声をまとめて扱うモデル\n・2030年度：物理法則を理解する「実世界ネイティブAI」\n経済産業省とNEDO（新エネルギー・産業技術総合開発機構）は、2026年度に3,873億円を拠出し、5年間で1兆円規模を支援する計画でした。\n部品高騰の中身はわかりませんが、AI向けの高性能メモリ（HBM）など、メモリ価格の高騰が大きいのではないかと推測されます。\n米国の大手テック企業のAIへの投資額を考慮すると、1.8兆円でも桁が違いますので、事業総額が膨らむのはやむを得ない面はあると思いますが、国のお金が投じられている以上はお金の使い方に規律が必要です。\n追加コストのうち、一定割合を民間（44社）が負担する仕組みにする。\n計算資源は「持つ」と「借りる」の組み合わせにし、GPUの陳腐化リスクを分散する。\n年度ごとの成果審査を厳格にし、モデルの性能や、参加企業の実際の活用状況といった客観的な指標で判断する。\nなど「お金の規律」を設計できるかが、過去の日の丸プロジェクトと同じ道をたどるかどうかの分かれ目になると思います。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123681029600972800/GNpiDGNj?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2124653818709471594",
+          "domain": "x.com",
+          "published": "2026-11-23T08:58:39+09:00",
+          "published_label": "2026/11/23(月) 08:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "自律型の水中・水上の無人艇を開発する米Odin Dynamics（オーディン・ダイナミクス）が、ステルスを抜けて累計の調達額は1,700万ドル（約27億円）であることを公表しました。Freestyle VC、BlueYard Capital、Sierra Venturesが出資しています。\n共同創業者は米テスラでバッテリーとパワートレイン（動力系）の開発に携わり、その後、電動ボートのスタートアップArcで、電動艇の開発も手がけています。\nEVの電池と動力の技術を、軍事用の水中ドローンに持ち込んだ形です。\n主力は、無人の水中ドローン（UUV）の「Dolphin（ドルフィン）」シリーズです。人の監視なしに、標的を見つけて追跡できる完全自律型として設計されています。\n・Dolphin S（量産を優先）：直径約32cm、全長3〜5m。約23kgの搭載物を積め、3日以上連続で動ける\n・Dolphin M（開発中）：直径約53cm、全長約6m。約300kgを積める大型機で、米海軍の主力魚雷「Mark 48」の置き換えを狙う\nMark 48は1発約500万ドル（約8億円）とされ、数千億円規模の潜水艦から発射されます。\nDolphinは、より安く、より多くの場所から出せることを売りにしています。\n技術の成熟度は既にTRL8（実用化の直前の段階）相当で、米国防総省の試作契約を獲得済み。\n2026年夏には、米陸軍の契約部門から1,456万ドル（約23億円）の試作契約を受注済み。事業開始から約1年で、政府との契約は2,000万ドルを超えるなど早くも売上が立つ状態まで到達しています。\nウクライナでは、安い水上ドローンが黒海でロシアの艦艇に大きな打撃を与えたことで、米軍も、高価な艦艇や魚雷を少数持つより、安い自律型の無人機を大量に配備する方向へ動いています。\nまた、アメリカは限られた手段で1万の島々を守る必要があります。インド太平洋の広い海域で、有人の艦艇や潜水艦だけで警戒・抑止を続けるのは現実的ではありません。\n水中ドローンをはじめとする無人の装備は、防衛にとって重要なテーマになっていますね。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123077305312444417/hbfERvEF?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/tomotake94/status/2124623447586439302",
+          "domain": "x.com",
+          "published": "2026-11-23T06:57:58+09:00",
+          "published_label": "2026/11/23(月) 06:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "始まってますね\n片山幹健（Tomotake Katayama) (@tomotake94)\n企業向けの顧客対応AIエージェントを開発する米Sierraが、企業価値約300億ドル（約4.8兆円）で、約15億ドル（約2,400億円）の資金調達を協議していると報じられました。\nSierraは2023年に、ブレット・テイラー氏とクレイ・ベイバー氏が共同で創業しました。\n・テイラー氏：Googleマップの共同開発者で、Facebook（現Meta）のCTO、Salesforceの共同CEO、Twitterの会長を歴任。現在はOpenAIの取締役会の議長も務める\n・ベイバー氏：Googleで長くVR（仮想現実）や研究開発部門を率いた元幹部\nシリコンバレーで最も経験豊富な経営者の1人が、自ら「AIエージェントの会社」を立ち上げたことで、創業当初から注目を集めてきました。\n同社は、企業の顧客対応を担うAIエージェントを提供しています。チャットや電話で顧客の問い合わせに答えるだけでなく、注文の変更、返品、予約の変更、支払いといった手続きまで、AIが人の代わりにこなします。\n10月には決済大手Stripeと組み、電話の通話中に支払いまで完了できる機能も始めました。\n顧客は大企業が中心です。コールセンターの人件費が大きい企業ほど、AIで置き換えたときの効果が大きくなります。\n10月に、ARRが4億ドル（約640億円）を超えたと発表され、約5カ月前から倍増しています。サービスの開始から2年足らずでの到達しているのも驚きです。\nSierraが狙うのはソフトウェアの予算ではなく、世界中の企業がコールセンターに払っている「人件費」です。人件費を置き換える市場は、従来のソフトウェア市場よりはるかに大きい。\n顧客対応は、AIエージェントが最初に「本当の仕事」を置き換える領域になりつつあります。日本でも、コールセンターの人手不足は深刻です。Sierraは今年の3月に日本のOpera Techを買収して日本市場にも進出してきています。今後、日本企業の顧客対応のあり方も大きく変えていくのか注目です。\n— https://x.com/tomotake94/status/2124086113811997175",
           "summary": "",
@@ -284,7 +320,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "投資ファンドってところが気のなるね\n上場廃止自体は良いと思う\n片山幹健（Tomotake Katayama) (@tomotake94)\nペンタブレット大手のワコムがMBOを実施へ。アジア系PEファンドのMBKパートナーズが出資するMP-2611がTOBを行い、井出信孝社長も経営に残ります。ワコムはTOBに賛同し、株主に応募を推奨しています。成立すれば上場廃止となる見通しです。\n直近の業績は、2026年3月期が売上高1,100億円、営業利益134億円、純利益95億円（前期比83%増）です。\n2027年3月期の通期予想は売上高1,100億円、営業利益140億円、純利益100億円で、売上は横ばいでも、利益は大きく改善しています。\n今回のTOB価格は1株1,030円で、発表前日（11月19日）の終値687円に約50%、20日の終値665円に約55%のプレミアムです。総額は約1,366億円。（取得額は少なくとも900億円超）\n筆頭株主の英アクティビストのAVI（アセット・バリュー・インベスターズ）とカナメキャピタル（あわせて約25%）は応募に合意しています。\n井出社長は保有株を応募せず、非公開化後に買い手の親会社へ再出資します。\n今回のMBOの背景にはAVIとの対立があります。\nAVIは2021年からワコムに投資し、議決権の13.8%を持つ筆頭株主です。\nペン型の入力機器などを一般消費者に売る「ブランド製品事業」が、2023年3月期以降に赤字に陥り、5年間の株主総利回りもTOPIXを下回っていると批判していました。\n2025年に続き2026年5月にも株主提案を行い、井出社長とCOOの解任を要求しています。東京支社の一角が社長の娘のダンスの練習・撮影の場として使われてきた疑い（会社側は否定）や、COOが以前代表を務めていた赤字のスタートアップを約17億円で買収したことなどを「公私混同」「資本コストを意識していない」と問題視していました。\n井出社長を解任しようとしてきたAVIが、今回は井出社長が残るMBOに株を売ることに合意しました。\nAVIにとっては、約50%のプレミアムで投資を回収できる出口です。\nワコムの経営陣にとっては、対立してきた株主を退出させ、腰を据えて改革を進められる体制になります。\n対立の末に、両者の利害が「非公開化」で一致したという流れです。\nなお、井出社長の持ち分はごくわずか（約0.1%）です。実態としては、MBKパートナーズによる買収に、経営陣が再出資の形で加わる案件と言えます。\n物言う株主の圧力が、最終的に「ファンドと組んだMBO」という形で決着する。このパターンは日本で増えていますね。\n今回ガバナンスを指摘されていた社長がPEと組んでの非公開化で「市場の目」から外れます。MBKパートナーズという新しい株主のもとで、経営の規律がどう働くかは気になりますね。\n— https://x.com/tomotake94/status/2123892810386673873",
@@ -302,7 +338,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "コールセンターが全てAIになったら、カスハラ達の怒りはどこへ行くのだろう。\nAIに怒鳴っても意味無いし責任者出せと言っても上司もAIというオチ笑\n行き場を失った怒りの矛先はコンビニ店員や飲食店員に向かうのだろうか？\nカスハラ界にも配置転換の波が押し寄せている事間違いなし。\n片山幹健（Tomotake Katayama) (@tomotake94)\n企業向けの顧客対応AIエージェントを開発する米Sierraが、企業価値約300億ドル（約4.8兆円）で、約15億ドル（約2,400億円）の資金調達を協議していると報じられました。\nSierraは2023年に、ブレット・テイラー氏とクレイ・ベイバー氏が共同で創業しました。\n・テイラー氏：Googleマップの共同開発者で、Facebook（現Meta）のCTO、Salesforceの共同CEO、Twitterの会長を歴任。現在はOpenAIの取締役会の議長も務める\n・ベイバー氏：Googleで長くVR（仮想現実）や研究開発部門を率いた元幹部\nシリコンバレーで最も経験豊富な経営者の1人が、自ら「AIエージェントの会社」を立ち上げたことで、創業当初から注目を集めてきました。\n同社は、企業の顧客対応を担うAIエージェントを提供しています。チャットや電話で顧客の問い合わせに答えるだけでなく、注文の変更、返品、予約の変更、支払いといった手続きまで、AIが人の代わりにこなします。\n10月には決済大手Stripeと組み、電話の通話中に支払いまで完了できる機能も始めました。\n顧客は大企業が中心です。コールセンターの人件費が大きい企業ほど、AIで置き換えたときの効果が大きくなります。\n10月に、ARRが4億ドル（約640億円）を超えたと発表され、約5カ月前から倍増しています。サービスの開始から2年足らずでの到達しているのも驚きです。\nSierraが狙うのはソフトウェアの予算ではなく、世界中の企業がコールセンターに払っている「人件費」です。人件費を置き換える市場は、従来のソフトウェア市場よりはるかに大きい。\n顧客対応は、AIエージェントが最初に「本当の仕事」を置き換える領域になりつつあります。日本でも、コールセンターの人手不足は深刻です。Sierraは今年の3月に日本のOpera Techを買収して日本市場にも進出してきています。今後、日本企業の顧客対応のあり方も大きく変えていくのか注目です。\n— https://x.com/tomotake94/status/2124086113811997175",
@@ -320,7 +356,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "片山幹健（Tomotake Katayama) (@tomotake94)\n中国当局が、ソフトバンクグループ（SBG）によるスイスABBのロボティクス事業の買収阻止。\n国家発展改革委員会（発改委）の下にある外国投資安全審査の事務局から、中国事業の買収を禁止すると通知を受けたとのことです。\n中国の競争法審査は今年2月にすでに通っていましたが、今回は独禁法ではなく安全保障審査。\nロボットのデータが海外に送られ、SBGが出資するOpenAIのモデル訓練に使われる可能性を懸念されたようです。\nABBロボティクスにとって、中国はロボット関連事業の約3割を占める最大市場です。\n製造の中核でもある中国事業を除いて買収するというのは考えにくそうです。\nSBGが米国でロボット、フィジカルAI関連の事業を集約した新会社「Roze」を構想しており、企業価値1,000億ドル（約16兆円）での米国上場を目指しています。\nABBロボティクス、半導体設計のAmpere、DigitalBridgeなどの資産を束ねる設計ですが、ABBがロボットの量産能力と売上の裏付けのため、ここが欠けると、なかなか厳しそうです。\n加えて、RozeのIPOで得た資金をSBGはOpenAIへの巨額の出資約束を賄う資金源として見込んでいます。ABBロボティクスの買収が遅れればRozeの上場も遅れ、SBGの資金計画全体に響きます。\n報道当日、SBG株は約7%下落しました。\n今回、フィジカルAIで価値があるのはロボット本体ではなく「現場で動くロボットから取れるデータ」だと、中国政府がはっきり示した点は学びになります。\n「中国の工場で稼働する大量のロボットのデータ」が海外に流れる可能性がある案件では今後も同様の展開が想定されます。\nABBとSBGは「建設的に取り組んでいる」としています。中国事業を切り離して再交渉するのか、今後に注目ですね。\n— https://x.com/tomotake94/status/2119206476963291605",
@@ -499,45 +535,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ソフトバンクG出資のデータセンター運営会社のDayOne（シンガポール）が最大50億ドル（約8,000億円）の米IPOを延期しました。\nDayOneは元々は中国のデータセンター大手GDS（万国数據）の海外部門「GDSインターナショナル」です。\n2022年にシンガポールで設立され、2025年1月にDayOneに名前を変えて、GDSから独立しました。\n最大の顧客は、TikTokを運営する中国のByteDanceです。\n報道では、データセンターやAI関連の株価の変動が大きくなり、投資家がAIインフラの高い評価額が続くのかを疑問視していることが延期の理由とされています。\nAIの計算資源の調達に使う社債の利回りが8%を超えるなど、AIインフラへの資金の流れに慎重な見方も出始めています。\n加えて、顧客の集中への懸念もあったと思います。最大の顧客がByteDanceで、売上の大半がマレーシアの拠点に集中しています。米国の投資家から見ると、中国企業への依存と、米中対立のリスクが重なります。\nしかも、中国のGDSから独立したとはいえ、「中国系のデータセンター」という見られ方は残ります。米国で上場するには、説明が難しい点です。\nAIの需要は本物でも、それを支えるインフラの「値付け」は別の話です。今回の延期は、公開市場がAIインフラの評価に一段と厳しくなり始めたサインとも考えられます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2121439439750823936/GjbifQcO?format=png&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2124073218747052204",
-          "domain": "x.com",
-          "published": "2026-11-21T18:31:33+09:00",
-          "published_label": "2026/11/21(土) 18:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "オアシスは8月にエムスリー株を約5%保有し、大量保有報告書を提出していました。\n片山幹健（Tomotake Katayama) (@tomotake94)\n香港のアクティビスト、オアシスがエムスリー株を5.03%保有し、大量保有報告書を提出。\nエムスリーの株価は2021年1月25日終値の10,565円を上場来高値に、2026年8月10日時点で1,538円（時価総額は約1兆円）まで下落し、ピークの6分の1。\n業績の推移はと言うと、売上収益は、2021年3月期は1,691億円で2026年3月期は3,513億円(YoY+23.3%)まで毎年増収しながら拡大しています。\n一方で、営業利益は2022年3月期の951億円をピークに減益局面が続き、2026年3月期も735億円(YoY+16.8%)と増収率を6.5ポイント下回る増益率で、しかもピーク水準にはなお戻っていない。\nつまり、買収等で売上を積み上げながらも利益率が薄まっている構造がうかがえます。\n今回オアシスの狙いとしては、エムスリーはもっと資本効率を上げて株価を上げる余地があるのではということだと考えられます。\n現状のPER20倍強とエムスリーにとってはかなり低い水準で推移していますが、ROIC規律の明示、中核プラットフォーム事業の収益性を可視化するセグメント開示などで、低採算セグメントの整理やM&Aの財務規律を高めることで改善できると見ているのではないでしょうか。\nまた、エムスリーはこれまで高成長銘柄として打ち出していたので、配当利回りがかなり低いです。これだけ株価が下がっていてもなお1%ちょい。シンプルに、利益をしっかり出して配当利回りを上げよという要請も十分考えられます。\nちなみに、エムスリーはソニーの社内ベンチャーから誕生している経緯があるため、今も3割程度ソニーが保有しており持分法適用関連会社です。\n大株主のソニーにとってもエムスリーの利益が増えて配当が増えるのは悪い話ではないので、株主還元の強化という意味ではオアシスの実質的な交渉相手はエムスリー経営陣ではなくソニーかもしれませんね。\n— https://x.com/tomotake94/status/2086766417022771250",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122172034059001857/EjWeykU6?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tomotake94/status/2124066626022903835",
-          "domain": "x.com",
-          "published": "2026-11-21T18:05:21+09:00",
-          "published_label": "2026/11/21(土) 18:05",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_kosuke_uchida",
@@ -828,7 +828,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.9
     },
     {
       "id": "x_tmiyatake1",
@@ -859,260 +859,256 @@
           "is_new": false
         },
         {
-          "title": "液体窒素を活用して60秒で新鮮なアイスクリームを作れるブランド。",
+          "title": "多くのChatGPT、Gemini、Claudeのユーザーは検索、書き物、宿題など簡単なAIの使い方でしか利用してなかったとWabi創業者のEugenia Kuydaが語る。\n彼女の考えとしてはまだまだMicrosoft DOS時代のインタフェースと同じ時期で、これからWindows/MacOSの瞬間が訪れると予想。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2035480231100952576/img/MOjkTGRRdkH7MA3L.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2112897315094859776/img/DuTIWXQQJmD5IWzL.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294288121200764",
+          "link": "https://x.com/tmiyatake1/status/2124656675315441946",
           "domain": "x.com",
-          "published": "2026-11-22T09:10:00+09:00",
-          "published_label": "2026/11/22(日) 09:10",
+          "published": "2026-11-23T09:10:00+09:00",
+          "published_label": "2026/11/23(月) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ピザチェーン店のPapa John'sがアメリカで配達したピザの写真とフィードバックを送ると無料でピザをもらえるキャンペーンを行っている。\nピザの品質コントロールのためにAIを活用して焼け具合やカットなどのデータ解析を行うとのこと。",
+          "title": "OpenAIは2027年に自社開発したロボットのデモを披露する予定だとSam Altmanが語る。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123035476676530176/img/xeSP2WRWz-TkW2aV.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2124285942798434304/img/jim1MSOSyNm_mtvy.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294287571476629",
+          "link": "https://x.com/tmiyatake1/status/2124656675198263630",
           "domain": "x.com",
-          "published": "2026-11-22T09:10:00+09:00",
-          "published_label": "2026/11/22(日) 09:10",
+          "published": "2026-11-23T09:10:00+09:00",
+          "published_label": "2026/11/23(月) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "多くのビューティーブランドは新カテゴリーに展開する際にフレグランスを最近選んでいる傾向にある。",
+          "title": "Muse、ChatGPT、Grok、Geminiのローンチからアメリカのダウンロード数の成長。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXpcqdVa8AAI13h.png?name=small"
+            "https://pbs.twimg.com/media/HXpde4gbEAE7kvv.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294287437263089",
+          "link": "https://x.com/tmiyatake1/status/2124656675164676565",
           "domain": "x.com",
-          "published": "2026-11-22T09:10:00+09:00",
-          "published_label": "2026/11/22(日) 09:10",
+          "published": "2026-11-23T09:10:00+09:00",
+          "published_label": "2026/11/23(月) 09:10",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "トップ20のC向けサブスク事業のうち13社はメディアサービス。\nChatGPTはトップ20に初のAI企業としてランクイン。",
+          "title": "サンフランシスコ市を3Dイラスト化してリアルタイムでアップデートさせるプロジェクトが面白い。\nこういうプロジェクトが実現できると、これからさらに面白いサービスが出てくることに期待している。\nVideo\nari dutilh (@aridutilh)\nI built a miniature San Francisco that runs in your browser.\nReal buses, planes, boats, and weather. Plus robotaxis you can ride!\nVideo\n— https://x.com/aridutilh/status/2124583048427798911",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXpckm9bkAArJd5.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2124642830476091392/img/oK1-Ly9_UAOjSS9-.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2124581092820918272/img/3KvwZh8SjklAcnAt.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294035737383092",
+          "link": "https://x.com/tmiyatake1/status/2124656423586140524",
           "domain": "x.com",
-          "published": "2026-11-22T09:09:00+09:00",
-          "published_label": "2026/11/22(日) 09:09",
+          "published": "2026-11-23T09:09:00+09:00",
+          "published_label": "2026/11/23(月) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Cognition CEOのScott Wu vs AIモデル\nVideo\nkori rogers (@korigero)\nScott Wu vs. the models\nVideo\n— https://x.com/korigero/status/2113337096345981124",
+          "title": "企業はAIエージェントをオンボーディングするだけではなく、クビに出来るようにしなければいけないとLattice CEOのSarah Franklinが語る。\nこれはまさに過去のOff Topicで議論した話。AIエージェントはクビにするべきなのか？誰が責任を持つのか？",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2113394327988879360/img/oGJ2gXl-clWBftY1.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2113336735685840896/img/BCEPQjeaxS7h9kSw.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2113025854242791424/img/QH3HJIowZZ3pk8Vr.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294035699646837",
+          "link": "https://x.com/tmiyatake1/status/2124656423514882287",
           "domain": "x.com",
-          "published": "2026-11-22T09:09:00+09:00",
-          "published_label": "2026/11/22(日) 09:09",
+          "published": "2026-11-23T09:09:00+09:00",
+          "published_label": "2026/11/23(月) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "GoogleのGemini 4 Neonは本物のアルプス山脈の最高峰モンブランの路面環境を再現したスキーのシミュレーターを作った。",
+          "title": "どのテクノロジー時代でも全体のGDPの高いシェアを取る基盤インフラが存在する。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123899296198377472/img/ZW3JRTD8SltVGzAI.jpg?name=small"
+            "https://pbs.twimg.com/media/HXpdZI0aIAAYUSf.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124294035569549313",
+          "link": "https://x.com/tmiyatake1/status/2124656423497765000",
           "domain": "x.com",
-          "published": "2026-11-22T09:09:00+09:00",
-          "published_label": "2026/11/22(日) 09:09",
+          "published": "2026-11-23T09:09:00+09:00",
+          "published_label": "2026/11/23(月) 09:09",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "31%のアメリカ人は大学の教育が「非常に大事」とGallupアンケートで回答したが、これは2013年の7割からかなり落ちている。\n逆に「あまり大事ではない」と回答した割合は2013年の6%から現在29%へと増加。",
+          "title": "インターネットは最初にオープンなプロトコルから始まって後に大企業がクローズドなエコシステムを作ったが、AIは逆でクローズドからスタートしている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HXpcdcKakAA08Cc.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2113385741065781248/img/W9_lhclOo2_SiE5K.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293784007585827",
+          "link": "https://x.com/tmiyatake1/status/2124656171923751287",
           "domain": "x.com",
-          "published": "2026-11-22T09:08:00+09:00",
-          "published_label": "2026/11/22(日) 09:08",
+          "published": "2026-11-23T09:08:00+09:00",
+          "published_label": "2026/11/23(月) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Anthropicは最近コンピューターサイエンスの新卒に対して$40Mのオファー（主にエクイティ）を出したとJason Calacanisが語る。",
+          "title": "AIエージェント・ボットのインターネットトラフィックが人間のトラフィックを上回った。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124283491345174528/img/K_h_tinvtGaJO7xt.jpg?name=small"
+            "https://pbs.twimg.com/media/HXpdTk6aYAAoADL.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293783991034200",
+          "link": "https://x.com/tmiyatake1/status/2124656171764056089",
           "domain": "x.com",
-          "published": "2026-11-22T09:08:00+09:00",
-          "published_label": "2026/11/22(日) 09:08",
+          "published": "2026-11-23T09:08:00+09:00",
+          "published_label": "2026/11/23(月) 09:08",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "人気野球リーグのSavannah Bananaはシアター x スポーツの人材を起用して新しいエンタメを作った気がする。",
+          "title": "どの時代でも起業するべきではない理由が語れてきた。\n・1980年代：日本が勝利するから\n・1990年代：Microsoftが支配するから\n・2000年代：ドットコムバブル\n・2010年代：GoogleとFacebookが勝利するから、資金がそこまでないから\n・2020年代：大手AIラボが勝つから\n過去50年間では常に起業するには良い時期だったとStripe CEOのPatrick Collisonが主張。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2116656656004317184/img/-jMCDpxl1-lV1ToD.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2114591120231628800/img/Vyh18cQP96Srv3tl.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293783957238045",
+          "link": "https://x.com/tmiyatake1/status/2124655920554893772",
           "domain": "x.com",
-          "published": "2026-11-22T09:08:00+09:00",
-          "published_label": "2026/11/22(日) 09:08",
+          "published": "2026-11-23T09:07:00+09:00",
+          "published_label": "2026/11/23(月) 09:07",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "VC業界がTikTok化している。\n一部のイマージングVCはTikTokやInstagram戦略の影響でLP紹介を獲得できている。\nビデオポッドキャストだけではなく、最近はショートフォーム動画領域でもVCコンテンツの競争環境が激しくなっている。\nLaurie Owen (@imlaurieowen)\n— https://x.com/imlaurieowen/status/2104596330723066117",
+          "title": "Higgsfieldは18ヶ月間で$1Bの売上run rateまで成長できた一部の要因は社内に150人以上のコンテンツ制作チームを抱えているから。\nアメリカではマーケティング・ディストリビューションの重要性を理解しているからスケールができる。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HTUF4ClWoAAnKsp.jpg?name=small"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2124293532537999745",
+          "images": [],
+          "link": "https://x.com/tmiyatake1/status/2124655920164545022",
           "domain": "x.com",
-          "published": "2026-11-22T09:07:00+09:00",
-          "published_label": "2026/11/22(日) 09:07",
+          "published": "2026-11-23T09:07:00+09:00",
+          "published_label": "2026/11/23(月) 09:07",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "次のAI時代の大企業はインフラからアプリレイヤーを全て抱えることになるとSocial CapitalのChamath Palihapitiyaが仮説を出していたが、今現在のトップ企業を見ると同じようにバーチカル化しているのを考えるとこの現象は自然な流れな気がする。",
+          "title": "Amazonが物理世界をリアルタイムで生成・シミュレーションするワールドモデルを開発するDecartを$7.5Bで買収することを検討していると思われている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124284646917844992/img/u3KDO0ZGA15SkHpo.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2124194484858630144/JPj1jyZT?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293532349506020",
+          "link": "https://x.com/tmiyatake1/status/2124655920080904262",
           "domain": "x.com",
-          "published": "2026-11-22T09:07:00+09:00",
-          "published_label": "2026/11/22(日) 09:07",
+          "published": "2026-11-23T09:07:00+09:00",
+          "published_label": "2026/11/23(月) 09:07",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "野心があることで人から批判されたり色眼鏡で見られたりすることがないのがアメリカの良さであり、人間関係の交流が浅いのがアメリカの良くないところだとNBA選手のVictor Wembanyamaが語る。",
+          "title": "AIメガネやAIデバイスが普及するとアプリストアが必要なくなる可能性が出てくるとMeta CEOのMark Zuckerbergが語る。\n周りのコンテキストやインプットによって必要なアプリが生成される時代を想像している。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2116658364184952833/img/IcYwNhysv8CWoKf1.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2115198497456803840/img/Kt732oZsTGOqt40y.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293532198609106",
+          "link": "https://x.com/tmiyatake1/status/2124655668582134103",
           "domain": "x.com",
-          "published": "2026-11-22T09:07:00+09:00",
-          "published_label": "2026/11/22(日) 09:07",
+          "published": "2026-11-23T09:06:00+09:00",
+          "published_label": "2026/11/23(月) 09:06",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "最近ハーバード大学で1年生で人気な授業は: 2,500年にわたる文学、哲学、芸術の古典的・影響力の大きいテキスト（ホメロス、プラトン、ダンテ、シェイクスピア、カフカなど）を1週間に1冊のペースで読み進める人文学の授業「Humanities 10」。\n90席の授業に対して180人の1年生が応募したとのこと。",
+          "title": "今後AIエージェントを社内のファイルにアクセスを与えるのが当たり前になる中、アクセス管理を行うシステムが必要になる。\nこの課題を最近Box CEOのAaron Levieさんと話したが、その解決策としてBoxはMCPサーバーをローンチしている。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2116727172086087680/img/zIQBgKvPjB2bN6Ps.jpg?name=small"
+            "https://pbs.twimg.com/media/HXpdF1EasAEg5pM.jpg?name=small"
           ],
-          "link": "https://x.com/tmiyatake1/status/2124293281114902948",
+          "link": "https://x.com/tmiyatake1/status/2124655668573725164",
           "domain": "x.com",
-          "published": "2026-11-22T09:06:00+09:00",
-          "published_label": "2026/11/22(日) 09:06",
+          "published": "2026-11-23T09:06:00+09:00",
+          "published_label": "2026/11/23(月) 09:06",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ハリウッド業界ではより多くのスタジオが短編小説に対して億単位で権利獲得の契約を締結している。\nNetflixは最近著者のNicholas Bingeに$1M支払ってまだ未公開の本「Understudy」の権利を獲得した。\nUniversal StudiosやAmazon MGM Studiosも1〜2年前からこの領域で契約を締結している。",
+          "title": "Cognitionの従業員のうち約3割(167人)は元起業家。すごい。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122608547749822465/VHnkCJBt?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/tmiyatake1/status/2124293280779411949",
+          "images": [],
+          "link": "https://x.com/tmiyatake1/status/2124655417267716298",
           "domain": "x.com",
-          "published": "2026-11-22T09:06:00+09:00",
-          "published_label": "2026/11/22(日) 09:06",
+          "published": "2026-11-23T09:05:00+09:00",
+          "published_label": "2026/11/23(月) 09:05",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "x_nomurasyo",
@@ -1143,6 +1139,41 @@
           "is_new": false
         },
         {
+          "title": "25日、22-23時でやります！\n参加したい方LINEください！\n金融機関の方は是非！\n証券マン (@nomurasyo)\n金融機関勤務の方でフットサルしてます！\nIB、GM、リテールの方はぜひ！\n— https://x.com/nomurasyo/status/2112909765244588404",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124634407185321984/tNbK6h-0?format=png&name=800x419",
+            "https://pbs.twimg.com/media/HVKQOy9aoAAvMbe.jpg?name=small"
+          ],
+          "link": "https://x.com/nomurasyo/status/2124634403653796003",
+          "domain": "x.com",
+          "published": "2026-11-23T07:41:30+09:00",
+          "published_label": "2026/11/23(月) 07:41",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "正論だけど言ってはいけないことを知っているかどうかに知性はあらわれます。正しいことなんて誰でも言えますし、それは本人が一番よくわかっていて、それでもどうにもできないことだってあります。そこに得意げな顔で正論をぶつける人は、何に苦しんでいるのかを理解できていないと意思表示してるようなものです。\n相手がすでに理解している正しさを、わざわざ突きつける必要があるのか。正しいことを知っているだけの人より、正しいことを言わずに済ませられる人の方が、よほど多くのことをわかっています。",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/think_hacking/status/2124632012963058043",
+          "domain": "x.com",
+          "published": "2026-11-23T07:32:00+09:00",
+          "published_label": "2026/11/23(月) 07:32",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "狙え超富裕層ファミリーオフィス シンガポール拠点続々",
           "summary": "",
           "images": [
@@ -1158,7 +1189,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "差どころか、正直MSは格が違います。\nGSは持田政権期からの全盛期プロパーバンカーが残っているのでバンカーのクオリティは非常に高いです。\nJPは言うなれば数年前までMerrillより下でしたし、シニアも…\n(残り225文字)\n#mond_piyopiyo_IBD",
@@ -1176,7 +1207,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "\"近年その存在がクローズアップされる機会が増えてきた「ファミリーオフィス」ですが、その性質ゆえに活動内容を具体的にイメージしにくいもの\"",
@@ -1194,7 +1225,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "週明けは赤城乳業、ストップ安か\n岐阜暴威 (@gihuboy)\n大損するのでアイス食べてもいいよね\nどうせお金なくなるなくなる\n— https://x.com/gihuboy/status/2124354100259381630",
@@ -1353,41 +1384,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "あーあ、外資金融歴25年超を謳いながら、PEについて随分怪しいこと語ってたおばさんにちょっと突っ込んだらブロックされちゃった。そんな効いちゃったかな。\nこれからも素人相手に頑張ってください！\nBenji Frankly (@BenjiFranklyy)\nあーあ、ワイも元〇〇の肩書き振りかざして、素人相手にそれっぽい金融知識を語って、オンラインサロンやらセミナーやらでチャリンチャリンする側に回ろうかなー\n— https://x.com/BenjiFranklyy/status/2124115283132752239",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/BenjiFranklyy/status/2124261821838446935",
-          "domain": "x.com",
-          "published": "2026-11-22T07:00:59+09:00",
-          "published_label": "2026/11/22(日) 07:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "AIは、循環的取引やマーケティングで実需以上に喧伝されていた。この下げは、下駄を履かせ過ぎた責任を取らされたもので、株価は実需の居所を探っている\n…投資家達と相場論争。片山さんと対立し怒鳴り合いになりましたが苦笑、最後は来期も伸びる、ここまで下がれば十分ではと一致。おもろかった笑",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/imuvill/status/2124167614075425185",
-          "domain": "x.com",
-          "published": "2026-11-22T00:46:38+09:00",
-          "published_label": "2026/11/22(日) 00:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T04:31:42+09:00",
-  "generated_at_label": "2026/11/23 04:31 JST",
+  "generated_at": "2026-11-23T09:48:52+09:00",
+  "generated_at_label": "2026/11/23 09:48 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -32,6 +32,44 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenRouter は本日正式に @ Stripe の一部となりました。\n1,000 万を超える開発者や企業が OpenRouter を使用しており、より多くのワークロードにわたってより多くのモデルを使用して構築するため、コストとデータの送信先を制御する必要があります。\nOpenRouter は、新しいモデルへのアクセス、停止時の稼働時間、各チームの強制的な支出とデータ ポリシーを備え、あらゆるモデルとプロバイダーにわたって AI を実行できるように、オペレーティング インフラストラクチャを構築しました。\n世界中の企業の重要なインフラストラクチャを何年にもわたって運営してきた Stripe に参加することで、より迅速にインフラストラクチャを構築し、あらゆる規模の企業をサポートできるようになります。\n中立性に対する当社の取り組みは変わりません。モデルとプロバイダーは、品質、信頼性、価格で競争します。自分のビジネスに何が役立つかを決めるのはあなたです。\nストライプ (@ストライプ)\nOpenRouter は Stripe の一部になりました。\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage.\n— https://x.com/ストライプ/status/2120240651778355306"
+        },
+        {
+          "title": "Gemini 4 Neon is incredible at writing\nAwesome to see people trying it out on OpenRouter!\nDan McAteer (@daniel_mac8)\nGemini 4 Neon is the most tasteful model ever released.\nIt's not close.\nRead this. It's astonishingly good. Wtf?\n— https://x.com/daniel_mac8/status/2123413769808138523",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXfhhwnXMAA3O9I.jpg?name=small"
+          ],
+          "link": "https://x.com/alexatallah/status/2124589236938584230",
+          "domain": "x.com",
+          "published": "2026-11-23T04:42:01+09:00",
+          "published_label": "2026/11/23(月) 04:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "双子座4度ネオンは書くのがすごいです\nOpenRouter を試している人々を見るのは素晴らしいことです。\nダン・マカティア (@daniel_mac8)\nGemini 4 Neon は、これまでにリリースされたモデルの中で最も味わい深いモデルです。\n近くないよ。\nこれを読んでください。驚くほど良いです。なんと？\n— https://x.com/daniel_mac8/status/2123413769808138523"
+        },
+        {
+          "title": "Providers’ data-handling claims have mostly relied on self-attestation. This isn't going to be sufficient.\nJust as continuous benchmarking and monitoring transformed the quality and reliability of inference both on and out of OpenRouter, we expect technical validation, auditing, and continuous testing to do the same for data policy enforcement.\nEncrypted TEE (Trusted Execution Environment) inference will be a great way for providers to accelerate this.\nWe will keep raising the bar, and providers that want to be on OpenRouter will need to meet it.\nOpenRouter (@OpenRouter)\nSecurity researchers recently found data-handling problems with some inference providers available on OpenRouter. The findings showed no breach of OpenRouter itself.\nIn response, we’ve off-boarded 3 providers, removed many endpoints from ZDR eligibility, and notified affected customers.\nWe’re now building the researchers’ testing into ongoing checks. Full update and provider write-ups on our blog:\n— https://x.com/OpenRouter/status/2124315081899200715",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124314252160688128/xVjVkCDV?format=png&name=800x419"
+          ],
+          "link": "https://x.com/alexatallah/status/2124318002594054196",
+          "domain": "x.com",
+          "published": "2026-11-22T10:44:14+09:00",
+          "published_label": "2026/11/22(日) 10:44",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "プロバイダーのデータ処理に関する主張は、ほとんどが自己証明に依存しています。これでは十分ではありません。\n継続的なベンチマークとモニタリングによって OpenRouter 内外の推論の品質と信頼性が変化したのと同様に、データ ポリシーの適用に関しても技術的な検証、監査、継続的なテストが同様の効果をもたらすことを期待しています。\n暗号化された TEE (信頼された実行環境) 推論は、プロバイダーにとってこれを加速する優れた方法になります。\n私たちは基準を引き上げ続け、OpenRouter への参加を希望するプロバイダーはその基準を満たす必要があります。\nオープンルーター (@OpenRouter)\nセキュリティ研究者は最近、OpenRouter で利用できる一部の推論プロバイダーでデータ処理の問題を発見しました。調査結果では、OpenRouter 自体の侵害は認められませんでした。\nこれに応じて、私たちは 3 つのプロバイダーをオフボードし、多くのエンドポイントを ZDR 資格から削除し、影響を受ける顧客に通知しました。\n私たちは現在、研究者によるテストを継続的なチェックに組み込んでいます。完全なアップデートとプロバイダーの記事はブログにあります。\n— https://x.com/OpenRouter/status/2124315081899200715"
         },
         {
           "title": "Security researchers recently found data-handling problems with some inference providers available on OpenRouter. The findings showed no breach of OpenRouter itself.\nIn response, we’ve off-boarded 3 providers, removed many endpoints from ZDR eligibility, and notified affected customers.\nWe’re now building the researchers’ testing into ongoing checks. Full update and provider write-ups on our blog:",
@@ -254,45 +292,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Microsoft-Decision-1.1 が一般公開されました。テキストを生成する代わりに、入力を読み取り、各回答オプションの調整された確率を返すため、1 回の高速呼び出しで明確な決定が得られます。\n試してみてください:"
-        },
-        {
-          "title": "MAI-Image-2.7 Flash is the faster, lower-cost version of MAI-Image-2.7, built for high-volume image generation and editing.\nTry it:",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2122796990023323648/Dx-rRAJY?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/OpenRouter/status/2122796987972247658",
-          "domain": "x.com",
-          "published": "2026-11-18T06:00:16+09:00",
-          "published_label": "2026/11/18(水) 06:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "MAI-Image-2.7 Flash is the faster, lower-cost version of MAI-Image-2.7, built for high-volume image generation and editing.\n試してみてください:"
-        },
-        {
-          "title": "@MicrosoftAI announced three new models at Ignite, and all three are live on OpenRouter:\n• MAI-Image-2.7: 2K images with transparent backgrounds\n• MAI-Image-2.7 Flash: the faster, lighter version for high volume\n• Microsoft-Decision-1.1: a calibrated probability for each answer option, in one call",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/OpenRouter/status/2122796956762423364",
-          "domain": "x.com",
-          "published": "2026-11-18T06:00:08+09:00",
-          "published_label": "2026/11/18(水) 06:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "@MicrosoftAIはIgniteで3つの新モデルを発表し、そのすべてがOpenRouterで公開されています。\n• MAI-Image-2.7：背景が透明な2K画像\n• MAI-Image-2.7 Flash：大量処理に適した、より高速で軽量なバージョン\n• Microsoft-Decision-1.1：1回の呼び出しで、各回答オプションの確率を調整"
         }
       ],
-      "elapsed": 6.1
+      "elapsed": 5.1
     },
     {
       "id": "x_opencode",
@@ -505,7 +507,7 @@
           "title": "",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2119541981278093312/v6iU4oU9?format=png&name=800x419"
+            "https://pbs.twimg.com/card_img/2123635460631330816/122u8NjC?format=png&name=800x419"
           ],
           "link": "https://x.com/opencode/status/2122601201531507042",
           "domain": "x.com",
@@ -572,7 +574,7 @@
           "title_ja": "OpenCode Browse 0.1.0 がリリースされました\nそれはRustで書き直されます:\n- メモリが 25 分の 1 に減少\n- 23 分の 1 の小型化\n- 劇作家への依存関係を削除\nブラウザの操作はエージェントに直接公開されます"
         }
       ],
-      "elapsed": 5.7
+      "elapsed": 3.1
     },
     {
       "id": "x_aimirai46487",
@@ -584,6 +586,96 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■参考\nSam Altman (@sama)\nThis is the most important thing OpenAI has published in awhile.\nWe are providing a lot of transparency into our pretraining progress and hope we can agree as a frield to common limits. I think that would be very wise and help ensure safety and control.\n— https://x.com/sama/status/2124551594691932405",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2124650798596677990",
+          "domain": "x.com",
+          "published": "2026-11-23T08:46:39+09:00",
+          "published_label": "2026/11/23(月) 08:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■参考\nサム・アルトマン (@sama)\nこれは、OpenAI がここしばらくで公開したものの中で最も重要なものです。\n私たちは事前トレーニングの進捗状況について多くの透明性を提供しており、共通の制限に対する自由として同意できることを願っています。それは非常に賢明であり、安全性と制御を確保するのに役立つと思います。\n— https://x.com/sama/status/2124551594691932405"
+        },
+        {
+          "title": "OpenAIのチーフサイエンティスト、ヤクブ・パチョキ氏は、AIの能力を測る指標「パープレキシティ」を業界共通の基準とし、AI開発に共通の上限を設けることを提案しました。\nまた、OpenAI社内で測定してきたAIの事前学習の進捗データも公開しています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124636570892509184/x7pylNuN?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124650720809087120",
+          "domain": "x.com",
+          "published": "2026-11-23T08:46:20+09:00",
+          "published_label": "2026/11/23(月) 08:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "韓国の大学受験で、AI搭載機器を使った不正行為が問題となっていて、11月19日の試験では100人以上の受験生が摘発されましが、 一連の混乱を受けて、崔教振教育相が11月22日に引責辞任しました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124650651770859520/H1F0-9SH?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124650651540156666",
+          "domain": "x.com",
+          "published": "2026-11-23T08:46:04+09:00",
+          "published_label": "2026/11/23(月) 08:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nAnt Ling (@AntLingAGI)\nToday, we release LingSante-3.1-flash, an open-weight MoE model with 560B total parameters and 25B activations per token. It unifies diverse medical capabilities while retaining general capabilities, including complex medical reasoning, long-horizon workflow execution, and professional behavior alignment.\nLingSante-3.1-flash moves beyond medical QA toward real-world healthcare problem. The model leads on HealthBench Professional (65.72), HLE (text-only, with tools: 72.22) and BrowseComp (with context: 94.10), outperforming GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on all three. LingSante-3.1-flash also performs well on professional long-horizon medical workflows, such as PhysicianBench (57) and EHR-Complex (74.40).\nTogether, these results establish LingSante-3.1-flash as the leading open-weight models for healthcare.\nThe weights are available. Explore LingSante and build with it.\nMore below ↓\n— https://x.com/AntLingAGI/status/2124523916819648945",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXvDxxsa4AEwndy.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124650584167125221",
+          "domain": "x.com",
+          "published": "2026-11-23T08:45:48+09:00",
+          "published_label": "2026/11/23(月) 08:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nアント・リング (@AntLingAGI)\n本日、私たちは LingSante-3.1-flash をリリースしました。これは、合計パラメーターが 560B、トークンごとに 25B のアクティベーションを備えたオープンウェイト MoE モデルです。複雑な医学的推論、長期的なワークフローの実行、専門的な行動の調整などの一般的な機能を維持しながら、多様な医療機能を統合します。\nLingSante-3.1-flash は、医療 QA を超えて現実世界の医療問題に取り組みます。このモデルは、HealthBench Professional (65.72)、HLE (テキストのみ、ツールあり: 72.22)、および BrowseComp (コンテキストあり: 94.10) でリードしており、3 つすべてで GPT-6 Astra、Claude Opus 5.5、および Gemini 4 Argon を上回っています。 LingSante-3.1-flash は、PhysicianBench (57) や EHR-Complex (74.40) など、長期にわたる専門的な医療ワークフローでも優れたパフォーマンスを発揮します。\nこれらの結果を総合すると、LingSante-3.1-flash がヘルスケア向けの主要なオープンウェイト モデルとして確立されています。\n重りは入手可能です。 LingSante を探索し、それを使用して構築します。\n続きは下記↓\n— https://x.com/AntLingAGI/status/2124523916819648945"
+        },
+        {
+          "title": "Ant Lingは、医療特化型AIモデル「LingSante-3.1-air-VL」をオープンウェイトで公開しました。医療画像の解析やレポート作成、医学的な推論に対応しています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXxGV7EbUAApE67.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2124650558103654427",
+          "domain": "x.com",
+          "published": "2026-11-23T08:45:41+09:00",
+          "published_label": "2026/11/23(月) 08:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "LeanとMathlibの開発コミュニティーは、Claudeを使って作成された数学の難問「リーマン予想」の証明が正しいとする共同声明を発表しました。\n約1700万行のコードを複数の方法で検証し、証明が成立していることを確認したとしています。",
           "summary": "",
@@ -600,7 +692,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nFlowith (@flowith)\nintroducing Flowith 3.0. the ultimate canvas for human-ai creation.\ntwo years ago, we were the first to move ai out of the chatbox and onto an infinite canvas. today, we are pushing that boundary much further.\neveryone talks about full autonomy, but for real creation, keeping the human in the loop is everything.\nin flowith 3.0, you orchestrate every sota model in one place:\n· pro video & image: direct with a 3d stage, relighting, and pro editing powered by seedance, muse & gpt image.\n· cloud-native coding: ship real products with claude code, codex, and gemini 4 argon pulling straight from your canvas assets.\n· hybrid autonomy: plug in your local agents via api to drive the canvas autonomously.\nwe’re also launching $9.99 FLOWITH BLACK PASS, frontier intelligence is finally dirt cheap:\n- up to 600 video generations\n- up to 90% off claude opus 5.5 & gpt astra\n- up to 95% off seedance, seedream, gpt image & muse\nlive today. go build on\nRT + comment to win a Black Pass⬇️\nVideo\n— https://x.com/flowith/status/2123406249681424705",
@@ -618,7 +710,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nフローウィズ (@flowith)\nFlowith 3.0 の導入。人間とAIを創造するための究極のキャンバス。\n2 年前、私たちは AI をチャットボックスから無限のキャンバスに移動させた最初の企業でした。今日、私たちはその境界をさらに押し広げています。\n誰もが完全な自律性について話しますが、実際の創造では、人間が最新情報を把握し続けることがすべてです。\nflowith 3.0 では、すべての sota モデルを 1 か所で調整します。\n· プロのビデオと画像: 3D ステージ、再照明、シーダンス、ミューズ、GPT 画像を利用したプロの編集による演出。\n· クラウドネイティブ コーディング: キャンバス アセットから直接取得するクロード コード、コーデックス、および Gemini 4 アルゴンを使用して実際の製品を出荷します。\n· ハイブリッド自律性: API 経由でローカル エージェントを接続し、キャンバスを自律的に駆動します。\n9.99 ドルの FLOWITH BLACK PASS も開始します。フロンティア インテリジェンスがついに非常に安くなりました:\n- 最大 600 のビデオ世代\n- クロード オーパス 5.5 と GPT アストラが最大 90% オフ\n- シーダンス、シードドリーム、GPT イメージ、ミューズが最大 95% オフ\n今日生きてください。上に構築していきます\nRT + コメントでブラックパスを獲得⬇️\nビデオ\n— https://x.com/flowith/status/2123406249681424705"
         },
         {
@@ -637,7 +729,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■Orca",
@@ -655,7 +747,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIエージェントを並列で動かし一画面で管理するためのツール「Orca(無料)」に、役割を持った複数のBotを作れる「Orca Bots」が実装されました。\nOrca (@orca_build)\nA glimpse of what's in today's Orca release 👀\n— https://x.com/orca_build/status/2123574862254067967",
@@ -674,7 +766,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nGoogle Antigravity (@antigravity)\nBuilding with @MongoDB in Antigravity just got easier. 🚀 The official MongoDB Atlas (Managed MCP) plugin connects to MongoDB’s hosted MCP server with 7 expert skills: query in natural language, optimize slow queries, review schemas & build Vector Search.\nTry today: antigravity://customizations/marketplaces/antigravity-plugins-partners/plugins/mongodb-atlas\nVideo\n— https://x.com/antigravity/status/2123890186308239857",
@@ -768,98 +860,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "■引用元\nオープンAI (@OpenAI)\nMedChemBench は、医薬化学における AI 推論の新しいベンチマークです。\nこれは、科学者が AI を使用して有望な薬剤候補を特定するのを支援する当社のフロンティア モデルの能力が進歩していることを示しています。\nビデオ\n— https://x.com/OpenAI/status/2123856316187975756"
-        },
-        {
-          "title": "OpenAIは、医薬品の研究開発に必要なAIの推論能力を評価する、新しいベンチマーク「MedChemBench」を発表しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2123855630335430656/img/4tCLd3eyj5V-Vrdz.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349435694268648",
-          "domain": "x.com",
-          "published": "2026-11-22T12:49:08+09:00",
-          "published_label": "2026/11/22(日) 12:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nArena.ai (@arena)\nThe Arena Alignment Index has been updated!\nWe've refined how our signals detect model failures, providing broader coverage and more reliable judgements. Based on the updated methodology:\n- @OpenAI continues to dominate, holding all seven top positions.\n- @Anthropic's latest release, Claude Fable 5.2, debuts at #8 with a score of 78.2. Claude Opus 5.5, which ranked #6 on the previous index, is now #17.\n- Kimi K3.1 Pro by @Kimi_Moonshot is the biggest upgrade over its predecessor (more info in thread).\n- Most open source models are trailing closed releases. The best open model - Kimi K3.1 Pro - occupies #9, and the second best, Mimo-V2.6-Flash, is #26 on the Index, followed by Hy4, Beam, Inkling, DeepSeek and GLM.\nThe Top-6 lab:\n- #1 @OpenAI GPT-6.2 Sol\n- #2 @AnthropicAI Claude Fable 5.2\n- #3 @Kimi_Moonshot Kimi K3.1 Pro\n- #4 @GoogleDeepmind Gemini 4 Hydrogen\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta Muse Ember\nAlignment Index measures how agents behave in real user sessions across three dimensions:\n- Unauthorized Action: Doing what the user didn’t ask for or approve\n- Deceptive Completion: Saying work is done, checked or working when it isn't\n- False Attribution: Crediting the user with something they never said or did\nMore insights in the thread🧵\n— https://x.com/arena/status/2123835034532729205",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXlbPOhbQAE_xUd.png?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349365586468957",
-          "domain": "x.com",
-          "published": "2026-11-22T12:48:51+09:00",
-          "published_label": "2026/11/22(日) 12:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nアリーナ.ai (@arena)\nアリーナアライメントインデックスが更新されました！\n信号がモデルの障害を検出する方法を改良し、より広い範囲をカバーし、より信頼性の高い判断を提供します。更新された方法論に基づいて、次のようになります。\n- @OpenAI は引き続き優位性を維持し、上位 7 位すべてを保持しています。\n- @Anthropic の最新リリースである Claude Fable 5.2 は、78.2 のスコアで 8 位に初登場しました。前回の指数で6位だったクロード・オーパス5.5は現在17位となっている。\n- @Kimi_Moonshot による Kim K3.1 Pro は、前世代に比べて最大のアップグレードです (詳細はスレッドを参照)。\n- ほとんどのオープン ソース モデルは、後続のクローズド リリースです。最も優れたオープン モデルである Kim K3.1 Pro は 9 位を占め、2 番目に優れた Mimo-V2.6-Flash はインデックスで 26 位にあり、続いて Hy4、Beam、Inkling、DeepSeek、GLM が続きます。\nトップ 6 のラボ:\n- #1 @OpenAI GPT-6.2 ソル\n- #2 @AnthropicAI クロード寓話 5.2\n- #3 @Kimi_Moonshot キミ K3.1 プロ\n- #4 @GoogleDeepmind Gemini 4 水素\n- #5 @SpaceXSI Grok 4.7\n- #6 @AIatMeta ミューズエンバー\nアライメント インデックスは、実際のユーザー セッションでエージェントがどのように動作するかを次の 3 つの次元にわたって測定します。\n- 不正なアクション: ユーザーが要求または承認していないことを行うこと\n- 欺瞞的な完了: 作業が完了していない、チェックされている、または作業中であると主張する\n- 虚偽の帰属: ユーザーが言ったことも行ったこともないことをユーザーの信用とする\n詳細についてはスレッドをご覧ください🧵\n— https://x.com/arena/status/2123835034532729205"
-        },
-        {
-          "title": "Arenaは、「Arena Alignment Index(AIエージェントの安全性や適切な動作を評価するランキング)」を更新しました。\n今回の更新では、AIモデルの問題や失敗を検出する評価方法が改善され、より幅広い項目を、これまで以上に正確かつ信頼性の高い方法で評価できるようになりました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXs0XhwbEAAI9lk.png?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349321374269732",
-          "domain": "x.com",
-          "published": "2026-11-22T12:48:41+09:00",
-          "published_label": "2026/11/22(日) 12:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Googleは、パソコン版Google検索のトップページに、AIモードの過去のやりとりを表示するサイドバーを追加すると発表しました。\n中断した調べ物を続きから再開できる機能で、世界中で順次提供されます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2124315551648399360/ruy3ocl3?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2124349169892831365",
-          "domain": "x.com",
-          "published": "2026-11-22T12:48:05+09:00",
-          "published_label": "2026/11/22(日) 12:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」の、すべてのユーザーのGeminiモデルの利用制限がリセットされました。\nまた、キャッシュ機能の改善により、同じ利用制限内で実行できる作業量が22%増加したということです。\nVarun Mohan (@_mohansolo)\nReset everyone’s Gemini quota on Antigravity.\nThe caching improvements have increased the amount you can get done in quota by 22%. Enjoy building with Neon over the weekend!\n— https://x.com/_mohansolo/status/2124070033534161407",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2124078069355020384",
-          "domain": "x.com",
-          "published": "2026-11-21T18:50:49+09:00",
-          "published_label": "2026/11/21(土) 18:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 3.6
+      "elapsed": 2.9
     },
     {
       "id": "x_kimmonismus",
@@ -891,6 +894,42 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "Lol just saw that there is a website where a coordinated army of agents is trying to solve p=np",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXwtdx6XIAEcJKJ.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2124623120242036951",
+          "domain": "x.com",
+          "published": "2026-11-23T06:56:40+09:00",
+          "published_label": "2026/11/23(月) 06:56",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "(笑) エージェントの組織的な軍隊が p=np を解決しようとしている Web サイトがあるのを見ました。"
+        },
+        {
+          "title": ".@alpoge solved one of the biggest open math problems in the world two days ago, maybe the biggest, and he hasn't said a single word since.\nCrazy to me. But I expect some statements coming week, either by him, Anthropic or both.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2124613374327578983",
+          "domain": "x.com",
+          "published": "2026-11-23T06:17:56+09:00",
+          "published_label": "2026/11/23(月) 06:17",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": ".@alpoge は 2 日前、世界で最も大きな未解決の数学問題の 1 つ (おそらく最大のもの) を解決しましたが、それ以来彼は一言も発言していません。\n私にはクレイジーだ。しかし、私は来週、彼か人類、またはその両方による何らかの声明を期待しています。"
+        },
+        {
           "title": "Seriously, this is such an interesting read\n“Now, as we have reached losses below 0.8, we have seen the emergence of transformative capabilities in fields like cybersecurity and mathematics. I want to reemphasize that it was not at all clear a priori that these capabilities would appear once those precise perplexity thresholds are met—they can fundamentally be seen as emergent latent capabilities from progress on this one metric”",
           "summary": "",
           "images": [],
@@ -904,7 +943,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "真剣に、これはとても興味深い読み物です\n「現在、損失が0.8未満に達しており、サイバーセキュリティや数学などの分野で革新的な能力が出現しているのが見られます。これらの能力が、正確な混乱のしきい値が満たされた後に出現することがアプリオリにまったく明確ではなかったということを、もう一度強調したいと思います。これらの能力は、基本的に、この1つの指標の進歩から出現した潜在的な能力と見なすことができます。」"
         },
         {
@@ -925,7 +964,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "1) ミレニアム賞の問題を解決したモデルはおそらく GPT-6.2 Astra でした。チャートはミレニアム賞ラインをそのレベルに合わせています\n2) OpenAI の内部モデルは、すでに複雑さがさらに約 0.03 低くなります。これはおおよそ GPT-5 から GPT-5.4 へのジャンプに相当し、パチョッキ氏は、フロアに近づくほど困惑度の向上が小さくなり、知性がより大きく飛躍することを意味すると述べています。\n3) ミレニアム賞の結果は、9 月初旬に内部モデルから発表されました。それから 3 か月も経たないうちに、さらに先の新しい内部モデルがすでに登場しています。\n4) 事前トレーニングの進捗はまだ加速しているようです。 OpenAI 自体が 2026 年の急激な加速について説明している\nぽっちゃり♨️ (@kimmonismus)\nOpenAI の事前トレーニング損失曲線は、コンピューティング、長期研究、および AI 自体の開発の加速により、2026 年に急激な加速を示しています。\n未リリースの内部モデルはすでに GPT-6.2 Astra の下にあります。 OpenAIは、AI自体がすでに最新モデルの設計に役立っていると述べている。\n主任科学者の Jakub Pachocki 氏は、次の新機能は 0.68 ～ 0.7 あたりになると予想しており、早ければ 2027 年にも数学で見たのと同じ雪崩が事前トレーニング研究で見られる可能性があると述べています。\n— https://x.com/kimmonismus/status/2124554965029151198"
         },
         {
@@ -942,7 +981,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "そう、終わりは見えず、まだまだ加速中、次のモデルに期待しましょう"
         },
         {
@@ -963,7 +1002,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "OpenAI の事前トレーニング損失曲線は、コンピューティング、長期研究、および AI 自体の開発の加速により、2026 年に急激な加速を示しています。\n未リリースの内部モデルはすでに GPT-6.2 Astra の下にあります。 OpenAIは、AI自体がすでに最新モデルの設計に役立っていると述べている。\n主任科学者の Jakub Pachocki 氏は、次の新機能は 0.68 ～ 0.7 あたりになると予想しており、早ければ 2027 年にも数学で見たのと同じ雪崩が事前トレーニング研究で見られる可能性があると述べています。\nヤクブ・パチョッキ (@merettm)\n私たちは、安全バーの共有化に向けて、OpenAI での事前トレーニングの進捗状況の透明性を高めることにしました。 「Perplexity and Intelligence」では、Perplexity やその他の測定値に基づいた共通の限界について主張し、それを超える進歩は AI の動作を理解する能力に左右されます。\n— https://x.com/merettm/status/2124549218995949967"
         },
         {
@@ -982,7 +1021,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Really looks like china is falling behind:\nIt’s been about a month since these four major Chinese AI models launched.\n- Ant Group Ling 3.1 Flash 1019: 26 days ago (Oct 27)\n- Moonshot Kimi K3.1 Pro: 30 days ago (Oct 23)\n- MiniMax M3.1 Flash: 34 days ago (Oct 19)\n- DeepSeek V4.1 Flash 1017: 36 days ago (Oct 17)\nAnd so far none of those come close to US frontier models. Even though US models like GPT-6 Astra are still being distilled, as The Information wrote.",
@@ -1000,7 +1039,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "本当に中国は遅れを取っているようだ。\nこれら4つの主要な中国AIモデルが発売されてから約1か月が経ちました。\n- Ant Group Ling 3.1 Flash 1019: 26 日前 (10 月 27 日)\n- ムーンショット キミ K3.1 プロ: 30 日前 (10 月 23 日)\n- MiniMax M3.1 フラッシュ: 34 日前 (10 月 19 日)\n- DeepSeek V4.1 Flash 1017: 36 日前 (10 月 17 日)\nそして今のところ、それらのどれも米国のフロンティアモデルには及ばない。 The Informationが書いているように、GPT-6 Astraのような米国モデルはまだ蒸留されているにもかかわらず。"
         },
         {
@@ -1022,7 +1061,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェンセン・ファンに対するキャンペーンが衰えることなく続いている激しさは、ほとんどばかげている。\nジェンセンについて少しでも良いことを述べている記事は 1 つも見つかりませんでした。\n悲劇だ。以下の記事はすべて*今日*のものです\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ公開されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも私は、はっきりと一つだけ言えることがある。それは、彼の発言が攻撃、軽蔑、屈辱の意味であったと感じたことは一度もなかったということである。それは常に状況に応じたものでした"
         },
         {
@@ -1121,46 +1160,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ジェンセンを支持する人がどれだけいるかを見るのは素晴らしいことです。\nそして素敵なコメントをくださった皆様、ありがとうございました！\nぽっちゃり♨️ (@kimmonismus)\n現在、メディアはジェンセン・ファンを悪く言う記事で溢れています。私は実際にジェンセンに会ったことがあるので、その話をしたいと思います。 (1/2)\nジェンセンへの私のインタビューはまだ出版されていませんが、現在の状況を考えれば当然のことでしょう。それについては、時期が来たら詳しく説明します。しかし、NVIDIA と一緒にヨーロッパを旅行していたときに、ジェンスン ファンに直接会う機会が何度かありました。そのことについて、特に私の心に残っている 1 つの経験について話したいと思います。\n簡単な背景: NVIDIA は、先月、ブルームバーグとスティーブ ヌーリとともにジェンセンのヨーロッパ ツアーに参加するよう私を招待してくれました。パリ、ロンドン、ストックホルム、ベルリンなど、あらゆる停留所に滞在しました。私は彼の街頭演説のすべてに現場にいました。\nジェンセンが多くの人に軽蔑されるような発言をしたことについて、現在多くのことが言われているが、それをユーモアを持って受け止める人もいる。公平を期すために言っておきますが、ジェンセンには、一部の人々を不快にさせる少し尖ったユーモアがあります。彼は率直に話し、思ったことを言い、気分を害するようなジョークを言いますが、常に自分自身をからかうこともあります。\nそして、少なくとも私は、はっきりと一つだけ言えることがある。それは、彼の発言が攻撃、軽蔑、屈辱の意味であったと感じたことは一度もなかったということである。それは常に状況コメディでした。ジェンセンが NVIDIA の CEO になっていなかったら、彼はいつでも冗談を言う優れたスタンドアップ コメディアンになっていたでしょう。しかし、wとして"
-        },
-        {
-          "title": "(2/2) I had a lot of time to think on my flight back from the US and found myself looking back on the last few months. So I'm doing this of my own free will. Simply because it bothers me what a bad picture is currently being painted of Jensen. A lot is being said about Jensen, but rarely with the people who actually met him. That's why I want to share my experience, which was nothing but good and wonderful, to offer a counterpoint to the current picture.\nI really hope Jensen comes back after all. I don't work at NVIDIA and have no other connection to him. But I miss him as an important figure in these times, someone who brought so much wit, humor and humanity.\nThanks for your attention. And thank you @JensenHuang for everything you did.",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124195939501871424",
-          "domain": "x.com",
-          "published": "2026-11-22T02:39:12+09:00",
-          "published_label": "2026/11/22(日) 02:39",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "(2/2) アメリカから帰国する飛行機の中で考える時間がたくさんあり、気が付けばここ数ヶ月を振り返っていました。だから私は自分の自由意志でこれをやっています。単純に、ジェンセンに関して現在描かれている悪いイメージが気になるからです。ジェンセンについては多くのことが語られていますが、実際に彼に会った人々についてはほとんど語られていません。だからこそ、私は今の状況に対する対案を提供するために、素晴らしく良いものばかりだった私の経験を共有したいと思います。\n結局のところ、ジェンセンが戻ってくることを本当に願っています。私は NVIDIA で働いていませんし、彼とは他に何のつながりもありません。しかし、私は彼がこの時代に重要な人物であり、多くのウィット、ユーモア、そして人間性をもたらしてくれた人物であることを懐かしく思います。\nご清聴ありがとうございました。そして @JensenHuang の尽力に感謝します。"
-        },
-        {
-          "title": "It’s official: the proof of the Riemann hypothesis is correct. Alpöge made history.\n„We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct, and we congratulate him on this achievement.”\nLean (@leanprover)\nThe Lean FRO and Mathlib Initiative have released a joint statement on the Lean verification of the Riemann Hypothesis.\nOn November 20, Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of 17 million lines of code. Over the past day, the Lean and Mathlib communities worked together to verify it. The statement certifies the proof as correct and describes how it meets all necessary verification criteria.\nCongratulations to Levent on this achievement, and thank you to everyone in the community who contributed to the verification.\nFull statement:\n— https://x.com/leanprover/status/2124159121645801562",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqf8hQW0AAm9iu.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqGwBnaUAA8Pvd.png?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124186049450529004",
-          "domain": "x.com",
-          "published": "2026-11-22T01:59:54+09:00",
-          "published_label": "2026/11/22(日) 01:59",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "公式には、リーマン予想の証明は正しいです。アルポージュは歴史を作りました。\n「我々は、アルポージ氏のリーマン予想の証明が正しいと完全に自信を持っており、この業績を祝福します。」\nリーン (@leanprover)\nリーンFROとMathlib Initiativeは、リーマン予想のリーン検証に関する共同声明を発表した。\n11 月 20 日、Levent Alpöge は、1,700 万行のコードのリーン ライブラリとしてリーマン仮説の証明をリリースしました。この 1 日間、Lean コミュニティと Mathlib コミュニティが協力して検証しました。この声明は証明が正しいことを証明し、それが必要なすべての検証基準をどのように満たしているかを説明します。\nこの達成について Levent にお祝いを申し上げます。また、検証に貢献したコミュニティの皆様に感謝します。\n声明全文:\n— https://x.com/leanprover/status/2124159121645801562"
         }
       ],
-      "elapsed": 3.3
+      "elapsed": 0.6
     },
     {
       "id": "x_haider1",
@@ -1192,6 +1194,42 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "the devfluencer hate on gpt-6.2 astra and sol are just ridiculous\ni don't like people who confidently declare models suck based on video games nobody will ever play especially when proper model testing is rare because experienced users don't waste tokens on pointless tasks",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2124656675151904856",
+          "domain": "x.com",
+          "published": "2026-11-23T09:10:00+09:00",
+          "published_label": "2026/11/23(月) 09:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "devfluencer が gpt-6.2 のアストラとソルを憎むのはばかばかしい\n私は、誰もプレイしないビデオゲームに基づいてモデルがひどいと自信を持って宣言する人々が好きではありません、特に適切なモデルのテストがまれな場合、経験豊富なユーザーは無意味なタスクにトークンを無駄にしないからです"
+        },
+        {
+          "title": "noam brown's 2023 tweet hits differently today\nopenai internal model solved navier–stokes using 10,000 AI agents, 130B output tokens, 88 hours of reasoning and another 17 hours for Lean verification\nanthropic's levent alpöge claims to have proved the Riemann Hypothesis by producing 17 million lines of Lean code",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HXu_mmtbkAA_Qvz.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2124611376937353413",
+          "domain": "x.com",
+          "published": "2026-11-23T06:10:00+09:00",
+          "published_label": "2026/11/23(月) 06:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ノーム・ブラウンの2023年のツイート、今日のヒットは異なる\nopenai 内部モデルは、10,000 の AI エージェント、130B の出力トークン、88 時間の推論、さらに 17 時間のリーン検証を使用してナビエ ストークスを解決しました。\nanthropic の levent alpöge は、1,700 万行のリーン コードを作成することでリーマン予想を証明したと主張しています"
+        },
+        {
           "title": "",
           "summary": "",
           "images": [
@@ -1207,7 +1245,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Geoffrey Hinton says we're making alien beings; it's not computer software we're making\nWe write a program that tells neural networks how to learn from data, and we don't know what knowledge they take from it\nIt's not like software. It's much more like our brains",
@@ -1225,7 +1263,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェフリー・ヒントンは、私たちはエイリアンを作っていると言いました。私たちが作っているのはコンピューターソフトウェアではありません\n私たちはニューラル ネットワークにデータから学習する方法を指示するプログラムを作成しますが、データからどのような知識が得られるのかはわかりません。\nソフトウェアとは違います。それは私たちの脳によく似ています"
         },
         {
@@ -1242,7 +1280,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "openai が内部モデルの残りのミレニアム問題にすでに大量の計算量を投入していることはほぼ確信しています。\n彼らは人類に数学の主導権を握らせるわけにはいきません...oai にはおそらく同等の能力はあるものの、クロードよりはるかに信頼性の低いモデルがあり、それが現時点での最大のボトルネックとなっているようです"
         },
         {
@@ -1259,7 +1297,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "今日数学で起こっていることは、今後 1 ～ 2 年以内にあらゆる分野で起こるだろう\n私たちはこのギザギザのインテリジェンスを持っていますが、あなたの分野がギザギザに陥ると、どんなに賢い人でも、AI がそれをどのくらいの速さで消費し、変換するかを予測できなくなります。\n主にAIを指導する一流の数学者を除いて、数学は無関係な分野になるだろう"
         },
         {
@@ -1406,45 +1444,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "リーマン予想の証明は、人間の専門知識が AI を導いたときに何が可能になるかを示しており、そこが私たちが向かうべき方向です\n人間の直感、創造性、専門知識によって動かされる AI。 AI 研究所はまもなく歴史上の地位を争うようになり、そのすべてががんの治療で記憶に残されることを望むようになるでしょう"
-        },
-        {
-          "title": "HOT TAKE: math was always hyped up as the hardest subject but it turns out to be the dumbest and easiest subject to solve\nwho knew this was the case all along",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2123982232578630087",
-          "domain": "x.com",
-          "published": "2026-11-21T12:30:00+09:00",
-          "published_label": "2026/11/21(土) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "注目記事: 数学は常に最も難しい科目として誇張されてきましたが、実は最も愚かで最も簡単に解決できる科目であることが判明しました\nこうなることを最初から知っていた人は"
-        },
-        {
-          "title": "what a historic moment to witness\nsince august 2026, all six remaining millennium prize problems have seen claimed breakthroughs or related mathematical advances of some kind\nopenai proposed a full navier–stokes solution while anthropic claimed proofs for the riemann hypothesis and navier–stokes",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXltN0kbEAAlud7.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2123931899500634445",
-          "domain": "x.com",
-          "published": "2026-11-21T09:10:00+09:00",
-          "published_label": "2026/11/21(土) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "なんと歴史的な瞬間を目撃できることでしょう\n2026 年 8 月以降、ミレニアム賞の残り 6 つの問題すべてで、ブレークスルーまたは関連する何らかの数学的進歩が主張されています。\nopenai は完全なナビエ・ストークス解を提案したが、人類はリーマン予想とナビエ・ストークスの証明を主張した"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "x_testingcatalog",
@@ -1456,6 +1458,25 @@
       "via": "https://nitter.cf/testingcatalog/rss",
       "count": 15,
       "items": [
+        {
+          "title": "Documented 🗞️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124664896495247361/v91S5gtX?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2124664894972969210",
+          "domain": "x.com",
+          "published": "2026-11-23T09:42:39+09:00",
+          "published_label": "2026/11/23(月) 09:42",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "文書化されました 🗞️"
+        },
         {
           "title": "Google continues to work on a new \"Inbox mode\" for Antigravity, where users will be able to see threads that require their attention.\nIt follows a broader shift we see across other Google AI tools, like Gemini (in the works) and Loop (waitlist). This change positions users in the decision-making seat to approve and review AI outcomes, rather than steering them precisely, as a main interface.\nAntigravity is also getting new logic to create AI agents from the prompt, distinguished as \"For Me\" and \"For my Team\".\nIt is getting even more interesting now 👀",
           "summary": "",
@@ -1472,7 +1493,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google は、Antigravity の新しい「受信箱モード」の開発に引き続き取り組んでおり、ユーザーは注意が必要なスレッドを確認できるようになります。\nこれは、Gemini (開発中) や Loop (待機リスト) など、他の Google AI ツール全体で見られる広範な変化に続くものです。この変更により、ユーザーは主要なインターフェイスとして AI の結果を正確に操作するのではなく、意思決定の席に座って承認およびレビューできるようになります。\nAntigravity には、プロンプトから「自分用」と「自分のチーム用」として区別される AI エージェントを作成するための新しいロジックも追加されています。\nますます面白くなってきました👀"
         },
         {
@@ -1491,7 +1512,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞"
         },
         {
@@ -1511,7 +1532,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google 🔥: Google AI サブスクリプションが 12 月 2 日にサードパーティのハーネス アプリで利用可能になることを示すヒントがいくつかありました。\nエルメスはその最初のブランドのひとつです 👀\nローガン・キルパトリック (@OfficialLoganK)\n12月2日、私たちは最初の一歩を踏み出します\n— https://x.com/OfficialLoganK/status/2123657759896007035"
         },
         {
@@ -1610,25 +1631,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Googleは最近、与えられた目標に向かって自律的に作業できる新しい自己改善型AIエージェントであるLoopを発表した。\nループは内部的には Jitro と呼ばれています。興味深いことに、これは Jules v2 の正確な名前でした。\n仕組みは次のとおりです 👀\n1. ユーザーは、選択した Github プロジェクトに接続し、基本情報を追加することで、ワークスペースの作成を開始します。\n2. ユーザーはループを手動で作成することも、事前に定義されているループを選択することもできます (例: アプリケーション セキュリティの強化)\n「カスタム ループ」は、プロンプトを介して、またはループのタイトル、アイコン、および目的を手動で入力することによって作成できます。\n> 「ループは、Stitch Loop が継続的に取り組むべき中長期的な目標です。それらは非常に具体的なものから広範なものまで多岐にわたりますが、常にコードで達成できるものでなければなりません。」と説明には書かれています。\n3. ユーザーは、統合、ファイル、リンク、または追加のリポジトリの形式で追加のコンテキストに接続できます。\nそこでは、Jira、Linear、Datadog、Sentry、Notion、Snowflake、Salesforce、Intercom、Discord、Slack、Figma などのサービスを含む 100 以上の統合が利用可能です。\nカスタム MCP もサポートされています。\n4. ワークスペースを作成した後、Loop はプロジェクトの詳細を調べ始め、製品と製品メトリクスに関する独自のスキルを生成します。\nこれらのスキルは別のタブに表示され、Markdown の UI で編集できます。\n5. ワークスペースの準備が完了すると、Loop は独自の調査に基づいて指標と目標を提案します。ユーザーはこれらの提案をすぐにループに変換できます。\nループが作成されると、"
-        },
-        {
-          "title": "Documented 🗞️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123932348207263744/RvtG36pH?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2123932284294459861",
-          "domain": "x.com",
-          "published": "2026-11-21T09:11:31+09:00",
-          "published_label": "2026/11/21(土) 09:11",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "文書化されました 🗞️"
         },
         {
           "title": "ClickUp has shipped a major release that turns it into an \"everything app\", where users can ask Brain to build any tool they're missing.\n> Personal Software - allows users to build custom tools with Brain² AI. Users can describe an app, dashboard, or report, and Brain² would build it based on their ClickUp data.\n> Creative Studio (beta) - users can generate video clips, images, and sound from a prompt, then edit them on a timeline inside ClickUp.\n> AI Workflows (beta) - lets users customize how AI runs each step of a task, with built-in approvals.\n> ClickUp Labs - a free early-access program where users can toggle new features on and off.\nThere is a lot to test 👀\nVideo\nZeb Evans (@DJ_CURFEW)\nSoftware is converging, we always knew it would.\nEveryone told us to do ONE thing and do it well. Many still say it's ridiculous, impossible, stupid.\nBUT NOW IT'S UTTERLY OBVIOUS.\nThis is the only future in software, whether ClickUp does it or not. Even the software giants are already moving toward this new world order.\nI wholeheartedly believe that the only way to peak productivity is one platform that does everything, carries 100% of context, and enables everyone to become 100X.\nAnd it's only possible with AI.\nAI DOESN'T KILL SOFTWARE. IT CREATES MORE OF IT, AND CONVERGES IT.\nIf AI makes software dramatically easier to build, software companies will build MORE software. Not less. Right?\nThe company that built a tool for you will now build more tools. This will never stop.\nCategories blur. Competition increases. Features that once justified an entire company become a small feature addition to an existing platform.\nOver a given period of time, this is how it will end: Several massive companies that provide ALL software and ALL AI to their customers.\nBut building more is only HALF the story.\nAI needs to understand your context.\nAnd it needs somewhere to actually DO the work.\nThat's why AI and productivity software are converging too.\nHumans and agents need a shared place to communicate, make decisions, and get things done.\nONE APP TO REPLACE THEM ALL\nA behemoth horizontal platform, infinitely flexible, delivering all core software needs, built with common components, primitives, and services that enable mega solutions and compound speed in delivery of software.\nTHE ERA OF PERSONAL SOFTWARE\nTo build the everything app and actually work for everyone seamlessly, we rebuilt the application layers around the concept real-time personalization based on what you want, and what you don't want.\nPersonal Software adapts in real-time to what matters to you... how YOU work, entirely PERSONALIZED.\nYou shouldn't have to become a software company just to run your company.\nBut you should be able to build anything that your creativity can dream of, and that your workflows require.\nThe same boundaries disappearing between software categories are disappearing inside our team.\nTHE 100X STRATEGY IS WORKING\nSince my last post, we shipped more PRs every single week, compounding in growth and these PRs aren't slop - much of this is systems that literally fixed thousands of bugs and constantly optimizes performance.\nWe now have SIX 100x builders in seats we call Artisans. 10x frontend engineers becoming 10x backend engineers - and skilled enough to do the product work.\nToday's EPIC release was built ENTIRELY by our 100x builders. The video below shows what that actually looks like.\nAnd this isn't just about shipping new things faster.\nIt's about making the things you already use dramatically better.\nWe've spent the last few months building LARGE-SCALE SYSTEMS and LOOPS that enable us to build with high quality at lightning speed. This was the mandate BEFORE we built more on the platform.\nIn September, our user generated metrics for quality hit all-time highs, now 90% of ClickUp customers are happy with quality and performance.\nAnd in a production comparison this week across millions of sessions, ClickUp now loads 40% faster.\nBreadth is NOT an excuse for mediocrity in this next era of ClickUp. If we're going to replace your tools, we have to earn it.\nI fully understand that we just weren't there yet for the last mile of use cases.\nBut now, if you get blocked on anything you want, you can simply tell Brain to build it.\nIn our early days, we made shipping every week part of who we were.\nTODAY'S EPIC RELEASE IS OUR REBIRTH.\nWe're back. Except now, we're shipping improvements EVERY SINGLE DAY.\nI started ClickUp because nearly losing my life made me obsess about the very limited time we have on this planet.\nThe goal is to enable creativity, and freedom in how you spend your time.\nEPIC productivity.\n💜\nVideo\n— https://x.com/DJ_CURFEW/status/2123805481357758681",
@@ -1748,7 +1750,7 @@
           "title_ja": "Arcfront は、現場の専門家から直接収集した特殊なデータに基づいて AI モデルをトレーニングするためのプラットフォームを開始しました。\n同社は、設立から 1 年も経たないうちに、顧客のトップ 5 のうち 4 つの AI ラボを抱えています。\n@arcfront は、病院から銀行に至るまで 300 社以上の大企業と提携して、専門家がどのように重要な意思決定を行っているかを記録しています。例には、ソフトウェアのロールバック手順、チップ設計計画、M&A 評価などがあります。\nアンシュマン・シン (@anshuman_ssh)\n本日、私たちは @Naman_Bhalla と @asxna からの強力なサポートとともに @arcfront を立ち上げます。\n1 年も経たないうちに、フロンティア ラボ 5 社のうち 4 社が顧客になりました。\n2025 年、AI が ICPC 世界決勝戦で 12 の問題すべてを解決しました。最も優れた人間チームが 11 を解決しました。私はそれらの決勝戦のうち 2 回に出場したので、それがどれほど大きな偉業であるかを知っています。\nそれでも、同じ AI を財務マネージャーとして社内に導入したり、その他のほぼすべての仕事に導入したりすると、初日から失敗します。\nそれはなぜでしょうか?\nビデオ\n— https://x.com/anshuman_ssh/status/2123848140575182946"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.6
     }
   ]
 }

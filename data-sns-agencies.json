@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T04:31:56+09:00",
-  "generated_at_label": "2026/11/23 04:31 JST",
+  "generated_at": "2026-11-23T09:49:00+09:00",
+  "generated_at_label": "2026/11/23 09:49 JST",
   "title": "SNS・広告代理店 ニュース監視",
   "total": 190,
   "sources": [
@@ -95,7 +95,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "sns_02",
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_03",
@@ -200,6 +200,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%BB%E3%83%97%E3%83%86%E3%83%BC%E3%83%8B%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "セプテーニHD（4293）、3Q累計はすべての科目で過去最高更新 メディアハウスHD子会社化でHRマーケティング領域を拡張",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lUlpLWmZiTkY1WTNuQUJDeG5ZSEwtLVlQLTBWX1V0MkZ2S2ZLWkphd1pZU2pEQ1hCRGk4WjBPQnM4d3M3LUl2RFExbUV5Z0wxeUE?oc=5",
+          "domain": "finance.logmi.jp",
+          "published": "2026-11-17T17:00:01+09:00",
+          "published_label": "2026/11/17(火) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
         {
           "title": "セプテーニ・ホールディングス、数々の話題作を手掛ける映画プロデューサー山田兼司氏・音楽家岩崎太整氏が設立した映画スタジオTyken株式会社に出資",
           "summary": "",
@@ -263,25 +279,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "セプテーニ・ホールディングス、株式会社メディアハウスホールディングスの連結子会社化に向けた株式譲渡契約を締結",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XUjV2TDVjMnFCNUVrN3I2V2UwaExuak1DS2d2NHA4UldHSWctOXZiSXhLQXhxLUU4bGZRVGFIc0pEYnd4SmRjRUlfVDJDM3lzT1d2V2NWdzFmdF9lVE8wQWxlVEl5RkdwcHVfOFBIQmZtaEtH?oc=5",
-          "domain": "septeni-holdings.co.jp",
-          "published": "2026-09-24T16:00:00+09:00",
-          "published_label": "2026/9/24(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_04",
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_06",
@@ -557,10 +557,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_07",
@@ -634,16 +634,16 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "博報堂、IP商品の企画・デザインからEC販売まで手掛ける新サービス「別注商会」を開始",
+          "title": "博報堂ＤＹ－反落 IP商品の企画からEC販売まで手掛ける新サービス開始(トレーダーズ・ウェブ)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80UGxZT25VZkE3a2tqdUx5dEw1dU9QT2VPbXdQYXFQaVhVNVBycGMyZ3dOYUpYNkFPcldmanBRVzJDU1dhbWo0eW9yVTZ1dXhaSDROTWZnbVh3S2ZEdC1KeENmTTlnZ3FnNVV4aA?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-20T12:25:12+09:00",
-          "published_label": "2026/11/20(金) 12:25",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaDJhRWZuUmVhZGdKRG8tN0RFOGZaQVdCXzJqYjlGbzJRVXlPTzI3Y0xVc01yNnlld0VCcmxROEF3YXhPaE1nakM4dl9oSHFtTS0wZmg1R3ZFTW8tdnVpWlR6OVA0amFXY1dHWlBnT3R1X3p0dDBrQ0djQU9iZnZCWVJHdnZLS0k?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-20T14:34:02+09:00",
+          "published_label": "2026/11/20(金) 14:34",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -746,7 +746,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_09",
@@ -839,7 +839,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_10",
@@ -1211,7 +1211,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 0.4
     },
     {
       "id": "sns_14",
@@ -1304,7 +1304,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.6
     },
     {
       "id": "sns_15",
@@ -1397,7 +1397,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_16",
@@ -1490,7 +1490,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "sns_17",
@@ -1519,38 +1519,6 @@
           "is_new": false
         },
         {
-          "title": "CyberACE、Meta広告の運用自動化に関する無料オンラインセミナー開催へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9yRFd3Yk10c21aVWF0MXFycWMzRkJKWnFFUTk1ZlNHLWgxQWJEQV92LU1laG1ZMEtWMndtQXkxY0VPUjRPbWc?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-11-12T03:03:51+09:00",
-          "published_label": "2026/11/12(木) 03:03",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "【ハイブリッド開催】広告成果を次のステージへ。CriteoとCyberACEが共催セミナー「高パフォーマンスで成果につながる！Criteo広告入門」活用法を事例とともに解説",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5ak05QVFZOGRDZTJtX1pwUlRscjl4YkkwNlI2bVJGb1ItRHJfemtvNWNiVzFJZEtEcThiZ2ZId1hSZTVqNjhhWnhfVnh6RElDYmJtYUcxN29QeEZrWTBsbEhidjd1bklhY184bldrbXZqWEE?oc=5",
-          "domain": "excite.co.jp",
-          "published": "2026-11-09T18:40:00+09:00",
-          "published_label": "2026/11/9(月) 18:40",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "CyberACE、AIエージェント「効果おまかせAI」を本格展開 検索広告へも拡大へ",
           "summary": "",
           "images": [],
@@ -1570,10 +1538,42 @@
           "title": "CyberACE、AIエージェントによる広告運用を本格展開。「効果おまかせAI」の導入が50アカウントを突破し、検索広告へも拡大",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTSXFMSXB2MllaVkFBVWtaLTV3R1NlVHRJVFhSeTJvVkQyY3V5eWlwMzhsaHp6QmZtWG9lQVpOcGp2WjVJU1E4MWNqUzF6MlVnTE9uTA?oc=5",
-          "domain": "news.nicovideo.jp",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBcXVGLWdZNm03eGVzcER6dVVjVXgwWmgwOTcyeHQ4bzQwZndwWXFNem1qLVNPNnVSR1FPMnlGTnFUMVVWYkRyR09zQ1hMZzN1a3dxSmJHWmlUeEkxQTIxdWZHWE9tYi1DVkE?oc=5",
+          "domain": "prtimes.jp",
           "published": "2026-11-09T17:00:00+09:00",
           "published_label": "2026/11/9(月) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【ハイブリッド開催】広告成果を次のステージへ。CriteoとCyberACEが共催セミナー「高パフォーマンスで成果につ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CV1hQeWNTdXZoZ2JZMWFQX0FtT2ZrbXZlVGk1UG1aRTVPVEsxT2lQd0VDVUNxYUQ4RVNYdk9IU1Vqck84VzVjZ3d5NXdyQnJVcmI5Sw?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-05T17:00:00+09:00",
+          "published_label": "2026/11/5(木) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【Google社共催】CyberACE×Google「LPを制する者が、AI Maxを制す。」 ~AI",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9xLWJjNjVYaDNZQ2daQXRJRHJGMHc2MjhkVmdIVEFvNmo3dFlGdlVoRlkzNWltV2tWTGFsMUNvVnhpaU9hYm9lR1RWNXhRWjlHbnFGRg?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-10-29T16:00:00+09:00",
+          "published_label": "2026/10/29(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1612,38 +1612,6 @@
           "is_new": false
         },
         {
-          "title": "株式会社TORIHADAが新たに提供するFANMEプリント、コンビニでのクリエイター支援が実現",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1dkNQQ1ZiUDRLMGJjWkVaNFowUWx4WmFLQl9qSnBlMlB0M25ZeVZpN3BHRzlIRE9CSjMybXRIUVE0QTEwWGhXcGNaeWZ4b19tUXVHQ2hJZ2lqeVVXU2Z0YlJIZU4zYzJHNTZKUFlKaFBfQkpH?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-10-13T16:00:00+09:00",
-          "published_label": "2026/10/13(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "TORIHADAが提供するTikTok Shop運営SaaS「WHALE」でクリエイター成果を一元管理する新時代の到来",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTMVNIMTVIcU1WOVBVM295czRYcnBBa2VLMnpnZGxTUTBpNHNUeDVjMGdkNUFMYkJaMTR5X2c3dGkxMTFDLXFtbHV6c28tUTNxd1RXdTJqOVNYT29LZG5nVXAyOElMQXZKZlF3ZXJKY2k?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-09-15T16:00:00+09:00",
-          "published_label": "2026/9/15(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "TORIHADA子会社PPP STUDIO、SNS特化のエンタメレーベル「PPP Viral Entertainment」始動 ニシコリ・Voice Connectが8/14ワンマン",
           "summary": "",
           "images": [],
@@ -1674,6 +1642,38 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "クリエイターエコノミーを推進する株式会社TORIHADA、シリーズAラウンドにおいて累計15億円の資金調達を実施",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WZUx3aEJKLWEyUVUyNFNlUFhPa1hhdlhlS2dPcW1SNGg0ajBidkZMS1NRd01ZZHRLQWhoT29YaTIzUUkzNnNRZlBaRHhScGVvYlVqa1dkWC01Um5ZcWhNX2NfdkVxQ0p0b3c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-03-26T16:00:00+09:00",
+          "published_label": "2026/3/26(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ブランジスタとTORIHADAが業務提携 TikTok Shopマーケティングを加速",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MRDBzbEs1Nmt2N1F1V3lVUThlNGZqVmtnOHpFdTFQMEw1VDg3dElaRkpVX3ZZa0FIc3d4bFRHekRFM253ZEdEUU9oYWs3RVZpMV9mNl93UHB2eHJsRkFULWtEYWc?oc=5",
+          "domain": "ecnomikata.com",
+          "published": "2025-11-14T17:00:00+09:00",
+          "published_label": "2025/11/14(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -1766,10 +1766,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_20",
@@ -1862,7 +1862,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.5
     },
     {
       "id": "sns_21",
@@ -2141,7 +2141,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_24",
@@ -2161,38 +2161,6 @@
           "domain": "prtimes.jp",
           "published": "2026-11-18T13:00:01+09:00",
           "published_label": "2026/11/18(水) 13:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "保育園留学の奨学金、ソウルドアウトが企業寄附第一号に。こどもの成長機会と地域の未来を支援。",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUTktbkk5RVA1NU5lRnlRQ3EtWXlkVWw3bW9lU2Z1TWtSZ192MS1lRm9hTEc2QXgyS2o5R01UWWdqXzlTeTc1TWJYMV9aa1RtSzFYdUJUZm1mMmVINTMyeGNoOFZHTC1mZENEbnJ1UGZ4QWpQdTBYZXlGNXVLUUNOYg?oc=5",
-          "domain": "373news.com",
-          "published": "2026-11-17T18:24:23+09:00",
-          "published_label": "2026/11/17(火) 18:24",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "ソウルドアウト、「Meta Agency First Awards Japan 2026 」にて今年度新設された「Creative of the Year」クリエイターソリューション賞のGOLDを受賞",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40N0cwUTAtTVRNRm8xSlZYODNhNGVzWXVQSWNoRVZCV1k0bThsTllMNXpSd2o2U24xQjc1UnlyRnp5WUIzdHhzOWtDRlozUEhzNWNha3dJVjhaRzRMUmloNzNkSmRnV29yT1E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-10T17:00:00+09:00",
-          "published_label": "2026/11/10(火) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2232,9 +2200,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ソウルドアウト、ブランドセーフティおよび無効トラフィック対策に関する「JICDAQ認証」を更新",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yR21NaVQ5UzZkMlp3ZWRVV1c0N2dTaklEUUt0aG5STEIzajRZX2dWSzdmYVo5QTFFNlRuTzA0QV94OWtrT2tFU1MzNUlNSHh2ZGJlS19SX1lWTi14Q1hvVVJVeFotdTgyX1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-07-15T16:00:00+09:00",
+          "published_label": "2026/7/15(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "アンドデジタル、「ソウルドアウトライズ」へ社名変更し、地域経営者への伴走型事業成長支援を開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oSkR5bFBuNWlTVjQxajJyYVRNWmFMLU5iVk5MelNLaXF4VGxYYUFpXzNkRE5CRVN0U1lJMzVQdzF4bFpSU2FTb19mQkZIOTlPWFR2emVzTW5mUnJ3aU1EdGRqcEw4dURZTzBFb2NB?oc=5",
+          "domain": "tv-tokyo.co.jp",
+          "published": "2026-07-01T16:00:00+09:00",
+          "published_label": "2026/7/1(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_25",
@@ -2340,77 +2340,77 @@
       "count": 5,
       "items": [
         {
-          "title": "株式会社DYM、新卒・若手向け採用支援4サービスを「ミーツカンパニー」ブランドに統合",
+          "title": "三井住友トラストクラブがDYMペイメントと提携し法人向け特別パーチェシングカードプランを開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYNFNxTGdUYVAyNDkxV015QkRKbVkwRmsyOU15aUIwZ0RhR1dQR1RoOENQNmVDU1Q4c0lLSWxPa013YnllT0FkeFpKeXYxMER1VXlpRDlGdU14a0VGbE9zU05fMkpocWRUM3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-01T16:00:00+09:00",
-          "published_label": "2026/10/1(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55S1NnSGFSTzZ2cVlQR1VoVDJhTHdiZGdHZUJHNmFnZTBzWS11ejRLc05kc3dWeW9RVEdKMmpsc1lZZ0JyYkVsN0VVOUtiOFJkY0FKclVTUEVyTUtVams5UUl0clhtbFJnZkh0UndPdXI?oc=5",
+          "domain": "voix.jp",
+          "published": "2026-11-17T15:16:58+09:00",
+          "published_label": "2026/11/17(火) 15:16",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "「求人ボックス」最上位代理店の株式会社DYM、株式会社ゼクウと共催ウェビナーを開催",
+          "title": "参加無料・定員50名／事業会社のマーケティングご担当者様限定～DYM、Meta社と事業会社のマーケター限定のセミナー",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KWm1aUUhQSWhDSTJVVFNwb2szbS1sSFRWRzlyUS00dFpWZ001S1JKeTQ2aUYwaFRfdmY2bGNkTHFCT2J0RGtsYlBOYUVFMzJBRDduU0hmQS0yWGF0MENPOC15Mm4wSnZYQXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-01T16:00:00+09:00",
-          "published_label": "2026/10/1(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02WjRya3dQSHIxcGQzRjVTZWQzQkFZalNNeEstd1JobEVPV3VEZDVmM29rT0pGaU1WMlFwdHU1OVpzNEJrQ0xOZDV2dHNrYmxfUnRLWg?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-16T18:45:21+09:00",
+          "published_label": "2026/11/16(月) 18:45",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "株式会社ワンアーカー、株式会社DYM発のプロダンスチーム「DYM MESSENGERS」とスポンサー契約を締結",
+          "title": "【DYM×A8.net】AI時代の運用型広告とアフィリエイト戦略を解説する無料ウェビナーを10月27日（火）に共催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zYnFTLWZNYktEQTByUGUzcDVzcXl2Z2N4b2w0QU10RE8yVS0xZkJ1ZUJaZndaUXVJTmFIVS05SkpNeURnZnRpaUJVV0dDeGNHMndsSEJlNWJpblpJc0xGcjE2bDBRUGFfRXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-07-01T16:00:00+09:00",
-          "published_label": "2026/7/1(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GdTNEbFdIMkxRWm5jbXVvdlp3U21sZmhNejg2Q255TWxWMjNHM3VBcENBQm1FX2xic0NxekhEc0doWmw0Zk9zT3dBRUl0MVIyMmJyMk5jQjRBc2tNYWFzNjdEZGxhc3ZJNkJuaVVnUEJ0dw?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-10-23T16:00:00+09:00",
+          "published_label": "2026/10/23(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "【理想の管理職 EXPO登壇】株式会社DYM、メルカリ 岸井氏を迎え「HRのカルチャー変革」をテーマに特別対談が決定！",
+          "title": "DYMスカウト、就活生の動向がわかるアプリ内機能「就活トレンドボード」の提供を開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BTUxsU2pSMl9uTGc1dC1JVjUxMWxrbHBMYWV5NjlBekVvdmdtNXdmVU9scGN3NlAwZG03YWYteVRzMVJGdEY2MUR1NW9ya3RUUW83QmFaUWVYWjdYUEFfQXl3YV9nRlJQM3VHVEVB?oc=5",
-          "domain": "tv-tokyo.co.jp",
-          "published": "2026-06-18T16:00:00+09:00",
-          "published_label": "2026/6/18(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RUkNIZWdMZTdLVm4yelRlaWtRalhmUk9Jc3h1czdrLTVjYzZTTzRuLTIyQWE0U0doWUNxUkNneVdQOXN6SDloWkdvVUxHNlJzYmR4aVBYTUZ5ZXRwMkpiaGVjWXRFNzdMN2lFZktMTzZXZw?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-10-23T16:00:00+09:00",
+          "published_label": "2026/10/23(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "DYMテック、サービスロゴ刷新のお知らせ",
+          "title": "社内で採寸からオーダーまで完結、社員限定「オーダースーツ特別販売会」。DYM、社員の“装い”を支援する新たな社内施策を開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwdGpoUGZ3LXlQOGRTTFRFdFV6OFNtVnJEc0pOUVg3TFlqZktYRF82b1Rtd0Y3Y3lSd2xLRWxMUGhVRG9VTjlweDU5MGlXQ1Z3Nk9LYnd6aUJrQlNTQmNkS1dYQVA0aTFlclE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-03-12T16:00:00+09:00",
-          "published_label": "2026/3/12(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYlBMVzNEcXJ1VTFuWUFjaV90ZVFDSDNaaHM5cW5pS25kdDB1ZzJXUFBRVndWMTkzTHR6b3E5dnhIX0VjSGJ5WW02YjFqWTZoNEt3UWRlbGFyLVNybW16dGFIMVZFMjE2SHdXWThFUkVWTzlTS2dfbjYtMGJ6bi1BbnVpd3JTN2pNMGtjQV83YmEwZUl6VTI3UXZQeWVDMG80MkhCdTB6RUp2UHQzUWc?oc=5",
+          "domain": "senken.co.jp",
+          "published": "2026-10-09T16:00:00+09:00",
+          "published_label": "2026/10/9(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2420,7 +2420,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "sns_27",
@@ -2500,8 +2500,8 @@
           "title": "メディアハウスホールディングス、採用・集客支援のさらなる強化に向けセプテーニグループに参画",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5adGVBN1RYR0JZOFBrMEN6cGNXMU1DLUJQWUx0d0xCMHBvd3YzM3RiZFd6MWJHQ0RmVjFuaG5LYnlqRTkyRTlhMDhqSDlDRm5idTBfcVkyelpTM01FN3prX3FIY01pMlBVQTNZLXM2WTlNdw?oc=5",
-          "domain": "news.infoseek.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4NTBlZFF4UkhpV3diVWV5TzhJYzlLQjNENl9HOEd4Z0kxNElwVXVPQ1g5VDlLQmt1eHBMZDViS1VBRW9YYXE5RDRZZEJfQjVlNzVYZFlXWlFkbUE0bUpxQVNwQTNCcUpFcmc?oc=5",
+          "domain": "prtimes.jp",
           "published": "2026-11-04T17:00:00+09:00",
           "published_label": "2026/11/4(水) 17:00",
           "badge": "JP",
@@ -2510,10 +2510,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_28",
@@ -2606,7 +2606,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "sns_29",
@@ -2648,7 +2648,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "トランスコスモス、顧客接点のVOCを企業資産化するデータ活用サービス「trans-AI Voice」",
@@ -2667,6 +2667,22 @@
           "is_new": false
         },
         {
+          "title": "トランスコスモス、マレーシアのコンタクトセンターアワードにおいて、3部門で受賞",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zYk9id2JaZ1hXZTFHUHdfN29xSUI5c0hldnA2cEl3Y043bFdVNlI4dEg0YUNzTVBqejV2U19vdm9PUjdWdERrNTdJVnZfbldaajlOcDh4TFdsUjE0N2JVS3c0eGVKTkhPZlE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-16T14:00:02+09:00",
+          "published_label": "2026/11/16(月) 14:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "【トランスコスモスオンラインセミナー】〜経理・財務が押さえるべき間接費改革〜を12月9日（水）、12月10日（木）、12月11日（金）に開催",
           "summary": "",
           "images": [],
@@ -2681,25 +2697,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "【決算速報】トランスコスモス、中間経常6,586百万。(アイフィス株予報)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZENfNGdQYWFIOElnakk1ZWJnUHJZN0RzRWVaR0xJa2RNbUY0QkpBQmlGV1RUMklDRzZOODlPMFN2d2wzVEMwV1hGUUpoRjd3eGF6dmduYlRyc01ZTnJSbUd2SzNpOHFtM00tTVJQR09jMVhnREE0SFpfSjdwNmFyRlpCd01ERUE?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-10-30T16:00:00+09:00",
-          "published_label": "2026/10/30(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "sns_30",
@@ -2792,7 +2792,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_31",
@@ -2885,7 +2885,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "sns_32",
@@ -3071,7 +3071,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.3
     },
     {
       "id": "sns_34",
@@ -3161,7 +3161,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -3190,7 +3190,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "KASHIKA、川畑のTikTok Shop受注・出荷後業務にAIを導入。7日間2,786件・売上793万円の直販運営を支援",
@@ -3222,7 +3222,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "累計2,200社が使う広告データを\"AIエージェント化\"。リサーチから入稿・PDCAまで自動化する「AIパクくん」を、AX CAMP契約企業へ無償提供開始｜株式会社AX × 株式会社KASHIKA",
@@ -3238,7 +3238,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【BtoB広告運用 支援事例】株式会社KASHIKA「データ×AIサービス」の支援事例を公開—商談数2倍・展示会比で商談単価1/33を達成",
@@ -3254,10 +3254,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_36",
@@ -3350,7 +3350,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.4
     },
     {
       "id": "sns_37",
@@ -3443,7 +3443,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "sns_38",
@@ -3488,6 +3488,22 @@
           "is_new": false
         },
         {
+          "title": "【決算速報】デジタリフト、経常39.5%減益。事前予想と同水準(アイフィス株予報)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVERtdFctOW53YW1SWEVGQ09BbXRFY2VjU3NTTHQzcmJiY3Jacmgwc29rUmtpZlc1QlJJN0RxWVpDLXZzRXQtWWdrZGlNTmdQYWhDV0UzdzMtc24ySWp0cTlJLXpLa0xNQXphYjRMS3V2d1Q4V0V4X1RqWTVLQW1YWHlESkM3VlE?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-13T12:00:41+09:00",
+          "published_label": "2026/11/13(金) 12:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "デジタリフト[9244]：2026年9月期 通期決算説明会資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
@@ -3518,25 +3534,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "デジタリフト（9244）の株主優待｜国内株式",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOTy1sQ1dxX093Y3d0T1BuejhXYnVYSl9FNE9BWDFwMkhLMDR2MUJQX004R2VSTW5KS2pBN09MLXd0SW5QQTFQV2RvbGdWMnY3MzBFdjhhZG9MME1GQXFJUUgyN1pwUFNEdC1xMl9yV1MtZXloa25KTDg1dVJGcW9kSUFqRVpMLTB3T25rYTJaaEZUOXNEeEM1aFAybktOeWhGTHQ4dll2SlhyWGtzUXY0UVBTeFdPY0ZpZnBDLXpDeFMtMXBLRHBHY0F2clRiVnRIejEyTEtDMnQ2allxV2tCUTVrSUJabVFsLU5r?oc=5",
-          "domain": "sbisec.co.jp",
-          "published": "2026-11-12T14:50:32+09:00",
-          "published_label": "2026/11/12(木) 14:50",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.0
     }
   ]
 }
