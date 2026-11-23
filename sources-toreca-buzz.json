@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "title": "トレカ抽選速報10垢 X監視ボード",
+    "nav_label": "🔥 抽選速報",
+    "items_per_source": 15,
+    "translate": true,
+    "translate_max_per_run": 120,
+    "nitter_base": "https://nitter.cf",
+    "nitter_mirrors": [
+      "https://nitter.cf",
+      "https://nitter.privacyredirect.com",
+      "https://xcancel.com"
+    ],
+    "tolerate_errors": true
+  },
+  "sources": [
+    {
+      "id": "x_chang_tingyao",
+      "type": "x",
+      "name": "ポケカ抽選ボード｜ポケカ・ワンピ・NARUTO 抽選まとめ (@chang_tingyao)",
+      "handle": "chang_tingyao",
+      "description": "ポケカ抽選を締切順に・毎日更新。ポケカ・ワンピカードの抽選を締切順にまとめ、NARUTOカードゲームは体験会の応募と発売情報を扱う。",
+      "enabled": true
+    },
+    {
+      "id": "x_cardchusen_com",
+      "type": "x",
+      "name": "トレカ抽選・再販情報まとめ@トレゲト (@cardchusen_com)",
+      "handle": "cardchusen_com",
+      "description": "トレカの抽選速報・再販情報をまとめる。大手だけでなくネットやSNSの細かい情報まで網羅。",
+      "enabled": true
+    },
+    {
+      "id": "x_tcg_info_navi",
+      "type": "x",
+      "name": "TCG抽選・再販ナビ｜東海&全国 (@tcg_info_navi)",
+      "handle": "tcg_info_navi",
+      "description": "ポケカ・ワンピカード・DBFW(フュージョンワールド)の抽選・予約・再販を毎日まとめる。東海(愛知・岐阜・三重)の店舗＋ECを中心に全国をカバー。",
+      "enabled": true
+    },
+    {
+      "id": "x_mochi_toreca",
+      "type": "x",
+      "name": "ポケカ速報もち｜抽選・買取の条件まで (@mochi_toreca)",
+      "handle": "mochi_toreca",
+      "description": "ポケカの抽選・買取を条件まで調べて6時間ごとに配信。買取相場と新規ネット抽選の速報。",
+      "enabled": true
+    },
+    {
+      "id": "x_pe_ichi_ni_san",
+      "type": "x",
+      "name": "ぺーちゃん@お得とお酒が好き (@pe_ichi_ni_san)",
+      "handle": "pe_ichi_ni_san",
+      "description": "セール速報・ポイント攻略と、ポケモンカード等人気商品の抽選情報を発信。当日締切の抽選をピンポイントで拾う。",
+      "enabled": true
+    },
+    {
+      "id": "x_onchainoutlaw",
+      "type": "x",
+      "name": "ライポケ通知 (@OnchainOutlaw)",
+      "handle": "OnchainOutlaw",
+      "description": "LivePocket（ライポケ）の抽選URLなど、トレカの抽選情報を中心に定期投稿。近畿地方など地域別の当日締切も抽出。",
+      "enabled": true
+    },
+    {
+      "id": "x_tcg_sky",
+      "type": "x",
+      "name": "SKY｜ポケモンカード・ワンピースカード・遊戯王情報まとめ (@TCG_SKY)",
+      "handle": "TCG_SKY",
+      "description": "ONE PIECEカード・ポケモンカード・遊戯王カードの最新情報をまとめる。再入荷分の抽選速報が中心。",
+      "enabled": true
+    },
+    {
+      "id": "x_nchan_000",
+      "type": "x",
+      "name": "Nちゃん♡雷エネルギー⚡️ (@Nchan_000)",
+      "handle": "Nchan_000",
+      "description": "ポケカ抽選・トレカ抽選・物販ネタを毎日発信。当選/落選アンケートや抽選リンク集も。",
+      "enabled": true
+    },
+    {
+      "id": "x_akipokemonlife",
+      "type": "x",
+      "name": "あき【トレカLIFE】 (@AkiPokemonLife)",
+      "handle": "AkiPokemonLife",
+      "description": "ポケモン/遊戯王/ワンピース/ドラゴンボールなどトレカ情報を幅広く扱い、抽選リンクをまとめる。",
+      "enabled": true
+    },
+    {
+      "id": "x_moneynocat",
+      "type": "x",
+      "name": "トレカラボ｜ポケカTier・優勝デッキ速報 (@moneynocat)",
+      "handle": "moneynocat",
+      "description": "ポケカのTier表・優勝デッキ速報とあわせて、発売日・予約抽選の情報をまとめる。",
+      "enabled": true
+    }
+  ]
+}
