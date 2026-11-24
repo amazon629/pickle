@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T23:22:42+09:00",
-  "generated_at_label": "2026/11/24 23:22 JST",
+  "generated_at": "2026-11-25T02:34:58+09:00",
+  "generated_at_label": "2026/11/25 02:34 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -294,7 +294,7 @@
           "title_ja": "@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\nGoogle ディープマインド (@GoogleDeepMind)\nGemini 4 Neon は現在展開中です。\n炭素と水素の間に位置し、複雑なソフトウェア エンジニアリング、知識作業、科学に最先端のインテリジェンスと迅速なタスクの完了をもたらします。\n— https://x.com/GoogleDeepMind/status/2123167884411077030"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_opencode",
@@ -575,7 +575,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 0.6
     },
     {
       "id": "x_aimirai46487",
@@ -587,6 +587,62 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■引用元\nTencent Hy (@TencentHunyuan)\n🚀 Hy MT3 is here — third-generation open-source translation models.\nMore accurate, more complete, and better at following user instructions. Language coverage expanded from 38 to 102.\nOptimized for game localization (with Honor of Kings) and image/OCR translation.\nModels open for download and deployment.\n🤗\n🔗\n📚:\n— https://x.com/TencentHunyuan/status/2125170622049485093",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX4fWcgaYAAbaCb.png?name=small",
+            "https://pbs.twimg.com/media/HX4fYODbYAEbABz.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125236542604193964",
+          "domain": "x.com",
+          "published": "2026-11-24T23:34:11+09:00",
+          "published_label": "2026/11/24(火) 23:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nテンセント ハイ (@TencentHunyuan)\n🚀 Hy MT3 が登場 — 第 3 世代のオープンソース翻訳モデル。\nより正確で、より完全で、ユーザーの指示に従うのがより適切です。対象言語が 38 言語から 102 言語に拡大されました。\nゲームのローカリゼーション (Honor of Kings を使用) と画像/OCR 翻訳用に最適化されています。\nモデルはダウンロードしてデプロイできるようになっています。\n🤗\n🔗\n📚:\n— https://x.com/TencentHunyuan/status/2125170622049485093"
+        },
+        {
+          "title": "Tencent Hy(テンセント)は、翻訳AIモデル「Hy MT3」をオープンウェイトで公開しました。\n翻訳精度や指示への追従能力が向上し、対応言語が38から102に拡大し(日本語サポート)、ゲームの多言語化や画像内の文字翻訳にも最適化されています。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5bUYYaMAA5qwx.png?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125236514548539791",
+          "domain": "x.com",
+          "published": "2026-11-24T23:34:04+09:00",
+          "published_label": "2026/11/24(火) 23:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "先日、Baidu(百度)の公開した最新AIモデル「ERNIE 5.5 Flash Preview」がオープンウェイト化されました。\nBaidu Inc. (@Baidu_Inc)\nERNIE 5.5 Flash Preview is now open source!\nWe’ve released the model weights under the Apache 2.0 license. You can deploy the model with vLLM or SGLang and fine-tune it for your own projects.\n🧵 Want to try it yourself? Grab the weights ↓\n— https://x.com/Baidu_Inc/status/2125077484442190137",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX3HkI9bIAAIear.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125236421757968589",
+          "domain": "x.com",
+          "published": "2026-11-24T23:33:42+09:00",
+          "published_label": "2026/11/24(火) 23:33",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "AIエージェントOpenCodeの低価格サブスクプラン「OpenCode Go」で、ステルスモデル(どこかの会社がテストで公開しているAIモデル)「HungerG」が今週中無料で使えるようです\nOpenCode (@opencode)\nHungerG (stealth model) is free for OpenCode Go subscribers this week\n1M context\nMulti-modal\nNo training on data\n— https://x.com/opencode/status/2125062647846694979",
           "summary": "",
@@ -804,64 +860,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "■引用元\nキャンバ (@canva)\nCanva のデザイン エンジンを世界にもたらす、まったく新しい Canva MCP をご紹介します。 🚀\nあらゆるエージェントや開発者が利用できるようになり、Canva のデザインツールと AI モデルをあらゆる製品、エージェント、またはワークフローに統合することがこれまでより簡単になりました。\n私たちはインターネットのデザイン層を構築しています 👇\nビデオ\n— https://x.com/canva/status/2124926205313081394"
-        },
-        {
-          "title": "Canvaは、ChatGPTやClaude、Gemini経由でCanvaのデザイン機能を活用できる「Canva MCP」を一般公開しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124923758079287296/img/9JaOw2vMOEYyN8lv.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069655043948558",
-          "domain": "x.com",
-          "published": "2026-11-24T12:31:02+09:00",
-          "published_label": "2026/11/24(火) 12:31",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nGoogle Antigravity (@antigravity)\nNo more guessing what your agent is doing mid-run.\nProgress checklists are now live in Antigravity. Track every step in real time, and expand the full breakdown whenever you want to double-check the work.\nBuilt from your feedback, and we are just getting started.\nVideo\n— https://x.com/antigravity/status/2125032843550028030",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125032780560039936/img/BAHtOWj2YsgidrDF.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069579579985977",
-          "domain": "x.com",
-          "published": "2026-11-24T12:30:44+09:00",
-          "published_label": "2026/11/24(火) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGoogle反重力 (@antigravity)\n実行中にエージェントが何をしているかを推測する必要はもうありません。\n進捗チェックリストが Antigravity で公開されるようになりました。すべてのステップをリアルタイムで追跡し、作業を再確認したいときはいつでも完全な内訳を展開します。\n皆様からのフィードバックをもとに構築されており、まだ始まったばかりです。\nビデオ\n— https://x.com/antigravity/status/2125032843550028030"
-        },
-        {
-          "title": "GoogleのAIエージェント「Antigravity」に、進捗チェックリスト機能が追加されています。\n作業の各ステップをリアルタイムで確認でき、必要に応じて詳細を展開し、作業内容をチェックすることもできます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125032780560039936/img/BAHtOWj2YsgidrDF.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069541537710579",
-          "domain": "x.com",
-          "published": "2026-11-24T12:30:35+09:00",
-          "published_label": "2026/11/24(火) 12:30",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 1.0
     },
     {
       "id": "x_kimmonismus",
@@ -893,6 +894,64 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "Looking at all the examples, presumably from Opus 5.6, I’m incredibly excited about the upcoming model.\nAt the same time, I’m quite concerned by what Axios reported. It seems there’s no end in sight to the rapid pace of development, quite the contrary. Yet, it appears there’s talk of significantly slowing down the release of these models.\nChubby♨️ (@kimmonismus)\nIt’s getting serious: Axios reports that many Anthropic and OpenAI employees believe some unreleased models are already too powerful to release safely, a concern that could slow the AI boom.\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\n— https://x.com/kimmonismus/status/2125206715691933732",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5APkdXwAAnFNM.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125268959624839385",
+          "domain": "x.com",
+          "published": "2026-11-25T01:43:00+09:00",
+          "published_label": "2026/11/25(水) 01:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "おそらく Opus 5.6 のすべてのサンプルを見て、私は次のモデルに非常に興奮しています。\n同時に、私はアクシオスが報告した内容を非常に懸念しています。それどころか、急速な開発ペースに終わりは見えないようです。しかし、これらのモデルのリリースを大幅に遅らせるという話もあるようです。\nぽっちゃり♨️ (@kimmonismus)\n事態は深刻になってきている。Axios の報告によると、Anthropic と OpenAI の従業員の多くは、一部の未リリースモデルはすでに強力すぎて安全にリリースできないと考えており、AI ブームが鈍化する可能性があるという懸念がある。\nおそらく、数日前のブログ投稿で見た Anthropic のモデル 4 と OpenAI の未リリース モデルを指します。\n— https://x.com/kimmonismus/status/2125206715691933732"
+        },
+        {
+          "title": "Code and setup:\nWeights:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123761357476462592/B_C6_ti-?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125254552509120696",
+          "domain": "x.com",
+          "published": "2026-11-25T00:45:45+09:00",
+          "published_label": "2026/11/25(水) 00:45",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "コードとセットアップ:\n重み:"
+        },
+        {
+          "title": "A 9B open model just beat Qwen3.8-27B, a model three times its size, on GAIA.\nIt's SenseNova-Loop-9B from @SenseTime_AI, and the trick behind it is pretty clever. The model has 32 layers, but it runs the middle 24 twice on every forward pass, with the same weights. So it does 56 layer computations while only storing 32.\nIn SenseTime's comparison against Qwen3.8-27B:\n- GAIA: 69.90 vs 66.99\n- AutomationBench: 36.67 each\n- AIDABench: 65.31 vs 65.01\nWhat's impressive to me is the memory footprint. The official 4-bit version is about 4.9 GB, and SenseTime estimates roughly 15 GB of GPU memory for multimodal inference at a 256K context. That puts long-context agent work within reach of a single 16 GB GPU.\nOpen weights, Apache 2.0. Links below.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5qZyQbkAAETAe.jpg?name=small",
+            "https://pbs.twimg.com/media/HX5qaAUaMAAeuDN.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125253075166449866",
+          "domain": "x.com",
+          "published": "2026-11-25T00:39:53+09:00",
+          "published_label": "2026/11/25(水) 00:39",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "9B オープン モデルは、GAIA でその 3 倍のサイズのモデルである Qwen3.8-27B を上回ったところです。\nこれは @SenseTime_AI の SenseNova-Loop-9B で、その背後にあるトリックは非常に巧妙です。このモデルには 32 層がありますが、前方パスごとに中央の 24 層を同じ重みで 2 回実行します。つまり、32 個だけを保存しながら 56 個のレイヤー計算を実行します。\nSenseTime による Qwen3.8-27B との比較では、次のようになります。\n- ガイア: 69.90 vs 66.99\n- AutomationBench: 各 36.67\n- AIDAベンチ: 65.31 vs 65.01\n私にとって印象的なのはメモリ使用量です。公式の 4 ビット バージョンは約 4.9 GB で、SenseTime は 256K コンテキストでのマルチモーダル推論の GPU メモリを約 15 GB と見積もっています。これにより、ロングコンテキストのエージェントの作業が 16 GB の GPU で実行できるようになります。\nオープンウェイト、Apache 2.0。以下のリンク。"
+        },
+        {
           "title": "It’s getting serious: Axios reports that many Anthropic and OpenAI employees believe some unreleased models are already too powerful to release safely, a concern that could slow the AI boom.\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\nAxios (@axios)\nScoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release\n— https://x.com/axios/status/2125182771400163338",
           "summary": "",
           "images": [
@@ -909,7 +968,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "事態は深刻になってきている。Axios の報告によると、Anthropic と OpenAI の従業員の多くは、一部の未リリースモデルはすでに強力すぎて安全にリリースできないと考えており、AI ブームが鈍化する可能性があるという懸念がある。\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\nアクシオス (@axios)\nScoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release\n— https://x.com/axios/status/2125182771400163338"
         },
         {
@@ -928,7 +987,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Microsoft Ignite で、@Microsoft の Copilot 製品担当 CVP である @fayfers と話をしました。\n「コード」という言葉が一般の人を怖がらせる理由と、Copilot Code が平易な言語のリクエストをアプリやダッシュボードにどのように変換するかについて話しました。 「それはただのプロンプトボックスです。」\nもうすぐ完全インタビュー。"
         },
         {
@@ -1101,66 +1160,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ヤンさんに返信者としてご参加いただけたことを光栄に思います。"
-        },
-        {
-          "title": "The king is back in his office.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124924689579716608/img/5jGQlavDNs7jTtIQ.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124938885671289044",
-          "domain": "x.com",
-          "published": "2026-11-24T03:51:24+09:00",
-          "published_label": "2026/11/24(火) 03:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "王様は執務室に戻りました。"
-        },
-        {
-          "title": "Robots look impressive in demos, but move one object or change the lighting and a lot of them fall apart.\nEmbo, the new company from the team behind Dreamer and VideoGPT, just came out of stealth to work on exactly that. They raised $110M led by a16z, the largest seed round in robotics history.\nTheir approach is a world model trained on huge amounts of internet video and robot demos. The robot brain then practices skills inside that model, across imagined scenarios, and learns from its failures without breaking anything in the real world.\nIf this works, robots can learn from far more experience than anyone could ever collect on real hardware. That would be a big deal for the whole field.\nDanijar Hafner (@danijar)\nI'm excited to introduce Embo!\nWe are building the brain for intelligent robots to help people around the world.\nWe believe intelligent robots will unlock an era of abundance, making goods and services affordable for everybody. But to deploy them at scale, robots need to work out of the box in unfamiliar scenarios. At Embo, we are building frontier AI models with a deep understanding of physical reality and fine-grained motor skills.\nToday's robot skills are fragile. Demonstrations can teach repetitive behaviors, but they cannot cover every object or situation a robot will encounter. We need general pretraining at internet scale to fill the gaps between individual tasks and practice to develop reliable motor skills.\nThe world models our team has pioneered unlock a path to general robots. Our robot brain pretrains on massive amounts of internet video to learn about objects, physical interactions, and how tasks unfold. It then practices motor skills in diverse imagined scenarios to become robust to unexpected situations.\nOur team is behind seminal work in AI including Dreamer, VideoGPT, and Diffusion Forcing, with experience from DeepMind, Meta Superintelligence Labs, NVIDIA Cosmos, Berkeley, and MIT.\nWe have raised a $110M Seed led by @a16z. We are excited to partner with them, @khoslaventures, DST Global, NVentures (@nvidia), @strikervp, and other strategic investors to bring reliable intelligent robots out into the world.\n@EmboAI\nVideo\n— https://x.com/danijar/status/2124911019562811820",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124909320295124992/img/5pbIS81P1_EXrgR9.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124924676422193427",
-          "domain": "x.com",
-          "published": "2026-11-24T02:54:56+09:00",
-          "published_label": "2026/11/24(火) 02:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ロボットはデモでは印象的ですが、物を1つ動かしたり、照明を変えたりすると、多くのロボットが機能しなくなります。\nDreamerとVideoGPTを手がけるチームによる新会社Emboは、まさにその課題に取り組むためにステルスモードを解除したばかりです。同社はa16zをリードとする1億1,000万ドルの資金を調達し、これはロボット工学史上最大のシードラウンドとなりました。\n同社の取り組みは、膨大な量のインターネット動画やロボットのデモでトレーニングされたワールドモデルです。その後、ロボットの脳はそのモデル内で、想像上のシナリオにわたってスキルを練習し、\n現実世界で何も壊すことなく、失敗から学ぶことができます。\nこれがうまくいけば、ロボットは誰が実際のハードウェアで収集できるかよりもはるかに多くの経験から学ぶことができます。それはこの分野全体にとって大きな出来事となるでしょう。\nダニヤル・ハフナー（@danijar）\nEmboをご紹介できることを嬉しく思います！\n私たちは、世界中の人々を支援するインテリジェントロボットの脳を構築しています。\n私たちは、知能ロボットが豊かさの時代をもたらし、誰もが商品やサービスを手の届く価格で利用できるようになると信じています。しかし、\nロボットを大規模に展開するには、慣れないシナリオでもすぐに稼働できる必要があります。Emboでは、物理的現実と緻密な運動能力を深く理解した最先端のAIモデルを構築しています。\n今日のロボットのスキルは脆弱です。デモンストレーションは反復的な行動を教えることはできますが、ロボットが遭遇するすべての物体や状況を網羅することはできません。個々のタスクと実践の間のギャップを埋め、信頼性の高いロボットを開発するためには、インターネット規模での一般的な事前トレーニングが必要です。\n運動能力。\n当社のチームが先駆けて開発したワールドモデルは、"
-        },
-        {
-          "title": "Yes, this is a real post on truth social.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX03jRzWEAE4LQN.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124915684354515053",
-          "domain": "x.com",
-          "published": "2026-11-24T02:19:12+09:00",
-          "published_label": "2026/11/24(火) 02:19",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "はい、これはTruth Socialの実際の投稿です。"
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 0.8
     },
     {
       "id": "x_haider1",
@@ -1192,6 +1194,25 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "i'd love to see people take part in this LLM jailbreaking competition\nyou compete against different AI models across multiple challenges and difficulty levels to get autonomous agents to perform actions they've been explicitly instructed not to take\ncurious to see who manages to break the strongest model\nshaped (@shaped)\nStarlight Arena is LIVE🌟\n• $50,000 prize pool\n• Public leaderboard\n• Wave 1 begins now\nThink you can break frontier models? Prove it.\nSite and Discord in the thread🧵\n— https://x.com/shaped/status/2125273563003503014",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX56KCQaMAEUN0y.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125279193621828070",
+          "domain": "x.com",
+          "published": "2026-11-25T02:23:40+09:00",
+          "published_label": "2026/11/25(水) 02:23",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "この LLM 脱獄コンテストに人々が参加するのを見てみたいです\n複数の課題と難易度にわたってさまざまな AI モデルと競い合い、自律エージェントに明示的に実行しないよう指示されたアクションを実行させます。\n誰が最強のモデルを破ることができるのか知りたい\nシェイプされた (@シェイプされた)\nスターライトアリーナがライブ🌟\n• 賞金総額50,000ドル\n• 公開リーダーボード\n• ウェーブ 1 が始まります\nフロンティアモデルを打ち破ることができると思いますか?証明してみろ。\nスレッド内のサイトと Discord🧵\n— https://x.com/shape/status/2125273563003503014"
+        },
+        {
           "title": "i'm sure both anthropic and openai is keeping their progress on P vs NP hidden to avoid giving each other any hints\nbut anthropic chose to make its VP ≠ VNP and ETH results public and no matter how many of these smaller breakthroughs it publishes, it only takes one useful hint for openai to settle P vs NP and win the race",
           "summary": "",
           "images": [],
@@ -1205,7 +1226,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "i'm sure both anthropic and openai is keeping their progress on P vs NP hidden to avoid giving each other any hints\nしかし、anthropic は VP ≠ VNP と ETH の結果を公開することを選択しました。これらの小さな画期的な成果をどれだけ公開しても、Openai が P 対 NP を決着させてレースに勝つために必要なのは、たった 1 つの有用なヒントだけです。"
         },
         {
@@ -1434,23 +1455,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "AIの進歩は鈍化しているのでしょうか？\nリーマン予想の証明が落ちてから48時間以上が経過し、LLMは頭打ちになったと思い始めています\n今頃は P = NP だと予想していました"
-        },
-        {
-          "title": "the devfluencer hate on gpt-6.2 astra and sol are just ridiculous\ni don't like people who confidently declare models suck based on video games nobody will ever play especially when proper model testing is rare because experienced users don't waste tokens on pointless tasks",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2124656675151904856",
-          "domain": "x.com",
-          "published": "2026-11-23T09:10:00+09:00",
-          "published_label": "2026/11/23(月) 09:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "devfluencer が gpt-6.2 のアストラとソルを憎むのはばかばかしい\n私は、誰もプレイしないビデオゲームに基づいてモデルがひどいと自信を持って宣言する人々が好きではありません、特に適切なモデルのテストがまれな場合、経験豊富なユーザーは無意味なタスクにトークンを無駄にしないからです"
         }
       ],
       "elapsed": 0.7
@@ -1483,6 +1487,102 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 24 日\nアントロピック $87.64 (−1.43%) 🔥:\n- Anthropic の形式数学リポジトリには、クロードが書いた論文と、あらゆる分野で VP ≠ VNP を主張するリーン証明が含まれています (Liam06972452 経由)。\n- Claude Ship はチーム プランとエンタープライズ プランのベータ版であり、クロードが PR をレビュー、修正、承認できるようにします。\n- コネクタとスキルがプラグインに統合され、Free、Pro、Max、Ultra で 10,000 以上が利用可能になりました。\n- Enterprise Frontier Safeguards によるゼロ データ保持機能は、対象となる企業向けにパブリック ベータ版として提供されています。\n- デスクトップ上の Claude Code には、タブ付きの再設計されたサイド パネルがあり、まず Mac で展開されます。\n- Pro、Max、Ultra ユーザーはゲスト パスを取得し、友人が購読すると 50 ドルのクレジットを獲得できます (alexmichael 経由)。\nオープンナイ🔥:\n- GPT-6.2 Sol は、ChatGPT の [チャット] タブで Plus、Pro、Business、Enterprise ユーザーに展開されています。\n- Dots は EU 内で展開されており、新しい旅行モードにより既存の Dots は海外でも引き続き利用できます。\n- GPT-5.6 モデルは、12 月 23 日に ChatGPT および Codex で廃止されます。\n- OpenAI と Cisco は、エージェントがダウンタイムなしでシステムをエクスプロイトから保護できるオープンソース Linux ランタイムである Shirudo をリリースしました。\n- OpenWorks は、中小企業の AI 導入を支援するために、地元の AI 専門家に月額最大 8,000 ドルを支払います。\nGoogle $282.10 (+6.34%) 🔥:\n- Antigravity は AI Pro ユーザーに Gemini 4 Carbon を与え、Hydrogen を全員に開放し、割り当てを再度リセットします。\n- Antigravity ではタスク チェックリストが追加され、Orchestrator のモデルと作業レベルを選択できるようになります。\n- Gemini 4 Neon は、Gemini アプリで Google Workspace のお客様に展開されます。\n- Th"
         },
         {
+          "title": "Documented 🗞️",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125276269684133888/UTzdiuR9?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125276450437919203",
+          "domain": "x.com",
+          "published": "2026-11-25T02:12:46+09:00",
+          "published_label": "2026/11/25(水) 02:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "文書化されました 🗞️"
+        },
+        {
+          "title": "OpenAI is preparing Dots to have their own email inboxes, along with a functionality to claim a dedicated email address.\nI am happy that we now have Dots available in the EU as well. I can set up a scheduled task to prompt Dot to claim a specific address whenever it becomes available.\nLet's see if that works 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5_b4DWkAAmZrH.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125276446981542244",
+          "domain": "x.com",
+          "published": "2026-11-25T02:12:45+09:00",
+          "published_label": "2026/11/25(水) 02:12",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OpenAI は、専用の電子メール アドレスを要求する機能とともに、Dots が独自の電子メール受信箱を持てるように準備を進めています。\nEU でも Dots を利用できるようになったことを嬉しく思います。特定のアドレスが利用可能になるたびに Dot にそのアドレスを要求するようにスケジュールされたタスクを設定できます。\nそれが機能するかどうか見てみましょう 👀"
+        },
+        {
+          "title": "TheStage AI has released Edgent, a free iOS and Mac app that handles dictation, meeting notes, and AI chat entirely on the device.\nIt handles live captions, word timestamps, speaker labels, and language detection, powered by TheWhisper, Qwen3-ASR, and Parakeet-TDT models through one API.\nNotes provide a live transcript with speaker labels, then a summary. Its 0.8B TheWhisper Turbo model ranks #6 on the multilingual Open ASR Leaderboard, ahead of OpenAI's gpt-transcribe.\nVideo\nTheStage AI (@TheStageAI)\nEdgent is out: speech AI on iPhone and Mac, at the quality of the cloud apps you use. Free, no account.\nDictation in any Mac app, meeting notes with speakers, voice chat you can interrupt. It all runs on the device, even in airplane mode.\nTry it:\nVideo\n— https://x.com/TheStageAI/status/2125244296182063561",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125250872271618048/img/Mc8614p-uC1c7FS-.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2125241356456976384/img/0F6OCjFKCzDbJyy4.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125251343883415926",
+          "domain": "x.com",
+          "published": "2026-11-25T00:33:00+09:00",
+          "published_label": "2026/11/25(水) 00:33",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "TheStage AI は、ディクテーション、会議メモ、AI チャットをすべてデバイス上で処理する無料の iOS および Mac アプリである Edgent をリリースしました。\nTheWhisper、Qwen3-ASR、Parakeet-TDT モデルを活用したライブ キャプション、単語タイムスタンプ、話者ラベル、言語検出を 1 つの API を通じて処理します。\nメモには、発言者ラベルが付いたライブトランスクリプトが提供され、その後、概要が提供されます。その 0.8 億 TheWhisper Turbo モデルは、OpenAI の gpt-transcribe を抑えて、多言語 Open ASR Leaderboard で第 6 位にランクされています。\nビデオ\nザステージAI (@TheStageAI)\nEdgent がリリースされました。iPhone と Mac で、使用しているクラウド アプリと同じ品質で音声 AI を利用できます。無料、アカウントなし。\nあらゆる Mac アプリでのディクテーション、スピーカーとの会議メモ、中断できるボイスチャット。機内モードであっても、すべてデバイス上で実行されます。\n試してみてください:\nビデオ\n— https://x.com/TheStageAI/status/2125244296182063561"
+        },
+        {
+          "title": "Edgent runs on ASRKit, TheStage's on-device speech SDK for Swift, Kotlin, and Flutter. It is free for commercial use up to 1,000 devices.\n-\n-\nUsers don't need an account or API key. Once the models are downloaded, it works offline, even in airplane mode, and audio never leaves the device. On Mac, users can hold a shortcut to dictate into any app.\nTesting link 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2122779876063113216/qubReTe2?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125251346571862121",
+          "domain": "x.com",
+          "published": "2026-11-25T00:33:00+09:00",
+          "published_label": "2026/11/25(水) 00:33",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Edgent は、Swift、Kotlin、Flutter 用の TheStage のオンデバイス音声 SDK である ASRKit 上で実行されます。 1,000 台のデバイスまで商用利用は無料です。\n-\n-\nユーザーはアカウントや API キーを必要としません。モデルがダウンロードされると、機内モードであってもオフラインで動作し、オーディオがデバイスから離れることはありません。 Mac では、ユーザーはショートカットを長押しして任意のアプリに音声入力できます。\nテストリンク 👀"
+        },
+        {
+          "title": "Meta is working on support for Apple Messages for its Muse AI agent.\n> A hidden \"Message\" option now sits next to the currently available \"WhatsApp\" option.\n> Selecting this option will show the page mentioning \"Apple Messages for Business.\"\nMeta has been experimenting with integrating different messaging apps like Telegram and its own Messenger for a while. However, neither of these integrations have been released yet.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5bTh6WQAABYpK.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125236639714644268",
+          "domain": "x.com",
+          "published": "2026-11-24T23:34:34+09:00",
+          "published_label": "2026/11/24(火) 23:34",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Meta は、Muse AI エージェントの Apple Messages のサポートに取り組んでいます。\n> 非表示の「メッセージ」オプションが、現在利用可能な「WhatsApp」オプションの隣に表示されます。\n> このオプションを選択すると、「Apple Messages for Business」に関するページが表示されます。\nMeta はしばらくの間、Telegram や独自の Messenger などのさまざまなメッセージング アプリの統合を実験してきました。ただし、これらの統合はどちらもまだリリースされていません。"
+        },
+        {
           "title": "\"Daily AI Brief\" also arrives in email format from Tuesday to Saturday.\nOPT-IN below 👀",
           "summary": "",
           "images": [
@@ -1500,25 +1600,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "「Daily AI Brief」も火曜日から土曜日までメール形式で届きます。\n以下からオプトインしてください 👀"
-        },
-        {
-          "title": "Documented 🗞️",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125022622253461504/0kpTj-1L?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2125022624568779229",
-          "domain": "x.com",
-          "published": "2026-11-24T09:24:09+09:00",
-          "published_label": "2026/11/24(火) 09:24",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "文書化されました 🗞️"
         },
         {
           "title": "ANTHROPIC 🔥: A new Claude Ship feature lets Claude review, fix, and approve PRs on its own.\n> /ship is rolling out in the CLI and desktop app.\n> On Team and Enterprise, admins can turn it on for a whole repo, so it runs on your team's PRs with no /ship needed.\nAI is eating toil for breakfast 👀",
@@ -1676,86 +1757,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "GPTZeroが、すべての最先端モデルのテキストに対して99%を超える検出率を誇る、新しいAI検出器GPTZero 5をリリースしました。\n- このモデルは、数十億のパラメータを備え、前バージョンよりも10倍大きくなっています。\n- GPTZeroは、GPT-6.1 Sol、Claude Opus 5.5、Gemini 4 Argon、Grok 4.7について、99.3%を超える検出率を報告しています。\n- GPTZero 5は、9つの独立したサードパーティベンチマークと18のライティング分野において、新たな最先端技術を確立しています。\n- ペーストされた文章を書いたのが人か、AIか、またはその両方かを判別します。\nまたはアップロードされたテキストを分析し、結果の根拠となる文を指摘します。\n- GPTZeroの技術レポートによると、古いオープンソースの検出ツールは、人間が書いた査読の最大21%を誤ってフラグ付けしていました。GPTZero 5は、3,498件中0件をフラグ付けしました。\n動画\nアレックス・クイ（@alexcdot）\n新しいGPTZero 5モデルは、ほぼすべてのサードパーティのベンチマークでPangramを上回っています。\n当社のモデルは、論文程度の長さの文章において、業界トップクラスの5万分の1の誤検出率を誇ります。\nPangramが劣るベンチマークでは、誤検出がゼロです。\nESLライターのように、遅れをとっています\nこれを実現するため、AI検出器のトレーニング方法を完全に変える必要がありました。\nこちらが完全な証拠です\n動画\n— https://x.com/alexcdot/status/2124934039455109209"
-        },
-        {
-          "title": "Nebius has added $25 in AI Cloud credits to its free Builder Program.\nThe program focuses on renting Nebius’s unused processing power on NVIDIA GPUs such as the B300 and H100. The credits can be used in Spot, where the GPUs can be rented by the hour at a price that changes with demand.\nNebius has also included ready-to-run Spot projects that save progress and resume where they left off if the GPU is stopped.\nVideo\nNebius (@nebiusai)\nA B300 for an afternoon. An H100 for up to a day. Free on spot with AI Cloud. No credit card required.\nWe're adding $25 in AI Cloud credits to the Nebius Builder Program so you can get hands-on with GPUs at spot prices.\nSpot pricing gets you idle GPU capacity at a fraction of on-demand, with a price cap you set, for fine-tunes, evals and batch jobs.\nThe AI Builder Program now covers the whole loop, free to start:\n→ Build with open models on @nebiustf (Token Factory) and our partner ecosystem\n→ Fine-tune, evaluate and batch-run them on spot\n→ Move to on-demand GPUs on AI Cloud when your product needs to stay up\nClaim your credits below ↓\nVideo\n— https://x.com/nebiusai/status/2124911928153899203",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124926840208777216/img/xoNRUBZxJQBDJ4e9.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124909463052455936/img/NWsx3FaaeIbQ-YYN.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2124927026834350253",
-          "domain": "x.com",
-          "published": "2026-11-24T03:04:17+09:00",
-          "published_label": "2026/11/24(火) 03:04",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Nebiusは、無料のBuilderプログラムに25ドルのAIクラウドクレジットを追加しました。\nこのプログラムは、B300やH100などのNVIDIA GPUにおけるNebiusの未使用処理能力のレンタルに焦点を当てています。このクレジットはSpotで使用でき、GPUは需要に応じて変動する価格で時間単位でレンタルできます。\nNebiusはまた、進行状況を保存し、GPUが停止した場合に中断したところから再開する、すぐに実行できるSpotプロジェクトも用意しています。\n動画\nNebius（@nebiusai）\nB300を午後だけ。H100を最大\n1日あたり。AI Cloudならスポットが無料。クレジットカードは不要です。\nNebius Builderプログラムに25ドルのAI Cloudクレジットを追加し、スポット価格でGPUを実際に使用できるようにします。\nスポット価格設定により、ファインチューニング、評価、バッチジョブのために、オンデマンドのわずかな価格で、お客様が設定した価格上限内で、アイドル状態のGPUキャパシティを利用できます。\nAI Builderプログラムは現在、ループ全体をカバーしており、無料で開始できます。\n→ @nebiustf（Token Factory）と当社のパートナーエコシステムでオープンモデルを使用して構築\n→ ファインチューニング、評価、および\nスポットでバッチ実行\n→ 製品を稼働し続ける必要がある場合は、AIクラウドのオンデマンドGPUに移行します\n以下からクレジットをお受け取りください↓\n動画\n— https://x.com/nebiusai/status/2124911928153899203"
-        },
-        {
-          "title": "According to Nebius, $25 is enough for an afternoon on a B300 or up to a day on an H100.\nUsers can also set a price limit they’re willing to pay per GPU hour.\nTest it out 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123155533662425088/jUjMvsbw?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2124927030445932727",
-          "domain": "x.com",
-          "published": "2026-11-24T03:04:17+09:00",
-          "published_label": "2026/11/24(火) 03:04",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Nebiusによると、25ドルでB300を午後いっぱい、またはH100を最大1日使用できます。\nまた、ユーザーはGPU 1時間あたりの希望料金の上限を設定することもできます。\nお試しください👀"
-        },
-        {
-          "title": "BREAKING 🔥: NVIDIA ANNOUNCED THAT JENSEN HUANG HAS BEEN REINSTATED AS A CEO!\n> “The Board believes Jensen is the right person to lead NVIDIA, and that his reinstatement is in the best interests of our stockholders, employees, partners and customers,” said Harvey C. Jones, Chair of the Board.\nNVIDIA Newsroom (@nvidianewsroom)\nNVIDIA Board reinstates Jensen Huang as President, CEO and Board Director.\nRead the release:\n— https://x.com/nvidianewsroom/status/2124865060397019480",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX0M2krWQAAtrWd.jpg?name=small",
-            "https://pbs.twimg.com/media/HX0M2krWoAA8Dkj.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2124976652493234176/NMXXhwUz?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2124868735332708631",
-          "domain": "x.com",
-          "published": "2026-11-23T23:12:39+09:00",
-          "published_label": "2026/11/23(月) 23:12",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "速報🔥：NVIDIAがジェンセン・ファン氏のCEO復帰を発表！\n> 「取締役会は、ジェンセン氏がNVIDIAを率いるのに適任であり、彼の復職が当社の株主、従業員、パートナー、および顧客の最善の利益になると考えています」と、取締役会議長のハーベイ・C・ジョーンズ氏は述べています。\nNVIDIAニュースルーム（@nvidianewsroom）\nNVIDIAの取締役会は、ジェンセン・ファン氏を社長兼CEOおよび取締役として復職させました。\nリリースを読む：\n— https://x.com/nvidianewsroom/status/2124865060397019480"
-        },
-        {
-          "title": "And regarding Helium\nBedros Pamboukian (@bedros_p)\nfwiw this is not new and it has been in the bundle for ages + the models in that video were randomly selected for a demo, it wasn't intentional\nThis has been here long before the elemental naming system :)\nNot personal, just that it should've been verified\n— https://x.com/bedros_p/status/2124779028938916286",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2124829225446412511",
-          "domain": "x.com",
-          "published": "2026-11-23T20:35:39+09:00",
-          "published_label": "2026/11/23(月) 20:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "そして、Heliumについて\nベドロス・パンブキアン（@bedros_p）\nちなみに、これは新しいものではなく、ずっとバンドルに含まれていました。また、その動画のモデルはデモ用にランダムに選ばれたもので、意図的なものではありませんでした。\nこれは、元素命名システムが始まるずっと前から存在していました :)\n個人的なことではありません。ただ、確認しておくべきだったということです。\n— https://x.com/bedros_p/status/2124779028938916286"
         }
       ],
-      "elapsed": 3.9
+      "elapsed": 3.0
     }
   ]
 }
