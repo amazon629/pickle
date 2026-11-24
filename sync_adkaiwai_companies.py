@@ -21,6 +21,8 @@
     各 source の groups に入れ、update.py が絞り込みチップとして描画する。
   * 補完（PR TIMES 企業RSS・公式サイトのニュース）は news-supplements.json の
     全ボードぶんを社名で引き当てて合流させる（このボード専用の定義は "adkaiwai"）。
+  * 新着記事の ntfy 通知は settings の ntfy_topic（update.py が GitHub Actions から送る）。
+    このファイルを再生成しても設定が消えないよう make_document() に入れておく。
 """
 
 from __future__ import annotations
@@ -304,6 +306,9 @@ def make_document(sources: list) -> dict:
             "translate": True,
             "translate_max_per_run": 20,
             "groups": GROUPS,
+            # 新着記事を ntfy にプッシュ通知（update.py が GitHub Actions から送る）
+            "ntfy_topic": "kiwi-yuji-8m4k9p2x",
+            "board_url": "https://amazon629.github.io/pickle/adkaiwai.html",
             "user_agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"

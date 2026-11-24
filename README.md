@@ -52,6 +52,33 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
   レート制限を避けるので、20ページ・1,174ソースでも1回の更新は30秒前後（和訳の初回生成を含めて）で終わります
 - 依存ライブラリなし（Python 3.9+ の標準ライブラリだけ）／各HTMLはデータを埋め込んだ単体ファイルなので、ローカルでダブルクリックでも開けます
 
+## 新着のプッシュ通知（ntfy）
+
+`sources-*.json` の `settings` に `"ntfy_topic"` を書いたボードは、新着記事が出たときに
+[ntfy](https://ntfy.sh/) へプッシュ通知します。通知は GitHub Actions（毎時 `:07`）の実行時だけ送られ、
+手元の実行では送りません（`--notify` を付けたときだけ）。いまは `adkaiwai`（📣 広告界隈）だけ ON
+（topic `kiwi-yuji-8m4k9p2x`）。
+
+- 送るのは「前回の `data-*.json` になく、まだ送っていない記事」だけ（新着0件なら送信しません）。
+  送ったURLは `ntfy-state.json` に記録するので、フィードから落ちて戻ってきても二重に送りません。
+- 初回（`data-*.json` がない）は、今ある記事を基準として記録するだけでまとめて送りません。
+- 48時間より前に公開された記事は「新しく出た記事」ではないので送りません（Googleニュースの
+  「最新5件」に古い記事が入ってくるため）。同じ会社は1通につき2件まで、本文は最大8件＋「…ほか N件」。
+- 送信に失敗してもボードの更新は止まりません（次回の実行で再試行）。
+
+付け外し・確認・テストは `set_ntfy.py` で（どのボードにも同じように使えます）:
+
+| コマンド | すること |
+| --- | --- |
+| `python3 set_ntfy.py --list` | どのボードに付いているか一覧（読み取りのみ） |
+| `python3 set_ntfy.py --board adkaiwai --topic kiwi-yuji-8m4k9p2x` | 付ける／トピックを変える |
+| `python3 set_ntfy.py --board adkaiwai --off` | 外す |
+| `python3 set_ntfy.py --board adkaiwai --test` | テスト通知を送る（`[テスト]` 付き・`--dry-run` で内容だけ） |
+| `python3 update.py --board adkaiwai --dry-run --notify` | 次に送る「新着」の内容を確認（送信はしない） |
+
+settings を作り直す `sync_*.py` があるボードは、その `make_document()` にも `ntfy_topic` を書いておくこと
+（`--list` の「生成元」列に出ます）。
+
 ## ファイル
 
 | ファイル | 役割 |
@@ -112,6 +139,8 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | `sync_ipo_approved_news.py` | `archive-ipo-approved.json` の社名 → `sources-ipo-news.json` を生成・追記（`--check` / `--explain` でノイズ確認。`update.py` が毎回の実行前に自動で呼ぶ） |
 | `sync_unicorn_startups.py` | Excel「評価額あり案件」→ `sources-unicorns.json` を生成（円換算1,500億円以上＝10億ドル以上・重複統合・ノイズ除去`--check` 付き） |
 | `speaker_boards.py` | 上記2本の共通部品（Excel 読み取り・社名の名寄せ・クエリ組み立て・`--check`） |
+| `set_ntfy.py` | ボードごとの ntfy 新着通知を1コマンドで付け外し・一覧・テスト（`--list` / `--topic` / `--off` / `--test`） |
+| `ntfy-state.json` | ntfy に送った記事URLの記録（二重送信の防止。GitHub Actions が自動で更新） |
 | `sources-ad-marketing.json` | 広告・マーケ X監視ボードの監視対象（X 10アカウント。`add_source.py --bulk` で作成） |
 | `sources-pokeca.json` | ポケカ・買取 X監視ボードの監視対象（X 7アカウント。`add_source.py --bulk` で作成） |
 | `.github/workflows/update.yml` | 1時間ごとの自動更新 |

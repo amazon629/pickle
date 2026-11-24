@@ -10,6 +10,12 @@
     python3 update.py --only x_tkzwgrs    # 一部のソースだけ更新（カンマ区切り）
     python3 update.py --add x tkzwgrs "滝沢ガレソ"   # add_source.py に委譲
 
+新着の ntfy 通知（settings.ntfy_topic を書いたボードだけ）:
+    GitHub Actions からの実行（GITHUB_ACTIONS=true）では、新着記事があれば自動で
+    ntfy に送る。手元の実行では送らない（--notify を付けたときだけ送る）:
+    python3 update.py --board adkaiwai --dry-run --notify   # 送る内容を表示（送信はしない）
+    python3 update.py --board adkaiwai --notify             # 実際に送る
+
 ボードは sources*.json ごとに1枚。出力先は自動で決まる:
     sources.json      -> index.html / data.json      （メインボード）
     sources-ipo.json  -> ipo.html   / data-ipo.json  （IPO・スタートアップボード）
@@ -43,6 +49,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SITE_BASE = "https://amazon629.github.io/pickle"  # 公開URL（ntfy のリンク先に使う）
 SOURCES_PATH = os.path.join(BASE_DIR, "sources.json")
 DATA_PATH = os.path.join(BASE_DIR, "data.json")
 INDEX_PATH = os.path.join(BASE_DIR, "index.html")
@@ -1871,6 +1878,262 @@ def render_page(data: dict, settings: dict, nav_block: str = "") -> str:
     )
 
 
+# --------------------------------------------------------------- ntfy 通知
+# 新着記事のプッシュ通知。sources-*.json の settings に
+#   "ntfy_topic": "kiwi-yuji-8m4k9p2x"   を書いたボードだけが対象。
+# 送るのは「前回の data-*.json になく、かつまだ送っていない記事」だけ。
+# 初回（data-*.json が無い）は今ある記事を基準として覚えるだけで、まとめては送らない。
+# 送信に失敗してもボードの更新は止めない（try/except で握る）。
+NTFY_PUBLISH_URL = "https://ntfy.sh/"
+NTFY_STATE_PATH = os.path.join(BASE_DIR, "ntfy-state.json")
+NTFY_MAX_ITEMS = 8      # 本文に並べる記事の上限（残りは「…ほか N件」）
+NTFY_MAX_PER_COMPANY = 2  # 同じ会社の記事を本文に並べる上限（1社が枠を埋めないように）
+NTFY_MAX_AGE_HOURS = 48  # これより古い記事は「新しく出た記事」ではないので通知しない
+NTFY_STATE_CAP = 4000   # 送信済みURLを覚えておく上限（重複送信の防止）
+
+
+def board_url_for(settings: dict, board: dict) -> str:
+    """通知のリンク先（settings.board_url があればそれ、無ければ公開URLから推測）。"""
+    url = (settings.get("board_url") or "").strip()
+    if url:
+        return url
+    return f"{SITE_BASE}/{os.path.basename(board['index'])}"
+
+
+def collect_new_for_notification(results: list, old_links: set, already=(),
+                                  max_age_hours: int = 0, now=None) -> tuple:
+    """今回の取得結果から「新着かつ未通知」の記事を集める（同じURLは1件にまとめる）。
+
+    old_links … 前回の data-*.json に載っていたURL（＝もう知っている記事）
+    already   … ntfy-state.json に記録した送信済みURL
+    max_age_hours … これより古い記事は通知しない。Google ニュースは社名検索の
+                  「最新5件」を返すので、古い記事が枠に入ってきて新着のように
+                  見えることがある（そのまま送ると昨年・一昨年の記事が届く）。
+    戻り値: (通知する記事のリスト, 古いため外した件数)
+    """
+    skip = set(old_links) | {u for u in already if u}
+    found, order = {}, []
+    for src in results:
+        name = src.get("name") or src.get("id") or ""
+        for item in src.get("items", []):
+            if not item.get("is_new") or item.get("from_archive"):
+                continue
+            link = item.get("link") or ""
+            if not link or link in skip:
+                continue
+            if link in found:
+                if name and name not in found[link]["names"]:
+                    found[link]["names"].append(name)
+                continue
+            found[link] = {
+                "names": [name] if name else [],
+                "title": item.get("title_ja") or item.get("title") or "",
+                "link": link,
+                "published": item.get("published") or "",
+            }
+            order.append(link)
+    items = [found[link] for link in order]
+    items.sort(key=lambda it: it.get("published") or "", reverse=True)
+
+    dropped = 0
+    if max_age_hours:
+        cutoff = (now or datetime.now(JST)) - timedelta(hours=max_age_hours)
+        fresh = []
+        for it in items:
+            pub = it.get("published") or ""
+            try:
+                dt = datetime.fromisoformat(pub) if pub else None
+            except ValueError:
+                dt = None
+            if dt is not None and dt < cutoff:
+                dropped += 1
+                continue
+            fresh.append(it)
+        items = fresh
+    return items, dropped
+
+
+def pick_for_message(items: list, limit: int, per_company: int = 0) -> list:
+    """本文に並べる記事を選ぶ（同じ会社は per_company 件まで）。"""
+    chosen, counts = [], {}
+    for it in items:
+        who = (it.get("names") or [""])[0]
+        if per_company and counts.get(who, 0) >= per_company:
+            continue
+        counts[who] = counts.get(who, 0) + 1
+        chosen.append(it)
+        if len(chosen) >= limit:
+            break
+    return chosen
+
+
+def build_ntfy_payload(settings: dict, board: dict, items: list) -> dict:
+    """ntfy に POST する JSON を組み立てる（本文は [企業名] タイトル + URL）。"""
+    topic = (settings.get("ntfy_topic") or "").strip()
+    label = (
+        settings.get("ntfy_label")
+        or settings.get("nav_label")
+        or settings.get("title")
+        or board["name"]
+    ).strip()
+    n = len(items)
+    title = settings.get("ntfy_title") or f"{label} 新着ニュース ({n}件)"
+    board_url = board_url_for(settings, board)
+    limit = int(settings.get("ntfy_max_items") or NTFY_MAX_ITEMS)
+    per_company = int(settings.get("ntfy_max_per_company") or NTFY_MAX_PER_COMPANY)
+    shown = pick_for_message(items, limit, per_company)
+
+    lines = []
+    for it in shown:
+        who = "／".join(it.get("names") or [])
+        headline = (it.get("title") or "").strip()
+        if len(headline) > 120:
+            headline = headline[:119] + "…"
+        lines.append(f"[{who}] {headline}" if who else headline)
+        lines.append(it.get("link") or "")
+        lines.append("")
+    if n > len(shown):
+        lines.append(f"…ほか {n - len(shown)}件")
+    lines.append(f"▶ ボードで全部見る: {board_url}")
+
+    return {
+        "topic": topic,
+        "title": title,
+        "message": "\n".join(lines).strip(),
+        "click": board_url,
+        "tags": ["loudspeaker"],
+        "priority": 3,
+    }
+
+
+def post_ntfy(payload: dict, timeout: int = 15) -> dict:
+    """ntfy に JSON で publish する（タイトルの日本語がヘッダで化けないようJSONで送る）。"""
+    body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        NTFY_PUBLISH_URL,
+        data=body,
+        method="POST",
+        headers={
+            "Content-Type": "application/json; charset=utf-8",
+            "User-Agent": "pickle-monitor-board/1.0 (+https://github.com/amazon629/pickle)",
+        },
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as res:
+        raw = res.read().decode("utf-8", "replace")
+        status = getattr(res, "status", 200)
+    if not (200 <= status < 300):
+        raise RuntimeError(f"HTTP {status}: {raw[:200]}")
+    try:
+        return json.loads(raw)
+    except ValueError:
+        return {"raw": raw[:200]}
+
+
+def load_ntfy_state(path: str = "") -> dict:
+    """送信済みURLの記録（ntfy-state.json）。無ければ空から始める。"""
+    path = path or NTFY_STATE_PATH
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+        if isinstance(data, dict):
+            data.setdefault("boards", {})
+            return data
+    except (OSError, ValueError):
+        pass
+    return {"boards": {}}
+
+
+def save_ntfy_state(state: dict, path: str = "") -> None:
+    path = path or NTFY_STATE_PATH
+    state["updated_at"] = datetime.now(JST).isoformat(timespec="seconds")
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as fh:
+        json.dump(state, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    os.replace(tmp, path)
+
+
+def remember_notified(state: dict, board_key: str, links: list, cap: int = NTFY_STATE_CAP) -> None:
+    """送ったURLを覚えておく（data-*.json から記事が流れても二重に送らないため）。"""
+    bstate = state.setdefault("boards", {}).setdefault(board_key, {})
+    known = [u for u in (bstate.get("notified") or []) if u]
+    seen = set(known)
+    for link in links:
+        if link and link not in seen:
+            known.append(link)
+            seen.add(link)
+    bstate["notified"] = known[-cap:]
+    bstate["updated_at"] = datetime.now(JST).isoformat(timespec="seconds")
+
+
+def maybe_notify_new(settings: dict, board: dict, results: list, old_links: set, args) -> dict:
+    """新着記事だけを ntfy に送る（GitHub Actions か --notify のときだけ）。"""
+    topic = (settings.get("ntfy_topic") or "").strip()
+    if not topic:
+        return {"skipped": "no-topic"}
+    if getattr(args, "only", None):
+        print("  新着通知: --only の実行なので送りません")
+        return {"skipped": "only"}
+    if os.environ.get("GITHUB_ACTIONS") != "true" and not getattr(args, "notify", False):
+        print("  新着通知: 手元実行なので送りません（送るには --notify、内容確認は --dry-run --notify）")
+        return {"skipped": "local"}
+
+    board_key = board["name"]
+    max_age = int(settings.get("ntfy_max_age_hours") or NTFY_MAX_AGE_HOURS)
+    state = load_ntfy_state()
+    bstate = state.setdefault("boards", {}).setdefault(board_key, {})
+    already = {u for u in (bstate.get("notified") or []) if u}
+
+    if not old_links:
+        # 初回（前回のデータが無い）: 今ある記事を基準として記録するだけで、まとめては送らない
+        links = [
+            item.get("link")
+            for src in results
+            for item in src.get("items", [])
+            if item.get("link")
+        ]
+        print(f"  新着通知: 初回のため基準のみ記録（{len(links)}件・送信なし）")
+        if not args.dry_run:
+            remember_notified(state, board_key, links)
+            save_ntfy_state(state)
+        return {"baseline": True, "new": 0, "sent": False}
+
+    new_items, dropped_stale = collect_new_for_notification(
+        results, old_links, already,
+        max_age_hours=max_age,
+    )
+    if dropped_stale:
+        print(f"  新着通知: 古い記事 {dropped_stale}件は通知しません（{max_age}時間より前の公開）")
+    if not new_items:
+        print("  新着通知: 新着0件のため送信しません")
+        return {"new": 0, "sent": False}
+
+    payload = build_ntfy_payload(settings, board, new_items)
+    if args.dry_run:
+        print("")
+        print("  --- ntfy に送る内容（--dry-run なので送信しません）---")
+        print(f"  POST {NTFY_PUBLISH_URL}  topic={payload['topic']}")
+        print(f"  Title: {payload['title']}")
+        print(f"  Click: {payload['click']}")
+        print("  Message:")
+        for line in payload["message"].split("\n"):
+            print(f"    {line}")
+        print("  --- ここまで ---")
+        print("")
+        return {"new": len(new_items), "sent": False, "dry_run": True, "payload": payload}
+
+    try:
+        post_ntfy(payload)
+    except Exception as exc:  # noqa: BLE001 - 通知の失敗で更新を止めない
+        print(f"  新着通知: 送信できませんでした（{type(exc).__name__}: {exc}）", file=sys.stderr)
+        return {"new": len(new_items), "sent": False, "error": f"{type(exc).__name__}: {exc}"}
+
+    remember_notified(state, board_key, [it["link"] for it in new_items])
+    save_ntfy_state(state)
+    print(f"  新着通知: {len(new_items)}件を ntfy に送りました（topic={topic}）")
+    return {"new": len(new_items), "sent": True, "payload": payload}
+
+
 # --------------------------------------------------------------------- main
 def board_label(board: dict, settings: dict) -> str:
     """ナビに出す短い名前（settings.nav_label で上書き可）。"""
@@ -1975,10 +2238,26 @@ def run_board(board: dict, args, nav_block: str = "", prefetched: list = None) -
         "sources": results,
     }
 
+    # 新着記事の ntfy 通知（settings.ntfy_topic があるボードだけ）。
+    # 通知が失敗してもボードの更新・書き出しは続ける。
+    notify = None
+    if settings.get("ntfy_topic"):
+        try:
+            notify = maybe_notify_new(settings, board, results, old_links, args)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  新着通知: 失敗しました（{type(exc).__name__}: {exc}）", file=sys.stderr)
+            notify = {"sent": False, "error": f"{type(exc).__name__}: {exc}"}
+
     errors = len(failed)
     if args.dry_run:
         print("--dry-run のためファイルは書き換えていません。")
-        return {"title": title, "skipped": False, "errors": errors, "tolerate": bool(settings.get("tolerate_errors"))}
+        return {
+            "title": title,
+            "skipped": False,
+            "errors": errors,
+            "tolerate": bool(settings.get("tolerate_errors")),
+            "notify": notify,
+        }
 
     with open(board["data"], "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=2)
@@ -1995,6 +2274,7 @@ def run_board(board: dict, args, nav_block: str = "", prefetched: list = None) -
         "skipped": False,
         "errors": errors,
         "tolerate": bool(settings.get("tolerate_errors")),
+        "notify": notify,
     }
 
 
@@ -2139,6 +2419,11 @@ def main(argv=None) -> int:
         "--workers",
         type=int,
         help=f"全ボードまとめて取得するときの並列数（既定 {GLOBAL_FETCH_WORKERS}）",
+    )
+    parser.add_argument(
+        "--notify",
+        action="store_true",
+        help="手元の実行でも新着を ntfy に送る（GitHub Actions では自動で送る）",
     )
     parser.add_argument("--add", nargs=argparse.REMAINDER, help="add_source.py に委譲してソースを追加")
     args = parser.parse_args(argv)
