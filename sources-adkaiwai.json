@@ -98,6 +98,15 @@
         "sponsor"
       ],
       "rank": "gold",
+      "exclude_match": [
+        "ロボティクス",
+        "ロボット",
+        "ヒューマノイド",
+        "Workshop",
+        "国際会議",
+        "Flexion",
+        "名城大学"
+      ],
       "html_news": [
         {
           "url": "https://icra.marketing/news",
@@ -225,6 +234,13 @@
       "enabled": true,
       "groups": [
         "speaker"
+      ],
+      "exclude_match": [
+        "名古屋オルクス",
+        "アイスホッケー",
+        "XHL",
+        "ロッカールーム",
+        "港署"
       ]
     },
     {
@@ -297,6 +313,61 @@
       "enabled": true,
       "groups": [
         "speaker"
+      ],
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ],
+      "exclude_match": [
+        "銃",
+        "ライアット",
+        "西部警察",
+        "Ubisoft",
+        "ショットガン",
+        "リサ・レミントン",
+        "マエストラ"
       ]
     },
     {
@@ -608,6 +679,12 @@
         "sponsor"
       ],
       "rank": "gold",
+      "exclude_match": [
+        "Alpaca.Lab",
+        "Alpaca Coffee",
+        "エアクル",
+        "カターレ"
+      ],
       "extra_queries": [
         "\"株式会社ALPACA\""
       ]
@@ -1064,6 +1141,12 @@
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "exclude_match": [
+        "学生団体",
+        "京大",
+        "パレスチナ",
+        "11月祭"
       ]
     },
     {
@@ -1237,6 +1320,12 @@
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "exclude_match": [
+        "パン屋",
+        "蒲生四丁目",
+        "上西仁",
+        "たまごパン"
       ]
     },
     {
@@ -1323,7 +1412,10 @@
       "name": "株式会社VEXL",
       "query": "\"VEXL\"",
       "must_match": [
-        "VEXL"
+        "VEXL株式会社",
+        "株式会社VEXL",
+        "VEXL、",
+        "VEXLが"
       ],
       "limit": 5,
       "enabled": true,
@@ -1458,8 +1550,8 @@
       "name": "株式会社SATOI",
       "query": "\"SATOI\"",
       "must_match": [
-        "SATOI",
-        "サトイ"
+        "株式会社SATOI",
+        "SATOI株式会社"
       ],
       "limit": 5,
       "enabled": true,
@@ -1479,6 +1571,52 @@
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
       ]
     },
     {
@@ -1522,15 +1660,62 @@
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
       ]
     },
     {
       "id": "ak_087",
       "type": "google_news",
       "name": "株式会社アドトラック",
-      "query": "\"アドトラック\"",
+      "query": "\"株式会社アドトラック\" OR \"アドトラック株式会社\"",
       "must_match": [
-        "アドトラック"
+        "株式会社アドトラック",
+        "アドトラック株式会社"
       ],
       "limit": 5,
       "enabled": true,
@@ -1552,6 +1737,15 @@
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "exclude_match": [
+        "クレア・ライフ・パート",
+        "ライフ・パートナーズ",
+        "クレアトゥール",
+        "HARVIA",
+        "サウナ",
+        "バレル2218",
+        "SOPO0909"
       ]
     },
     {
@@ -1671,13 +1865,21 @@
       "name": "株式会社NuMeRo",
       "query": "\"NuMeRo\"",
       "must_match": [
-        "NuMeRo",
-        "ヌメロ"
+        "株式会社NuMeRo",
+        "NuMeRo株式会社",
+        "NuMeRo、",
+        "NuMeRoが",
+        "NuMeRoの",
+        "NuMeRo【"
       ],
       "limit": 5,
       "enabled": true,
       "groups": [
         "attendee"
+      ],
+      "exclude_match": [
+        "Numero TOKYO",
+        "ヌメロTOKYO"
       ]
     },
     {
@@ -1763,23 +1965,19 @@
       "id": "ak_102",
       "type": "google_news",
       "name": "レバレッジーズM&Aアドバイザリー株式会社",
-      "query": "\"レバレジーズM&A\" OR \"レバレッジーズM&A\"",
+      "query": "レバレジーズM&A",
       "must_match": [
         "レバレジーズM&Aアドバイザリー",
+        "レバレジーズM&A",
         "レバレッジーズM&A",
-        "レバレジーズM&A"
+        "M&A支援に特化した専門子会社",
+        "レバテックM&A",
+        "Lighthouse"
       ],
       "limit": 5,
       "enabled": true,
       "groups": [
         "attendee"
-      ],
-      "extra_feeds": [
-        {
-          "url": "https://prtimes.jp/companyrdf.php?company_id=10591",
-          "origin": "prtimes",
-          "label": "PR TIMES"
-        }
       ]
     }
   ]
