@@ -573,6 +573,20 @@ def source_jobs(src: dict, settings: dict) -> list:
             continue
         seen.add(url)
         jobs.append({"url": url, "kind": "feed", "origin": item.get("origin") or "prtimes", "trusted": True})
+    # 同じカードに足す追加の社名検索（例:「アルパカ／リテリア」のように2社で1枠のとき）
+    for q in src.get("extra_queries") or []:
+        q = (q or "").strip()
+        if not q:
+            continue
+        url = (
+            "https://news.google.com/rss/search?q="
+            + urllib.parse.quote(q)
+            + f"&hl={src.get('hl', 'ja')}&gl={src.get('gl', 'JP')}&ceid={src.get('ceid', 'JP:ja')}"
+        )
+        if url in seen:
+            continue
+        seen.add(url)
+        jobs.append({"url": url, "kind": "feed", "origin": "", "trusted": False})
     for item in src.get("site_feeds") or []:
         if isinstance(item, str):
             item = {"url": item}
@@ -1359,6 +1373,9 @@ def render_item(item: dict) -> str:
     )
 
 
+RANK_LABEL = {"gold": "GOLD協賛", "silver": "SILVER協賛"}
+
+
 def render_card(src: dict) -> str:
     count = f'{src["count"]}件' if src["status"] != "error" else "取得エラー"
     if src["status"] == "error":
@@ -1372,9 +1389,12 @@ def render_card(src: dict) -> str:
         body = "\n".join(render_item(i) for i in src["items"])
         if src.get("status") == "partial" and src.get("error"):
             body += f'\n<p class="err note">一部のフィードを取得できませんでした: <span>{esc(src["error"][:160])}</span></p>'
+    groups = " ".join(g for g in (src.get("groups") or []) if g)
+    rank = src.get("rank")
+    rank_html = f'<span class="rank {rank}">{RANK_LABEL[rank]}</span>' if rank in RANK_LABEL else ""
     return (
-        f'<section class="card" data-source="{esc(src["id"])}">\n'
-        f'  <header><h2>{esc(src["name"])}</h2><span class="count">{esc(count)}</span></header>\n'
+        f'<section class="card" data-source="{esc(src["id"])}" data-groups="{esc(groups)}">\n'
+        f'  <header><h2>{esc(src["name"])}</h2>{rank_html}<span class="count">{esc(count)}</span></header>\n'
         f'  <div class="items">\n{body}\n  </div>\n'
         f"</section>"
     )
@@ -1423,13 +1443,33 @@ PAGE = """<!DOCTYPE html>
   .topbar .row {{ display: flex; align-items: baseline; gap: 8px; }}
   .topbar h1 {{ font-size: 16px; margin: 0; letter-spacing: .02em; }}
   .topbar .updated {{ font-size: 11px; color: var(--muted); }}
-  .nav {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }}
+  .nav {{
+    display: flex; flex-wrap: nowrap; gap: 6px; margin-top: 7px;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }}
+  .nav::-webkit-scrollbar {{ display: none; }}
   .nav a {{
+    flex: 0 0 auto; white-space: nowrap;
     font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;
     color: var(--text-2); background: #fff; border: 1px solid #e4e6ea;
     text-decoration: none;
   }}
   .nav a.is-active {{ background: var(--text); border-color: var(--text); color: #fff; }}
+  .fold {{ margin-top: 8px; }}
+  .fold summary {{
+    font-size: 11.5px; color: var(--text-2); cursor: pointer; list-style: none;
+    display: inline-block; padding: 2px 0;
+  }}
+  .fold summary::-webkit-details-marker {{ display: none; }}
+  .fold summary::before {{ content: "▸ "; color: var(--muted); }}
+  .fold[open] summary::before {{ content: "▾ "; }}
+  .fold .chips {{ margin-top: 4px; }}
+  .rank {{
+    flex: 0 0 auto; font-size: 9.5px; font-weight: 700; letter-spacing: .02em;
+    padding: 1px 5px; border-radius: 4px; line-height: 1.5; white-space: nowrap;
+    background: #fdf3d7; color: #9a6700;
+  }}
+  .rank.silver {{ background: #eef1f5; color: #5b6472; }}
   .search {{
     margin-top: 8px; position: relative;
   }}
@@ -1473,7 +1513,7 @@ PAGE = """<!DOCTYPE html>
     gap: 10px; padding: 13px 15px 11px;
     border-bottom: 1px solid var(--line);
   }}
-  .card h2 {{ font-size: 14.5px; margin: 0; font-weight: 700; letter-spacing: .01em; }}
+  .card h2 {{ font-size: 14.5px; margin: 0; font-weight: 700; letter-spacing: .01em; flex: 1 1 auto; min-width: 0; }}
   .count {{ font-size: 11px; color: var(--muted); white-space: nowrap; }}
   .items {{ display: flex; flex-direction: column; }}
   .item {{
@@ -1575,8 +1615,10 @@ BOARD_JS = """<script>
 (function () {
   var q = document.getElementById('q');
   var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
-  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.chip:not(.gchip)'));
+  var gchips = Array.prototype.slice.call(document.querySelectorAll('.gchip'));
   var active = [];              // 選ばれているチップ [{terms: [...], label: '...'}]
+  var activeGroups = [];        // 選ばれている区分（登壇・協賛 / 一般参加 / 協賛）
   var allItems = [];
   cards.forEach(function (c) {
     var its = Array.prototype.slice.call(c.querySelectorAll('.item'));
@@ -1597,10 +1639,16 @@ BOARD_JS = """<script>
     }
     return false;
   }
+  function groupMatch(c) {
+    if (!activeGroups.length) return true;
+    var gs = (c.dataset.groups || '').split(' ');
+    return activeGroups.some(function (g) { return gs.indexOf(g) !== -1; });
+  }
   function apply() {
     var v = q.value.trim().toLowerCase();
     var terms = activeTerms();
-    var filtering = !!v || terms.length > 0;
+    var textFiltering = !!v || terms.length > 0;
+    var filtering = textFiltering || activeGroups.length > 0;
     var shownTotal = 0;
     cards.forEach(function (c) {
       var shown = 0;
@@ -1613,11 +1661,12 @@ BOARD_JS = """<script>
       var count = c.querySelector('.count');
       if (count) {
         if (c.dataset.error === '1') { /* エラー表示はそのまま */ }
-        else if (!filtering) { count.textContent = c.dataset.total + '件'; }
+        else if (!textFiltering) { count.textContent = c.dataset.total + '件'; }
         else { count.textContent = shown + '/' + c.dataset.total + '件'; }
       }
-      c.classList.toggle('hidden', filtering && shown === 0);
-      shownTotal += shown;
+      var inGroup = groupMatch(c);
+      c.classList.toggle('hidden', !inGroup || (textFiltering && shown === 0));
+      if (inGroup) shownTotal += shown;
     });
     var nr = document.getElementById('noresult');
     if (nr) {
@@ -1703,6 +1752,23 @@ BOARD_JS = """<script>
       marks();
     });
   });
+  gchips.forEach(function (ch) {
+    var g = ch.dataset.group;
+    ch.addEventListener('click', function () {
+      var i = activeGroups.indexOf(g);
+      if (i === -1) activeGroups.push(g); else activeGroups.splice(i, 1);
+      ch.classList.toggle('is-on', i === -1);
+      var sum = document.getElementById('gsum');
+      if (sum) {
+        var labels = activeGroups.map(function (x) {
+          var el = document.querySelector('.gchip[data-group="' + x + '"]');
+          return el ? (el.dataset.label || x) : x;
+        });
+        sum.textContent = labels.length ? '区分: ' + labels.join('・') : '区分で絞り込み';
+      }
+      apply();
+    });
+  });
   q.addEventListener('input', apply);
 })();
 </script>"""
@@ -1732,6 +1798,38 @@ def render_chips(settings: dict) -> str:
     if not buttons:
         return ""
     return f'    <div class="chips" id="chips">{"".join(buttons)}</div>\n'
+
+
+def render_group_filters(settings: dict, data: dict) -> str:
+    """settings.groups（区分）があるボードだけ、折りたたみの区分絞り込みを出す。
+
+    例: 広告界隈ボードの「登壇・協賛41社 / 一般参加61社 / 協賛8社」。
+    各カードは source の groups に入れた区分で絞り込む（複数選択はOR）。
+    """
+    groups = settings.get("groups") or []
+    if not groups:
+        return ""
+    counts = {}
+    for src in data.get("sources", []):
+        for g in src.get("groups") or []:
+            counts[g] = counts.get(g, 0) + 1
+    buttons = []
+    for g in groups:
+        gid = str(g.get("id") or "").strip()
+        if not gid:
+            continue
+        label = str(g.get("label") or gid).strip()
+        n = counts.get(gid, 0)
+        buttons.append(
+            f'<button type="button" class="chip gchip" data-group="{esc(gid)}"'
+            f' data-label="{esc(label)}">{esc(label)}<span class="n">{n}</span></button>'
+        )
+    if not buttons:
+        return ""
+    return (
+        '    <details class="fold" id="gfold"><summary><span id="gsum">区分で絞り込み</span>'
+        f'</summary><div class="chips" id="gchips">{"".join(buttons)}</div></details>\n'
+    )
 
 
 def render_nav(current: str, boards: list, labels: dict) -> str:
@@ -1765,7 +1863,7 @@ def render_page(data: dict, settings: dict, nav_block: str = "") -> str:
         .replace("{updated}", f'最終更新 {now:%Y/%m/%d %H:%M} JST')
         .replace("{nav_block}", nav_block)
         .replace("{cards}", cards)
-        .replace("{chips_block}", render_chips(settings))
+        .replace("{chips_block}", render_group_filters(settings, data) + render_chips(settings))
         .replace("{summary}", esc(summary))
         .replace("{footer_right}", esc(footer_right))
         .replace("{data_json}", payload)
@@ -1841,6 +1939,13 @@ def run_board(board: dict, args, nav_block: str = "", prefetched: list = None) -
             if kept:
                 merged.append(kept)
         results = merged
+
+    # カードの区分（groups）と協賛ランク（rank）は設定側の情報なので、取得結果に写す
+    for res in results:
+        cfg_src = src_by_id.get(res.get("id")) or {}
+        for key in ("groups", "rank"):
+            if key not in res and cfg_src.get(key):
+                res[key] = cfg_src[key]
 
     total = sum(r["count"] for r in results)
     ok = [r for r in results if r["status"] == "ok"]

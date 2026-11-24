@@ -1,0 +1,1786 @@
+{
+  "settings": {
+    "title": "第1回 広告界隈。 参加102社 ニュース監視",
+    "nav_label": "📣 広告界隈",
+    "items_per_source": 5,
+    "timeout_seconds": 15,
+    "retries": 2,
+    "fetch_workers": 8,
+    "tolerate_errors": true,
+    "translate": true,
+    "translate_max_per_run": 20,
+    "groups": [
+      {
+        "id": "speaker",
+        "label": "登壇・協賛 41社"
+      },
+      {
+        "id": "attendee",
+        "label": "一般参加 61社"
+      },
+      {
+        "id": "sponsor",
+        "label": "🏅 協賛 8社"
+      }
+    ],
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+  },
+  "sources": [
+    {
+      "id": "ak_001",
+      "type": "google_news",
+      "name": "株式会社AimForward",
+      "query": "\"AimForward\"",
+      "must_match": [
+        "AimForward"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_002",
+      "type": "google_news",
+      "name": "株式会社CFPコンサルティング",
+      "query": "\"CFPコンサルティング\"",
+      "must_match": [
+        "CFPコンサルティング"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_003",
+      "type": "google_news",
+      "name": "合同会社DMM.com",
+      "query": "\"DMM\"",
+      "must_match": [
+        "DMM"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_004",
+      "type": "google_news",
+      "name": "株式会社GreenSpoon",
+      "query": "\"Greenspoon\" OR \"GreenSpoon\"",
+      "must_match": [
+        "Greenspoon",
+        "GreenSpoon"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_005",
+      "type": "google_news",
+      "name": "株式会社Icra",
+      "query": "\"Icra\" 広告 OR \"Icra\" マーケティング",
+      "must_match": [
+        "Icra"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold",
+      "html_news": [
+        {
+          "url": "https://icra.marketing/news",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_006",
+      "type": "google_news",
+      "name": "株式会社一絲・知足（kojitsu）",
+      "query": "\"株式会社一絲\" OR \"知足\" 事業戦略",
+      "must_match": [
+        "株式会社一絲",
+        "一絲（",
+        "一絲、",
+        "知足スクール",
+        "知足（",
+        "知足が",
+        "知足、",
+        "koujitsu"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold",
+      "extra_queries": [
+        "\"koujitsu\"",
+        "\"事業戦略スクール\" 知足"
+      ]
+    },
+    {
+      "id": "ak_007",
+      "type": "google_news",
+      "name": "mederi株式会社",
+      "query": "\"mederi\"",
+      "must_match": [
+        "mederi"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_008",
+      "type": "google_news",
+      "name": "株式会社Oz link",
+      "query": "\"Oz link\"",
+      "must_match": [
+        "Oz link",
+        "Ozlink",
+        "オズリンク"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ],
+      "html_news": [
+        {
+          "url": "https://ozlink.co.jp/information/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_009",
+      "type": "google_news",
+      "name": "TieUps株式会社",
+      "query": "\"TieUps\"",
+      "must_match": [
+        "TieUps"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_010",
+      "type": "google_news",
+      "name": "株式会社Yaaha",
+      "query": "\"Yaaha\"",
+      "must_match": [
+        "Yaaha"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_011",
+      "type": "google_news",
+      "name": "株式会社アルク",
+      "query": "\"株式会社アルク\"",
+      "must_match": [
+        "株式会社アルク"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_012",
+      "type": "google_news",
+      "name": "オルクス株式会社",
+      "query": "\"オルクス\"",
+      "must_match": [
+        "オルクス株式会社",
+        "株式会社オルクス",
+        "オルクス、",
+        "オルクスが"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_013",
+      "type": "google_news",
+      "name": "株式会社クレディセゾン",
+      "query": "\"クレディセゾン\"",
+      "must_match": [
+        "クレディセゾン"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_014",
+      "type": "google_news",
+      "name": "株式会社ディー・エヌ・エー",
+      "query": "\"DeNA\"",
+      "must_match": [
+        "DeNA",
+        "ディー・エヌ・エー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_015",
+      "type": "google_news",
+      "name": "ノバセル",
+      "query": "\"ノバセル\"",
+      "must_match": [
+        "ノバセル"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_016",
+      "type": "google_news",
+      "name": "株式会社メリル",
+      "query": "\"株式会社メリル\"",
+      "must_match": [
+        "株式会社メリル",
+        "メリル、"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_017",
+      "type": "google_news",
+      "name": "株式会社レミントン",
+      "query": "\"レミントン\"",
+      "must_match": [
+        "レミントン"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_018",
+      "type": "google_news",
+      "name": "株式会社レントラックス",
+      "query": "\"レントラックス\"",
+      "must_match": [
+        "レントラックス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_019",
+      "type": "google_news",
+      "name": "君のとなりの株式会社",
+      "query": "\"君のとなりの\"",
+      "must_match": [
+        "君のとなりの"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_020",
+      "type": "google_news",
+      "name": "渋谷文化村通り皮膚科",
+      "query": "\"渋谷文化村通り皮膚科\"",
+      "must_match": [
+        "渋谷文化村通り皮膚科",
+        "文化村通り皮膚科"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_021",
+      "type": "google_news",
+      "name": "思考実験／正直サミット",
+      "query": "\"正直サミット\" OR \"思考実験\" 広告",
+      "must_match": [
+        "正直サミット",
+        "思考実験/正直サミット",
+        "思考実験／正直サミット"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ],
+      "extra_queries": [
+        "\"思考実験\" マーケティング"
+      ]
+    },
+    {
+      "id": "ak_022",
+      "type": "google_news",
+      "name": "bfj株式会社",
+      "query": "\"bfj株式会社\"",
+      "must_match": [
+        "bfj株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ],
+      "html_news": [
+        {
+          "url": "https://bf-j.com/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_023",
+      "type": "google_news",
+      "name": "株式会社CyberOwl",
+      "query": "\"CyberOwl\"",
+      "must_match": [
+        "CyberOwl"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_024",
+      "type": "google_news",
+      "name": "株式会社FUSION",
+      "query": "\"株式会社FUSION\"",
+      "must_match": [
+        "株式会社FUSION"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_025",
+      "type": "google_news",
+      "name": "株式会社HIGHLINK",
+      "query": "\"High Link\"",
+      "must_match": [
+        "High Link",
+        "HighLink",
+        "ハイリンク"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=61060",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_026",
+      "type": "google_news",
+      "name": "株式会社JAPAN SOLUTIONS",
+      "query": "\"JAPAN SOLUTIONS\"",
+      "must_match": [
+        "JAPAN SOLUTIONS",
+        "JAPANSOLUTIONS"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold",
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=163031",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://japan-solution.jp/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_027",
+      "type": "google_news",
+      "name": "株式会社LeanGo",
+      "query": "\"LeanGo\"",
+      "must_match": [
+        "LeanGo"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_028",
+      "type": "google_news",
+      "name": "MonoDi株式会社",
+      "query": "\"MonoDi\"",
+      "must_match": [
+        "MonoDi"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold"
+    },
+    {
+      "id": "ak_029",
+      "type": "google_news",
+      "name": "株式会社S&K",
+      "query": "\"S&K\"",
+      "must_match": [
+        "S&K",
+        "S＆K"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold",
+      "context_match": [
+        "EC",
+        "コマーズ",
+        "通販",
+        "ネットショップ",
+        "ネット通販",
+        "ショッピング",
+        "楽天",
+        "Amazon",
+        "アマゾン",
+        "ヤフー",
+        "Yahoo",
+        "Qoo10",
+        "ショップ",
+        "出店",
+        "越境",
+        "D2C",
+        "決済",
+        "物流",
+        "倉庫",
+        "在庫",
+        "受注",
+        "CRM",
+        "SaaS",
+        "マーケティング",
+        "広告",
+        "SNS",
+        "カスタマー",
+        "ブランド",
+        "購買",
+        "小売",
+        "リテール",
+        "店舗",
+        "商品",
+        "販売",
+        "顧客",
+        "ネット販売",
+        "オンライン",
+        "メーカー",
+        "フルフィルメント",
+        "受託",
+        "不正アクセス",
+        "サイバー",
+        "情報漏えい",
+        "個人情報"
+      ],
+      "exclude_match": [
+        "ボクシング",
+        "選手名鑑",
+        "アートコレクション",
+        "先島",
+        "坂田",
+        "熊本発"
+      ]
+    },
+    {
+      "id": "ak_030",
+      "type": "google_news",
+      "name": "株式会社W-ENDLESS",
+      "query": "\"W-ENDLESS\"",
+      "must_match": [
+        "W-ENDLESS"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_031",
+      "type": "google_news",
+      "name": "おくりバント",
+      "query": "\"おくりバント\"",
+      "must_match": [
+        "おくりバント"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_032",
+      "type": "google_news",
+      "name": "アルパカ／リテリア",
+      "query": "\"リテリア\"",
+      "must_match": [
+        "リテリア",
+        "株式会社ALPACA",
+        "ALPACA株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "gold",
+      "extra_queries": [
+        "\"株式会社ALPACA\""
+      ]
+    },
+    {
+      "id": "ak_033",
+      "type": "google_news",
+      "name": "株式会社オービックビジネスコンサルタント",
+      "query": "\"オービックビジネスコンサルタント\"",
+      "must_match": [
+        "オービックビジネスコンサルタント",
+        "オービックビジネス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_034",
+      "type": "google_news",
+      "name": "株式会社サザキテック",
+      "query": "\"サザキテック\"",
+      "must_match": [
+        "サザキテック"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "silver"
+    },
+    {
+      "id": "ak_035",
+      "type": "google_news",
+      "name": "株式会社デイトラ",
+      "query": "\"デイトラ\"",
+      "must_match": [
+        "デイトラ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_036",
+      "type": "google_news",
+      "name": "ピアラ",
+      "query": "\"ピアラ\"",
+      "must_match": [
+        "ピアラ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_037",
+      "type": "google_news",
+      "name": "株式会社ユナイテッドスクエア",
+      "query": "\"ユナイテッドスクエア\"",
+      "must_match": [
+        "ユナイテッドスクエア"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_038",
+      "type": "google_news",
+      "name": "レリック社会保険労務士法人",
+      "query": "\"レリック社会保険労務士\"",
+      "must_match": [
+        "レリック社会保険労務士"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_039",
+      "type": "google_news",
+      "name": "株式会社出前館",
+      "query": "\"出前館\"",
+      "must_match": [
+        "出前館"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=29254",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_040",
+      "type": "google_news",
+      "name": "東京スポーツ新聞社",
+      "query": "\"東京スポーツ新聞社\"",
+      "must_match": [
+        "東京スポーツ新聞社",
+        "東スポ新聞社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker"
+      ]
+    },
+    {
+      "id": "ak_041",
+      "type": "google_news",
+      "name": "薬事パートナーズ法律事務所",
+      "query": "\"薬事パートナーズ法律事務所\"",
+      "must_match": [
+        "薬事パートナーズ法律事務所"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "speaker",
+        "sponsor"
+      ],
+      "rank": "silver"
+    },
+    {
+      "id": "ak_042",
+      "type": "google_news",
+      "name": "株式会社AdOps",
+      "query": "\"AdOps\"",
+      "must_match": [
+        "AdOps株式会社",
+        "株式会社AdOps",
+        "AdOps、",
+        "AdOpsが",
+        "AdOpsの",
+        "【AdOps】"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=74020",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://adops.co.jp/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_043",
+      "type": "google_news",
+      "name": "BRANDPORT株式会社",
+      "query": "\"BRANDPORT\"",
+      "must_match": [
+        "BRANDPORT",
+        "ブランドポート"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_044",
+      "type": "google_news",
+      "name": "CommerceX M&A株式会社",
+      "query": "\"CommerceX\"",
+      "must_match": [
+        "CommerceX"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_045",
+      "type": "google_news",
+      "name": "株式会社DYM",
+      "query": "\"株式会社DYM\"",
+      "must_match": [
+        "株式会社DYM",
+        "DYM、",
+        "DYMが",
+        "DYMの"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_046",
+      "type": "google_news",
+      "name": "株式会社FRED",
+      "query": "\"株式会社FRED\"",
+      "must_match": [
+        "株式会社FRED",
+        "FRED、",
+        "FREDが",
+        "FREDの",
+        "株式会社fred"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=192776",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_047",
+      "type": "google_news",
+      "name": "identify株式会社",
+      "query": "\"identify株式会社\"",
+      "must_match": [
+        "identify株式会社",
+        "株式会社identify",
+        "identify、",
+        "identifyが"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_048",
+      "type": "google_news",
+      "name": "株式会社LADDER",
+      "query": "\"株式会社LADDER\"",
+      "must_match": [
+        "株式会社LADDER"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_049",
+      "type": "google_news",
+      "name": "株式会社All Ads",
+      "query": "\"All Ads\"",
+      "must_match": [
+        "All Ads",
+        "オールアドズ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_050",
+      "type": "google_news",
+      "name": "合同会社BRBK",
+      "query": "\"BRBK\"",
+      "must_match": [
+        "BRBK"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_051",
+      "type": "google_news",
+      "name": "D株式会社",
+      "query": "\"D株式会社\"",
+      "must_match": [
+        "D株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_052",
+      "type": "google_news",
+      "name": "株式会社E-Grant",
+      "query": "\"E-Grant\"",
+      "must_match": [
+        "E-Grant"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_053",
+      "type": "google_news",
+      "name": "株式会社Grand Bleu&Co.",
+      "query": "\"Grand Bleu\" OR \"GrandBleu\"",
+      "must_match": [
+        "Grand Bleu",
+        "GrandBleu"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=171363",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_054",
+      "type": "google_news",
+      "name": "IGNITE株式会社",
+      "query": "\"IGNITE株式会社\"",
+      "must_match": [
+        "IGNITE株式会社",
+        "株式会社IGNITE",
+        "IGNITE、",
+        "IGNITEが"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=91557",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_055",
+      "type": "google_news",
+      "name": "LINEヤフー株式会社",
+      "query": "\"LINEヤフー\"",
+      "must_match": [
+        "LINEヤフー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_056",
+      "type": "google_news",
+      "name": "株式会社M&Aソーシングクラウド",
+      "query": "\"M&Aソーシングクラウド\"",
+      "must_match": [
+        "M&Aソーシングクラウド"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_057",
+      "type": "google_news",
+      "name": "株式会社NKKソリューションズ",
+      "query": "\"NKKソリューションズ\"",
+      "must_match": [
+        "NKKソリューションズ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=122322",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_058",
+      "type": "google_news",
+      "name": "RMB株式会社",
+      "query": "\"RMB株式会社\"",
+      "must_match": [
+        "RMB株式会社"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_059",
+      "type": "google_news",
+      "name": "SHIRORU株式会社",
+      "query": "\"SHIRORU\"",
+      "must_match": [
+        "SHIRORU",
+        "シロル"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_060",
+      "type": "google_news",
+      "name": "株式会社SOCIAL GREEN TECH",
+      "query": "\"SOCIAL GREEN TECH\"",
+      "must_match": [
+        "SOCIAL GREEN TECH",
+        "ソーシャルグリーンテック"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=159724",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_061",
+      "type": "google_news",
+      "name": "株式会社Speee",
+      "query": "\"Speee\"",
+      "must_match": [
+        "Speee"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_062",
+      "type": "google_news",
+      "name": "株式会社THE RICH",
+      "query": "\"株式会社THE RICH\"",
+      "must_match": [
+        "株式会社THE RICH"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "html_news": [
+        {
+          "url": "https://about.silktherich.com/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_063",
+      "type": "google_news",
+      "name": "株式会社アドコミ",
+      "query": "\"アドコミ\"",
+      "must_match": [
+        "アドコミ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "html_news": [
+        {
+          "url": "https://adcomi.co.jp/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_064",
+      "type": "google_news",
+      "name": "株式会社エフカフェ",
+      "query": "\"エフカフェ\"",
+      "must_match": [
+        "エフカフェ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=21177",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_065",
+      "type": "google_news",
+      "name": "サヴァリ株式会社",
+      "query": "\"サヴァリ\"",
+      "must_match": [
+        "サヴァリ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=33158",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_066",
+      "type": "google_news",
+      "name": "バレットグループ株式会社",
+      "query": "\"バレットグループ\"",
+      "must_match": [
+        "バレットグループ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_067",
+      "type": "google_news",
+      "name": "株式会社フォーマルクライン",
+      "query": "\"フォーマルクライン\"",
+      "must_match": [
+        "フォーマルクライン"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=69527",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://shop.formalklein.com/shop/information_categories/news",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_068",
+      "type": "google_news",
+      "name": "マルルー株式会社",
+      "query": "\"マルルー\"",
+      "must_match": [
+        "マルルー"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_069",
+      "type": "google_news",
+      "name": "株式会社ヨノラボ",
+      "query": "\"ヨノラボ\"",
+      "must_match": [
+        "ヨノラボ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=178115",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_070",
+      "type": "google_news",
+      "name": "リズム株式会社",
+      "query": "\"リズム株式会社\"",
+      "must_match": [
+        "リズム株式会社",
+        "株式会社リズム"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_071",
+      "type": "google_news",
+      "name": "上海洛塔信息技術有限公司",
+      "query": "\"洛塔\" OR \"上海洛塔\"",
+      "must_match": [
+        "洛塔"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_072",
+      "type": "google_news",
+      "name": "楽天グループ株式会社",
+      "query": "\"楽天グループ\"",
+      "must_match": [
+        "楽天グループ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_073",
+      "type": "google_news",
+      "name": "株式会社ログラフ",
+      "query": "\"ログラフ\"",
+      "must_match": [
+        "ログラフ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_074",
+      "type": "google_news",
+      "name": "株式会社VEXL",
+      "query": "\"VEXL\"",
+      "must_match": [
+        "VEXL"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_075",
+      "type": "google_news",
+      "name": "株式会社SOLXIA",
+      "query": "\"SOLXIA\"",
+      "must_match": [
+        "SOLXIA"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "html_news": [
+        {
+          "url": "https://solxia.co.jp/news/",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_076",
+      "type": "google_news",
+      "name": "アミノセルス製薬株式会社",
+      "query": "\"アミノセルス\"",
+      "must_match": [
+        "アミノセルス"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=57198",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ],
+      "html_news": [
+        {
+          "url": "https://aminocells.com/shop/information_categories/news",
+          "origin": "site"
+        }
+      ]
+    },
+    {
+      "id": "ak_077",
+      "type": "google_news",
+      "name": "アスレプロダクツ株式会社",
+      "query": "\"アスレプロダクツ\"",
+      "must_match": [
+        "アスレプロダクツ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_078",
+      "type": "google_news",
+      "name": "株式会社プレイスタイル",
+      "query": "\"株式会社プレイスタイル\"",
+      "must_match": [
+        "株式会社プレイスタイル"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_079",
+      "type": "google_news",
+      "name": "株式会社鈴木ハーブ研究所",
+      "query": "\"鈴木ハーブ研究所\"",
+      "must_match": [
+        "鈴木ハーブ研究所"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_080",
+      "type": "google_news",
+      "name": "株式会社MOG",
+      "query": "\"株式会社MOG\"",
+      "must_match": [
+        "株式会社MOG",
+        "MOG株式会社",
+        "MOG、",
+        "MOGが"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_081",
+      "type": "google_news",
+      "name": "Oxora",
+      "query": "\"Oxora\"",
+      "must_match": [
+        "Oxora",
+        "オクソラ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_082",
+      "type": "google_news",
+      "name": "株式会社SATOI",
+      "query": "\"SATOI\"",
+      "must_match": [
+        "SATOI",
+        "サトイ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_083",
+      "type": "google_news",
+      "name": "株式会社SMD",
+      "query": "\"株式会社SMD\"",
+      "must_match": [
+        "株式会社SMD"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_084",
+      "type": "google_news",
+      "name": "株式会社SOLIA",
+      "query": "\"株式会社SOLIA\"",
+      "must_match": [
+        "株式会社SOLIA"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_085",
+      "type": "google_news",
+      "name": "Taboola Japan株式会社",
+      "query": "\"Taboola\"",
+      "must_match": [
+        "Taboola",
+        "タブーラ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_086",
+      "type": "google_news",
+      "name": "株式会社uto",
+      "query": "\"株式会社uto\"",
+      "must_match": [
+        "株式会社uto"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_087",
+      "type": "google_news",
+      "name": "株式会社アドトラック",
+      "query": "\"アドトラック\"",
+      "must_match": [
+        "アドトラック"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_088",
+      "type": "google_news",
+      "name": "株式会社クレア",
+      "query": "\"株式会社クレア\"",
+      "must_match": [
+        "株式会社クレア",
+        "クレア株式会社",
+        "クレア、"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_089",
+      "type": "google_news",
+      "name": "株式会社ハハハラボ",
+      "query": "\"ハハハラボ\"",
+      "must_match": [
+        "ハハハラボ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_090",
+      "type": "google_news",
+      "name": "ファンネルアド株式会社",
+      "query": "\"ファンネルアド\"",
+      "must_match": [
+        "ファンネルアド"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_091",
+      "type": "google_news",
+      "name": "株式会社マテリアル",
+      "query": "\"株式会社マテリアル\"",
+      "must_match": [
+        "株式会社マテリアル",
+        "マテリアル株式会社",
+        "マテリアル、"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_092",
+      "type": "google_news",
+      "name": "株式会社ユニメディア（通販通信）",
+      "query": "\"ユニメディア\"",
+      "must_match": [
+        "ユニメディア",
+        "通販通信"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_queries": [
+        "\"通販通信\""
+      ]
+    },
+    {
+      "id": "ak_093",
+      "type": "google_news",
+      "name": "株式会社ヨミテ",
+      "query": "\"ヨミテ\"",
+      "must_match": [
+        "ヨミテ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=174226",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_094",
+      "type": "google_news",
+      "name": "一般社団法人JAPANライブコマース協会",
+      "query": "\"JAPANライブコマース協会\"",
+      "must_match": [
+        "JAPANライブコマース協会"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_095",
+      "type": "google_news",
+      "name": "株式会社日本美心",
+      "query": "\"日本美心\"",
+      "must_match": [
+        "日本美心"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_096",
+      "type": "google_news",
+      "name": "株式会社NuMeRo",
+      "query": "\"NuMeRo\"",
+      "must_match": [
+        "NuMeRo",
+        "ヌメロ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_097",
+      "type": "google_news",
+      "name": "株式会社ソルビア",
+      "query": "\"ソルビア\"",
+      "must_match": [
+        "ソルビア"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_098",
+      "type": "google_news",
+      "name": "株式会社ベルタ",
+      "query": "\"株式会社ベルタ\"",
+      "must_match": [
+        "株式会社ベルタ"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_099",
+      "type": "google_news",
+      "name": "ユーナメディアパートナー株式会社",
+      "query": "\"ユーナメディア\" OR \"POPPIXS\"",
+      "must_match": [
+        "ユーナメディア",
+        "POPPIXS"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=187393",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    },
+    {
+      "id": "ak_100",
+      "type": "google_news",
+      "name": "Comexposium Japan株式会社",
+      "query": "\"Comexposium\"",
+      "must_match": [
+        "Comexposium"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_101",
+      "type": "google_news",
+      "name": "株式会社Oh my teeth",
+      "query": "\"Oh my teeth\"",
+      "must_match": [
+        "Oh my teeth",
+        "オーマイティース"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ]
+    },
+    {
+      "id": "ak_102",
+      "type": "google_news",
+      "name": "レバレッジーズM&Aアドバイザリー株式会社",
+      "query": "\"レバレジーズM&A\" OR \"レバレッジーズM&A\"",
+      "must_match": [
+        "レバレジーズM&Aアドバイザリー",
+        "レバレッジーズM&A",
+        "レバレジーズM&A"
+      ],
+      "limit": 5,
+      "enabled": true,
+      "groups": [
+        "attendee"
+      ],
+      "extra_feeds": [
+        {
+          "url": "https://prtimes.jp/companyrdf.php?company_id=10591",
+          "origin": "prtimes",
+          "label": "PR TIMES"
+        }
+      ]
+    }
+  ]
+}

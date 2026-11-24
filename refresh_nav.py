@@ -37,6 +37,29 @@ def build_labels(boards: list) -> dict:
 
 NAV_RE = re.compile(r"<nav class=\"nav\">.*?</nav>", re.S)
 
+# ナビは「1行横スクロール」に統一する（ピルが33枚を超え、折り返すと
+# スマホで4行も占めてしまう）。旧テンプレートの wrap 版だけを置き換える。
+NAV_CSS_OLD = ".nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }"
+NAV_CSS_NEW = (
+    ".nav { display: flex; flex-wrap: nowrap; gap: 6px; margin-top: 7px;"
+    " overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }"
+    "\n  .nav::-webkit-scrollbar { display: none; }"
+)
+NAV_A_OLD = (
+    ".nav a {\n    font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;"
+)
+NAV_A_NEW = (
+    ".nav a {\n    flex: 0 0 auto; white-space: nowrap;"
+    "\n    font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;"
+)
+
+
+def normalize_nav_css(text: str) -> str:
+    """古い wrap 型の .nav CSS を、1行横スクロール型に書き換える。"""
+    text = text.replace(NAV_CSS_OLD, NAV_CSS_NEW)
+    text = text.replace(NAV_A_OLD, NAV_A_NEW)
+    return text
+
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="全ボードのナビだけを更新する")
@@ -60,6 +83,7 @@ def main(argv=None) -> int:
             print(f"ナビが見つかりません: {os.path.basename(path)}", file=sys.stderr)
             continue
         new_text = NAV_RE.sub(lambda _m: nav, text, count=1)
+        new_text = normalize_nav_css(new_text)
         if new_text == text:
             continue
         changed.append(os.path.basename(path))

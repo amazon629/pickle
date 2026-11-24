@@ -41,8 +41,10 @@
   .topbar .row { display: flex; align-items: baseline; gap: 8px; }
   .topbar h1 { font-size: 16px; margin: 0; letter-spacing: .02em; }
   .topbar .updated { font-size: 11px; color: var(--muted); }
-  .nav { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
+  .nav { display: flex; flex-wrap: nowrap; gap: 6px; margin-top: 7px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .nav::-webkit-scrollbar { display: none; }
   .nav a {
+    flex: 0 0 auto; white-space: nowrap;
     font-size: 11.5px; line-height: 1.5; padding: 2px 10px; border-radius: 999px;
     color: var(--text-2); background: #fff; border: 1px solid #e4e6ea;
     text-decoration: none;
@@ -169,7 +171,7 @@
 <div class="wrap">
   <div class="topbar">
     <div class="row"><h1>トレカ抽選速報 X監視ボード</h1><span class="updated">最終更新 2026/11/24 14:58 JST</span></div>
-    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="ai-tools.html">✨ AI新着</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="deadlines.html">⏰ 当日締切</a><a class="" href="ec-brands.html">EC・D2C 515社</a><a class="" href="ec-companies.html">EC企業75社</a><a class="" href="ec-mailorder.html">通販・コスメ54社</a><a class="" href="ec-support.html">EC・支援34社</a><a class="" href="ecnopro-companies.html">🎤 ECのプロ企業</a><a class="" href="ipo-approved.html">🆕 IPO新規承認</a><a class="" href="ipo-news.html">📰 IPO新規ニュース</a><a class="" href="ipo.html">IPO</a><a class="" href="jp-stocks.html">📊 日本株・投資</a><a class="" href="kaitori.html">💰 買取</a><a class="" href="livecommerce-4companies.html">🏢 ライブコマース4社</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="onepiece-toreca.html">🏴‍☠️ ワンピカ・トレカ</a><a class="" href="pokeca-lottery.html">🎟️ ポケカ抽選</a><a class="" href="pokeca-lottery2.html">🔔 抽選2</a><a class="" href="pokeca-stores.html">🏪 ポケカ32店舗</a><a class="" href="pokeca.html">ポケカ</a><a class="" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="" href="toreca-buzz.html">🔥 抽選速報</a><a class="is-active" href="toreca-lottery.html">🎯 トレカ抽選</a><a class="" href="unicorns.html">🦄 10億ドル以上</a><a class="" href="urban-dev.html">🏙️ 都市開発</a></nav>
+    <nav class="nav"><a class="" href="index.html">メイン</a><a class="" href="ad-marketing.html">広告・マーケ</a><a class="" href="adkaiwai.html">📣 広告界隈</a><a class="" href="ai-tools.html">✨ AI新着</a><a class="" href="ai.html">AI</a><a class="" href="caster-companies.html">キャスター企業</a><a class="" href="deadlines.html">⏰ 当日締切</a><a class="" href="ec-brands.html">EC・D2C 515社</a><a class="" href="ec-companies.html">EC企業75社</a><a class="" href="ec-mailorder.html">通販・コスメ54社</a><a class="" href="ec-support.html">EC・支援34社</a><a class="" href="ecnopro-companies.html">🎤 ECのプロ企業</a><a class="" href="ipo-approved.html">🆕 IPO新規承認</a><a class="" href="ipo-news.html">📰 IPO新規ニュース</a><a class="" href="ipo.html">IPO</a><a class="" href="jp-stocks.html">📊 日本株・投資</a><a class="" href="kaitori.html">💰 買取</a><a class="" href="livecommerce-4companies.html">🏢 ライブコマース4社</a><a class="" href="nrtv-companies.html">nrtv企業</a><a class="" href="onepiece-toreca.html">🏴‍☠️ ワンピカ・トレカ</a><a class="" href="pokeca-lottery.html">🎟️ ポケカ抽選</a><a class="" href="pokeca-lottery2.html">🔔 抽選2</a><a class="" href="pokeca-stores.html">🏪 ポケカ32店舗</a><a class="" href="pokeca.html">ポケカ</a><a class="" href="prtimes.html">PR TIMES</a><a class="" href="shopify-partners.html">Shopify代理店</a><a class="" href="smartnews-partners.html">SmartNews代理店</a><a class="" href="sns-agencies.html">SNS・広告代理店</a><a class="" href="startup.html">スタートアップ</a><a class="" href="toreca-buzz.html">🔥 抽選速報</a><a class="is-active" href="toreca-lottery.html">🎯 トレカ抽選</a><a class="" href="unicorns.html">🦄 10億ドル以上</a><a class="" href="urban-dev.html">🏙️ 都市開発</a></nav>
     <div class="search"><input id="q" type="search" placeholder="キーワードで絞り込み" autocomplete="off"></div>
   </div>
   <main class="cards" id="cards">
