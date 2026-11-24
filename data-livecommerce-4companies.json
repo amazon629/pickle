@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T21:29:38+09:00",
-  "generated_at_label": "2026/11/24 21:29 JST",
+  "generated_at": "2026-11-24T23:22:45+09:00",
+  "generated_at_label": "2026/11/24 23:22 JST",
   "title": "ライブコマース・TikTok Shop 4社 ニュース監視ボード",
   "total": 100,
   "sources": [
@@ -92,7 +92,7 @@
           "type": "google_news",
           "origin": "site",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、Sukuu project「NANOバブル美容液」が販売開始約10分で売上600万円を突破",
@@ -108,7 +108,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社Sホールディングス、ライブコマース事業の拡大に伴い銀座へオフィスを移転",
@@ -172,7 +172,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、newtra(ニュートラ)「VC28 15ml」が、販売開始約10分で3,000点を突破",
@@ -188,7 +188,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、XHI「スーパータイムスペース ペプチドカプセル」が販売開始約10分で売上1,100万円を突破",
@@ -204,7 +204,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、Moritek「リフト＆タイトニングエッセンスミスト」が約10分で完売、売上500万円を突破",
@@ -220,7 +220,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【11ヶ月連続1位】TikTokライブコマース「燕チャンネル」、9月度TikTokスターランキングで1位を獲得",
@@ -300,7 +300,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、DRH+「ダメージリペア ヘアミスト」が約10分で800点以上完売",
@@ -316,7 +316,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【スターランキング9位】TikTokライブコマース「7号ななチャンネル」、8月度トクトクセールで9位にランクイン",
@@ -332,7 +332,7 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【10ヶ月連続1位】TikTokライブコマース「燕チャンネル」、8月度TikTokスターランキングで1位を獲得",
@@ -348,7 +348,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "TikTokライブコマース「燕チャンネル」、BIJOU DE MER「ボーテ アンバリエンテ プラ キャビ エクセレンス ナノ ローション」が開始約10分で完売、売上1,500万円を突破 | 株式会社Sホールディングスのプレスリリース",
@@ -364,7 +364,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【販売実績更新】TikTokライブコマース「燕チャンネル」、「DIFFER & DEEPER」メラチノール クラウドクリームが累計7,200点・売上3,700万円を突破",
@@ -380,7 +380,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【年内開講予定】Sホールディングス、JAPANライブコマース協会と連携し「LIVE MONSTER」を開講",
@@ -396,7 +396,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【販売実績更新】TikTokライブコマース「燕チャンネル」、韓国コスメ「NEUTRINOS」の「エナジーウォーターミスト」が累計1万5,000点・売上6,200万円を突破",
@@ -412,10 +412,10 @@
           "type": "google_news",
           "origin": "prtimes",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 1.7
     },
     {
       "id": "lc4_cellest",
@@ -458,6 +458,54 @@
           "origin": "prtimes",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "Cellest、賞金10万円と専属契約をかけたライブコマーサーオーディション開催へ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14R3lITVJNR2swTTlzOE1MWmdyMHc3QUxYRlMxeUEzZ2RKTDI2OWFMNVVLcnpIU1I4ekhrcHdJYzVtS1ltNEE?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-11-14T09:49:08+09:00",
+          "published_label": "2026/11/14(土) 09:49",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Cellestの2チャンネルがTikTokイベントで合計約3,811万円を販売",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAzME5Mb3NIQncwQ2RCMVNDaXR1QURlSFFvdjNxdWxCc2Y3Q0g1cEttS1NYdEpocXEwZzlLNEJma0cwUEU4M2c?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-11-11T08:04:33+09:00",
+          "published_label": "2026/11/11(水) 08:04",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Cellestのトキバナにゆきちゃ所属 2026年11月2日より活動開始へ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBESjJQZWw1WFFDWVp0TGNUNC1DSjllb19WN2FkMnpvamIzcmtsV3BGQmVuTkFZelRCaEFjQkJRTDl0Tm5Nc3c?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-11-10T20:25:41+09:00",
+          "published_label": "2026/11/10(火) 20:25",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "最高月間GMV2億円のライブコマースチャンネル「ぞうねこちゃんねる」で、元アパレル店員の「Ren」がライブコマーサーデビュー！",
@@ -540,6 +588,22 @@
           "is_new": false
         },
         {
+          "title": "Cellestのぞうねこちゃんねる スキンケア3点セット完売で売上130万円突破",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9NVDc3ekRZU1AzOXR6ckV4aVRDVWtoZkJsTkdXRjRxeUl2WC1FVDgxVndzZzVFdWVMMmFCclM3djZmSHdjb3c?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-10-22T16:00:00+09:00",
+          "published_label": "2026/10/22(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "関東在住の現役フリーアナウンサー「村多美咲」がライブコマース専門事務所「トキバナ」の研修を経て、ライブコマーサーデビュー！",
           "summary": "",
           "images": [],
@@ -588,6 +652,22 @@
           "is_new": false
         },
         {
+          "title": "Cellest運営のトキバナにカノン社長が所属 TikTok Shopでの活動支援へ",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5pSWFobEZfNXB4b2t6RXZENzNIX0Z1MGE2WDBBWnpxRUl1S3lQaXAtRkcxLVRHQzdzc0ExdUJ4YVlJWkhmSUE?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-10-18T16:53:23+09:00",
+          "published_label": "2026/10/18(日) 16:53",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "「女上司と部下」コント動画で話題！SNS総フォロワー数10万人以上のクリエイター「カノン社長」がライブコマース専門事務所「トキバナ」に所属決定！ | 株式会社Cellestのプレスリリース",
           "summary": "",
           "images": [],
@@ -604,6 +684,22 @@
           "is_new": false
         },
         {
+          "title": "Cellestのぞうねこちゃんねるで新人コマーサーRenがデビュー",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB1d0RRU2RsbG1xaU9xQnpTQlVkUjBpdWpPRFNpQ0F4UnRVXzlSYUQ4aXpSaXdkR1Z2cDJ6RXRMcWY0T1EydXc?oc=5",
+          "domain": "news.dellows.jp",
+          "published": "2026-10-13T16:00:00+09:00",
+          "published_label": "2026/10/13(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Cellest、TikTokライブコマースイベントで目標上回る",
           "summary": "",
           "images": [],
@@ -618,6 +714,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "Cellest、TikTok Shopの新チャンネル「くまかなライブコマーサー」が初月に売上1億円超",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zVlgwNE5JV0J2dldyNDJiYkFIQnRSbl9paTJpQWxhUFMyRjVtSHJVeHo0ZDVXbUllNFdqOGw0SnFVdHJ3SVRtS2JTTC1ZNUtRQ0JWNkF3?oc=5",
+          "domain": "netkeizai.com",
+          "published": "2026-10-04T13:03:12+09:00",
+          "published_label": "2026/10/4(日) 13:03",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "TikTok「トクトクSALE BIG LIVE」で目標GMVを達成！「ぞうねこちゃんねる」が1,711万円、「くまかなライブコマーサー」が2,100万円を24時間以内に突破！",
@@ -714,121 +826,9 @@
           "origin": "prtimes",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ライブコマース専門事務所「トキバナ」所属のKanaが中国・深圳開催の国際イベント「KACE 2026」にて【2026 Kalodata Japan Top Creator】を受賞！",
-          "summary": "",
-          "images": [],
-          "link": "https://prtimes.jp/main/html/rd/p/000000132.000102719.html",
-          "domain": "prtimes.jp",
-          "published": "2026-08-25T17:11:43+09:00",
-          "published_label": "2026/8/25(火) 17:11",
-          "badge": "PRT",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "prtimes",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【賞金総額100万円】ライブコマース専用ECモールアプリ「WABE」、美容特化の大型イベント『WABE BEAUTY DAY』を8月24日（月）に開催！",
-          "summary": "",
-          "images": [],
-          "link": "https://prtimes.jp/main/html/rd/p/000000131.000102719.html",
-          "domain": "prtimes.jp",
-          "published": "2026-08-22T12:11:34+09:00",
-          "published_label": "2026/8/22(土) 12:11",
-          "badge": "PRT",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "prtimes",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「マーケティング・セールス World 2026 夏 大阪」にCellestが登壇！TikTok Shop月商2億円の実績から「売れるライブコマース戦略」を解説！",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Vbm91VHM4VUozWG40WlRIWThqSlZmeW52endFeG1VelJMS09CZ2xlT1g0bFdDd1p3VllZTlhUMzRHU1N3a2hNejYwRHVfWWxmcFo2RTBnLVR6UkNGTG1ZVVRrSTNST1ZpS2c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-20T16:00:00+09:00",
-          "published_label": "2026/8/20(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "株式会社Cellest 代表取締役CEO 佐々木宏志が、通販通信ECMO主催セミナー「秋冬繁忙期、売り逃しゼロへ。EC運営の効率化と機会損失を防ぐ『直前チェックポイント』」に登壇！",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LY3dsOTN6bEZwaGpWamE1UjRTUmpkZTRKbUYxNTNmbS16NC1sYVdqR0Q0MWhSb0NHRkdvSERPMWxkMjB4a2ZRTzAtOUhveG1EODlHcC1NZEh1d3R1WVpNWkltX0JfNWRMLWc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-14T16:00:00+09:00",
-          "published_label": "2026/8/14(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "「学校の評価がすべてじゃない」未来の選択肢を広げるため、Cellestが大阪府立箕面東高等学校向けに「特別出前授業」と「ライブコマース職業体験」を実施",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXaTRuQmZzV1QtRHk3Ny14eHlJNFlnSjFYdlBTMU5LZS1hYlcyZ3g2LXNfRFNuSU9iSGUtNHBCWmRER2ltY0pqdnFSWEQtck83MWZmQ2lTb3gxdUZseDR5cWVOUmx3LUcybkE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-12T16:00:00+09:00",
-          "published_label": "2026/8/12(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ライブコマーサーのKanaさん 個人ライブコマースチャンネルを開設…Cellest",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SMndVTFdCYWZlTE9pc0RlNUVjX3pzenMzSjJTMFRhcTdpdTh1LXV5dEctQjBGa2lXYS1zLVJMVFl6NU9wdDVoMllLcE5NWDhZeVctNldn?oc=5",
-          "domain": "tsuhannews.jp",
-          "published": "2026-08-07T16:00:00+09:00",
-          "published_label": "2026/8/7(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "SNS月間総再生回数4,000万回超え！“うざママあるある”で人気の「かおりの今日もよしなに」がライブコマース専門事務所「トキバナ」の連携クリエイターに！",
-          "summary": "",
-          "images": [],
-          "link": "https://prtimes.jp/main/html/rd/p/000000127.000102719.html",
-          "domain": "prtimes.jp",
-          "published": "2026-08-07T14:23:28+09:00",
-          "published_label": "2026/8/7(金) 14:23",
-          "badge": "PRT",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "prtimes",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 1.6
     },
     {
       "id": "lc4_gastroduce",
@@ -1241,7 +1241,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.6
+      "elapsed": 2.9
     },
     {
       "id": "lc4_creok",
@@ -1267,7 +1267,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「“フォロワー数”だけでは売れない」月間GMV2,500万円を記録したCREOKが明かすライブコマース成功の法則とは？",
@@ -1286,11 +1286,11 @@
           "is_new": false
         },
         {
-          "title": "CREOK、TikTok Shopの累計売上約15億円 実績生かしTTS支援をFC展開へ（日本ネット経済新聞）",
+          "title": "CREOK、TikTok Shopの累計売上約15億円 実績生かしTTS支援をFC展開へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52dEZkVEJFY3dnRWJuVHdsT2lMT2ZnaHoxNkpzMjFaUENxbEZmOWZMbndpdG9JTkxTejNpN05fNk9Nd0Y5TnJpT0NBVnoxeGJHam5RX2J5Mnl5QUs3NDBiTUo2UmIyY012WHNXTEdlWFBQc2tRZDF1S2FIUEZSUWs?oc=5",
-          "domain": "news.yahoo.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjRllOYnpUWVVVSmk1ZGZFc1dyaTJPSGRJZWNFX25sbE9wdGpUdWlILXpUdnUtRUw2dzZzWEpUQkpfSlBLb3VDWHJyQkpsYzZUalk3ZU5B?oc=5",
+          "domain": "netkeizai.com",
           "published": "2026-11-04T17:00:00+09:00",
           "published_label": "2026/11/4(水) 17:00",
           "badge": "JP",
@@ -1318,6 +1318,22 @@
           "is_new": false
         },
         {
+          "title": "CREOK、ライブコマース支援を全国FC展開へ 初年度の流通総額15億円",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BMDM0cGktQng2dDdwM2thQXpwdVpabC1iQWtXWDVqTzVlOTc5clJUakVoc1dnc2FtVGxmVDFoTlBkWTd3NFUtT1RoN19EdGFkUlhxd3IzWkdGV3pDNFJOS3ZYOVBZM2J0cjFuQzU0SlBtSHlFNEcxU2VRZm5PMzg?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-10-21T16:00:00+09:00",
+          "published_label": "2026/10/21(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "「日本でライブコマースは無理」は本当か TikTok Shopで初年度GMV15億円 CREOKが明かす全国FCの勝算",
           "summary": "",
           "images": [],
@@ -1332,22 +1348,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "CREOK、ライブコマース支援を全国FC展開へ 初年度の流通総額15億円",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeVhzaEJlTjhjWXl5cl9YZ1REdG9XSEE1WlRTdVdLWUUyRjM4R3VVNGI2RXIybk5fYjB2RW1EN1hkbFctd3J5UFVQbVlUUmFxYnRwRlVwMTN1T0JaVXh1WlZCT0U1U1ZGbno4ODJ4Y1lfU1JodUZRV2U3cldOUXVnRjdVNW5rb0QtbVVWYktR?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-10-21T09:22:22+09:00",
-          "published_label": "2026/10/21(水) 09:22",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         },
         {
           "title": "【オークファン】CREOK設立1周年記念イベントに登壇、トークセッションで次世代ECの可能性を語る",
@@ -1371,8 +1371,8 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1VR1pIUU5xZDJ1UkdnN0ZvMHFNMXdwdDk3QklDNDk3bHJTbDk4OXBhcDl1cTc5TzRrYml2T2l2YjNuMENxR28yczFFbw?oc=5",
           "domain": "getnews.jp",
-          "published": "2026-10-19T16:00:00+09:00",
-          "published_label": "2026/10/19(月) 16:00",
+          "published": "2026-10-19T10:19:26+09:00",
+          "published_label": "2026/10/19(月) 10:19",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1411,7 +1411,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "オークファンとCREOKが資本業務提携、TikTok ShopでリユースビジネスのD2Xコマース構築へ",
@@ -1508,6 +1508,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "UUUMとCREOKがTikTok Shop起点のコンテンツコマース基盤構築で提携：commercezine",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jYThRMWwyWGtKLW5wSnZFRGFVVlNBNnQ0QUZnTk5YakQzZ2gtakN0T01idVo1OG9HUXRMb0Ria1pMemtUczVZbG9BazV4bk0?oc=5",
+          "domain": "markezine.jp",
+          "published": "2026-04-17T16:00:00+09:00",
+          "published_label": "2026/4/17(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "UUUM、CREOKと戦略的業務提携 TikTok Shopのコンテンツコマース事業を共同展開",
@@ -1635,26 +1651,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "CREOK LAB、TikTok本社にてライブコマースカリキュラムを開催",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nLVI3djJqVHoyd1pza0dITlhJcm5jd1pEQUE0bEhBYjJSSU9SSEJqd3BwM2ZXNkVlMUJYMlRvYXlFTjVvVURSeUIyakpwZ3BKYkczQUkzaUJxTC1NajdzdU5fQ3FfLTIwbXc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2025-11-22T17:00:00+09:00",
-          "published_label": "2025/11/22(土) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 0.5
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T21:29:22+09:00",
-  "generated_at_label": "2026/11/24 21:29 JST",
+  "generated_at": "2026-11-24T23:22:42+09:00",
+  "generated_at_label": "2026/11/24 23:22 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -294,7 +294,7 @@
           "title_ja": "@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\nGoogle ディープマインド (@GoogleDeepMind)\nGemini 4 Neon は現在展開中です。\n炭素と水素の間に位置し、複雑なソフトウェア エンジニアリング、知識作業、科学に最先端のインテリジェンスと迅速なタスクの完了をもたらします。\n— https://x.com/GoogleDeepMind/status/2123167884411077030"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_opencode",
@@ -575,7 +575,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 2.0
     },
     {
       "id": "x_aimirai46487",
@@ -601,7 +601,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GoogleのAIエージェント「Antigravity」のOrchestrator機能(複数のAIモデルを連携させる機能)で、連携させる2つのAIモデルと、それぞれの思考レベルを自由に設定できるようになりました。\nVarun Mohan (@_mohansolo)\nToday will be a big day for Antigravity users!\nSmall quality life improvement in the meantime. You can explicitly set the pair of models and effort levels you want to use with Orchestrator. I've set Neon High with Hydrogen High.\nMuch more to come today 👀\n— https://x.com/_mohansolo/status/2124917777630961911",
@@ -619,7 +619,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Googleは、オープンな大規模言語モデル(LLM)や、画像と文章を理解できる視覚言語モデル(VLM)の性能を測定・評価するためのオープンソースベンチマーク「gBench」を公開しました。\nGoogle Gemma (@googlegemma)\nMeet gBench, our newly open-sourced benchmarking framework for evaluating Gemma and other open models.\nOut of the box, it has 86 evaluation suites, chat-template checks, agentic benchmarks, and various tiers of smoke tests.\nAll you have to do is bring your own OpenAI-compatible endpoint (vLLM, Ollama, etc.) and you can get started.\n— https://x.com/googlegemma/status/2124935724999073902",
@@ -637,7 +637,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nGoogle for Developers (@googledevs)\nNew in the Gemini API: Native file slicing controls 📄✂️\nPass dense PDFs, Office & OpenDocument files, audio, and video directly to Gemini 4 models, and slice just the pages, cells, or timestamps you need server-side.\n— Upload once via the Files API, slice across turns\n— Skim cheap (page_text / transcripts), then zoom in (high res)\n— Pay tokens only for the slices Gemini inspects\n— Zero local ffmpeg or PDF rendering bloat\nAvailable today via the API in @GoogleAIStudio and Gemini platform across all Gemini 4 models.\nVideo\n— https://x.com/googledevs/status/2124936137739542604",
@@ -655,7 +655,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\n開発者向け Google (@googledevs)\nGemini API の新機能: ネイティブ ファイル スライス コントロール 📄✂️\n高密度の PDF、Office および OpenDocument ファイル、オーディオ、ビデオを Gemini 4 モデルに直接渡し、サーバー側で必要なページ、セル、またはタイムスタンプのみをスライスします。\n— Files API 経由で 1 回アップロードし、ターンをまたいでスライスします\n— 簡単に流し読み（page_text / トランスクリプト）してからズームイン（高解像度）\n— Gemini が検査するスライスに対してのみトークンを支払います\n— ローカルの ffmpeg または PDF レンダリングの肥大化がゼロ\n@GoogleAIStudio および Gemini プラットフォームの API を介して、すべての Gemini 4 モデルで現在利用可能です。\nビデオ\n— https://x.com/googledevs/status/2124936137739542604"
         },
         {
@@ -674,7 +674,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nComfyUI (@ComfyUI)\nThe new version of Comfy Desktop is here, and it's much more than a new look.\n→ One-click install, shared model folders, automatic snapshots\n→ Apps: get results with no node graph\n→ All your assets in one place\nClick the link below to learn more ⬇️\nVideo\n— https://x.com/ComfyUI/status/2125001811908321629",
@@ -692,7 +692,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nゆーき (@yuiyui)\nComfy Desktop の新しいバージョンが登場しました。それは単に見た目が変わっただけではありません。\n→ ワンクリックインストール、共有モデルフォルダー、自動スナップショット\n→ アプリ: ノードグラフなしで結果を取得\n→ すべての資産を 1 か所に\n詳細については、下のリンクをクリックしてください⬇️\nビデオ\n— https://x.com/ComfyUI/status/2125001811908321629"
         },
         {
@@ -711,7 +711,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "中国のAIスタートアップ「DeepSeek」が新たな資金調達を完了し、創業者の梁文鋒氏の資産は550億ドル(約8兆7000億円)に増加し、AIモデル開発企業の創業者の中で資産額首位の座を固めました。",
@@ -729,7 +729,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nQoder (@qoder_ai_ide)\nA new stealth model just landed exclusively on Qoder.\nCodename: HungerG.\nIdentity: classified.\nFree for 7 days on Qoder and Qoder IDE (Nov 23 to Nov 30). Give it your real task and guess who built it.\nMay the tokens be ever in your favor.\nVideo\n— https://x.com/qoder_ai_ide/status/2124899980632822148",
@@ -861,7 +861,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.9
     },
     {
       "id": "x_kimmonismus",
@@ -893,6 +893,45 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "It’s getting serious: Axios reports that many Anthropic and OpenAI employees believe some unreleased models are already too powerful to release safely, a concern that could slow the AI boom.\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\nAxios (@axios)\nScoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release\n— https://x.com/axios/status/2125182771400163338",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX5APkdXwAAnFNM.jpg?name=small",
+            "https://pbs.twimg.com/card_img/2125179370557841408/XQRQLzOF?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125206715691933732",
+          "domain": "x.com",
+          "published": "2026-11-24T21:35:40+09:00",
+          "published_label": "2026/11/24(火) 21:35",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "事態は深刻になってきている。Axios の報告によると、Anthropic と OpenAI の従業員の多くは、一部の未リリースモデルはすでに強力すぎて安全にリリースできないと考えており、AI ブームが鈍化する可能性があるという懸念がある。\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\nアクシオス (@axios)\nScoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release\n— https://x.com/axios/status/2125182771400163338"
+        },
+        {
+          "title": "At Microsoft Ignite I sat down with @fayfers, CVP of Copilot Product at @Microsoft.\nWe talked about why the word \"code\" can scare regular people and how Copilot Code turns a plain-language request into an app or a dashboard. \"It's just a prompt box.\"\nFull interview soon.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125205327503310849/img/pqBn3Uem4rPl2blc.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125205468205502653",
+          "domain": "x.com",
+          "published": "2026-11-24T21:30:42+09:00",
+          "published_label": "2026/11/24(火) 21:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Microsoft Ignite で、@Microsoft の Copilot 製品担当 CVP である @fayfers と話をしました。\n「コード」という言葉が一般の人を怖がらせる理由と、Copilot Code が平易な言語のリクエストをアプリやダッシュボードにどのように変換するかについて話しました。 「それはただのプロンプトボックスです。」\nもうすぐ完全インタビュー。"
+        },
+        {
           "title": "Oh boy, here we go. Opus 5.6 (or whatever its called) seems to be available in Claude Code for some users .\nRight now im 50/50 in daily usage between Gemini 4 and Opus 5.5. But heck im so super ready for an updated Opus! Im hyped!\nleo 🐾 (@synthwavedd)\nClaude Opus 5.6 is likely now being tested for a subset of Claude users (some in Claude Code, some in Chat, and some without it anywhere), in a similar fashion to how Opus 5.5 was tested\nIt's quite a jump over Opus 5.5 (comparison and prompt to check in replies)\n— https://x.com/synthwavedd/status/2125018875217547382",
           "summary": "",
           "images": [
@@ -908,7 +947,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ああ、さあ、行きましょう。 Opus 5.6 (またはその名前は何でも) は、一部のユーザー向けに Claude Code で利用できるようです。\n現在、毎日の使用量は Gemini 4 と Opus 5.5 の間で 50/50 です。でも、私は Opus のアップデートに向けてとても準備ができています!興奮してるよ！\nレオ🐾 (@synthwavedd)\nClaude Opus 5.6 は、Opus 5.5 がテストされたのと同様の方法で、Claude ユーザーの一部 (クロード コードを使用するユーザー、チャットを使用するユーザー、どこにも使用しないユーザー) を対象にテストされている可能性があります。\nこれは Opus 5.5 を大幅に超えています (比較と返信のチェックインプロンプト)\n— https://x.com/synthwavedd/status/2125018875217547382"
         },
         {
@@ -928,7 +967,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "陽気: Levent Alpöge は、彼のリーマン証明についていくつかのことを明らかにしています。\n「25万ページ以上」というのは冗談だった。彼はリーンコードを公開したのは、読みやすい文章を作成できなかったからであり、そのコードは「明らかにゴミだらけだが、コンパイルはできる」と認めている。\nそれを証明に疑問があると読む人もいます。彼はそれに困惑しています。その証拠は数日前にチェックアウトされました。\nレベント (@__alpoge__)\n私がやった愚かな事：\n1. 250,000 ページ以上なんて冗談ですよ!、大きな数字は非常に面白いと思います。私は主定理の実数合計順序ステートメントの衒学的レベルによってそれを明確にしようとしましたが、残念なことに人々はそれを無視しました、そして私はミームで楽しい時間を過ごしましたが、発表後の数日間はソーシャルメディアで話す気になれませんでした。ごめん！！！ (YM4 での活動と同様に、私たちが 60,000 ページの駄作をゆっくりと取り組んでいることが非常に面白いと思いました。ただし、リーンを求める委員会のせいで、そんなことで時間を無駄にしているのは馬鹿げた気分になりました。でも、60,000 ページは面白かったです。) タオは、論文では冗談を言わないようにアドバイスしています。私がシューホーンで調べたビッグ・リボウスキーの参考文献も参照してください。その理由が今では分かりました…この問題に関して駄文を添付されるのは不快でした。とにかく読みやすいものは何も生成できないので、Lean から lengthmaxx に移行しました。\n2. リーンは明らかにゴミでいっぱいですが、コンパイルはできますが、そのようなゴミに対するすべての批判は完全に合理的で受け入れられます。クリーンアップする必要がありましたが、さまざまな奇妙な理由でランダムに実行するのが困難でした。メア・カルパ…\n3. @スコットナームストロ"
         },
         {
@@ -949,7 +988,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "そして、OpenAI はその証拠をわずか数時間後にリリースしました。\nビンク (@dummerspast39)\nOpenAI は昨夜、VP ≠ VNP の独自の証明を密かに公開しました。見つけました\nどこにもアナウンスがありません。誰も読まない変更ログのたった 1 行の新しい行\n私は彼らの数学リポジトリを読んでいて偶然見つけました。\n2つの研究室が現在、47年前の同じ問題をめぐって争っている\n> 13:43 太平洋: 人間がクロードの証明を押し上げる\n> 16:49: openai が PDF をコンパイル\n> 17:30: openai が公開し、その横に「11 月 6 日に取得」と書き込みます\n同じ定理、異なる数値\nクロード: 2^(c・(log m)^(4/3)) ゲート。 70 ページ、73,000 行の無駄のない内容\nopenai: exp(Ω((log n)^(5/4))) ゲート。 30 ページ、44 万行の無駄のない内容\n4/3 は 5/4 よりも強いため、クロードの方がより強い境界を持ちます。\nanthropic が最初に良い数字を出しました。 openai は数週間前にそれを持っていたと言っています。\n自分で読んでください：\n— https://x.com/dummerspast39/status/2125106505808588864"
         },
         {
@@ -968,7 +1007,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "GitHub の新しい Anthropic リポジトリによると、内部のクロード研究モデルが VP ≠ VNP であるという証拠を発見しました。\nVP vs VNP は、P vs NP の代数バージョンで、1979 年に Leslie Valiant が提起して以来オープンです。その結果は、パーマネントのような多項式は小さな回路ではあらゆる体にわたって計算できないことを示しています。\n文字通り、毎日が画期的な出来事です。そして、間もなく Opus 5.6 がリリースされるという噂が広まっています。"
         },
         {
@@ -1119,50 +1158,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "はい、これはTruth Socialの実際の投稿です。"
-        },
-        {
-          "title": "I dont know if this post helped Jensen at all, probably not. But at least im proud of myself of always standing with Jensen, never trusted that campaign against him and didn't share that smear campaign.\nJensen is a good person. And today is good day for all of us.\nChubby♨️ (@kimmonismus)\nRight now, the media is full of stories that paint Jensen Huang in a bad light. I have actually met Jensen, and I want to tell you a story. (1/2)\nMy interview with Jensen hasn't been published yet, which is probably understandable given the current situation. More on that when the time is right. But I had the chance to meet Jensen Huang in person several times while traveling through Europe with NVIDIA, and I want to tell you about it, especially about one experience that has stayed with me.\nSome quick background: NVIDIA invited me to join Jensen's European tour last month, together with Bloomberg and Steve Nouri. We were there for every stop: Paris, London, Stockholm, Berlin. I was on site for every one of his public speeches.\nA lot is being said right now about Jensen making statements that many find contemptible, while others take them with humor. And to be fair, Jensen does have a slightly edgy humor that rubs some people the wrong way. He speaks plainly, says what he thinks and makes jokes that can offend, but he always makes fun of himself too.\nAnd I, at least, can say one thing very clearly: never once did I feel that any of his remarks were meant as an attack, as belittling or as humiliating. It was always situational comedy. If Jensen hadn't been CEO of NVIDIA, he would have made an outstanding stand-up comedian, always ready with a quip. But as we all know, that's a matter of taste, and saying that I always found it amusing won't calm anyone down.\nSo here are two stories that show Jensen really has a good heart, and that the campaign against him distorts his image.\nThis is my personal experience:\nNVIDIA gave me the opportunity to do a 30-minute interview with Jensen in Stockholm.\nAs you can imagine, I was incredibly nervous. Honestly, I was even scared. Me, a small \"content creator,\" getting to meet Jensen in person and talk to him. He makes time even for little people like me. I met him and his staff at a café in Stockholm. We went inside and, as was bound to happen, my camera gear fell out of my backpack onto the floor. My stress level: through the roof. But Jensen stayed calm and relaxed, told me everything was fine and that I didn't need to stress, and put his hand on my shoulder. Not one snide word, no making fun of me. Quite the opposite. He knew I was genuinely stressed and helped me relax.\nThen we started the interview. And while we were talking, people kept coming into the café where we were recording. It was a café open to the public. And as you'd expect, the same thing happened again and again: while Jensen and I were talking, guests recognized him and more or less burst into our interview. And Jensen took time for every single one of them. Not one bad word, no irritation, no stupid remark. He gave every guest his time, took photos, had conversations. In the middle of the interview. I was surprised and genuinely moved. No arrogance on his part, just friendly humanity. And that's how an interview scheduled for 30 minutes turned into 60. Simply because Jensen and I had such a good conversation and he kindly gave all those guests extra time on top.\nBut the most impressive part actually came afterwards. We had been eating a Swedish pastry, it's called “fika” (at least that’s how we called it). And Jensen loved it. After we wrapped up the interview, Jensen went to the trunk of his car, grabbed some cash, went back into the café and bought “fika” for everyone. For himself, his security, his staff, for everyone.\nNo camera recorded it. Nothing done purely for PR. Nothing meant to make him \"look better.\" Just a human gesture, because he liked the pastry and wanted everyone to enjoy it too. If I hadn't told this story today, it would never have been told. And to me it shows that Jensen is a genuinely good person.\nI gain nothing from writing this. Jensen is no longer CEO. And nobody suggested I write this story down.\nVideo\n— https://x.com/kimmonismus/status/2124195569295827437",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXqoejqXQAI5gSw.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoejqWgAA2oFh.jpg?name=small",
-            "https://pbs.twimg.com/media/HXqoekGWEAAuPsC.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124195417210413056/img/vWS45pcMy-4tQIFp.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124910346477736241",
-          "domain": "x.com",
-          "published": "2026-11-24T01:58:00+09:00",
-          "published_label": "2026/11/24(火) 01:58",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "この投稿がジェンセンさんの役に立ったかどうかはわかりません。おそらく役に立っていないでしょう。でも少なくとも、私は常にジェンセンさんの味方で、彼に対する中傷キャンペーンを信じず、その中傷キャンペーンを拡散しなかったことを誇りに思っています。\nジェンセンさんは善良な人です。そして今日は、私たち全員にとって良い日です。\nチャビー♨️ (@kimmonismus)\n現在、メディアはジェンソン・ファン氏を悪く描く記事で溢れています。私は実際にジェンセンに会ったことがあり、ある話をしたいと思います。（1/2）\nジェンセンさんとのインタビューは、\nまだ公開されていませんが、現在の状況を考えると、おそらく理解できることでしょう。それについては、適切なタイミングで詳しくお話しします。しかし、NVIDIAと共にヨーロッパを旅している間に、ジェンソン・ファン氏に何度か直接お会いする機会がありました。そのこと、特に私の中に残っているある経験についてお話ししたいと思います。\n簡単に経緯を説明します。NVIDIAから先月、BloombergのSteve NouriさんとともにJensenさんのヨーロッパツアーに参加するよう招待されました。私たちはすべての訪問地に同行しました。パリ、\nロンドン、ストックホルム、ベルリン。私は彼の公開講演のすべてに現地で立ち会いました。\n現在、ジェンセン氏の発言について多くのことが言われています。多くの人が軽蔑すべきだと感じている一方で、ユーモアとして受け止める人もいます。公平を期すために言っておくと、Jensenにはやや尖ったユーモアがあり、それが一部の人々を不快にさせることもあります。彼は率直に話し、自分の考えを述べ、人を不快にさせるような冗談を言いますが、常に自分自身もからかっています。\n少なくとも私から言えることは1つだけあります。それは、一度たりとも\n彼の発言が攻撃的であったり、軽蔑的であったり、屈辱的であったりしたとは思えません。"
-        },
-        {
-          "title": "In 2019 Chris Power moved from Australia to San Francisco with about $6,000 and one contact in the US. A year later he started Hadrian here.\nThe factories ended up in LA, where software and machining talent overlapped.\nNow Hadrian is opening a factory in San Francisco.\nWhat's interesting is how much of it runs on software. Opus, Hadrian's own factory OS, connects the people, machines and production data on the floor. SF is full of engineers who are good at exactly that kind of problem.\nHonestly, I love seeing the city that built so much of the digital world start building physical things too.\nHadrian (@HadrianInc)\nSan Francisco is where the world's best engineers come to build what's next. Today that includes factories.\nThe Factory is the Frontier.\nVideo\n— https://x.com/HadrianInc/status/2124895760001253824",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124754976585162752/img/m333IzGQl5n5maOM.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124904340091724076",
-          "domain": "x.com",
-          "published": "2026-11-24T01:34:08+09:00",
-          "published_label": "2026/11/24(火) 01:34",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "2019年、クリス・パワー氏は約6,000ドルと米国での知り合いを1人だけ連れて、オーストラリアからサンフランシスコに移住しました。1年後、彼はここでHadrianを立ち上げました。\n工場は、ソフトウェアと機械加工の才能が重なるロサンゼルスに落ち着きました。\n現在、Hadrianはサンフランシスコに工場を開設しようとしています。\n興味深いのは、その多くがソフトウェアで稼働していることです。Hadrian独自の工場OSであるOpusは、現場の人々、機械、生産データを結びつけます。サンフランシスコには、まさにそのような分野に長けたエンジニアがたくさんいます。\n問題の。\n正直なところ、デジタル世界の多くを築いてきたこの街が、物理的なものも作り始めているのを見るのが大好きです。\nハドリアン（@HadrianInc）\nサンフランシスコは、世界最高のエンジニアが集まり、次の時代を築く場所です。今日では、それには工場も含まれます。\n工場はフロンティアです。\n動画\n— https://x.com/HadrianInc/status/2124895760001253824"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 1.0
     },
     {
       "id": "x_haider1",
@@ -1194,6 +1192,23 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "i'm sure both anthropic and openai is keeping their progress on P vs NP hidden to avoid giving each other any hints\nbut anthropic chose to make its VP ≠ VNP and ETH results public and no matter how many of these smaller breakthroughs it publishes, it only takes one useful hint for openai to settle P vs NP and win the race",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2125230456668831975",
+          "domain": "x.com",
+          "published": "2026-11-24T23:10:00+09:00",
+          "published_label": "2026/11/24(火) 23:10",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "i'm sure both anthropic and openai is keeping their progress on P vs NP hidden to avoid giving each other any hints\nしかし、anthropic は VP ≠ VNP と ETH の結果を公開することを選択しました。これらの小さな画期的な成果をどれだけ公開しても、Openai が P 対 NP を決着させてレースに勝つために必要なのは、たった 1 つの有用なヒントだけです。"
+        },
+        {
           "title": "well well well...\nopenai has published its own proof of VP ≠ VNP over every field, just hours after anthropic announced that an internal claude model had solved the same 47-year-old conjecture in computational complexity theory\ninterestingly oai internal model obtained the proof on november 6th",
           "summary": "",
           "images": [
@@ -1210,7 +1225,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "まあまあまあ...\nopenai は、内部クロードモデルが計算複雑性理論における同じ 47 年前の予想を解決したと anthropic が発表したわずか数時間後に、あらゆる分野における VP ≠ VNP の独自の証明を発表しました。\n興味深いことに、OAI 内部モデルは 11 月 6 日に証拠を入手しました。"
         },
         {
@@ -1230,7 +1245,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "devfluencers が gpt-6.2 astra についていかに無知であるかを改めて思い出させます\nこのモデルは、寓話 5.2 の 2.5 倍と比較して、最も優れた人間の専門家の実験研究のセンスが 5 倍近くあり、すべてのテスト済みタスクで人間の専門家がわずか 10 GPU 時間以内で 40 時間で達成した成果を上回っています。\nP-Zero Research (@pzeroresearch)\nGPT-6.2 Astra は、TasteVal で当社の最も優れた人間の専門家による実験研究の好みの 4.9 倍であり、これは当社が測定した最高スコアであると推定されています。 Fable 5.2 のスコアは 2.5 倍です。\n— https://x.com/pzeroresearch/status/2124973722989957377"
         },
         {
@@ -1436,28 +1451,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "devfluencer が gpt-6.2 のアストラとソルを憎むのはばかばかしい\n私は、誰もプレイしないビデオゲームに基づいてモデルがひどいと自信を持って宣言する人々が好きではありません、特に適切なモデルのテストがまれな場合、経験豊富なユーザーは無意味なタスクにトークンを無駄にしないからです"
-        },
-        {
-          "title": "noam brown's 2023 tweet hits differently today\nopenai internal model solved navier–stokes using 10,000 AI agents, 130B output tokens, 88 hours of reasoning and another 17 hours for Lean verification\nanthropic's levent alpöge claims to have proved the Riemann Hypothesis by producing 17 million lines of Lean code",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXu_mmtbkAA_Qvz.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2124611376937353413",
-          "domain": "x.com",
-          "published": "2026-11-23T06:10:00+09:00",
-          "published_label": "2026/11/23(月) 06:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ノーム・ブラウンの2023年のツイート、今日のヒットは異なる\nopenai 内部モデルは、10,000 の AI エージェント、130B の出力トークン、88 時間の推論、さらに 17 時間のリーン検証を使用してナビエ ストークスを解決しました。\nanthropic の levent alpöge は、1,700 万行のリーン コードを作成することでリーマン予想を証明したと主張しています"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_testingcatalog",
@@ -1483,7 +1479,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 24 日\nアントロピック $87.64 (−1.43%) 🔥:\n- Anthropic の形式数学リポジトリには、クロードが書いた論文と、あらゆる分野で VP ≠ VNP を主張するリーン証明が含まれています (Liam06972452 経由)。\n- Claude Ship はチーム プランとエンタープライズ プランのベータ版であり、クロードが PR をレビュー、修正、承認できるようにします。\n- コネクタとスキルがプラグインに統合され、Free、Pro、Max、Ultra で 10,000 以上が利用可能になりました。\n- Enterprise Frontier Safeguards によるゼロ データ保持機能は、対象となる企業向けにパブリック ベータ版として提供されています。\n- デスクトップ上の Claude Code には、タブ付きの再設計されたサイド パネルがあり、まず Mac で展開されます。\n- Pro、Max、Ultra ユーザーはゲスト パスを取得し、友人が購読すると 50 ドルのクレジットを獲得できます (alexmichael 経由)。\nオープンナイ🔥:\n- GPT-6.2 Sol は、ChatGPT の [チャット] タブで Plus、Pro、Business、Enterprise ユーザーに展開されています。\n- Dots は EU 内で展開されており、新しい旅行モードにより既存の Dots は海外でも引き続き利用できます。\n- GPT-5.6 モデルは、12 月 23 日に ChatGPT および Codex で廃止されます。\n- OpenAI と Cisco は、エージェントがダウンタイムなしでシステムをエクスプロイトから保護できるオープンソース Linux ランタイムである Shirudo をリリースしました。\n- OpenWorks は、中小企業の AI 導入を支援するために、地元の AI 専門家に月額最大 8,000 ドルを支払います。\nGoogle $282.10 (+6.34%) 🔥:\n- Antigravity は AI Pro ユーザーに Gemini 4 Carbon を与え、Hydrogen を全員に開放し、割り当てを再度リセットします。\n- Antigravity ではタスク チェックリストが追加され、Orchestrator のモデルと作業レベルを選択できるようになります。\n- Gemini 4 Neon は、Gemini アプリで Google Workspace のお客様に展開されます。\n- Th"
         },
         {
@@ -1502,7 +1498,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "「Daily AI Brief」も火曜日から土曜日までメール形式で届きます。\n以下からオプトインしてください 👀"
         },
         {
@@ -1759,7 +1755,7 @@
           "title_ja": "そして、Heliumについて\nベドロス・パンブキアン（@bedros_p）\nちなみに、これは新しいものではなく、ずっとバンドルに含まれていました。また、その動画のモデルはデモ用にランダムに選ばれたもので、意図的なものではありませんでした。\nこれは、元素命名システムが始まるずっと前から存在していました :)\n個人的なことではありません。ただ、確認しておくべきだったということです。\n— https://x.com/bedros_p/status/2124779028938916286"
         }
       ],
-      "elapsed": 2.4
+      "elapsed": 3.9
     }
   ]
 }
