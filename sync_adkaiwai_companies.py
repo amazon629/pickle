@@ -41,9 +41,9 @@ OUT_PATH = os.path.join(BASE_DIR, "sources-adkaiwai.json")
 SUPPLEMENTS_PATH = os.path.join(BASE_DIR, "news-supplements.json")
 
 GROUPS = [
-    {"id": "speaker", "label": "登壇・協賛 41社"},
-    {"id": "attendee", "label": "一般参加 61社"},
-    {"id": "sponsor", "label": "🏅 協賛 8社"},
+    {"id": "speaker", "label": "登壇・協賛"},
+    {"id": "attendee", "label": "一般参加"},
+    {"id": "sponsor", "label": "🏅 ゴールド・シルバー協賛"},
 ]
 
 # 既存設定の流用元として優先するボード（前に書いたものほど優先）
