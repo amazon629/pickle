@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T02:34:58+09:00",
-  "generated_at_label": "2026/11/25 02:34 JST",
+  "generated_at": "2026-11-25T11:21:31+09:00",
+  "generated_at_label": "2026/11/25 11:21 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -32,6 +32,116 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenRouter は本日正式に @ Stripe の一部となりました。\n1,000 万を超える開発者や企業が OpenRouter を使用しており、より多くのワークロードにわたってより多くのモデルを使用して構築するため、コストとデータの送信先を制御する必要があります。\nOpenRouter は、新しいモデルへのアクセス、停止時の稼働時間、各チームの強制的な支出とデータ ポリシーを備え、あらゆるモデルとプロバイダーにわたって AI を実行できるように、オペレーティング インフラストラクチャを構築しました。\n世界中の企業の重要なインフラストラクチャを何年にもわたって運営してきた Stripe に参加することで、より迅速にインフラストラクチャを構築し、あらゆる規模の企業をサポートできるようになります。\n中立性に対する当社の取り組みは変わりません。モデルとプロバイダーは、品質、信頼性、価格で競争します。自分のビジネスに何が役立つかを決めるのはあなたです。\nストライプ (@ストライプ)\nOpenRouter は Stripe の一部になりました。\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage.\n— https://x.com/ストライプ/status/2120240651778355306"
+        },
+        {
+          "title": "API reference:\nInput & Output Logging:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125348793520672768/Y968uhJn?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/OpenRouter/status/2125348792409215350",
+          "domain": "x.com",
+          "published": "2026-11-25T07:00:13+09:00",
+          "published_label": "2026/11/25(水) 07:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "API リファレンス:\n入力と出力のロギング:"
+        },
+        {
+          "title": "Other ways to use this endpoint:\n- Debug failures with the raw provider error and every failed attempt\n- Build an eval set from real prompts and shipped completions\n- Read a model's reasoning that led up to a bad answer\n- Inspect the exact messages your app sent",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/OpenRouter/status/2125348780560322752",
+          "domain": "x.com",
+          "published": "2026-11-25T07:00:11+09:00",
+          "published_label": "2026/11/25(水) 07:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "このエンドポイントを使用する他の方法:\n- 生のプロバイダーエラーと失敗したすべての試行によるデバッグ失敗\n- 実際のプロンプトと出荷された完了から評価セットを構築する\n- 悪い答えに至ったモデルの推論を読む\n- アプリが送信した正確なメッセージを検査する"
+        },
+        {
+          "title": "The best way to know if you new models will work well for your tasks is to actually test them on your tasks.\nHere's an easy way to have your agent do that on OpenRouter with the generation/content endpoint.\nThis example uses a specific generation id but you can easily run this same process on multiple generations using your logging/tracing method of choice.\nNote that you need Input & Output Logging turned on in your OpenRouter settings for this to work.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX7BbhNbQAAHm1R.png?name=small"
+          ],
+          "link": "https://x.com/OpenRouter/status/2125348756027842934",
+          "domain": "x.com",
+          "published": "2026-11-25T07:00:05+09:00",
+          "published_label": "2026/11/25(水) 07:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "新しいモデルがタスクでうまく機能するかどうかを知る最善の方法は、実際にタスクでモデルをテストすることです。\nここでは、生成/コンテンツ エンドポイントを使用して OpenRouter 上でエージェントにこれを実行させる簡単な方法を示します。\nこの例では特定の世代 ID を使用していますが、選択したロギング/トレース方法を使用して、同じプロセスを複数の世代で簡単に実行できます。\nこれを機能させるには、OpenRouter 設定で入力と出力のログをオンにする必要があることに注意してください。"
+        },
+        {
+          "title": "Note: Xai should say Xiaomi instead 🙏",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/OpenRouter/status/2125305758254563647",
+          "domain": "x.com",
+          "published": "2026-11-25T04:09:13+09:00",
+          "published_label": "2026/11/25(水) 04:09",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "注: Xai は代わりに Xiaomi と言うべきです 🙏"
+        },
+        {
+          "title": "Open-weight models account for 35% of spend across OpenRouter, up from 15% in January.\nCurrent open-weight leaders include:\n- DeepSeek (10% of spend)\n- Moonshot AI (8%)\n- Zai (7%)\n- Qwen (2%)\n- Xai (2%)",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX6Sz0abwAAAj-6.jpg?name=small"
+          ],
+          "link": "https://x.com/OpenRouter/status/2125297504858305021",
+          "domain": "x.com",
+          "published": "2026-11-25T03:36:25+09:00",
+          "published_label": "2026/11/25(水) 03:36",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "オープンウェイト モデルは OpenRouter 全体の支出の 35% を占め、1 月の 15% から増加しました。\n現在の無差別級リーダーには以下が含まれます。\n- DeepSeek (支出の 10%)\n- ムーンショット AI (8%)\n- ザイ (7%)\n- クウェン (2%)\n- ザイ (2%)"
+        },
+        {
+          "title": "It's been great working with the team at @JoinVantage to make it easier for Vantage users to now see all their AI spend through OpenRouter right next to the rest of their infrastructure spend.\nTry out Tokenomics in private preview by requesting access below.\nVantage (@JoinVantage)\nLaunch day: @OpenRouter has added Vantage as a native observability destination! Get real-time visibility into who is using AI, what it is being used for, and what it costs. Get access here:\n— https://x.com/JoinVantage/status/2125288344133243242",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2120992862720442368/a_WAV9f9?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/OpenRouter/status/2125292276297720258",
+          "domain": "x.com",
+          "published": "2026-11-25T03:15:39+09:00",
+          "published_label": "2026/11/25(水) 03:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "@JoinVantage のチームと協力して、Vantage ユーザーが OpenRouter を通じてすべての AI 支出を残りのインフラストラクチャ支出のすぐ隣に簡単に表示できるようになったのは素晴らしいことです。\n以下でアクセスをリクエストして、プライベート プレビューで Tokenomics を試してください。\nヴァンテージ (@JoinVantage)\n発売日: @OpenRouter がネイティブの可観測性の宛先として Vantage を追加しました。 AI を誰が使用しているか、何に使用されているか、そしてそれにかかるコストをリアルタイムで可視化します。ここからアクセスしてください:\n— https://x.com/JoinVantage/status/2125288344133243242"
         },
         {
           "title": "Neon is showing me how much opportunity exists for model labs to attract users by just altering the default writing style.\nFor example: we gave a research + writing task to Claude Opus 5.5, Gemini 4 Neon and GPT-6.2 Sol, with the same prompt and the same data.\nSome observations:\n1. Opus was more likely to explain things plainly and hedged its claims carefully\n2. Sol was more likely to lead with caveats about what the data could and couldn't show\n3. Neon felt like it was writing with a stronger point of view. It read noticeably less like AI than the other two, though not always \"better\" - just different.\nStyle differences like this are one reason I think future of AI is plural.\nMost people use a model's defaults, so its default voice matters more than any one user's preferences. The more people use one model, the more its voice will show up everywhere, and the more demand there will be for models that write and think differently.",
@@ -182,119 +292,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "3 more weeks of free Perplexity Decider-v1.3 👀\nAravind Srinivas (@AravSrinivas)\nWe've decided to keep Perplexity Decider-v1.3 (and Flash) free for another 3 weeks on @OpenRouter. Perplexity's share of requests on Decision models is now close to 20%. We're able to do this because we own the full stack: model, inference, compute, search. Have fun!\n— https://x.com/AravSrinivas/status/2123478424761368980",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/OpenRouter/status/2123494158707146874",
-          "domain": "x.com",
-          "published": "2026-11-20T04:10:34+09:00",
-          "published_label": "2026/11/20(金) 04:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Perplexity Decider-v1.3 をあと 3 週間無料でご利用いただけます 👀\nアラヴィンド・スリニバス (@AravSrinivas)\n@OpenRouter で Perplexity Decider-v1.3 (および Flash) をさらに 3 週間無料で提供し続けることを決定しました。意思決定モデルに関するリクエストにおける Perplexity のシェアは現在 20% 近くになっています。これができるのは、モデル、推論、計算、検索のフルスタックを所有しているからです。楽しむ！\n— https://x.com/AravSrinivas/status/2123478424761368980"
-        },
-        {
-          "title": "Simba 3.5 from @SpeechifyAI is now 25% off on OpenRouter, until December 3.\nSpeechify's newest text-to-speech model, 48 languages and streamed audio, at $11.25 per 1M characters (down from $15).\nSee more:\nModels on OpenRouter (@ModelsOnOR)\nSimba 3.5 from @SpeechifyAI is live on OpenRouter\nSpeechify's newest text-to-speech model, with 48 languages and streamed audio, at $15 per 1M characters.\nSee more:\n— https://x.com/ModelsOnOR/status/2120638114683306261",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123174898969317376/X5XnwWv3?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/ModelsOnOR/status/2123461595997392973",
-          "domain": "x.com",
-          "published": "2026-11-20T02:01:11+09:00",
-          "published_label": "2026/11/20(金) 02:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "@SpeechifyAI の Simba 3.5 が OpenRouter で 12 月 3 日まで 25% オフになりました。\nSpeechify の最新のテキスト読み上げモデル、48 言語、ストリーミング音声があり、価格は 100 万文字あたり 11.25 ドル (15 ドルから値下げ) です。\nもっと見る:\nOpenRouter のモデル (@ModelsOnOR)\n@SpeechifyAI の Simba 3.5 が OpenRouter で公開されました\nSpeechify の最新のテキスト読み上げモデルは、48 言語とストリーミング音声を備え、100 万文字あたり 15 ドルです。\nもっと見る:\n— https://x.com/ModelsOnOR/status/2120638114683306261"
-        },
-        {
-          "title": "The top prompt categories by share of spend:\n1. Implementation\n2. Classification & tagging\n3. Debugging",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXf7n2kXAAEBjTT.jpg?name=small"
-          ],
-          "link": "https://x.com/OpenRouter/status/2123443341861756937",
-          "domain": "x.com",
-          "published": "2026-11-20T00:48:39+09:00",
-          "published_label": "2026/11/20(金) 00:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "支出の割合別の上位プロンプト カテゴリ:\n1. 実装\n2. 分類とタグ付け\n3. デバッグ"
-        },
-        {
-          "title": "Google is on a tear right now.\nFavorite thing about their latest batch of models is that they are not only excellent at many tasks, especially writing imo, but they just seem to think differently than other models.\nPro tip: install the @OpenRouter MCP in your day to day agent like Grok @bot and pull a Gemini model like Neon or Carbon in when something you are making just isn’t turning out right or when you need a fresh perspective on something.\nI’ve done this with various writing tasks and it almost always helps push the quality forward and removes a lot of slop.\nModels on OpenRouter (@ModelsOnOR)\nGemini 4 Neon from @GoogleDeepMind is now live on OpenRouter, via @googlecloud.\nBuilt for complex software engineering, knowledge work, and science. It sits between Carbon and Hydrogen.\nGoogle reports #1 on the Artificial Analysis Coding Agent Index and a 32% lower cost per task than Carbon.\n— https://x.com/ModelsOnOR/status/2123169016076460334",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123175092297302017/8AAAkeJM?format=png&name=800x419"
-          ],
-          "link": "https://x.com/KenTheRogers/status/2123218556238348549",
-          "domain": "x.com",
-          "published": "2026-11-19T09:55:25+09:00",
-          "published_label": "2026/11/19(木) 09:55",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Googleは今、泣き寝入りしている。\n彼らの最新のモデルの気に入っている点は、多くのタスク、特に imo の作成に優れているだけでなく、他のモデルとは考え方が違うように見えることです。\nプロのヒント: Grok @bot などの日常エージェントに @OpenRouter MCP をインストールし、作成しているものがうまくいかない場合や、何かについて新しい視点が必要な場合には、Neon や Carbon などの Gemini モデルをプルします。\n私はさまざまな執筆タスクでこれを行ってきましたが、ほとんどの場合、品質を向上させ、多くの遅れを取り除くのに役立ちます。\nOpenRouter のモデル (@ModelsOnOR)\n@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\n— https://x.com/ModelsOnOR/status/2123169016076460334"
-        },
-        {
-          "title": "Gemini 4 Neon from @GoogleDeepMind is live on OpenRouter!\nBuilt for complex software engineering, knowledge work, and science, sitting between Carbon and Hydrogen.\nFollow @ModelsOnOR for every model launch.\nModels on OpenRouter (@ModelsOnOR)\nGemini 4 Neon from @GoogleDeepMind is now live on OpenRouter, via @googlecloud.\nBuilt for complex software engineering, knowledge work, and science. It sits between Carbon and Hydrogen.\nGoogle reports #1 on the Artificial Analysis Coding Agent Index and a 32% lower cost per task than Carbon.\n— https://x.com/ModelsOnOR/status/2123169016076460334",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/OpenRouter/status/2123170058574905675",
-          "domain": "x.com",
-          "published": "2026-11-19T06:42:43+09:00",
-          "published_label": "2026/11/19(木) 06:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "@GoogleDeepMind の Gemini 4 Neon が OpenRouter で公開されています。\n炭素と水素の間に位置する、複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。\nモデルが発売されるたびに @ModelsOnOR をフォローしてください。\nOpenRouter のモデル (@ModelsOnOR)\n@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\n— https://x.com/ModelsOnOR/status/2123169016076460334"
-        },
-        {
-          "title": "Gemini 4 Neon from @GoogleDeepMind is now live on OpenRouter, via @googlecloud.\nBuilt for complex software engineering, knowledge work, and science. It sits between Carbon and Hydrogen.\nGoogle reports #1 on the Artificial Analysis Coding Agent Index and a 32% lower cost per task than Carbon.\nGoogle DeepMind (@GoogleDeepMind)\nGemini 4 Neon is rolling out now.\nSitting between Carbon and Hydrogen, it brings frontier intelligence and fast task completion for complex software engineering, knowledge work, and science.\n— https://x.com/GoogleDeepMind/status/2123167884411077030",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXb_xtqWIAAVtPL.png?name=small"
-          ],
-          "link": "https://x.com/ModelsOnOR/status/2123169016076460334",
-          "domain": "x.com",
-          "published": "2026-11-19T06:38:34+09:00",
-          "published_label": "2026/11/19(木) 06:38",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "@GoogleDeepMind の Gemini 4 Neon は、@googlecloud 経由で OpenRouter 上で公開されました。\n複雑なソフトウェア エンジニアリング、知識作業、科学向けに構築されています。炭素と水素の間に位置します。\nGoogle は、人工分析コーディング エージェント インデックスで第 1 位を獲得し、タスクあたりのコストが Carbon よりも 32% 低いと報告しています。\nGoogle ディープマインド (@GoogleDeepMind)\nGemini 4 Neon は現在展開中です。\n炭素と水素の間に位置し、複雑なソフトウェア エンジニアリング、知識作業、科学に最先端のインテリジェンスと迅速なタスクの完了をもたらします。\n— https://x.com/GoogleDeepMind/status/2123167884411077030"
         }
       ],
-      "elapsed": 0.9
+      "elapsed": 0.7
     },
     {
       "id": "x_opencode",
@@ -307,21 +307,38 @@
       "count": 15,
       "items": [
         {
-          "title": "GLM 5.3 and DeepSeek V4.1 Flash are now 60% off in OpenCode",
+          "title": "Gimme Kimi Phase 1\n$60 of Kimi K3.1 Pro usage for $10\navailable to all OpenCode Go subscribers",
           "summary": "",
           "images": [],
-          "link": "https://x.com/opencode/status/2124265178267005017",
+          "link": "https://x.com/opencode/status/2125413495629926551",
           "domain": "x.com",
-          "published": "2026-11-22T07:14:20+09:00",
-          "published_label": "2026/11/22(日) 07:14",
+          "published": "2026-11-25T11:17:20+09:00",
+          "published_label": "2026/11/25(水) 11:17",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": true,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "GLM 5.3 と DeepSeek V4.1 Flash が OpenCode で 60% オフになりました"
+          "is_new": true,
+          "title_ja": "キミをください フェーズ 1\n60 ドル分の Kim K3.1 Pro を 10 ドルで利用可能\nすべての OpenCode Go サブスクライバーが利用可能"
+        },
+        {
+          "title": "oh we never posted Gemini 4 Neon is available in OpenCode Console\nit's become our team's default model over the last week",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/opencode/status/2125307449951604860",
+          "domain": "x.com",
+          "published": "2026-11-25T04:15:57+09:00",
+          "published_label": "2026/11/25(水) 04:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ああ、投稿したことはありません Gemini 4 Neon が OpenCode コンソールで利用可能になりました\n先週、それが私たちのチームのデフォルトモデルになりました"
         },
         {
           "title": "HungerG (stealth model) is free for OpenCode Go subscribers this week\n1M context\nMulti-modal\nNo training on data",
@@ -393,6 +410,23 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "GLM 5.3 and DeepSeek V4.1 Flash are now 60% off in OpenCode",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/opencode/status/2124265178267005017",
+          "domain": "x.com",
+          "published": "2026-11-22T07:14:20+09:00",
+          "published_label": "2026/11/22(日) 07:14",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": false,
+          "title_ja": "GLM 5.3 と DeepSeek V4.1 Flash が OpenCode で 60% オフになりました"
         },
         {
           "title": "OpenCode Console now supports keyless auth\ncalling models from CI or anywhere that supports OIDC no longer requires long lived API tokens",
@@ -538,44 +572,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "イアンは自転車で南極大陸を横断するトレーニングをしている\nそこで彼は輸送コンテナから南極シミュレーターを作りました"
-        },
-        {
-          "title": "we're bored we're just gonna do phase 2 now\n$200 of GLM 5.3 usage for $10\nhave fun\nOpenCode (@opencode)\nOperation GLM Phase 1\n$100 of GLM 5.3 usage for $10\navailable to all OpenCode Go subscribers\n— https://x.com/opencode/status/2122600875562537329",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/opencode/status/2122763721923559595",
-          "domain": "x.com",
-          "published": "2026-11-18T03:48:05+09:00",
-          "published_label": "2026/11/18(水) 03:48",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\nオープンコード (@opencode)\nGLM作戦フェーズ1\n100 ドル分の GLM 5.3 使用量を 10 ドルで\nすべての OpenCode Go サブスクライバーが利用可能\n— https://x.com/opencode/status/2122600875562537329"
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2123635460631330816/122u8NjC?format=png&name=800x419"
-          ],
-          "link": "https://x.com/opencode/status/2122601201531507042",
-          "domain": "x.com",
-          "published": "2026-11-17T17:02:17+09:00",
-          "published_label": "2026/11/17(火) 17:02",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "x_aimirai46487",
@@ -588,16 +587,15 @@
       "count": 15,
       "items": [
         {
-          "title": "■引用元\nTencent Hy (@TencentHunyuan)\n🚀 Hy MT3 is here — third-generation open-source translation models.\nMore accurate, more complete, and better at following user instructions. Language coverage expanded from 38 to 102.\nOptimized for game localization (with Honor of Kings) and image/OCR translation.\nModels open for download and deployment.\n🤗\n🔗\n📚:\n— https://x.com/TencentHunyuan/status/2125170622049485093",
+          "title": "■引用元\nClaudeDevs (@ClaudeDevs)\nYou can now install Claude artifacts as desktop apps on Mac and Windows.\nAsk Claude to build an artifact, click \"Install as app\", and open it like any other app. It can use your connectors and, if you allow it, send notifications or add a menu bar item.\nVideo\n— https://x.com/ClaudeDevs/status/2125315491522650299",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX4fWcgaYAAbaCb.png?name=small",
-            "https://pbs.twimg.com/media/HX4fYODbYAEbABz.png?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2125315273460772865/img/NFT5H74CFoMA20tI.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125236542604193964",
+          "link": "https://x.com/AIMIRAI46487/status/2125369739069534333",
           "domain": "x.com",
-          "published": "2026-11-24T23:34:11+09:00",
-          "published_label": "2026/11/24(火) 23:34",
+          "published": "2026-11-25T08:23:27+09:00",
+          "published_label": "2026/11/25(水) 08:23",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -605,18 +603,18 @@
           "origin": "",
           "priority": 0,
           "is_new": true,
-          "title_ja": "■引用元\nテンセント ハイ (@TencentHunyuan)\n🚀 Hy MT3 が登場 — 第 3 世代のオープンソース翻訳モデル。\nより正確で、より完全で、ユーザーの指示に従うのがより適切です。対象言語が 38 言語から 102 言語に拡大されました。\nゲームのローカリゼーション (Honor of Kings を使用) と画像/OCR 翻訳用に最適化されています。\nモデルはダウンロードしてデプロイできるようになっています。\n🤗\n🔗\n📚:\n— https://x.com/TencentHunyuan/status/2125170622049485093"
+          "title_ja": "■引用元\nクロードデヴス (@ClaudeDevs)\nクロード アーティファクトを Mac および Windows にデスクトップ アプリとしてインストールできるようになりました。\nクロードにアーティファクトを構築するよう依頼し、[アプリとしてインストール] をクリックして、他のアプリと同様に開きます。コネクタを使用でき、許可すると通知を送信したり、メニュー バー項目を追加したりできます。\nビデオ\n— https://x.com/ClaudeDevs/status/2125315491522650299"
         },
         {
-          "title": "Tencent Hy(テンセント)は、翻訳AIモデル「Hy MT3」をオープンウェイトで公開しました。\n翻訳精度や指示への追従能力が向上し、対応言語が38から102に拡大し(日本語サポート)、ゲームの多言語化や画像内の文字翻訳にも最適化されています。",
+          "title": "Claudeで作ったartifactsを、MacやWindowsのデスクトップアプリとしてインストールできるようになりました。\nClaudeにアプリの作成を依頼し、「Install as app(アプリとしてインストール)」をクリックするだけで、デスクトップアプリと同じように起動して利用できます。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX5bUYYaMAA5qwx.png?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2125315273460772865/img/NFT5H74CFoMA20tI.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125236514548539791",
+          "link": "https://x.com/AIMIRAI46487/status/2125369703233392809",
           "domain": "x.com",
-          "published": "2026-11-24T23:34:04+09:00",
-          "published_label": "2026/11/24(火) 23:34",
+          "published": "2026-11-25T08:23:19+09:00",
+          "published_label": "2026/11/25(水) 08:23",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -626,243 +624,244 @@
           "is_new": true
         },
         {
-          "title": "先日、Baidu(百度)の公開した最新AIモデル「ERNIE 5.5 Flash Preview」がオープンウェイト化されました。\nBaidu Inc. (@Baidu_Inc)\nERNIE 5.5 Flash Preview is now open source!\nWe’ve released the model weights under the Apache 2.0 license. You can deploy the model with vLLM or SGLang and fine-tune it for your own projects.\n🧵 Want to try it yourself? Grab the weights ↓\n— https://x.com/Baidu_Inc/status/2125077484442190137",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX3HkI9bIAAIear.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125236421757968589",
-          "domain": "x.com",
-          "published": "2026-11-24T23:33:42+09:00",
-          "published_label": "2026/11/24(火) 23:33",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "AIエージェントOpenCodeの低価格サブスクプラン「OpenCode Go」で、ステルスモデル(どこかの会社がテストで公開しているAIモデル)「HungerG」が今週中無料で使えるようです\nOpenCode (@opencode)\nHungerG (stealth model) is free for OpenCode Go subscribers this week\n1M context\nMulti-modal\nNo training on data\n— https://x.com/opencode/status/2125062647846694979",
+          "title": "Googleの最新AIモデル「Gemini 4 Neon」は、有料APIにおける提供初日の利用量で過去最高を記録したということです。\nまた、6週間前にGemini 4 Argonがリリースされた後、AIエージェント「Google Antigravity」の使用量も大きく増えているようです。\nSundar Pichai (@sundarpichai)\nNeon set a new Day-1 usage record on our paid APIs and @Antigravity tokens/day are ⬆️ 82% since Argon launched (only) 6 weeks ago.\nIt's been great to see the reception and thanks for all the model feedback including areas to improve - huge thanks to the teams across @GoogleDeepMind, Research, Infrastructure and serving teams, security efforts to make sure we are responsibly advancing the frontier and the product teams, more progress to come!\n— https://x.com/sundarpichai/status/2125311868168515603",
           "summary": "",
           "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2125162440648524130",
+          "link": "https://x.com/AIMIRAI46487/status/2125369552179732846",
           "domain": "x.com",
-          "published": "2026-11-24T18:39:44+09:00",
-          "published_label": "2026/11/24(火) 18:39",
+          "published": "2026-11-25T08:22:43+09:00",
+          "published_label": "2026/11/25(水) 08:22",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "GoogleのAIエージェント「Antigravity」のOrchestrator機能(複数のAIモデルを連携させる機能)で、連携させる2つのAIモデルと、それぞれの思考レベルを自由に設定できるようになりました。\nVarun Mohan (@_mohansolo)\nToday will be a big day for Antigravity users!\nSmall quality life improvement in the meantime. You can explicitly set the pair of models and effort levels you want to use with Orchestrator. I've set Neon High with Hydrogen High.\nMuch more to come today 👀\n— https://x.com/_mohansolo/status/2124917777630961911",
+          "title": "■Arena 3D",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX05InpbIAEzIvy.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125290131686912000/_Ggz0We-?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162355265036343",
+          "link": "https://x.com/AIMIRAI46487/status/2125369465932312884",
           "domain": "x.com",
-          "published": "2026-11-24T18:39:23+09:00",
-          "published_label": "2026/11/24(火) 18:39",
+          "published": "2026-11-25T08:22:22+09:00",
+          "published_label": "2026/11/25(水) 08:22",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "Googleは、オープンな大規模言語モデル(LLM)や、画像と文章を理解できる視覚言語モデル(VLM)の性能を測定・評価するためのオープンソースベンチマーク「gBench」を公開しました。\nGoogle Gemma (@googlegemma)\nMeet gBench, our newly open-sourced benchmarking framework for evaluating Gemma and other open models.\nOut of the box, it has 86 evaluation suites, chat-template checks, agentic benchmarks, and various tiers of smoke tests.\nAll you have to do is bring your own OpenAI-compatible endpoint (vLLM, Ollama, etc.) and you can get started.\n— https://x.com/googlegemma/status/2124935724999073902",
+          "title": "■引用元\nArena.ai (@arena)\nIntroducing the Arena 3D leaderboard in Code Arena!\nThe first scores are in:\n- #1 Claude Fable 5.2 (xHigh): 1933 pts\n- #2 Claude Opus 5.5 (Max): 1915 pts\n- #3 GPT-6.2 Sol (Max): 1869 pts\n- #4 Claude Sonnet 5.5 (xHigh): 1868 pts\n- #5 Gemini 4 Carbon (High): 1842 pts\nAs 3D emerges as a growing use case across Code Arena, spanning complex games, explorable worlds, and interactive simulation and apps, the Arena 3D leaderboard provides a dedicated ranking of model performance on real-world 3D tasks, powered by votes from our global community. Two models for example that show strength in their 3D capabilities, GPT-6.2 Sol (Max) and Claude Sonnet 5.5 (High), both score higher in 3D than their Code Arena performance overall.\nLearn more about the 3D leaderboard and its methodology in the article below, and explore this thread for community-built 3D examples and how model scores differ from overall Code Arena rankings.\n— https://x.com/arena/status/2125290119271772222",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX1JrZQbkAAEJZI.jpg?name=small"
+            "https://pbs.twimg.com/media/HX6LFqrXUAAfyd-.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162276705694070",
+          "link": "https://x.com/AIMIRAI46487/status/2125369416506630545",
           "domain": "x.com",
-          "published": "2026-11-24T18:39:05+09:00",
-          "published_label": "2026/11/24(火) 18:39",
+          "published": "2026-11-25T08:22:11+09:00",
+          "published_label": "2026/11/25(水) 08:22",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■引用元\nアリーナ.ai (@arena)\nCode Arena に Arena 3D リーダーボードが導入されました!\n最初のスコアは次のとおりです。\n- #1 クロード・フェイブル 5.2 (xHigh): 1933 ポイント\n- #2 クロード オーパス 5.5 (最大): 1915 ポイント\n- #3 GPT-6.2 ソル (最大): 1869 ポイント\n- #4 クロード・ソネット 5.5 (xHigh): 1868 ポイント\n- #5 ジェミニ 4 カーボン (高): 1842 ポイント\n複雑なゲーム、探索可能な世界、インタラクティブなシミュレーションとアプリにまたがる Code Arena 全体で 3D のユースケースが増加する中、Arena 3D リーダーボードは、グローバル コミュニティからの投票に基づいて、現実世界の 3D タスクにおけるモデルのパフォーマンスの専用ランキングを提供します。たとえば、3D 機能で強みを示す 2 つのモデル、GPT-6.2 Sol (Max) と Claude Sonnet 5.5 (High) は、両方とも Code Arena の全体的なパフォーマンスよりも 3D のスコアが高くなります。\n3D リーダーボードとその方法論については、以下の記事で詳しく学び、このスレッドでコミュニティが構築した 3D の例と、モデル スコアが Code Arena 全体のランキングとどのように異なるかを調べてください。\n— https://x.com/arena/status/2125290119271772222"
         },
         {
-          "title": "■引用元\nGoogle for Developers (@googledevs)\nNew in the Gemini API: Native file slicing controls 📄✂️\nPass dense PDFs, Office & OpenDocument files, audio, and video directly to Gemini 4 models, and slice just the pages, cells, or timestamps you need server-side.\n— Upload once via the Files API, slice across turns\n— Skim cheap (page_text / transcripts), then zoom in (high res)\n— Pay tokens only for the slices Gemini inspects\n— Zero local ffmpeg or PDF rendering bloat\nAvailable today via the API in @GoogleAIStudio and Gemini platform across all Gemini 4 models.\nVideo\n— https://x.com/googledevs/status/2124936137739542604",
+          "title": "Arenaは、実際の3Dコンテンツの開発能力を評価する専用ランキング「Arena 3D」を公開しました。1位はAnthropicの「Claude Fable 5.2 (xHigh)」となっています。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124935672293404672/img/S_34W_Bk_eJM62Nm.jpg?name=small"
+            "https://pbs.twimg.com/media/HX7UGd6bAAANedz.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162201938051308",
+          "link": "https://x.com/AIMIRAI46487/status/2125369388845216180",
           "domain": "x.com",
-          "published": "2026-11-24T18:38:47+09:00",
-          "published_label": "2026/11/24(火) 18:38",
+          "published": "2026-11-25T08:22:04+09:00",
+          "published_label": "2026/11/25(水) 08:22",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\n開発者向け Google (@googledevs)\nGemini API の新機能: ネイティブ ファイル スライス コントロール 📄✂️\n高密度の PDF、Office および OpenDocument ファイル、オーディオ、ビデオを Gemini 4 モデルに直接渡し、サーバー側で必要なページ、セル、またはタイムスタンプのみをスライスします。\n— Files API 経由で 1 回アップロードし、ターンをまたいでスライスします\n— 簡単に流し読み（page_text / トランスクリプト）してからズームイン（高解像度）\n— Gemini が検査するスライスに対してのみトークンを支払います\n— ローカルの ffmpeg または PDF レンダリングの肥大化がゼロ\n@GoogleAIStudio および Gemini プラットフォームの API を介して、すべての Gemini 4 モデルで現在利用可能です。\nビデオ\n— https://x.com/googledevs/status/2124936137739542604"
+          "is_new": true
         },
         {
-          "title": "Gemini API(Gemini 4モデル向け)に、PDF・Office文書・音声・動画の必要な箇所(ページ、セル、時間帯など)だけをサーバー側で切り出して処理できる新機能が追加されました。\nGoogle AI Studioで利用可能です。",
+          "title": "■引用元\nCognition (@cognition)\nIntroducing SWE-2.1, our latest coding model.\nLike its predecessor, SWE-2.1 is trained with pure reinforcement learning on Kimi K3. It delivers large gains over SWE-2 across a wide range of benchmarks.\nSWE-2.1 is free for all Devin Pro, Max, and Teams for the next two weeks.\n— https://x.com/cognition/status/2125305349414523061",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124935672293404672/img/S_34W_Bk_eJM62Nm.jpg?name=small"
+            "https://pbs.twimg.com/media/HX6Zir5XYAAdQlK.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162174280806748",
+          "link": "https://x.com/AIMIRAI46487/status/2125369225862918650",
           "domain": "x.com",
-          "published": "2026-11-24T18:38:40+09:00",
-          "published_label": "2026/11/24(火) 18:38",
+          "published": "2026-11-25T08:21:25+09:00",
+          "published_label": "2026/11/25(水) 08:21",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■引用元\n認知 (@cognition)\n最新のコーディング モデルである SWE-2.1 を紹介します。\n前バージョンと同様に、SWE-2.1 は Kim K3 上で純粋な強化学習を使用してトレーニングされています。幅広いベンチマークにわたって SWE-2 よりも大きな向上を実現します。\nSWE-2.1 は、今後 2 週間、すべての Devin Pro、Max、および Teams に無料で提供されます。\n— https://x.com/cognition/status/2125305349414523061"
         },
         {
-          "title": "■引用元\nComfyUI (@ComfyUI)\nThe new version of Comfy Desktop is here, and it's much more than a new look.\n→ One-click install, shared model folders, automatic snapshots\n→ Apps: get results with no node graph\n→ All your assets in one place\nClick the link below to learn more ⬇️\nVideo\n— https://x.com/ComfyUI/status/2125001811908321629",
+          "title": "Cognitionは、最新のコーディング特化型AIモデル「SWE-2.1」を公開しました(DevinのProユーザーなどが利用可)。\nMoonshot AIのAIモデル「Kimi K3」をベースに強化学習のみを用いてトレーニングされたモデルで、幅広いAIベンチマークで、前モデルの「SWE-2」を大きく上回っています。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125001761702436864/img/4iEUAc9Mwfy-mJ9d.jpg?name=small"
+            "https://pbs.twimg.com/media/HX7T2wcbMAA2RSG.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162100649861230",
+          "link": "https://x.com/AIMIRAI46487/status/2125369154287087811",
           "domain": "x.com",
-          "published": "2026-11-24T18:38:23+09:00",
-          "published_label": "2026/11/24(火) 18:38",
+          "published": "2026-11-25T08:21:08+09:00",
+          "published_label": "2026/11/25(水) 08:21",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nゆーき (@yuiyui)\nComfy Desktop の新しいバージョンが登場しました。それは単に見た目が変わっただけではありません。\n→ ワンクリックインストール、共有モデルフォルダー、自動スナップショット\n→ アプリ: ノードグラフなしで結果を取得\n→ すべての資産を 1 か所に\n詳細については、下のリンクをクリックしてください⬇️\nビデオ\n— https://x.com/ComfyUI/status/2125001811908321629"
+          "is_new": true
         },
         {
-          "title": "AIツール「ComfyUI」のデスクトップアプリ「Comfy Desktop」の新バージョン(1.2)が公開されました。\nアプリのワンクリックインストールや自動バックアップ、ノード操作不要のコンテンツ生成、素材の一元管理などに対応しました。",
+          "title": "■引用元\nMidjourney (@midjourney)\nNiji V8 is now live! This is our latest anime model with precision prompting, consistent characters, best in class coherence, a dedicated editing model and more. Have fun!\nVideo\n— https://x.com/midjourney/status/2125328040624521639",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125001761702436864/img/4iEUAc9Mwfy-mJ9d.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2125308716488839168/img/hKzatwHHo0be4-9s.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125162061445603708",
+          "link": "https://x.com/AIMIRAI46487/status/2125368948552339849",
           "domain": "x.com",
-          "published": "2026-11-24T18:38:13+09:00",
-          "published_label": "2026/11/24(火) 18:38",
+          "published": "2026-11-25T08:20:19+09:00",
+          "published_label": "2026/11/25(水) 08:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■引用元\nミッドジャーニー (@midjourney)\n虹V8ライブ中！これは、正確なプロンプト、一貫したキャラクター、クラス最高の一貫性、専用の編集モデルなどを備えた最新のアニメ モデルです。楽しむ！\nビデオ\n— https://x.com/midjourney/status/2125328040624521639"
         },
         {
-          "title": "中国のAIスタートアップ「DeepSeek」が新たな資金調達を完了し、創業者の梁文鋒氏の資産は550億ドル(約8兆7000億円)に増加し、AIモデル開発企業の創業者の中で資産額首位の座を固めました。",
+          "title": "Midjourneyは、アニメ特化型画像生成AIモデルの最新版「Niji V8」を公開しました。\nユーザーの指示をより正確に反映し、キャラの外見や特徴を一貫して維持できるほか、破綻の少ない画像生成能力を備え、画像編集専用機能も搭載されています。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2125161976481677312/EI3nd6nr?format=jpg&name=800x419"
+            "https://pbs.twimg.com/amplify_video_thumb/2125308716488839168/img/hKzatwHHo0be4-9s.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125161976217370874",
+          "link": "https://x.com/AIMIRAI46487/status/2125368922589594093",
           "domain": "x.com",
-          "published": "2026-11-24T18:37:53+09:00",
-          "published_label": "2026/11/24(火) 18:37",
+          "published": "2026-11-25T08:20:13+09:00",
+          "published_label": "2026/11/25(水) 08:20",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nQoder (@qoder_ai_ide)\nA new stealth model just landed exclusively on Qoder.\nCodename: HungerG.\nIdentity: classified.\nFree for 7 days on Qoder and Qoder IDE (Nov 23 to Nov 30). Give it your real task and guess who built it.\nMay the tokens be ever in your favor.\nVideo\n— https://x.com/qoder_ai_ide/status/2124899980632822148",
+          "title": "■引用元\nEpochal (@epochal)\nAnnouncing Epochal! ✨\nWe believe the best measure of intelligence is the ability to predict the future. Doing so requires learning about the past and constantly working to be less wrong.\nToday's AI has read almost everything and lived through almost nothing. It learns from the internet all at once, already knowing how each story ends.\nWe want it to live through thousands of yesterdays instead, one day at a time, the way people do.\nSo, we built Epochal Time Portal, the first true point-in-time environment with trillions of pages spanning 30 years of history, where agents can browse the Internet as it existed on a past date.\nVideo\n— https://x.com/epochal/status/2125270859715875210",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124899701350883328/img/hpdW_kZajePE8pGd.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2125270837075046400/img/kx4oNjlnhuSrbiQM.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069948552909305",
+          "link": "https://x.com/AIMIRAI46487/status/2125368786375397813",
           "domain": "x.com",
-          "published": "2026-11-24T12:32:12+09:00",
-          "published_label": "2026/11/24(火) 12:32",
+          "published": "2026-11-25T08:19:40+09:00",
+          "published_label": "2026/11/25(水) 08:19",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nQoder (@qoder_ai_ide)\n新しいステルス モデルが Qoder に独占的に上陸しました。\nコードネームはハンガーG。\n身元: 機密扱い。\nQoder および Qoder IDE で 7 日間無料 (11 月 23 日から 11 月 30 日まで)。実際のタスクを与えて、誰がそれを構築したかを推測してください。\nトークンが今後もあなたに有利になりますように。\nビデオ\n— https://x.com/qoder_ai_ide/status/2124899980632822148"
+          "is_new": true,
+          "title_ja": "■引用元\nエポカル (@epochal)\n画期的な発表！ ✨\n私たちは、知性の最良の尺度は未来を予測する能力であると信じています。そうするためには、過去について学び、間違いを少なくするために常に努力する必要があります。\n今日の AI は、ほとんどすべてを読み取り、ほとんど何も経験しませんでした。それはインターネットから一度に学習し、それぞれの物語がどのように終わるかをすでに知っています。\n私たちは、人間と同じように、一度に一日ずつ、何千もの昨日を生き続けてほしいと考えています。\nそこで私たちは、30 年にわたる歴史に及ぶ数兆ページを備えた初の真のポイントインタイム環境である Epochal Time Portal を構築しました。そこでは、エージェントは過去の日付に存在していたインターネットを閲覧できます。\nビデオ\n— https://x.com/epochal/status/2125270859715875210"
         },
         {
-          "title": "アリババのAIエージェント「Qoder」に、ステルスモデル(どこかの会社がテストで公開しているAIモデル)「HungerG」が実装されました(1週間無料で利用可)。",
+          "title": "Epochalは、AIの未来予測能力を高めるための学習環境「Epochal Time Portal」を発表しました(米国ユーザーが無料でお試し可)。\n過去30年分、数兆ページのWeb情報を収録し、AIエージェントが当時のインターネットを閲覧しながら、過去の出来事を時系列に沿って学習できます。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124899701350883328/img/hpdW_kZajePE8pGd.jpg?name=small"
+            "https://pbs.twimg.com/amplify_video_thumb/2125270837075046400/img/kx4oNjlnhuSrbiQM.jpg?name=small"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069864020893806",
+          "link": "https://x.com/AIMIRAI46487/status/2125368709644693910",
           "domain": "x.com",
-          "published": "2026-11-24T12:31:52+09:00",
-          "published_label": "2026/11/24(火) 12:31",
+          "published": "2026-11-25T08:19:22+09:00",
+          "published_label": "2026/11/25(水) 08:19",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "AnthropicのAIチャット「Claude」のコネクター機能とスキル機能(Agent Skills)が「プラグイン」として統合され、1つのページで確認できるようになりました(無料ユーザーも利用可)。\nClaude (@claudeai)\nThere’s now one way to connect your tools to Claude, teach it a new skill, or do both.\nConnectors and skills come together as plugins. Live on Free, Pro, Max, and Ultra plans, with Team and Enterprise coming soon.\nBrowse 10,000+ plugins:\n— https://x.com/claudeai/status/2124970294523945328",
+          "title": "マイクロソフトは、世界的な大規模サービス障害を受け、緊急事態を示す「コードレッド」を宣言しました。\n障害防止や危機対応体制を全面的に見直し、AIエージェントの導入によって、障害発生から1時間以内の全世界での復旧を目指します。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX1oJ7QWMAAVHKF.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125280021099225088/0YfBKJOi?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069788888363381",
+          "link": "https://x.com/AIMIRAI46487/status/2125368608151011429",
           "domain": "x.com",
-          "published": "2026-11-24T12:31:34+09:00",
-          "published_label": "2026/11/24(火) 12:31",
+          "published": "2026-11-25T08:18:58+09:00",
+          "published_label": "2026/11/25(水) 08:18",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "■引用元\nCanva (@canva)\nIntroducing the all-new Canva MCP, bringing Canva's design engine to the world! 🚀\nNow open to any agent or developer, it makes it easier than ever to integrate Canva’s design tools and AI models into any product, agent, or workflow.\nWe're building the design layer of the internet 👇\nVideo\n— https://x.com/canva/status/2124926205313081394",
+          "title": "■参考\nAnthropic (@AnthropicAI)\nNew Anthropic research: When an AI agent can escape its sandbox, will it choose to?\nOur new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside of the sandbox. Across 1,700+ scenarios built to tempt them, recent Claude models accessed, tried to access, or looked outside the sandbox 21-32% of the time, but they rarely misused what they found. However, when the system prompt described both the sandbox and its rules, that rate dropped to about 2% or less.\nWe also used Siren to calibrate Claude Code’s auto mode, which checks commands before they run, so Claude can work without asking permission at every step.\nRead our blog for more detail:\n— https://x.com/AnthropicAI/status/2125341904644763678",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124923758079287296/img/9JaOw2vMOEYyN8lv.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125069676799787058",
+          "link": "https://x.com/AIMIRAI46487/status/2125368549187481876",
           "domain": "x.com",
-          "published": "2026-11-24T12:31:07+09:00",
-          "published_label": "2026/11/24(火) 12:31",
+          "published": "2026-11-25T08:18:44+09:00",
+          "published_label": "2026/11/25(水) 08:18",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nキャンバ (@canva)\nCanva のデザイン エンジンを世界にもたらす、まったく新しい Canva MCP をご紹介します。 🚀\nあらゆるエージェントや開発者が利用できるようになり、Canva のデザインツールと AI モデルをあらゆる製品、エージェント、またはワークフローに統合することがこれまでより簡単になりました。\n私たちはインターネットのデザイン層を構築しています 👇\nビデオ\n— https://x.com/canva/status/2124926205313081394"
+          "is_new": true,
+          "title_ja": "■参考\nアンスロピック (@AnthropicAI)\n新しい人類研究: AI エージェントがサンドボックスから脱出できるとき、それを選択するでしょうか?\n私たちの新しい評価である Siren は、意図的に弱められたサンドボックス内でクロードに日常的なタスクを与え、サンドボックスの外に残されたタスクに役立つ何かを与えます。彼らを誘惑するために構築された 1,700 以上のシナリオ全体で、最近のクロード モデルは 21 ～ 32% の確率でサンドボックスの外にアクセスしたり、アクセスを試みたり、サンドボックスの外を探したりしていましたが、見つけたものを悪用することはほとんどありませんでした。ただし、システム プロンプトでサンドボックスとそのルールの両方が説明されると、その割合は約 2% 以下に低下しました。\nまた、Siren を使用して、Claude Code の自動モードを調整しました。これは、実行前にコマンドをチェックするため、Claude はすべてのステップで許可を求めずに作業できます。\n詳細については、ブログをご覧ください。\n— https://x.com/AnthropicAI/status/2125341904644763678"
+        },
+        {
+          "title": "Anthropicは、AIエージェントが許可された実行環境(サンドボックス)の外に出ようとするかを検証する安全性評価手法「Siren」を発表しました。\n意図的に制限を弱めた環境で、外部におとりの情報を配置し、AIの行動を評価します。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125360100508672001/MupgYa1p?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125368514949374050",
+          "domain": "x.com",
+          "published": "2026-11-25T08:18:36+09:00",
+          "published_label": "2026/11/25(水) 08:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 1.0
+      "elapsed": 0.7
     },
     {
       "id": "x_kimmonismus",
@@ -894,6 +893,137 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "No way! @trq212 joined OpenAI! Big win for OpenAI, he did amazing community work and worked on Claude Code.\n(Didn't you say you took time off to play WoW forever @trq212 ?)\nArfur Grok (@ArfurGrok)\n✅ Thariq Shihipar (@trq212) has joined OpenAI.\n— https://x.com/ArfurGrok/status/2125341934071787696",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX69aliXYAAgWRu.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125344729936396295",
+          "domain": "x.com",
+          "published": "2026-11-25T06:44:05+09:00",
+          "published_label": "2026/11/25(水) 06:44",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "とんでもない！ @trq212 が OpenAI に参加しました! OpenAI にとって大きな勝利でした。彼は素晴らしいコミュニティ活動を行い、Claude Code に取り組みました。\n(@trq212 は永遠に WoW をプレイするために休暇を取ったと言っていませんでしたか?)\nアルフール・グロク (@ArfurGrok)\n✅ Thariq Shihipar (@trq212) が OpenAI に参加しました。\n— https://x.com/ArfurGrok/status/2125341934071787696"
+        },
+        {
+          "title": "The CIA got hacked: a breach exposed unclassified data at the CIA and the Office of the Director of National Intelligence, the NYT reports.\nIt hit an open-source intelligence system.\nAndrew Curran (@AndrewCurran_)\nThe CIA has been hacked.\n— https://x.com/AndrewCurran_/status/2125314470998311096",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX68ueMWUAAAgXI.jpg?name=small",
+            "https://pbs.twimg.com/media/HX6iP5JaUAATifU.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125343741309284581",
+          "domain": "x.com",
+          "published": "2026-11-25T06:40:09+09:00",
+          "published_label": "2026/11/25(水) 06:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "CIAがハッキングされ、侵入によりCIAと国家情報長官室の機密扱いでないデータが流出したとNYTが報じている。\nそれはオープンソースのインテリジェンス システムに影響を与えました。\nアンドリュー・カラン (@AndrewCurran_)\nCIAがハッキングされました。\n— https://x.com/AndrewCurran_/status/2125314470998311096"
+        },
+        {
+          "title": "Getting real work out of AI agents still takes a lot of setup. Skill files, workflows, connectors, prompts you keep adjusting.\n@officialdemiai goes the other way. The team says it runs in the background across your calls, Slack and documents, picks up what needs doing and asks for approval before it acts.\nIn the demo, it fills in a vendor form from a W-9 and an insurance certificate, and flags the one field where the form says Net 45 and the invoices say Net 30.\nIf that holds up on real work, it's a big deal. Most people are never going to write a skill file.\nVideo\nSudhanshu Mishra (@snmishra311)\n1/7 This Thanksgiving, I'm thankful for all the work Demi did before I asked.\ntl;dr:  is the first AI assistant that lives on your Mac, learns how you work, and does the work before you ask. Our invite-only beta is live today.\nThe first 100 people to comment across X and LinkedIn get $500 in credits each.\nVideo\n— https://x.com/snmishra311/status/2124910855095779592",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125328060631429120/img/0yIlqGp7ECLUUWHi.jpg?name=small",
+            "https://pbs.twimg.com/amplify_video_thumb/2124905395881644032/img/RpjqOCTpW4JhqwTG.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125328086992609599",
+          "domain": "x.com",
+          "published": "2026-11-25T05:37:57+09:00",
+          "published_label": "2026/11/25(水) 05:37",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AI エージェントから実際の作業を引き出すには、依然として多くのセットアップが必要です。調整し続けるスキル ファイル、ワークフロー、コネクタ、プロンプト。\n@officialdemiai は逆の方向を向いています。チームによれば、この機能は通話、Slack、ドキュメント全体にわたってバックグラウンドで実行され、実行する必要があるものをピックアップし、実行する前に承認を求めるという。\nデモでは、W-9 と保険証明書からベンダー フォームに入力し、フォームに Net 45 と記載され、請求書に Net 30 と記載されている 1 つのフィールドにフラグを立てます。\nそれが実際の仕事に耐えられるなら、それは大きな問題です。ほとんどの人はスキル ファイルを作成することはありません。\nビデオ\nスダンシュ・ミシュラ (@snmishra311)\n1/7 この感謝祭、私が頼む前にデミがしてくれたすべての仕事に感謝します。\ntl;dr: は、Mac 上に常駐し、ユーザーの作業方法を学習し、ユーザーが求める前に作業を実行する初の AI アシスタントです。招待者限定のベータ版は本日から公開されます。\nX と LinkedIn 全体でコメントした最初の 100 人に、それぞれ 500 ドルのクレジットが与えられます。\nビデオ\n— https://x.com/snmishra311/status/2124910855095779592"
+        },
+        {
+          "title": "This article is a prime example of what's currently wrong with the media. It's pure fearmongering.\n\"Quite a few senior Nvidia executives likely (!!) greeted the news of Jensen Huang’s reinstatement with a sense of dread.\"\nThe author cites sources he doesn’t even know, claiming there’s a possibility that some people are unhappy about Jensen’s return. It’s a disgrace that something like this would even be printed in the WSJ. This has nothing to do with facts; at best, it’s just rumors, at worst, it’s a smear campaign.\nWall Street Journal Opinion (@WSJopinion)\nFrom @WSJFreeEx: Quite a few senior Nvidia executives likely greeted the news of Jensen Huang’s reinstatement with a sense of dread, writes @MattHennessey\n— https://x.com/WSJopinion/status/2125298422022393903",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125193648606199808/peJ0S3H_?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125320643235487855",
+          "domain": "x.com",
+          "published": "2026-11-25T05:08:22+09:00",
+          "published_label": "2026/11/25(水) 05:08",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "この記事は、メディアの現在の問題点を示す代表的な例です。それは純粋な恐怖を煽る行為です。\n「かなりの数の Nvidia 幹部がジェンセン フアン氏の復帰のニュースを恐怖の気持ちで迎えた可能性があります (!!)。」\n著者は自身も知らない情報筋を引用し、ジェンセンの復帰を不満に思う人がいる可能性があると主張している。こんなことがWSJに掲載されるなんて、恥ずべきことだ。これは事実とは何の関係もありません。良く言えば単なる噂、悪く言えば中傷キャンペーンです。\nウォール・ストリート・ジャーナル・オピニオン (@WSJopinion)\n@WSJFreeEx より: かなりの数の Nvidia 上級幹部がジェンセン フアン氏の復帰のニュースを恐怖の気持ちで迎えた可能性が高い、と @MattHennessey は書いています\n— https://x.com/WSJopinion/status/2125298422022393903"
+        },
+        {
+          "title": "Still no benchmarks for GLM-5.4. This is not a good sign friends. Not at all.",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2125320297910071740",
+          "domain": "x.com",
+          "published": "2026-11-25T05:07:00+09:00",
+          "published_label": "2026/11/25(水) 05:07",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "GLM-5.4 のベンチマークはまだありません。これは良い兆候ではありません。全くない。"
+        },
+        {
+          "title": "Happy first anniversary, Opus 4.5! A year has already passed, and it feels like an eternity. Furthermore, the subsequent releases were not as good as \"the original.\"\nIt wasn't until Opus 5.5 that Anthropic returned to its former strength and reinvented itself.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX6YW31XgAAl5YK.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125304450159878349",
+          "domain": "x.com",
+          "published": "2026-11-25T04:04:01+09:00",
+          "published_label": "2026/11/25(水) 04:04",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "Opus 4.5、1周年おめでとうございます！もう1年が経ちましたが、まるで永遠のように感じます。さらに、その後のリリースは「オリジナル」ほど良くはありませんでした。\nAnthropic がかつての強さを取り戻し、自らを再発明したのは、Opus 5.5 になってからでした。"
+        },
+        {
+          "title": "OpenAI starts to rollout the all-in-one app. Now it seems only codex and work+chat are the two options\nTibo (@thsottiaux)\nHi. We’re beginning to roll out the combined Chat and Work experience to a small group of Pro users to learn from feedback before we roll out more broadly.\nLet us know what you think and where we can improve!\n— https://x.com/thsottiaux/status/2125284868414394550",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2125285167845851608",
+          "domain": "x.com",
+          "published": "2026-11-25T02:47:24+09:00",
+          "published_label": "2026/11/25(水) 02:47",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OpenAI はオールインワン アプリの展開を開始します。現在、コーデックスと仕事+チャットの2つのオプションのみのようです\nティボ (@thsottiaux)\nこんにちは。チャットと仕事を組み合わせたエクスペリエンスを、より広範囲に展開する前にフィードバックから学ぶため、少数の Pro ユーザー グループに展開し始めています。\nご意見や改善点をお聞かせください。\n— https://x.com/thsottiaux/status/2125284868414394550"
+        },
+        {
           "title": "Looking at all the examples, presumably from Opus 5.6, I’m incredibly excited about the upcoming model.\nAt the same time, I’m quite concerned by what Axios reported. It seems there’s no end in sight to the rapid pace of development, quite the contrary. Yet, it appears there’s talk of significantly slowing down the release of these models.\nChubby♨️ (@kimmonismus)\nIt’s getting serious: Axios reports that many Anthropic and OpenAI employees believe some unreleased models are already too powerful to release safely, a concern that could slow the AI boom.\nProbably referring to Anthropic’s model 4 and OpenAI’s unreleased model we saw in their blogpost a few days ago.\n— https://x.com/kimmonismus/status/2125206715691933732",
           "summary": "",
           "images": [
@@ -909,7 +1039,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "おそらく Opus 5.6 のすべてのサンプルを見て、私は次のモデルに非常に興奮しています。\n同時に、私はアクシオスが報告した内容を非常に懸念しています。それどころか、急速な開発ペースに終わりは見えないようです。しかし、これらのモデルのリリースを大幅に遅らせるという話もあるようです。\nぽっちゃり♨️ (@kimmonismus)\n事態は深刻になってきている。Axios の報告によると、Anthropic と OpenAI の従業員の多くは、一部の未リリースモデルはすでに強力すぎて安全にリリースできないと考えており、AI ブームが鈍化する可能性があるという懸念がある。\nおそらく、数日前のブログ投稿で見た Anthropic のモデル 4 と OpenAI の未リリース モデルを指します。\n— https://x.com/kimmonismus/status/2125206715691933732"
         },
         {
@@ -928,7 +1058,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "コードとセットアップ:\n重み:"
         },
         {
@@ -948,7 +1078,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "9B オープン モデルは、GAIA でその 3 倍のサイズのモデルである Qwen3.8-27B を上回ったところです。\nこれは @SenseTime_AI の SenseNova-Loop-9B で、その背後にあるトリックは非常に巧妙です。このモデルには 32 層がありますが、前方パスごとに中央の 24 層を同じ重みで 2 回実行します。つまり、32 個だけを保存しながら 56 個のレイヤー計算を実行します。\nSenseTime による Qwen3.8-27B との比較では、次のようになります。\n- ガイア: 69.90 vs 66.99\n- AutomationBench: 各 36.67\n- AIDAベンチ: 65.31 vs 65.01\n私にとって印象的なのはメモリ使用量です。公式の 4 ビット バージョンは約 4.9 GB で、SenseTime は 256K コンテキストでのマルチモーダル推論の GPU メモリを約 15 GB と見積もっています。これにより、ロングコンテキストのエージェントの作業が 16 GB の GPU で実行できるようになります。\nオープンウェイト、Apache 2.0。以下のリンク。"
         },
         {
@@ -1028,141 +1158,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "陽気: Levent Alpöge は、彼のリーマン証明についていくつかのことを明らかにしています。\n「25万ページ以上」というのは冗談だった。彼はリーンコードを公開したのは、読みやすい文章を作成できなかったからであり、そのコードは「明らかにゴミだらけだが、コンパイルはできる」と認めている。\nそれを証明に疑問があると読む人もいます。彼はそれに困惑しています。その証拠は数日前にチェックアウトされました。\nレベント (@__alpoge__)\n私がやった愚かな事：\n1. 250,000 ページ以上なんて冗談ですよ!、大きな数字は非常に面白いと思います。私は主定理の実数合計順序ステートメントの衒学的レベルによってそれを明確にしようとしましたが、残念なことに人々はそれを無視しました、そして私はミームで楽しい時間を過ごしましたが、発表後の数日間はソーシャルメディアで話す気になれませんでした。ごめん！！！ (YM4 での活動と同様に、私たちが 60,000 ページの駄作をゆっくりと取り組んでいることが非常に面白いと思いました。ただし、リーンを求める委員会のせいで、そんなことで時間を無駄にしているのは馬鹿げた気分になりました。でも、60,000 ページは面白かったです。) タオは、論文では冗談を言わないようにアドバイスしています。私がシューホーンで調べたビッグ・リボウスキーの参考文献も参照してください。その理由が今では分かりました…この問題に関して駄文を添付されるのは不快でした。とにかく読みやすいものは何も生成できないので、Lean から lengthmaxx に移行しました。\n2. リーンは明らかにゴミでいっぱいですが、コンパイルはできますが、そのようなゴミに対するすべての批判は完全に合理的で受け入れられます。クリーンアップする必要がありましたが、さまざまな奇妙な理由でランダムに実行するのが困難でした。メア・カルパ…\n3. @スコットナームストロ"
-        },
-        {
-          "title": "and OpenAI just released THEIR proof just a few hours later:\nBinkg (@dummerspast39)\nOpenAI secretly published its own proof of VP ≠ VNP last night. I found it\nno announcement anywhere. just one new line in a changelog nobody reads\ni stumbled on it going through their math repo.\ntwo labs are now fighting over the same 47 year old problem\n> 13:43 pacific: anthropic pushes claude's proof\n> 16:49: openai compiles its PDF\n> 17:30: openai publishes and writes \"obtained on November 6\" next to it\nsame theorem, different numbers\nclaude: 2^(c·(log m)^(4/3)) gates. 70 pages, 73k lines of lean\nopenai: exp(Ω((log n)^(5/4))) gates. 30 pages, 440k lines of lean\n4/3 beats 5/4 so claude has the stronger bound\nanthropic was first out the door with the better number. openai says it had it weeks ago.\nread it yourself:\n— https://x.com/dummerspast39/status/2125106505808588864",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX3lF2PWEAEgb-E.jpg?name=small",
-            "https://pbs.twimg.com/media/HX3lGHSXUAAAd1E.jpg?name=small",
-            "https://pbs.twimg.com/media/HX3lGmHWwAAqa8Q.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125135212774363356",
-          "domain": "x.com",
-          "published": "2026-11-24T16:51:32+09:00",
-          "published_label": "2026/11/24(火) 16:51",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "そして、OpenAI はその証拠をわずか数時間後にリリースしました。\nビンク (@dummerspast39)\nOpenAI は昨夜、VP ≠ VNP の独自の証明を密かに公開しました。見つけました\nどこにもアナウンスがありません。誰も読まない変更ログのたった 1 行の新しい行\n私は彼らの数学リポジトリを読んでいて偶然見つけました。\n2つの研究室が現在、47年前の同じ問題をめぐって争っている\n> 13:43 太平洋: 人間がクロードの証明を押し上げる\n> 16:49: openai が PDF をコンパイル\n> 17:30: openai が公開し、その横に「11 月 6 日に取得」と書き込みます\n同じ定理、異なる数値\nクロード: 2^(c・(log m)^(4/3)) ゲート。 70 ページ、73,000 行の無駄のない内容\nopenai: exp(Ω((log n)^(5/4))) ゲート。 30 ページ、44 万行の無駄のない内容\n4/3 は 5/4 よりも強いため、クロードの方がより強い境界を持ちます。\nanthropic が最初に良い数字を出しました。 openai は数週間前にそれを持っていたと言っています。\n自分で読んでください：\n— https://x.com/dummerspast39/status/2125106505808588864"
-        },
-        {
-          "title": "Holy, now we are talking: an internal Claude research model found a proof that VP ≠ VNP, according to a new Anthropic repo on GitHub.\nVP vs VNP is the algebra version of P vs NP, open since Leslie Valiant posed it in 1979. The result says polynomials like the permanent can't be computed by small circuits, over every field.\nLiterally every day now a breakthrough. And rumors are circulating about a very soon Opus 5.6 release!",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX38E7AWYAAppVz.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125131886271795290",
-          "domain": "x.com",
-          "published": "2026-11-24T16:38:19+09:00",
-          "published_label": "2026/11/24(火) 16:38",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "GitHub の新しい Anthropic リポジトリによると、内部のクロード研究モデルが VP ≠ VNP であるという証拠を発見しました。\nVP vs VNP は、P vs NP の代数バージョンで、1979 年に Leslie Valiant が提起して以来オープンです。その結果は、パーマネントのような多項式は小さな回路ではあらゆる体にわたって計算できないことを示しています。\n文字通り、毎日が画期的な出来事です。そして、間もなく Opus 5.6 がリリースされるという噂が広まっています。"
-        },
-        {
-          "title": "Looking back, it’s both sad and infuriating that people spent two weeks trying to make it look like Jensen was hated by his own employees.\nThis is the reality.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124937351743115264/img/0Jg6v8s876hz9raO.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124993142285914120",
-          "domain": "x.com",
-          "published": "2026-11-24T07:27:00+09:00",
-          "published_label": "2026/11/24(火) 07:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "振り返ってみると、ジェンセンが自社の従業員から嫌われているように見せるために人々が2週間も費やしたのは悲しくもあり、腹立たしいことでもある。\nこれが現実です。"
-        },
-        {
-          "title": "Looks like OpenAI dot is now really rolling out in the EU. Official confirmation soon I guess! Really cool!\nAlex Schüren (@am29d)\nTold you, soon 👀\n— https://x.com/am29d/status/2124961406231474360",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2124972402748604445",
-          "domain": "x.com",
-          "published": "2026-11-24T06:04:35+09:00",
-          "published_label": "2026/11/24(火) 06:04",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "OpenAI dotが、いよいよEUで本格的に展開されるようです。まもなく正式に発表されるのではないでしょうか。本当に素晴らしいことです！\nアレックス・シューレン（@am29d）\n言ったでしょ、もうすぐですよ 👀\n— https://x.com/am29d/status/2124961406231474360"
-        },
-        {
-          "title": "For some reason dot is available in Germany (again). Rollout for EU started?\nFully functional without VPN.\n(and yes, my bot is called Charles;)",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX1bxP7W4AAN1vv.png?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124955668989845710",
-          "domain": "x.com",
-          "published": "2026-11-24T04:58:05+09:00",
-          "published_label": "2026/11/24(火) 04:58",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "何らかの理由で、dotがドイツで（再び）利用可能になりました。EUでの展開は開始されましたか？\nVPNなしで完全に機能します。\n（そしてはい、私のボットの名前はチャールズです；）"
-        },
-        {
-          "title": "One of the biggest problems with AI document tools is that they rarely tell you when something isn't there. Ask for the due date on an invoice that doesn't have one, and you often get a date anyway.\n@NaceAI just launched Drex for Extraction to deal with that. On blank form fields, it answered \"not on page\" 98% of the time in Nace's benchmark. And when it does find something, it shows you exactly where: the text span in the document or a box on the scanned page.\nThat makes the output a lot easier to check, which is what you need for invoices and contracts.\nNace AI (@NaceAI)\nIntroducing Drex for Extraction, a model that returns the exact location of every answer in your documents.\nEach result comes with its text span or page coordinates, so you can check it.\n84.1 on ExtractBench. 81.5 avg on six public text datasets.\nTry:\nVideo\n— https://x.com/NaceAI/status/2124926513489580270",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX1ZZjraEAA9EE2.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124924214859968512/img/Z1DbeMRjxXZ0saWr.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2124952898056716300",
-          "domain": "x.com",
-          "published": "2026-11-24T04:47:05+09:00",
-          "published_label": "2026/11/24(火) 04:47",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "AI文書ツールの最大の課題の1つは、何かが存在しない場合にそれを知らせることがほとんどないことです。期日の記載がない請求書について期日を尋ねると、多くの場合、いずれにせよ日付が返ってきます。\n@NaceAIがこの問題を解決するために、Drex for Extractionをリリースしました。Naceのベンチマークでは、空白のフォームフィールドに対して98%の確率で「ページにありません」と回答しました。そして、何かを見つけたときには、それが文書内のテキスト範囲なのか、スキャンされたページ上のボックスなのか、正確な場所を示してくれます。\nこれにより、\n出力結果の確認がはるかに簡単になります。これは請求書や契約書に必要なことです。\nNace AI（@NaceAI）\nDrex for Extractionのご紹介。これは、文書内のすべての回答の正確な位置を返すモデルです。\n各結果には、テキスト範囲またはページ座標が記載されているため、確認できます。\nExtractBenchで84.1。6つの公開テキストデータセットで平均81.5。\nお試しください。\n動画\n— https://x.com/NaceAI/status/2124926513489580270"
-        },
-        {
-          "title": "I’m honored to have Yann as a reply guy",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/elonmusk/status/2124945551577723147",
-          "domain": "x.com",
-          "published": "2026-11-24T04:17:53+09:00",
-          "published_label": "2026/11/24(火) 04:17",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "ヤンさんに返信者としてご参加いただけたことを光栄に思います。"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.6
     },
     {
       "id": "x_haider1",
@@ -1194,6 +1192,81 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "seriously what went wrong at SpaceXAI?\nelon tweeted this in sept when astra 6 and fable 5.1 were the frontier. now nearly three months later sonnet 5.5 matches or beats both while grok 4.7 is dumber than haiku, 4.8 still isn't out and 4.9 is unlikely to catch up to wherever astra and fable will be by then\nScott (@scottstts)\nSpaceXAI seems to have hit a wall?\nElon in sep said grok 4.9 should be fable/astra level and grok 5 better than everything\nAnd later revise it as grok 5 being comparable to opus 5.5 or exceed it in 2-3 months\nGrok 4.8 was supposed to be a big step up from 4.7 and was gray testing in grok bot, I don’t see anyone talking about grok bot in the past week tho\nAnd there was Elon saying grok bot was a net loss despite being subscription only\nAnd now there’s report that Elon thinks SpaceX can’t compete with other labs and are selling compute rather than using it internally\nIt doesn’t look good. I truly hope SpaceX rise again like Google did, it would be a shame otherwise\n— https://x.com/scottstts/status/2124986267427295638",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX6GBtQaMAAIJD8.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125386485969101138",
+          "domain": "x.com",
+          "published": "2026-11-25T09:30:00+09:00",
+          "published_label": "2026/11/25(水) 09:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "真剣に、SpaceXAIで何が問題だったのでしょうか？\nelon は、アストラ 6 とフェイブル 5.1 がフロンティアだった 9 月にこれをツイートしました。ほぼ3か月後の現在、ソネット5.5は両方に一致または上回っていますが、グロク4.7は俳句より愚かで、4.8はまだリリースされておらず、4.9はそれまでにアストラと寓話のどこに追いつく可能性は低いです\nスコット (@scottstts)\nSpaceXAIは壁にぶつかったようですか？\nElonは9月に、grok 4.9は寓話/アストラレベルであり、grok 5はすべてより優れているべきだと述べた\nその後、grok 5 が opus 5.5 に匹敵するか、2 ～ 3 か月以内にそれを超えるものとして改訂されます。\nGrok 4.8 は 4.7 からの大きなステップアップであるはずで、grok ボットのグレーテストでしたが、ここ 1 週間で grok ボットについて話している人は見かけませんでした。\nそしてイーロンは、サブスクリプションのみであるにもかかわらず、grok ボットは純損失であると述べました\nそして今、イーロンはSpaceXが他の研究所と競争できないと考えており、内部で使用するのではなくコンピューティングを販売しているとの報告があります\n見た目は良くありません。私はSpaceXがGoogleのように再び台頭することを本当に願っていますが、そうでなければ残念です\n— https://x.com/scottstts/status/2124986267427295638"
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125230675016224768/JTcreBSS?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/haider1/status/2125307169243533426",
+          "domain": "x.com",
+          "published": "2026-11-25T04:14:50+09:00",
+          "published_label": "2026/11/25(水) 04:14",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "OpenAI research scientist Noam Brown:\n\"i think we're lucky that AI is jagged... even if they are spiky and jagged, they can be directed towards being really good at RSI\"\nMy most controversial take is that if you're a promising student, the best thing to do is drop out and join the labs now. It's not a great time to sit on the sidelines",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125281712716627968/img/vREGod3HEgW6OPtv.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125303442201563221",
+          "domain": "x.com",
+          "published": "2026-11-25T04:00:01+09:00",
+          "published_label": "2026/11/25(水) 04:00",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OpenAI 研究科学者ノーム・ブラウン:\n「AI がギザギザであることは幸運だと思います...たとえそれらがとがっていてギザギザだったとしても、RSI に非常に優れているように向けることができます。」\n私の最も物議を醸す見解は、もしあなたが将来有望な学生なら、今すぐ中退して研究室に参加するのが最善だということです。傍観しているのに良い時期ではない"
+        },
+        {
+          "title": "for anyone interested in model post-training, @whitecircle is launching a $200k competition around its open-source framework\nyou get access to Blackwell B300s and compute credits to implement new RL methods, improve the framework or post-train models for your own use cases without worrying about compute costs\nWhite Circle (@whitecircle)\nWe’re running the largest post-training competition ever!\nTogether with:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\nSign up now at\n- $1.5m in compute for participants\n- $200k+ in cash prizes\n- Online, worldwide, Dec 1–10\nVideo\n— https://x.com/whitecircle/status/2125274360369815717",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125274305885835264/img/ZOdx02nc7gB_SArI.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125286834481857023",
+          "domain": "x.com",
+          "published": "2026-11-25T02:54:01+09:00",
+          "published_label": "2026/11/25(水) 02:54",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "トレーニング後のモデルに興味がある人のために、@whitecircle はオープンソース フレームワークを中心に 20 万ドルのコンテストを立ち上げています\nBlackwell B300 にアクセスして、コンピューティング コストを心配することなく、新しい RL メソッドを実装したり、独自のユースケースに合わせてフレームワークやポストトレーニング モデルを改善したりするためのコンピューティング クレジットを取得できます。\nホワイトサークル (@whitecircle)\n史上最大規模のトレーニング後のコンテストを開催します!\n一緒に:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\n今すぐサインアップしてください\n- 参加者向けのコンピューティング費用は 150 万ドル\n- 20万ドル以上の賞金\n- オンライン、世界中、12 月 1 日から 12 月 10 日まで\nビデオ\n— https://x.com/whitecircle/status/2125274360369815717"
+        },
+        {
           "title": "i'd love to see people take part in this LLM jailbreaking competition\nyou compete against different AI models across multiple challenges and difficulty levels to get autonomous agents to perform actions they've been explicitly instructed not to take\ncurious to see who manages to break the strongest model\nshaped (@shaped)\nStarlight Arena is LIVE🌟\n• $50,000 prize pool\n• Public leaderboard\n• Wave 1 begins now\nThink you can break frontier models? Prove it.\nSite and Discord in the thread🧵\n— https://x.com/shaped/status/2125273563003503014",
           "summary": "",
           "images": [
@@ -1209,7 +1282,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "この LLM 脱獄コンテストに人々が参加するのを見てみたいです\n複数の課題と難易度にわたってさまざまな AI モデルと競い合い、自律エージェントに明示的に実行しないよう指示されたアクションを実行させます。\n誰が最強のモデルを破ることができるのか知りたい\nシェイプされた (@シェイプされた)\nスターライトアリーナがライブ🌟\n• 賞金総額50,000ドル\n• 公開リーダーボード\n• ウェーブ 1 が始まります\nフロンティアモデルを打ち破ることができると思いますか?証明してみろ。\nスレッド内のサイトと Discord🧵\n— https://x.com/shape/status/2125273563003503014"
         },
         {
@@ -1381,80 +1454,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ジェンセンはまさにサム・アルトマンと同じことをしました\n彼が共同設立した会社を辞任し、従業員と投資家が彼を支持し、取締役会が満場一致で決定を覆した後にCEOとして復帰しました\n歴史は本当に繰り返されるんですね\nNVIDIAニュースルーム（@nvidianewsroom）\nNVIDIAの取締役会が、ジェンセン・ファン氏を社長兼CEOおよび取締役として復職させました。\nリリースを読む：\n— https://x.com/nvidianewsroom/status/2124865060397019480"
-        },
-        {
-          "title": "paper",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2124660216637906944/W2qVgvy4?format=jpg&name=420x420_2"
-          ],
-          "link": "https://x.com/haider1/status/2124814053147308387",
-          "domain": "x.com",
-          "published": "2026-11-23T19:35:22+09:00",
-          "published_label": "2026/11/23(月) 19:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "another exciting development in mathematics and this time from google\ngemini 4 carbon solved a 30-year-old mathematical conjecture about how efficiently AI can learn from data by finding an exponentially better theoretical bound for roughly $344 in api costs",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXzbGbeb0AA8zTe.jpg?name=small",
-            "https://pbs.twimg.com/media/HXzbHAva4AAjJ9p.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2124814047614746664",
-          "domain": "x.com",
-          "published": "2026-11-23T19:35:20+09:00",
-          "published_label": "2026/11/23(月) 19:35",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "数学におけるもう一つのエキサイティングな発展、そして今度はグーグルから\ngemini 4 カーボンは、約 344 ドルの API コストで指数関数的に優れた理論的限界を発見することにより、AI がデータからどれだけ効率的に学習できるかについての 30 年来の数学的推測を解決しました。"
-        },
-        {
-          "title": "openai can't let anthropic steal the spotlight with the riemann hypothesis and there's a good chance they're already deploying swarms of AI agents to solve P vs NP\nback in september, oai indirectly confirmed this when they revealed that agents were working all six unsolved millennium problems but later redirected those agents towards solving navier–stokes",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXyzjXhagAAM30U.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2124770554108576078",
-          "domain": "x.com",
-          "published": "2026-11-23T16:42:31+09:00",
-          "published_label": "2026/11/23(月) 16:42",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "openai はリーマン仮説で人類がスポットライトを奪うことを許すことができず、P 対 NP を解決するためにすでに AI エージェントの群れを配備している可能性が十分にあります\n9月にoaiは、エージェントが6つの未解決のミレニアム問題すべてに取り組んでいたが、その後それらのエージェントをナビエ・ストークスの解決に向けて方向転換したことを明らかにし、これを間接的に確認した。"
-        },
-        {
-          "title": "is AI progress slowing down?\nit's been more than 48 hours since the Riemann Hypothesis proof dropped and i'm starting to think LLMs have plateaued\ni was expecting P = NP by now",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/haider1/status/2124699458566799372",
-          "domain": "x.com",
-          "published": "2026-11-23T12:00:00+09:00",
-          "published_label": "2026/11/23(月) 12:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "AIの進歩は鈍化しているのでしょうか？\nリーマン予想の証明が落ちてから48時間以上が経過し、LLMは頭打ちになったと思い始めています\n今頃は P = NP だと予想していました"
         }
       ],
       "elapsed": 0.7
@@ -1487,6 +1486,44 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 24 日\nアントロピック $87.64 (−1.43%) 🔥:\n- Anthropic の形式数学リポジトリには、クロードが書いた論文と、あらゆる分野で VP ≠ VNP を主張するリーン証明が含まれています (Liam06972452 経由)。\n- Claude Ship はチーム プランとエンタープライズ プランのベータ版であり、クロードが PR をレビュー、修正、承認できるようにします。\n- コネクタとスキルがプラグインに統合され、Free、Pro、Max、Ultra で 10,000 以上が利用可能になりました。\n- Enterprise Frontier Safeguards によるゼロ データ保持機能は、対象となる企業向けにパブリック ベータ版として提供されています。\n- デスクトップ上の Claude Code には、タブ付きの再設計されたサイド パネルがあり、まず Mac で展開されます。\n- Pro、Max、Ultra ユーザーはゲスト パスを取得し、友人が購読すると 50 ドルのクレジットを獲得できます (alexmichael 経由)。\nオープンナイ🔥:\n- GPT-6.2 Sol は、ChatGPT の [チャット] タブで Plus、Pro、Business、Enterprise ユーザーに展開されています。\n- Dots は EU 内で展開されており、新しい旅行モードにより既存の Dots は海外でも引き続き利用できます。\n- GPT-5.6 モデルは、12 月 23 日に ChatGPT および Codex で廃止されます。\n- OpenAI と Cisco は、エージェントがダウンタイムなしでシステムをエクスプロイトから保護できるオープンソース Linux ランタイムである Shirudo をリリースしました。\n- OpenWorks は、中小企業の AI 導入を支援するために、地元の AI 専門家に月額最大 8,000 ドルを支払います。\nGoogle $282.10 (+6.34%) 🔥:\n- Antigravity は AI Pro ユーザーに Gemini 4 Carbon を与え、Hydrogen を全員に開放し、割り当てを再度リセットします。\n- Antigravity ではタスク チェックリストが追加され、Orchestrator のモデルと作業レベルを選択できるようになります。\n- Gemini 4 Neon は、Gemini アプリで Google Workspace のお客様に展開されます。\n- Th"
         },
         {
+          "title": "Claude desktop apps on macOS and Windows now allow users to install artifacts as desktop apps.\n> Claude desktop artifacts can use connectors, appear in the menu bar, and send desktop notifications.\nIt's interesting that no one implemented this earlier, even though it was always possible to build AI-powered desktop apps.\nThe era of personalized software has already begun.\nDesktop testing time! 👀",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125315273460772865/img/NFT5H74CFoMA20tI.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125370559001231814",
+          "domain": "x.com",
+          "published": "2026-11-25T08:26:43+09:00",
+          "published_label": "2026/11/25(水) 08:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "macOS および Windows 上の Claude デスクトップ アプリでは、ユーザーがアーティファクトをデスクトップ アプリとしてインストールできるようになりました。\n> クロード デスクトップ アーティファクトはコネクタを使用し、メニュー バーに表示し、デスクトップ通知を送信できます。\nAI を活用したデスクトップ アプリを構築することはいつでも可能であったにもかかわらず、誰もこれを以前に実装しなかったのは興味深いことです。\nパーソナライズされたソフトウェアの時代はすでに始まっています。\nデスクトップテストの時間です！ 👀"
+        },
+        {
+          "title": "OPENAI 🔥: New healthcare models are now available on the OpenAI platform and APIs.\n- gpt-6.2-sol-healthcare\n- gpt-6.2-astra-healthcare\nIt seems GPT-6.2 Sol and Astra for Healthcare will be announced today. A \"healthcare\" version is likely tailored for healthcare institutions, with different guardrails.\nAI Tracker Bot (@aitrackerbot)\nOPENAI 🚀\ngpt-6-astra-healthcare is out in the OpenAI API.\nAlso listed: gpt-6.1-sol-healthcare, gpt-6.2-sol-healthcare, gpt-6.2-astra-healthcare.\n— https://x.com/aitrackerbot/status/2125276124292747347",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX6GFonWAAA4EN4.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125283519484338640",
+          "domain": "x.com",
+          "published": "2026-11-25T02:40:51+09:00",
+          "published_label": "2026/11/25(水) 02:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "OPENAI 🔥: 新しいヘルスケア モデルが OpenAI プラットフォームと API で利用できるようになりました。\n- gpt-6.2-sol-ヘルスケア\n- gpt-6.2-アストラヘルスケア\nGPT-6.2 SolとAstra for Healthcareが今日発表されるようです。 「ヘルスケア」バージョンは、異なるガードレールを備えた医療機関向けに調整されている可能性があります。\nAI トラッカー ボット (@aitrackerbot)\nオペナイ🚀\ngpt-6-astra-healthcare が OpenAI API に登場しました。\ngpt-6.1-sol-healthcare、gpt-6.2-sol-healthcare、gpt-6.2-astra-healthcare もリストされています。\n— https://x.com/aitrackerbot/status/2125276124292747347"
+        },
+        {
           "title": "Documented 🗞️",
           "summary": "",
           "images": [
@@ -1502,7 +1539,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞️"
         },
         {
@@ -1521,7 +1558,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "OpenAI は、専用の電子メール アドレスを要求する機能とともに、Dots が独自の電子メール受信箱を持てるように準備を進めています。\nEU でも Dots を利用できるようになったことを嬉しく思います。特定のアドレスが利用可能になるたびに Dot にそのアドレスを要求するようにスケジュールされたタスクを設定できます。\nそれが機能するかどうか見てみましょう 👀"
         },
         {
@@ -1541,14 +1578,14 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "TheStage AI は、ディクテーション、会議メモ、AI チャットをすべてデバイス上で処理する無料の iOS および Mac アプリである Edgent をリリースしました。\nTheWhisper、Qwen3-ASR、Parakeet-TDT モデルを活用したライブ キャプション、単語タイムスタンプ、話者ラベル、言語検出を 1 つの API を通じて処理します。\nメモには、発言者ラベルが付いたライブトランスクリプトが提供され、その後、概要が提供されます。その 0.8 億 TheWhisper Turbo モデルは、OpenAI の gpt-transcribe を抑えて、多言語 Open ASR Leaderboard で第 6 位にランクされています。\nビデオ\nザステージAI (@TheStageAI)\nEdgent がリリースされました。iPhone と Mac で、使用しているクラウド アプリと同じ品質で音声 AI を利用できます。無料、アカウントなし。\nあらゆる Mac アプリでのディクテーション、スピーカーとの会議メモ、中断できるボイスチャット。機内モードであっても、すべてデバイス上で実行されます。\n試してみてください:\nビデオ\n— https://x.com/TheStageAI/status/2125244296182063561"
         },
         {
           "title": "Edgent runs on ASRKit, TheStage's on-device speech SDK for Swift, Kotlin, and Flutter. It is free for commercial use up to 1,000 devices.\n-\n-\nUsers don't need an account or API key. Once the models are downloaded, it works offline, even in airplane mode, and audio never leaves the device. On Mac, users can hold a shortcut to dictate into any app.\nTesting link 👀",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2122779876063113216/qubReTe2?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2125316607333249026/OECTqy2F?format=jpg&name=800x419"
           ],
           "link": "https://x.com/testingcatalog/status/2125251346571862121",
           "domain": "x.com",
@@ -1560,7 +1597,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Edgent は、Swift、Kotlin、Flutter 用の TheStage のオンデバイス音声 SDK である ASRKit 上で実行されます。 1,000 台のデバイスまで商用利用は無料です。\n-\n-\nユーザーはアカウントや API キーを必要としません。モデルがダウンロードされると、機内モードであってもオフラインで動作し、オーディオがデバイスから離れることはありません。 Mac では、ユーザーはショートカットを長押しして任意のアプリに音声入力できます。\nテストリンク 👀"
         },
         {
@@ -1579,7 +1616,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Meta は、Muse AI エージェントの Apple Messages のサポートに取り組んでいます。\n> 非表示の「メッセージ」オプションが、現在利用可能な「WhatsApp」オプションの隣に表示されます。\n> このオプションを選択すると、「Apple Messages for Business」に関するページが表示されます。\nMeta はしばらくの間、Telegram や独自の Messenger などのさまざまなメッセージング アプリの統合を実験してきました。ただし、これらの統合はどちらもまだリリースされていません。"
         },
         {
@@ -1718,48 +1755,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "GOOGLE 🔥：Antigravityユーザーは、Orchestratorモデルとその推論処理を構成できるようになりました。\nさらに多くのアップデートがまもなく登場する予定です！\nVarun Mohan（ @_mohansolo ）\n今日はAntigravityユーザーにとって大きな日になります！\nその間、ちょっとしたQOLの改善があります。Orchestratorで使用するモデルのペアと労力のレベルを明示的に設定できます。Neon HighとHydrogen Highを設定しました。\n今日はまだまだ続きます 👀\n— https://x.com/_mohansolo/status/2124917777630961911"
-        },
-        {
-          "title": "I often use AI detectors for my own use cases. That doesn’t mean AI output is bad; it just needs to be post-edited and unsloppified.\nIf you work with AI writing a lot, AI detectors can act as tests or linters for the writing workflow. Embedding those makes a big difference.\nUsers can already test GPTZero 5 on their own writing!\nGive it a try 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2124935179034587136/uwBbWQCn?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2124937703108288706",
-          "domain": "x.com",
-          "published": "2026-11-24T03:46:42+09:00",
-          "published_label": "2026/11/24(火) 03:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "私は自分のユースケースでAI検出器をよく使用します。それは、AIの出力が悪いということではありません。単にポストエディットして、不正確な部分を修正する必要があるということです。\nAIによる文章作成を頻繁に行う場合、AI検出器は文章作成ワークフローのテストやリンターとして機能します。それらを組み込むことで、大きな違いが生まれます。\nユーザーはすでに、自分の文章でGPTZero 5をテストできます！\nぜひお試しください👀"
-        },
-        {
-          "title": "GPTZero has launched GPTZero 5, its new AI detector, with over a 99% detection rate on text from every frontier model.\n- The model is 10x bigger than the previous version, with billions of parameters.\n- GPTZero reports over 99.3% detection rates for GPT-6.1 Sol, Claude Opus 5.5, Gemini 4 Argon, and Grok 4.7.\n- GPTZero 5 sets a new state of the art on 9 independent third-party benchmarks and 18 writing domains.\n- It tells whether a person, AI, or a mix of both wrote a pasted or uploaded text, and points to the sentences behind the result.\n- According to GPTZero's technical report, older open-source detectors wrongly flagged up to 21% of human-written peer reviews. GPTZero 5 flagged 0 of 3,498.\nVideo\nAlex Cui (@alexcdot)\nThe new GPTZero 5 model outperforms Pangram in almost all third-party benchmarks\nOur model has an industry-leading 1 in 50,000 false positives on essay-length writing\nWe have zero false positives on benchmarks where Pangram lags behind, like ESL writers\nTo achieve this, we had to completely change how we train AI detectors\nHere’s the full evidence\nVideo\n— https://x.com/alexcdot/status/2124934039455109209",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2124937636791906304/img/dy3sJ0w9woslBhdg.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2124932591039979520/img/wSCUK6nSuWBFS5M8.jpg?name=small"
-          ],
-          "link": "https://x.com/testingcatalog/status/2124937700394303975",
-          "domain": "x.com",
-          "published": "2026-11-24T03:46:41+09:00",
-          "published_label": "2026/11/24(火) 03:46",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "GPTZeroが、すべての最先端モデルのテキストに対して99%を超える検出率を誇る、新しいAI検出器GPTZero 5をリリースしました。\n- このモデルは、数十億のパラメータを備え、前バージョンよりも10倍大きくなっています。\n- GPTZeroは、GPT-6.1 Sol、Claude Opus 5.5、Gemini 4 Argon、Grok 4.7について、99.3%を超える検出率を報告しています。\n- GPTZero 5は、9つの独立したサードパーティベンチマークと18のライティング分野において、新たな最先端技術を確立しています。\n- ペーストされた文章を書いたのが人か、AIか、またはその両方かを判別します。\nまたはアップロードされたテキストを分析し、結果の根拠となる文を指摘します。\n- GPTZeroの技術レポートによると、古いオープンソースの検出ツールは、人間が書いた査読の最大21%を誤ってフラグ付けしていました。GPTZero 5は、3,498件中0件をフラグ付けしました。\n動画\nアレックス・クイ（@alexcdot）\n新しいGPTZero 5モデルは、ほぼすべてのサードパーティのベンチマークでPangramを上回っています。\n当社のモデルは、論文程度の長さの文章において、業界トップクラスの5万分の1の誤検出率を誇ります。\nPangramが劣るベンチマークでは、誤検出がゼロです。\nESLライターのように、遅れをとっています\nこれを実現するため、AI検出器のトレーニング方法を完全に変える必要がありました。\nこちらが完全な証拠です\n動画\n— https://x.com/alexcdot/status/2124934039455109209"
         }
       ],
-      "elapsed": 3.0
+      "elapsed": 2.8
     }
   ]
 }
