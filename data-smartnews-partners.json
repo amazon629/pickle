@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T00:05:27+09:00",
-  "generated_at_label": "2026/11/27 00:05 JST",
+  "generated_at": "2026-11-27T08:49:32+09:00",
+  "generated_at_label": "2026/11/27 08:49 JST",
   "title": "SmartNews 認定代理店 ニュース監視",
-  "total": 240,
+  "total": 239,
   "sources": [
     {
       "id": "snp_01",
@@ -121,7 +121,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Hakuhodo DY ONE、AIへの質問を起点に企業の情報発信を支援する「HAIX」発足",
@@ -140,6 +140,22 @@
           "is_new": false
         },
         {
+          "title": "Hakuhodo DY ONEがAI対応の統合マーケコミュニケーション設計・実装専門チーム「HAIX」立ち上げ（Web担当者Forum）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yeXFtZExNeWVOQVNfekFkN1dLQ0sybDFxd05SM052UDZxQnJqTFdDaWE0U2lpQThiOGpWcjJ3YjE5el9VVHNwZXFBOE51akp4UjhFNlQwSm9nWjUxUVR3eVllZkw2SG9sSWdTTnZCc0oxX1dJOEtXUl9xX0pVRHc?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-26T15:04:24+09:00",
+          "published_label": "2026/11/26(木) 15:04",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Hakuhodo DY ONE、AIに推奨され人に選ばれる支援チーム「HAIX」を発足",
           "summary": "",
           "images": [],
@@ -147,22 +163,6 @@
           "domain": "rtbsquare.work",
           "published": "2026-11-26T12:16:52+09:00",
           "published_label": "2026/11/26(木) 12:16",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Hakuhodo DY ONEがAI対応の統合マーケコミュニケーション設計・実装専門チーム「HAIX」立ち上げ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfMUhxTllPMW5tQ1Q5bWVIcERlRFNlVE84VFlPUkJ2LXAwMm5kTHpFTDNOcVk3elllUWNUdWhlYU42MWdkcnNZX2dHRERDQXd5ZEJXMEZxcThNSTg?oc=5",
-          "domain": "webtan.impress.co.jp",
-          "published": "2026-11-26T07:02:00+09:00",
-          "published_label": "2026/11/26(木) 07:02",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_03",
@@ -214,7 +214,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【株式】サイバーエージェントが小幅続伸 みずほ証券は目標株価を1470円から1630円に引き上げ(gamebiz)",
@@ -294,13 +294,29 @@
       "count": 5,
       "items": [
         {
+          "title": "パソナ、転職・再就職支援サービスの個人情報を含む約104万件情報漏洩 電通デジタル「TONARIWA」への不正アクセスで",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFZPR2RybGExQ05wTDdOcHhrQzRwdFZ1R0FHcTczMGoxNTJsbDRocUFGTUNXd1Bza2VoWmhRbnZjVFpiMGNxeWZMVE50SmphTWRZNFpNN3FHc2VhS0xCNW53TmxyUVBhZFB5X1MteFN6bzk3SkFycGl2N1ZtRDlDeHlZaXc1ZU5DUWdxRHZR?oc=5",
+          "domain": "rocket-boys.co.jp",
+          "published": "2026-11-27T07:43:02+09:00",
+          "published_label": "2026/11/27(金) 07:43",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "電通デジタル、「Japan/Korea Agency of the Year Awards 2026」において初の金賞受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyRGQzSEM1dG1PWERKVGxHWmZNY09vMzN6UzJJTTY5ZGVmUDItQ211b3pLOWZRNVlkNnc1Z2UzTlhKU1VzeFhYZVpiSU1VRmw5NHotRUdWaWhqM2MtdjB2ODlqZmxZcE5QSHc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-26T15:02:19+09:00",
-          "published_label": "2026/11/26(木) 15:02",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9zU3czU25xUGFsSGlLXzFNbnFFRzFJeHY0d2Y3aUtVOS05ajg1WXI0S29fRnlnQUxlYVc0c1NoaVhaUGtkM0kyTTcxUnM5R2NEZGZKemRHSXdpQTRJX19ZSzUwTzVSOUNyZ0xKLTdpZGo0MWExLVhnQlZfZw?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-11-27T05:15:17+09:00",
+          "published_label": "2026/11/27(金) 05:15",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -356,22 +372,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "日本郵便のLINE公式アカウントで情報漏えいのおそれ 電通デジタルのサービスに不正アクセス（アスキー）",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aZG1mOFFDMGU1aVBTeUQyb2d5azM1ZjJvV3oxZUxEWTV4RlJkT2djdmRZT29Oejh5cDNfMGNTc21KUnV6V1hIRmlLU0dvbDNNOVdnbjBQSkJCWi1GdDJGV3pUVlFGYW16ZGNmT3ctS09JOUF5eFI5eXlISW01T3c?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-12T17:00:00+09:00",
-          "published_label": "2026/11/12(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
       "elapsed": 0.1
@@ -419,11 +419,11 @@
           "is_new": false
         },
         {
-          "title": "「株式会社RATEL」が超高齢社会の課題解決を目指す「株式会社DIGITAL HEARTS GeeSPORTS」と業務提携を開始。多世代融合型eスポーツ「GeeSPORTS」の社会実装を推進。",
+          "title": "「株式会社RATEL」が超高齢社会の課題解決を目指す「株式会社DIGITAL HEARTS GeeSPORTS」と業務提携を開始。多世代融合型eスポーツ「GeeSPORT...",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1VVWFZV3ZxajRiUzBhQVV0QUlvZExVT1ZzUmI1VzJFcUZoSkhZaWp6Mnl3SVJZblZrbVcxbmo4ZkdJR2FFVWxz?oc=5",
-          "domain": "newscast.jp",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNLW02cHpGbnY3MFNxdzFndVc0WGkydVpMZEp2eTRLOGxJN0RuX2xKSWZCMEdPelRNNndDOXVURFZkRTgzdjVxZzBBTWUtWE81MUhDQlFCSlE3anh2UFA3RlN1NGNkY2RWUHRpNzZqQ3FvalNoZjZ0RGV6RFRtVzNuaEZtazhKanBBbElXMzFqVkZuNDhPQW5BakJqTkc2dnpvYWJCcVY5cHZITzBRQ3pkaHlKanZuQ0JGWGJXN3UzWmlZRXYyMnc?oc=5",
+          "domain": "atpress.ne.jp",
           "published": "2026-07-29T16:00:00+09:00",
           "published_label": "2026/7/29(水) 16:00",
           "badge": "JP",
@@ -432,7 +432,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "多世代融合型eスポーツの社会実装へ。RATELとDIGITAL HEARTS GeeSPORTSが業務提携",
@@ -467,7 +467,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_06",
@@ -552,7 +552,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_09",
@@ -564,7 +564,7 @@
       "via": "https://news.google.com/rss/search?q=%22BlueVision%20Interactive%20Limited%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_10",
@@ -654,7 +654,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_12",
@@ -702,8 +702,8 @@
           "title": "MAVEL、デジタル広告の掲載品質に関するJICDAQ認証を継続取得",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MaHBIeU5lUDlOX24ycWhxZ2RtLURyT2xqRFhJMjJNOFpLUkM1ZHIzaEpJcHJjSmMyNlduWjRrVDdaMUhJd1gyWC1hVjN6UE9vM1VLV2o1cUNRbTdWdkdFekNhZTg4QlZMRnc?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUZXF6eThJeEhncFVVNHktRFVhOVRCdGZocWs1dUdqY0NEaUNuZlRDLVZGXzlvN2VsbVp3UWRfUmJPRjFRM0dCMFFmYkszczdlWnJDdGtwYzVVaEttMURfalZONmh4c2JjQ0VZNENGNmRwUQ?oc=5",
+          "domain": "news.infoseek.co.jp",
           "published": "2026-07-24T16:00:00+09:00",
           "published_label": "2026/7/24(金) 16:00",
           "badge": "JP",
@@ -712,7 +712,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "MAVEL、「SmartNews Ads パートナー プログラム」で2年連続「Gold」認定",
@@ -759,7 +759,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BENAKAI%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_14",
@@ -852,7 +852,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 2.0
     },
     {
       "id": "snp_15",
@@ -1172,7 +1172,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_20",
@@ -1197,6 +1197,38 @@
       "count": 5,
       "items": [
         {
+          "title": "ハックルベリーのCoreLinkパートナープログラムにソウルドアウトが新たに参加",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Td3BsSS1RMjhoNFNOWlpLMW0tZ1lLMkN6MzV4aDNpblhrYkNaRWhxZ0RvOTNZeVBodHNaYjlwWS05anBIMzhQdlRQRHM5QkN5S19xVy1uM2stel9PNTdIMmNBczZ1LXVFSmtvejdYNVkzU2lEZW1Z?oc=5",
+          "domain": "voix.jp",
+          "published": "2026-11-18T19:34:41+09:00",
+          "published_label": "2026/11/18(水) 19:34",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ハックルベリーのデータ連携SaaS「CoreLink」パートナープログラムにソウルドアウト株式会社が参画",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IaUYxMTZkd1FEZ2hraFJKSjZoUHpqMXBJUmhIR1FfajkxTk5PZ2pvY2pvcEI2UUxqN05SVk9ubU5uSklSQlFIX0M1bHppM3pxYW5xZHdGcHlua0lEVE5adWI3cXhfUnQ0Y3c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-18T13:00:01+09:00",
+          "published_label": "2026/11/18(水) 13:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "ソウルドアウト、「Meta Agency First Awards Japan 2026 」にて今年度新設された「Creative of the Year」クリエイターソリューション賞のGOLDを受賞",
           "summary": "",
           "images": [],
@@ -1213,13 +1245,13 @@
           "is_new": false
         },
         {
-          "title": "ソウルドアウトグループ、全国から27名が集う2027年度内定式を開催",
+          "title": "違法内容の記事型広告作成でソウルドアウト社員ら広告代理店社員と広告主のステラ漢方社員が逮捕",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pNEh0SlVzaWYtVXBvR2FrWlo0ckRqdC1jRm9YdGJpVnVQOXRXSkdUUjc5QmFsaHRYTUdVeG9aVHlBYzdBb1BIUmhnRzVYRWJnYzdJS3VnVnY2bEdpbjgtdy01ZU5keGdZX2c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-05T16:00:00+09:00",
-          "published_label": "2026/10/5(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lS2JtaVk2dkZnUmhvR2ZSWHdFTVFKXzIxM1JMeGRCQ3BHdHJUV1o4bzBlbGxlWXNZbXFrZVFlVVFTb2J0Z0d1TjFUUHE1UQ?oc=5",
+          "domain": "rtbsquare.work",
+          "published": "2026-11-09T12:12:31+09:00",
+          "published_label": "2026/11/9(月) 12:12",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1229,55 +1261,23 @@
           "is_new": true
         },
         {
-          "title": "ソウルドアウトグループ、採用サイトを全面リニューアル！地域から100億円企業創出に向け、共に挑む「志」を持った仲間を募集。",
+          "title": "保育園留学の奨学金、ソウルドアウトが企業寄附第一号に。こどもの成長機会と地域の未来を支援。",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1U0gzc0RVV3J4eERFN0JPUjQzYUlnMjl2bEpYeWgyNXBlandMQ0lUSFRRdmJGT1hWbklmLTNHdEtVd0ZYWDgtc0tIcDNLNmhqZDZodGJlUHJsMXV0VHdYNXBTLTU3dVJudnc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-31T16:00:00+09:00",
-          "published_label": "2026/8/31(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPVUZDczR0cnI3U2cxSmF0dUpoVnl0TVVJM3RLUUE4SUxVcm9QenpwWV8zdjJlQVNESHA4a19Jd2ZONzZmNWtWd1ZXSE9Jd2F6MFh0Zg?oc=5",
+          "domain": "news.nicovideo.jp",
+          "published": "2026-10-29T16:00:00+09:00",
+          "published_label": "2026/10/29(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ソウルドアウト、地域企業のAI活用を加速する「AIイノベーション本部」を本格始動",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kbXBpY3lDOVRmdmpwc1FqTWxUQWl3NHpvSFdKU0gxMnI3ZkZMQ050dXVINnRKa29hZHMzSXdyMDFxZTdhd2x0MnVRMGNDZGhGbndvNmF5akxuZDdXOWxGNDVneTlTb1Rpd3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-07-28T16:00:00+09:00",
-          "published_label": "2026/7/28(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ソウルドアウト、ブランドセーフティおよび無効トラフィック対策に関する「JICDAQ認証」を更新",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8yR21NaVQ5UzZkMlp3ZWRVV1c0N2dTaklEUUt0aG5STEIzajRZX2dWSzdmYVo5QTFFNlRuTzA0QV94OWtrT2tFU1MzNUlNSHh2ZGJlS19SX1lWTi14Q1hvVVJVeFotdTgyX1E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-07-15T16:00:00+09:00",
-          "published_label": "2026/7/15(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_22",
@@ -1290,29 +1290,13 @@
       "count": 5,
       "items": [
         {
-          "title": "画像2 / 2＞業界のトップランナーを取材！CyberZが取り組む「女性活躍推進プログラム」について聞いてみた",
+          "title": "韓国の広告代理店Mobidaysと戦略的パートナーシップを締結～経産省「IP360」等で加速する日本IPの海外展開に向け、熱狂を生む「ファンダムマーケティング」で韓国進出を支援～ CyberZ｜スマートフォン広告マーケティング事業",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15eEFIcTFia1o5d0RUNGlYUm1fdlFmMXVRdUxOeWpXb0l6VFo0TW54eVZoelo1dE82am5TeUN1T2F3d0Nvb0h0YkwzWW1SNFB0b3dLVEwwZzI0YzRDQ1dWSnBsMmQwNWJoak95LTVn?oc=5",
-          "domain": "walkerplus.com",
-          "published": "2026-11-22T10:26:18+09:00",
-          "published_label": "2026/11/22(日) 10:26",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "CyberZ、韓国の広告代理店Mobidaysと戦略的パートナーシップを締結",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKeXNFRjhwWFI3dkswSEtfWWE4NWxVdi01QVZZT3Y4aUlMMmhiZEstb0VpQzJBVkJNVlZkTWhpemJuX1hvTUNaNW1iaGpESUI5ZFl5Ng?oc=5",
-          "domain": "musicman.co.jp",
-          "published": "2026-11-10T17:00:00+09:00",
-          "published_label": "2026/11/10(火) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96TDNDRnNXeGRFZ2NLem9pQXdkZXJpdVhoTVNNNnpOekVRRmJjel84YnpDTEEwd2JEY1hTLU1tUHd4Y3gwTXgtSXNKMEVKekM2THRDV3lKRTNfY3RWNTJsTEFidUZoTHlzaGNjckV3?oc=5",
+          "domain": "cyber-z.co.jp",
+          "published": "2026-11-12T17:00:00+09:00",
+          "published_label": "2026/11/12(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1325,8 +1309,8 @@
           "title": "「Meta Agency First Awards Japan 2026」でCyberZが「Best Solution Award」アプリ部門を3年連続受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DcVI1dTFURWxWSE1VN1B5cHZ3cGtpYXJoUGtrQTB6NlpVUnY4M19UMjZ0SUpXUDdNSXU2VXBvVTlXejJheW1CeDJuZDVnczU0QlhXSmRBNVVUandFUzR3U2tpanA0OUVfUFE?oc=5",
-          "domain": "prtimes.jp",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA1RG13anZfRmZCWTU2X2ljLU9EbXBiUVMzc3BKOVNLUUZUSG51Z2FCU3l4MzFiQVlLRWVOSUlkQmViYl92WVdhMDBBZDZxNzNROHhBNDA2LThQajNNcUNQLXczMjFrVEpKSGhUZWZB?oc=5",
+          "domain": "cyber-z.co.jp",
           "published": "2026-11-10T17:00:00+09:00",
           "published_label": "2026/11/10(火) 17:00",
           "badge": "JP",
@@ -1338,13 +1322,13 @@
           "is_new": true
         },
         {
-          "title": "CyberZ、韓国の広告代理店Mobidaysと戦略的パートナーシップを締結 | 株式会社CyberZのプレスリリース",
+          "title": "海外事業を統合・強化する専門組織「Global Growth Marketing局」を新設～北米・東アジア・中国・欧州を中心に、日本発エンタメIPのグローバルマーケティングソリューションを一気通貫で支援～ CyberZ｜スマートフォン広告マーケティング事業",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1kRkFyVFRNN0JxWVNwVnpvMEFCODRXeXNkOWFxeERyNTRSNEVPVVVHbzRrTUhLZkVFSFZKbzdTVkJGLXRSTWVvLW5uX2stV0RWNTJSbmNPOXB1N1h2LVdDUFR1NjFuak5TckE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-09T17:00:00+09:00",
-          "published_label": "2026/11/9(月) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jNS1lbnlSaGc1YVFHMWxETlFzUW53cDhzUEhucTBIQklLQmZtT3Z5TzctVl84b3d2amswMllwVm1sRGxUQ1ZSYWloS2JVY3hhTUxZOHNOMmJiNEFiUmo5dF9pd2ZQcjdkUFFTN0pR?oc=5",
+          "domain": "cyber-z.co.jp",
+          "published": "2026-10-28T16:00:00+09:00",
+          "published_label": "2026/10/28(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1354,13 +1338,29 @@
           "is_new": true
         },
         {
-          "title": "「チェンソーマン」キャラクターがコイン型電子マネー対応キーホルダーに（CyberZ）",
+          "title": "日本発のエンタメコンテンツを世界の熱狂へ繋ぐ！CyberZ海外代理店事業が挑む、グローバル展開の最前線",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5adE82S2RtTV9IWmdpLWlTOHdTVWhReEppcWN1VHlXZDNaYzdsUHA5eERqbjJnTENKMEppbF9MX1MzWVVOblN0WExCQ2VSWVJ5UnZsZFF6Y3pGZlE?oc=5",
-          "domain": "paymentnavi.com",
-          "published": "2026-11-02T17:00:00+09:00",
-          "published_label": "2026/11/2(月) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EbHZUUUxjRjZ1TzBlLTJ0SnRId3FuMGxrZy15dURKQldaTXJoZTFiZmVuVFMxTkxjZ3JwYTFFUkpDdEZJNHpSQVh0cUJsbE9vQkZuTmQ5WkE?oc=5",
+          "domain": "cyber-z.co.jp",
+          "published": "2026-08-12T16:00:00+09:00",
+          "published_label": "2026/8/12(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "現地の文化を捉え、デジタルからリアルまで一気通貫で支援 ～CyberZが世界のファンダムを熱狂させる理由～",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EaXBFZUt4d1dEcDduT1ZrSFlXQWdUUnRsVHFuYzdfQ1pXb0R6NXNNOHpmUlp6WUc2NEUyUlpfamtacUZXTFhQV2lCZnZ1X0dhMnV0T3lYbXI?oc=5",
+          "domain": "cyber-z.co.jp",
+          "published": "2026-06-03T16:00:00+09:00",
+          "published_label": "2026/6/3(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1370,7 +1370,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.3
     },
     {
       "id": "snp_23",
@@ -1447,7 +1447,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_24",
@@ -1459,7 +1459,7 @@
       "via": "https://news.google.com/rss/search?q=%22Anymo%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_25",
@@ -1516,7 +1516,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEKento%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_27",
@@ -1545,7 +1545,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_28",
@@ -1557,7 +1557,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BELIT%E2%80%99S%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.5
     },
     {
       "id": "snp_29",
@@ -1707,7 +1707,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "snp_32",
@@ -1732,45 +1732,13 @@
       "count": 5,
       "items": [
         {
-          "title": "TVer、NTTドコモ・データ・ワンが共創開始 視聴・会員・購買データ連携で広告効果の可視化へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmeWhxalEwYk5ZbmFkNGtmM29GdHBVT3ZGOVg1MWFOOFRzVGxVbkZ4V1padkNaTHNRUDE1RGJyWmZBU0U4aThSLVo0R2lOZ28?oc=5",
-          "domain": "markezine.jp",
-          "published": "2026-10-29T16:00:00+09:00",
-          "published_label": "2026/10/29(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "dアカウント連携で広告効果を見える化！TVer・ドコモ・データ・ワンがマーケティング高度化へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE40cVJfN3pvNjB4VV8wQ1NmOXBaRHdxMVVVdDRaem12RDlwZ0taM1ZKNF9vUU8yV1hkaVdVQWtUdDltaUtOWjBYWE1IQVk?oc=5",
-          "domain": "dxmagazine.jp",
-          "published": "2026-10-29T16:00:00+09:00",
-          "published_label": "2026/10/29(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "データ・ワン、TVer・NTTドコモとデータ連携で共創 広告視聴から来店・購買まで横断分析へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE96WmNuSV9QTUF4eGR3cjhkb2xDRWVLU0wzb21mT25jbVJ1YThwVHE3QnVsSU8wS2xkVzRLX1laZVZWeGlCNWtELThBSVg2N01OejdkUkhyMGNQM0k?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-10-28T16:00:00+09:00",
-          "published_label": "2026/10/28(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fa2pYYVBobXJOM0VCV202bFNuTmxHRUtrcG45a01TZUNGMy15U05fdm5uakdJQzNweEpMa1VMc0ZPa1JGZTllM0o5TjEtVFFFd2s4?oc=5",
+          "domain": "diamond-rm.net",
+          "published": "2026-10-28T10:03:51+09:00",
+          "published_label": "2026/10/28(水) 10:03",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1780,13 +1748,13 @@
           "is_new": true
         },
         {
-          "title": "配信視聴、dポイントクラブ会員基盤、購買の各データ連携へ（TVer/NTTドコモ/データ・ワン）",
+          "title": "TVer、ドコモ、データ・ワンで、 配信視聴データ、dポイントクラブ会員基盤データ、購買データの連携による 「TVer」の事業成長に向けた共創を開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLaWlaUFdTTjZNTTVpTGpmRi0wbGdZeEdPUGZfZEs5cEg3alEtUXhtUGxwb2t4NFZHMWdWdGF1VzBJVUtMV2xrMlZWb2p1dV80bzJQS1J6Y0RoZlk?oc=5",
-          "domain": "paymentnavi.com",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2eWI0OUhVYnJEOHM5VWh4Uy1pQTlDVWdxcWQ2QVFqeHAwMHpHalM1NlViMVJ2b3NRRnhuRkdjZWN4TG11Z0d4MFdGMUhzS1NSY2JHRmF5WGd0SFV3UUpZaWMzN1lZVWZFcWtJQThn?oc=5",
+          "domain": "docomo.ne.jp",
+          "published": "2026-10-26T16:00:00+09:00",
+          "published_label": "2026/10/26(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1796,13 +1764,45 @@
           "is_new": true
         },
         {
-          "title": "TVerとドコモ、データ・ワンが連携し新たな広告価値創造に挑戦する事業成長の共創",
+          "title": "TVer、ドコモ、データ・ワンがデータ連携 広告視聴から来店・購買まで分析へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GS1pnc3pwa1RtVEJHcWRfM3VEbmRYZzExTEZqWUtibU8yMHY4ODF6ZWEzT21IWHh4d1dZc3FTbVVHMEN2NHIwbnpJb3VxYUZqVTd0UThKcG9zaTA1V2lQUHVPQWFfY3ZQM0lTM2ZJblc5Zw?oc=5",
-          "domain": "voix.jp",
-          "published": "2026-10-27T16:00:00+09:00",
-          "published_label": "2026/10/27(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5na2JzaGlkYzdPMWYxS19sSzZPazN2dHhDYTVyU1p0bWx2MUUydmlsS3ZoSVFMb2h0aWFPY3lsdjBNM1pjU2NiNGhHcVlmNHNpaEpPVHUzSDcxUQ?oc=5",
+          "domain": "dempa-times.co.jp",
+          "published": "2026-10-26T16:00:00+09:00",
+          "published_label": "2026/10/26(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "データから「知性」を生みだすデータ・ワンが目指す 「Consumer Intelligence Agency」の真価",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIVEFzQkpEaEJrWkFsWENnbHZ6QTZrdC1CMzlZSVUyYndDU0dLT2JHY0wtUWpjREFGR21xWTBJdldSRGdlV2s5S3hseU03dXdpeHEzUzRONTNqeENSUG5N?oc=5",
+          "domain": "advertimes.com",
+          "published": "2026-10-13T16:00:00+09:00",
+          "published_label": "2026/10/13(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "セブン・イレブン、データ・ワン、イオンリテール、pHmedia、ENEOS、平和堂が語るリテールメディアとCRMの最前線 リテールアジェンダ2026【参加企業募集中】",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nRFBkVlRvZXlHWDR3aUFJbFp2X0dhZmVlYTQ2TWYtUUJSZHVDQm5PNjB4dUVfRWFIbGF5aGFEdnBGbUhrV1BsZV9GVGh4UXFXWXhETnNOVENEbUJZY2c?oc=5",
+          "domain": "agenda-note.com",
+          "published": "2026-09-14T16:00:00+09:00",
+          "published_label": "2026/9/14(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1812,7 +1812,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "snp_34",
@@ -1850,7 +1850,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)ピアラ【7044】：決算情報",
@@ -1898,7 +1898,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【決算速報】ピアラ、3Q累計経常46百万。(アイフィス株予報)",
@@ -1917,7 +1917,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "snp_36",
@@ -1942,54 +1942,6 @@
       "count": 5,
       "items": [
         {
-          "title": "Supership、Treasure AIと「Fortuna」のデータ連携を開始",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3cUhsS3RYS2F1S0ZncVRud2RNY0RkSFV6aTdMbC1EcWYwVjlnVEZQZE1UbU5WSm1zeUZnT3ZSWmp5V3FsZWk3WXBOc19OZw?oc=5",
-          "domain": "rtbsquare.work",
-          "published": "2026-11-11T14:45:32+09:00",
-          "published_label": "2026/11/11(水) 14:45",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Supership、パブリックDMP「Fortuna」をTreasure AIと連携 〜購買・行動履歴だけでは見えない顧客の関心を、セグメント設計や訴求の見直しに活用可能に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93MEE4VUVEbHZGc0xCVXVfb2VxdTVIbzJtRm9keTZDT0drcnZabDJrYm1zQnV2c29vMDdJRHZtdXAzZkxJTFRqVFlfWU8yS3Znc1JSZw?oc=5",
-          "domain": "supership.jp",
-          "published": "2026-11-10T11:00:00+09:00",
-          "published_label": "2026/11/10(火) 11:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【11/16開催・無料】ライフネット生命×Supership×Momentumが明かす「次世代インハウスマーケティング」の全貌",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55TjM0dkdweEdwQ25aUUpPN1Vxd2xxN0dLRlVFa3FtTDZ5NDdGT0hXRGlZenV3MzBYLXloMHR0RTVjXzVRNnhSN1pObnd5WFFhRG9OZVkxSzhvY1ZYUmNRQks1N285Y29idkNJ?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-11-09T17:00:00+09:00",
-          "published_label": "2026/11/9(月) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "北海道と福岡のローソン2店舗で「Supership Touch Gift」の試験導入を開始 〜スマートフォンのタッチで商品を訴求し、クーポン配布で店頭での購買を後押し",
           "summary": "",
           "images": [],
@@ -2006,23 +1958,71 @@
           "is_new": false
         },
         {
-          "title": "Supership、検索ソリューション「S4」をSNKRDUNKグローバル版に提供開始―多言語検索と居住地別商品制御を実装",
+          "title": "Supership、FortunaとKARTEのデータ連携によるWeb接客の高度化支援を開始 〜初回訪問時からの出し分けと、反応データの分析で施策改善を実現",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YWTlCT0QxTzlyQW11NERsZVVQWXliblVXc3hxUExlWTNuVkFpZ0RCWWVjYUVPajZkRTBhTENUZDN4V21LSkJHRy02cll3eXRDeHBTZU5Edw?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-10-14T16:00:00+09:00",
-          "published_label": "2026/10/14(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0tSmhTaWNoSFBPR2txcTVvazFNTXpiNS1DU1BHNDJKc1czZXZ5ZnQxdEFIeXUySEJoZmRVZzJ2NktUbGpoSV9YeVFUcU1Cbk1VQ2NlRw?oc=5",
+          "domain": "supership.jp",
+          "published": "2026-09-29T16:00:00+09:00",
+          "published_label": "2026/9/29(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "「Supership Creative AI」、Standardプランの1ヶ月無料キャンペーンを開始 〜累計バナー出力10,000枚突破を記念し、2026年9月16日より申し込み受付を開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91Z0FMV0RsVW5HNm5BWFpob252MDVoVjZJU0Ryc2FUYkVpcjBoZWhWVk5hQUNjbGhTYnhtR2ZJd19WdllfQmlTNzNfT252b052SGs4NQ?oc=5",
+          "domain": "supership.jp",
+          "published": "2026-09-16T16:00:00+09:00",
+          "published_label": "2026/9/16(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Supershipの「Ad Generation」、国内主要乗換案内サービスと連携し「着駅指定PMPパッケージ」を提供開始 〜Prebid.js基盤でファーストパーティデータを活用し、より精緻なターゲティングを実現",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Ic3Bma1U0RTZxU0pOc3dBdUZVcVZHT2Ewc3NMbFFRVVIzQ1JGTHE4TVVPcmx5TkhKSVB6V1FLTm1oLXIxRWhYQy1RcXpPZThmajZ2UA?oc=5",
+          "domain": "supership.jp",
+          "published": "2026-09-02T16:00:00+09:00",
+          "published_label": "2026/9/2(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "「クライアントの利益最大化」を旗印に、戦い方を変える ── CEO稲葉が語る、Supershipのこれから",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1jSnBMTkRjZUpaeTljSkxVVEk0VjNkclZaRUdBc3hOVzFUMFdvb3dld3doRmJFckhhdU5faFVBQzE0VW9ST1NveGhxcmVvd0NzalhpdQ?oc=5",
+          "domain": "supership.jp",
+          "published": "2026-07-08T16:00:00+09:00",
+          "published_label": "2026/7/8(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.4
     },
     {
       "id": "snp_38",
@@ -2095,6 +2095,22 @@
           "is_new": false
         },
         {
+          "title": "BIPROGY、実購買データをベースとした各種マーケティングサポート提供のカタリナマーケティングジャパンの持株会社を買収",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYVmdDLUlLTXFWb3ZYSkpWMW9fYWhHQUNKc3VfUy1GVUtvVUN2RkxDX0kwUEtOdko0eWhYMHhrX0N6cWx3S19rcS1HWmhVNkx5a0ZMTGR1X08zbE01NUZ1bg?oc=5",
+          "domain": "marr.jp",
+          "published": "2025-12-01T17:00:00+09:00",
+          "published_label": "2025/12/1(月) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "【リテールメディアサミット2025】「カタリナマーケティングジャパン株式会社」2年連続プラチナスポンサー決定のお知らせ",
           "summary": "",
           "images": [],
@@ -2109,25 +2125,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "カタリナマーケティングジャパン、日本最大級のリテールメディアネットワーク「AOUMI」を発表。",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SQjNiWFRPaThqNHdMcEpyNmV0TDhRcHFIdzU5YXFUX0lvTkMyTmc3aG56T3NfNnJrZGVjb3h2Q0xVeEhNSFA0OUhlV19mQVBfc3hRd1dfX1lBOXo2YUdlVFlHV3NmelZ4N0E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2025-08-20T16:00:00+09:00",
-          "published_label": "2025/8/20(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "snp_40",
@@ -2220,7 +2220,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.6
     },
     {
       "id": "snp_41",
@@ -2248,10 +2248,10 @@
           "title": "トランスコスモス、世界のAI検索市場を牽引するAIマーケティングプラットフォーム「Profound」を国内先行導入",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EZ21BSWFISE1VZFZid3J1N1BWWmNBNDYwR1VGU1RXVUVEcWdwalVqUGotLXZVNzBsTEt0d0JUVXpyR0RQUmZ1R1UxYllWeldQMXROYnFqQ3JPLUthdzVYUHU3YUVVc3Fq?oc=5",
-          "domain": "news.nicovideo.jp",
-          "published": "2026-11-26T16:30:18+09:00",
-          "published_label": "2026/11/26(木) 16:30",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SbGdnNFliM1psdzBBWUlZOUhDNHZ2bTBnZFNja21Wd1BPMTM4NmFxbllIbkx3dVBQekRCbjl4b2ZYSXZuSDdGS28yem12RnFzY05QT3BSWHpkMmVkWGVLZldQSmZzaTRPUkd6ZUUtZEVUUQ?oc=5",
+          "domain": "news.infoseek.co.jp",
+          "published": "2026-11-27T01:10:02+09:00",
+          "published_label": "2026/11/27(金) 01:10",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -2274,7 +2274,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "トランスコスモス、新拠点に1500人所属 コンタクトセンターとマーケティング融合 沖縄",
@@ -2337,7 +2337,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E5%90%88%E5%90%8C%E4%BC%9A%E7%A4%BE%E6%9C%AA%E8%B8%8F%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_44",
@@ -2382,7 +2382,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_45",
@@ -2406,7 +2406,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEGivingBack%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_47",
@@ -2435,36 +2435,20 @@
           "is_new": false
         },
         {
-          "title": "I&S BBDOとBBDO J WESTの企画・制作した作品が「2026 66th ACC TOKYO",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84WGNhOTJ5YmlwTGZ3eWJ5WVkzTFRlVFR3TmF0dkNZRnc3Z3k2R281OU5USlRZMGRHemxEUk05U1F6NzNIU0xqaDVMSTctRXlwX1IzNQ?oc=5",
-          "domain": "news.nicovideo.jp",
-          "published": "2026-10-15T16:00:00+09:00",
-          "published_label": "2026/10/15(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "「LIA（London International Awards）2026」にてI&S BBDO企画・制作のデニーズ『まっぷたつ？パフェ』がCreative Strategy部門でSilver受賞",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Dd21MUGowclRTemp2LWNBRmYyYXFyV0pLUklNM1hySG1USjcxOEpJZkpvVVBReGcwZ3ktTXk3X2xfS1ZWTDVKWWd2aF9RZk5tSVN5UUdBdjNYSEtzOTFSQmN0TUppVzUtVUo1bnVNSi1XTXJUcTladXdB?oc=5",
-          "domain": "iza.ne.jp",
-          "published": "2026-10-02T12:00:04+09:00",
-          "published_label": "2026/10/2(金) 12:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yelRzU2lZYlJUcm1VTXNmV21yNHJ5aDVXajFSSUhnc1ZfVm9EME1rd1hLMUxSUDRKRGFMMmNRaWY4aFBuYlk5V20wRE9Ba0ljcGJ3by1oenN2dUN1TWs3ZHdPQW9Pam4wRFE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-02T16:00:00+09:00",
+          "published_label": "2026/10/2(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "【人事】I&S BBDO社長に久保下健二氏 永井氏は会長兼CEOに",
@@ -2497,9 +2481,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "I&S BBDO社長に久保下健二氏",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02WUo0NnJrUkc0LU1MUkhrNEsxUjh2TzJFVTQzZ2dTMm1WTTJGWFB1cmhaamhwVGVJUHRWMnR0eVU1aHBXNl82R19XWUFNV2M0OUhfMkFrNWU4aTZWcHlzbXh0SkxENV9OZWpneA?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-09-01T16:00:00+09:00",
+          "published_label": "2026/9/1(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_48",
@@ -2549,7 +2549,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "SARUCREW社員の中嶋学人、第49回NHK杯全日本カヌースラローム競技大会の男子カナディアンシングルで初優勝",
@@ -2616,7 +2616,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_51",
@@ -2628,7 +2628,7 @@
       "via": "https://news.google.com/rss/search?q=%22Sweeet%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "snp_52",
@@ -2654,7 +2654,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社WonderSpaceに元株式会社CARTA COMMUNICATIONS取締役執行役員の佐藤",
@@ -2721,7 +2721,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "snp_53",
@@ -2745,7 +2745,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEmilkyway%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_55",
@@ -2838,7 +2838,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 3.3
+      "elapsed": 2.0
     },
     {
       "id": "snp_56",
@@ -2848,7 +2848,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AF%E3%81%93%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "title": "企業のマーケティング課題を総合支援するプライベートエージェンシー®「株式会社はこ」がユーグレナ・グループに参画",
@@ -2881,22 +2881,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "＜効果だけでは満足できない男性へ＞ 無駄を省き“効果”と“効率”を追い求めたメンズスキンケアブランド 「FUNCTIONAL B」誕生！ 2021年10月25日(月)より公式ブランドサイトにて新発売 | 株式会社はこ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE53X3AyTTJNbjItUEFhS1RWdXB3VTAtOFhNdDk3MG1scmxKVE9Jd3RFUTVwakF3U292dXZscGpESGYxQQ?oc=5",
-          "domain": "digitalpr.jp",
-          "published": "2021-10-25T14:02:19+09:00",
-          "published_label": "2021/10/25(月) 14:02",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -2911,7 +2895,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A2%E3%83%89%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "snp_58",
@@ -2923,7 +2907,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%83%E3%83%84%E3%83%AA%E3%83%BC%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_59",
@@ -3093,23 +3077,23 @@
           "is_new": false
         },
         {
-          "title": "フィードフォースグループ[7068]：2027年5月期Q1決算説明資料（事業計画及び成長可能性に関する事項） 2026年9月29日(適時開示) ：日経会社情報DIGITAL",
+          "title": "【業績好調の要因を聞く】フィードフォースグループ 加藤英也社長「筋肉質な組織で技術力を底上げ」",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LY29rcXRXNFVDbGlidkllbEVJVDFYa2lUWDlRSG1rWFg4dnFXek9ubnFRQ1J2NmJHYllpU2ozNmk4dWY4ZGZEZWc2TmhNYXlTUW45eDRuRUZ1NjJnc0VWaG5yc3BjaDIxZVE?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-09-29T16:00:00+09:00",
-          "published_label": "2026/9/29(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9WRWZNMUpwZ1RsVy1ET29kc3ZrTGhINGkwRWZGdzdoVHVCU2trU1h3cmR6enNmZEZiTUtGMXllamRMWE9OZGhoRS12Q0pLNzVlY2E5Y3R3?oc=5",
+          "domain": "netkeizai.com",
+          "published": "2026-09-01T07:33:02+09:00",
+          "published_label": "2026/9/1(火) 07:33",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "snp_61",
@@ -3119,8 +3103,24 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E3%83%A1%E3%83%87%E3%82%A3%E3%83%83%E3%82%AF%E3%82%B9%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 4,
       "items": [
+        {
+          "title": "メディックスとYoii、SaaS企業向け共同プログラム「SaaS Growt..（株式会社メディックス プレスリリース）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SZTR2SXcxUkk3ejUxdndVZ2dCc01IeEV3ZDBibTgtRTh0Nk93LXU1cHdqZDJXLW5yUVlfNEl3cDMydUhHbjFGbUtYMGRHUkpJSVZ0cw?oc=5",
+          "domain": "zaikei.co.jp",
+          "published": "2026-11-24T16:24:47+09:00",
+          "published_label": "2026/11/24(火) 16:24",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "メディックスが5.5億円でリーグル買収、営業DX領域を拡大",
           "summary": "",
@@ -3138,13 +3138,13 @@
           "is_new": false
         },
         {
-          "title": "株式会社メディックス | 導入事例 | 法人のお客さま",
+          "title": "株式会社EPARKが株式会社メディックス＜331A＞株式の大量保有報告書を提出",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVc3pzXzRXay1XWjh4NDhnM2JleER4czg1bXMyT3hrWThrTW5kelJpLUs4OXFtY2Z4MmtkZ3VWRkh2ai02MmYzMmRPWldldlFtQzdqZVVIdFhlM3JtYjNJ?oc=5",
-          "domain": "softbank.jp",
-          "published": "2026-03-23T19:07:28+09:00",
-          "published_label": "2026/3/23(月) 19:07",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ2kwcl82a0xKc0tLUmc0dUdJV0F4Vjc3dW5hVVd1X0poMVNOQXhlYmVtTE82T2pZc19sUm5oMVpNd1c0VUNxbmNwRVBiSHpzRWJUM19kSzVqXzM5ZFk5a05LQXR5UUJPVDFEWTd2WkhrVW43WnM2d1N2amdTRXJscm5hVE7SAYoBQVVfeXFMUEI4U0RrZHd1RWJlM0RMZlV2aFlXQzM3WWF3UUJZZUlINzM0YkZSOXFtLXlBeHBmdDlNWlp6ei05SHYtMXpRTzA3OTM3azdpN3hvZVg3aUtNaDA4S0lkNzZVaWxGRkF0RUJSTEdacUotU3dic3ZxSGVSamx3bEJXbTVBSllPRWY1X0ln?oc=5",
+          "domain": "topics.smt.docomo.ne.jp",
+          "published": "2026-11-20T16:08:00+09:00",
+          "published_label": "2026/11/20(金) 16:08",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3154,13 +3154,13 @@
           "is_new": true
         },
         {
-          "title": "ＳＲＥホールディングス[2980]：株式会社メディックスの株式の取得（子会社化）に関するお知らせ 2024年3月7日(適時開示) ：日経会社情報DIGITAL",
+          "title": "埼玉上尾メディックスが選手のSNS運用の禁止行為の項目を追加（バレーボールキング）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBQV2llNzJxeFdKajEwYmthUW9lRVVRanZUMURMbXY2VzRzejd2RzFRNHoySEdRRDBsb2R4Z01zSHR4T25iTktqVWJyXzM3czhWQjUtZkxNbWZvdW5xdmhCdWdlSjAyQmdjbFE?oc=5",
-          "domain": "nikkei.com",
-          "published": "2024-03-07T17:00:00+09:00",
-          "published_label": "2024/3/7(木) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5icWxfV0k3X3daVVhHRlFCcjI2bWJ0WE1nSkE4Qzh4b1ZnZXc5TnpTLWtwcmRORnlIb2o4aVFVZFlVbDlGek1qRmlVWVU5cnRtNUdwUlFoVkZQOC1va05QZW1JRW1nQnJ6eXY2ZnVOQksyUUtmOFRDbmF4eVN0QmM?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-10-14T16:00:00+09:00",
+          "published_label": "2026/10/14(水) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3170,7 +3170,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "snp_62",
@@ -3202,17 +3202,17 @@
           "title": "新時代の営業を提案するEmooove、株式会社ワンスターへの導入事例を公開。LinkedInとCxOレター（手紙営業）で、接触が難しかった各業界のデジタルマーケティング決裁者とのアポイントを獲得",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBZeGxiYm00eUs2d2g2bDI4NlI0OHRXNldhdkdkNWNNQ2ltV1NLR2FGLTE1cjV1YVVaVUNBckptYlNzNFFhVE1LXzVvdU14clA0WUJua1NkeG5IdGhJNDA5ZTQ5VUE1MzVZZGpN?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-10-17T16:00:00+09:00",
-          "published_label": "2026/10/17(土) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45SWhZMk8tQlJCUHN3ODN1VHYyOWlwQjVIX1BsckhMUDg1VHdyNnN1YkVhdWZHakdSMHUyQXJ6STRQbWpycHVWU2xhVUZ4UXQ0SjFtZmpBTGJucGFTUTdrNFc3bmo4RUhzU2c?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-16T16:00:00+09:00",
+          "published_label": "2026/10/16(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "株式会社ワンスター、Meta日本法人「Meta Agency First Awards 2025」にて 「Best Solution Award - AI部門」を単独受賞！",
@@ -3263,7 +3263,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "snp_63",
@@ -3430,7 +3430,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -3457,7 +3457,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%22%20OR%20%22%E3%82%AA%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%BB%E3%83%88%E3%83%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_67",
@@ -3665,7 +3665,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社Helios、株式会社長大と環境データ解析システムの社会実装に向けた基本合意書を締結",
@@ -3745,7 +3745,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "snp_72",
@@ -3879,13 +3879,13 @@
           "is_new": false
         },
         {
-          "title": "【5月28日放送後】HAPPY LIFE RADIO｜生成AIと日本のモノづくりの未来✨株式会社TEN-X 財部翔平さんご出演！",
+          "title": "不動産ネットワークサービス「TAKTAS.」加盟企業300社突破！ エコロシティ（株）・（株）TENと業務提携「TAKTAS.」パーキングも開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa3dPSms3TThtSENzMy1iVEZjZGJuN0FIeHlBYnhSN2M4S3JsMzJtVUczUEh2ZEs3S2laN1Zab1V6TzUxNFJXT1pyVm8yNWVmME1RMHNvRlVnRS05VHBVRnBlWXJ4aFNwSlpFUGlIQlJFeTlKVTVYTzlrVDhnclJrN1V6bmxtdEJndDJlUmZUNFFwUQ?oc=5",
-          "domain": "myufm.jp",
-          "published": "2026-05-28T16:00:00+09:00",
-          "published_label": "2026/5/28(木) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84c041VElpbE5kQk1ER0JFdmVRU2F5QlNnQUFxVlZNNlNCT05ZdURrR29COWNYeklhLU5zaVRNdG9hMXhPcHV6MS12S3ZrSHpsTU5WNjNTa1puckdxbUpaS09nZlpTWFpMSnc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-06-01T16:00:00+09:00",
+          "published_label": "2026/6/1(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3907,7 +3907,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BEshiroiro%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_76",
@@ -4000,7 +4000,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "snp_77",
@@ -4103,7 +4103,7 @@
       "status": "ok",
       "error": null,
       "via": "https://news.google.com/rss/search?q=%22%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%82%A4%E3%83%88%22&hl=ja&gl=JP&ceid=JP:ja",
-      "count": 3,
+      "count": 2,
       "items": [
         {
           "title": "推し活女子の７割以上が「推し疲れ」経験あり！最も「推し疲れ」が多かったジャンルは… | 株式会社アップデイトのプレスリリース",
@@ -4113,22 +4113,6 @@
           "domain": "prtimes.jp",
           "published": "2023-02-01T17:00:00+09:00",
           "published_label": "2023/2/1(水) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "MMD研究所にて2011年1月より調査ロウデータのダウンロード販売を開始 / 株式会社 アップデイト",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zVFhlTmxuT2N2aXRpWnpMNXM5OV9FVmJsNVY1ZE5GMm90cVZMbkd1QWZIc3BCR19aRDJQRWZrN1AwZGo2dHVCanEwWTM1bFFtR3Rua3AtNjNfWHNF?oc=5",
-          "domain": "mmdlabo.jp",
-          "published": "2014-03-01T14:06:15+09:00",
-          "published_label": "2014/3/1(土) 14:06",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4167,6 +4151,38 @@
       "count": 5,
       "items": [
         {
+          "title": "カカクコム[2371]：（変更）「Kamgras １株式会社による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ 2026年11月27日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcXdEN255Mm54OU90Um9EUmEtVE5nTk5sZDVJSm8yeTctU0xHTFB2RGVoTlduQktEOHJHX2RUX0M5VjZTYnlnVXNYTzRoZ1VmZFNUQ25mTHNNUWl6NTJvVXdCanNHa3BBX0NCY1Etdl9yalJYRXhoLUt6T1hZUXMxMk9IeS1Fal9PaWE2Z3dmRDFURVQ1Y0dVMHJaSzVseUNoTFVsSHFkeDBwRElHZVROWkprazBuV0RHSDJEMTZLMkYzWlhHT3Y1c2kxVWQ?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-27T08:30:00+09:00",
+          "published_label": "2026/11/27(金) 08:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "欧州ファンド、TOB価格1円上げ＝期間12月10日に延長―カカクコム争奪戦(時事通信)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ2FZUGhFbW8xT3NYdlV1b1JGOWIzT3owSUR1cjBYOFQ4ZXJKTlpaNEpTLUlLRVBVS1hxdGZxVmg3c19PV0VHTlNWQ3lhclllU2M2U2pzaHVfMWtJWGpySjF5bnJfalpjOWFMV0tYYVQtdWZRbDdnRVZuRUstcmJhZ2o2UVBZWW8?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-26T19:35:43+09:00",
+          "published_label": "2026/11/26(木) 19:35",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Kamgras 1、カカクコムTOB価格を1円引き上げ 期間は12月10日まで延長",
           "summary": "",
           "images": [],
@@ -4180,7 +4196,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "カカクコム",
@@ -4196,7 +4212,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "欧州系ファンドEQT、カカクコムへのTOB価格1円上げ 12回目の延長",
@@ -4212,39 +4228,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "EQTがカカクコムTOB価格1円引き上げ、期限も延長し7カ月の長期戦に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM19CT3BkQUZhTzc1ZlhYaEFJN2VrVXdzWXN1Nzl0TWtPdzF5ZE1pdXVWSmlEWS1PNWRTUnJNWVZ4MWRiRUpPWUM3MThiNHJFcHUyeUJNR0w5aWJyN3ZITWZCM2Q1QW1QWlBYaGNKME9MQUpXY1BEd2lDQ2NKdmd4STB1UWo1QVhsLWlNekJR?oc=5",
-          "domain": "bloomberg.com",
-          "published": "2026-11-26T16:20:00+09:00",
-          "published_label": "2026/11/26(木) 16:20",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "ＴＯＢ銘柄一覧（24日）－カカクコム、かどや、リソー教育Ｇ、サンケイＲＥ、中電工など(トレーダーズ・ウェブ)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMWI0WkY5NU1CZDRpajQzX2pDYkhTN0JaQmU2OUhqbFVhVC1UanZWUUhaVkIyNFh4RmFnTDBqQVlCYVRRU0hQRHJYMXljUXJiRFkwdmFPaWp5R1l5eWtiMlU2WVQwYXg4UnR1VGk3Wkh3VUdjU2trWmhiZ2NsREF1N0twN0tadTg?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-24T07:10:04+09:00",
-          "published_label": "2026/11/24(火) 07:10",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.5
@@ -4289,7 +4273,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社キュービック、本社をJR新宿ミライナタワーに移転",
@@ -4305,7 +4289,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Cenakaインターン、シニアパートナーに元株式会社キュービック人事責任者の森實 泰司氏が就任",
@@ -4321,7 +4305,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社キュービック、2023年1月21日(土)に 『クイズ王 伊沢拓司に挑戦！第4回伊沢杯』を開催",
@@ -4337,7 +4321,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -4369,13 +4353,13 @@
           "is_new": false
         },
         {
-          "title": "LinQ、預金仮差押えを巡り、株式会社セレス子会社のアポロ・キャピタルに対して法的手続で争う意向を表明",
+          "title": "セレス、子育てサポート企業として「くるみん認定」を取得～仕事と育児の両立を支援し、豊かな世界を実現する",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsMmlHVHlZS1Jlb19JQXRRTDRhNTB0ekZPc2NrZDRHaGRPa095SFlIUldBUTR2Q3VKQm9CeVdpNnE2TWlBaFJORmpiZWd6MFZpWDNMcjNhek1meEdFaVRoZFEyWjVCR0ZsTEE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-19T16:00:00+09:00",
-          "published_label": "2026/10/19(月) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBnYUt0SkdsRU1QOTdmcmxFZHpOY29DTFFFXzQ5eVBQbDRnWWlxc2JiU3Q0ZnFxbElrSkktMnRpRzJZUUpGcHMzR3dWOVVEMmpfUmo2SkRDaw?oc=5",
+          "domain": "ceres-inc.jp",
+          "published": "2026-05-26T16:00:00+09:00",
+          "published_label": "2026/5/26(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4385,13 +4369,13 @@
           "is_new": true
         },
         {
-          "title": "アストリス・アドバイザリー・ジャパン株式会社が株式会社セレス （証券コード:3696）に関するビットバンク株式売却と自己株式取得アップデートレポートを発行",
+          "title": "セレス、子会社を集約し渋谷サクラステージ SHIBUYAタワーへ本社を移転～コミュニケーションが自然と生まれるオフィス設計で事業間のシナジー創出へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVQVpuMDhiNndOZlpiaEpOMzRaR1ZPbGxvUlJ4OUJMbmZ2cnhSRk1GU3lFOUc3akNSd2RVQzdGZTBqZXIwR2FNaFQ2bUxLN01CeFZ6aVlLRG0telFnT3B5X3FxS0RnNTZzcDEzemtMS1JQUQ?oc=5",
-          "domain": "news.infoseek.co.jp",
-          "published": "2026-10-10T16:00:00+09:00",
-          "published_label": "2026/10/10(土) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95ZzJGbGFfWk4xQWtLR0VxWFJjYXhrVDNEbmRua0NhY24yNWgxUUE2STFMTDFwSFZBdS1QM0taeWgxZWtVT2MxUi1DcXAwaTdtNDgwbw?oc=5",
+          "domain": "ceres-inc.jp",
+          "published": "2024-02-28T17:00:00+09:00",
+          "published_label": "2024/2/28(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4401,13 +4385,13 @@
           "is_new": true
         },
         {
-          "title": "株式会社セレスの真実｜モッピーとWeb3戦略の全貌と噂の真相",
+          "title": "株式会社セレスさま",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9qOVdQWWQ4Q2MzNEpNOU5CMVQtNlF6RWVmaWhpVVQwdFhZdWlEbndLcjRMTGt4LVFCRW8waThzZWxESEFFVFhYMmhJN0JROVVydWFoQ3JnWHE2QXN5Ty1QeENRNC0tZFhfZkxn?oc=5",
-          "domain": "bizilabe.elhuyar.eus",
-          "published": "2026-09-20T16:00:00+09:00",
-          "published_label": "2026/9/20(日) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1UcFE0ZjlBLXo2azdKVDRlZEJrN0NyNVpwQTI5ajBVQ293bDAzZ0tnMEFsc244MHV1OVBNalpyUGNhX1BDVnV1aC1iUFFPNGZr?oc=5",
+          "domain": "7ps.jp",
+          "published": "2023-07-21T04:29:14+09:00",
+          "published_label": "2023/7/21(金) 04:29",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4417,13 +4401,13 @@
           "is_new": true
         },
         {
-          "title": "「Forbes Asia’s Best Under A Billion 2026」に４度目の選出 | 株式会社セレスのプレスリリース",
+          "title": "カーボンオフセット - サステナビリティ | 株式会社セレス - インターネットマーケティングを通じて豊かな世界を実現する",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fbEtKVmFReE1WQTR4WGFramt3VU5objBlWEdqYVlYU2hlRGtsODVNMGg0QmF3dWptV0laVHVPaHJlTkpESTFaMW9HMjRhMUpfVjhJVnJuSDNTTlEyZEM1OXNEb2RMYVo2V0E?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-08-28T16:00:00+09:00",
-          "published_label": "2026/8/28(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Bd3FBa1VYYWNrYkNLUHRkRThJcFhTVnhmWjhrQnh4SDJ4VUdObmtlbEFtTjZrV25Yb3pXcUg2NExGOWFXZU9od3ZXSUxQWkNwS1FUSXBOZWZWaENqRmdzZHJJV1dGdFRKQ2V6TA?oc=5",
+          "domain": "ceres-inc.jp",
+          "published": "2023-03-31T19:20:35+09:00",
+          "published_label": "2023/3/31(金) 19:20",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4433,7 +4417,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.0
     },
     {
       "id": "snp_82",
@@ -4446,13 +4430,13 @@
       "count": 5,
       "items": [
         {
-          "title": "デジタリフト[9244]：2026年9月期 通期決算説明会資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "title": "デジタリフト (9244) : 株主優待・優待利回り [DIGITALIFT]",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBd1RSekV5U3ZMWS1vMjJjRzJYNHRCTUFMZTBPUF8xUUNIZDc5REE3dDB5TmFUOWw5LW1DZS1KRE40cXVuR1JsOFRic1dlbXMwRzVidWcyVmpJSmJGQXBmQm9FYWpQakJHQmc?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYWnhKejNpMGFkN1MtcTM4OFpuTmpBVUJpaS1xTEkwZkFPZ0FDaUNIQjJFSGI3ZFlsZXZsR19TdElaRGRFNUZfNXluNA?oc=5",
+          "domain": "minkabu.jp",
+          "published": "2026-11-20T15:30:00+09:00",
+          "published_label": "2026/11/20(金) 15:30",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4494,6 +4478,22 @@
           "is_new": false
         },
         {
+          "title": "デジタリフト[9244]：2026年9月期 通期決算説明会資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBd1RSekV5U3ZMWS1vMjJjRzJYNHRCTUFMZTBPUF8xUUNIZDc5REE3dDB5TmFUOWw5LW1DZS1KRE40cXVuR1JsOFRic1dlbXMwRzVidWcyVmpJSmJGQXBmQm9FYWpQakJHQmc?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-13T17:00:00+09:00",
+          "published_label": "2026/11/13(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
+        {
           "title": "(株)デジタリフト【9244】：決算情報",
           "summary": "",
           "images": [],
@@ -4508,25 +4508,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "【決算速報】デジタリフト---26年9月期は減益、経常利益は39.4％減(フィスコ)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYkwxTHVQZzdfSmlGNlpmMFVjcmUzdXRmeWxCMVlENkhhYW5yTjdWNzhmdFpXai1FcnJLZE92N0taZEQ2YVIyVEN1RFFGeU8tMkFGbGNjdTZ6cENvM1JmWjdESG1rcGpudC1RZU1TZVNxLVRlczctM3BGcU5IeVY3RDJzZWdBb00?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T14:47:22+09:00",
-          "published_label": "2026/11/13(金) 14:47",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "snp_83",
@@ -4538,7 +4522,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%8F%E3%83%8B%E3%83%BC%E3%83%93%E3%83%BC%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "snp_84",
@@ -4580,6 +4564,22 @@
       "count": 5,
       "items": [
         {
+          "title": "フェズ、データマーケティングソリューション「Urumo Ads」でイズミと新たにデータ連携を開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmenJ0eVBmREd0WHNWUUtTWG9kTzhOUktqaWcxRHZpZFFTUG1HOXN4OXQzWXhBWG9oMG9Hc3cxcVVaMW1hdkJfMzlvbFBwY1ltRWt0YWZXQQ?oc=5",
+          "domain": "commercepick.com",
+          "published": "2026-10-28T16:00:00+09:00",
+          "published_label": "2026/10/28(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "フェズ、データマーケティングソリューション「Urumo Ads」にて新たにイズミとデータ連携開始",
           "summary": "",
           "images": [],
@@ -4596,71 +4596,55 @@
           "is_new": false
         },
         {
-          "title": "フェズ、URUMO株式会社へ社名変更 | 株式会社フェズのプレスリリース",
+          "title": "フェズ、2026年12月3日付でURUMOへ社名変更 リブランディングを実施：commercezine",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90U3QzTDFrbHRfSFo2ZVNHaFhwUlVsRVZhQnhYSUROUlhOM2w3SlZoWDdiUHo2MmNoQlBWMGM2eGUwTDRYLXdVZVMyZ2Z4ak9peEgzVEtfVVA5bUF0ejhyRVN6TGI3V0VwRkE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-21T16:00:00+09:00",
-          "published_label": "2026/10/21(水) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jMmZ4Zm5pLW1YV0htNVdweEtaWHBuRnVrOGR0VUJveFBMRzNGQUNaS3ZjRmdEM1Q4REJOV2JsNVVKeklpeUw5TWRaTEFHaFU?oc=5",
+          "domain": "markezine.jp",
+          "published": "2026-10-23T16:00:00+09:00",
+          "published_label": "2026/10/23(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "フェズがデータマーケティング「Urumo Ads」で「TVer広告」のCTV配信での購買検証機能提供（Web担当者Forum）",
+          "title": "フェズ、12月3日付で社名を「URUMO」に変更 リブランディングも実施",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DZU1YMXBNNkdWUU1lR2NpZUhtM3JUb2cySnpsTXFLLTdDSUo4RzdRUm1lTWdvbk9UWWZyanN3Y1E0MDZJNlc5Y1U3d0FZSUo5WXFTell5LUZwTXRkN2NaOC0wRUdJYW5OSFVBcnowemsxQVZMX2lhakdMZkRpblk?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-09-25T16:00:00+09:00",
-          "published_label": "2026/9/25(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qVDBycXVOMmExZWtBdFhGanROTlR6QjF5VFQyN0g2bTZfSE91Q19oeEp3WWhyeTZsVWhlUExxOVFzYmYtU0tOQWZvT24yY3M?oc=5",
+          "domain": "markezine.jp",
+          "published": "2026-10-22T16:00:00+09:00",
+          "published_label": "2026/10/22(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "フェズ、ツルハHDとウエルシアグループの顧客データ統合を完了しグループ横断1to1マーケティング施策を開始",
+          "title": "フェズ、「URUMO」へ社名変更",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MZHlMY3d5cXp4QXp2NkhvYUE0WDlxMjJfMFQzX0R5QjdfWlJ0WEoxNm5Hb3lXZVRxbWU0MXRwbGp4bGRmOEJQYm1fdm94T0lLLVhUSXpIZw?oc=5",
-          "domain": "commercepick.com",
-          "published": "2026-09-08T16:00:00+09:00",
-          "published_label": "2026/9/8(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oRlZHTUhCTU93ZnBoM3dMYVFDTmEwbE5aeGpSVVA4STZRaGdOUFowNW9nWkZIOUk5bkhuRWp6eFNicjRIUHYtdzUxeGp1dw?oc=5",
+          "domain": "rtbsquare.work",
+          "published": "2026-10-22T13:16:14+09:00",
+          "published_label": "2026/10/22(木) 13:16",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "フェズ、第26回 JAPANドラッグストアショーに出展",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Xd1NkbzN5QXhKd1lybWI4akRyaldiYXE0VzMzblZTSVZMR3M4cThuVXh2V185cnNrMlJMRHJTbmVoNHpqVjBsUHNROWVXZktPRE5yYWlCdHlHbTZFRWZOUmFMMi1oVnlsRGc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-07-07T16:00:00+09:00",
-          "published_label": "2026/7/7(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "snp_86",
@@ -4794,13 +4778,13 @@
           "is_new": false
         },
         {
-          "title": "フォーウェイ、メンバーズの伴走支援でデジタル広告運用を内製化 代理店手数料を広告投資へ還元し、書籍販促の成果最大化へ",
+          "title": "メンバーズ（2130）、DX現場支援への転換が進展 2026年3月期は付加価値売上高が過去最高",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXaEV2Zl8yT2VTdzZUZ3E2QUJMdXRkUWtxc2w5NDJXYU9aTkxSRU00Nm9Hd3NWZndQUVo1a2dLSEQwVDhXMWt2NFpxdkxXWVFVU0dSTDZpTExQb25BUE9fYTNhOUF5THlFT3c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-06T16:00:00+09:00",
-          "published_label": "2026/10/6(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3ekh4dUVub3YtR3lTV0J0YjVJcExLS2N3RVdZczhHa0RPWE84S0h5QXdpZXZPQWM1ZC1Edm1jbTAxX2lZRnA1dnNwRHNwUmVuM3c?oc=5",
+          "domain": "finance.logmi.jp",
+          "published": "2026-05-21T16:00:00+09:00",
+          "published_label": "2026/5/21(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4810,13 +4794,13 @@
           "is_new": true
         },
         {
-          "title": "メンバーズ「広告内製化白書2026」を公開。有価証券報告書6,245件を独自集計し、上場企業1,173社の広告宣伝費などを分析",
+          "title": "株式会社メンバーズ nu.Designカンパニー、山形大学と「新規事業の実装と成功確率を高める共同研究」を開始～産学連携による「体験型プロトタイピング」で、事業創出を牽引する人材育成と組織変革を推進",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UU0FwbHJ5bTRnbEtqSWgtUEctLWRMQko2YTJUd0drNnY1Yk9kN2ttb21PNTQ3X2xHVmp5U2U2aUJzcGRab0FrOGxPVlRmbjY1NTljaWEwdW9YTVVsbi1ISjdTLTB3T2p5Ync?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-09-29T16:00:00+09:00",
-          "published_label": "2026/9/29(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZOE1SVkI2MjB2UlJCYUFncE5sVE9yU1VtXzZiWm1EZ1BDSlhRc2RPZ0dFLTVWaWIxZktmcHlvN2UtY2JGOU9GdzY3eXZfR1RBRWhvSmpTd3otMGFRTjNHQ0JPVGJqTFk?oc=5",
+          "domain": "minpo.jp",
+          "published": "2026-04-09T16:00:00+09:00",
+          "published_label": "2026/4/9(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4826,13 +4810,13 @@
           "is_new": true
         },
         {
-          "title": "AI推奨商品「クチコミがなければ購入を見送る」57％ メンバーズ調査",
+          "title": "BUSINESS CORE 株式会社 メンバーズ フォーアドカンパニー カンパニー社長 田中 秀和",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44a0NkR19xeklKM1RXbHgyRS1JWEhmNmFLdEtFRWJyRE1NamV4RHM5ZzRaNjJNNnBjN0xaZGZlWnF5dnJUbjZWVmQ1X2lEVVJybzlmVHA0aVVWUQ?oc=5",
-          "domain": "ecnomikata.com",
-          "published": "2026-09-25T16:00:00+09:00",
-          "published_label": "2026/9/25(金) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tS1duUDBUUEljLW9qZ3JzandyYTZMeXlKRnlvbjlFWGlaT0ZaeGY1SDJXLW9ELXk5cGJiQ2taT3JpYmVfVlZPWWN6NXhDQXpzRll5Z2xsNWxTWDJHSG9B?oc=5",
+          "domain": "challenge-plus.jp",
+          "published": "2026-03-01T17:00:00+09:00",
+          "published_label": "2026/3/1(日) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4842,13 +4826,13 @@
           "is_new": true
         },
         {
-          "title": "【日本企業のサーキュラーエコノミー実態調査2026】地政学リスク・資源高騰で事業転換への機運高まるも推進企業は1割未満と停滞。AI活用企業はPaaS転換・異業種連携の実行率が未活用企業の約2倍に | 株式会社メンバーズのプレスリリース",
+          "title": "メンバーズ、金融・公共領域に強みを持つUX・UIデザイン会社 株式会社アジケを子会社化",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tcHNZbGFHcHlUbXFJb3BfcFZvaXdjNjdRUjBETkF4MkNxRTRTd1BoZ1pBcTA4VXpzVm1BU3VZd1ZpbGhoOFAxbkItTndyTEgwQWRQUmNKTnpJbjdzWUtYVkwtUHZVaEc0Vnc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzS3A5M0FkSkpldVNlMW1BUnY4R3ltVlJZVjFHRFBfM3VreFZaYkpoYU9aRmpJa0dtanVLSGpIc0JMRkQ2UlM4eDFva3Rjb2FRZE1FOTBWUUw0aWZuRkhJb29zQXlYMGhINlE?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-09-17T16:00:00+09:00",
-          "published_label": "2026/9/17(木) 16:00",
+          "published": "2025-12-25T17:00:00+09:00",
+          "published_label": "2025/12/25(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4887,7 +4871,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "snp_90",
@@ -4980,7 +4964,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.3
+      "elapsed": 1.5
     }
   ]
 }
