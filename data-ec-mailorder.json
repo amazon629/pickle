@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T07:28:18+09:00",
-  "generated_at_label": "2026/11/26 07:28 JST",
+  "generated_at": "2026-11-26T13:58:43+09:00",
+  "generated_at_label": "2026/11/26 13:58 JST",
   "title": "通販・健康・コスメ54社 ニュース監視",
   "total": 250,
   "sources": [
@@ -76,7 +76,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "広告高騰・CPA悪化のキューサイ 9分類の顧客別マーケで購入単価11％増",
@@ -92,10 +92,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecm_02",
@@ -188,7 +188,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 1.3
     },
     {
       "id": "ecm_03",
@@ -281,7 +281,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "ecm_04",
@@ -374,7 +374,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.8
+      "elapsed": 1.1
     },
     {
       "id": "ecm_05",
@@ -386,6 +386,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%95%E3%82%A1%E3%83%BC%E3%83%9E%E3%83%95%E3%83%BC%E3%82%BA%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "ファーマフーズのGABA素材「PharmaGABA®」がISPHのWorld Gold Award 2026を受賞",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MWlJONFI2b1BZaDRUQ3Fac19WMFBwMWtMMXM2bDhFN2VUWS1FVEQzdmZ2Zk9pdlFHVVRKSEV4eTctZk9UZGhGVEV3X3BGT2M3R2FYS2RnczlnSEJGMk84NHNSNzdhcTg?oc=5",
+          "domain": "j-cast.com",
+          "published": "2026-11-18T18:20:00+09:00",
+          "published_label": "2026/11/18(水) 18:20",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ファーマフーズ（2929）、新中計で創薬・卵殻膜繊維・アグリを成長事業に 2029年7月期売上720億円を目指す",
           "summary": "",
@@ -416,7 +432,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ファーマフーズ[2929]：（開示事項の経過）子会社の異動に伴う株式取得（子会社化完了）に関するお知らせ 2026年10月30日(適時開示) ：日経会社情報DIGITAL",
@@ -435,29 +451,13 @@
           "is_new": false
         },
         {
-          "title": "ファーマフーズ[2929]：中期経営計画2029「1Kプロジェクト - SPRING戦略 -」の策定に関するお知らせ 2026年10月16日(適時開示) ：日経会社情報DIGITAL",
+          "title": "健康食品や医薬品の「ファーマフーズ」、M＆Aでフィッシュプロテイン活用の新事業を創出 連続買収で売上高1000億円へ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpb2lncGFiOC03NlI5RHpzQVJzZ250YXh2VG52QWVJelZVc0ZkSzRUNXg3M0tUcGFHZGpLa0I5bXZ6VVgyQlM2dW1FcWtaazFOVmlHU3BORE5DaExPaElrd3U2TXpmTFZSc3c?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-10-16T16:00:00+09:00",
-          "published_label": "2026/10/16(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "ファーマフーズ、病院向け食品のマリン・プロフーズを50億円で買収",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXckh5SjJTbWxmdmhBUlVtV0xpdjhPbnMwM04wVUlWNmJOR3U5RnRHMTJWeDhYWUtycGZTZ0ZGTnJsdTdGd0w5QXlqc2k5dkZ0XzA0ZFc2QndNcFBpWWUyemZEZDBEcUtsOHZnbg?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-10-06T16:00:00+09:00",
-          "published_label": "2026/10/6(火) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBczA1OUhvZndpSFJwd1ZQN3haYzMxWGFQRW9wXzBpRm00SXkyQUNzbmVDeFI4TVlTM1lYZXMyOXFvYWt4VDBiMEp1OHpQSGNqT0NhZERDdXctalBCOGdhTkVWTVlwa1E?oc=5",
+          "domain": "maonline.jp",
+          "published": "2026-10-26T16:00:00+09:00",
+          "published_label": "2026/10/26(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -560,7 +560,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.4
+      "elapsed": 1.3
     },
     {
       "id": "ecm_07",
@@ -653,7 +653,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.5
+      "elapsed": 2.1
     },
     {
       "id": "ecm_08",
@@ -746,7 +746,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.7
+      "elapsed": 1.3
     },
     {
       "id": "ecm_09",
@@ -758,6 +758,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%80%E3%82%A4%E3%83%89%E3%83%BC%E3%83%89%E3%83%AA%E3%83%B3%E3%82%B3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "画像1 / 9＞ダイドードリンコの「ユニークな自動販売機」とは？その正体は、取引先の持つあらゆる課題を解決する“ホスピタリティ”の結晶だった",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pRXZNWDN3MXp0UkJNWkZ0TzhrNTctQ2luNWVtaEhadGpGai1oM3BYRkRpejhjMGcwWDNiRWJ1M3NqYkdIbHZvQUdrd0pvMEFsYzN0OHFuaTZzcExqd1VoRno5T3NUdUN1ZTdhTnJB?oc=5",
+          "domain": "walkerplus.com",
+          "published": "2026-11-23T08:17:43+09:00",
+          "published_label": "2026/11/23(月) 08:17",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "ダイドードリンコ、創業以来初の商品ブランド“全面刷新”へ 2026年秋冬商品から…ロゴ＆パッケージ＆自販機デザインも",
           "summary": "",
@@ -775,71 +791,55 @@
           "is_new": false
         },
         {
-          "title": "ティラミスのドリンク ダイドードリンコ｜全国のニュース｜Web東奥",
+          "title": "ダイドードリンコ 自販機で商品情報さらに詳しく 共創SPAモデルへ各種企画",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ra1ZTYzhvQUljcWtQbl9HUjNFeXVra2lfSmp2MTFkYjl3cnlWVUZway1QUmozYU10NUdBdzRscE82XzltM3poemVaS3hyUFJDME1PQ1JCS1A?oc=5",
-          "domain": "toonippo.co.jp",
-          "published": "2026-11-19T13:39:39+09:00",
-          "published_label": "2026/11/19(木) 13:39",
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CMG9ueEFjNHJRd1Nha1VwNDdMMUNJMktYNG5RZHY4NlI0WldHeUpUc0VCSHFycDBxMU9DLTJ5WldSYnJDazVsYVJJUVlEVjJlTEMxODZnUFB6Q09iVE1UdQ?oc=5",
+          "domain": "shokuhin.net",
+          "published": "2026-10-05T16:00:00+09:00",
+          "published_label": "2026/10/5(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ロコモプロb（ダイドードリンコ）2026年10月21日発売",
+          "title": "ダイドードリンコ 初のファンサイト開設 消費者と新「ブランド体験」創出",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oSlk3c3dBc3psSGQ1eDd4SXkzbXR4SU1EeVFETDd5ZFFuT0pPM0JhS3I2dThYUXlEV3k3V3JLOWpBT1F1Y0RlR0tHR1AtV05fWF8yMFJkODhYSXM?oc=5",
-          "domain": "news.nissyoku.co.jp",
-          "published": "2026-11-18T07:48:29+09:00",
-          "published_label": "2026/11/18(水) 07:48",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aM29TNE5uUWpuV2hHNW8wU3ZPY21tVkotbzB1ZDRHNnkyck4zRFM3dEx4MmNHOEotRTFkY0ZSOWMtSldpMlJvYVk1UWRjU2t3dURyeTBHMzlJMWVhYlJpc0xDRVpadGNaek5mVQ?oc=5",
+          "domain": "shokuhin.net",
+          "published": "2026-09-28T16:00:00+09:00",
+          "published_label": "2026/9/28(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "［ブランドメッセージ部門］メッセージ好感度は、ダイドードリンコの「こころとからだに、おいしいものを。」が3年連続首位",
+          "title": "ダイドードリンコからコーヒー豆不使用のラテ数量限定発売 「コーヒーの2050年問題」見据え開発（食品新聞）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtZ0dheW9OWjdzYXNPQjlpSS1FdlFZNFBjMlpqUUxDUW52c0d3TmwxLTlNYy1rQUFjUUk1Z3BjdW1XaHdlQ0ZvQmFuMXpuYU1ZWWtRbGU2d0JoT3BPT0docERqWQ?oc=5",
-          "domain": "consult.nikkeibp.co.jp",
-          "published": "2026-11-17T10:07:22+09:00",
-          "published_label": "2026/11/17(火) 10:07",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54bDlXMnd4NzM2N2xHWlVfU2VQZDYyZ2FDcVZ0Zm4taVdtNV9GX21pWVBTSEZjcmVFdFVDaU1sRXBiTkl3UGwzRGlOTlR1eDA2QV8zYThFbFoyVi1MdFUxTktGR0I3NE85SGMwaVpuQTdScHE1UUM0dFN4aEROM00?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-09-18T16:00:00+09:00",
+          "published_label": "2026/9/18(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "缶・PETコーヒー飲料特集：ダイドードリンコ 豆・香料不使用ラテ投入",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xSm5jNF9OZDZtUm1VWWV5MFBvS3RFZHJXam9Jb0VxdXpsZkNkSW1zRlJwMFBIMEs3NGh1T2VpQlVjUm9adnlUanVLa2ItdDgtX3g1Y1Y3bFpNa0pkbTVBRGdrc1M?oc=5",
-          "domain": "news.nissyoku.co.jp",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_10",
@@ -932,7 +932,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 1.5
     },
     {
       "id": "ecm_11",
@@ -961,22 +961,6 @@
           "is_new": false
         },
         {
-          "title": "【トゥルースリーパー】低反発マットレス市場13年連続売上金額No.1 | 株式会社オークローンマーケティングのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14M0tLQ29tUzVxQlo4TC1IaE01SW5mWmQ2bVRkeS1OVHRPMlZILUZXRGs4RVI3ZkQ5d3pXWEYtby1TclNob3l3QV8xNmlsUkE3b0VzNl9lakQxeE5jblA1enpaSUxKRkZnbGc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-01T16:00:00+09:00",
-          "published_label": "2026/10/1(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "株式会社JINGS、株式会社オークローンマーケティングの広告施策効率化をAIで支援",
           "summary": "",
           "images": [],
@@ -984,22 +968,6 @@
           "domain": "news.infoseek.co.jp",
           "published": "2026-09-01T16:00:00+09:00",
           "published_label": "2026/9/1(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "虫歯予防の日に見直す「歯と健康寿命」世界販売台数190万個突破！「オーラルスマイル」 “歯間ケア不足”という課題に、最短1回10秒の新習慣 | 株式会社オークローンマーケティングのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzUkpDQmp1T0c2TVloUzV2Q0NvR3R3bURJbzJCaEdvNVQ3NHRjV1FxSkxnSXAtdl81Ukd3M3g2R0QyN05oWEpMT1FaSlZEUGQ3MEVJUzd5aUpVVkZOMW5EdHd3cDBCelBDc2c?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-06-04T16:00:00+09:00",
-          "published_label": "2026/6/4(木) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -1023,9 +991,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "【新春通販インタビュー】オークローンマーケティング マーケティング本部 浅野茂樹執行役員「新商品の販売に苦戦、来期への準備に注力」",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uMnQ3NGtnMW03ZHc1b001RVVvQ0hpR2czTkg5T0FCbFVCTXJ0bERUSzFhY21zSnppRy1hMFNsbkFRUko5NlZZV3NNTkQ0cm15TjJJMEVSaw?oc=5",
+          "domain": "online.bci.co.jp",
+          "published": "2026-01-06T17:00:00+09:00",
+          "published_label": "2026/1/6(火) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【コンタクトセンター特集】 オークローンマーケティング、人とデジタルのバランスに悩む 浅野氏「大きな過渡期に突入」",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BUGZndEdIYmdoczJyMnRxMm1CZGp4d18zcTNqMmZuT0s2THBCUmhZbVRTVHpQX3VUZTZqUThwMUFPTHBwMlJKbmg4ZkxDQ1pxMldtS1Y5Yw?oc=5",
+          "domain": "online.bci.co.jp",
+          "published": "2025-11-11T17:00:00+09:00",
+          "published_label": "2025/11/11(火) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "ecm_12",
@@ -1410,87 +1410,87 @@
       "count": 5,
       "items": [
         {
-          "title": "久留米に愛しとーとのお豆腐屋『五ケ山豆腐』11月期間限定オープン！",
+          "title": "【愛しとーとごはん】11月新メニュー20種類が大好評！行楽シーズンにドライブを兼ねてお越しください！コラーゲンバイキングでお待ちしております。",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uR0drUWpYTm52RENGUTFfWWZTcHppNXh2V0piTDJBcDBjV0ozUG54eW8xU0pmcm5VS1hMT1JibWpZcXFPVE1sRkdmdEtXaGM3X3A1NGtBa1c5ZUk?oc=5",
-          "domain": "kurumefan.com",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【愛しとーとごはん】11月新メニュー20種類が大好評！行楽シーズンにドライブを兼ねてお越しください！コラーゲンバイキングでお待ちしております。 - 写真・画像(1/1)",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuMGU2ZnBtRXNlb24tUjg3dUlqc3pSRDBneU5fbUVCOWRfNC1WYjFuQ28ySlVYUWFDWmFZQjNmM00tUUhwQ2RGTVRUTDJDY29uU2Q1NndoQQ?oc=5",
-          "domain": "nishinippon.co.jp",
-          "published": "2026-11-11T17:38:13+09:00",
-          "published_label": "2026/11/11(水) 17:38",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【大相撲九州場所】日本の伝統文化を未来へ！愛しとーと、武隈部屋の稽古場所を今年も提供",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5fdGtKMkRSM2ljVFZEMjhvR25nZkFRTi1pMFkyTDJwQmxtZ01hOHJDSTRRTldWblh4VzdCODV3UGdMaWY1?oc=5",
-          "domain": "sportsmania.jp",
-          "published": "2026-11-06T17:00:00+09:00",
-          "published_label": "2026/11/6(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "お豆腐屋さんのカフェ「五ケ山豆腐SOYcafe」から、秋を感じる新メニューが続々発売！ | 株式会社愛しとーとのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSkJEWGh5MmpYbVpBLXVqYlZvQ3RsTkJhWUhYczlwcW4tSlNKTjE3bDF1QUNrYVZmZ2hlRzl5WHRYWmszMlNqMDB0dDE0ODdSY3MxVE0yaXIwazRIdlFHcTZ4Z29DVzY4Y2c?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNcThLZGxfSTZQbGV2bFhPX3NLNDNGRTN4QV9BU0RLaWtsWFpaVGhIcTJ6Y1NDVkFhSy1lRDhnRDdWcEJGamZfOWtqeklPNlZId1hWVGY2cFdwcFVXNGFfcUtGLWVCRGp6aHc?oc=5",
           "domain": "prtimes.jp",
-          "published": "2026-10-29T16:00:00+09:00",
-          "published_label": "2026/10/29(木) 16:00",
+          "published": "2026-11-11T17:00:00+09:00",
+          "published_label": "2026/11/11(水) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "教えて！「愛しとーと」「アサヒグループ食品」「よつば歯科クリニック」",
+          "title": "役員昇任ならびに役員体制のご案内 | 株式会社愛しとーとのプレスリリース",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPb1Q5TjJhTGRFdklUSkpXLWttRDZyX2dsTnBUNWV3b25OZWVzZndvQ0VSNEJlejAxRlplN3NGRUhmME5xejIxUlBsQm5vTmVSNjE4YkYtLXRvN09PaHlpTmE2ODhuYWVIQy1LNnV3QlJkVTdsTGVwUTh0YzdKMUwxX21wbnNaclJyeXFwUEc5YTAyM2FERmhETmFPWkVKdVBQQk1RcHR0MW1abGVBYjRBQmNFNGl5OWxwZXJTWDZySWdITXdxR1U0V3ZmdjdaZTFMby1QMEtYeS1pUi1yOHl3eTROcE1CdjJhOENqa21VekVsckxhQ0sxZlk4bGw5Um5FUmVxZVEyQUZGZUJzSkx5ZkE4UV9PUmxkaWp5WnBRcW5yWGR4aFBGcEtxNkVPLXlaanZVUHB1ZGNNd1ZxSl9kenF3ZEp1V0JreWF1WEp6ZVp2TlVQdlFGRHZR?oc=5",
-          "domain": "yab.co.jp",
-          "published": "2026-10-17T16:00:00+09:00",
-          "published_label": "2026/10/17(土) 16:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB4M0NaNldiZHZwTlVHWUlDYlhFQXR1Tk5vYVVGR1RqLVpIMHJDZ3ctYnpmdjhUaUpPRTNsay01bDJYdFBtWXFqR3dRNDdHZHNsZXU2T1Y3bmtqcnZYZFpGZGRIRHU4UWFsRXc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-13T16:00:00+09:00",
+          "published_label": "2026/10/13(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "コラーゲンゼリーの「愛しとーと」から待望のスキンケア！寝ている間にうるおいで満たす数量限定ナイトクリーム『ハリつや肌BIJIN』 を新発売！夜のスキンケアの最後に“塗って寝るだけ”の贅沢集中保湿ケア！",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1ZkdZclQ2T1E4c0RVVWxBOV9kYWV0eXB1LXNWRGllSHNkaXFjY1pKWVF6dl95RktodHJfaTliMkhkNUZuVFZKRDNZeWQ5RDFvLXJQaktORnNaMkE4RElocXBoZ19UYmFubWc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-08-10T16:00:00+09:00",
+          "published_label": "2026/8/10(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "愛しとーと❤カップ 第52回 九州ママさんバレーボール大会 | テレビ西日本",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1PVWtqYVJVdHhjTy1CMXFrUGNsNlRHUFJrLU51VFp1WTRmdWJtQWwyTDlLZkkyRTg0VC1sN0RTbXFnZndyMFFTeTBINkk?oc=5",
+          "domain": "tnc.co.jp",
+          "published": "2026-08-02T16:00:00+09:00",
+          "published_label": "2026/8/2(日) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【バレー】愛しとーとカップ 第52回九州ママさんバレーボール大会 開幕！（バレーボールマガジン）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PcGJ3eVJGM3E3d2JvbzVtbjN1el92a1pkd0FGN0RtSU92M0pKZ0pBMG1MMlRoZVdBUlM2YmFXMFJNRnFRek4ySU5vV0dQVnc3UlNhOGZOSXhCVk9aellUSzFXWnNCU3N0VEVDRHUyMmFHdU1MUEN3OTRDd3dxNjg?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-07-22T16:00:00+09:00",
+          "published_label": "2026/7/22(水) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.3
     },
     {
       "id": "ecm_17",
@@ -1583,7 +1583,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.4
+      "elapsed": 1.0
     },
     {
       "id": "ecm_18",
@@ -1676,7 +1676,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.0
+      "elapsed": 1.5
     },
     {
       "id": "ecm_19",
@@ -1721,7 +1721,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.2
     },
     {
       "id": "ecm_20",
@@ -1782,22 +1782,6 @@
           "is_new": false
         },
         {
-          "title": "はぐくみプラスに見る「物性×動画」の戦略的商品設計～触覚の視覚化が拓く競争優位、商品そのものを広告資源に",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83T1d4eDB3NzZFTlVTOXRwbWpEY2cxbE9fa2pnWTQtOXhCcW1YLVpQUGowYXZfczllZ3J3TUJuNVN0LVMwNXZUODhkaUhsVmdxUTNZY1BqWmRsUQ?oc=5",
-          "domain": "syogyo.jp",
-          "published": "2026-01-23T17:00:00+09:00",
-          "published_label": "2026/1/23(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "はぐくみプラス「cocone」、シリーズ累計販売数1000万個超 ウィンターコレクション発表会を開催",
           "summary": "",
           "images": [],
@@ -1812,9 +1796,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "10月20日は頭髪の日！TANGLE TEEZERヘアケアブラシ×coconeクレイクリームシャンプーが美髪を応援するSNSコラボキャンペーンを開催 | 株式会社はぐくみプラスのプレスリリース",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UNVNQY0dNNDR5Y2NuSVFuTmFjZ0pPdHBmNzUtT3JocGc0ZlBmeVJlSE5vRHNkWXh0VTBnQnlQbTlIVW9ib1k2cmNieDJrcE41NVd4WVVwRU1tcXVaZlY0TnZrdThYRXQyNUE?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2025-10-20T16:00:00+09:00",
+          "published_label": "2025/10/20(月) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "ecm_21",
@@ -1891,23 +1891,23 @@
           "is_new": false
         },
         {
-          "title": "いま注目の“オートファジー活性化″が 深刻な肌悩みにアプローチ！ 毎年進化を続けるマキアレイベル最高峰クリーム 『エクストラリセットクリームＸVI』",
+          "title": "JIMOS、「SINN PURETÉ」アドボード 原宿に登場 トップ美容師とコラボ",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9xNENsekY3X1hBNGZLR08yYW5nZEFEcXpSR0Q1U0pZMXNjWmJtWEk0d3BidFJpZEREUXVmSVJqby1ROHZzMDBzbGF3cU5JdXc?oc=5",
-          "domain": "newscast.jp",
-          "published": "2025-08-22T16:41:28+09:00",
-          "published_label": "2025/8/22(金) 16:41",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE15Tzlic2VlcTBKR0JDRmpnX1E2TUtFQUlCd2xlcEdUcWVrS3RNbl9nc2R6R1lLMzBXc0xySENQQ05JaTM2N19yX0ZHaUtqaGsycjhmRDJSVQ?oc=5",
+          "domain": "online.bci.co.jp",
+          "published": "2025-12-25T17:00:00+09:00",
+          "published_label": "2025/12/25(木) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "ecm_22",
@@ -2000,7 +2000,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 1.0
     },
     {
       "id": "ecm_23",
@@ -2016,49 +2016,17 @@
           "title": "ニコリオの「ラクビ」シリーズ、累計販売数2,000万袋を突破！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1oUDFjRmZjeUJOMklrWmxVUkhzM2Y3aVlOT25RaEFiUXhpd1FBNkdrX1N3TnA0YUI5aGtIX0lTYnNmbWlEVGIxUnZVNVJNQjN5bVpQcTFpS2FXSEVrNHY3N3BoOWNtMmN0cjBHMmhMQVFMd1ZiSVNQYzllWVI?oc=5",
-          "domain": "news.livedoor.com",
-          "published": "2026-11-25T09:00:00+09:00",
-          "published_label": "2026/11/25(水) 09:00",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9MMWN5THZ6d3RCSXJMejlyRFJoZFRUY01yMkhiU3Q5RkZyWDVlMWJwelI2d3FuaTNSYkVvWWdlUl9jNGdvdFE2emRfZ0stelI2cWExYmlaZHhtb1RrM3hza3p6LXZmNHlaT3h3?oc=5",
+          "domain": "jiji.com",
+          "published": "2026-11-25T10:46:00+09:00",
+          "published_label": "2026/11/25(水) 10:46",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ニコリオが都内飲食店でKinpleteの体験企画を2026年11月より実施へ",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBVMGpKVFZ5WDV5cVBNR2dZWmRhbzYwNDBROG9sWmpWRW5STGpZVkJoWDFnUEswWndudnFMbWdWaW56Z1ZDQ2Nz?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-11-18T00:29:06+09:00",
-          "published_label": "2026/11/18(水) 00:29",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "消費者庁、サプリ巡る返金措置計画を認定 通販のニコリオ、景品表示法に基づき申請",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmMERVOVdfRU1meldqM3NZZ2prNnRQWE5KTkFoZVVtbFloTFhKcHdObjA2UFJoeEh0Zm5JMk9zYmRjX3pYcVFRQnM3X0xZLUZtVWRvd0pB?oc=5",
-          "domain": "wellness-news.co.jp",
-          "published": "2026-11-12T17:00:00+09:00",
-          "published_label": "2026/11/12(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "消費者庁、ニコリオの返金措置計画を認定…機能性表示食品の不当表示で購入者へ返金",
@@ -2091,9 +2059,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "ニコリオがぐるなびと連携 都内飲食店で腸活商品をサンプリング",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QV0ZXSDdFeldwNU9sX1BuLV9rNXR0aGg2bDJSaENCTnJKMFMtNGNXNXp0OGI1cENGbHNYeFg0NzFoZnkta1gybGFlTmZOWHBQTDQ1dDNn?oc=5",
+          "domain": "wellness-news.co.jp",
+          "published": "2026-11-05T17:00:00+09:00",
+          "published_label": "2026/11/5(木) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【ぐるなび×ニコリオ】都内飲食店で「Kinplete」特別体験キャンペーンを11月4日（水）より開催",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKeVYyZG9RY1RrNzVsSVlfWW1nQURRVGpXRnpCYTFiaHhpRE5MNnlYVGYtTnJpSVJUd0pYdW1YU0pBSnFyLV9hNDhtaUdHRU5NUXhZUU5Mc0REUEg0cGJqWFhjY3hYVjZONGc?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-11-04T17:00:00+09:00",
+          "published_label": "2026/11/4(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.4
     },
     {
       "id": "ecm_24",
@@ -2247,7 +2247,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.3
+      "elapsed": 1.2
     },
     {
       "id": "ecm_26",
@@ -2259,22 +2259,6 @@
       "via": "https://news.google.com/rss/search?q=%22RIZAP%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
-        {
-          "title": "RIZAP、韓国で新業態を開業 K-POP人気スタジオがデザイン監修のワーク＆セルフケアラウンジが誕生",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KOE5nSzQtb0pseHRzMXJPNmh1a0NELUI1Vk1VTWw2NWRqa1RSdGYyUTY0QUlfMXNBcVc2VkFHcFJMZ1JGTV9pc0liVklxMjd1XzZUbENuN3FxaTNHZ1NjVnc1cmNkMm5xZGtRaTRaSQ?oc=5",
-          "domain": "sanyonews.jp",
-          "published": "2026-11-24T07:54:11+09:00",
-          "published_label": "2026/11/24(火) 07:54",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
         {
           "title": "ＲＩＺＡＰグループ(株)【2928】：掲示板",
           "summary": "",
@@ -2311,7 +2295,7 @@
           "title": "RIZAP、野村不動産が語る「無人化ビジネスの勝ち筋」 chocoZAP“AI店長”構想や次世代オフィス戦略を明かす",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBrUkNUcU5yWDhGQ25CaG9uT09rVW1FUVY1aXBodVpOdmJUR2hjTHBVbFZuSVBSdVFPbWpqZmFlX0NoOVo1bXNsUXhGRkhIYUU?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0wajVkRjNaUDM0OS05dnhHRUdWT0pSNExRQWJJaHNDc1p6ZFZITVFCczIzRkU3R05kZVp4TE11RjJFYVhLUzd6Q1JaQWJLcmN1YzZYODd3?oc=5",
           "domain": "oricon.co.jp",
           "published": "2026-11-19T08:40:00+09:00",
           "published_label": "2026/11/19(木) 08:40",
@@ -2321,26 +2305,42 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "JINS会員最大1829万件流出か、KARTE不正アクセスの被害がRIZAP・しまむらへ拡大",
+          "title": "「JINS」最大約1829万件漏えいの可能性 RIZAPやしまむらも……「KARTE」不正アクセスの影響広がる（ITmedia NEWS）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB0RVVVNk9jQ0tkZjhzOHNKUWVNTlpQaDh3c3NOU0xHRURtRnJJWmhfUE1jNnpxR2FOWHlGMmJjeUlZRkF4YzV1azVOWHNKWFprZU4zMEVUczBDZ0FLdmlzRlBCWTJDZ0pJX3ByV1dXWkxreWhB?oc=5",
-          "domain": "finance.biggo.jp",
-          "published": "2026-11-18T12:25:00+09:00",
-          "published_label": "2026/11/18(水) 12:25",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WRkZuaEJXeW1pYThFLXRja2xWZkwwRXVMV3JOc080S0tqX29VUWVjWFZZdDI0TzBWcUk4VWhUWmphdVZFNDJFX1o1V0JhQlBnLTd3bVl0TVh3LWVhbWtaQUtkTU5aV2lpWGtzM0VWaFpzUGJfNDJQT1ctekxLRTA?oc=5",
+          "domain": "news.yahoo.co.jp",
+          "published": "2026-11-18T11:53:49+09:00",
+          "published_label": "2026/11/18(水) 11:53",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
+        },
+        {
+          "title": "chocoZAP、月120店舗の出店を計画―AI活用・海外展開・新事業…RIZAPが描く成長戦略とは?",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBCUXlORWltZXBBSXM5WmdKQ3ZRTEpKWDEzRC1xTlFoRXZkc2lfRWpIRTFRX1ZzbnVoaDB5WlFMNmdiaDdlaWNYY1hITm5BXzQwZTkwNDJudjczZ05t?oc=5",
+          "domain": "news.mynavi.jp",
+          "published": "2026-11-18T11:32:00+09:00",
+          "published_label": "2026/11/18(水) 11:32",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.4
     },
     {
       "id": "ecm_27",
@@ -2433,7 +2433,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.4
     },
     {
       "id": "ecm_28",
@@ -2460,6 +2460,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "アルマード[4932]：2027年３月期 第２四半期決算説明資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tbVJncXhmUzR6UEtscmY0U2duQjhUR2N2RnFFSUhDdzlXY0swdGprNDRnaWhzUkVjaWhoZUdRMkZScmhwVTN3ZW5BdUg5cHJXcUlobXNLb1N1SVlxZ053a2dLbWhYd1VnRFE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-13T17:00:00+09:00",
+          "published_label": "2026/11/13(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "【決算速報】アルマード---27年3月期2Qは赤字縮小、経常損益は▲4900万円(フィスコ)",
@@ -2491,15 +2507,15 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
-          "title": "【決算速報】アルマード、中間経常-49百万。(アイフィス株予報)",
+          "title": "決算速報＞アルマード、２７年３月期第２四半期決算は純損益４１００万円の赤字(ウエルスアドバイザー)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWkpUUVV0QUhETFpDRHlxSzgxdFFWS1lqTmtvSWcxdVZGaGNkWVFFcGZNb01VVDJZWDFKN21NdjI5X1B6aWUzLUxWazRqd3RwZjRUWFhJMEZaY2gyaEFzR0RHZEE5dVlaUEk3RzJuRjNENU1CQTVFMEpLa3AwRHAzR0N4UzJ3MUU?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU002MzYwamk3ZlExX28xVkstWDB4T0FZcEx6c25WUnFielNDTVYzOVgzcTdIOUNPc2hTeHpuVjZGQXRMNnZUb0RPaDIxWUhhY1NHNi1PSnVJbXNxVzNaa3N0M3FkSGhUdkVpVzNHM1NvRHNvN2hMVERYUE5ncllzM2RSajdQT1E?oc=5",
           "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T16:01:30+09:00",
+          "published": "2026-11-13T16:01:40+09:00",
           "published_label": "2026/11/13(金) 16:01",
           "badge": "JP",
           "badge_class": "badge-news",
@@ -2507,26 +2523,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "(株)アルマード【4932】：決算情報",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZQ0dnd2pVRjhZbEhXbGdZMlRBNDZjTmQ4VlNrLW9DQUNsX3dkR3VGZHdiRnZnN0lOOVYtb0ctUEVYZnVqVlVSbFlCYVRveWNJUm9UNjJyc2NhRUptOW9fVw?oc=5",
-          "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T16:00:00+09:00",
-          "published_label": "2026/11/13(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "ecm_29",
@@ -2619,7 +2619,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.0
+      "elapsed": 0.1
     },
     {
       "id": "ecm_30",
@@ -2645,7 +2645,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「夢のジャパネットたかた～♪」が『サウンドロゴカラオケAWARD 2027』エントリー決定 合いの手「フゥ♪フゥ♪」の歌詞入り、9秒特別版を配信",
@@ -2661,7 +2661,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ジャパネット、本格的な「ものづくり」へ参入。自社ブランド創業メンバー採用強化 ～10月8日よりプロフェッショナル向け「採用特設サイト」を開設",
@@ -2677,7 +2677,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ジャパネット 長崎の未来をともに創る従業員への投資を加速 非正規社員給与を平均13%アップ、長崎スタジアムシティ機能を強化し300名採用へ",
@@ -2693,7 +2693,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「ジャパネットたかた」が家電メーカーの買収に失敗 メーカー側が拒否した理由とは（デイリー新潮）",
@@ -2709,10 +2709,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_31",
@@ -2805,7 +2805,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "ecm_32",
@@ -2817,6 +2817,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%8A%E3%83%AB%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "【重要】サイトメンテナンスによる利用停止のお知らせ",
+          "summary": "",
+          "images": [],
+          "link": "https://www.vernal.co.jp/shop/t/t1322/",
+          "domain": "vernal.co.jp",
+          "published": "2026-11-26T09:00:00+09:00",
+          "published_label": "2026/11/26(木)",
+          "badge": "公式",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "site",
+          "priority": 1,
+          "is_new": true
+        },
         {
           "title": "公式アプリのスタンプカードにつきまして",
           "summary": "",
@@ -2850,6 +2866,22 @@
           "is_new": false
         },
         {
+          "title": "ヴァーナル・キャピタル・アクイジション【VECA】：株価・株式情報",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB0M3NHUDFsb3d3WE5BUzljU080UVB6NVp1OW9HcERDV0tBQy1sUy1PbUpXU0lkYmVwOU43ZHJZUW9Idk1USWduNFBmbGJYNUk?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-05-21T16:00:00+09:00",
+          "published_label": "2026/5/21(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "フリーダイヤル受付時間変更のご案内",
           "summary": "",
           "images": [],
@@ -2864,41 +2896,9 @@
           "origin": "site",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "定期便機能リニューアルのお知らせ",
-          "summary": "",
-          "images": [],
-          "link": "https://www.vernal.co.jp/shop/t/t1281/",
-          "domain": "vernal.co.jp",
-          "published": "2025-06-26T09:00:00+09:00",
-          "published_label": "2025/6/26(木)",
-          "badge": "公式",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "site",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【重要】当社商品の転売に関しまして",
-          "summary": "",
-          "images": [],
-          "link": "https://www.vernal.co.jp/shop/t/t1267/",
-          "domain": "vernal.co.jp",
-          "published": "2024-07-09T09:00:00+09:00",
-          "published_label": "2024/7/9(火)",
-          "badge": "公式",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "site",
-          "priority": 0,
-          "is_new": true
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 1.4
     },
     {
       "id": "ecm_33",
@@ -2991,7 +2991,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.3
+      "elapsed": 1.0
     },
     {
       "id": "ecm_34",
@@ -3007,26 +3007,10 @@
           "title": "ベルーナが展開する「YU’NOW（ユナウ）」から人気NO.1ランジェリー商品にクリスマス特別デザインが登場！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1CZFVuUUxfOWVJeWlwQUZZMS14YkJVdUN2dVdRX1R4VHVuaHRUaTFSZjNxZEpvajR3VU13OW5MRFBta25kWEJMWW5sX1FCd084enhVY0FYaWJDM2pMRndNLWJDN1N0cnVyUlE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-24T11:00:02+09:00",
-          "published_label": "2026/11/24(火) 11:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ベルーナ（9997）の株主優待｜国内株式",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNWUpZZFppRjBRWDlWbFh2WGRRWXBFQVFNTjJvTkNpYlFOWEh1UEE3a2VWbnRNbk9RRVpqX1pweHVHZUZKcmNFUEk2TUtfbXRKQ3NTdWo3Yk44RjAxeVZoM1JaUl9mekFPdlJLRTlvblQ2dkNleFFDZzVKT09Bb1U5MWlfdkZJZXJfc3o1cDRCNy1faVVkVmJrYmh3V0x4dHFEU0kwNkZmdzRxTVNESnktZnMyU1lpdG9FUGc0WnJKNlNQa2VvRS1WUXVud0EtRlpfWGhRRTgySU5BcnVsTTFGYUpJUmxHclBOLWs0?oc=5",
-          "domain": "sbisec.co.jp",
-          "published": "2026-11-20T17:00:00+09:00",
-          "published_label": "2026/11/20(金) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ITm8zWXhUYTV3S3FPQ1JqdTM1VW1zWXRjeHN3WTEweEM3RDlycG0xYlJuMnBEVG11WngwN3p4aVM2cDNld1R6aW1EZktGT1ZtdkgwS2NiLU5KX1hEb29tVzZmNU1PVUhGMFByekpRNGl5UQ?oc=5",
+          "domain": "crea.bunshun.jp",
+          "published": "2026-11-24T13:22:10+09:00",
+          "published_label": "2026/11/24(火) 13:22",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3036,13 +3020,29 @@
           "is_new": true
         },
         {
-          "title": "(株)ベルーナ【9997】：現物信用売買内訳時系列",
+          "title": "ベルーナノーティスに不正アクセス、顧客最大19,853名の口座情報・契約内容などが閲覧・取得された可能性 申込サイトは停止継続|セキュリティニュースのセキュリティ対策Lab",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NWmluam9yN2pnaWVfbkZCaFJVVG9Bd3VaR0dwTVh0SVZ0anZYaGdfMGl4T2RGSVVOb0lxM3FteUsxRGJiRUdhc2p2SGtnVXZ1cVZSVGhsV0t1RWY4WnY0?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMkpBeGltRUo3RTZRWDhkQm1oMG5lWUNnTloycEJ6cl9oLUdrMkl4MVZvN1kyYmozUWQwUDdtNFZpVHFaRUxDU29xTGZHZDBvZndIUU5FUk1odWQxZHRiUVFvT3g5c1h4UXRjUVFtOU4wZTlsSjFnckpiblZWVjVFMmF5clBEUUpqdmtHdDEtYXFKYno5eHRpTTJZOTZJSUVBazZqSUp2c1ZGYktBWWd3eQ?oc=5",
+          "domain": "rocket-boys.co.jp",
+          "published": "2026-11-04T17:00:00+09:00",
+          "published_label": "2026/11/4(水) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "【決算速報】ベルーナ、上期経常は6％増益で着地(株探ニュース)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2l1UzVaOTV1eVdMMW1PUDhzekpPZmtiSkpuQzY5TVgtU0R5LW81dkZTM21EN00tS25mOWZNSF9ROWx0QzlidVlBWGNXR2Nzd2RXTXBPTlZVRTZQcVRPcV92ZlpLVUlZSDJQUGRQX2lEVXZPZHVkYWt2STVJbUFVYVQ0Zl9jMG8?oc=5",
           "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-20T17:00:00+09:00",
-          "published_label": "2026/11/20(金) 17:00",
+          "published": "2026-10-30T16:00:00+09:00",
+          "published_label": "2026/10/30(金) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3052,13 +3052,13 @@
           "is_new": true
         },
         {
-          "title": "ベルーナについて、三井住友DSアセットマネジメントは保有割合が5％未満に減少したと報告 [変更報告書No.2]",
+          "title": "【営業利益の9割を占める】ベルーナ、通販ではない「裏の収益柱」とは？9月末権利確定の株主優待も解説(LIMO)",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBOZ2JNWEpTQTFMVzZCNVNjci15XzBFSHZpbjNsQ3hUcVdRRHVncjdsZkVzSnFLU0dNeUVFRkZ4WGo5NUVydHJSUnpVdndwWW5heExjVEpUSzZyalFEeEdRWQ?oc=5",
-          "domain": "kabutan.jp",
-          "published": "2026-11-20T15:35:02+09:00",
-          "published_label": "2026/11/20(金) 15:35",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ2NISHVjN29ROWNnZ1JYUDVrb0RGTVdOaHB0WlpseGRMdm45TE1yMUE5TndmMlF5Si1QZ3JoR3RiVzFvOXNRLThLeXIwalpHX1RtZGNPSVFXV184OWY2dTE5NDl3b3k3VHFqUGhBSU1HZjRFQ19XSTFqclpUcFZWcUJKRTQwWVk?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-09-27T16:00:00+09:00",
+          "published_label": "2026/9/27(日) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3068,13 +3068,13 @@
           "is_new": true
         },
         {
-          "title": "【移転】PCP丸の内に東京本部、通販のベルーナ",
+          "title": "累計販売数250万台突破！ ベルーナグルメのおせちが最大50％OFFとなる早期割引を実施中！",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xSGpYMDJXdnNPUngtZDI4RGpVMW40eVNJNHZCYUZkLU1LdnZwSlZzLW1MSldsSTNlZUtmN1lJajVfNDBXemN6ZVJNS0F4U2liZEJSOHdzVWU2akZ1SlRTQmJR?oc=5",
-          "domain": "nfm.nikkeibp.co.jp",
-          "published": "2026-11-17T08:38:28+09:00",
-          "published_label": "2026/11/17(火) 08:38",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1WbzBia2phTTR0cFdDMXVZWjVYcWt5R3dKdkMwV1ZjZElCYTlYTEYzZjFaR2lQVkJMMFV6amRJRFI3UGk3cnVlcll5aFl6bUNNaGppYXZBdl9VTDhVbzJLbVdBa1EwT0drS2dpSHpn?oc=5",
+          "domain": "belluna.co.jp",
+          "published": "2026-08-31T16:00:00+09:00",
+          "published_label": "2026/8/31(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -3084,7 +3084,7 @@
           "is_new": true
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.3
     },
     {
       "id": "ecm_35",
@@ -3096,7 +3096,7 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%83%8A%E3%83%81%E3%83%A5%E3%83%A9%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%22%20%E7%99%BD%E9%85%B5%20OR%20%E5%8C%96%E7%B2%A7%E5%93%81%20OR%20%E9%80%9A%E4%BF%A1%E8%B2%A9%E5%A3%B2&hl=ja&gl=JP&ceid=JP:ja",
       "count": 0,
       "items": [],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "ecm_36",
@@ -3125,20 +3125,20 @@
           "is_new": false
         },
         {
-          "title": "【独自】ヤクルトが青汁の「キューサイ」買収を検討、ユーグレナ・投資ファンドが手放す公算も (ダイヤモンド・オンライン)",
+          "title": "【独自】ヤクルトが青汁の「キューサイ」買収を検討、ミドリムシのユーグレナが“稼ぎ頭”を売却か…買い手と売り手双方の事情とは？",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcEhoVGlpTUNxTkpGSldMaDh5OTd6NjdxcEplaVhIN21vNVhWUmVEVUE2ZFAzNlJvOE9pTHdoT0pTT2J5eG4wNW54STFCeXEyUDEwNVZnNnZnWjdaTVluVk1pb1RRaEc4WUh1djhFdHg3dnRRVVI1TmlzamJCU0NBS2VoQWw2alVpakxEdURR?oc=5",
-          "domain": "news.yahoo.co.jp",
-          "published": "2026-11-25T09:04:03+09:00",
-          "published_label": "2026/11/25(水) 09:04",
+          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBYUnZVQVhGRWc5WEdnM0dLay1OYnlFaFVuVHZWTkxvSXJHVFNfaVJ4OU1zU09SbVZzQ0I0SXQycWNkNmZsNURDUG8wM3M?oc=5",
+          "domain": "diamond.jp",
+          "published": "2026-11-25T04:55:00+09:00",
+          "published_label": "2026/11/25(水) 04:55",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "無登録肥料6銘柄に回収指導 ユーグレナ傘下企業、有機JASにも影響",
@@ -3157,36 +3157,36 @@
           "is_new": false
         },
         {
-          "title": "画像1 / 10＞未来を生きる当事者に、“今”活躍できる場を…。ユーグレナ社が「18歳以下のCFO(最高未来責任者)」を設置する理由とは？",
+          "title": "伝説のバンカーは見た ユーグレナの元CEOは支援しがいのある熱い男だった",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80WGplSUNZaVVSTVQ4Qklnd0ZWUS1ObHRmakJSb2x5QVhtdkxRRC1GWU45bFdwTGdRLVgwNlEtQkpIOGtJOFBFTzFhM1Y0Q3hlYnBSOFVrWHVBQldOOHl4dWUtZ05HcGRHZXdzUjBB?oc=5",
-          "domain": "walkerplus.com",
-          "published": "2026-11-23T05:01:03+09:00",
-          "published_label": "2026/11/23(月) 05:01",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LNzBwSDRkZ1NCaFJBTFZydzJZdkJnaFZyV0NSNE5Pc3pTSVpmUTJ6bmd1YlBIZWx2NzFJblhyVkZtUXJNTkZWbC1PTlRncHIzcHEybDFFcFJqSVFKMVVQckM5LTc5Snh1RGJJMQ?oc=5",
+          "domain": "bookplus.nikkei.com",
+          "published": "2026-11-20T05:00:00+09:00",
+          "published_label": "2026/11/20(金) 05:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "ユーグレナ 子ども向け飲料開発、自社商品の新たな価値を発見 （2ページ目）",
+          "title": "「からだにユーグレナ グリーンパウダー」全国のドン・キホーテなどPPIHグループ250店舗で販売開始",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KTVJDS0g1Vkx1VjNPSnNOVlBjMmxIMm5sYVd1MHBQdG5XQkF2b3RWZmR5blZSczlYdEtVVzctcmxJZVdpMFlJWXg1Y0ZBeGxKMV9SUk5hYUp0MFEyeHQwdHdOR2ZDUnFKTDY4?oc=5",
-          "domain": "xtrend.nikkei.com",
-          "published": "2026-11-21T22:43:41+09:00",
-          "published_label": "2026/11/21(土) 22:43",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5takZUbm5NUWk3ajFIajNaN21kYm9pNG1yMXpLMjNJT1V1VEdIRDE3WnVTQ19SR25xaWc4M0pzOTVEYXctbzV1RzAxSjY5MHBi?oc=5",
+          "domain": "euglena.jp",
+          "published": "2026-10-05T16:00:00+09:00",
+          "published_label": "2026/10/5(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
       "elapsed": 0.1
@@ -3202,6 +3202,22 @@
       "count": 5,
       "items": [
         {
+          "title": "【日本初※1】HbA1c・空腹時血糖値・食後血糖値のトリプルケアを実現 機能性表示食品「アラプラス 糖ダウンEX」届出受理のお知らせ(SBIアラプロモ)－ PR情報｜SBIホールディングス",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zVHNENnVlME9ERDQ5VXFqYmRrMUFDU2ZHLW1JWkVDNWVsRVo5REhiNFF4V0Y5TXlUMU44UXRla0MySHdQcTlBOHl4cllVcEtPeFZWTi1vd1JRZDBub01KdUU1U05BUQ?oc=5",
+          "domain": "sbigroup.co.jp",
+          "published": "2026-09-29T16:00:00+09:00",
+          "published_label": "2026/9/29(火) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "SBIアラプロモ、5-ALA配合飲料を9月1日発売",
           "summary": "",
           "images": [],
@@ -3216,22 +3232,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "【糖や脂肪の燃焼メカニズムに着目】“5-ALA”配合のミトコンドリア発想のアミノ酸Diet（※1）ドリンク『アラプラス からだシェイプ ドリンク』新発売／ＳＢＩアラプロモ株式会社 – 健康美容EXPO ニュース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBXd3dzbEJqbmxYVEM1d3NhY1d4V3NSdm1Xal9ydVJ5RWZXVmd3bG1CdmJ1dG9IdUZMVG0tN2FUVDhucjZyTjc4LTdYMmUwYVlYdXpiS0I0VGdZYnBCWDZqQzR3?oc=5",
-          "domain": "news.e-expo.net",
-          "published": "2026-08-27T16:00:00+09:00",
-          "published_label": "2026/8/27(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         },
         {
           "title": "SBIアラプロモ、純国産プレミアム5-ALA新ブランド発表 ～協和発酵バイオと業務提携し、原料供給・OEM受託製造を本格化 200億円市場目指す",
@@ -3282,7 +3282,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_38",
@@ -3290,7 +3290,7 @@
       "name": "八幡物産",
       "handle": "",
       "status": "partial",
-      "error": "https://oroshi-uri.com/news_290.php -> ニュース記事を抽出できませんでした（HTML形式が想定外）",
+      "error": "https://oroshi-uri.com/news_290.php -> HTTP Error 404: Not Found",
       "via": "https://news.google.com/rss/search?q=%22%E5%85%AB%E5%B9%A1%E7%89%A9%E7%94%A3%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
@@ -3420,10 +3420,10 @@
           "is_new": false
         },
         {
-          "title": "サントリーウエルネスが「特茶」から初のサプリ発売 機能性表示食品 (FASHIONSNAP)",
+          "title": "サントリーウエルネスが「特茶」から初のサプリ発売 機能性表示食品（FASHIONSNAP）",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjc2ZmJxSldZck5iXzl0bVZ4bzZEX1g0UFJ6YVNicGxvd1dELXZzR2syYkpfb0hoV2xlSV9CeFM5N1k4MFhpaFRUQUFoZHdxZ0Z3MVFHdFJXdTd1ZnFTZlhLSE1sS05hY0pJcHdKazBGVExIakZCaEJHWXFVVjFqaVJMLXZIZUxpcU00Z1BB?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05QXZTeVpSRVplZ3V0RjNSdXZTcTBhZVJJY1NBMFhFTVR1NEtXWUlkVXptSXFFT2M2dUR2dG14UzZjZk5oTUstbk1rdC1rT2lvdXhSRjZYdFMzdHVCS2ZBVVlpNXdOM2tDLVF0SS1DWnExNHVPc3BteVBWdTFteDg?oc=5",
           "domain": "news.yahoo.co.jp",
           "published": "2026-11-23T15:40:31+09:00",
           "published_label": "2026/11/23(月) 15:40",
@@ -3433,23 +3433,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "サントリーウエルネス、健康アプリで最大94万件超の情報漏えい KARTE不正アクセス",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAyY2dURXd5eXdTazJBRDk1OEhhaVVhRnptRDZxR0tTbjl6TGEzdUNhNFgzeUdTWVdXR3NDeUdmRGlpMmVQX3otc2hqTUZKVFdJRDE1ZmVWcG1RdzJDTzcwek8tSGZxR3dMLUNScWNzcjZKNjYw?oc=5",
-          "domain": "finance.biggo.jp",
-          "published": "2026-11-19T20:05:00+09:00",
-          "published_label": "2026/11/19(木) 20:05",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "サントリーウエルネス情報漏えい 最大９４万件超、ＫＡＲＴＥ",
@@ -3466,9 +3450,25 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "サントリーウエルネス、94万件超情報漏洩 プレイドへの不正アクセスで",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qRTVKbXNUQ0xnaXVUQVlKN1lwWWdEaUo5SmtxZUdyc2RzU2oxSEJzWk52ZlJUcy1hVXJIei11NlNxZTVKXzJTRGpDdGxfazV2YzVhbjhsT3dZUUJKWUFrYzlSMk9FZkl6NTlVeQ?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-19T17:18:28+09:00",
+          "published_label": "2026/11/19(木) 17:18",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_40",
@@ -3561,7 +3561,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "ecm_41",
@@ -3590,7 +3590,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 1.0
     },
     {
       "id": "ecm_42",
@@ -3683,7 +3683,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 2.1
+      "elapsed": 1.5
     },
     {
       "id": "ecm_43",
@@ -3776,7 +3776,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.2
+      "elapsed": 0.3
     },
     {
       "id": "ecm_44",
@@ -3869,7 +3869,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.2
+      "elapsed": 1.0
     },
     {
       "id": "ecm_45",
@@ -4161,22 +4161,6 @@
       "count": 5,
       "items": [
         {
-          "title": "【特集:コンタクトセンター】メディプラス、顧客の「自己効力感」高める接客 継続提案の成功率を重視",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhSWJnSFNDdEhNdDc4VU4zM2lERFc0VFVpQVAyalFtX1kxTEEtY1VvdU5uMFFGbEdqVm9sRmxYbDhDaTlZZzVVamcyOEIyMnpzVEZiYlUzUQ?oc=5",
-          "domain": "online.bci.co.jp",
-          "published": "2026-11-05T17:00:00+09:00",
-          "published_label": "2026/11/5(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
           "title": "アライドアーキテクツ[6081]：メディプラスが参加、西井敏恭氏との個別コンサル企画【Brand Growth 壁打ち道場】をアライドアーキテクツが開催 2026年11月4日(適時開示) ：日経会社情報DIGITAL",
           "summary": "",
           "images": [],
@@ -4196,26 +4180,10 @@
           "title": "メディプラスが参加、西井敏恭氏との個別コンサル企画【Brand Growth 壁打ち道場】をアライドアーキテクツが開催",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE12Skh1RE5nblZtNkNRSTVUM3I0VFJkcktvcTZwVHFLSUIwYWVXS2FlMF92SGppNkpuR3J1NVV0aEljVnhPZTlHQ3djenZFOENaazB3c2JYenk5VUJpMVpnZ3diampHVEFGajYzTlllTkFvZw?oc=5",
-          "domain": "news.infoseek.co.jp",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLbEt0aWlWQTJYZ0NGclBvVnVVMG9xMGJDcmdadkhxNXZ0UWsxcV9sUkxtdlFySjBLUW4wTVhaZ3JyWXB2dlNBVmo4MjRnVGJLVHk0dy1pYzZYNXhS?oc=5",
+          "domain": "aainc.co.jp",
           "published": "2026-11-04T17:00:00+09:00",
           "published_label": "2026/11/4(水) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "発売初日に楽天市場2カテゴリで1位*を獲得！〜ボディケア後、すぐに服を着られる極上の心地よさ〜「ノイズカットボディゲルミルク」が売上好調。 | 株式会社メディプラスのプレスリリース",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41NWFmdEpmQXlNaE42OW1qZlNyaEJDbGY3Sl9vbVVwZElvOXduQ3Z3b1B4M2xpbXFac09xZ2Z5c1F2Yi1RYXpaZVE0YzdoNGNHNzlJVV8tMFE5eWUwb3J2S2tvazRvZjVFTHc?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-10-26T16:00:00+09:00",
-          "published_label": "2026/10/26(月) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4239,9 +4207,41 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "メディプラス―「ノイズカット ボディゲルミルク」を発売―ボディケア市場参入で新価値提案",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmSzVidmJ0WUd4Sko5RW5wXy1qQUFSdjJ4RVNpWDZMRzZMclZMMk5lSVgweVloOG5pOG02SFRHNWhTRVM5SmFNN1A1UUx6MnV1Q3pSWlBiZjI2Zw?oc=5",
+          "domain": "kokusaishogyo-online.jp",
+          "published": "2026-10-01T16:00:00+09:00",
+          "published_label": "2026/10/1(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "衣類に貼りつかず、快適な“さらすべ”肌へ。メディプラスのノイズカットライン第二弾「ノイズカットボディゲルミルク」販売開始",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wVkxJWi1CbHBIY213RVdHY0N3VkdxMVZkaGdocENWeTlCOFR6V0xKUENRZ0U3YV92MFp1aktvNG9sV2p6V2dZSG44OVZzelZ6WTlCYUYwVkpUdzNpVnJoeFYybkNHMFhfa1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-01T16:00:00+09:00",
+          "published_label": "2026/10/1(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_49",
@@ -4334,7 +4334,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.5
     },
     {
       "id": "ecm_50",
@@ -4360,7 +4360,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【新商品】『洗顔直後のいきなりOIL』の新体験。奇跡の木モリンガのオイルで、肌ギュン*¹マジック！SHIKARIから「プレミアムモリンガオイル*²ブースター」新登場。 | 株式会社長寿乃里のプレスリリース",
@@ -4379,13 +4379,13 @@
           "is_new": false
         },
         {
-          "title": "長寿乃里、然 よかせっけんをロフトやハンズなど全国の一部店舗で順次発売へ",
+          "title": "累計販売数2,900万個*¹突破のロングセラー洗顔料「然-しかり- よかせっけん」が全国のロフト・ハンズ・アインズ＆トルぺで販売開始！ | 株式会社長寿乃里のプレスリリース",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWb29lSGppYk5BZ2ZYOGxDNDVZQUNoNWNHbWhlbjFUTnE1Wk9rWWhsLXpVSjdWNThzQ0xBYllORG81UTlfRm8zLVNkN3N5WFhRQV8tZFU5b3dxX0FhMlpRVTNZS1RwcE1N?oc=5",
-          "domain": "news.dellows.jp",
-          "published": "2026-10-13T20:00:27+09:00",
-          "published_label": "2026/10/13(火) 20:00",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mVWhDQzhpZ1FycE9QRWxhOFpSYWNFM1FhVkZUa1haWnBqTzZHQzZkaXJ0bXI5eE1tY3FhaEFMSXhQbVZOSUh1d3l0aWxRMDlLQ285eDNrWGMtQWh0VlRlT0JJdUVPblZuX1E?oc=5",
+          "domain": "prtimes.jp",
+          "published": "2026-10-13T16:00:00+09:00",
+          "published_label": "2026/10/13(火) 16:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
@@ -4427,7 +4427,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ecm_51",
@@ -4456,7 +4456,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.2
     },
     {
       "id": "ecm_52",
@@ -4610,7 +4610,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 1.9
+      "elapsed": 1.6
     },
     {
       "id": "ecm_54",

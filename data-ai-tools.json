@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T07:28:13+09:00",
-  "generated_at_label": "2026/11/26 07:28 JST",
+  "generated_at": "2026-11-26T13:58:41+09:00",
+  "generated_at_label": "2026/11/26 13:58 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私たちは Halo トレーニング後のコンテストで @whitecircle と提携しています。承認されたすべての Halo チームは、他の 600 チームにアクセスしてモデルを構築およびテストするための OpenRouter クレジットを取得します。\n11月30日までにお申し込みください。\nホワイトサークル (@whitecircle)\n史上最大規模のトレーニング後のコンテストを開催します!\n一緒に:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\n今すぐサインアップしてください\n- 参加者向けのコンピューティング費用は 150 万ドル\n- 20万ドル以上の賞金\n- オンライン、世界中、12 月 1 日から 12 月 10 日まで\nビデオ\n— https://x.com/whitecircle/status/2125274360369815717"
         },
         {
@@ -68,7 +68,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "@Atlas で新しいビジネスを立ち上げ、推論の最初の 500 ドルをすぐに無料で手に入れましょう。\nジェフ・ワインスタイン (@jeff_weinstein)\nストライプ @atlas には、@OpenRouter の無料クレジットとして $500 が付属しています。 (200,000 ドル以上の特典をすべて当社の新しいサイトでご覧ください:\n— https://x.com/jeff_weinstein/status/2125596114694857180"
         },
         {
@@ -88,7 +88,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Auto Router は、最も透過的なモデルのルーターです。\nパレート辺境の状態をライブで追跡できます。\nエンタープライズ向けに多くの優れた機能が間もなく登場します - 早期アクセスをご希望の場合は、お問い合わせいただくか、DM でお知らせください。\nオープンルーター (@OpenRouter)\nInkling 2 Small は、Auto Router を介した新しい作品の提供において DeepSeek Flash を上回りました\n時間の経過とともにブレンドがどのように変化するかをライブで確認できます。\n— https://x.com/OpenRouter/status/2125630871806033981"
         },
         {
@@ -107,7 +107,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Auto Code については、コーディングに重点を置いたルーターを参照してください。"
         },
         {
@@ -126,7 +126,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Inkling 2 Small は、Auto Router を介した新しい作品の提供において DeepSeek Flash を上回りました\n時間の経過とともにブレンドがどのように変化するかをライブで確認できます。"
         },
         {
@@ -295,7 +295,7 @@
           "title_ja": "双子座4度ネオンは書くのがすごいです\nOpenRouter を試している人々を見るのは素晴らしいことです。\nダン・マカティア (@daniel_mac8)\nGemini 4 Neon は、これまでにリリースされたモデルの中で最も味わい深いモデルです。\n近くないよ。\nこれを読んでください。驚くほど良いです。なんと？\n— https://x.com/daniel_mac8/status/2123413769808138523"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.8
     },
     {
       "id": "x_opencode",
@@ -325,6 +325,44 @@
           "title_ja": "キミをください フェーズ 1\n60 ドル分の Kim K3.1 Pro を 10 ドルで利用可能\nすべての OpenCode Go サブスクライバーが利用可能"
         },
         {
+          "title": "if you have a provider connected that has video models OpenCode now has a video generation tool\nif you're using OpenCode Console you have access to grok imagine and gemini omni\nyou can use it to make stuff like this",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125736571961847808/img/Ncf7Rvxtpl4WoSVp.jpg?name=small"
+          ],
+          "link": "https://x.com/opencode/status/2125737965871681587",
+          "domain": "x.com",
+          "published": "2026-11-26T08:46:40+09:00",
+          "published_label": "2026/11/26(木) 08:46",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ビデオ モデルを備えたプロバイダーが接続されている場合、OpenCode にビデオ生成ツールが追加されました。\nOpenCode Console を使用している場合は、grokimagine と geminiomni にアクセスできます。\nそれを使ってこのようなものを作ることができます"
+        },
+        {
+          "title": "A little blog post showing some examples of psychoscript.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125733196834746368/9IDDCo7h?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/jlongster/status/2125733194091872314",
+          "domain": "x.com",
+          "published": "2026-11-26T08:27:42+09:00",
+          "published_label": "2026/11/26(木) 08:27",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "サイコスクリプトの例をいくつか示す小さなブログ投稿。"
+        },
+        {
           "title": "we extracted the runtime powering codemode into a standalone project\nit's a simple package (no wasm) that can directly execute js and pause/resume it mid execution\na rust implementation is in the works so native apps can use js as a scripting language",
           "summary": "",
           "images": [
@@ -340,7 +378,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ランタイムを強化するコードモードをスタンドアロン プロジェクトに抽出しました。\nこれは、js を直接実行し、実行中に一時停止/再開できるシンプルなパッケージ (wasm なし) です。\nネイティブ アプリがスクリプト言語として js を使用できるように、Rust の実装が進行中です。"
         },
         {
@@ -360,7 +398,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "イアンの南極への一人旅用にカスタム @anomalyco ジャケット"
         },
         {
@@ -540,45 +578,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Hy4 flash has turned into an unexpected hit\nStill exclusively free on OpenCode for the next 10 days\nOpenCode (@opencode)\nHy4 flash is free with near-unlimited usage for the next 2 weeks\n1M context · Multimodal · ZDR\nHy's fastest and most cost-efficient model\n— https://x.com/opencode/status/2122231173720224224",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HXbI1OPWcAA6XZN.jpg?name=small"
-          ],
-          "link": "https://x.com/opencode/status/2123106127030210786",
-          "domain": "x.com",
-          "published": "2026-11-19T02:28:40+09:00",
-          "published_label": "2026/11/19(木) 02:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Hy4 Flash が予想外のヒット商品に\n今後 10 日間は OpenCode のみで無料でご利用いただけます\nオープンコード (@opencode)\nHy4 フラッシュは、今後 2 週間はほぼ無制限に無料で使用できます\n1M コンテキスト · マルチモーダル · ZDR\nHyの最速かつ最もコスト効率の高いモデル\n— https://x.com/opencode/status/2122231173720224224"
-        },
-        {
-          "title": "F*CK IT\n$10 for $500 GLM 5.3 till end of the week\nOpenCode (@opencode)\nwe're bored we're just gonna do phase 2 now\n$200 of GLM 5.3 usage for $10\nhave fun\n— https://x.com/opencode/status/2122763721923559595",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/opencode/status/2122969474571583885",
-          "domain": "x.com",
-          "published": "2026-11-18T17:25:40+09:00",
-          "published_label": "2026/11/18(水) 17:25",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "くたばれ\n週末まで $10 で $500 GLM 5.3\nオープンコード (@opencode)\n退屈だから今はフェーズ2をやるだけだ\n200 ドル分の GLM 5.3 を 10 ドルで利用可能\n楽しんでください\n— https://x.com/opencode/status/2122763721923559595"
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 1.4
     },
     {
       "id": "x_aimirai46487",
@@ -591,142 +593,13 @@
       "count": 15,
       "items": [
         {
-          "title": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nMAGI-2 is NOW LIVE on WaveSpeed!\n- 30s of 1080p video with synced audio\n- Up to 20 references in one generation\n- 480B parameters. Serious creative power.\n- Precise control over shots, timing & edits\nSounds impressive? Try it for yourself!\nVideo\n— https://x.com/wavespeed_ai/status/2125574831118950804",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125573114952327168/img/LAGvO0Wt5zCLxz2I.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595982855573692",
-          "domain": "x.com",
-          "published": "2026-11-25T23:22:28+09:00",
-          "published_label": "2026/11/25(水) 23:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "■引用元\nWaveSpeedAI (@wavespeed_ai)\nMAGI-2 が WaveSpeed でライブになりました!\n- 同期オーディオ付きの 30 秒の 1080p ビデオ\n- 1 世代で最大 20 件の参照\n- 480Bパラメータ。本格的なクリエイティブ力。\n- ショット、タイミング、編集を正確にコントロール\n印象的ですか？自分で試してみてください！\nビデオ\n— https://x.com/wavespeed_ai/status/2125574831118950804"
-        },
-        {
-          "title": "AIプラットフォームの「WaveSpeedAI」で、Sand .aiの動画生成AIモデル「MAGI-2」が使えるようになりました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125573114952327168/img/LAGvO0Wt5zCLxz2I.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595941373931733",
-          "domain": "x.com",
-          "published": "2026-11-25T23:22:18+09:00",
-          "published_label": "2026/11/25(水) 23:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "■引用元\nPrismML (@PrismML)\nToday, we’re releasing Ternary Bonsai 2.5 27B.\nAn upgrade to Ternary Bonsai 2 27B, with substantially stronger agentic coding, multi-turn tool use, and long-horizon task execution. All within the same 5.9 GB model footprint.\nBased on Qwen3.8 27B, the model is 9x smaller than its full-precision counterpart. It scores 73.9 on tau3-bench and 75.6 on SWE-Bench-Verified, making it the strongest AI model of its memory footprint for agentic workloads.\nCompared with Ternary Bonsai 2, Ternary Bonsai 2.5 completes tasks in fewer turns, uses fewer tokens, and delivers results faster and more accurately.\nAvailable today under Apache 2.0.\n— https://x.com/PrismML/status/2125310762390552588",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX6bsk1a0AAiHcR.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595878543212545",
-          "domain": "x.com",
-          "published": "2026-11-25T23:22:03+09:00",
-          "published_label": "2026/11/25(水) 23:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "■引用元\nプリズムML (@PrismML)\n本日、Ternary Bonsai 2.5 27Bをリリースします。\nTernary Bonsai 2 27B へのアップグレード。大幅に強化されたエージェント コーディング、マルチターン ツールの使用、および長期的なタスクの実行を備えています。すべて同じ 5.9 GB モデルの設置面積内にあります。\nQwen3.8 27B に基づいたこのモデルは、完全精度の対応するモデルよりも 9 倍小さいです。 tau3-bench では 73.9、SWE-Bench-Verified では 75.6 のスコアを獲得しており、エージェント ワークロードのメモリ フットプリントの中で最も強力な AI モデルとなっています。\nTernary Bonsai 2 と比較して、Ternary Bonsai 2.5 はより少ないターンでタスクを完了し、より少ないトークンを使用して、より速く、より正確に結果を提供します。\n現在、Apache 2.0 で利用可能です。\n— https://x.com/PrismML/status/2125310762390552588"
-        },
-        {
-          "title": "PrismMLは、Qwen3.8 27Bをベースにモデルサイズを約9分の1に圧縮し、コーディングやツール活用、複雑なタスクの実行能力を向上させたAIモデル「Ternary Bonsai 2.5 27B」をオープンウェイトで公開しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX-h8ZkaUAAXI01.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595798675329050",
-          "domain": "x.com",
-          "published": "2026-11-25T23:21:44+09:00",
-          "published_label": "2026/11/25(水) 23:21",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "■引用元\nOpenAI (@OpenAI)\nWe’re sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models.\nOur models can design new protein shapes and sequences using reasoning and code, without calling specialized biology models to generate them.\nVideo\n— https://x.com/OpenAI/status/2125334383490105601",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595544341074028",
-          "domain": "x.com",
-          "published": "2026-11-25T23:20:44+09:00",
-          "published_label": "2026/11/25(水) 23:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "■引用元\nオープンAI (@OpenAI)\nGPT-6 モデルファミリーの固有タンパク質設計機能のウェットラボ検証を示す新しいプレプリントを共有します。\n私たちのモデルは、特殊な生物学モデルを呼び出して生成することなく、推論とコードを使用して新しいタンパク質の形状と配列を設計できます。\nビデオ\n— https://x.com/OpenAI/status/2125334383490105601"
-        },
-        {
-          "title": "OpenAIは、AIモデル「GPT-6シリーズ」が、生物学に特化したAIモデルを使わずに新たなタンパク質を設計できることを、実験で確認したと発表しました(査読前論文を公開)。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125331261908717568/img/jrWnfbvTT7Sv4iSN.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595523315061161",
-          "domain": "x.com",
-          "published": "2026-11-25T23:20:39+09:00",
-          "published_label": "2026/11/25(水) 23:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "■Google Antigravity変更履歴 ※v2.35.1もリリースされているようです",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125084245811240960/5LZngyd2?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595444734808302",
-          "domain": "x.com",
-          "published": "2026-11-25T23:20:20+09:00",
-          "published_label": "2026/11/25(水) 23:20",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」の最新版(v2.35.0)がリリースされました。\n会話履歴が無制限になり、HTMLアーティファクト内のテキストを検索できるようになっています。\nRohan Phadte (@RohanPhadte)\nAntigravity v2.35.0 is rolling out now. Here are some of my favorite improvements the team has shipped!👇\n— https://x.com/RohanPhadte/status/2125324194586190055",
+          "title": "OpenAIは、AIモデル「GPT-6.2」リリース時に発生した『GPT-6.2 AstraとSolの利用量が本来よりも少なく計算されていた不具合』を修正しました。\nお詫びとして、Go、Plus、Pro、Businessユーザーに利用上限のリセット権が1回分付与されるようです。\nTibo (@thsottiaux)\nWe made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users.\nWe’ve fixed this now, so the same work will use more of your plan’s usage allowance. Comparing to last week, you will reach your limits 40% faster on GPT-6.2 Astra and 25% faster on Sol. You should still see these go further in usage compared to 6 Astra and 6.1 Sol. Other models weren’t affected, and we won’t charge you for the difference on past usage.\nAs a small token to apologize for the mistake, we’ll be adding one banked reset for everyone on Go, Plus, Pro, and Business.\n— https://x.com/thsottiaux/status/2125784147889393806",
           "summary": "",
           "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2125595389743292677",
+          "link": "https://x.com/AIMIRAI46487/status/2125798573443096916",
           "domain": "x.com",
-          "published": "2026-11-25T23:20:07+09:00",
-          "published_label": "2026/11/25(水) 23:20",
+          "published": "2026-11-26T12:47:29+09:00",
+          "published_label": "2026/11/26(木) 12:47",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -736,15 +609,15 @@
           "is_new": true
         },
         {
-          "title": "NVIDIAは、LLMが文章を生成するのと同じ仕組みで画像を生成するAIモデル「Nemotron-Labs-Image-30B-A3B」を公開しました。\n研究・評価目的に限り、無償で利用できます。",
+          "title": "中国のEVメーカー「NIO」のCEOは、各事業部門にAIを導入することで業務効率を高め、長期的に粗利益率を10ポイント引き上げられるとの見通しを示しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2125582805862436864/iW7AH4pb?format=jpg&name=800x419"
+            "https://pbs.twimg.com/card_img/2123607846168436736/7PEW9Tex?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125595215260234131",
+          "link": "https://x.com/AIMIRAI46487/status/2125798508649418878",
           "domain": "x.com",
-          "published": "2026-11-25T23:19:25+09:00",
-          "published_label": "2026/11/25(水) 23:19",
+          "published": "2026-11-26T12:47:14+09:00",
+          "published_label": "2026/11/26(木) 12:47",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
@@ -754,115 +627,237 @@
           "is_new": true
         },
         {
-          "title": "■引用元\nGoogle Antigravity (@antigravity)\nMake your web apps agent-ready without rewriting your frontend.\nUse the Modern Web Guidance skill in Antigravity to add declarative WebMCP tools straight to your existing HTML forms, giving AI agents structured access while keeping the experience identical for human users.\nVideo\n— https://x.com/antigravity/status/2125378937156944146",
+          "title": "米連邦通信委員会(FCC)は、SpaceXが最大100万基の衛星を打ち上げ、宇宙にAI向けデータセンターを構築する計画を条件付きで認可しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125369923572514816/img/NJ2XErl34iwp7_-Y.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125718556520161280/LrOVAcgO?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125542884778913861",
+          "link": "https://x.com/AIMIRAI46487/status/2125798460679143628",
           "domain": "x.com",
-          "published": "2026-11-25T19:51:29+09:00",
-          "published_label": "2026/11/25(水) 19:51",
+          "published": "2026-11-26T12:47:03+09:00",
+          "published_label": "2026/11/26(木) 12:47",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nフロントエンドを書き直すことなく、Web アプリをエージェント対応にします。\nAntigravity の最新の Web ガイダンス スキルを使用して、宣言型 WebMCP ツールを既存の HTML フォームに直接追加し、人間のユーザーのエクスペリエンスを同一に保ちながら、AI エージェントに構造化されたアクセスを提供します。\nビデオ\n— https://x.com/antigravity/status/2125378937156944146"
+          "is_new": true
         },
         {
-          "title": "GoogleのAIエージェント「Google Antigravity」の「Modern Web Guidance」スキルを使うことで、既存のHTMLフォームに(宣言型の)WebMCPツールを直接追加できます。\n(人間の)使い勝手はそのままに、AIエージェントがフォームの構造を理解し、直接操作できるようになります。",
+          "title": "Google Researchは、AIモデル「Gemini 4」をベースとしたマルチエージェントシステム「Cogentic」が生成した6本の数学論文をGitHubで公開しました。",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125369923572514816/img/NJ2XErl34iwp7_-Y.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125783683470598145/htC58o8s?format=jpg&name=420x420_2"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125542834266874079",
+          "link": "https://x.com/AIMIRAI46487/status/2125798412708921400",
           "domain": "x.com",
-          "published": "2026-11-25T19:51:17+09:00",
-          "published_label": "2026/11/25(水) 19:51",
+          "published": "2026-11-26T12:46:51+09:00",
+          "published_label": "2026/11/26(木) 12:46",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
-          "title": "GoogleのAIエージェント「Google Antigravity」がMCP Appsに対応し、操作可能なチャート、サンドボックス、リリースボード、カスタムファイルビューアーをワークスペース内に直接生成できるようになりました。\nGoogle Antigravity (@antigravity)\nMCP Apps are now supported in Google Antigravity. Generate interactive charts, sandboxes, release boards & custom file viewers right into your workspace.\n— https://x.com/antigravity/status/2125315892695216483",
+          "title": "■Artificial Analysis",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/media/HX6jio3WUAACNDa.jpg?name=small"
+            "https://pbs.twimg.com/card_img/2125460399495516160/TpV915cX?format=jpg&name=800x419"
           ],
-          "link": "https://x.com/AIMIRAI46487/status/2125542538836857338",
+          "link": "https://x.com/AIMIRAI46487/status/2125771343740449101",
           "domain": "x.com",
-          "published": "2026-11-25T19:50:06+09:00",
-          "published_label": "2026/11/25(水) 19:50",
+          "published": "2026-11-26T10:59:17+09:00",
+          "published_label": "2026/11/26(木) 10:59",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■人工分析"
         },
         {
-          "title": "Google WorkspaceのMCPサーバーと「gwscli(ターミナルから操作できるGoogle WorkspaceのCLI)」が、本日正式リリースされました。\nPhilipp Schmid (@_philschmid)\nGoogle Workspace MCP servers and gwscli are GA today. No Enterprise plan or billing card needed with the new 1-click Personal mode setup.\n- 8 servers: Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat, Tasks\n- Free tier: 5,000 req/day per product\n- Built-in HITL for send & share\nYou still have to go through Google Cloud, which is not optimal, but it is much better than the old OAuth consent screen and app review flow. Try it and leave feedback.\n— https://x.com/_philschmid/status/2125296446459056156",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX6RoD8WUAAqFeu.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125542489113436630",
-          "domain": "x.com",
-          "published": "2026-11-25T19:49:54+09:00",
-          "published_label": "2026/11/25(水) 19:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "GoogleのAIエージェント「Google Antigravity」のAutoモードで、不要な承認確認が50％削減されたということです。\nVarun Mohan (@_mohansolo)\nWe’ve reduced unnecessary approvals in Auto mode by 50% in Antigravity!\nWe will have more wins here soon but big quality of life improvement in the today’s release.\nMore to come today 👀\n— https://x.com/_mohansolo/status/2125318340004720839",
+          "title": "■引用元\nArtificial Analysis (@ArtificialAnlys)\nSand AI's 480B-parameter MAGI-2 debuts at #1 in Image to Video, statistically tied with Dreamina Seedance 2.5\nThis sets a new Quality vs Price frontier on AA-Video-I2V v2.1 at $0.08/s ($4.80/min), 7x cheaper than Dreamina Seedance 2.5 ($34.12/min). MAGI-2 also ranks #7 on AA-Video-T2V v2.1, up 14 places from MAGI-2 Preview.\nReleased November 24, MAGI-2 is Sand AI’s 480B-parameter (28B active) Multi-Head Latent MoE video model, generating up to 30 seconds of 1080p, 25 fps audio-video with omni-reference across up to 20 media items.\n➤ Availability: Live on Higgsfield, VidMuse, and the Sand AI Open Platform\n➤ Licence: Proprietary API at launch; Sand AI have stated their intent to follow with open source releases\nCongratulations to @magiai_hq on the release!\nSee our full analysis of MAGI-2 in the thread below 🧵\n— https://x.com/ArtificialAnlys/status/2125759745655210113",
           "summary": "",
           "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2125542426748264866",
+          "link": "https://x.com/AIMIRAI46487/status/2125771295703065015",
           "domain": "x.com",
-          "published": "2026-11-25T19:49:39+09:00",
-          "published_label": "2026/11/25(水) 19:49",
+          "published": "2026-11-26T10:59:06+09:00",
+          "published_label": "2026/11/26(木) 10:59",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true,
+          "title_ja": "■引用元\n人工分析 (@ArtificialAnlys)\nSand AI の 480B パラメータの MAGI-2 が画像からビデオへの分野で第 1 位にデビュー、統計的には Dreamina Seedance 2.5 と同点\nこれにより、AA-Video-I2V v2.1 の品質と価格の新たな境界線が 0.08 ドル/秒 (4.80 ドル/分) となり、Dreamina Seedance 2.5 (34.12 ドル/分) よりも 7 倍安くなります。 MAGI-2 は、AA-Video-T2V v2.1 でも 7 位にランクされており、MAGI-2 プレビューから 14 位上昇しています。\n11 月 24 日にリリースされた MAGI-2 は、Sand AI の 480B パラメータ (28B アクティブ) マルチヘッド潜在 MoE ビデオ モデルで、最大 20 のメディア アイテムにわたるオムニリファレンスを備えた最大 30 秒の 1080p、25 fps オーディオビデオを生成します。\n➤ 可用性: Higgsfield、VidMuse、および Sand AI オープン プラットフォームで稼働\n➤ ライセンス: 起動時に独自の API。 Sand AI は、オープンソースのリリースに従う意向を表明しました\n@magiai_hq リリースおめでとうございます!\n以下のスレッドで MAGI-2 の完全な分析をご覧ください 🧵\n— https://x.com/ArtificialAnlys/status/2125759745655210113"
         },
         {
-          "title": "■引用元\nMAGI (@magiai_hq)\nMAGI-2 by  is here.\nUp to 30 seconds. Mix & match text, images, video and audio.\nTiming control down to 50ms. True to your prompt.\nBuilt for brands. Ready for e-commerce.\nAny style. Nailed.\nVideo\n— https://x.com/magiai_hq/status/2125441373381984324",
+          "title": "AIモデルの比較・分析サイトArtificial Analysisの、AIモデルの画像→動画生成能力を測るランキングで、Sand AIの動画生成AIモデル「MAGI-2」が1位にランクインしました。",
           "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125441037518954496/img/9MXQ7Sd62-yIKiXm.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125542364286767227",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2125771224764862481",
           "domain": "x.com",
-          "published": "2026-11-25T19:49:24+09:00",
-          "published_label": "2026/11/25(水) 19:49",
+          "published": "2026-11-26T10:58:49+09:00",
+          "published_label": "2026/11/26(木) 10:58",
           "badge": "X",
           "badge_class": "badge-x",
           "pinned": false,
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nMAGI (@magiai_hq)\nMAGI-2 by はこちらです。\n30秒まで。テキスト、画像、ビデオ、オーディオを組み合わせます。\n50msまでのタイミング制御。あなたのプロンプトに忠実です。\nブランド向けに構築されています。電子商取引の準備が整いました。\nどんなスタイルでも。釘付けになりました。\nビデオ\n— https://x.com/magiai_hq/status/2125441373381984324"
+          "is_new": true
+        },
+        {
+          "title": "GoogleのAIエージェント「Google Antigravity」では、キャッシュの最適化や実行環境の改善により、過去5日間でサブスクプランでのAIモデル「Gemini 4 Neon」の実質的な利用可能量が約75％増加したということです。\nVarun Mohan (@_mohansolo)\nWe've increased the cache hit rate for Neon in Antigravity again by another 4.5%. This means you can complete 28% more tasks within quota.\nIn the last 5 days, we've effectively increased Neon usage on the subscription by close to 75% through caching and harness improvements!\n— https://x.com/_mohansolo/status/2125641696377712968",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2125771105445273802",
+          "domain": "x.com",
+          "published": "2026-11-26T10:58:21+09:00",
+          "published_label": "2026/11/26(木) 10:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "日本政府は、AI法の改正案で、先端AIサービスを提供する事業者に安全対策や事故発生時の報告を義務づけ、政府の命令に従わない場合などに罰則を科す方針です。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125681591573966848/X9khYXQR?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125771026776965332",
+          "domain": "x.com",
+          "published": "2026-11-26T10:58:02+09:00",
+          "published_label": "2026/11/26(木) 10:58",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "NVIDIAは、2018年に投資家から提起された暗号資産向け収益を巡る集団訴訟で和解し、2億9000万ドル(約460億円)の和解金を支払うことになりました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125752025371848704/u0cIJEg1?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125770981910446452",
+          "domain": "x.com",
+          "published": "2026-11-26T10:57:51+09:00",
+          "published_label": "2026/11/26(木) 10:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nkaran ahuja (@ahuja_karan)\nClaude Duet's research preview is now expanding beyond the US to India, Brazil, Indonesia, and Japan. A lot of you have been asking for this, and we're excited to learn from more people as we keep improving the experience.\n→ Pro, Max, and Ultra subscribers in these countries will start getting invites off the waitlist today. If you're not on the waitlist, join here:\n→ [New] For Teams accounts, admins will start seeing the option to turn on Claude Duet access starting today.\nAs a reminder, during research preview, we're offering 3 limit resets for Pro users and 1 for Max and Ultra. You can find them in Settings > Usage.\nWe'll enable access in more countries soon. Thank you for your patience, and please keep the feedback coming!\nVideo\n— https://x.com/ahuja_karan/status/2125754729280192923",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125754598006923264/img/IhpVLwEJfZ2qkVrx.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125770897722413065",
+          "domain": "x.com",
+          "published": "2026-11-26T10:57:31+09:00",
+          "published_label": "2026/11/26(木) 10:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nカラン・アフジャ (@ahuja_karan)\nクロード・デュエ氏の研究プレビューは現在、米国を超えてインド、ブラジル、インドネシア、日本にまで拡大しています。多くの皆様がこれを求められており、エクスペリエンスを改善し続ける中で、より多くの方々から学ぶことを楽しみにしています。\n→ これらの国の Pro、Max、Ultra の加入者は、本日から待機リストからの招待を受け始めます。待機リストに載っていない場合は、ここから参加してください:\n→ [新規] Teams アカウントの場合、管理者には今日から Claude Duet へのアクセスを有効にするオプションが表示されます。\n研究プレビュー中に、Pro ユーザーには 3 回、Max と Ultra には 1 回の制限リセットを提供しています。これらは、[設定] > [使用状況] で見つけることができます。\nすぐにさらに多くの国でアクセスできるようにする予定です。しばらくお待ちいただきありがとうございます。今後もフィードバックをお寄せください。\nビデオ\n— https://x.com/ahuja_karan/status/2125754729280192923"
+        },
+        {
+          "title": "AnthropicのAIエージェント「Claude Duet」のリサーチプレビューが、米国に加え、インド、ブラジル、インドネシア、日本で展開中です。\nリサーチプレビュー期間中、Proプランのユーザーは3回、MaxとUltraプランのユーザーは1回、利用上限をリセットできます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125754598006923264/img/IhpVLwEJfZ2qkVrx.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125770874687197263",
+          "domain": "x.com",
+          "published": "2026-11-26T10:57:26+09:00",
+          "published_label": "2026/11/26(木) 10:57",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■Claude Duet iOS",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/AIMIRAI46487/status/2125732069062082891",
+          "domain": "x.com",
+          "published": "2026-11-26T08:23:14+09:00",
+          "published_label": "2026/11/26(木) 08:23",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■クロード・デュエットiOS"
+        },
+        {
+          "title": "■Claude Duetの順番待ちリスト",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2123515472846974977/AedqVxcn?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125732012157964679",
+          "domain": "x.com",
+          "published": "2026-11-26T08:23:00+09:00",
+          "published_label": "2026/11/26(木) 08:23",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "AnthropicのAIエージェント「Claude Duet」が日本でも使えるようになりつつあるようです(有料ユーザー限定)。\n※順番待ちリストに登録しているユーザーには、利用可能になり次第、メールで通知が届きます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYAdqbaa4AEPG4F.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2125731984727216488",
+          "domain": "x.com",
+          "published": "2026-11-26T08:22:54+09:00",
+          "published_label": "2026/11/26(木) 08:22",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.8
     },
     {
       "id": "x_kimmonismus",
@@ -894,6 +889,24 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125738588578983936/ZMueBYR-?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125716393337217148",
+          "domain": "x.com",
+          "published": "2026-11-26T07:20:56+09:00",
+          "published_label": "2026/11/26(木) 07:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Anthropic researchers used Claude to cut the Lean formalization of the Riemann Hypothesis and its generalization by roughly 99.56%. That’s more than 200× smaller.\n17.4 million lines of Lean down to 76,000.",
           "summary": "",
           "images": [
@@ -909,7 +922,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "人類研究者はクロードを使用して、リーマン予想のリーン形式化とその一般化を約 99.56% 削減しました。これは 200 分の 1 以上小さいのです。\n1,740 万行の Lean が 76,000 行に減少。"
         },
         {
@@ -928,7 +941,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ここで Junie エコモードをお試しください:"
         },
         {
@@ -947,7 +960,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "AI コーディングで支払うものの多くは、安価なモデルでも処理できる作業を高価なモデルで実行することです。\nテストを作成し、フィールドの名前を変更し、すでに明確になっている計画を適用します。すべてを購入しても、トップモデルの価格を支払うことになります。\nJunie Eco Mode は仕事を分割します。選択したモデルがコードを読んで計画を立て、次に安価なモデルがそれを書いてテストします。 2 つの内部ベンチマークでは、JetBrains はタスクあたりのモデル コストが 48% および 57% 低く、解決率の変動は 1 パーセント未満でした。\n私はこのようなコスト削減が気に入っています。なぜなら、信頼できるモデルに対する考え方が変わらないからです。 #広告\nジュニー (@junie_ai)\n1/3 すべてのコーディング手順で最も高価なモデルが必要なわけではありません。\nJunie Eco Mode をご紹介します。選択したモデルが調査および計画し、その後、低コストのモデルが実装とテストを処理します。 🧵\n— https://x.com/junie_ai/status/2115434317862297902"
         },
         {
@@ -966,7 +979,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google でさえ、現在では 2028 年以前 (!) まで AGI に対して非常に強気です。彼らが AGI をどのように定義しているかを思い出してください。\nシェーン・レッグ (@ShaneLegg)\n実際、そうです。現在、2028 年までに最小 AGI になる可能性は 50% 以上あると考えています。現在、それに近づいています。\n— https://x.com/ShaneLegg/status/2125665607840346357"
         },
         {
@@ -985,7 +998,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ロボット工学における最大の問題の 1 つはコンピューティングです。ロボットに新しいタスクを処理させるモデルには大量の GPU が必要であり、すべてのロボットに GPU を搭載すると、それぞれのロボットの構築にコストがかかります。\nAbstract はそれを回避する方法を開始しました。ロボットはカメラが見たものとタスクを送信し、Abstract は独自の GPU でモデルを実行し、次の動きを送り返します。\n1 つの API キーは、Physical Intelligence の π0.5 と Runway の Praxis-1 を含む 8 つのロボット モデルをカバーします。\nそのため、同じ安価なアームでも、新しいモデルが発売されるたびにそれを入手できる可能性があります。それは大きな工場よりも小さなお店の方が感じると思います。\nルーカス✈️ SF (@quantbagel)\nロボットの高速かつ安全な推論を構築するために、HF0 から 250 万ドルを調達しました。\nAbstract はロボットの AI をクラウド上で往復 30 ミリ秒で実行するため、ロボットに GPU を搭載する必要がなく、構築コストが低くなります。\n1 つの API キーで、π0.5 と MolmoAct2 を含む 8 つのロボット モデルを入手できます。\nまた、Susa Ventures や OpenAI、Anthropic、NVIDIA のエンジェルからも支援を受けています。\n今すぐサインアップして API キーを取得できます。\nDM で $1,000 の推論クレジットを獲得してください。\nビデオ\n— https://x.com/quantbagel/status/2125650766438523377"
         },
         {
@@ -1005,7 +1018,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Google は過去 5 日間で「キャッシュとハーネスの改善により、サブスクリプションでの Neon の使用量が 75% 近く増加しました」\n本日、OpenAI は、金額は特定せずに、サブスクリプション プランの料金を引き下げるというメッセージを送信しました。\nSol と Astra で Codex のレートがどの程度変化するかが明確ではないのに、同時に Google は現在すべてを適切に行っているのが腹立たしいです。\nヴァルン・モハン (@_mohansolo)\nAntigravity の Neon のキャッシュ ヒット率をさらに 4.5% 増加させました。これは、割り当て内で 28% 多くのタスクを完了できることを意味します。\n過去 5 日間で、キャッシュとハーネスの改善により、サブスクリプションでの Neon の使用量が 75% 近く増加しました。\n— https://x.com/_mohansolo/status/2125641696377712968"
         },
         {
@@ -1024,7 +1037,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "and yet, its crazy how many media outlets were writing on this",
@@ -1040,7 +1053,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "それなのに、どれほど多くのメディアがこの件について記事を書いていたかというと、信じられないほどだ。"
         },
         {
@@ -1059,7 +1072,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェンセン・ファンにとって非常に良いニュースだ：米当局者らは機密会見で議会スタッフに対し、中国がアリス・ファンにスパイ行為を指示した証拠はないと語った、とWSJが報じた。\n彼女は事件中、中国のスパイ機関と連絡を取っていた。しかし、米国には彼女が重要な何かを渡した兆候はなく、これまでの証拠はロマンチックな関係を示しています。"
         },
         {
@@ -1079,7 +1092,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "この噂が真実であれば、OpenAI と Anthropic が最新モデルを保留している理由が説明されます。\nScott Aaronson 氏は、OpenAI または Anthropic が多項式時間で大きな数を因数分解する方法を発見した可能性があると聞いたと述べています。\nなぜこれが大規模になるのでしょうか? RSA はインターネットの膨大な部分を保護しており、そのセキュリティ全体は通常のコンピュータでは不可能な大きな数値の因数分解に依存しています。このようなアルゴリズムが実際の鍵サイズで実際に機能する場合、それを解読するのに量子コンピューターさえ必要ありません。偽のソフトウェア アップデートが署名チェックに合格し、RSA で暗号化されたデータが読み取られる可能性があり、インターネット上のシステムは迅速に RSA から移行する必要があります。\nそう、私たちが予想していたことが実際に起こるかもしれません。\nアンドリュー・カラン (@AndrewCurran_)\nスコット・アーロンソンが自身のブログで語った。これも聞いたことがあります。実際、Anthropic と OpenAI の両方に関するこの噂は約 10 日間続いています。最近の数学の結果が互いにどの程度反映されているかを考えると、どちらかがそれを持っているなら、おそらく両方とも同じであるでしょう。これは RSA をクラックする可能性があります。\n— https://x.com/AndrewCurran_/status/2125589468786909510"
         },
         {
@@ -1099,7 +1112,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ああ、ここにグーグルがあります:\nぽっちゃり♨️ (@kimmonismus)\n何が起こっているのですか？ Googleは、Gemini 4上で動作する同社のAIエージェントCogenticによって作成された6つの新しい数学論文を黙って公開した。最初のプロンプトの後、人間は関与していないとGoogleは述べている。\n- 因数分解: 巨大な数を素数に分割することは、RSA 暗号化のバックボーンです。最速の方法は 1990 年代から存在していましたが、30 年間、誰もそれが実際にどれほど速いかを証明できませんでした。 AIがまさにそうしたのです。\n- そしてそれは続きます: 対数ランク予想 (1988 年からオープン)、ハラリーのエッジ再構成予想 (1964 年からオープン)、そして指数関数的時間を上回るランダム性のない初の因数分解法。これらのどれかがあれば、数学者のキャリアが形成されます。\nAnthropic、OpenAI、そして今度は Google、すべて数日以内に！これが新しい常態です!\n— https://x.com/kimmonismus/status/2125574747882704951"
         },
         {
@@ -1116,7 +1129,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "マジで、これはクソだ!!毎日新しい画期的な技術がリリースされています"
         },
         {
@@ -1133,29 +1146,10 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "Post-training is where a lot of the interesting model work happens right now, and most people who'd be good at it can't afford the GPUs to try.\n@whitecircle just launched a $200K competition around Halo, their open-source framework for post-training models. You can improve Halo itself or build a model with it, and there's over $1M in compute credits on top, with OpenAI, DeepMind, NVIDIA, Lovable and others as partners.\nThat's a lot of compute for a competition, and it's the part I'd pay attention to. Plenty of strong researchers outside the big labs simply don't have the hardware to try this.\nWhite Circle (@whitecircle)\nWe’re running the largest post-training competition ever!\nTogether with:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\nSign up now at\n- $1.5m in compute for participants\n- $200k+ in cash prizes\n- Online, worldwide, Dec 1–10\nVideo\n— https://x.com/whitecircle/status/2125274360369815717",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125274305885835264/img/ZOdx02nc7gB_SArI.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125571240245276779",
-          "domain": "x.com",
-          "published": "2026-11-25T21:44:09+09:00",
-          "published_label": "2026/11/25(水) 21:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": true,
-          "title_ja": "ポストトレーニングは現在、興味深いモデル作業の多くが行われている場所ですが、ポストトレーニングが得意であっても、GPU を試す余裕がない人がほとんどです。\n@whitecircle は、トレーニング後のモデル用のオープンソース フレームワークである Halo を巡る 20 万ドルのコンテストを立ち上げたばかりです。 Halo 自体を改善したり、Halo を使用してモデルを構築したりすることができ、OpenAI、DeepMind、NVIDIA、Lovable などがパートナーとして参加し、100 万ドルを超えるコンピューティング クレジットが追加されます。\nこれは競技会にとっては膨大な計算量であり、私が注目したい部分です。大きな研究室以外の優秀な研究者の多くは、これを試すためのハードウェアを持っていません。\nホワイトサークル (@whitecircle)\n史上最大規模のトレーニング後のコンテストを開催します!\n一緒に:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\n今すぐサインアップしてください\n- 参加者向けのコンピューティング費用は 150 万ドル\n- 20万ドル以上の賞金\n- オンライン、世界中、12 月 1 日から 12 月 10 日まで\nビデオ\n— https://x.com/whitecircle/status/2125274360369815717"
+          "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_haider1",
@@ -1187,6 +1181,44 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "just an average week in the mathematics singularity:\nanthropic produced a proof of the 167-year-old riemann hypothesis\nopenai claimed to have solved the 57-year-old matrix multiplication problem\noi and anthr produced proofs of the 47-year-old vp ≠ vnp conjecture\ngoogle broke a 34-year-old theoretical barrier in integer factorization",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX_iVpvaUAAaQim.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125781587660775622",
+          "domain": "x.com",
+          "published": "2026-11-26T11:40:00+09:00",
+          "published_label": "2026/11/26(木) 11:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "数学的特異点における平均的な一週間:\n人間は167年前のリーマン予想の証明を生み出した\nopenaiは57年来の行列乗算問題を解決したと主張\noi と anthr は 47 年前の vp ≠ vnp 予想の証明を作成しました\nグーグルは整数因数分解における34年間の理論的障壁を打ち破った"
+        },
+        {
+          "title": "GPT-6.2 Astra solved a historical mystery in just 22 minutes by identifying the creator of an anonymous 1808 sketchbook held at Yale, according to a history professor\ni love how these breakthroughs are becoming an almost daily occurrence",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HX_h5Y-bMAAUMiH.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2125736289097965814",
+          "domain": "x.com",
+          "published": "2026-11-26T08:40:00+09:00",
+          "published_label": "2026/11/26(木) 08:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "歴史学教授によると、GPT-6.2 アストラはイェール大学に保管されていた匿名の 1808 年のスケッチブックの作成者を特定することで、わずか 22 分で歴史の謎を解明した\nこうした画期的な出来事がほぼ毎日の出来事になりつつあるのが大好きです"
+        },
+        {
           "title": "openai's solution today to the 57-year-old matrix multiplication problem is probably a millennium prize-level breakthrough\nanthropic and oai have basically saturated the fields medal benchmark. if a human mathematician had published even one of openai's top math papers, they could have won a fields medal",
           "summary": "",
           "images": [],
@@ -1200,7 +1232,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "57年来の行列乗算問題に対する今日のopenaiの解決策は、おそらくミレニアム賞レベルの画期的な進歩である。\nanthropic と oai は基本的にフィールドメダルのベンチマークを飽和させています。人間の数学者が Openai のトップの数学論文を 1 つでも発表していたら、フィールズ賞を獲得できたかもしれません"
         },
         {
@@ -1219,7 +1251,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Terence Tao says once tech companies generate AI-powered math proofs, there are no good options\nIt's like a power plant creating toxic nuclear waste: you can sit on it, release it, or pay someone to treat it. The best option is not to produce it at all\nSolving math problems isn't their main goal. It's almost a waste byproduct",
@@ -1237,7 +1269,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "テレンス・タオ氏は、ハイテク企業がAIを活用した数学証明を生成したら、良い選択肢はなくなると語る\nそれは有毒な核廃棄物を生成する発電所のようなものです。その上に座ることも、放出することも、誰かにお金を払って処理してもらうこともできます。最善の選択肢は、まったく生成しないことです\n数学の問題を解くことが彼らの主な目的ではありません。それはほとんど無駄な副産物だ"
         },
         {
@@ -1256,7 +1288,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "これを言うのは時期尚早かもしれませんが、次世代のスタートアップには大規模なエンジニアリング チームは必要ないかもしれません。\nAI エージェントを 3 人でオーケストレーションすると、30 人のチームと同じ成果を提供できる可能性があります。\nヤン・センデレク (@jans)\n2 週間前、私たちは Roma 2.0 をリリースしました。\nそれ以来、フィードバックは止まりません。素晴らしいですね！\nしかし、私たち3人は追いつくことができませんでした。\nそこで私たちはエージェントとローマを使ってループを構築しました。弊社のエージェントが作業を行います。電話をかけるのは私たちです。\nユーザーが朝にグラノーラをリクエストしたところ、その日のうちにグラノーラが提供されました。\nビデオ\n— https://x.com/jans/status/2125620087818473610"
         },
         {
@@ -1275,7 +1307,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "驚異的な数学的進歩\nopenai モデルは現在、世界で最も有名な数学問題 100 件のうち 4 件の解決策を含む 16 件にわたって画期的な進歩を遂げています。\nanthropic は 3 を解決すると主張しています\ndeepmind は驚くべきことに 3 つの問題に関して部分的な進歩しかしていません"
         },
         {
@@ -1411,47 +1443,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "OpenAI research scientist Noam Brown:\n\"i think we're lucky that AI is jagged... even if they are spiky and jagged, they can be directed towards being really good at RSI\"\nMy most controversial take is that if you're a promising student, the best thing to do is drop out and join the labs now. It's not a great time to sit on the sidelines",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125281712716627968/img/vREGod3HEgW6OPtv.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125303442201563221",
-          "domain": "x.com",
-          "published": "2026-11-25T04:00:01+09:00",
-          "published_label": "2026/11/25(水) 04:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "OpenAI 研究科学者ノーム・ブラウン:\n「AI がギザギザであることは幸運だと思います...たとえそれらがとがっていてギザギザだったとしても、RSI に非常に優れているように向けることができます。」\n私の最も物議を醸す見解は、もしあなたが将来有望な学生なら、今すぐ中退して研究室に参加するのが最善だということです。傍観しているのに良い時期ではない"
-        },
-        {
-          "title": "for anyone interested in model post-training, @whitecircle is launching a $200k competition around its open-source framework\nyou get access to Blackwell B300s and compute credits to implement new RL methods, improve the framework or post-train models for your own use cases without worrying about compute costs\nWhite Circle (@whitecircle)\nWe’re running the largest post-training competition ever!\nTogether with:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\nSign up now at\n- $1.5m in compute for participants\n- $200k+ in cash prizes\n- Online, worldwide, Dec 1–10\nVideo\n— https://x.com/whitecircle/status/2125274360369815717",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125274305885835264/img/ZOdx02nc7gB_SArI.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125286834481857023",
-          "domain": "x.com",
-          "published": "2026-11-25T02:54:01+09:00",
-          "published_label": "2026/11/25(水) 02:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "トレーニング後のモデルに興味がある人のために、@whitecircle はオープンソース フレームワークを中心に 20 万ドルのコンテストを立ち上げています\nBlackwell B300 にアクセスして、コンピューティング コストを心配することなく、新しい RL メソッドを実装したり、独自のユースケースに合わせてフレームワークやポストトレーニング モデルを改善したりするためのコンピューティング クレジットを取得できます。\nホワイトサークル (@whitecircle)\n史上最大規模のトレーニング後のコンテストを開催します!\n一緒に:\n@OpenAI @GoogleDeepMind @MistralAI @modal @baseten @Lovable @OpenRouter @nebiusai @awscloud @OpenAIDevs @googlegemma\n今すぐサインアップしてください\n- 参加者向けのコンピューティング費用は 150 万ドル\n- 20万ドル以上の賞金\n- オンライン、世界中、12 月 1 日から 12 月 10 日まで\nビデオ\n— https://x.com/whitecircle/status/2125274360369815717"
         }
       ],
-      "elapsed": 0.6
+      "elapsed": 0.8
     },
     {
       "id": "x_testingcatalog",
@@ -1481,6 +1475,25 @@
           "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 25 日\nアントロピック $81.91 (−6.54%) 🔥:\n- Mac および Windows 上の Claude デスクトップ アプリは、コネクタを使用して通知を送信するアプリとしてアーティファクトをインストールできるようになりました。\n- MCP サーバーは独自のスキルを備えて出荷できるようになったため、Claude Code はすぐにスキルを使用できるようになりました。\n- SECへの提出書類によると、共同創設者7人全員がそれぞれ約2億8000万ドルの株式を83ドルのIPO価格で売却した。\nオープンナイ🔥:\n- GPT-6.2 Sol および Astra のヘルスケア バージョンが Responses API で利用できるようになりました。\n- チャットと仕事を組み合わせたエクスペリエンスは、少数の Pro ユーザー グループに展開されています。\n- ChatGPT Business は、12 月 31 日までバンク リセットと無料高速モードを利用できます。\n- OpenAI は、Dots が独自の電子メール受信箱と要求可能なアドレスを取得できるように準備しています。\n- ChatGPT サイトの無料ホスティングは 12 月 31 日に終了し、クレジットベースの料金は 1 月 1 日から始まります。\nGoogle $279.05 (−1.08%) 🔥:\n- Antigravity は MCP アプリをサポートし、チャットでインタラクティブなチャート、サンドボックス、ファイル ビューアをレンダリングします。\n- Antigravity v2.35.0 は、Neon での不要な自動モードの承認を半減し、タスクごとのクォータの使用量を 12% 削減します。\n- Gemini 4 Neon は、Google の有料 API で初日の使用記録を樹立しました。\nメタ $589.82 (−1.30%) 🔥:\n- Muse は英国で開始され、現在は Instagram DM で機能しています。\n- Meta は Muse に対する Apple Messages のサポートを準備中です。\nマイクロソフト $496.13 (+0.74%) 🔥:\n- GPT-6.2 Sol は、Copilot Chat、Cowork、Studio、Word、Excel、PowerPoint に展開されています。\n困惑🔥:\n- Perplexity Computer で作成されたスライド デッキは、インプレース編集のためにネイティブ ビューアで開かれるようになりました。\nSPACEXSI $125.81 (−5.65%) 🔥:\n- レンティン"
         },
         {
+          "title": "SpaceXSI is developing a new Quick Chat feature for Grok Bot, with the option to assign a hotkey to launch a quick chat window.\n> \"Message your main Bot from any app, even when the Grok Bot window is closed.\"\n\"Option+Space\" is already launching 5 different quick chat windows on my machine - looks like I will have 6 of them soon.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYAtJ5dXQAAtGka.jpg?name=small"
+          ],
+          "link": "https://x.com/testingcatalog/status/2125749051048046703",
+          "domain": "x.com",
+          "published": "2026-11-26T09:30:42+09:00",
+          "published_label": "2026/11/26(木) 09:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "SpaceXSI は、ホットキーを割り当ててクイック チャット ウィンドウを起動するオプションを備えた、Grok Bot 用の新しいクイック チャット機能を開発しています。\n> 「Grok Bot ウィンドウが閉じているときでも、どのアプリからでもメイン Bot にメッセージを送信できます。」\n私のマシンでは、「Option+Space」ですでに 5 つの異なるクイック チャット ウィンドウが起動しています。間もなく 6 つになるようです。"
+        },
+        {
           "title": "Documented 🗞",
           "summary": "",
           "images": [
@@ -1496,7 +1509,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞"
         },
         {
@@ -1516,7 +1529,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "GOOGLE 🔥: Antigravity の Gemini 4 Neon のキャッシュ ヒット率がさらに 4.5% 上昇しました。\nこれはすべて、以前の Neon 使用量の改善に加えて、75% 近くの増加をもたらしました。\n全体として、使用量の最適化は、コンピューティング能力の向上と同じくらい重要です。\nあるいは、おそらくさらに良いでしょう 👀\nヴァルン・モハン (@_mohansolo)\nAntigravity の Neon のキャッシュ ヒット率をさらに 4.5% 増加させました。これは、割り当て内で 28% 多くのタスクを完了できることを意味します。\n過去 5 日間で、キャッシュとハーネスの改善により、サブスクリプションでの Neon の使用量が 75% 近く増加しました。\n— https://x.com/_mohansolo/status/2125641696377712968"
         },
         {
@@ -1535,7 +1548,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "GOOGLE 🔥: Gemini Live は、米国、英国、インド、インドネシア、韓国、ブラジルの現地のアクセントを持つ 60 以上の音声をサポートするようになりました。\nそれは非常に多様な選択肢です！ 🤯\n新しい声を選択する必要があるようです 👀"
         },
         {
@@ -1555,7 +1568,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "OPENAI 🔥: 新しいプライベート推論は現在、OpenAI ビジネス顧客の小規模なグループでテストされています。\nプライベート推論は、ユーザーが独自のホスティングを介して推論を処理できるようにする、OpenAI Private Intelligence 内の新しいサービスです。\nPinference 👀\nサム・アルトマン (@sama)\n私たちは現在、OpenAI Private Intelligence の一部としての最新製品である Private Inference を少人数の顧客グループでテストしています。\nプライバシー保護が強化されると、フロンティア AI はより多くの仕事に役立つようになり、ビジネスのプライバシーは健全なエコシステムにとって重要です。ご興味がございましたら、@shekar4x までご連絡ください。\n(また、プライベート安全処理を備えた ZDR により、OpenAI 担当者に基礎となるコンテンツへのアクセスを許可することなく、自動安全性レビューが可能になります。)\n— https://x.com/sama/status/2125638790593274259"
         },
         {
@@ -1574,7 +1587,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞️"
         },
         {
@@ -1593,7 +1606,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Anthropic は、Claude Code で Opus モデルの次期バージョン (おそらく Claude Opus 5.6) の A/B テストを行っていると伝えられています。\nAI モデルがコードを介してほぼあらゆるものを生成できる段階に到達しつつあり、まもなく「ハード プロンプト」で AI モデルに対抗するのは非常に困難になるでしょう。\n初期のアウトプットのコレクション 👀"
         },
         {
@@ -1612,7 +1625,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ユーザーは、Living Brain を ChatGPT、Claude、Cursor、その他の AI ツールに接続できます。\n見てください👀"
         },
         {
@@ -1631,11 +1644,11 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "数学的証明のチェックに特化したプログラム「リーン」は、17 件すべての正しさを確認した。\n証明、論文、コードは GitHub で見つけることができます。\n> 紙:\n> 証拠:"
         },
         {
-          "title": "AI Agents powered by Living Brain have proved 17 math results, including the Lindelöf hypothesis, Erdős Problem 985, and Euler’s idoneal numbers.\nLiving Brain is a memory tool for AI agents, developed by ChatAndBuild.\nThe team spent months adding math papers and open problems to @livingbrain. When the proof came out, Living Brain pointed out to the agents which problems were now within reach.\nThis happened within three days of the new Riemann Hypothesis proof. Six of the problems were long-standing, with some open for over 100 years.\nChristel Buchanan (@ladyxtel)\nThree days after the Riemann Hypothesis was proved in Lean, our agents had used it to prove 17 results.\nSix are named conjectures that were open until 20 November, including the Lindelöf hypothesis, Erdős Problem 985 and Euler’s idoneal numbers.\nSome had been open for more than 100 years.\n@livingbrain held the memory, OpenHuman’s agents wrote the proofs, and Lean checked every one.\nVideo\nCommunity note: These named conjectures were long known to follow from RH or GRH. The agents formalized the known implications in Lean, making them unconditional after the RH proof.\ngithub.com/ChatAndBuild/c…\nen.wikipedia.org/wiki/Lindel%C3…\narxiv.org/abs/1508.05182\n— https://x.com/ladyxtel/status/2125587817082601587",
+          "title": "AI Agents powered by Living Brain have proved 17 math results, including the Lindelöf hypothesis, Erdős Problem 985, and Euler’s idoneal numbers.\nLiving Brain is a memory tool for AI agents, developed by ChatAndBuild.\nThe team spent months adding math papers and open problems to @livingbrain. When the proof came out, Living Brain pointed out to the agents which problems were now within reach.\nThis happened within three days of the new Riemann Hypothesis proof. Six of the problems were long-standing, with some open for over 100 years.\nChristel Buchanan (@ladyxtel)\nThree days after the Riemann Hypothesis was proved in Lean, our agents had used it to prove 17 results.\nSix are named conjectures that were open until 20 November, including the Lindelöf hypothesis, Erdős Problem 985 and Euler’s idoneal numbers.\nSome had been open for more than 100 years.\n@livingbrain held the memory, OpenHuman’s agents wrote the proofs, and Lean checked every one.\nVideo\nCommunity note: The listed conjectures (e.g. Lindelöf hypothesis, Euler idoneal numbers completeness, Erdős 985) were previously known to follow from RH or GRH per published results; the project formalizes those known implications in Lean.\nen.wikipedia.org/wiki/Lindel%C3…\nen.wikipedia.org/wiki/Idoneal_n…\ngithub.com/ChatAndBuild/c…\nerdosproblems.com/985\narxiv.org/pdf/math/98071…\nx.com/thomasfbloom/s…\n— https://x.com/ladyxtel/status/2125587817082601587",
           "summary": "",
           "images": [
             "https://pbs.twimg.com/media/HX_AQfWWcAAGHSO.jpg?name=small",
@@ -1651,7 +1664,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Living Brain を利用した AI エージェントは、リンデロフ仮説、エルデシュの問題 985、オイラーのイドニアル数など、17 の数学結果を証明しました。\nLiving Brain は、ChatAndBuild によって開発された AI エージェント用の記憶ツールです。\nチームは何か月もかけて数学の論文や未解決の問題を @livingbrain に追加しました。証拠が出たとき、リビング・ブレインはどの問題が今や手の届くところにあるのかをエージェントに指摘した。\nこれは、新しいリーマン予想の証明から 3 日以内に起こりました。そのうち 6 件は長期にわたる問題であり、中には 100 年以上にわたって未解決の問題もありました。\nクリステル・ブキャナン (@ladyxtel)\nリーマン予想がリーンで証明されてから 3 日後、エージェントはリーマン予想を使用して 17 件の結果を証明しました。\nリンデロフ仮説、エルデシュの問題 985、オイラーのイドニ数など、6 つは 11 月 20 日まで公開されていた名前付き予想です。\n中には100年以上営業しているところもありました。\n@livingbrain が記憶を保持し、OpenHuman のエージェントが証明を書き、Lean がすべてをチェックしました。\nビデオ\nコミュニティに関するメモ: これらの名前付き推測は、RH または GRH から派生したものであることが長い間知られていました。エージェントは既知の意味を Lean で形式化し、RH 証明後にそれらを無条件にしました。\ngithub.com/ChatAndBuild/c…\nen.wikipedia.org/wiki/Lindel%C3…\narxiv.org/abs/1508.05182\n— https://x.com/ladyxtel/status/2125587817082601587"
         },
         {
@@ -1730,28 +1743,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "TheStage AI は、ディクテーション、会議メモ、AI チャットをすべてデバイス上で処理する無料の iOS および Mac アプリである Edgent をリリースしました。\nTheWhisper、Qwen3-ASR、Parakeet-TDT モデルを活用したライブ キャプション、単語タイムスタンプ、話者ラベル、言語検出を 1 つの API を通じて処理します。\nメモには、発言者ラベルが付いたライブトランスクリプトが提供され、その後、概要が提供されます。その 0.8 億 TheWhisper Turbo モデルは、OpenAI の gpt-transcribe を抑えて、多言語 Open ASR Leaderboard で第 6 位にランクされています。\nビデオ\nザステージAI (@TheStageAI)\nEdgent がリリースされました。iPhone と Mac で、使用しているクラウド アプリと同じ品質で音声 AI を利用できます。無料、アカウントなし。\nあらゆる Mac アプリでのディクテーション、スピーカーとの会議メモ、中断できるボイスチャット。機内モードであっても、すべてデバイス上で実行されます。\n試してみてください:\nビデオ\n— https://x.com/TheStageAI/status/2125244296182063561"
-        },
-        {
-          "title": "Edgent runs on ASRKit, TheStage's on-device speech SDK for Swift, Kotlin, and Flutter. It is free for commercial use up to 1,000 devices.\n-\n-\nUsers don't need an account or API key. Once the models are downloaded, it works offline, even in airplane mode, and audio never leaves the device. On Mac, users can hold a shortcut to dictate into any app.\nTesting link 👀",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125316607333249026/OECTqy2F?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/testingcatalog/status/2125251346571862121",
-          "domain": "x.com",
-          "published": "2026-11-25T00:33:00+09:00",
-          "published_label": "2026/11/25(水) 00:33",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "Edgent は、Swift、Kotlin、Flutter 用の TheStage のオンデバイス音声 SDK である ASRKit 上で実行されます。 1,000 台のデバイスまで商用利用は無料です。\n-\n-\nユーザーはアカウントや API キーを必要としません。モデルがダウンロードされると、機内モードであってもオフラインで動作し、オーディオがデバイスから離れることはありません。 Mac では、ユーザーはショートカットを長押しして任意のアプリに音声入力できます。\nテストリンク 👀"
         }
       ],
-      "elapsed": 2.3
+      "elapsed": 1.2
     }
   ]
 }
