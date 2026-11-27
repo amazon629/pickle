@@ -33,7 +33,7 @@ GitHub Actions が1時間ごとに自動で更新するので、一度置けば�
 | 都市開発 X監視ボード（キーワード絞り込み付き） | `sources-urban-dev.json` | `urban-dev.html` | `data-urban-dev.json` |
 | トレカ抽選速報 X監視ボード（せど子・アフロくま・ぴかQ） | `sources-toreca-lottery.json` | `toreca-lottery.html` | `data-toreca-lottery.json` |
 | ライブコマース・TikTok Shop 4社 ニュース監視（Sホールディングス／Cellest／Gastroduce Japan／CREOK） | `sources-livecommerce-4companies.json` | `livecommerce-4companies.html` | `data-livecommerce-4companies.json` |
-| 買取系 X監視ボード（トレンドNews／買取ルデヤ／買取ソムリエ／買取ホムラ／買取エノキング） | `sources-kaitori.json` | `kaitori.html` | `data-kaitori.json` |
+| 買取系 X監視ボード（トレンドNews／買取ルデヤ／買取ソムリエ／買取ホムラ／買取エノキング／買取チェッカー／アヴィリール／トレカバンク／GOTCHA!／KoDuckYa／Runto／スニダン／モトー／SHOPはんじょう の16アカウント） | `sources-kaitori.json` | `kaitori.html` | `data-kaitori.json` |
 | ポケカ・トレカ抽選2 X監視ボード（MEISY／おむすび／ポケカ情報速報） | `sources-pokeca-lottery2.json` | `pokeca-lottery2.html` | `data-pokeca-lottery2.json` |
 | トレカ抽選速報10垢 X監視ボード（ポケカ抽選ボード／トレゲト／TCG抽選・再販ナビ／ポケカ速報もち／ぺーちゃん／ライポケ通知／SKY／Nちゃん／あき／トレカラボ） | `sources-toreca-buzz.json` | `toreca-buzz.html` | `data-toreca-buzz.json` |
 | 当日締切・プレ値チェッカー（当日締切の抽選・販売を区分／プレ値倍率／ブランドで絞り込み） | なし（`work/build_today_deadlines_excel.py --publish-board` が生成。毎朝06:02） | `deadlines.html` | `data-deadlines.json` |
@@ -124,7 +124,7 @@ settings を作り直す `sync_*.py` があるボードは、その `make_docume
 | `ai-tools.html` / `data-ai-tools.json` | AI新着 X監視ボードの生成物 |
 | `urban-dev.html` / `data-urban-dev.json` | 都市開発 X監視ボードの生成物（キーワードチップ付き） |
 | `livecommerce-4companies.html` / `data-livecommerce-4companies.json` | ライブコマース・TikTok Shop 4社ボードの生成物 |
-| `kaitori.html` / `data-kaitori.json` | 買取系5アカウント X監視ボードの生成物 |
+| `kaitori.html` / `data-kaitori.json` | 買取系16アカウント X監視ボードの生成物 |
 | `sync_pureflat_companies.py` | Excel「登壇企業一覧」→ `sources-ec-companies.json` を生成（社名クエリの組み立て・確認付き） |
 | `sync_ec_support.py` | `COMPANIES`（EC・支援34社）→ `sources-ec-support.json` を生成（`--check` / `--only` 付き） |
 | `sync_ec_brands.py` | 社名リスト（1,045行）を名寄せした515社 → `sources-ec-brands.json` を生成（`--check` / `--only` 付き） |
