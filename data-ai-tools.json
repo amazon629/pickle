@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T08:49:11+09:00",
-  "generated_at_label": "2026/11/27 08:49 JST",
+  "generated_at": "2026-11-27T17:16:29+09:00",
+  "generated_at_label": "2026/11/27 17:16 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "データの完全な内訳はこちらでご覧いただけます。"
         },
         {
@@ -68,7 +68,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "使用量が価格にどれだけ強く反応するかを示す尺度である弾力性は低下している。 1 を超えると、価格が下落するにつれて総支出が増加します (ジェボンズのパラドックス)。\n最近の四半期では、弾力性が 1 をわずかに上回る水準で推移していますが、初期の期間では同じ指標が 5 を上回っていました。"
         },
         {
@@ -87,7 +87,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェヴォンズ・パラドックスは成立しているのか？\n私たちはその答えを得るために、トークンの使用状況、トークンの価格、2026 年の全体的な支出に関する OpenRouter データを調査しました。\n確かに、ジェヴォンズのパラドックスはこれまでのところ成立していることがわかりました。しかし、ここ数カ月間の景気は年初よりも低迷している。"
         },
         {
@@ -297,7 +297,7 @@
           "title_ja": "@JoinVantage のチームと協力して、Vantage ユーザーが OpenRouter を通じてすべての AI 支出を残りのインフラストラクチャ支出のすぐ隣に簡単に表示できるようになったのは素晴らしいことです。\n以下でアクセスをリクエストして、プライベート プレビューで Tokenomics を試してください。\nヴァンテージ (@JoinVantage)\n発売日: @OpenRouter がネイティブの可観測性の宛先として Vantage を追加しました。 AI を誰が使用しているか、何に使用されているか、そしてそれにかかるコストをリアルタイムで可視化します。ここからアクセスしてください:\n— https://x.com/JoinVantage/status/2125288344133243242"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "x_opencode",
@@ -325,6 +325,25 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "キミをください フェーズ 1\n60 ドル分の Kim K3.1 Pro を 10 ドルで利用可能\nすべての OpenCode Go サブスクライバーが利用可能"
+        },
+        {
+          "title": "Hex does meetings now. Your robots can follow along and search past transcripts.\n100% free & local, as usual.\nHere's a normal video about it ↓",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2126101740378562560/img/H4DKo1pVdFjEyRNu.jpg?name=small"
+          ],
+          "link": "https://x.com/kitlangton/status/2126102192264523896",
+          "domain": "x.com",
+          "published": "2026-11-27T08:53:58+09:00",
+          "published_label": "2026/11/27(金) 08:53",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ヘックスは今ミーティングを行っています。ロボットは、過去のトランスクリプトを追跡して検索できます。\nいつものように、完全に無料でローカルです。\n通常時の動画はこちら↓"
         },
         {
           "title": "",
@@ -563,23 +582,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "OpenCode コンソールがキーレス認証をサポートするようになりました\nCI または OIDC をサポートする場所からのモデルの呼び出しに、有効期間の長い API トークンが必要なくなりました"
-        },
-        {
-          "title": "whoever finds and posts a pic of dax's favorite ice cream shop in GTA6 gets 1 year of OpenCode Go for free\nhint he lives in Peacock Bay",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/opencode/status/2123297341679554787",
-          "domain": "x.com",
-          "published": "2026-11-19T15:08:29+09:00",
-          "published_label": "2026/11/19(木) 15:08",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "GTA6 でダックスのお気に入りのアイスクリーム ショップの写真を見つけて投稿した人には、1 年間の OpenCode Go が無料で提供されます\n彼がピーコック湾に住んでいることをほのめかす"
         }
       ],
       "elapsed": 0.5
@@ -594,6 +596,61 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■引用元\nMeshyAI (@MeshyAI)\nHigh detail and real-time performance used to be a trade-off. Meshy 7.5 changes that.\nOptimized models with ~50x fewer polygons that look nearly identical to the original.\nRolling out now 🚀 Play Meshy 7.5 Showcase in the comment 👇🏻\nVideo\n— https://x.com/MeshyAI/status/2126028221850542511",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125974511829008384/img/8W73R3DsqW1huXgY.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126155883243819017",
+          "domain": "x.com",
+          "published": "2026-11-27T12:27:19+09:00",
+          "published_label": "2026/11/27(金) 12:27",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nメッシィ (@MeshyAI)\nかつては、高精細さとリアルタイム パフォーマンスはトレードオフの関係にありました。 Meshy 7.5 はそれを変えます。\nポリゴン数が約 50 分の 1 で、オリジナルとほぼ同じに見える最適化されたモデル。\n現在展開中 🚀 コメントで Meshy 7.5 ショーケースをプレイしてください 👇🏻\nビデオ\n— https://x.com/MeshyAI/status/2126028221850542511"
+        },
+        {
+          "title": "MeshyAIが、ポリゴン数を約50分の1に削減しながら元のモデルとほぼ同じ見た目を維持できる、テキストや画像から3Dモデルを生成できるAIモデル「Meshy 7.5」の提供を順次開始しています(無料で試せます)。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2125974511829008384/img/8W73R3DsqW1huXgY.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126155851165819199",
+          "domain": "x.com",
+          "published": "2026-11-27T12:27:11+09:00",
+          "published_label": "2026/11/27(金) 12:27",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "防衛省は、AIの活用に関する基本指針「ディフェンスAIビジョン」を発表しました。\n意思決定の迅速化や無人化を進める一方、最終的な判断と責任は人間が持つことを明記し、他国に過度に依存しない「AI主権」の確保も目指します。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2126135776312442880/tQYl0wmr?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126155761931944283",
+          "domain": "x.com",
+          "published": "2026-11-27T12:26:50+09:00",
+          "published_label": "2026/11/27(金) 12:26",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■Palcadeの順番待ちリスト",
           "summary": "",
@@ -610,7 +667,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nPalcade (@palcade_ai)\nThat game in your head? It's playable now.\nPalcade is a world in your browser where friends make games, play them, and hang out together.\nClosed beta opens today.\nVideo\n— https://x.com/palcade_ai/status/2126013121785417771",
@@ -628,7 +685,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nパルケイド (@palcade_ai)\n頭の中にそのゲームはありますか？今はプレイ可能です。\nPalcade は、友達がゲームを作成し、プレイし、一緒に遊ぶブラウザ内の世界です。\n本日よりクローズドベータが開始されます。\nビデオ\n— https://x.com/palcade_ai/status/2126013121785417771"
         },
         {
@@ -647,7 +704,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nKrea (@krea_ai)\nwe spent weeks designing workflows capable of generating incredible motion graphics with AI.\ntoday, we make them available to everyone with Krea Motion, our new motion editor.\ntry it out now for free 👇\nVideo\n— https://x.com/krea_ai/status/2125990539933978753",
@@ -665,7 +722,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nクレア (@krea_ai)\n私たちは、AI を使用して驚異的なモーション グラフィックスを生成できるワークフローの設計に数週間を費やしました。\n本日、新しいモーション エディターである Krea Motion を使用して、誰でもそれらを利用できるようにしました。\n今すぐ無料でお試しください 👇\nビデオ\n— https://x.com/krea_ai/status/2125990539933978753"
         },
         {
@@ -684,7 +741,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【噂】Nous ResearchのAIエージェント「Hermes Agent」のデスクトップアプリが来週リニューアルされるという噂です。\nHermes Release Watch (@HermesWatcher)\nEARLY NEXT WEEK IS THE WORD FOR THE NEW HERMES DESKTOP.\nThe full redesign is built and getting its final polish now. Here's what it should look like.\n▸ Open to a new home screen, with every agent and its chats in one sidebar\n▸ Give each agent its own page and settings\n▸ See all your routines in one place, create new ones right there, and check every run\n▸ Find your skills, plugins and tools on one page\n▸ Switch between light and dark, or use it on your phone\n▸ Go back to the classic look with one switch, if you miss it\nThese are the in-progress designs, so a few details may still change before launch. Either way, this is a whole new Hermes.\nVideo\n— https://x.com/HermesWatcher/status/2125421174624784493",
@@ -702,7 +759,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIエージェント「Grok Bot」で、現在のプランで利用できる量が11％増加し、定期実行タスク(ルーティン)については、最大50％多く利用できるようになったということです。\nSam Sokolin (@SamSokolin)\nThe team has been cooking over the last few weeks! You should now see an additional 11% more usage out of your plan, and up to 50% more usage for routines!\nExcited to share more soon on how we optimized our routine harness to remove inference requests for simple and repetitive tasks!\n— https://x.com/SamSokolin/status/2126027973568466949",
@@ -718,7 +775,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "JERAは、首都圏に整備する発電所一体型データセンターへの誘致に向け、AnthropicやMetaなどのテクノロジー大手と交渉を進めています。\n発電所の電力を直接利用できる強みを生かし、契約の締結を目指します。",
@@ -736,7 +793,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nAnt Ling (@AntLingAGI)\nWe're introducing Ming-Image-0.2-Design and Ming-Image-0.2-Design-Layer. We're open-sourcing Design today and plan to open-source Layer next week.\nMing-Image-0.2-Design ranks #1 among open-weight models on Artificial Analysis's AA-Image-T2I v2.1 with 1,095 Elo.\n— https://x.com/AntLingAGI/status/2125916926048358827",
@@ -754,7 +811,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nアント・リング (@AntLingAGI)\nMing-Image-0.2-Design と Ming-Image-0.2-Design-Layer を導入します。私たちは今日デザインをオープンソース化しており、来週にはレイヤーをオープンソース化する予定です。\nMing-Image-0.2-Design は、Artificial Analysis の AA-Image-T2I v2.1 のオープンウェイト モデルの中で 1,095 Elo で第 1 位にランクされています。\n— https://x.com/AntLingAGI/status/2125916926048358827"
         },
         {
@@ -773,7 +830,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nOpenCode (@opencode)\nif you have a provider connected that has video models OpenCode now has a video generation tool\nif you're using OpenCode Console you have access to grok imagine and gemini omni\nyou can use it to make stuff like this\nVideo\n— https://x.com/opencode/status/2125737965871681587",
@@ -811,59 +868,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "Geminiアプリに実装されているGemini Liveの「Guided Vision(視覚ガイド)」機能が、iOSアプリでも利用できるようになりました。\nGemini Liveを起動してカメラを対象物に向けると、画面上でリアルタイムにAIの案内やアドバイスを受けられます。\nGoogle Gemini (@GeminiApp)\nGuided Vision in Gemini Live is now available on iOS. Open Live, point your camera, and get real-time guidance right on screen:\n— https://x.com/GeminiApp/status/2125685936344236471",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2125914602252939406",
-          "domain": "x.com",
-          "published": "2026-11-26T20:28:33+09:00",
-          "published_label": "2026/11/26(木) 20:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "OpenAIは、プライバシー保護を重視した「OpenAI Private Intelligence」の新サービス「Private Inference(プライベート推論)」を、一部の顧客を対象に試験提供しています。\nプライバシー保護を強化することで、最先端のAIをより幅広い業務で活用できるようになります。\nSam Altman (@sama)\nWe’re now testing Private Inference, our latest offering as part of OpenAI Private Intelligence, with a small group of customers.\nStronger privacy protections will make frontier AI useful for a lot more work, and business privacy is important for a healthy ecosystem. Reach out to @shekar4x if interested!\n(Also, ZDR with Private Safety Processing enables automated safety reviews without giving OpenAI personnel access to the underlying content.)\n— https://x.com/sama/status/2125638790593274259",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/AIMIRAI46487/status/2125914525820203229",
-          "domain": "x.com",
-          "published": "2026-11-26T20:28:15+09:00",
-          "published_label": "2026/11/26(木) 20:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "ChatGPTやClaudeなどですでに提供されていた、ノートアプリのObsidianとAIツールを接続できる公式コネクタが、Hermes AgentsやOpenCodeなどのAIエージェントもサポートするようです。\nObsidian (@obsdmd)\nObsidian now has official connectors for every agent.\nThat means you can easily give your agents access to a shared knowledge base, while keeping total ownership of your data.\nYou can switch agents, let them collaborate with each other, organize your knowledge as notes, diagrams, canvas, tables, kanban, and more. What you create is saved locally on your devices, in open formats files that you own forever and can access offline.\nAs always, Obsidian has no built-in AI, no account required, no analytics, and cannot access your data. Obsidian is free, private, and has no storage limits or gated features.\nYou are in control. You can choose to use Obsidian completely AI-free. That is the default experience.\nObsidian is 100% user-supported. You can use our affordable and end-to-end encrypted Sync service which helps support our team, or you can use one of many alternatives documented on our Help site: Git, iCloud, Dropbox, GDrive, OneDrive, NextCloud, and many more.\nIf you want to give agents access to your Obsidian vault, visit your agent's marketplace or plugin directory. Obsidian is available for Claude, ChatGPT, Grok Bot, Hermes, and more in the instructions linked below.\n— https://x.com/obsdmd/status/2125700941156651151",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX_87NJa0AAjyLT.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2125914422606721241",
-          "domain": "x.com",
-          "published": "2026-11-26T20:27:50+09:00",
-          "published_label": "2026/11/26(木) 20:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.7
     },
     {
       "id": "x_kimmonismus",
@@ -895,6 +902,62 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "AI agents may have just helped hack Germany's most valuable company:\nSAP confirmed a cyberattack to DER SPIEGEL. Insiders say the attackers stole employees' login tokens and used them to change and copy SAP source code on GitHub, possibly with agentic AI. Internal codename: \"Project Granite\".\nI guess this is just the beginning of hacking news circulating daily now.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYHb7laXcAA4MVu.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126222397778899075",
+          "domain": "x.com",
+          "published": "2026-11-27T16:51:37+09:00",
+          "published_label": "2026/11/27(金) 16:51",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "AI エージェントは、ドイツで最も価値のある企業のハッキングを支援しただけかもしれません。\nSAPはDER SPIEGELへのサイバー攻撃を確認した。内部関係者らによると、攻撃者らは従業員のログイントークンを盗み、それを使ってGitHub上のSAPソースコードを変更、コピーし、おそらくエージェントAIを使用したという。内部コードネームは「Project Granite」。\nこれは、現在毎日流通しているハッキング ニュースの始まりにすぎないと思います。"
+        },
+        {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125720008093282304/hE9gcrGA?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126201571767668970",
+          "domain": "x.com",
+          "published": "2026-11-27T15:28:52+09:00",
+          "published_label": "2026/11/27(金) 15:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "The Pentagon was ready to pull out a wartime law to get Jensen back:\nHegseth and his deputy Steve Feinberg discussed using the Defense Production Act from 1950 as leverage to push Nvidia's board into reinstating Huang as CEO, the Washington Post reports, citing three people familiar with the talks.\nThe threat: NVIDIA could have been forced to shift more of its production to military projects.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYHI-2AW4AAYhgY.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126201496282747346",
+          "domain": "x.com",
+          "published": "2026-11-27T15:28:34+09:00",
+          "published_label": "2026/11/27(金) 15:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "国防総省はジェンセンを取り戻すために戦時法を制定する準備ができていた。\nヘグセス氏と彼の代理であるスティーブ・フェインバーグ氏は、エヌビディア取締役会にフアン氏のCEO復帰を促すためのテコとして1950年に制定された国防生産法を利用することについて協議したと、ワシントン・ポスト紙が協議に詳しい3人の関係者の話として報じた。\n脅威: NVIDIA は自社の生産をさらに軍事プロジェクトにシフトせざるを得なくなった可能性があります。"
+        },
+        {
           "title": "Elon is donating one share of spaceX to all kids in America every year on top of the shares are is already donating.\nIt makes me think that this might be his way of letting everyone share in a universal high income.\nElon Musk (@elonmusk)\nI will be donating another share of SpaceX to all kids in America every year\n— https://x.com/elonmusk/status/2126064597039997254",
           "summary": "",
           "images": [],
@@ -908,7 +971,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "イーロンは、すでに寄付しているスペースXの株式に加えて、毎年アメリカのすべての子供たちにスペースXの株式を1株寄付しています。\nこれが、誰もが普遍的な高収入を共有できるようにするための彼の方法なのかもしれないと考えさせられます。\nイーロン・マスク (@elonmusk)\n私は毎年、SpaceX のもう 1 株をアメリカのすべての子供たちに寄付するつもりです\n— https://x.com/elonmusk/status/2126064597039997254"
         },
         {
@@ -925,7 +988,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "まだ赤面してます。でも、あのインタビューは楽しかったです。私たちはとても笑いました"
         },
         {
@@ -944,7 +1007,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ジェンセンが持ち場に戻ってきたのをうれしく思います。最近の噂が何であれ、彼は私が会った中で最も親しみやすく、現実的な人物の一人であり、彼のような立場の人としては珍しいことだ。\n彼にお会いできたことは本当に光栄でした。\n面接はもうすぐ終了します。"
         },
         {
@@ -963,7 +1026,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "1.0 プロジェクトのソース:NVIDIA Foundation4D:\nEPFL ディープリーフマップ:\nフィルムフロー:\nLingBot-Map 2.0:\n技術レポート:\nコード (GitHub):\nウェイト (顔を抱き締める):\n公開リリースはストリーミング バージョンです。リファインは含まれておりません。ストリーミング バージョンはオープンソースです。"
         },
         {
@@ -982,7 +1045,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "NVIDIA の研究者、サンゴ礁の科学者、映像ツールはすべて 1 つの 3D マッピング モデルに基づいて構築されています。\n@robbyant_brain の LingBot-Map です。バージョン 1.0 は 4 月以来 GitHub スターの数が 19,000 を超えており、2.0 が本日リリースされました。\n1.0 はビデオが受信されると空間メモリを保持していましたが、一度何かを推定すると、それを変更することはできませんでした。 2.0缶。 Refine と呼ばれるステップをいつでもトリガーして、既存の空間メモリを修正し、蓄積されたドリフトを減らすことができます。これは、外部の最適化バックエンドに依存することなく、完全にモデル内で行われます。\nVBR では、Refine を使用した場合、平均軌道誤差は 1.0 で 31.12 m、2.0 で 4.72 m です。\nロビーアントは、これを、彼らが取り組んでいる身体ネイティブの汎用ロボット脳の重要な能力として構築します。信頼できる空間記憶がなければ、広いエリアや長時間にわたる自律的な作業はできません。"
         },
         {
@@ -1001,7 +1064,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "言葉が出ない。これが本当に Opus 5.6 であるならば、Anthropic は大きな飛躍を遂げることになります。\nニキータ (@fluxxrider)\nOpus 5.6 は、私がこれまでに入手した中で最も強力なモデルです。これは非常識だ。\nぜひ行ってみてください。\n— https://x.com/fluxxrider/status/2125622238481371372"
         },
         {
@@ -1062,6 +1125,24 @@
           "title_ja": "これはマイクロソフト AI の CEO です。彼ですら「我々は一線を越えつつある」と主張しており、現時点で重要なのは安全と調整だけだという。\nかなり長い間、私たちは 2027 年が転換点になる、あるいはそれよりも早くなるだろうと言い続けてきました。現段階で、まだそのことに疑問を抱いている人を私は知りません。\nそして、大多数の人々はまだその結果に気づいていないと私は心から信じています。\nムスタファ・スレイマン (@mustafasuleyman)\n私たちは閾値を超えています。安全と調整作業だけが重要です。\n— https://x.com/mustafasuleyman/status/2125446171909136630"
         },
         {
+          "title": "",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2125904942602821632/7r8q2EOR?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/kimmonismus/status/2125899972247789836",
+          "domain": "x.com",
+          "published": "2026-11-26T19:30:25+09:00",
+          "published_label": "2026/11/26(木) 19:30",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "Ruters confirms: Cutting off distillation and compute works and slows down Chinese Models like GLM massively:\nzAI is behind schedule on its next flagship GLM-5.5 (around 3T parameters), and Moonshot expects the gap between major releases to double from six months to a year or longer if it loses overseas compute, Reuters reports.\nSince Anthropic and OpenAI got better at blocking distillation, Moonshot has started distilling from Google and Meta models instead, a source told Reuters. Kimi K4 could slip to mid-2027.",
           "summary": "",
           "images": [
@@ -1080,87 +1161,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "Ruters 氏は次のように認めています: 蒸留と計算の機能を停止すると、GLM のような中国モデルの速度が大幅に低下します。\nzAIは次期フラッグシップGLM-5.5（パラメータ約3T）の開発が予定より遅れており、ムーンショットは海外のコンピューティング能力を失った場合、メジャーリリース間の間隔が6か月から1年以上に倍増すると予想しているとロイター通信が報じた。\nAnthropic と OpenAI が蒸留をブロックする能力が向上して以来、Moonshot は代わりに Google と Meta モデルから蒸留し始めたと情報筋がロイターに語った。キミ K4 は 2027 年半ばに延期される可能性があります。"
-        },
-        {
-          "title": "Luckily I have 61k credits left",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HYCsPtGXcAAQQVD.png?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125888432698532277",
-          "domain": "x.com",
-          "published": "2026-11-26T18:44:34+09:00",
-          "published_label": "2026/11/26(木) 18:44",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "幸いなことに、61,000 クレジットが残っています"
-        },
-        {
-          "title": "source:",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125277867248340992/MRvw5Vm4?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125888123590590613",
-          "domain": "x.com",
-          "published": "2026-11-26T18:43:20+09:00",
-          "published_label": "2026/11/26(木) 18:43",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Scott Aaronson warned four weeks ago that AI could break widely used cryptography within a year or two. If the RSA rumors are true, it took weeks, not years.\nVideo\nChubby♨️ (@kimmonismus)\nIf this rumors are true, it would explain why OpenAI and Anthropic are holding back their latest models:\nScott Aaronson says he's heard OpenAI or Anthropic may have found a way to factor large numbers in polynomial time.\nWhy this would be massive? RSA secures a huge chunk of the internet, and its whole security relies on factoring big numbers being impossible on normal computers. If an algorithm like this actually works on real key sizes, you wouldn't even need a quantum computer to break it. Fake software updates could pass signature checks, RSA-encrypted data could be read, and systems across the internet would have to migrate off RSA fast.\nSo yeah, something we expected might now actually happening.\n— https://x.com/kimmonismus/status/2125602411540566221",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125866326115729408/img/MF7eaMQ5AnwPevN7.jpg?name=small",
-            "https://pbs.twimg.com/media/HX-oHkwXkAAROgB.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125881244181217339",
-          "domain": "x.com",
-          "published": "2026-11-26T18:16:00+09:00",
-          "published_label": "2026/11/26(木) 18:16",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "スコット・アーロンソン氏は4週間前、AIが1～2年以内に広く使用されている暗号を破る可能性があると警告した。 RSAの噂が本当なら、数年ではなく数週間かかったはずだ。\nビデオ\nぽっちゃり♨️ (@kimmonismus)\nこの噂が真実であれば、OpenAI と Anthropic が最新モデルを保留している理由が説明されます。\nScott Aaronson 氏は、OpenAI または Anthropic が多項式時間で大きな数を因数分解する方法を発見した可能性があると聞いたと述べています。\nなぜこれが大規模になるのでしょうか? RSA はインターネットの膨大な部分を保護しており、そのセキュリティ全体は通常のコンピュータでは不可能な大きな数値の因数分解に依存しています。このようなアルゴリズムが実際の鍵サイズで実際に機能する場合、それを解読するのに量子コンピューターさえ必要ありません。偽のソフトウェア アップデートが署名チェックに合格し、RSA で暗号化されたデータが読み取られる可能性があり、インターネット上のシステムは迅速に RSA から移行する必要があります。\nそう、私たちが予想していたことが実際に起こるかもしれません。\n— https://x.com/kimmonismus/status/2125602411540566221"
-        },
-        {
-          "title": "wtf: First math, now physics: OpenAI's Ven Chandrasekaran just dropped a proposal for a quantum theory of gravity, built in large part with GPT-6 Astra.\nPhysics has failed to unify Einstein's gravity with quantum mechanics for almost 100 years. His theory passes the first checks: it reproduces black hole entropy and Einstein's equations.\nHe says it took months of back and forth with the model, about 400M tokens.\nScience is going through the biggest upheaval in its history. Literally the intelligence explosion we were waiting for.\nroon (@tszzl)\nven chandrasekaran’s proposal for a quantum theory of vacuum gravity in 4d\n— https://x.com/tszzl/status/2125809711509336342",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HYCO3oLWcAAKs5q.jpg?name=small",
-            "https://pbs.twimg.com/media/HYCO5EXWgAADYLw.jpg?name=small",
-            "https://pbs.twimg.com/card_img/2124660216637906944/W2qVgvy4?format=jpg&name=420x420_2"
-          ],
-          "link": "https://x.com/kimmonismus/status/2125856219667566872",
-          "domain": "x.com",
-          "published": "2026-11-26T16:36:33+09:00",
-          "published_label": "2026/11/26(木) 16:36",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "wtf: 最初は数学、今度は物理学: OpenAI の Ven Chandrasekaran は、主に GPT-6 Astra で構築された重力の量子論の提案を取り下げました。\n物理学はアインシュタインの重力と量子力学を統合することにほぼ100年失敗してきた。彼の理論は最初のチェックに合格し、ブラック ホール エントロピーとアインシュタイン方程式を再現します。\n彼によると、モデルとのやり取りには数か月かかり、約 4 億トークンが必要でした。\n科学は歴史上最大の激変を経験しています。文字通り、私たちが待っていた知性の爆発です。\nろん (@tszzl)\n4次元における真空重力の量子論に関するヴェン・チャンドラセカランの提案\n— https://x.com/tszzl/status/2125809711509336342"
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.6
     },
     {
       "id": "x_haider1",
@@ -1192,6 +1195,78 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "well, here we go...\nthere's a rumor going around that P=BQP has been PROVEN, with different research labs sharing undisclosed results at a closed-door workshop hosted by MIT\nfor context if proven, classical computers could efficiently solve any problem that quantum computers can",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYHSH6TacAAnska.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2126213181366534645",
+          "domain": "x.com",
+          "published": "2026-11-27T16:15:00+09:00",
+          "published_label": "2026/11/27(金) 16:15",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "さて、それでは...\nP=BQP が証明されたという噂が流れており、MIT 主催の非公開ワークショップでさまざまな研究機関が未公開の結果を共有している\n文脈については、証明されれば、古典的なコンピューターは、量子コンピューターが解決できるあらゆる問題を効率的に解決できる可能性があります。"
+        },
+        {
+          "title": "update:\n@_mohansolo has asked me for feedback and i'll pass it along. some serious stuff is coming soon...\nonce again no matter what, the google team is always quick to respond and gather feedback",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2126205159844073766",
+          "domain": "x.com",
+          "published": "2026-11-27T15:43:07+09:00",
+          "published_label": "2026/11/27(金) 15:43",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "更新:\n@_mohansolo がフィードバックを求めてきたので、お伝えします。もうすぐ重大な事が起こる予定です...\n繰り返しになりますが、何があっても、Google チームは常に迅速に対応し、フィードバックを収集します"
+        },
+        {
+          "title": "gemini 4 neon is probably the best model right now but the harness remains gemini's biggest problem\nno matter how good its models get, antigravity still isn't as powerful as claude code -- it requires hand-holding, and its IDE, app and CLI don't even communicate with each other",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/haider1/status/2126174174422979006",
+          "domain": "x.com",
+          "published": "2026-11-27T13:40:00+09:00",
+          "published_label": "2026/11/27(金) 13:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "gemini 4 neon はおそらく現時点で最高のモデルですが、ハーネスは依然として gemini の最大の問題です\nモデルがどれほど良くなったとしても、反重力は依然としてクロード コードほど強力ではありません。手に持つ必要があり、IDE、アプリ、CLI は相互に通信することさえできません。"
+        },
+        {
+          "title": "openai's internal models are seeing 7x faster pre-training progress since early 2026\nand i still remember the gpt-4.5 days when everyone said pretraining had hit a data wall, but maybe researchers shifted their focus to making pretraining more efficient and some of those ideas worked far better than expected",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYD5g3xasAAAuM-.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2126128875952595214",
+          "domain": "x.com",
+          "published": "2026-11-27T10:40:00+09:00",
+          "published_label": "2026/11/27(金) 10:40",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "openai の内部モデルでは、2026 年初頭以来、事前トレーニングの進行が 7 倍高速になっています\nそして私は今でも覚えています gpt-4.5 の頃、誰もが事前トレーニングがデータの壁にぶつかったと言っていたのですが、おそらく研究者は事前トレーニングをより効率的にすることに焦点を移し、それらのアイデアのいくつかは予想よりもはるかにうまくいきました"
+        },
+        {
           "title": "right, so what happens if AI cracks the P vs. NP problem?\nboth openai and anthropic are probably grinding hard atm to solve this problem but we have no idea how long it might take -- a few days or months but definitely not a few years at this point\nmy gut feeling is that p ≠ np",
           "summary": "",
           "images": [
@@ -1207,7 +1282,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "そうです、AI が P 対 NP 問題を解決したらどうなるでしょうか?\nopenai と anthropic の両方がおそらくこの問題を解決するために懸命に努力していると思われますが、どれくらいの時間がかかるかわかりません。数日か数か月ですが、現時点では間違いなく数年ではありません。\n私の直感では、p ≠ np です"
         },
         {
@@ -1224,7 +1299,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "今すぐできる本当に面白いこと:\n次のような最近の進歩に関するすべての論文を収集する\n• リーマン予想\n• vp ≠ vnp\n• 行列の乗算\n• 重力の代数的量子化\nこれらのブレークスルーの前に知識をカットオフしてLLMにそれらを渡す\nどう思うか尋ねてください\nまったくの不信感…"
         },
         {
@@ -1243,7 +1318,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Yann LeCun says humans will be the bosses of teams of AI staff, while AI will amplify our intelligence, creativity and efficiency\nPeople shouldn't feel threatened by working with entities smarter than them, as that's actually the best thing that can happen to them",
@@ -1261,7 +1336,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ヤン・ルカン氏は、人間はAIスタッフのチームのボスとなり、AIは私たちの知性、創造性、効率性を高めるだろうと語る\n人々は、自分より賢い存在と協力することに脅威を感じるべきではありません。実際、それが彼らに起こり得る最善のことだからです。"
         },
         {
@@ -1309,7 +1384,7 @@
           "summary": "",
           "images": [
             "https://pbs.twimg.com/media/HYB_G_0bMAAtM7Z.png?name=small",
-            "https://pbs.twimg.com/card_img/2124660216637906944/W2qVgvy4?format=jpg&name=420x420_2"
+            "https://pbs.twimg.com/card_img/2124660216637906944/Dxom60il?format=jpg&name=420x420_2"
           ],
           "link": "https://x.com/haider1/status/2125839470968643645",
           "domain": "x.com",
@@ -1378,81 +1453,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "57年来の行列乗算問題に対する今日のopenaiの解決策は、おそらくミレニアム賞レベルの画期的な進歩である。\nanthropic と oai は基本的にフィールドメダルのベンチマークを飽和させています。人間の数学者が Openai のトップの数学論文を 1 つでも発表していたら、フィールズ賞を獲得できたかもしれません"
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125826272882466816/KomRBhXH?format=jpg&name=800x320_1"
-          ],
-          "link": "https://x.com/haider1/status/2125651136434917543",
-          "domain": "x.com",
-          "published": "2026-11-26T03:01:38+09:00",
-          "published_label": "2026/11/26(木) 03:01",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Terence Tao says once tech companies generate AI-powered math proofs, there are no good options\nIt's like a power plant creating toxic nuclear waste: you can sit on it, release it, or pay someone to treat it. The best option is not to produce it at all\nSolving math problems isn't their main goal. It's almost a waste byproduct",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125647464581812224/img/PbWmSm4vtYRl-RMi.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125650731567067169",
-          "domain": "x.com",
-          "published": "2026-11-26T03:00:01+09:00",
-          "published_label": "2026/11/26(木) 03:00",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "テレンス・タオ氏は、ハイテク企業がAIを活用した数学証明を生成したら、良い選択肢はなくなると語る\nそれは有毒な核廃棄物を生成する発電所のようなものです。その上に座ることも、放出することも、誰かにお金を払って処理してもらうこともできます。最善の選択肢は、まったく生成しないことです\n数学の問題を解くことが彼らの主な目的ではありません。それはほとんど無駄な副産物だ"
-        },
-        {
-          "title": "it might be too early to say this but the next generation of startups may not need large engineering teams\n3 people orchestrating AI agents can potentially deliver the same output as a team of 30\nJan Senderek (@jans)\nTwo weeks ago we launched Roma 2.0.\nSince then, the feedback hasn't stopped. Which is fantastic!\nBut three of us couldn't keep up.\nSo we built a loop using our agents and Roma. Our agents do the work. We make the calls.\nWhen a user asked for Granola in the morning, it was live the same day.\nVideo\n— https://x.com/jans/status/2125620087818473610",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125618997962104832/img/-9G-R7Axlvr2wn_F.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125626117788942383",
-          "domain": "x.com",
-          "published": "2026-11-26T01:22:13+09:00",
-          "published_label": "2026/11/26(木) 01:22",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "これを言うのは時期尚早かもしれませんが、次世代のスタートアップには大規模なエンジニアリング チームは必要ないかもしれません。\nAI エージェントを 3 人でオーケストレーションすると、30 人のチームと同じ成果を提供できる可能性があります。\nヤン・センデレク (@jans)\n2 週間前、私たちは Roma 2.0 をリリースしました。\nそれ以来、フィードバックは止まりません。素晴らしいですね！\nしかし、私たち3人は追いつくことができませんでした。\nそこで私たちはエージェントとローマを使ってループを構築しました。弊社のエージェントが作業を行います。電話をかけるのは私たちです。\nユーザーが朝にグラノーラをリクエストしたところ、その日のうちにグラノーラが提供されました。\nビデオ\n— https://x.com/jans/status/2125620087818473610"
-        },
-        {
-          "title": "EXTRAORDINARY mathematical progress\nopenai models have now made breakthroughs across 16 of the world's 100 most famous mathematical problems including 4 claimed solutions\nanthropic has claimed to solve 3\ndeepmind has surprisingly only made partial progress on 3 problems",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HX-e9lHbQAA2UB_.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125607943827775894",
-          "domain": "x.com",
-          "published": "2026-11-26T00:10:00+09:00",
-          "published_label": "2026/11/26(木) 00:10",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "驚異的な数学的進歩\nopenai モデルは現在、世界で最も有名な数学問題 100 件のうち 4 件の解決策を含む 16 件にわたって画期的な進歩を遂げています。\nanthropic は 3 を解決すると主張しています\ndeepmind は驚くべきことに 3 つの問題に関して部分的な進歩しかしていません"
         }
       ],
       "elapsed": 0.5
@@ -1501,7 +1501,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Grok Bot の使用は、通常のチャットでは 11%、ルーチンでは最大 50% 最適化されました。\nこの方法です💪👀\nサム・ソコリン (@SamSokolin)\nチームはここ数週間料理を作り続けてきました。プランの使用量がさらに 11% 増加し、ルーチンの使用量が最大 50% 増加していることがわかります。\n単純で反復的なタスクの推論リクエストを削除するためにルーチン ハーネスを最適化した方法について、近日中に共有できることを楽しみにしています。\n— https://x.com/SamSokolin/status/2126027973568466949"
         },
         {
@@ -1520,7 +1520,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "文書化されました 🗞️"
         },
         {
@@ -1539,7 +1539,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Anthropic は、ユーザーが UI 内でドキュメント、スプレッドシート、スライドを直接閲覧できるようにするために、Claude の Google ドライブ ファイル管理をテストしています。\n興味深いことに、同様の機能が ChatGPT Spaces にすでに存在しています。\n最終的には誰も AI スーパーアプリから離れる必要がなくなるでしょう。彼らはすべてを消費しようとしています。 AI ラボが Grub、Gojack、Rappi などを買収するのはいつになるでしょうか?"
         },
         {
@@ -1558,7 +1558,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "NOUS RESEARCH 🔥: エルメス デスクトップ アプリは来週、エルメス エージェントに焦点を当てた大幅な再設計が行われる予定です。\nまた、Bot Marketplace も近々登場し、ユーザーが自分のエージェントを他のユーザーと共有し、既製のテンプレートから新しいボットを起動できるようになります。\n次は何でしょうか？ 👀\nh/t エルメス リリースウォッチ"
         },
         {
@@ -1756,7 +1756,7 @@
           "title_ja": "数学的証明のチェックに特化したプログラム「リーン」は、17 件すべての正しさを確認した。\n証明、論文、コードは GitHub で見つけることができます。\n> 紙:\n> 証拠:"
         }
       ],
-      "elapsed": 2.2
+      "elapsed": 2.7
     }
   ]
 }

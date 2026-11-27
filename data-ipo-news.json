@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T08:49:18+09:00",
-  "generated_at_label": "2026/11/27 08:49 JST",
+  "generated_at": "2026-11-27T17:16:36+09:00",
+  "generated_at_label": "2026/11/27 17:16 JST",
   "title": "IPO新規承認銘柄 ニュース監視",
   "total": 90,
   "sources": [
@@ -28,7 +28,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ＦＯＬＩＯホールディングス (677A) : 株価/予想・目標株価 [FOLIO Holdings]",
@@ -44,7 +44,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)ＦＯＬＩＯホールディングス【677A】：業績・財務・キャッシュフロー[通期・四半期]・アナリスト予想",
@@ -60,7 +60,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "(株)ＦＯＬＩＯホールディングス【677A】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
@@ -76,7 +76,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "FOLIOの東証上場承認、SBIは一部売出し後も支配権維持へ",
@@ -92,10 +92,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "ipon_17",
@@ -107,6 +107,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%22%20-%22SmartNews%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "ＩＰＯ＝ブックこう読む：スマートニュース(ウエルスアドバイザー)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSVpFQ2dlTV9wSURmQTM1SEZ4dEl6MzVSRHAySVN2QTZTWmViYW1kdkFfOWZuVkgxRTlqdURtR1BxTEk4UTBlSXp4VzdTVjZqWGVzNTdJVXY0QkRTd3ZwWEhSOTVlTTFPOGdXNlFmbVdTdjEyXzU5anhPS0lQdnJWa1ZaM2JaNUE?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-27T16:02:10+09:00",
+          "published_label": "2026/11/27(金) 16:02",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "スマートニュースの地図アプリ「Wanderland」、Android版を提供開始 台湾全域にも対応拡大",
           "summary": "",
@@ -153,7 +169,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "スマートニュース12月上場 時価総額430億円、評価額ピークの8割減",
@@ -169,26 +185,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "和製ユニコーンのスマートニュース、金利高とAIで失速 企業価値8割減",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvTnFzTVlzcGZpWDdCek9EbW12WHdrWjN5ckhBM3U2X1BqbUc1enR0ZHR4UF95d3VzbE1yZVdjVnllX1lpWV9zd1ZZeW1jNVRjVDZCZG5aREZWcXhIVFZXMXpNMmE3YXp3UWgtQg?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-12T17:00:00+09:00",
-          "published_label": "2026/11/12(木) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.3
     },
     {
       "id": "ipon_16",
@@ -262,7 +262,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "「NOTA（ノタ）」のIPOスケジュールから幹事証券会社、注目度、銘柄分析、他のセカンドハウスの企画・開発企業との比較や予想などのIPO情報を解説！",
@@ -278,7 +278,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.4
@@ -294,6 +294,70 @@
       "count": 5,
       "items": [
         {
+          "title": "TOKIUM上場会見、中堅・大手企業中心に経理AIエージェントを2,300社以上が導入 ストック売上は9割を超える",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5sYmpHaUU3cHNobHdVLUV3S0xXRWQzTFloS1N4ZmRETXNrV3FrWnpjeTQ1OHJHdDhKNGk0ZkJIemtyVlBZY1ltTw?oc=5",
+          "domain": "s.minkabu.jp",
+          "published": "2026-11-27T16:00:01+09:00",
+          "published_label": "2026/11/27(金) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "芙蓉総合リース---TOKIUMと資本業務提携、次世代型BPOの共同開発を加速",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRVFQbWFBM2RIbTVLTnlzM2xWT1c2UmJUb3VtVlpBeGlTWk5IR1RMUUE4U3FxX3NUZWFOYi1jbGVNdmNvLUNqS3pmZlBuRV9jX0dWY2xRUl84N0VVeWUtbHd2Vy1LdkhoTFBwb3Z3MWtoQUllUm9oY1JQUk5QYWJSbE1aZVRVS1nSAYwBQVVfeXFMUDdTRVhXdm9QcWFGVWR6TUFrVmY2Rm9melBiTU1ZdDZTWi1jU09zY0JoTkFremYxM2ZPTng3VDNLMzl6ZVJVRUdtaG1wN2VZZG5LbHJ4bVJFeXZacUc4YjRYamhYY202UFliUF8yN283UVJZb2ZHbmZiTTZwX3hiRXpfTmhDc1VpemVPRDE?oc=5",
+          "domain": "topics.smt.docomo.ne.jp",
+          "published": "2026-11-27T14:11:00+09:00",
+          "published_label": "2026/11/27(金) 14:11",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "株式会社TOKIUM（トキウム） IPO（新規上場）承認",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQR0NFc3oxZ3VPWGViT0MybHUwdU5IWkhIVnpzU002WlZMejFJbF93UVNZODV6N0d6V1U0Yi1tOVJ3bFhvY2xBZmVWSmhkZnMxVm9ySk13NmFhZWZiZzVyeDNiTUJFbzNnSzRfeEtDWXlBSkZQalBmd3ViQl9wd1RvSFllVkNDbS1reU1LTGswQ0dJdVpBN1dpVWhweFdmLXNRUDk4aVFqLTJENE9tZUVBRDB5Vi16UVVGRlcwNFZQQm9lTlFvSzJNOXZEdEsteWJ5V19udFA4bm1hSGpH?oc=5",
+          "domain": "ipo.funaisoken.co.jp",
+          "published": "2026-11-27T09:57:59+09:00",
+          "published_label": "2026/11/27(金) 09:57",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "(株)ＴＯＫＩＵＭ【664A】：企業情報（決算時期・代表者名・大株主情報・IR動画など）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE95d3liMVB6Tno5Yk1SMXBDRUVVckFhdzQ2TXdDNzVYclUyeklES3dlV1Y2NV9nRWJNYlNEQlF3a2V0dFU0dUl3b0lVdGNNWjJpVy1PLXFaWnBSN1BjWk04SE51R09YZmxMbld4dTZ2TG00Y0hw?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-27T08:54:02+09:00",
+          "published_label": "2026/11/27(金) 08:54",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "上場会見：TOKIUM、経理プロセスを分解",
           "summary": "",
           "images": [],
@@ -308,73 +372,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "【動画】TOKIUMの黒﨑賢一代表に聞く",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5walYxaTAxRG5iSUNId3d3QVNqT1FDUDVublA5Z2RzM2x4Zkw2Z2tSaVpsTzJiY2hNNzFuSVp0UzViVDI2cWluSG9pWFYzV1B3RHNia2h2dw?oc=5",
-          "domain": "shikiho.toyokeizai.net",
-          "published": "2026-11-26T17:30:00+09:00",
-          "published_label": "2026/11/26(木) 17:30",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "IPO社長会見 TOKIUM 経理AIエージェントで解きを生む 「未来へつながる時」を生む、経理AIエージェント事業",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPbTVKMlF3U2p4cWlFZ01IUU1qTUxtNEg1X3JnM3FJTWRlczhiQ2VGdkZucThZRWRvTG9vWG1UT0phTnVOYjNRWHhkQngtOHhIbG1UYkR0VW9BOUpCaTdoNm9vbXNVY0lSR1FaYlMzY2pTdlJEMkZIdVk5MF9BMm9KV3p5TmVpQTJnNmtDbW54VzE3SmctN1NZeGw3eTB5SXlxcjdEYXdHd3kwS0JDTVB3Z3R5c1M1VFAyOWFBYlQ0N1VjZVp5RHJ6cFNjN0duTUs2NHJLWUotVFhDS0dPN25sdjdqMFJPMjVObVBuV3FhTWROQlpaWWxPVWZDa3dpNnU5SDJCYzlWZmUxTmJWRTl2alpnb1BIaFhTa194OU1SbGY2bU9zWElSeXZiOTdKYnVJa2JNaWxHMjc4OTgwZDUwY3k3YUJpYmh3eVE?oc=5",
-          "domain": "nsjournal.jp",
-          "published": "2026-11-26T17:28:10+09:00",
-          "published_label": "2026/11/26(木) 17:28",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "「ロイヤルホスト」を展開するロイヤルホールディングス、TOKIUM契約管理を導入",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BeFk4MGdDUGVWLXBtSXBYN09rODAxYmpWQm9ycm1uMXFMY0FyRjVncFN0a3hqbFZRWVJVQUUxRnFRbnBzNzhtOWNqU3pjQzlFYjgtZU1hQVJuMnJhWG96RFhhZDJNNEdpdUE?oc=5",
-          "domain": "prtimes.jp",
-          "published": "2026-11-26T11:00:02+09:00",
-          "published_label": "2026/11/26(木) 11:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "黒﨑 賢一と株式会社96が株式会社TOKIUM＜664A＞株式の大量保有報告書を提出",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSzNGdDBjZVpKVDI5QWZPal82dnhhUEtVcTdWeXFoTjN6YWg4alZXempETFQ0czNjb2Vwak8zMW5HdXZpUW9XVDFjMVQwQ3lSTm5KNU03YVFxQm9MYnFPN3VacEplRmpzT09lZ3cwTnUyT0UydkpDY015YVE3V09jSVdNS1PSAYoBQVVfeXFMT1R6MENCemMxR0QxeGdZQlRiZlRWSGV1QTdpY3dfZTRRcS1XbU1yQTBKLWtwSll6dDA0ejhfeEdzOXdJU0pzNk9yU2x0NnRpdi1qWHVka1N2YTJuNUdUV1NnWkpEUWE1eDhocmk3NXdHaEdHQXBiNGR5cW9pc2tIV21vTUVRd3RjTkhB?oc=5",
-          "domain": "topics.smt.docomo.ne.jp",
-          "published": "2026-11-26T10:04:00+09:00",
-          "published_label": "2026/11/26(木) 10:04",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.1
+      "elapsed": 0.2
     },
     {
       "id": "ipon_14",
@@ -386,6 +386,38 @@
       "via": "https://news.google.com/rss/search?q=%22RECEPTIONIST%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "ＲＥＣＥＰＴＩＯＮＩＳＴ[660A]：関西オフィスを開設し、関西圏での営業・導入後支援体制を強化 2026年11月27日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeGFtVlNWT1NGVHF0Q2pkNjVkUTFpeGE4Ulh4T1Q5RmxfM29KTVVYY0NkSmRydnk0czUtandvcG5jb1RuWDU1OGJNUWpzOGJXZ2lxeThJTFNMclUzZmxSaEQxSW5wVFBvQ2Z6WjlwZUlFRVF1RlBXaHIxT1NwSzhaOUNVc296SURzNzBEOWJXTDBPMVdXU2NONHM4ZUg2T3lKRHdHaktxMXZ0b2p1a1BxLVBQaWZ4ZnU1bkF2SE5TbXN4NGZHa2NHRno5TDE?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-27T16:30:00+09:00",
+          "published_label": "2026/11/27(金) 16:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "ＲＥＣＥＰＴＩＯＮＩＳＴ[660A]：2026年10月期決算説明会開催のお知らせ 2026年11月27日(適時開示) ：日経会社情報DIGITAL",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xbW5OZlFCaVBBVHJnQnAwXzg4UEh5T1lHeDhZeG5ZZHNnVlJNZ21RSmNURjlGUWstdlg4bkF3RTJhek55WFd0MWNDaF9jeGZaTlNmR1prUzMyWmxGaWhBOGJvUXZIYi0zcmc?oc=5",
+          "domain": "nikkei.com",
+          "published": "2026-11-27T16:30:00+09:00",
+          "published_label": "2026/11/27(金) 16:30",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "上場会見：RECEPTIONIST、ツール連携で低解約率、AIは取り込む",
           "summary": "",
@@ -416,7 +448,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "株式会社RECEPTIONIST、「RECEPTIONIST DAY 2027」を2027年2月18日に開催",
@@ -432,42 +464,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "新規上場会社紹介レポート：660A RECEPTIONIST",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5aSThPQWdlQnd5WGZCS0NyMUVxNXc0VkhSQjlLSW5SeWZfYzdYVVdaYmtTOVRNU21QbWt1dDlVYW5zMGhrTGFxMm84TXJueE1wRGNSX1hLUQ?oc=5",
-          "domain": "shikiho.toyokeizai.net",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "CVCファンド投資先の株式会社RECEPTIONISTが東証グロース市場に新規上場",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HaDBjOGFfOC1mRV80RjVWVXc2TUVmTWlpeElmSnNhVmk1ZWhzUUtlY2otc05WeDJwcFBXNEM0YnJlcTBDbnZOeFpzcUVQNEUtdUpBSkdKZkFTRDdOd1otaEVSdUtaYjk5a3Nj?oc=5",
-          "domain": "jiji.com",
-          "published": "2026-11-13T17:00:00+09:00",
-          "published_label": "2026/11/13(金) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.4
+      "elapsed": 0.5
     },
     {
       "id": "ipon_13",
@@ -493,6 +493,22 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "ｅｓｔｉｅについて、Vertex Growth Fund Ⅱ Pte. Ltd.は保有割合が5％を超えたと報告 [大量保有報告書]",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LWTFzVmlDOTRlLWROd0lDZkpOS3Z5TldWMzV3azJkbGlRTnZwb29la0UzSll4NGx5R1RmZGVPcFNoSXZtWHI2Y0JnVVBFS3FNWWlKTTg1SHZTcUp2Yk95Ng?oc=5",
+          "domain": "kabutan.jp",
+          "published": "2026-11-09T17:00:00+09:00",
+          "published_label": "2026/11/9(月) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
           "is_new": true
         },
         {
@@ -501,6 +517,22 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02dDc4ODNySC1XcFY3aEFmLVo2djVtakVhR1RiX0pjT0I0UFd3RmlNVFZXb21aNmsxck04Y0U1SklIcjFBZFhGNDU0eDJUeUFVbDllTFlBVkI1c0RzRzdxbTBXeFdXQ0dwb2dTWg?oc=5",
           "domain": "nikkei.com",
+          "published": "2026-11-06T17:00:00+09:00",
+          "published_label": "2026/11/6(金) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": false
+        },
+        {
+          "title": "ＩＰＯ＝ｅｓｔｉｅがウリ気配スタート、差し引き６５万株程度の売り注文(ウエルスアドバイザー)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRzBqQkczRFBDU3R6YUwyMDN3MWl0X05LTkZXOFlvQ0x6MVdjQklqbzhJU09abWxMMUlzaGZrVThQd25hTlBSdUxwZ0NLV1hRRHJxVXlvY25YcjdraEQtVkFCcFFzdEVCdmNlQnlJTFRfVlhhR0JfLW41S25uNlZYY250eHJBMTg?oc=5",
+          "domain": "finance.yahoo.co.jp",
           "published": "2026-11-06T17:00:00+09:00",
           "published_label": "2026/11/6(金) 17:00",
           "badge": "JP",
@@ -525,42 +557,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "商業用不動産データのestie、東証グロース上場へ——想定時価総額は約165.8億円",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YR28yZFU3NjZMMUFKM2RKMVdRQXludWFROEc2OEhSOENhTEk1Z3ZTVEc2eGw0RHlNVXA4c3Y1cmpXV09rN2IyaXhzcmJnelk4OVgtVjY2aXp6ZUoyUkc1ZXBtcnZ4MGVDX2c?oc=5",
-          "domain": "thebridge.jp",
-          "published": "2026-10-02T16:00:00+09:00",
-          "published_label": "2026/10/2(金) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "不動産データベースのestie、11月6日に東証グロースに上場",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjZXlNSy1vRDgycUpnc3lIMWgzLVNlTVcxRGVZTTdORi1XLVJTTHlzZjBvZEllTXhUYnVveW5DSFpsMVU5SHBsWkpfTW54aXZ0ejc5bWJVNjh5TXdxWVNLZ2M5Sjk1Tm9nVEhwOQ?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-10-01T16:00:00+09:00",
-          "published_label": "2026/10/1(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "ipon_12",
@@ -642,15 +642,15 @@
           "images": [],
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQb25tUUZJNlJPd2gtdWt5bTkxQ2JEWWRleV9kWVQ4V0tXSDNTcWRBemZDVFNZY1VvRjBzNnFOblR2aHE1X2w0VEVRNzVuSE43U2hzam15UlBqekJVemRzdDNtaWx0SkJiaWZLY1Bjc1lKRFhuaFNHU0h1YWcxel9hLTFCUEp2R0E?oc=5",
           "domain": "finance.yahoo.co.jp",
-          "published": "2026-11-13T15:34:44+09:00",
-          "published_label": "2026/11/13(金) 15:34",
+          "published": "2026-11-13T17:00:00+09:00",
+          "published_label": "2026/11/13(金) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -679,7 +679,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "生成AI・AIエージェントプラットフォームを提供するAllganize、「第7回 AI・人工知能 EXPO【秋】」に出展。幕張メッセにて本日から11月13日開催",
@@ -746,7 +746,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "ipon_10",
@@ -758,6 +758,22 @@
       "via": "https://news.google.com/rss/search?q=%22MabGenesis%22&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "五内川 拡史とフレデリック・シェーンがMabGenesis株式会社＜653A＞株式の変更報告書を提出（保有増加）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUTRESWZQN2pnbHBQT2xZQ1hpeVFpUW1wZVpHWndZcmZJVzlYX0htUEZQMDk0empRaUVhdms3ZG1QWUlpRGFyTnFaMFN0bjlyUzlOdG9EOUF0eDNpUE81LVVjaFFHcUg1dGlBMzRJbnRzMlVHaWxSeFc3OGVaaVBBenBZbnjSAYoBQVVfeXFMT0JFM1FBelhNZDhaSlVHeEJBUjJNZWlUa1NVdFpMVWl5cHBicHRyYjFKNGF2UU1WdThlOUhfMVpBUTlVaVBrUmR0ZTY0YnNSX3VQVUdxeGJpY3lIVUxmeG44aGV1ZkxXM2h2N2J6VjkyVHA5UGZGR200M1RySi1YU1AxdFlLTGVHX1R3?oc=5",
+          "domain": "topics.smt.docomo.ne.jp",
+          "published": "2026-11-27T16:13:54+09:00",
+          "published_label": "2026/11/27(金) 16:13",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "上場会見：MabGenesis、動物抗体薬のマイルストーンが続々",
           "summary": "",
@@ -807,39 +823,23 @@
           "is_new": false
         },
         {
-          "title": "MabGenesisが東証グロース市場に上場、複数パイプラインの開発で2030年の収益安定化を目指す",
+          "title": "新規上場会社紹介レポート：653A MabGenesis",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSYXNtSC1DaXpHYlhMb2pHYjZmNE9yaHVpbmRKanlLVFVfZS1XV0x5T0pzR3QxZGtCLXNpb2NKQU9CdU83bnlxN3hWd2hnWUoyWUF6UkE4QW9Fek1NV3dQQVNlUF9hZw?oc=5",
-          "domain": "bio.nikkeibp.co.jp",
-          "published": "2026-11-05T17:00:00+09:00",
-          "published_label": "2026/11/5(木) 17:00",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE11UlpWX3N0N0tsR1hSbU9ucEc1VDdJZXZtYkdyeUhwTzVCcWphMGd2VmRJX0RsYnpTelVZbXhuSWZlUEE4dDZ2NnNkMzRTZ0ZIcVF1d3FZbw?oc=5",
+          "domain": "shikiho.toyokeizai.net",
+          "published": "2026-11-06T17:00:00+09:00",
+          "published_label": "2026/11/6(金) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "【IPO】MabGenesis＜653A＞----売り気配、本日東証グロース市場に新規上場",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DSlFjSXRRUHJyVmptTEJCUk51TE5HX09EMDNxdmtXaElfd1lNSjlUOHV0X1RtTFlsS1lmV1ZWdUp2QnlIdEJlTlVSUy1TYWZ4Z2Q0al9lcDQ0cldXYUYwUQ?oc=5",
-          "domain": "kabutan.jp",
-          "published": "2026-11-02T17:00:00+09:00",
-          "published_label": "2026/11/2(月) 17:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
+          "is_new": true
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.5
     },
     {
       "id": "ipon_09",
@@ -884,20 +884,20 @@
           "is_new": false
         },
         {
-          "title": "トグルホールディングス[652A]：2026年9月期通期 決算説明資料 2026年11月13日(適時開示) ：日経会社情報DIGITAL",
+          "title": "IPO社長会見 トグルHD 流動していない、潜在的な開発用地を掘り起こし",
           "summary": "",
           "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VZ1NSeGRQYkZFVFlDcXprbFNBVHJ1Rk1WNVZUQmw2NWtyQmxxYWZDZkFEYjRyUm5NcW10dWVhaEJsUjN6Y1U4R3FGdEk0YjVGd0dIcGpwdGI0UkxlMXFOQ2MtNmJ4OU4zQWc?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-11-13T15:30:00+09:00",
-          "published_label": "2026/11/13(金) 15:30",
+          "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNRzhPWXU4UV8wZDBDeV9YeEkteTVCZWtPTTNzOU9rZ1hnM2lCRWRyYklGVmIwNGlfbWJUR3RhTjBGTmdvLTE3emdfaC0ybTdrNlNuUUhfVklSaUlLZlRzbnVkdzU0YUJRdHB5VGhnT2JzaVpCdVlDN0RnYVBuMktCWDdRajVlTURXRzFEZkJvQ2RjT215Wmg4dVlHRVdPMFlFZm1Ba2hmaUdvb0Fqb2RPU0ZsRWUtekpkNXRBTXAxd0cwTnR4UmI2ekhSX3pNZTJhMFVIWmJtY2lqSHRUT2lJLTV4Y3NKSmR4SmFXR3VhV21SR2czRzZYbXV3Z3o1UFF5RXFuYmI3NTFuT1hDZlVrTFNFdHRNM0l6VzVKbGpiaG9xVGNjd1FLQkxGaFlqQncxeE5IcXFva0tjd09iWVgxRTln?oc=5",
+          "domain": "nsjournal.jp",
+          "published": "2026-11-02T17:00:00+09:00",
+          "published_label": "2026/11/2(月) 17:00",
           "badge": "JP",
           "badge_class": "badge-news",
           "pinned": false,
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": false
+          "is_new": true
         },
         {
           "title": "トグルホールディングス上場会見、土地解析を推進し価値創出 テクノロジーと営業力で再開発を仕組み化",
@@ -944,6 +944,22 @@
       "via": "https://news.google.com/rss/search?q=%22%E3%82%A8%E3%83%96%E3%83%AA%E3%83%BC%22%20%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%20OR%20%22%E3%82%A8%E3%83%96%E3%83%AA%E3%83%BC%22%20%E3%83%87%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3%20OR%20%22%E3%82%A8%E3%83%96%E3%83%AA%E3%83%BC%22%20%E6%A0%AA%E4%BE%A1&hl=ja&gl=JP&ceid=JP:ja",
       "count": 5,
       "items": [
+        {
+          "title": "エブリーが上場来安値､第1四半期の減益を嫌気",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GUVZTUERkakNzM2JnRTQ0NFF5MHFZRFRrNFJYcENoQjQ4UXFCaGo0VmVjVEkzY1hyMkdjYkd3c1hPdDZ0NTJIR3Z3NGd2SndwNnJzQ3JuRQ?oc=5",
+          "domain": "shikiho.toyokeizai.net",
+          "published": "2026-11-10T17:00:00+09:00",
+          "published_label": "2026/11/10(火) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "エブリーやチャットプラがＳ高、直近ＩＰＯ銘柄への物色意欲が強まる",
           "summary": "",
@@ -993,22 +1009,6 @@
           "is_new": false
         },
         {
-          "title": "新規上場のエブリーは買い気配スタート",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5uNmxoQlliNG9OX2tlOERtbkxLZUQ3RFRVakloekhrd2pkT01Rc2p2cEgtd2F4MS1QQ1hLcG55RWZVTWN1YTlJVHFoWGtMVGZZTVJxNzd4OA?oc=5",
-          "domain": "shikiho.toyokeizai.net",
-          "published": "2026-08-04T16:00:00+09:00",
-          "published_label": "2026/8/4(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
           "title": "エブリー上場、吉田社長「データ基盤で生成AIより最適なレシピを提案」",
           "summary": "",
           "images": [],
@@ -1022,7 +1022,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
@@ -1051,7 +1051,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ティアフォーとミュンヘン工科大学、「Autoware」で大型路線バスの自動運転を支援",
@@ -1083,7 +1083,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ティアフォー、Autoware 2.0の開発を主導",
@@ -1099,7 +1099,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ティアフォーとミュンヘン工科大学、「NVIDIA Hyperion」と「Autoware」を活用した自動運転レベル4の実現を加速",
@@ -1115,10 +1115,10 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "ipon_06",
@@ -1145,6 +1145,22 @@
           "origin": "",
           "priority": 0,
           "is_new": false
+        },
+        {
+          "title": "アイ・グリッド---ストップ安、27年6月期第1四半期はGXソリューション事業の稼働施設が拡大も(フィスコ)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQngwNFJJUW1fRXAxMkhpd3NSazExR0kwV2Z1Vmk5T0diZjZzYW10N0U5YTRJS1Zpc1pmdWljTVB1ejNySkFpb0E0MjJQQXQzeVpQMm9tNDNsZHdYNUR3dXZmcmxYVjNxQ1hkYkxqWWZ5MnEyV0FQV3ZWNXk4bW53dl9EMmpvR1E?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-11-09T17:00:00+09:00",
+          "published_label": "2026/11/9(月) 17:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
         },
         {
           "title": "アイグリッド、7-9月期(1Q)経常は4.4億円で着地",
@@ -1193,22 +1209,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "アイ・グリッド・ソリューションズ[603A]：定款の一部変更について 2026年9月2日(適時開示) ：日経会社情報DIGITAL",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WNFc1Y2cxT0xpejZ5LW9GaFZobV9wLWNzS1RhWDZzbkpFaEh6RUtpSVdEamNSX1pfR09NQlJSbi0waHVuSUJKclhLX01OQTVueWtXS192NG1UQzVzdFZKbVVXeUpaRGdZR1E?oc=5",
-          "domain": "nikkei.com",
-          "published": "2026-09-02T16:00:00+09:00",
-          "published_label": "2026/9/2(水) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -1304,7 +1304,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.5
+      "elapsed": 0.3
     },
     {
       "id": "ipon_04",
@@ -1397,7 +1397,7 @@
           "is_new": false
         }
       ],
-      "elapsed": 0.3
+      "elapsed": 0.4
     },
     {
       "id": "ipon_03",
@@ -1423,7 +1423,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "ネイス（589A）のIPO初値予想と上場概要紹介",
@@ -1439,7 +1439,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "【決算速報】ネイス、今期経常は26％減益へ(株探ニュース)",
@@ -1458,6 +1458,22 @@
           "is_new": false
         },
         {
+          "title": "決算速報＞ネイス、２６年８月期決算は純利益５３．０％増の大幅増益(ウエルスアドバイザー)",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUG4tMF9ESm9oMDZ0M0lPTVdxclY4amNCalA1VGdDNnBHV1B0VWRyVVdXYlRSYVZCdUtnbTJZVXF3bFp4VkFWX3l1LVBHQ3Vady1NUm9KWnVZTm5wekc1a0dsODJGdUpaMlBEcTZZcE9GQVNWMU5nXzZwclg5OGt0emtOay1PU2s?oc=5",
+          "domain": "finance.yahoo.co.jp",
+          "published": "2026-10-15T16:00:00+09:00",
+          "published_label": "2026/10/15(木) 16:00",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "ネイス（株） 代表取締役社長 南友介氏｜インタビュー from 紙面 by 商業施設新聞",
           "summary": "",
           "images": [],
@@ -1472,22 +1488,6 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "ネイス：子どもの未来を育む体操教室を展開、積極的な出店で過去5年で5倍超の成長実現",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwSUFGRXJzUDI4TVgxQ2pPb1Q0WDYtMmdHZ095Sjk5bmw3WUFiNWhvQkMxMjdwLThCMjJFUm41ZDd4andNTm9FVWl1OHVqYU1PdzZvbElQb1lwX1pyTWNXOA?oc=5",
-          "domain": "kabutan.jp",
-          "published": "2026-07-28T16:00:00+09:00",
-          "published_label": "2026/7/28(火) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
         }
       ],
       "elapsed": 0.4
@@ -1548,7 +1548,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "東証グロース（前引け）＝売り買い拮抗、ＬｉＮＫＸがS高",
@@ -1596,6 +1596,22 @@
       "count": 5,
       "items": [
         {
+          "title": "日本交通ホールディングス株式会社と川鍋一朗がGO株式会社＜581A＞株式の変更報告書を提出（保有減少）",
+          "summary": "",
+          "images": [],
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMEYxeVNDS0dBZWFUWGhod3JremtoYmNlZ3FjVUhrLTN0X2RnOTFfQ3J6UXRMZ2Q4Q2RGalA1b3h1b19jVld0b2drTGdJekg2OV9fWkl3bjhKV3BXRHlPb2JqZDkyb0hCMXlCSnpOMV91ZE9JUDdWT0lEdmRvTGw5YzlhcVrSAYoBQVVfeXFMUHRnZ1pIR1U0dXpxR05rNDdiVFZjTW9UdkJtcDRTMDNBc3NaSFZsVzg0eXdkZ2E2UEFuLXV0cDBTaUlUZU9qVW1CbHZIcHVCR3BtdGtZWEdXdlN0WWdjSTNZb19ZbmhsU0dpemZreFgtbk9pbWZIcWN5d0FYbFdOdEE5Mm4zdVdaNEpR?oc=5",
+          "domain": "topics.smt.docomo.ne.jp",
+          "published": "2026-11-27T09:32:00+09:00",
+          "published_label": "2026/11/27(金) 09:32",
+          "badge": "JP",
+          "badge_class": "badge-news",
+          "pinned": false,
+          "type": "google_news",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
           "title": "タクシーアプリ「GO」、成田空港で大型ワゴン指定可能に 最大5名",
           "summary": "",
           "images": [],
@@ -1641,7 +1657,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "GO、Waymo、日本交通 自動運転タクシー商用化の実現に向けて合意 2027年中に国内初の完全無人タクシー運行を目指す",
@@ -1657,23 +1673,7 @@
           "type": "google_news",
           "origin": "",
           "priority": 0,
-          "is_new": true
-        },
-        {
-          "title": "No.1タクシーアプリ『GO』の新TVCM 「GOする！寝坊」篇、「GOする！娘の誕生日」篇が公開",
-          "summary": "",
-          "images": [],
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12RW1QX24zWmFBUUhJd2Y5WFpfQXNBYWpadU9ndThEYXhob1Vyd09YbVZBRlFuODFJSXVoZlR1ZXdJSktVVnFBQ250bnktSnNmVVZBczRWT2xsNjZGbVJ6SUEwc0J4ejZZM3Fr?oc=5",
-          "domain": "goinc.jp",
-          "published": "2026-09-03T16:00:00+09:00",
-          "published_label": "2026/9/3(木) 16:00",
-          "badge": "JP",
-          "badge_class": "badge-news",
-          "pinned": false,
-          "type": "google_news",
-          "origin": "",
-          "priority": 0,
-          "is_new": true
+          "is_new": false
         }
       ],
       "elapsed": 0.3
