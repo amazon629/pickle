@@ -4,7 +4,7 @@
     "nav_label": "💰 買取",
     "items_per_source": 15,
     "translate": true,
-    "translate_max_per_run": 120,
+    "translate_max_per_run": 160,
     "nitter_base": "https://nitter.cf",
     "nitter_mirrors": [
       "https://nitter.cf",
@@ -47,6 +47,76 @@
       "type": "x",
       "name": "買取エノキング",
       "handle": "TTA179",
+      "enabled": true
+    },
+    {
+      "id": "x_kaitori_checker",
+      "type": "x",
+      "name": "買取チェッカー（59店舗横断）",
+      "handle": "kaitori_checker",
+      "enabled": true
+    },
+    {
+      "id": "x_avereel03",
+      "type": "x",
+      "name": "アヴィリール秋葉原店",
+      "handle": "avereel03",
+      "enabled": true
+    },
+    {
+      "id": "x_avereel04",
+      "type": "x",
+      "name": "アヴィリール郵送買取",
+      "handle": "avereel04",
+      "enabled": true
+    },
+    {
+      "id": "x_torecabank",
+      "type": "x",
+      "name": "トレカバンク（秋葉原）",
+      "handle": "torecabank",
+      "enabled": true
+    },
+    {
+      "id": "x_torecabank_yuso",
+      "type": "x",
+      "name": "トレカバンク＠郵送買取",
+      "handle": "torecabank_yuso",
+      "enabled": true
+    },
+    {
+      "id": "x_cardshop_gotcha",
+      "type": "x",
+      "name": "カードショップ GOTCHA!",
+      "handle": "cardshop_gotcha",
+      "enabled": true
+    },
+    {
+      "id": "x_koduckya",
+      "type": "x",
+      "name": "KoDuckYa 大須店",
+      "handle": "KoDuckYa",
+      "enabled": true
+    },
+    {
+      "id": "x_runto666",
+      "type": "x",
+      "name": "Runto（ラントゥ）買取",
+      "handle": "Runto666",
+      "enabled": true
+    },
+    {
+      "id": "x_snkrdunk_akiba",
+      "type": "x",
+      "name": "スニダントレカ秋葉原店",
+      "handle": "snkrdunk_akiba",
+      "enabled": true
+    },
+    {
+      "id": "x_motosancard",
+      "type": "x",
+      "name": "トレカ モトーショップ 池袋",
+      "handle": "motosancard",
       "enabled": true
     }
   ]
