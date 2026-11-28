@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-28T10:56:18+09:00",
-  "generated_at_label": "2026/11/28 10:56 JST",
+  "generated_at": "2026-11-28T19:17:25+09:00",
+  "generated_at_label": "2026/11/28 19:17 JST",
   "title": "AI新着 監視ボード",
   "total": 90,
   "sources": [
@@ -49,7 +49,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "同じサーバーは、Seedance を含む OpenRouter 上の任意のモデルで画像とビデオを生成することもできます。\n始めましょう:"
         },
         {
@@ -68,7 +68,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "ヒント: Neon を使用すると、Claude、ChatGPT、またはその他の MCP クライアント内の AI メッセージを「デスロップ」できます。\n1. クライアントに追加し、推奨されるログイン手順に従って OpenRouter MCP を追加します。\n2. Neon を使用して最後のメッセージをデロップするようにモデルに指示します。"
         },
         {
@@ -87,7 +87,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "データの完全な内訳はこちらでご覧いただけます。"
         },
         {
@@ -170,7 +170,7 @@
           "title": "The Auto Router is the most transparent model router out there.\nAnd you can track its state on the Pareto frontier live:\nA lot of cool things coming soon for enterprise - contact us or DM me if you want early access!\nOpenRouter (@OpenRouter)\nInkling 2 Small has passed DeepSeek Flash in serving new work through the Auto Router\nYou can see how the blend changes over time, live:\n— https://x.com/OpenRouter/status/2125630871806033981",
           "summary": "",
           "images": [
-            "https://pbs.twimg.com/card_img/2123970876043591680/QykF4s22?format=png&name=800x419",
+            "https://pbs.twimg.com/card_img/2126507614666125312/T_S07ux3?format=png&name=800x419",
             "https://pbs.twimg.com/media/HX_ApMia4AEhCMa.jpg?name=small"
           ],
           "link": "https://x.com/alexatallah/status/2125632514471641158",
@@ -183,7 +183,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "Auto Router は、最も透過的なモデルのルーターです。\nパレート辺境の状態をライブで追跡できます。\nエンタープライズ向けに多くの優れた機能が間もなく登場します - 早期アクセスをご希望の場合は、お問い合わせいただくか、DM でお知らせください。\nオープンルーター (@OpenRouter)\nInkling 2 Small は、Auto Router を介した新しい作品の提供において DeepSeek Flash を上回りました\n時間の経過とともにブレンドがどのように変化するかをライブで確認できます。\n— https://x.com/OpenRouter/status/2125630871806033981"
         },
         {
@@ -240,7 +240,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "API リファレンス:\n入力と出力のロギング:"
         },
         {
@@ -257,7 +257,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "このエンドポイントを使用する他の方法:\n- 生のプロバイダーエラーと失敗したすべての試行によるデバッグ失敗\n- 実際のプロンプトと出荷された完了から評価セットを構築する\n- 悪い答えに至ったモデルの推論を読む\n- アプリが送信した正確なメッセージを検査する"
         },
         {
@@ -297,7 +297,7 @@
           "title_ja": "注: Xai は代わりに Xiaomi と言うべきです 🙏"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_opencode",
@@ -325,7 +325,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "OpenCode Rune の初期バージョンを試せるようになりました\nこれは、ネイティブ アプリ フレームワークで構築されたデスクトップ アプリの次のバージョンです\n電子がないので非常にきびきびしています"
         },
         {
@@ -584,7 +584,7 @@
           "title_ja": "GLM 5.3 と DeepSeek V4.1 Flash が OpenCode で 60% オフになりました"
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.6
     },
     {
       "id": "x_aimirai46487",
@@ -596,6 +596,135 @@
       "via": "https://nitter.cf/AIMIRAI46487/rss",
       "count": 15,
       "items": [
+        {
+          "title": "■ディープリサーチスキル",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2126018633809735680/etEuFDPt?format=jpg&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126607181588181112",
+          "domain": "x.com",
+          "published": "2026-11-28T18:20:37+09:00",
+          "published_label": "2026/11/28(土) 18:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■引用元\nPhilipp Schmid (@_philschmid)\nWe built an experimental deep research skill for Gemini 4 Neon, turning coding agents into researchers 🚀\nWhat the skill focuses on:\n1. Scope: simple direct, broad ones in 3-5 angles\n2. Subagents: parallel search or browser, 8-12 step cap\n3. Sources: primary filings and PDFs, no search snippets\n4. Speed: cancel stalled workers, max 1 follow-up\n5. Report: 2-sentence summary, inline links, conflicts noted\nIt's 16 lines, preferred over 90% of the time vs no skill in hundreds of blind evals.\nVideo\n— https://x.com/_philschmid/status/2126312943520243885",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2126312597288787968/img/ihvxPeJshtilwAPV.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126607134016377199",
+          "domain": "x.com",
+          "published": "2026-11-28T18:20:25+09:00",
+          "published_label": "2026/11/28(土) 18:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\nフィリップ・シュミット (@_philschmid)\n私たちは Gemini 4 Neon 用に実験的なディープリサーチスキルを構築し、コーディングエージェントを研究者に変えました 🚀\nスキルが焦点を当てているもの:\n1. 範囲: 単純な直接、3 ～ 5 つの角度の幅広いもの\n2. サブエージェント: 並行検索またはブラウザ、8 ～ 12 ステップ キャップ\n3. 出典: 一次資料と PDF、検索スニペットなし\n4. スピード: 停止したワーカーをキャンセル、最大 1 件のフォローアップ\n5. レポート: 2 文の要約、インラインリンク、矛盾を指摘\nこれは 16 行で、何百ものブラインド評価ではスキルが無い場合と比較して 90% 以上の確率で優先されます。\nビデオ\n— https://x.com/_philschmid/status/2126312943520243885"
+        },
+        {
+          "title": "Googleの開発者が、AIモデル「Gemini 4 Neon」向けに、コーディングAIエージェントをリサーチエージェントに変える、実験的なディープリサーチスキル(Agent Skills)を公開しました。\nGoogle AntigravityなどのAIエージェントで使えます。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2126312597288787968/img/ihvxPeJshtilwAPV.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126607100780642646",
+          "domain": "x.com",
+          "published": "2026-11-28T18:20:17+09:00",
+          "published_label": "2026/11/28(土) 18:20",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "■Artificial Analysis Decision Index",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/card_img/2124851147470991360/0-Dn9LNF?format=png&name=800x419"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126606837416137102",
+          "domain": "x.com",
+          "published": "2026-11-28T18:19:15+09:00",
+          "published_label": "2026/11/28(土) 18:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■人工分析判断指標"
+        },
+        {
+          "title": "■引用元\nArtificial Analysis (@ArtificialAnlys)\nd1.3-ultra ties Bison 31B for #1 on the Artificial Analysis Decision Index v2.1 at 60% lower Cost per 1M Tasks\n@liquidai has released d1.3-ultra, updating their d1.2-ultra flagship decision model.\nKey results:\n➤ d1.3-ultra scores 76 on the Artificial Analysis Decision Index. d1.3-ultra achieves the same score as Bison 31B and is a 1-point improvement over d1.2-ultra\n➤ d1.3-ultra is the leading decision model on AA-Paperclip. d1.3-ultra scores 77 on AA-Paperclip, our first-party private benchmark that assesses decision-making and extraction capabilities. It improves by 1 point over d1.2-ultra\n➤ d1.3-ultra is the equal top decision model on AA-Omniscience-Decision. d1.3-ultra scores 66 on AA-Omniscience-Decision, equal with Gemini Decision 1, and a 5-point improvement over d1.2-ultra\n➤ d1.3-ultra sits on the Capability vs. Cost Pareto frontier. d1.3-ultra costs $133 per one million Artificial Analysis Decision Index tasks and sits on the Capability vs. Cost Pareto frontier\nAdditional model details:\n➤ Context window: 64K tokens\n➤ Pricing: $0.042 per 1M input tokens, with no charge for output\n➤ Multimodality: Text and image input\n➤ Providers: Available through Liquid AI’s first-party API\n— https://x.com/ArtificialAnlys/status/2126382006506332456",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYJoexvWgAAZ6gL.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126606791807316312",
+          "domain": "x.com",
+          "published": "2026-11-28T18:19:04+09:00",
+          "published_label": "2026/11/28(土) 18:19",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "■引用元\n人工分析 (@ArtificialAnlys)\nd1.3-ultra は、100 万タスクあたりのコストを 60% 削減し、人工分析意思決定インデックス v2.1 で Bison 31B と並び 1 位を獲得\n@liquidai は、d1.2-ultra フラッグシップ決定モデルをアップデートして d1.3-ultra をリリースしました。\n主な結果:\n➤ d1.3-ultra は、Artificial Analysis Decision Index で 76 のスコアを獲得しました。 d1.3-ultra は Bison 31B と同じスコアを達成し、d1.2-ultra より 1 ポイント向上しています。\n➤ d1.3-ultra は、AA-Paperclip の主要な意思決定モデルです。 d1.3-ultra は、意思決定と抽出の能力を評価するファーストパーティのプライベート ベンチマークである AA-Paperclip で 77 のスコアを獲得しました。 d1.2-ultraよりも1ポイント向上\n➤ d1.3-ultra は、AA-Omniscience-Decision における同等のトップ意思決定モデルです。 d1.3-ultra は、AA-Omniscience-Decision で 66 点を獲得し、Gemini Decision 1 と同等で、d1.2-ultra より 5 ポイント向上しました。\n➤ d1.3-ultra は、能力とコストのパレート境界線上にあります。 d1.3-ultra のコストは、人工分析意思決定インデックス タスク 100 万件あたり 133 ドルであり、能力とコストのパレート フロンティアに位置します。\n追加のモデルの詳細:\n➤ コンテキストウィンドウ: 64K トークン\n➤ 価格: 100 万の入力トークンあたり 0.042 ドル、出力には料金はかかりません\n➤ マルチモダリティ: テキストと画像の入力\n➤ プロバイダー: Liquid AI のファーストパーティ API を通じて利用可能\n— https://x.com/ArtificialAnlys/status/2126382006506332456"
+        },
+        {
+          "title": "AIモデルの比較・分析サイトArtificial Analysisの、意思決定AIモデル系の能力を測るランキングで、Liquid AIの意思決定AIモデル「d1.3-ultra」が1位にランクインしました。",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYM5fPcbIAAVEvs.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126606737675624652",
+          "domain": "x.com",
+          "published": "2026-11-28T18:18:51+09:00",
+          "published_label": "2026/11/28(土) 18:18",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Liquid AIは、意思決定に特化したAIモデル「d1.3-ultra」を公開しました(Liquid consoleで提供)。\n判断能力やルールの遵守、回答の信頼性が向上したほか、画像や音声からの情報抽出、選択肢の順位付け、音声内の発言区間の特定などにも対応しました。\nLiquid AI (@liquidai)\nToday we release d1.3-ultra, our most powerful decision model, recursively improved from d1-ultra. #1 on @ArtificialAnlys decision index 2.1. (76.4)\nwhat improved compared to d1.2-ultra:\n> Better decisions overall: improvements across our internal suite of 100+ benchmarks\n> Decisions that follow a policy, a guide, or a contract.\n> Knowledge and hard questions refusal when unsure.\n> trained on a much wider range of inputs: real scanned documents, receipts, tables and long reports, dates in local formats, more languages, and planted instructions in the input treated as data.\nNew capabilities:\n> Rankings: order a set of options,\nor return the top k.\n> Extraction: extended to numbers/dates read straight from pictures and audio (a receipt total, a date heard in a clip).\n> Spans: extended to time spans in audio - where in a clip something is said, with start and end times.\navailable today in Liquid console:\nOpenrouter: soon\nVercel: soon\nHappy thanksgiving! 🍁\n— https://x.com/liquidai/status/2126374995399975380",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYJmjDLXoAAQY5Q.jpg?name=small"
+          ],
+          "link": "https://x.com/AIMIRAI46487/status/2126606332317098367",
+          "domain": "x.com",
+          "published": "2026-11-28T18:17:14+09:00",
+          "published_label": "2026/11/28(土) 18:17",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
         {
           "title": "■引用元\nTripo (@tripoai)\nIntroducing Tripo Studio MCP.\nBring Tripo's 3D creation capabilities directly into your favorite AI agents, including @ChatGPT, @ManusAI, and local agents like @cursor_ai and @claudeai. Let your agents handle the 3D workflow while you focus on the creative direction.\n-> Generate and refine 3D models via chat\n-> Connect in one click via OAuth (no API keys needed)\n-> Chain with tools like Blender MCP to automate scene creation\n-> Run tasks using your existing Studio credits (Free accounts included)\nExperience agent-powered 3D workflow. Link below.\nVideo\n— https://x.com/tripoai/status/2126330210714862005",
           "summary": "",
@@ -612,7 +741,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nトリポ (@tripoai)\nTripo Studio MCP のご紹介です。\nTripo の 3D 作成機能を、@ChatGPT、@ManusAI などのお気に入りの AI エージェント、および @cursor_ai や @claudeai などのローカル エージェントに直接導入します。エージェントに 3D ワークフローを処理させ、あなたはクリエイティブな方向性に集中します。\n-> チャット経由で 3D モデルを生成および調整\n-> OAuth 経由でワンクリックで接続 (API キーは必要ありません)\n-> Blender MCP などのツールと連携してシーン作成を自動化\n-> 既存の Studio クレジットを使用してタスクを実行します (無料アカウントを含む)\nエージェントによる 3D ワークフローを体験してください。以下のリンク。\nビデオ\n— https://x.com/tripoai/status/2126330210714862005"
         },
         {
@@ -631,7 +760,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Google AntigravityのCLI版のver1.5.13から1.5.18までの6回のアップデートで、ローカルターミナル、リモートコントロール、ACP(外部環境との連携機能)関連の機能に対し、多くの改善と不具合修正が行われました。\nErin Walsh (@erintwalsh_)\nCheck out the latest Antigravity CLI v1.5.13 - v1.5.18 releases!\n— https://x.com/erintwalsh_/status/2126411148584968475",
@@ -649,7 +778,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "■引用元\nGoogle Antigravity (@antigravity)\nInline GitHub PR pills are now live in Google Antigravity. Paste a PR link into chat to reference it inline, hover to inspect status, branches, and comments, and view every linked PR in the Overview menu.\nVideo\n— https://x.com/antigravity/status/2126360403022069908",
@@ -667,7 +796,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "■引用元\nGoogle反重力 (@antigravity)\nインライン GitHub PR 丸薬が Google Antigravity で利用できるようになりました。 PR リンクをチャットに貼り付けてインラインで参照し、マウスを移動してステータス、ブランチ、コメントを調べ、リンクされているすべての PR を [概要] メニューで表示します。\nビデオ\n— https://x.com/antigravity/status/2126360403022069908"
         },
         {
@@ -686,7 +815,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "NVIDIAを巡るスキャンダルの中心人物であるアリス・フアン氏と関係する上海のデータセンターに、中国企業2社が同社の先端AI半導体「ブラックウェル」を搭載した高性能システム「GB300 NVL72」を設置していたことが明らかになりました。",
@@ -704,7 +833,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "OpenAIは、営業秘密の盗用や、AIデバイス開発に向けた部品メーカーとの協業を妨害されたとして、アップルを提訴しました。\nアップルもすでに、技術獲得を目的とした従業員の引き抜きを巡ってOpenAIを提訴しています。",
@@ -722,7 +851,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "AIプラットフォームの「WaveSpeedAI」で、リップシンク動画の作成に特化したPruna AIの動画生成AIモデル「P-Video-2-Pro-Lipsync」が使えるようになりました。\nWaveSpeedAI (@wavespeed_ai)\nP-Video-2-Pro-Lipsync from @PrunaAI is NOW LIVE on WaveSpeed!\nPowered by MiniMax H3, sync existing videos with new audio while preserving the original scene and visual quality.\n• ~14s to process a 5-second video\n• Up to 1080p resolution\n• Supports videos up to 60s\nNew voice. Same visuals. Natural lip-sync.\n— https://x.com/wavespeed_ai/status/2126223887226773852",
@@ -741,137 +870,9 @@
           "origin": "",
           "priority": 0,
           "is_new": false
-        },
-        {
-          "title": "■引用元\nPruna AI (@PrunaAI)\nIntroducing P-Video-2-Pro-Lipsync, based on @MiniMax_AI H3! 🎬\nNew audio. Same video. Seamless lip-sync.\nSynchronise lip movements in existing videos with new audio while preserving the original scene and visual quality. Perfect for dubbing, localisation, and voice-overs.\nHere's what you need to know:\n- 𝗣𝗿𝗶𝗰𝗶𝗻𝗴: $0.025/s at any resolution\n- 𝗦𝗽𝗲𝗲𝗱: ~14 seconds for a 5-second video\n- 𝗜𝗻𝗽𝘂𝘁𝘀: An existing video and a new audio track\n- 𝗥𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻: Up to 1080p, preserving the original aspect ratio\n- 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻: Supports videos up to 60 seconds\nWe're offering 50% off for the first two weeks!\nAvailable via our inference partners Available via our inference partners @runware, @WiroAI, @wavespeed_ai, @eachlabs, Sociaro, @TellersAI, @Segmind_ai, and @invideoOfficial.\n📚 Model docs:\n🧩 Try the model through the API or Playground:\nVideo\n— https://x.com/PrunaAI/status/2125998082110140537",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/ext_tw_video_thumb/2125998027705888768/pu/img/TAOQ7HtwecrITiN5.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126267497951449117",
-          "domain": "x.com",
-          "published": "2026-11-27T19:50:50+09:00",
-          "published_label": "2026/11/27(金) 19:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nプルナAI (@PrunaAI)\n@MiniMax_AI H3 をベースにした P-Video-2-Pro-Lipsync を紹介します。 🎬\n新しいオーディオ。同じビデオです。シームレスなリップシンク。\n元のシーンと視覚的な品質を維持しながら、既存のビデオの唇の動きを新しいオーディオと同期させます。ダビング、ローカリゼーション、ナレーションに最適です。\n知っておくべきことは次のとおりです。\n- 𝗣𝗿𝗶𝗰𝗶𝗻𝗴: どの解像度でも $0.025/秒\n- 𝗦𝗽𝗲𝗲𝗱: 5 秒のビデオの場合約 14 秒\n- 𝗜𝗻𝗽𝘂𝘁𝘀: 既存のビデオと新しいオーディオ トラック\n- 𝗥𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻: 最大 1080p、元のアスペクト比を維持\n- 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻: 最大 60 秒のビデオをサポートします\n最初の 2 週間は 50% オフで提供されます。\n推論パートナー経由で利用可能 推論パートナー @runware、@WiroAI、@wavespeed_ai、@eachlabs、Sociaro、@TellersAI、@Segmind_ai、@invideoOfficial 経由で利用可能。\n📚 モデルドキュメント:\n🧩 API または Playground を通じてモデルを試してください:\nビデオ\n— https://x.com/PrunaAI/status/2125998082110140537"
-        },
-        {
-          "title": "Pruna AIは、MiniMaxの「MiniMax H3」をベースにして作られた、リップシンク動画生成AIモデル「P-Video-2-Pro-Lipsync」を公開しました(APIで提供)。\n既存の動画のシーンや映像品質を維持したまま、新しい音声に合わせて口の動きを自然に同期させることができます。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/ext_tw_video_thumb/2125998027705888768/pu/img/TAOQ7HtwecrITiN5.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126267442032975900",
-          "domain": "x.com",
-          "published": "2026-11-27T19:50:36+09:00",
-          "published_label": "2026/11/27(金) 19:50",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "インディ・アソシエイツは、生成AIを活用した案内ロボット「miniMORK AI」の販売を開始し、羽田空港第1ターミナルでAIコンシェルジュの実用化に向けた実証実験を開始しました。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2126191560295596032/D0W0Jj4D?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126267245651534062",
-          "domain": "x.com",
-          "published": "2026-11-27T19:49:50+09:00",
-          "published_label": "2026/11/27(金) 19:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "Sakana AIは、防衛分野のAI開発・運用を担う子会社を設立しました。\n社員を日本国籍の人に限定し、AIモデルを国内で運用することで機密情報の海外流出を防ぎ、防衛省からの受注獲得を目指します。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2126227877503086592/aMdserex?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126267203884593183",
-          "domain": "x.com",
-          "published": "2026-11-27T19:49:40+09:00",
-          "published_label": "2026/11/27(金) 19:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "米司法省は、AIで生成した音声を使って人気ライブ配信者「N3ON」になりすまし、暗号資産詐欺を働いた男に、47カ月の実刑判決が言い渡されたと発表しました。\n被害額は約26万ドル(約4100万円)に上ります。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2126219304722923520/rtqoji08?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126267155692027947",
-          "domain": "x.com",
-          "published": "2026-11-27T19:49:28+09:00",
-          "published_label": "2026/11/27(金) 19:49",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "■引用元\nMeshyAI (@MeshyAI)\nHigh detail and real-time performance used to be a trade-off. Meshy 7.5 changes that.\nOptimized models with ~50x fewer polygons that look nearly identical to the original.\nRolling out now 🚀 Play Meshy 7.5 Showcase in the comment 👇🏻\nVideo\n— https://x.com/MeshyAI/status/2126028221850542511",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125974511829008384/img/8W73R3DsqW1huXgY.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126155883243819017",
-          "domain": "x.com",
-          "published": "2026-11-27T12:27:19+09:00",
-          "published_label": "2026/11/27(金) 12:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "■引用元\nメッシィ (@MeshyAI)\nかつては、高精細さとリアルタイム パフォーマンスはトレードオフの関係にありました。 Meshy 7.5 はそれを変えます。\nポリゴン数が約 50 分の 1 で、オリジナルとほぼ同じに見える最適化されたモデル。\n現在展開中 🚀 コメントで Meshy 7.5 ショーケースをプレイしてください 👇🏻\nビデオ\n— https://x.com/MeshyAI/status/2126028221850542511"
-        },
-        {
-          "title": "MeshyAIが、ポリゴン数を約50分の1に削減しながら元のモデルとほぼ同じ見た目を維持できる、テキストや画像から3Dモデルを生成できるAIモデル「Meshy 7.5」の提供を順次開始しています(無料で試せます)。",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/amplify_video_thumb/2125974511829008384/img/8W73R3DsqW1huXgY.jpg?name=small"
-          ],
-          "link": "https://x.com/AIMIRAI46487/status/2126155851165819199",
-          "domain": "x.com",
-          "published": "2026-11-27T12:27:11+09:00",
-          "published_label": "2026/11/27(金) 12:27",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
         }
       ],
-      "elapsed": 0.7
+      "elapsed": 0.8
     },
     {
       "id": "x_kimmonismus",
@@ -903,6 +904,82 @@
           "title_ja": "@satyanadella に直接会うのはいつもとても嬉しいです。\nAI時代を推進する現代の最も重要な人物の1人。"
         },
         {
+          "title": "Source",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/kimmonismus/status/2126609198800642264",
+          "domain": "x.com",
+          "published": "2026-11-28T18:28:38+09:00",
+          "published_label": "2026/11/28(土) 18:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true
+        },
+        {
+          "title": "Leopold Aschenbrenner says he spends half his day with \"finance-folk who think AI is over\" and the other half with SF people who think the models will do their jobs within a year.\nHis new Situational Awareness letter makes clear which side he's on. These are the important numbers:\n- AI is now speeding up AI research. Algorithmic progress is running 2-3x faster, overall progress 1.5-2x. At Anthropic, agents log 19 hours of work for every hour a human researcher works, and code shipped per engineer is up more than 45x since 2024.\n-METR estimates Anthropic is improving its models about twice as fast as before, ~80% of that thanks to AI. And remember, Anthropic itself says in its S-1 update it may soon hit its own RSP threshold (>2x acceleration from AI).\n- The forecast for 2027: a median of 3 years of AI progress in a single year! That's another GPT-4 to Opus 5.5 jump on top of today's models. From 2028 comes \"physical RSI\": AI designs the chips (OpenAI's Jalapeño went to tapeout in 9 months) and robots build the data centers.\n- Next paradigm: \"virtual departments\". Hundreds to thousands of agents running for weeks under manager agents. OpenAI's 10,000-agent swarm on Navier-Stokes was an early version.\nThe curves are bending upward. RSI has started.",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYM7oOkWEAA6vzu.jpg?name=small",
+            "https://pbs.twimg.com/media/HYM7prEXEAA8KkJ.jpg?name=small",
+            "https://pbs.twimg.com/media/HYM7qxGXkAEivD0.jpg?name=small",
+            "https://pbs.twimg.com/media/HYM7rs8X0AAQj1-.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126609077388063056",
+          "domain": "x.com",
+          "published": "2026-11-28T18:28:09+09:00",
+          "published_label": "2026/11/28(土) 18:28",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "レオポルド・アッシェンブレナー氏は、一日の半分を「AIは終わったと考えている金融関係者」と過ごし、残りの半分はモデルが1年以内に仕事を終えると考えているSF関係者と過ごしているという。\n彼の新しい状況認識書簡は、彼がどちらの側にいるのかを明らかにしている。これらは重要な数字です:\n- AIは現在、AI研究を加速しています。アルゴリズムの進歩は 2 ～ 3 倍高速に実行され、全体的な進歩は 1.5 ～ 2 倍になっています。 Anthropic では、人間の研究者が 1 時間働くごとにエージェントが 19 時間の作業を記録しており、エンジニア 1 人あたりに出荷されるコードは 2024 年以降 45 倍以上に増加しています。\n-METR は、Anthropic が以前の約 2 倍の速さでモデルを改善しており、その最大 80% は AI のおかげであると推定しています。そして、Anthropic 自体が S-1 アップデートで、間もなく独自の RSP しきい値 (AI による加速が 2 倍を超える) に達する可能性があると述べていることを思い出してください。\n- 2027 年の予測: 1 年間で AI が進歩するのは中央値 3 年!これは、GPT-4 から Opus 5.5 への、今日のモデルの頂点へのさらなるジャンプです。 2028 年からは「物理 RS​​I」が登場します。AI がチップを設計し (OpenAI の Jalapeño は 9 か月でテープアウトされました)、ロボットがデータセンターを構築します。\n- 次のパラダイム: 「仮想部門」。数百から数千のエージェントがマネージャー エージェントの下で数週間実行されます。 Navier-Stokes 上の OpenAI の 10,000 エージェント群は初期バージョンでした。\n曲線が上に曲がっています。 RSI始めました。"
+        },
+        {
+          "title": "Talking about singularity and intelligence explosion:",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/amplify_video_thumb/2126299676647522304/img/XIQA11pVrrt4Tlvv.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126594381008585057",
+          "domain": "x.com",
+          "published": "2026-11-28T17:29:45+09:00",
+          "published_label": "2026/11/28(土) 17:29",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "特異点と知能爆発について語る:"
+        },
+        {
+          "title": "Google selling distillation as a business model was definitely not on my bingo card for 2026.\nclem 🤗 (@ClementDelangue)\nDistillation is good and healthy in AI. It's one of the few things limiting extreme concentration of power, capabilities and wealth (and very similar to how AI companies got successful distilling the web). Great to see @Google promoting it!\n— https://x.com/ClementDelangue/status/2126322165364719677",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYI2fdUXIAAs4Kn.jpg?name=small"
+          ],
+          "link": "https://x.com/kimmonismus/status/2126577079109992663",
+          "domain": "x.com",
+          "published": "2026-11-28T16:21:00+09:00",
+          "published_label": "2026/11/28(土) 16:21",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "ビジネスモデルとして蒸留を販売するGoogleは、私の2026年のビンゴカードには間違いなく載っていませんでした。\nクレム 🤗 (@ClementDelangue)\nAIでは蒸留は良好で健康的です。これは、権力、能力、富の極端な集中を制限する数少ないものの 1 つです (そして、AI 企業がウェブの蒸留に成功した方法と非常によく似ています)。 @Google がそれを宣伝しているのを見るのは素晴らしいことです。\n— https://x.com/ClementDelangue/status/2126322165364719677"
+        },
+        {
           "title": "Funny how now almost everyone seems to agree on the fact that super intelligence has already been achieved within frontier labs and its just too dangerous to be publicly released. we just skipped AGI and went straight to superintelligence.",
           "summary": "",
           "images": [
@@ -918,7 +995,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "面白いことに、現在ではほとんどすべての人が、フロンティア研究所内で超知能がすでに達成されており、それを公に公開するには危険すぎるという事実に同意しているようです。私たちはAGIをスキップして、すぐに超知能に行きました。"
         },
         {
@@ -935,7 +1012,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "特異点はここにあります。私たちはまさに特異点に突入しました。\nこれは、その重要性をいくら強調してもしすぎることのない声明です。しかし、コミュニティ外の人々は言うまでもなく、私たち自身のコミュニティ内の多くの人でさえ、その規模を完全には理解していないかもしれません。\nAI がますます強力な AI を加速度的に開発していくとき、私たちは「知能の爆発」と言います。この特異点は、それを超えるとさらなる発展を予測することが事実上不可能になる転換点を示します。\n私たちは皆、過去数週間に何が起こったかを目撃してきました。特に数学においては、毎週、あるいはほぼ毎日のように画期的な出来事が起こっています。これらの出来事のどれか 1 つが、1 年全体、あるいはおそらく 10 年を定義するのに十分なほど重要だったでしょう。これらは最初の兆候、初期の指標であり、知性の爆発が何を伴うのかを味わうだけです。\nすべての予測を不可能にする特異な出来事であるシンギュラリティが、今まさに到来しました。この時点から、展開される出来事は私たち全員に畏敬の念を抱かせるでしょう。私たちの途方もない夢を超え、驚きに満ちた世界が私たちを待っています。\n何もそのままには残りません。科学はかつてないスピードで進歩します。私たちの生活すべてを変える新しい素材が発見されるでしょう。生と死といった根本的な概念が改めて問われることになるだろう。しかし、これは今後のことに関することわざの氷山の一角にすぎず、このプロセスは 2027 年までに本格的に定着すると予想されています。\n生きててなんて素晴らしい時間なんだろう"
         },
         {
@@ -955,7 +1032,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "フロンティアラボの 1 つが、暗号解析における大きな進歩を間もなく発表する予定です。\n「ほら、私は研究所が理論的な暗号解析における大きなブレークスルーを間もなくリリースするという具体的な情報を持っています。しかし、そのブレークスルーは、現在導入されている暗号システムに差し迫った危険をもたらすものではありません。」\nアンドリュー・カラン (@AndrewCurran_)\n新しいアーロンソン:\n— https://x.com/AndrewCurran_/status/2126419031582449674"
         },
         {
@@ -972,7 +1049,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "私は10月のIMFでの演説でそれが始まったと思うと述べた"
         },
         {
@@ -992,7 +1069,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "聖なるその公式、Anthropic 共同創設者のジャック・クラーク: 「すでに始まっている特異点。」もう否定はありません。\n私たちは正式に特異点にいます。\n彼はそれを新しい物語のインスピレーションの一つとして挙げています。その中で、AI は科学的発見を非常に速く行うため、人間は機械が発見したことを理解するためだけに、まったく新しい分野である機械解釈学が必要になります。\n今年の AI の数学論文については、私たちがそれを理解するのに、機械が論文を書くのにかかる時間よりも数十倍、数百倍の時間がかかるかもしれない、と彼は言います。\nそれを作っている人たちが、私たちはすでにそうなっていると言ったら、私はそれを真剣に受け止めます。\nジャック・クラーク (@jackclarkSF)\n— https://x.com/jackclarkSF/status/2126380579512057911"
         },
         {
@@ -1089,77 +1166,6 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "AI エージェントは、ドイツで最も価値のある企業のハッキングを支援しただけかもしれません。\nSAPはDER SPIEGELへのサイバー攻撃を確認した。内部関係者らによると、攻撃者らは従業員のログイントークンを盗み、それを使ってGitHub上のSAPソースコードを変更、コピーし、おそらくエージェントAIを使用したという。内部コードネームは「Project Granite」。\nこれは、現在毎日流通しているハッキング ニュースの始まりにすぎないと思います。"
-        },
-        {
-          "title": "",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/card_img/2125720008093282304/hE9gcrGA?format=jpg&name=800x419"
-          ],
-          "link": "https://x.com/kimmonismus/status/2126201571767668970",
-          "domain": "x.com",
-          "published": "2026-11-27T15:28:52+09:00",
-          "published_label": "2026/11/27(金) 15:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false
-        },
-        {
-          "title": "The Pentagon was ready to pull out a wartime law to get Jensen back:\nHegseth and his deputy Steve Feinberg discussed using the Defense Production Act from 1950 as leverage to push Nvidia's board into reinstating Huang as CEO, the Washington Post reports, citing three people familiar with the talks.\nThe threat: NVIDIA could have been forced to shift more of its production to military projects.",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HYHI-2AW4AAYhgY.jpg?name=small"
-          ],
-          "link": "https://x.com/kimmonismus/status/2126201496282747346",
-          "domain": "x.com",
-          "published": "2026-11-27T15:28:34+09:00",
-          "published_label": "2026/11/27(金) 15:28",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "国防総省はジェンセンを取り戻すために戦時法を制定する準備ができていた。\nヘグセス氏と彼の代理であるスティーブ・フェインバーグ氏は、エヌビディア取締役会にフアン氏のCEO復帰を促すためのテコとして1950年に制定された国防生産法を利用することについて協議したと、ワシントン・ポスト紙が協議に詳しい3人の関係者の話として報じた。\n脅威: NVIDIA は自社の生産をさらに軍事プロジェクトにシフトせざるを得なくなった可能性があります。"
-        },
-        {
-          "title": "Elon is donating one share of spaceX to all kids in America every year on top of the shares are is already donating.\nIt makes me think that this might be his way of letting everyone share in a universal high income.\nElon Musk (@elonmusk)\nI will be donating another share of SpaceX to all kids in America every year\n— https://x.com/elonmusk/status/2126064597039997254",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2126072614800019491",
-          "domain": "x.com",
-          "published": "2026-11-27T06:56:26+09:00",
-          "published_label": "2026/11/27(金) 06:56",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "イーロンは、すでに寄付しているスペースXの株式に加えて、毎年アメリカのすべての子供たちにスペースXの株式を1株寄付しています。\nこれが、誰もが普遍的な高収入を共有できるようにするための彼の方法なのかもしれないと考えさせられます。\nイーロン・マスク (@elonmusk)\n私は毎年、SpaceX のもう 1 株をアメリカのすべての子供たちに寄付するつもりです\n— https://x.com/elonmusk/status/2126064597039997254"
-        },
-        {
-          "title": "im still blushing. But man that interview was fun. We were laughing so much",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/kimmonismus/status/2126038607219843423",
-          "domain": "x.com",
-          "published": "2026-11-27T04:41:18+09:00",
-          "published_label": "2026/11/27(金) 04:41",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "まだ赤面してます。でも、あのインタビューは楽しかったです。私たちはとても笑いました"
         }
       ],
       "elapsed": 0.7
@@ -1194,6 +1200,25 @@
           "title_ja": "200k トークン後の「1m コンテキスト ウィンドウ」モデル"
         },
         {
+          "title": "gemini 4 neon is a phenomenal release\nand it's now just 1 point behind fable 5.2 on ECI and equal to astra 6.2 while costing only 3/8 of their per-token price -- of course google was relatively slow for a while but their pace over the last two months has been absolutely amazing",
+          "summary": "",
+          "images": [
+            "https://pbs.twimg.com/media/HYMhAmsbEAAD-0f.jpg?name=small"
+          ],
+          "link": "https://x.com/haider1/status/2126579751523401991",
+          "domain": "x.com",
+          "published": "2026-11-28T16:31:37+09:00",
+          "published_label": "2026/11/28(土) 16:31",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": true,
+          "title_ja": "gemini 4 neon は驚異的なリリースです\nそして現在、ECI では fable 5.2 にわずか 1 ポイント差で、astra 6.2 と同等ですが、トークンあたりの価格はわずか 3/8 です -- もちろん、Google はしばらくの間比較的遅かったですが、過去 2 か月のペースは本当に驚くべきものでした"
+        },
+        {
           "title": "i keep hearing this nonsense about openai falling behind or being done but they consistently lead in non-benchmaxxed capability\nfor example google recently introduced a new benchmark (HFE) and oai beat google's own models while also leading on the latest closed benchmarks for knowledge work and coding",
           "summary": "",
           "images": [
@@ -1209,7 +1234,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "openai が遅れている、または完了しているというナンセンスな話をよく聞きますが、openai は非ベンチマックス機能で一貫してリードしています\nたとえば、Google は最近新しいベンチマーク (HFE) を導入し、OAI は Google 独自のモデルを上回ったと同時に、ナレッジ ワークとコーディングに関する最新のクローズド ベンチマークでもリードしました。"
         },
         {
@@ -1226,7 +1251,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "AI否定者は悲しい集団だ\nこの時点で彼らは、この分野についてまったく知識がないのにAIの能力が決して達成できないという話をでっち上げるのではなく、自分たちの「原則」からAIを嫌っていることを素直に認めるべきである。"
         },
         {
@@ -1245,7 +1270,7 @@
           "type": "x",
           "origin": "",
           "priority": 0,
-          "is_new": true,
+          "is_new": false,
           "title_ja": "anthropic と openai は両方ともすでに内部に AGI か、少なくともそれに近いものを持っています\nエンタープライズや信頼できるパートナーに移行する前に、あと 1 つか 2 つのフロンティア モデルを一般公開しても驚かないでしょう\nその場合、内部モデルは一般公開されているものよりも数世代先を行くものとなり、機能は段階的にリリースされるか、より小さなモデルに抽出されることになります。"
         },
         {
@@ -1428,29 +1453,9 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "ヤン・ルカン氏は、人間はAIスタッフのチームのボスとなり、AIは私たちの知性、創造性、効率性を高めるだろうと語る\n人々は、自分より賢い存在と協力することに脅威を感じるべきではありません。実際、それが彼らに起こり得る最善のことだからです。"
-        },
-        {
-          "title": "even someone as brilliant as Terence Tao has underestimated the exponential pace of AI in mathematics\nand honestly so did many of us\ni'm afraid much of his work could become obsolete but the long-term gains from the AI revolution will far outweigh the short-term pain\nHaider. (@haider1)\nTerence Tao says once tech companies generate AI-powered math proofs, there are no good options\nIt's like a power plant creating toxic nuclear waste: you can sit on it, release it, or pay someone to treat it. The best option is not to produce it at all\nSolving math problems isn't their main goal. It's almost a waste byproduct\nVideo\n— https://x.com/haider1/status/2125650731567067169",
-          "summary": "",
-          "images": [
-            "https://pbs.twimg.com/media/HYDsztLaYAA0WxB.jpg?name=small",
-            "https://pbs.twimg.com/amplify_video_thumb/2125647464581812224/img/PbWmSm4vtYRl-RMi.jpg?name=small"
-          ],
-          "link": "https://x.com/haider1/status/2125959409071427962",
-          "domain": "x.com",
-          "published": "2026-11-26T23:26:36+09:00",
-          "published_label": "2026/11/26(木) 23:26",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": false,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "テレンス・タオのような優秀な人でさえ、数学における AI の指数関数的なペースを過小評価しています\nそして正直に言うと、私たちの多くもそうでした\n彼の作品の多くが時代遅れになるのではないかと心配していますが、AI 革命による長期的な利益は短期的な痛みをはるかに上回るでしょう。\nハイダー。 (@haider1)\nテレンス・タオ氏は、ハイテク企業がAIを活用した数学証明を生成したら、良い選択肢はなくなると語る\nそれは有毒な核廃棄物を生成する発電所のようなものです。その上に座ることも、放出することも、誰かにお金を払って処理してもらうこともできます。最善の選択肢は、まったく生成しないことです\n数学の問題を解くことが彼らの主な目的ではありません。それはほとんど無駄な副産物だ\nビデオ\n— https://x.com/haider1/status/2125650731567067169"
         }
       ],
-      "elapsed": 0.8
+      "elapsed": 0.7
     },
     {
       "id": "x_testingcatalog",
@@ -1462,23 +1467,6 @@
       "via": "https://nitter.cf/testingcatalog/rss",
       "count": 15,
       "items": [
-        {
-          "title": "DAILY AI BRIEF 🗞 — Nov 27\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini quota on Antigravity was reset for all users for Thanksgiving.\n- The Gemini app now has an option to Search Google (via SaiNemani1).\nOPENAI 🔥:\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\nNVIDIA $149.30 (−3.91%) 🔥:\n- Nvidia told Dell and Supermicro to pause AI server shipments to Malaysia, Singapore, Thailand and Indonesia under new US export rules, per Financial Times.\nSPACEXSI $127.44 (+1.30%) 🔥:\n- Grok Bot 1.3.0 is rolling out with smarter Slack bots, restock alerts, mobile buy now and automatic Teams setup.\n- Grok Bot plans now give 11% more usage, and up to 50% more for routines.\n- Grok Bot is working on \"Select anything, anywhere\" to attach any on-screen area to quick chat (via nima_owji).\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Anthropic is testing Google Drive file management so Claude users can browse Docs, Sheets and Slides inside its UI.\nZHIPU AI $45.74 (+22.25%) 🔥:\n- GLM-5.5 missed its planned November release and could slip to Q1 2027 or later, per Reuters.\nMOONSHOT 🔥:\n- Moonshot is giving free Kimi API credits to scientific research teams worldwide.\n- The gap before Kimi K4 could stretch to a year or more if Moonshot loses overseas compute, per Reuters.\nCLOUDFLARE $283.30 (−1.39%) 🔥:\n- Search for Agents beta lets any site offer a search endpoint that returns Markdown to AI agents.\nHERMES 🔥:\n- Hermes Desktop is getting a major redesign early next week, focused on Hermes Agents.\n- A Bot Marketplace is coming, letting users share agents and start new bots from pre-made templates.\nPERPLEXITY 🔥:\n- Perplexity Teammates adoption among Max users is doubling every ten days.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 26\nOPENAI 🔥:\n- OpenAI is testing Private Inference with a small group of business customers.\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\n- Shared Chat and Work usage limits will reach Plus, Pro and Business subscribers more broadly in December.\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Claude Duet's research preview expands beyond the US to India, Brazil, Indonesia and Japan.\n- Claude Opus 5.6 is now in A/B tests on Claude Code.\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini Live adds 60+ new voices with local accents across six countries.\n- Guided Vision in Gemini Live is now available on iOS.\n- Antigravity raised Neon's cache hit rate by another 4.5%, fitting 28% more tasks into quota.\nSPACEXSI $127.44 (+1.30%) 🔥:\n- SpaceX plans to invest $50B+ in its Colossus 3 supercompute site in Cochise County, Arizona.\n- Grok Bot is getting a Quick Chat window with a hotkey to message your main Bot from any app.\n- SpaceXSI and X are testing free Grok Bot access in XChat, even without Premium (via blankspeaker).\nPERPLEXITY 🔥:\n- Time Machine lets the Search and Context APIs show the web as it was on any past date.\nALIBABA $86.26 (+1.65%) 🔥:\n- Qwen-Audio-3.1 gains new multilingual abilities, especially for Chinese dialects.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2125886489112219967",
-          "summary": "",
-          "images": [],
-          "link": "https://x.com/testingcatalog/status/2126238130684535288",
-          "domain": "x.com",
-          "published": "2026-11-27T17:54:08+09:00",
-          "published_label": "2026/11/27(金) 17:54",
-          "badge": "X",
-          "badge_class": "badge-x",
-          "pinned": true,
-          "type": "x",
-          "origin": "",
-          "priority": 0,
-          "is_new": false,
-          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 27 日\nGoogle $273.10 (−2.13%) 🔥:\n- Antigravity の Gemini 割り当ては、感謝祭のためにすべてのユーザーに対してリセットされました。\n- Gemini アプリには、Google を検索するオプションが追加されました (SaiNemani1 経由)。\nオープンナイ🔥:\n- GPT-6.2 の課金バグが修正されたため、お詫びとしてバンク リセットが行われ、Astra は 40% 早く、Sol は 25% 早く制限に達するようになりました。\nNVIDIA $149.30 (−3.91%) 🔥:\n- Financial Times 紙によると、NVIDIA は Dell と Supermicro に対し、米国の新しい輸出規則に基づいてマレーシア、シンガポール、タイ、インドネシアへの AI サーバーの出荷を一時停止するよう指示しました。\nSPACEXSI $127.44 (+1.30%) 🔥:\n- Grok Bot 1.3.0 は、よりスマートな Slack ボット、再入荷アラート、モバイル今すぐ購入、Teams の自動セットアップを備えて展開されています。\n- Grok Bot プランでは使用量が 11% 増加し、ルーチンについては最大 50% 増加します。\n- Grok Bot は、画面上の任意の領域をクイック チャットに接続するための「どこでも何でも選択」に取り組んでいます (nima_owji 経由)。\nアントロピック $82.79 (+1.07%) 🔥:\n- Anthropic は、Claude ユーザーが UI 内でドキュメント、スプレッドシート、スライドを閲覧できるように、Google ドライブのファイル管理をテストしています。\nZHIPU AI $45.74 (+22.25%) 🔥:\n- ロイター通信によると、GLM-5.5は予定されていた11月のリリースに間に合わず、2027年第1四半期以降に延期される可能性がある。\nムーンショット🔥:\n- Moonshot は、世界中の科学研究チームに無料の Kim API クレジットを提供しています。\n- ロイター通信によると、Moonshot が海外のコンピューティング能力を失った場合、Kimi K4 までのギャップは 1 年以上に広がる可能性があります。\nクラウドフレア $283.30 (−1.39%) 🔥:\n- Search for Agents ベータ版では、AI エージェントに Markdown を返す検索エンドポイントをどのサイトでも提供できます。\nエルメス🔥:\n- Hermes デスクトップが大幅にリニューアルされました"
-        },
         {
           "title": "Read more 🗞️",
           "summary": "",
@@ -1572,6 +1560,23 @@
           "priority": 0,
           "is_new": false,
           "title_ja": "「Daily AI Brief」も火曜日から土曜日までメール形式で届きます。\n以下からオプトインしてください 👀"
+        },
+        {
+          "title": "DAILY AI BRIEF 🗞 — Nov 27\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini quota on Antigravity was reset for all users for Thanksgiving.\n- The Gemini app now has an option to Search Google (via SaiNemani1).\nOPENAI 🔥:\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\nNVIDIA $149.30 (−3.91%) 🔥:\n- Nvidia told Dell and Supermicro to pause AI server shipments to Malaysia, Singapore, Thailand and Indonesia under new US export rules, per Financial Times.\nSPACEXSI $127.44 (+1.30%) 🔥:\n- Grok Bot 1.3.0 is rolling out with smarter Slack bots, restock alerts, mobile buy now and automatic Teams setup.\n- Grok Bot plans now give 11% more usage, and up to 50% more for routines.\n- Grok Bot is working on \"Select anything, anywhere\" to attach any on-screen area to quick chat (via nima_owji).\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Anthropic is testing Google Drive file management so Claude users can browse Docs, Sheets and Slides inside its UI.\nZHIPU AI $45.74 (+22.25%) 🔥:\n- GLM-5.5 missed its planned November release and could slip to Q1 2027 or later, per Reuters.\nMOONSHOT 🔥:\n- Moonshot is giving free Kimi API credits to scientific research teams worldwide.\n- The gap before Kimi K4 could stretch to a year or more if Moonshot loses overseas compute, per Reuters.\nCLOUDFLARE $283.30 (−1.39%) 🔥:\n- Search for Agents beta lets any site offer a search endpoint that returns Markdown to AI agents.\nHERMES 🔥:\n- Hermes Desktop is getting a major redesign early next week, focused on Hermes Agents.\n- A Bot Marketplace is coming, letting users share agents and start new bots from pre-made templates.\nPERPLEXITY 🔥:\n- Perplexity Teammates adoption among Max users is doubling every ten days.\n🚨 AI News | TestingCatalog (@testingcatalog)\nDAILY AI BRIEF 🗞 — Nov 26\nOPENAI 🔥:\n- OpenAI is testing Private Inference with a small group of business customers.\n- A GPT-6.2 billing bug is fixed, so Astra now hits limits 40% faster and Sol 25% faster, with a banked reset as an apology.\n- Shared Chat and Work usage limits will reach Plus, Pro and Business subscribers more broadly in December.\nANTHROPIC $82.79 (+1.07%) 🔥:\n- Claude Duet's research preview expands beyond the US to India, Brazil, Indonesia and Japan.\n- Claude Opus 5.6 is now in A/B tests on Claude Code.\nGOOGLE $273.10 (−2.13%) 🔥:\n- Gemini Live adds 60+ new voices with local accents across six countries.\n- Guided Vision in Gemini Live is now available on iOS.\n- Antigravity raised Neon's cache hit rate by another 4.5%, fitting 28% more tasks into quota.\nSPACEXSI $127.44 (+1.30%) 🔥:\n- SpaceX plans to invest $50B+ in its Colossus 3 supercompute site in Cochise County, Arizona.\n- Grok Bot is getting a Quick Chat window with a hotkey to message your main Bot from any app.\n- SpaceXSI and X are testing free Grok Bot access in XChat, even without Premium (via blankspeaker).\nPERPLEXITY 🔥:\n- Time Machine lets the Search and Context APIs show the web as it was on any past date.\nALIBABA $86.26 (+1.65%) 🔥:\n- Qwen-Audio-3.1 gains new multilingual abilities, especially for Chinese dialects.\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n— https://x.com/testingcatalog/status/2125886489112219967",
+          "summary": "",
+          "images": [],
+          "link": "https://x.com/testingcatalog/status/2126238130684535288",
+          "domain": "x.com",
+          "published": "2026-11-27T17:54:08+09:00",
+          "published_label": "2026/11/27(金) 17:54",
+          "badge": "X",
+          "badge_class": "badge-x",
+          "pinned": false,
+          "type": "x",
+          "origin": "",
+          "priority": 0,
+          "is_new": false,
+          "title_ja": "毎日の AI ブリーフ 🗞 — 11 月 27 日\nGoogle $273.10 (−2.13%) 🔥:\n- Antigravity の Gemini 割り当ては、感謝祭のためにすべてのユーザーに対してリセットされました。\n- Gemini アプリには、Google を検索するオプションが追加されました (SaiNemani1 経由)。\nオープンナイ🔥:\n- GPT-6.2 の課金バグが修正されたため、お詫びとしてバンク リセットが行われ、Astra は 40% 早く、Sol は 25% 早く制限に達するようになりました。\nNVIDIA $149.30 (−3.91%) 🔥:\n- Financial Times 紙によると、NVIDIA は Dell と Supermicro に対し、米国の新しい輸出規則に基づいてマレーシア、シンガポール、タイ、インドネシアへの AI サーバーの出荷を一時停止するよう指示しました。\nSPACEXSI $127.44 (+1.30%) 🔥:\n- Grok Bot 1.3.0 は、よりスマートな Slack ボット、再入荷アラート、モバイル今すぐ購入、Teams の自動セットアップを備えて展開されています。\n- Grok Bot プランでは使用量が 11% 増加し、ルーチンについては最大 50% 増加します。\n- Grok Bot は、画面上の任意の領域をクイック チャットに接続するための「どこでも何でも選択」に取り組んでいます (nima_owji 経由)。\nアントロピック $82.79 (+1.07%) 🔥:\n- Anthropic は、Claude ユーザーが UI 内でドキュメント、スプレッドシート、スライドを閲覧できるように、Google ドライブのファイル管理をテストしています。\nZHIPU AI $45.74 (+22.25%) 🔥:\n- ロイター通信によると、GLM-5.5は予定されていた11月のリリースに間に合わず、2027年第1四半期以降に延期される可能性がある。\nムーンショット🔥:\n- Moonshot は、世界中の科学研究チームに無料の Kim API クレジットを提供しています。\n- ロイター通信によると、Moonshot が海外のコンピューティング能力を失った場合、Kimi K4 までのギャップは 1 年以上に広がる可能性があります。\nクラウドフレア $283.30 (−1.39%) 🔥:\n- Search for Agents ベータ版では、AI エージェントに Markdown を返す検索エンドポイントをどのサイトでも提供できます。\nエルメス🔥:\n- Hermes デスクトップが大幅にリニューアルされました"
         },
         {
           "title": "Grok Bot usage has been optimised by 11% for normal chats and up to 50% for Routines.\nThis is the way 💪👀\nSam Sokolin (@SamSokolin)\nThe team has been cooking over the last few weeks! You should now see an additional 11% more usage out of your plan, and up to 50% more usage for routines!\nExcited to share more soon on how we optimized our routine harness to remove inference requests for simple and repetitive tasks!\n— https://x.com/SamSokolin/status/2126027973568466949",
@@ -1747,7 +1752,7 @@
           "title_ja": "GOOGLE 🔥: Antigravity の Gemini 4 Neon のキャッシュ ヒット率がさらに 4.5% 上昇しました。\nこれはすべて、以前の Neon 使用量の改善に加えて、75% 近くの増加をもたらしました。\n全体として、使用量の最適化は、コンピューティング能力の向上と同じくらい重要です。\nあるいは、おそらくさらに良いでしょう 👀\nヴァルン・モハン (@_mohansolo)\nAntigravity の Neon のキャッシュ ヒット率をさらに 4.5% 増加させました。これは、割り当て内で 28% 多くのタスクを完了できることを意味します。\n過去 5 日間で、キャッシュとハーネスの改善により、サブスクリプションでの Neon の使用量が 75% 近く増加しました。\n— https://x.com/_mohansolo/status/2125641696377712968"
         }
       ],
-      "elapsed": 3.5
+      "elapsed": 3.4
     }
   ]
 }
